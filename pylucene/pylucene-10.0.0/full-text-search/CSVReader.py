@@ -36,8 +36,10 @@ class CSVReader:
                     'text': t,
                     'category': categoria
                 }
+                #print(f"Documento: {documento}")  
                 documenti.append(documento)
         return documenti
+
 
     # Rendiamo iterabile zeb senno piange
     def __iter__(self):

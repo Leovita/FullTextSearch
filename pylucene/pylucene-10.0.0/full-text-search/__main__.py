@@ -7,6 +7,11 @@ if __name__ == "__main__":
 
     search_engine = PyLuceneSearchEngine(index_dir=index_dir, csv_file=csv_file)
 
-    search_engine.index_documents()
+   # search_engine.index_documents()
 
-    print("Indicizzazione completata.")
+    #print("Indicizzazione completata.")
+
+    query_res = search_engine.search_documents("Politics")
+
+    for rs in query_res:
+        print(str(rs) + "\n\n\n")
