@@ -1,0 +1,134 @@
+# Dataset e file di dati
+*.csv
+dataset.csv
+data/
+datasets/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# PyLucene - File di build e cache
+build/
+dist/
+*.pyc
+__pycache__/
+*.class
+*.jar
+
+# PyLucene - Gradle e Java
+.gradle/
+*.lock
+file-system.probe
+workspace-id.txt.lock
+buildOutputCleanup/
+executionHistory/
+fileHashes/
+dependencies-accessors/
+
+# PyLucene - Lucene Java
+lucene-java-10.0.0/
+lucene.egg-info/
+jcc/
+extensions/
+
+# PyLucene - File di indice
+indexing/
+*.cfe
+*.cfs
+*.si
+*.doc
+*.fdm
+*.fdt
+*.fdx
+*.fnm
+*.nvd
+*.nvm
+*.pos
+*.tim
+*.tip
+*.tvd
+*.tvx
+*.dvd
+*.dvm
+*.dvi
+*.dvx
+*.liv
+*.lvd
+*.lvm
+*.lve
+*.lvn
+*.lvo
+*.lvp
+*.lvq
+*.lvr
+*.lvs
+*.lvt
+*.lvu
+*.lvv
+*.lvw
+*.lvx
+*.lvy
+*.lvz
+segments_*
+write.lock
+
+# Whoosh - File di indice
+indexdir/
+*.toc
+*.seg
+*_WRITELOCK
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE e editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log e output
+*.log
+*.out
+*.err
+search_results.log
+performance_log.txt
+
+# File temporanei Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Cache e file temporanei
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# File di configurazione locale
+.env
+.env.local
+.env.*.local
+
+# File di backup
+*.bak
+*.backup
+*.old
+
+# File di test
+test_*
+*_test.py
+tests/
+
+# File di documentazione generati
+docs/_build/
+docs/build/
