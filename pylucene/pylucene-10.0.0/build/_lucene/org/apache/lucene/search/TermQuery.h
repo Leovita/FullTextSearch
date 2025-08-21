@@ -1,0 +1,104 @@
+#ifndef org_apache_lucene_search_TermQuery_H
+#define org_apache_lucene_search_TermQuery_H
+
+#include "org/apache/lucene/search/Query.h"
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class Term;
+        class TermStates;
+      }
+      namespace search {
+        class QueryVisitor;
+        class ScoreMode;
+        class Weight;
+        class IndexSearcher;
+      }
+    }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class Object;
+  }
+  namespace io {
+    class IOException;
+  }
+}
+template<class T> class JArray;
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+
+        class TermQuery : public ::org::apache::lucene::search::Query {
+         public:
+          enum {
+            mid_init$_3b0982cb6e1bfb9d,
+            mid_init$_bbb34b86902b0d49,
+            mid_createWeight_77fe52950093e704,
+            mid_equals_570b5248a6da3ef6,
+            mid_getTerm_8b5614d1be154430,
+            mid_getTermStates_adb7caab542db1be,
+            mid_hashCode_20fbf7565993c3d7,
+            mid_toString_cb0eb1432185fc94,
+            mid_visit_1b22ec612b613eea,
+            max_mid
+          };
+
+          static ::java::lang::Class *class$;
+          static jmethodID *mids$;
+          static bool live$;
+          static jclass initializeClass(bool);
+
+          explicit TermQuery(jobject obj) : ::org::apache::lucene::search::Query(obj) {
+            if (obj != NULL && mids$ == NULL)
+              env->getClass(initializeClass);
+          }
+          TermQuery(const TermQuery& obj) : ::org::apache::lucene::search::Query(obj) {}
+
+          TermQuery(const ::org::apache::lucene::index::Term &);
+          TermQuery(const ::org::apache::lucene::index::Term &, const ::org::apache::lucene::index::TermStates &);
+
+          ::org::apache::lucene::search::Weight createWeight(const ::org::apache::lucene::search::IndexSearcher &, const ::org::apache::lucene::search::ScoreMode &, jfloat) const;
+          jboolean equals(const ::java::lang::Object &) const;
+          ::org::apache::lucene::index::Term getTerm() const;
+          ::org::apache::lucene::index::TermStates getTermStates() const;
+          jint hashCode() const;
+          ::java::lang::String toString(const ::java::lang::String &) const;
+          void visit(const ::org::apache::lucene::search::QueryVisitor &) const;
+        };
+      }
+    }
+  }
+}
+
+#include <Python.h>
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        extern PyType_Def PY_TYPE_DEF(TermQuery);
+        extern PyTypeObject *PY_TYPE(TermQuery);
+
+        class t_TermQuery {
+        public:
+          PyObject_HEAD
+          TermQuery object;
+          static PyObject *wrap_Object(const TermQuery&);
+          static PyObject *wrap_jobject(const jobject&);
+          static void install(PyObject *module);
+          static void initialize(PyObject *module);
+        };
+      }
+    }
+  }
+}
+
+#endif

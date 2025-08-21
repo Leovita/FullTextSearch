@@ -1,0 +1,110 @@
+#ifndef org_apache_lucene_sandbox_search_PhraseWildcardQuery_H
+#define org_apache_lucene_sandbox_search_PhraseWildcardQuery_H
+
+#include "org/apache/lucene/search/Query.h"
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class QueryVisitor;
+        class ScoreMode;
+        class Weight;
+        class IndexSearcher;
+      }
+    }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class Object;
+  }
+  namespace io {
+    class IOException;
+  }
+}
+template<class T> class JArray;
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace sandbox {
+        namespace search {
+
+          class PhraseWildcardQuery : public ::org::apache::lucene::search::Query {
+           public:
+            enum {
+              mid_createWeight_77fe52950093e704,
+              mid_equals_570b5248a6da3ef6,
+              mid_getField_09a7afff1868fc5e,
+              mid_hashCode_20fbf7565993c3d7,
+              mid_rewrite_aeaa882ae5e96552,
+              mid_toString_cb0eb1432185fc94,
+              mid_visit_1b22ec612b613eea,
+              mid_collectSingleTermData_4b110da9710ac32a,
+              mid_collectMultiTermData_9b5708fa4abef991,
+              mid_createTermsData_e7e74c1d7fc78437,
+              mid_earlyStopWeight_626d62dcd80bd708,
+              mid_noMatchWeight_626d62dcd80bd708,
+              mid_checkTermsHavePositions_76f41332df576533,
+              mid_shouldOptimizeSegments_947277eca0748c4e,
+              mid_createTermStatsMap_94e7808728ace5b6,
+              mid_collectMultiTermDataForSegment_2482e0c50c298f08,
+              mid_collectMultiTermStats_71365f9f89a20822,
+              mid_createTermsEnum_eea87965ea231d34,
+              max_mid
+            };
+
+            static ::java::lang::Class *class$;
+            static jmethodID *mids$;
+            static bool live$;
+            static jclass initializeClass(bool);
+
+            explicit PhraseWildcardQuery(jobject obj) : ::org::apache::lucene::search::Query(obj) {
+              if (obj != NULL && mids$ == NULL)
+                env->getClass(initializeClass);
+            }
+            PhraseWildcardQuery(const PhraseWildcardQuery& obj) : ::org::apache::lucene::search::Query(obj) {}
+
+            ::org::apache::lucene::search::Weight createWeight(const ::org::apache::lucene::search::IndexSearcher &, const ::org::apache::lucene::search::ScoreMode &, jfloat) const;
+            jboolean equals(const ::java::lang::Object &) const;
+            ::java::lang::String getField() const;
+            jint hashCode() const;
+            ::org::apache::lucene::search::Query rewrite(const ::org::apache::lucene::search::IndexSearcher &) const;
+            ::java::lang::String toString(const ::java::lang::String &) const;
+            void visit(const ::org::apache::lucene::search::QueryVisitor &) const;
+          };
+        }
+      }
+    }
+  }
+}
+
+#include <Python.h>
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace sandbox {
+        namespace search {
+          extern PyType_Def PY_TYPE_DEF(PhraseWildcardQuery);
+          extern PyTypeObject *PY_TYPE(PhraseWildcardQuery);
+
+          class t_PhraseWildcardQuery {
+          public:
+            PyObject_HEAD
+            PhraseWildcardQuery object;
+            static PyObject *wrap_Object(const PhraseWildcardQuery&);
+            static PyObject *wrap_jobject(const jobject&);
+            static void install(PyObject *module);
+            static void initialize(PyObject *module);
+          };
+        }
+      }
+    }
+  }
+}
+
+#endif

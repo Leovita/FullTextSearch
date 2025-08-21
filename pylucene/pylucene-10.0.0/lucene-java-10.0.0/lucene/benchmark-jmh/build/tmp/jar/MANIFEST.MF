@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Extension-Name: org.apache.lucene
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: org.apache.lucene
+Implementation-Version: 10.0.0-SNAPSHOT (not a git checkout) [snapshot b
+ uild, details omitted]
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 10.0.0
+Specification-Title: Lucene Search Engine: benchmark-jmh
+X-Compile-Source-JDK: 21
+X-Compile-Target-JDK: 21
+X-Build-JDK: 21.0.6 (Oracle Corporation 21.0.6+8-LTS-188)
+X-Build-OS: Mac OS X aarch64 15.3.1
+Main-Class: org.apache.lucene.benchmark.jmh.Main
+Class-Path: lucene-expressions-10.0.0-SNAPSHOT.jar lucene-codecs-10.0.0-
+ SNAPSHOT.jar lucene-core-10.0.0-SNAPSHOT.jar jmh-core-1.37.jar antlr4-r
+ untime-4.11.1.jar asm-commons-9.6.jar asm-tree-9.6.jar asm-9.6.jar jopt
+ -simple-5.0.4.jar commons-math3-3.6.1.jar
+

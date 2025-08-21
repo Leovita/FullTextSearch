@@ -1,0 +1,12 @@
+{
+    "python.analysis.extraPaths": [
+        "./venv/lib/python3.13/site-packages",
+        "./venv/lib/python3.13/site-packages/lucene/",
+        "./venv/lib/python3.13/site-packages/lucene/include/",
+        "./venv/lib/python3.13/site-packages/lucene/include/java",
+        "./venv/lib/python3.13/site-packages/lucene/include/org"
+    ],
+    "java.project.sourcePaths": [
+        "lucene-java-10.0.0"
+    ]
+}

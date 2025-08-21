@@ -1,0 +1,78 @@
+#ifndef org_apache_lucene_util_ResourceLoaderAware_H
+#define org_apache_lucene_util_ResourceLoaderAware_H
+
+#include "java/lang/Object.h"
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class ResourceLoader;
+      }
+    }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
+template<class T> class JArray;
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+
+        class ResourceLoaderAware : public ::java::lang::Object {
+         public:
+          enum {
+            mid_inform_6addbf380886844e,
+            max_mid
+          };
+
+          static ::java::lang::Class *class$;
+          static jmethodID *mids$;
+          static bool live$;
+          static jclass initializeClass(bool);
+
+          explicit ResourceLoaderAware(jobject obj) : ::java::lang::Object(obj) {
+            if (obj != NULL && mids$ == NULL)
+              env->getClass(initializeClass);
+          }
+          ResourceLoaderAware(const ResourceLoaderAware& obj) : ::java::lang::Object(obj) {}
+
+          void inform(const ::org::apache::lucene::util::ResourceLoader &) const;
+        };
+      }
+    }
+  }
+}
+
+#include <Python.h>
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        extern PyType_Def PY_TYPE_DEF(ResourceLoaderAware);
+        extern PyTypeObject *PY_TYPE(ResourceLoaderAware);
+
+        class t_ResourceLoaderAware {
+        public:
+          PyObject_HEAD
+          ResourceLoaderAware object;
+          static PyObject *wrap_Object(const ResourceLoaderAware&);
+          static PyObject *wrap_jobject(const jobject&);
+          static void install(PyObject *module);
+          static void initialize(PyObject *module);
+        };
+      }
+    }
+  }
+}
+
+#endif

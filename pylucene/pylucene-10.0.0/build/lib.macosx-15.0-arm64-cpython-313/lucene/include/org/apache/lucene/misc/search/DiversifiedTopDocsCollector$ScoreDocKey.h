@@ -1,0 +1,92 @@
+#ifndef org_apache_lucene_misc_search_DiversifiedTopDocsCollector$ScoreDocKey_H
+#define org_apache_lucene_misc_search_DiversifiedTopDocsCollector$ScoreDocKey_H
+
+#include "org/apache/lucene/search/ScoreDoc.h"
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace misc {
+        namespace search {
+          class DiversifiedTopDocsCollector$ScoreDocKey;
+        }
+      }
+    }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Long;
+    class Class;
+  }
+}
+template<class T> class JArray;
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace misc {
+        namespace search {
+
+          class DiversifiedTopDocsCollector$ScoreDocKey : public ::org::apache::lucene::search::ScoreDoc {
+           public:
+            enum {
+              mid_getKey_34383b55cea8435b,
+              mid_toString_09a7afff1868fc5e,
+              max_mid
+            };
+
+            static ::java::lang::Class *class$;
+            static jmethodID *mids$;
+            static bool live$;
+            static jclass initializeClass(bool);
+
+            explicit DiversifiedTopDocsCollector$ScoreDocKey(jobject obj) : ::org::apache::lucene::search::ScoreDoc(obj) {
+              if (obj != NULL && mids$ == NULL)
+                env->getClass(initializeClass);
+            }
+            DiversifiedTopDocsCollector$ScoreDocKey(const DiversifiedTopDocsCollector$ScoreDocKey& obj) : ::org::apache::lucene::search::ScoreDoc(obj) {}
+
+            ::java::lang::Long getKey() const;
+            ::java::lang::String toString() const;
+          };
+        }
+      }
+    }
+  }
+}
+
+#include <Python.h>
+
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace misc {
+        namespace search {
+          extern PyType_Def PY_TYPE_DEF(DiversifiedTopDocsCollector$ScoreDocKey);
+          extern PyTypeObject *PY_TYPE(DiversifiedTopDocsCollector$ScoreDocKey);
+
+          class t_DiversifiedTopDocsCollector$ScoreDocKey {
+          public:
+            PyObject_HEAD
+            DiversifiedTopDocsCollector$ScoreDocKey object;
+            PyTypeObject *parameters[1];
+            static PyTypeObject **parameters_(t_DiversifiedTopDocsCollector$ScoreDocKey *self)
+            {
+              return (PyTypeObject **) &(self->parameters);
+            }
+            static PyObject *wrap_Object(const DiversifiedTopDocsCollector$ScoreDocKey&);
+            static PyObject *wrap_jobject(const jobject&);
+            static PyObject *wrap_Object(const DiversifiedTopDocsCollector$ScoreDocKey&, PyTypeObject *);
+            static PyObject *wrap_jobject(const jobject&, PyTypeObject *);
+            static void install(PyObject *module);
+            static void initialize(PyObject *module);
+          };
+        }
+      }
+    }
+  }
+}
+
+#endif

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Extension-Name: org.apache.lucene
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: org.apache.lucene
+Implementation-Version: 10.0.0-SNAPSHOT (not a git checkout) [snapshot b
+ uild, details omitted]
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 10.0.0
+Specification-Title: Lucene Search Engine: spatial3d
+X-Compile-Source-JDK: 21
+X-Compile-Target-JDK: 21
+X-Build-JDK: 21.0.6 (Oracle Corporation 21.0.6+8-LTS-188)
+X-Build-OS: Mac OS X aarch64 15.3.1
+
