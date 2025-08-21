@@ -1,6 +1,4 @@
 # Dataset e file di dati
-*.csv
-dataset.csv
 data/
 datasets/
 
