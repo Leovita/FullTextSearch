@@ -15,8 +15,8 @@ class PostgreSQLSearchEngine:
     Motore di ricerca PostgreSQL con supporto per full-text search avanzato.
     Supporta ricerche keyword-based, per campi specifici, operatori booleani e frasi esatte.
     """
-    
-    def __init__(self, db_config: Dict[str, str] = None):
+
+    def __init__(self, db_config: Dict[str, str] = None, ranking: Optional[str] = "Frequency"):
         """
         Inizializza il motore di ricerca PostgreSQL.
         
@@ -38,10 +38,11 @@ class PostgreSQLSearchEngine:
         self.db_config = db_config
         self.conn = None
         self.cur = None
+        self.ranking = ranking if ranking in ["Frequency", "Density"] else "Frequency"
         
         try:
             self._connect()
-            self.logger.info("PostgreSQL Search Engine inizializzato con successo")
+            self.logger.info("PostgreSQL Search Engine inizializzato con successo. Metodo di ranking: %s", self.ranking)
         except Exception as e:
             self.logger.error(f"Errore nell'inizializzazione: {e}")
             raise
@@ -104,19 +105,23 @@ class PostgreSQLSearchEngine:
     
     def _search_all_fields(self, query: str, limit: int, min_score: float) -> List[Dict[str, Any]]:
         """Ricerca su tutti i campi indicizzati."""
+        rank = 0
+        if self.ranking == "Density":
+            rank = 16
+
         sql = """
         SELECT id, title, label, content,
-               ts_rank(tsv, plainto_tsquery('english', %s)) AS score,
+               ts_rank(tsv, plainto_tsquery('english', %s), %s) AS score,
                ts_headline('english', content, plainto_tsquery('english', %s), 
                           'MaxWords=30, MinWords=10') AS snippet
         FROM documents
         WHERE tsv @@ plainto_tsquery('english', %s)
-        AND ts_rank(tsv, plainto_tsquery('english', %s)) >= %s
+        AND ts_rank(tsv, plainto_tsquery('english', %s), %s) >= %s
         ORDER BY score DESC
         LIMIT %s;
         """
-        
-        self.cur.execute(sql, (query, query, query, query, min_score, limit))
+
+        self.cur.execute(sql, (query, rank, query, query, query, rank, min_score, limit))
         rows = self.cur.fetchall()
         
         return self._format_results(rows)
@@ -138,19 +143,23 @@ class PostgreSQLSearchEngine:
         
         where_clause = " OR ".join(field_conditions)
         
+        rank = 0
+        if self.ranking == "Density":
+            rank = 16
+
         sql = f"""
         SELECT id, title, label, content,
-               ts_rank(tsv, plainto_tsquery('english', %s)) AS score,
+               ts_rank(tsv, plainto_tsquery('english', %s), %s) AS score,
                ts_headline('english', content, plainto_tsquery('english', %s), 
                           'MaxWords=30, MinWords=10') AS snippet
         FROM documents
         WHERE ({where_clause})
-        AND ts_rank(tsv, plainto_tsquery('english', %s)) >= %s
+        AND ts_rank(tsv, plainto_tsquery('english', %s), %s) >= %s
         ORDER BY score DESC
         LIMIT %s;
         """
-        
-        all_params = params + [query, query, query, min_score, limit]
+
+        all_params = params + [query, rank, query, query, rank, min_score, limit]
         self.cur.execute(sql, all_params)
         rows = self.cur.fetchall()
         
@@ -175,9 +184,13 @@ class PostgreSQLSearchEngine:
             # Converte query in formato tsquery
             tsquery = self._convert_to_tsquery(query)
             
+            rank = 0
+            if self.ranking == "Density":
+                rank = 16
+
             sql = """
             SELECT id, title, label, content,
-                   ts_rank(tsv, to_tsquery('english', %s)) AS score,
+                   ts_rank(tsv, to_tsquery('english', %s), %s) AS score,
                    ts_headline('english', content, to_tsquery('english', %s), 
                               'MaxWords=30, MinWords=10') AS snippet
             FROM documents
@@ -185,8 +198,8 @@ class PostgreSQLSearchEngine:
             ORDER BY score DESC
             LIMIT %s;
             """
-            
-            self.cur.execute(sql, (tsquery, tsquery, tsquery, limit))
+
+            self.cur.execute(sql, (tsquery, rank, tsquery, tsquery, limit))
             rows = self.cur.fetchall()
             
             results = self._format_results(rows)
@@ -218,10 +231,13 @@ class PostgreSQLSearchEngine:
         try:
             self._reconnect_if_needed()
             
+            rank = 0
+            if self.ranking == "Density":
+                rank = 16
             # Usa phraseto_tsquery per frasi esatte
             sql = """
             SELECT id, title, label, content,
-                   ts_rank(tsv, phraseto_tsquery('english', %s)) AS score,
+                   ts_rank(tsv, phraseto_tsquery('english', %s), %s) AS score,
                    ts_headline('english', content, phraseto_tsquery('english', %s), 
                               'MaxWords=30, MinWords=10') AS snippet
             FROM documents
@@ -230,7 +246,7 @@ class PostgreSQLSearchEngine:
             LIMIT %s;
             """
             
-            self.cur.execute(sql, (phrase, phrase, phrase, limit))
+            self.cur.execute(sql, (phrase, rank, phrase, phrase, limit))
             rows = self.cur.fetchall()
             
             results = self._format_results(rows)
@@ -266,10 +282,14 @@ class PostgreSQLSearchEngine:
         
         try:
             self._reconnect_if_needed()
+
+            rank = 0
+            if self.ranking == "Density":
+                rank = 16
             
             sql = f"""
             SELECT id, title, label, content,
-                   ts_rank(to_tsvector('english', {field}), plainto_tsquery('english', %s)) AS score,
+                   ts_rank(to_tsvector('english', {field}), plainto_tsquery('english', %s), %s) AS score,
                    ts_headline('english', {field}, plainto_tsquery('english', %s), 
                               'MaxWords=30, MinWords=10') AS snippet
             FROM documents
@@ -278,7 +298,7 @@ class PostgreSQLSearchEngine:
             LIMIT %s;
             """
             
-            self.cur.execute(sql, (query, query, query, limit))
+            self.cur.execute(sql, (query, rank, query, query, limit))
             rows = self.cur.fetchall()
             
             results = self._format_results(rows)

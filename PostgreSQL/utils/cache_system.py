@@ -5,8 +5,7 @@ import threading
 from typing import Dict, List, Any, Optional, Tuple
 from collections import OrderedDict
 from dataclasses import dataclass, asdict
-import psycopg2
-from utils.password import PASSWORD
+from utils.postgresql_engine import PostgreSQLSearchEngine
 
 @dataclass
 class CacheEntry:
@@ -118,30 +117,22 @@ class LRUCache:
                 'total_requests': total_requests
             }
 
-class PostgreSQLCachedSearchEngine:
+class CachedSearchEngine:
     """
-    Motore di ricerca PostgreSQL con sistema di caching avanzato.
-    Implementa caching multi-livello con LRU, TTL e invalidazione intelligente.
+    Wrapper che aggiunge caching al PostgreSQLSearchEngine.
+    Delega tutte le operazioni di ricerca al search engine sottostante,
+    gestendo solo il layer di caching.
     """
-    
-    def __init__(self, db_config: Dict[str, str] = None, cache_config: Dict[str, Any] = None):
+
+    def __init__(self, db_config: Dict[str, str] = None, cache_config: Dict[str, Any] = None, ranking: Optional[str] = "Frequency"):
         """
         Inizializza il motore con caching.
         
         Args:
             db_config: Configurazione database
             cache_config: Configurazione cache
+            ranking: Metodo di ranking ("Frequency" o "Density")
         """
-        # Configurazione database
-        if db_config is None:
-            db_config = {
-                'dbname': 'gestione',
-                'user': 'postgres',
-                'password': PASSWORD,
-                'host': 'localhost',
-                'port': '5432'
-            }
-        
         # Configurazione cache
         if cache_config is None:
             cache_config = {
@@ -151,8 +142,10 @@ class PostgreSQLCachedSearchEngine:
                 'metadata_cache_size': 100
             }
         
-        self.db_config = db_config
         self.cache_config = cache_config
+        
+        # Inizializza il search engine sottostante
+        self.search_engine = PostgreSQLSearchEngine(db_config=db_config, ranking=ranking)
         
         # Inizializza cache multiple
         self.query_cache = LRUCache(
@@ -170,31 +163,11 @@ class PostgreSQLCachedSearchEngine:
             ttl=cache_config['ttl'] * 4  # TTL ancora più lungo per statistiche
         )
         
-        self.conn = None
-        self.cur = None
-        self._connect()
-        
-        print("✅ Sistema di caching inizializzato")
-        print(f"   📊 Cache query: {cache_config['max_size']} entries, TTL: {cache_config['ttl']}s")
+        print("Sistema di caching inizializzato")
+        print(f"   Cache query: {cache_config['max_size']} entries, TTL: {cache_config['ttl']}s")
     
-    def _connect(self):
-        """Stabilisce connessione al database."""
-        try:
-            self.conn = psycopg2.connect(**self.db_config)
-            self.cur = self.conn.cursor()
-        except psycopg2.Error as e:
-            raise Exception(f"Errore connessione database: {e}")
-    
-    def _reconnect_if_needed(self):
-        """Riconnette se necessario."""
-        try:
-            if self.conn.closed:
-                self._connect()
-        except Exception:
-            self._connect()
-    
-    def search_cached(self, query: str, limit: int = 10, fields: List[str] = None,
-                     min_score: float = 0.0, use_cache: bool = True) -> List[Dict[str, Any]]:
+    def search(self, query: str, limit: int = 10, fields: List[str] = None,
+               min_score: float = 0.0, use_cache: bool = True) -> List[Dict[str, Any]]:
         """
         Ricerca con caching automatico.
         
@@ -220,29 +193,25 @@ class PostgreSQLCachedSearchEngine:
         if use_cache:
             cached_result = self.query_cache.get(cache_key)
             if cached_result is not None:
-                print(f"🎯 Cache HIT per query: {query[:30]}...")
+                print(f"Cache HIT per query: {query[:30]}...")
+                # Marca i risultati come cachati
                 for result in cached_result:
                     result['cached'] = True
                 return cached_result
         
-        print(f"🔍 Cache MISS, eseguendo query: {query[:30]}...")
+        print(f"Cache MISS, eseguendo query: {query[:30]}...")
         
-        # Esegui query sul database
-        start_time = time.time()
-        
+        # Delega al search engine sottostante
         try:
-            self._reconnect_if_needed()
+            results = self.search_engine.search(
+                query=query,
+                limit=limit,
+                fields=fields,
+                min_score=min_score
+            )
             
-            if fields:
-                results = self._search_specific_fields(query, fields, limit, min_score)
-            else:
-                results = self._search_all_fields(query, limit, min_score)
-            
-            search_time = time.time() - start_time
-            
-            # Aggiungi metadati
+            # Aggiungi metadati di caching
             for result in results:
-                result['search_time'] = search_time
                 result['cached'] = False
             
             # Salva in cache
@@ -252,11 +221,11 @@ class PostgreSQLCachedSearchEngine:
             return results
             
         except Exception as e:
-            print(f"❌ Errore durante ricerca: {e}")
+            print(f"Errore durante ricerca: {e}")
             return []
     
-    def boolean_search_cached(self, query: str, limit: int = 10, 
-                            use_cache: bool = True) -> List[Dict[str, Any]]:
+    def boolean_search(self, query: str, limit: int = 10, 
+                      use_cache: bool = True) -> List[Dict[str, Any]]:
         """Ricerca booleana con caching."""
         cache_key = self.query_cache._make_key(
             query=query,
@@ -267,14 +236,13 @@ class PostgreSQLCachedSearchEngine:
         if use_cache:
             cached_result = self.query_cache.get(cache_key)
             if cached_result is not None:
-                print(f"🎯 Cache HIT per ricerca booleana: {query[:30]}...")
+                print(f"Cache HIT per ricerca booleana: {query[:30]}...")
                 return cached_result
         
-        print(f"🔍 Eseguendo ricerca booleana: {query[:30]}...")
+        print(f"Eseguendo ricerca booleana: {query[:30]}...")
         
         try:
-            self._reconnect_if_needed()
-            results = self._boolean_search_db(query, limit)
+            results = self.search_engine.boolean_search(query, limit)
             
             if use_cache and results:
                 self.query_cache.put(cache_key, results)
@@ -282,11 +250,11 @@ class PostgreSQLCachedSearchEngine:
             return results
             
         except Exception as e:
-            print(f"❌ Errore ricerca booleana: {e}")
+            print(f"Errore ricerca booleana: {e}")
             return []
     
-    def phrase_search_cached(self, phrase: str, limit: int = 10, 
-                           use_cache: bool = True) -> List[Dict[str, Any]]:
+    def phrase_search(self, phrase: str, limit: int = 10, 
+                     use_cache: bool = True) -> List[Dict[str, Any]]:
         """Ricerca frase con caching."""
         cache_key = self.query_cache._make_key(
             query=phrase,
@@ -297,14 +265,13 @@ class PostgreSQLCachedSearchEngine:
         if use_cache:
             cached_result = self.query_cache.get(cache_key)
             if cached_result is not None:
-                print(f"🎯 Cache HIT per frase: {phrase[:30]}...")
+                print(f"Cache HIT per frase: {phrase[:30]}...")
                 return cached_result
         
-        print(f"🔍 Eseguendo ricerca frase: {phrase[:30]}...")
+        print(f"Eseguendo ricerca frase: {phrase[:30]}...")
         
         try:
-            self._reconnect_if_needed()
-            results = self._phrase_search_db(phrase, limit)
+            results = self.search_engine.phrase_search(phrase, limit)
             
             if use_cache and results:
                 self.query_cache.put(cache_key, results)
@@ -312,10 +279,39 @@ class PostgreSQLCachedSearchEngine:
             return results
             
         except Exception as e:
-            print(f"❌ Errore ricerca frase: {e}")
+            print(f"Errore ricerca frase: {e}")
             return []
     
-    def get_document_cached(self, doc_id: int, use_cache: bool = True) -> Optional[Dict[str, Any]]:
+    def field_search(self, field: str, query: str, limit: int = 10, 
+                    use_cache: bool = True) -> List[Dict[str, Any]]:
+        """Ricerca su campo specifico con caching."""
+        cache_key = self.query_cache._make_key(
+            query=query,
+            params=(field, limit),
+            method='field'
+        )
+        
+        if use_cache:
+            cached_result = self.query_cache.get(cache_key)
+            if cached_result is not None:
+                print(f"Cache HIT per campo {field}: {query[:30]}...")
+                return cached_result
+        
+        print(f"Eseguendo ricerca campo {field}: {query[:30]}...")
+        
+        try:
+            results = self.search_engine.field_search(field, query, limit)
+            
+            if use_cache and results:
+                self.query_cache.put(cache_key, results)
+            
+            return results
+            
+        except Exception as e:
+            print(f"Errore ricerca campo: {e}")
+            return []
+    
+    def get_document_by_id(self, doc_id: int, use_cache: bool = True) -> Optional[Dict[str, Any]]:
         """Recupera documento con caching."""
         cache_key = self.metadata_cache._make_key(
             query="get_document",
@@ -325,37 +321,22 @@ class PostgreSQLCachedSearchEngine:
         if use_cache:
             cached_result = self.metadata_cache.get(cache_key)
             if cached_result is not None:
-                print(f"🎯 Cache HIT per documento ID: {doc_id}")
+                print(f"Cache HIT per documento ID: {doc_id}")
+                cached_result['cached'] = True
                 return cached_result
         
-        start_time = time.time()
         try:
-            self._reconnect_if_needed()
+            result = self.search_engine.get_document_by_id(doc_id)
             
-            sql = "SELECT id, title, label, content FROM documents WHERE id = %s;"
-            self.cur.execute(sql, (doc_id,))
-            row = self.cur.fetchone()
-            search_time = time.time() - start_time
-
-            if row:
-                result = {
-                    'id': row[0],
-                    'title': row[1],
-                    'label': row[2],
-                    'content': row[3],
-                    'cached': False,
-                    'search_time': search_time
-                }
-                
+            if result:
+                result['cached'] = False
                 if use_cache:
                     self.metadata_cache.put(cache_key, result)
-                
-                return result
             
-            return None
+            return result
             
         except Exception as e:
-            print(f"❌ Errore recupero documento: {e}")
+            print(f"Errore recupero documento: {e}")
             return None
     
     def get_stats(self, use_cache: bool = True) -> Dict[str, Any]:
@@ -365,25 +346,11 @@ class PostgreSQLCachedSearchEngine:
         if use_cache:
             cached_result = self.stats_cache.get(cache_key)
             if cached_result is not None:
-                print("🎯 Cache HIT per statistiche database")
+                print("Cache HIT per statistiche database")
                 return cached_result
         
         try:
-            self._reconnect_if_needed()
-            
-            stats = {}
-            
-            # Conteggio totale documenti
-            self.cur.execute("SELECT COUNT(*) FROM documents;")
-            stats['total_documents'] = self.cur.fetchone()[0]
-            
-            # Documenti per label
-            self.cur.execute("SELECT label, COUNT(*) FROM documents GROUP BY label ORDER BY label;")
-            stats['documents_by_label'] = dict(self.cur.fetchall())
-            
-            # Dimensione media contenuto
-            self.cur.execute("SELECT AVG(LENGTH(content))::INTEGER FROM documents;")
-            stats['avg_content_length'] = self.cur.fetchone()[0] or 0
+            stats = self.search_engine.get_stats()
             
             if use_cache:
                 self.stats_cache.put(cache_key, stats)
@@ -391,136 +358,8 @@ class PostgreSQLCachedSearchEngine:
             return stats
             
         except Exception as e:
-            print(f"❌ Errore statistiche: {e}")
+            print(f"Errore statistiche: {e}")
             return {}
-    
-    def _search_all_fields(self, query: str, limit: int, min_score: float) -> List[Dict[str, Any]]:
-        """Ricerca su tutti i campi (implementazione database)."""
-        sql = """
-        SELECT id, title, label, content,
-               ts_rank(tsv, plainto_tsquery('english', %s)) AS score,
-               ts_headline('english', content, plainto_tsquery('english', %s), 
-                          'MaxWords=30, MinWords=10') AS snippet
-        FROM documents
-        WHERE tsv @@ plainto_tsquery('english', %s)
-        AND ts_rank(tsv, plainto_tsquery('english', %s)) >= %s
-        ORDER BY score DESC
-        LIMIT %s;
-        """
-        
-        self.cur.execute(sql, (query, query, query, query, min_score, limit))
-        return self._format_results(self.cur.fetchall())
-    
-    def _search_specific_fields(self, query: str, fields: List[str], 
-                              limit: int, min_score: float) -> List[Dict[str, Any]]:
-        """Ricerca su campi specifici."""
-        field_conditions = []
-        params = []
-        
-        for field in fields:
-            if field in ['title', 'content', 'label']:
-                field_conditions.append(f"to_tsvector('english', {field}) @@ plainto_tsquery('english', %s)")
-                params.append(query)
-        
-        if not field_conditions:
-            return self._search_all_fields(query, limit, min_score)
-        
-        where_clause = " OR ".join(field_conditions)
-        
-        sql = f"""
-        SELECT id, title, label, content,
-               ts_rank(tsv, plainto_tsquery('english', %s)) AS score,
-               ts_headline('english', content, plainto_tsquery('english', %s), 
-                          'MaxWords=30, MinWords=10') AS snippet
-        FROM documents
-        WHERE ({where_clause})
-        AND ts_rank(tsv, plainto_tsquery('english', %s)) >= %s
-        ORDER BY score DESC
-        LIMIT %s;
-        """
-        
-        all_params = params + [query, query, query, min_score, limit]
-        self.cur.execute(sql, all_params)
-        return self._format_results(self.cur.fetchall())
-    
-    def _boolean_search_db(self, query: str, limit: int) -> List[Dict[str, Any]]:
-        """Implementazione ricerca booleana database."""
-        try:
-            # Converte query in formato tsquery
-            tsquery = self._convert_to_tsquery(query)
-            
-            sql = """
-            SELECT id, title, label, content,
-                   ts_rank(tsv, to_tsquery('english', %s)) AS score,
-                   ts_headline('english', content, to_tsquery('english', %s), 
-                              'MaxWords=30, MinWords=10') AS snippet
-            FROM documents
-            WHERE tsv @@ to_tsquery('english', %s)
-            ORDER BY score DESC
-            LIMIT %s;
-            """
-            
-            self.cur.execute(sql, (tsquery, tsquery, tsquery, limit))
-            return self._format_results(self.cur.fetchall())
-            
-        except Exception as e:
-            print(f"❌ Errore ricerca booleana DB: {e}")
-            return []
-    
-    def _phrase_search_db(self, phrase: str, limit: int) -> List[Dict[str, Any]]:
-        """Implementazione ricerca frase database."""
-        try:
-            sql = """
-            SELECT id, title, label, content,
-                   ts_rank(tsv, phraseto_tsquery('english', %s)) AS score,
-                   ts_headline('english', content, phraseto_tsquery('english', %s), 
-                              'MaxWords=30, MinWords=10') AS snippet
-            FROM documents
-            WHERE tsv @@ phraseto_tsquery('english', %s)
-            ORDER BY score DESC
-            LIMIT %s;
-            """
-            
-            self.cur.execute(sql, (phrase, phrase, phrase, limit))
-            return self._format_results(self.cur.fetchall())
-            
-        except Exception as e:
-            print(f"❌ Errore ricerca frase DB: {e}")
-            return []
-    
-    def _convert_to_tsquery(self, query: str) -> str:
-        """Converte query booleana in formato tsquery."""
-        query = query.replace(' AND ', ' & ')
-        query = query.replace(' OR ', ' | ')
-        query = query.replace(' NOT ', ' !')
-        
-        words = query.split()
-        processed_words = []
-        
-        for word in words:
-            if word not in ['&', '|', '!', '(', ')']:
-                processed_words.append(f"{word}:*")
-            else:
-                processed_words.append(word)
-        
-        return ' '.join(processed_words)
-    
-    def _format_results(self, rows: List[Tuple]) -> List[Dict[str, Any]]:
-        """Formatta risultati query."""
-        results = []
-        
-        for row in rows:
-            result = {
-                'id': row[0],
-                'title': row[1],
-                'label': row[2],
-                'content': row[3][:500] + '...' if len(row[3]) > 500 else row[3],
-                'score': float(row[4]),
-                'snippet': row[5] if len(row) > 5 else row[3][:200] + '...'
-            }
-            results.append(result)
-        
-        return results
     
     def invalidate_cache(self, pattern: str = None):
         """
@@ -533,10 +372,10 @@ class PostgreSQLCachedSearchEngine:
             self.query_cache.clear()
             self.metadata_cache.clear()
             self.stats_cache.clear()
-            print("🧹 Cache completamente svuotata")
+            print("Cache completamente svuotata")
         else:
             # Implementazione invalidazione selettiva futura
-            print(f"🧹 Invalidazione pattern: {pattern} (non implementata)")
+            print(f"Invalidazione pattern: {pattern} (non implementata)")
     
     def get_cache_stats(self) -> Dict[str, Any]:
         """Restituisce statistiche complete del sistema di caching."""
@@ -576,37 +415,34 @@ class PostgreSQLCachedSearchEngine:
         Args:
             common_queries: Lista di query per warm-up
         """
-        print("🔥 Avvio warm-up cache...")
+        print("Avvio warm-up cache...")
         
         for query in common_queries:
             try:
                 print(f"   Caricando: {query}")
-                self.search_cached(query, limit=20, use_cache=True)
+                self.search(query, limit=20, use_cache=True)
                 time.sleep(0.1)  # Piccola pausa per non sovraccaricare
             except Exception as e:
-                print(f"   ❌ Errore warm-up per '{query}': {e}")
+                print(f"   Errore warm-up per '{query}': {e}")
         
         stats = self.get_cache_stats()
-        print(f"✅ Warm-up completato: {stats['query_cache']['size']} entries caricate")
+        print(f"Warm-up completato: {stats['query_cache']['size']} entries caricate")
     
     def close(self):
         """Chiude connessioni e salva statistiche."""
         try:
             # Salva statistiche finali
             final_stats = self.get_cache_stats()
-            print("\n📊 Statistiche finali cache:")
+            print("\nStatistiche finali cache:")
             for cache_name, stats in final_stats.items():
                 if isinstance(stats, dict) and 'hit_rate' in stats:
                     print(f"   {cache_name}: {stats['hit_rate']:.1f}% hit rate, {stats['size']} entries")
             
-            # Chiudi connessioni DB
-            if self.cur:
-                self.cur.close()
-            if self.conn:
-                self.conn.close()
+            # Chiudi il search engine sottostante
+            self.search_engine.close()
                 
         except Exception as e:
-            print(f"❌ Errore chiusura: {e}")
+            print(f"Errore chiusura: {e}")
     
     def __enter__(self):
         return self
@@ -617,10 +453,10 @@ class PostgreSQLCachedSearchEngine:
 
 # ===== ESEMPIO DI UTILIZZO =====
 
-def demo_cache_system():
+def demo_cached_search_engine():
     """Dimostra l'utilizzo del sistema di caching."""
     
-    print("🚀 Demo Sistema di Caching PostgreSQL")
+    print("Demo Sistema di Caching")
     print("=" * 50)
     
     # Query comuni per warm-up
@@ -633,40 +469,44 @@ def demo_cache_system():
     ]
     
     try:
-        with PostgreSQLCachedSearchEngine() as engine:
+        with CachedSearchEngine() as engine:
             
             # Warm-up cache
             engine.warm_up_cache(common_queries)
             
-            print("\n🔍 Test ricerche con cache:")
+            print("\nTest ricerche con cache:")
             
             # Test ricerche (prima volta - cache miss)
             print("\n--- Prima esecuzione (cache miss) ---")
             start = time.time()
-            results1 = engine.search_cached("election economy", limit=5)
+            results1 = engine.search("election economy", limit=5)
             time1 = time.time() - start
             print(f"Tempo: {time1:.3f}s, Risultati: {len(results1)}")
             
             # Test ricerche (seconda volta - cache hit)
             print("\n--- Seconda esecuzione (cache hit) ---")
             start = time.time()
-            results2 = engine.search_cached("election economy", limit=5)
+            results2 = engine.search("election economy", limit=5)
             time2 = time.time() - start
             print(f"Tempo: {time2:.3f}s, Risultati: {len(results2)}")
             
-            print(f"\n⚡ Speedup: {time1/time2:.1f}x più veloce con cache")
+            print(f"\nSpeedup: {time1/time2:.1f}x più veloce con cache")
             
             # Test altri tipi di ricerca
             print("\n--- Test ricerca booleana ---")
-            bool_results = engine.boolean_search_cached("election AND economy")
+            bool_results = engine.boolean_search("election AND economy")
             print(f"Risultati booleani: {len(bool_results)}")
             
             print("\n--- Test ricerca frase ---")
-            phrase_results = engine.phrase_search_cached("machine learning")
+            phrase_results = engine.phrase_search("machine learning")
             print(f"Risultati frase: {len(phrase_results)}")
             
+            print("\n--- Test ricerca campo ---")
+            field_results = engine.field_search("title", "football")
+            print(f"Risultati campo title: {len(field_results)}")
+            
             # Statistiche cache
-            print("\n📊 Statistiche Cache:")
+            print("\nStatistiche Cache:")
             cache_stats = engine.get_cache_stats()
             for cache_name, stats in cache_stats.items():
                 if isinstance(stats, dict):
@@ -675,8 +515,9 @@ def demo_cache_system():
                         print(f"    {key}: {value}")
             
     except Exception as e:
-        print(f"💥 Errore demo: {e}")
+        print(f"Errore demo: {e}")
 
 
 if __name__ == "__main__":
-    demo_cache_system()
+    from postgresql_engine import PostgreSQLSearchEngine
+    demo_cached_search_engine()

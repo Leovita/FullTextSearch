@@ -22,7 +22,7 @@ Questo documento fornisce una guida completa all'utilizzo del motore di ricerca 
 
 Il sistema è composto da tre moduli principali che lavorano in sinergia:
 
-1.  `postgresql_engine.py`: Il nucleo del motore di ricerca. Gestisce la connessione al database PostgreSQL ed esegue le query di full-text search. Supporta vari tipi di ricerca (semplice, booleana, frase, per campo).
+1.  `postgresql_engine.py`: Il nucleo del motore di ricerca. Gestisce la connessione al database PostgreSQL ed esegue le query di full-text search. Supporta vari tipi di ricerca (semplice, booleana, frase, per campo). Permette di scegliere tra 2 diversi tipi di ranking utilizzati da PostgreSQL `Frequency`e `Density`
 2.  `cache_system.py`: Un modulo opzionale che implementa un sistema di caching basato su LRU (Least Recently Used) con TTL (Time-To-Live). Riduce i tempi di risposta per query ripetute.
 3.  `query_processor.py`: Un processore intelligente che analizza la query dell'utente, ne identifica il tipo (es. booleana, frase, semplice) e la pre-elabora. Un'ottimizzazione chiave è l'ordinamento dinamico dei termini in base alla loro frequenza, elaborando prima i termini più selettivi per migliorare la velocità.
 4.  `postgresql_interface.py`: L'interfaccia unificata. Questo modulo agisce come un'API standardizzata che orchestra gli altri tre componenti. Prende in input la query dell'utente e gestisce l'intero flusso di lavoro: analisi, esecuzione (con o senza cache) e formattazione dell'output.
@@ -51,6 +51,20 @@ interface_with_cache = PostgreSQLUnifiedInterface(use_cache=True)
 # Inizializza l'interfaccia senza il caching
 interface_no_cache = PostgreSQLUnifiedInterface(use_cache=False)
 ```
+
+Puoi inoltre scegliere quale metodo di ranking utilizzare cambiando il parametro `ranking`.
+
+```python
+from postgresql_interface import PostgreSQLUnifiedInterface
+
+# Inizializza l'interfaccia con metodo di ranking Frequency
+interface_with_cache = PostgreSQLUnifiedInterface(ranking="Frequency")
+
+# Inizializza l'interfaccia con metodo di ranking Density
+interface_no_cache = PostgreSQLUnifiedInterface(ranking="Density")
+```
+
+Da notare come queste scelte possano essere combinate, premettendo di abilitare il metodo di ranking desiderato con o senza la cache.
 
 ### C. Esecuzione di una Ricerca
 
