@@ -1,0 +1,44 @@
+{
+"test_queries": [
+    {
+      "id": "Q1",
+      "query": "\"Brown names 16 March for Budget\""
+    },
+    {
+      "id": "Q2",
+      "query": "content:Liverpool football Hillsborough"
+    },
+    {
+      "id": "Q3",
+      "query": "Microsoft Google internet"
+    },
+    {
+      "id": "Q4",
+      "query": "Army Scotland regiments decision"
+    },
+    {
+      "id": "Q5",
+      "query": "Smoking ban Scotland public"
+    },
+    {
+      "id": "Q6",
+      "query": "internet AND privacy"
+    },
+    {
+      "id": "Q7",
+      "query": "Tony Blair trust voters"
+    },
+    {
+      "id": "Q8",
+      "query": "Stamp duty property prices"
+    },
+    {
+      "id": "Q9",
+      "query": "Hollywood Oscar ceremony"
+    },
+    {
+      "id": "Q10",
+      "query": "internet AND privacy"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "benchmark_info": {
+    "name": "PostgreSQL Full-Text Search Benchmark",
+    "version": "1.0",
+    "description": "Query set per valutazione performance e IR metrics",
+    "dataset": "News articles with Title, Text, Label fields",
+    "created": "2025-08-25",
+    "total_queries": 10
+  },
+  
+  "test_queries": [
+    {
+      "id": "Q1",
+      "query": "election campaign",
+      "method": "search",
+      "expected_min_results": 5,
+      "description": "Ricerca generale su termini politici comuni",
+      "category": "politics",
+      "difficulty": "easy",
+      "relevant_docs": [1, 2, 3, 5, 8]
+    },
+    {
+      "id": "Q2", 
+      "query": "economy AND budget",
+      "method": "boolean",
+      "expected_min_results": 3,
+      "description": "Ricerca booleana su temi economici",
+      "category": "economics",
+      "difficulty": "medium",
+      "relevant_docs": [1, 2, 4, 6]
+    },
+    {
+      "id": "Q3",
+      "query": "machine learning",
+      "method": "phrase",
+      "expected_min_results": 2,
+      "description": "Ricerca frase esatta per termini tecnologici",
+      "category": "technology",
+      "difficulty": "medium",
+      "relevant_docs": [10, 15, 20]
+    },
+    {
+      "id": "Q4",
+      "query": "football team",
+      "method": "search",
+      "expected_min_results": 2,
+      "description": "Ricerca su temi sportivi",
+      "category": "sports",
+      "difficulty": "easy",
+      "relevant_docs": [25, 30, 35]
+    },
+    {
+      "id": "Q5",
+      "query": "Gordon Brown",
+      "method": "phrase",
+      "expected_min_results": 1,
+      "description": "Ricerca persona specifica",
+      "category": "politics",
+      "difficulty": "hard",
+      "relevant_docs": [1, 2]
+    },
+    {
+      "id": "Q6",
+      "query": "government OR policy",
+      "method": "boolean",
+      "expected_min_results": 5,
+      "description": "Ricerca booleana OR su temi governativi",
+      "category": "politics",
+      "difficulty": "medium",
+      "relevant_docs": [1, 2, 3, 4, 5, 6, 7]
+    },
+    {
+      "id": "Q7",
+      "query": "technology",
+      "method": "field",
+      "expected_min_results": 1,
+      "description": "Ricerca su campo specifico (title)",
+      "category": "technology",
+      "difficulty": "easy",
+      "relevant_docs": [5, 10]
+    },
+    {
+      "id": "Q8",
+      "query": "financial crisis",
+      "method": "phrase",
+      "expected_min_results": 2,
+      "description": "Ricerca frase su eventi specifici",
+      "category": "economics",
+      "difficulty": "medium",
+      "relevant_docs": [8, 12, 15]
+    },
+    {
+      "id": "Q9",
+      "query": "education AND school",
+      "method": "boolean",
+      "expected_min_results": 3,
+      "description": "Ricerca booleana su temi educativi",
+      "category": "education",
+      "difficulty": "medium",
+      "relevant_docs": [18, 22, 25]
+    },
+    {
+      "id": "Q10",
+      "query": "health care",
+      "method": "search",
+      "expected_min_results": 2,
+      "description": "Ricerca generale su sanità",
+      "category": "health",
+      "difficulty": "easy",
+      "relevant_docs": [28, 32, 35]
+    }
+  ],
+  
+  "query_categories": {
+    "politics": {
+      "description": "Query relative a politica, elezioni, governo",
+      "queries": ["Q1", "Q5", "Q6"]
+    },
+    "economics": {
+      "description": "Query relative a economia, budget, crisi finanziarie",
+      "queries": ["Q2", "Q8"]
+    },
+    "technology": {
+      "description": "Query relative a tecnologia, machine learning",
+      "queries": ["Q3", "Q7"]
+    },
+    "sports": {
+      "description": "Query relative a sport, calcio",
+      "queries": ["Q4"]
+    },
+    "education": {
+      "description": "Query relative a educazione, scuola",
+      "queries": ["Q9"]
+    },
+    "health": {
+      "description": "Query relative a sanità, assistenza medica",
+      "queries": ["Q10"]
+    }
+  },
+  
+  "benchmark_settings": {
+    "default_iterations": 5,
+    "default_limit": 20,
+    "cache_iterations": 3,
+    "min_score_threshold": 0.0,
+    "timeout_seconds": 30,
+    "enable_cache_test": true,
+    "enable_ir_metrics": true,
+    "generate_charts": true
+  },
+  
+  "custom_query_templates": {
+    "simple_search": {
+      "method": "search",
+      "expected_min_results": 1,
+      "description": "Template per ricerca semplice",
+      "category": "general"
+    },
+    "boolean_and": {
+      "method": "boolean", 
+      "expected_min_results": 2,
+      "description": "Template per ricerca booleana AND",
+      "category": "general"
+    },
+    "phrase_exact": {
+      "method": "phrase",
+      "expected_min_results": 1, 
+      "description": "Template per ricerca frase esatta",
+      "category": "general"
+    },
+    "field_specific": {
+      "method": "field",
+      "expected_min_results": 1,
+      "description": "Template per ricerca su campo specifico",
+      "category": "general"
+    }
+  },
+  
+  "instructions": {
+    "how_to_add_query": [
+      "1. Aggiungi una nuova query nell'array 'test_queries'",
+      "2. Usa un ID univoco progressivo (es: Q11, Q12, ...)",
+      "3. Specifica il metodo: 'search', 'boolean', 'phrase', 'field'",
+      "4. Imposta expected_min_results per validation",
+      "5. Aggiungi relevant_docs per metriche IR",
+      "6. Categorizza la query se necessario"
+    ],
+    "available_methods": {
+      "search": "Ricerca full-text standard con ranking",
+      "boolean": "Ricerca con operatori AND, OR, NOT",
+      "phrase": "Ricerca frase esatta",
+      "field": "Ricerca su campo specifico (title, content, label)"
+    },
+    "difficulty_levels": {
+      "easy": "Query semplici con alta probabilità di match",
+      "medium": "Query con complessità moderata",
+      "hard": "Query specifiche o con pochi risultati attesi"
+    }
+  }
+}

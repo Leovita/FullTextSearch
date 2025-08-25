@@ -1,0 +1,542 @@
+{
+  "benchmark_info": {
+    "timestamp": "2025-08-25 12:46:04",
+    "total_test_queries": 10,
+    "system": "PostgreSQL Full-Text Search",
+    "test_environment": "Local Development"
+  },
+  "performance_benchmark": {
+    "queries": [
+      {
+        "query_id": "Q1",
+        "query": "election campaign",
+        "method": "search",
+        "description": "Ricerca generale su termini politici comuni",
+        "avg_time_ms": 7.465099993472298,
+        "min_time_ms": 6.060500047169626,
+        "max_time_ms": 10.145099950022995,
+        "median_time_ms": 6.189699983224273,
+        "std_dev_ms": 2.3218468901292644,
+        "avg_results": 20,
+        "min_results": 20,
+        "max_results": 20,
+        "meets_expected": true,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q2",
+        "query": "economy AND budget",
+        "method": "boolean",
+        "description": "Ricerca booleana su temi economici",
+        "avg_time_ms": 5.571400009406109,
+        "min_time_ms": 5.52200002130121,
+        "max_time_ms": 5.654299980960786,
+        "median_time_ms": 5.537900025956333,
+        "std_dev_ms": 0.07223230925169764,
+        "avg_results": 20,
+        "min_results": 20,
+        "max_results": 20,
+        "meets_expected": true,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q3",
+        "query": "machine learning",
+        "method": "phrase",
+        "description": "Ricerca frase esatta per termini tecnologici",
+        "avg_time_ms": 0.3678999685992797,
+        "min_time_ms": 0.22629997693002224,
+        "max_time_ms": 0.5698999157175422,
+        "median_time_ms": 0.30750001315027475,
+        "std_dev_ms": 0.1795865959568759,
+        "avg_results": 0,
+        "min_results": 0,
+        "max_results": 0,
+        "meets_expected": false,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q4",
+        "query": "football team",
+        "method": "search",
+        "description": "Ricerca su temi sportivi",
+        "avg_time_ms": 7.582466661309202,
+        "min_time_ms": 6.707499967887998,
+        "max_time_ms": 8.095200057141483,
+        "median_time_ms": 7.944699958898127,
+        "std_dev_ms": 0.7614706861331844,
+        "avg_results": 20,
+        "min_results": 20,
+        "max_results": 20,
+        "meets_expected": true,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q5",
+        "query": "Gordon Brown",
+        "method": "phrase",
+        "description": "Ricerca persona specifica",
+        "avg_time_ms": 6.341399974189699,
+        "min_time_ms": 6.059799925424159,
+        "max_time_ms": 6.722799967974424,
+        "median_time_ms": 6.241600029170513,
+        "std_dev_ms": 0.34258179442986736,
+        "avg_results": 20,
+        "min_results": 20,
+        "max_results": 20,
+        "meets_expected": true,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q6",
+        "query": "government OR policy",
+        "method": "boolean",
+        "description": "Ricerca booleana OR su temi governativi",
+        "avg_time_ms": 14.612199932647249,
+        "min_time_ms": 13.84559995494783,
+        "max_time_ms": 16.13279990851879,
+        "median_time_ms": 13.858199934475124,
+        "std_dev_ms": 1.3168932776942956,
+        "avg_results": 20,
+        "min_results": 20,
+        "max_results": 20,
+        "meets_expected": true,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q7",
+        "query": "technology",
+        "method": "field",
+        "description": "Ricerca su campo specifico (title)",
+        "avg_time_ms": 0.4800666744510333,
+        "min_time_ms": 0.4320000298321247,
+        "max_time_ms": 0.5527000175788999,
+        "median_time_ms": 0.45549997594207525,
+        "std_dev_ms": 0.0639903412027194,
+        "avg_results": 5,
+        "min_results": 5,
+        "max_results": 5,
+        "meets_expected": true,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q8",
+        "query": "financial crisis",
+        "method": "phrase",
+        "description": "Ricerca frase su eventi specifici",
+        "avg_time_ms": 1.0055333453541,
+        "min_time_ms": 0.8857999928295612,
+        "max_time_ms": 1.123500056564808,
+        "median_time_ms": 1.007299986667931,
+        "std_dev_ms": 0.11885987902182923,
+        "avg_results": 2,
+        "min_results": 2,
+        "max_results": 2,
+        "meets_expected": true,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q9",
+        "query": "education AND school",
+        "method": "boolean",
+        "description": "Ricerca booleana su temi educativi",
+        "avg_time_ms": 5.587033384169142,
+        "min_time_ms": 5.434100050479174,
+        "max_time_ms": 5.713800084777176,
+        "median_time_ms": 5.613200017251074,
+        "std_dev_ms": 0.14167408659211236,
+        "avg_results": 20,
+        "min_results": 20,
+        "max_results": 20,
+        "meets_expected": true,
+        "iterations": 3
+      },
+      {
+        "query_id": "Q10",
+        "query": "health care",
+        "method": "search",
+        "description": "Ricerca generale su sanità",
+        "avg_time_ms": 7.152433390729129,
+        "min_time_ms": 6.85969996266067,
+        "max_time_ms": 7.352600106969476,
+        "median_time_ms": 7.245000102557242,
+        "std_dev_ms": 0.2591603464438801,
+        "avg_results": 19,
+        "min_results": 19,
+        "max_results": 19,
+        "meets_expected": true,
+        "iterations": 3
+      }
+    ],
+    "summary": {
+      "total_queries": 10,
+      "avg_response_time_ms": 5.616553333432724,
+      "total_response_time_ms": 56.16553333432724,
+      "fastest_query_ms": 0.3678999685992797,
+      "slowest_query_ms": 14.612199932647249,
+      "avg_results_per_query": 14.6,
+      "queries_meeting_expectations": 9,
+      "success_rate": 90.0
+    },
+    "timestamp": "2025-08-25 12:46:04"
+  },
+  "cache_comparison": {
+    "comparisons": [
+      {
+        "query_id": "Q1",
+        "query": "election campaign",
+        "no_cache_avg_ms": 4.949633342524369,
+        "cache_miss_ms": 7.853100076317787,
+        "cache_hit_avg_ms": 0.07456665237744649,
+        "speedup_factor": 66.3786449399657,
+        "cache_efficiency": 98.49349139184082
+      },
+      {
+        "query_id": "Q2",
+        "query": "economy AND budget",
+        "no_cache_avg_ms": 3.159900001871089,
+        "cache_miss_ms": 3.162700100801885,
+        "cache_hit_avg_ms": 0.06350005666414897,
+        "speedup_factor": 49.76216034867121,
+        "cache_efficiency": 97.99044094349352
+      },
+      {
+        "query_id": "Q3",
+        "query": "machine learning",
+        "no_cache_avg_ms": 0.3525333401436607,
+        "cache_miss_ms": 0.4116999916732311,
+        "cache_hit_avg_ms": 0.24709998009105524,
+        "speedup_factor": 1.4266829969543249,
+        "cache_efficiency": 29.907344369085877
+      },
+      {
+        "query_id": "Q4",
+        "query": "football team",
+        "no_cache_avg_ms": 2.9710333328694105,
+        "cache_miss_ms": 2.9473999748006463,
+        "cache_hit_avg_ms": 0.04943336049715678,
+        "speedup_factor": 60.101787598281796,
+        "cache_efficiency": 98.33615597811506
+      },
+      {
+        "query_id": "Q5",
+        "query": "Gordon Brown",
+        "no_cache_avg_ms": 3.8134000108887753,
+        "cache_miss_ms": 3.840399906039238,
+        "cache_hit_avg_ms": 0.05256667888412873,
+        "speedup_factor": 72.5440543674929,
+        "cache_efficiency": 98.6215272792251
+      }
+    ],
+    "summary": {
+      "avg_speedup_factor": 50.04266605027318,
+      "avg_cache_efficiency_pct": 84.66979199235207,
+      "total_queries_tested": 5,
+      "cache_stats": {
+        "query_cache": {
+          "size": 4,
+          "max_size": 1000,
+          "hit_rate": 60.0,
+          "hits": 12,
+          "misses": 8,
+          "evictions": 0,
+          "expired": 0,
+          "total_requests": 20
+        },
+        "metadata_cache": {
+          "size": 0,
+          "max_size": 100,
+          "hit_rate": 0,
+          "hits": 0,
+          "misses": 0,
+          "evictions": 0,
+          "expired": 0,
+          "total_requests": 0
+        },
+        "stats_cache": {
+          "size": 0,
+          "max_size": 50,
+          "hit_rate": 0,
+          "hits": 0,
+          "misses": 0,
+          "evictions": 0,
+          "expired": 0,
+          "total_requests": 0
+        },
+        "total_memory_usage": "736 B"
+      }
+    },
+    "timestamp": "2025-08-25 12:46:04"
+  },
+  "ir_metrics": {
+    "queries": [
+      {
+        "query_id": "Q1",
+        "query": "election campaign",
+        "retrieved_count": 20,
+        "relevant_count": 5,
+        "retrieved_relevant_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "retrieved_docs": [
+          319,
+          352,
+          22,
+          303,
+          385,
+          365,
+          106,
+          275,
+          281,
+          69
+        ],
+        "relevant_docs": [
+          1,
+          2,
+          3,
+          5,
+          8
+        ]
+      },
+      {
+        "query_id": "Q2",
+        "query": "economy AND budget",
+        "retrieved_count": 20,
+        "relevant_count": 4,
+        "retrieved_relevant_count": 1,
+        "precision": 0.05,
+        "recall": 0.25,
+        "f1_score": 0.08333333333333334,
+        "retrieved_docs": [
+          2174,
+          1816,
+          128,
+          369,
+          1925,
+          1955,
+          1786,
+          1949,
+          357,
+          16
+        ],
+        "relevant_docs": [
+          1,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "query_id": "Q3",
+        "query": "machine learning",
+        "retrieved_count": 0,
+        "relevant_count": 3,
+        "retrieved_relevant_count": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "retrieved_docs": [],
+        "relevant_docs": [
+          10,
+          15,
+          20
+        ]
+      },
+      {
+        "query_id": "Q4",
+        "query": "football team",
+        "retrieved_count": 20,
+        "relevant_count": 3,
+        "retrieved_relevant_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "retrieved_docs": [
+          913,
+          126,
+          466,
+          1834,
+          2048,
+          611,
+          721,
+          1128,
+          1420,
+          916
+        ],
+        "relevant_docs": [
+          25,
+          30,
+          35
+        ]
+      },
+      {
+        "query_id": "Q5",
+        "query": "Gordon Brown",
+        "retrieved_count": 20,
+        "relevant_count": 2,
+        "retrieved_relevant_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "retrieved_docs": [
+          365,
+          139,
+          50,
+          238,
+          138,
+          337,
+          305,
+          87,
+          102,
+          6
+        ],
+        "relevant_docs": [
+          1,
+          2
+        ]
+      },
+      {
+        "query_id": "Q6",
+        "query": "government OR policy",
+        "retrieved_count": 20,
+        "relevant_count": 7,
+        "retrieved_relevant_count": 1,
+        "precision": 0.05,
+        "recall": 0.14285714285714285,
+        "f1_score": 0.07407407407407408,
+        "retrieved_docs": [
+          412,
+          126,
+          2133,
+          1524,
+          64,
+          1992,
+          1285,
+          272,
+          237,
+          1037
+        ],
+        "relevant_docs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "query_id": "Q7",
+        "query": "technology",
+        "retrieved_count": 5,
+        "relevant_count": 2,
+        "retrieved_relevant_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "retrieved_docs": [
+          947,
+          1269,
+          1025,
+          1143,
+          1253
+        ],
+        "relevant_docs": [
+          5,
+          10
+        ]
+      },
+      {
+        "query_id": "Q8",
+        "query": "financial crisis",
+        "retrieved_count": 2,
+        "relevant_count": 3,
+        "retrieved_relevant_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "retrieved_docs": [
+          1746,
+          1806
+        ],
+        "relevant_docs": [
+          8,
+          12,
+          15
+        ]
+      },
+      {
+        "query_id": "Q9",
+        "query": "education AND school",
+        "retrieved_count": 20,
+        "relevant_count": 3,
+        "retrieved_relevant_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "retrieved_docs": [
+          154,
+          7,
+          250,
+          382,
+          143,
+          355,
+          311,
+          142,
+          417,
+          1502
+        ],
+        "relevant_docs": [
+          18,
+          22,
+          25
+        ]
+      },
+      {
+        "query_id": "Q10",
+        "query": "health care",
+        "retrieved_count": 19,
+        "relevant_count": 3,
+        "retrieved_relevant_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "retrieved_docs": [
+          1717,
+          350,
+          85,
+          2177,
+          1168,
+          1728,
+          1397,
+          2030,
+          6,
+          191
+        ],
+        "relevant_docs": [
+          28,
+          32,
+          35
+        ]
+      }
+    ],
+    "summary": {
+      "mean_average_precision": 0.01,
+      "mean_average_recall": 0.039285714285714285,
+      "mean_average_f1": 0.015740740740740743,
+      "total_queries_evaluated": 10
+    },
+    "timestamp": "2025-08-25 12:46:04"
+  },
+  "recommendations": [
+    "🚀 Cache molto efficace (50.0x speedup) - implementa in produzione",
+    "🎯 Precision bassa - ottimizza ranking e query processing",
+    "🔍 Recall basso - migliora copertura indici full-text",
+    "📊 Implementa monitoraggio continuo delle performance",
+    "🔄 Pianifica benchmark regolari dopo modifiche",
+    "⚙️ Considera ottimizzazione parametri PostgreSQL",
+    "📈 Valuta implementazione sistema di ranking personalizzato"
+  ]
+}

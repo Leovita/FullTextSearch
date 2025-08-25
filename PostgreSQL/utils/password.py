@@ -1,1 +1,1 @@
-PASSWORD = "your_password"
+PASSWORD = "Ak4l1l0v3r"
