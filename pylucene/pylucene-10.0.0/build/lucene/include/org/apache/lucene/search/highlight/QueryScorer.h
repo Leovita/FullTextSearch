@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         namespace highlight {
-          class Scorer;
-          class WeightedSpanTerm;
           class TextFragment;
+          class WeightedSpanTerm;
+          class Scorer;
         }
+        class Query;
       }
       namespace index {
         class IndexReader;
@@ -24,12 +24,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -43,25 +43,25 @@ namespace org {
           class QueryScorer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_f1dfb734d35ab572,
-              mid_init$_d7278af460a7b96a,
-              mid_init$_8848e7ccd8e9c62a,
-              mid_init$_4fe2c86dff5aeb77,
-              mid_init$_9d3535bfda97f8a3,
-              mid_init$_fa925986901b66c6,
-              mid_getFragmentScore_9b6c3480dac00edf,
-              mid_getMaxTermWeight_9b6c3480dac00edf,
-              mid_getTokenScore_9b6c3480dac00edf,
-              mid_getWeightedSpanTerm_88a2e314a1b4b210,
-              mid_init_2ec4d1726b35d478,
-              mid_isExpandMultiTermQuery_947277eca0748c4e,
-              mid_isUsePayloads_947277eca0748c4e,
-              mid_setExpandMultiTermQuery_b110fc3a58c081ab,
-              mid_setMaxDocCharsToAnalyze_540b2b23d51b1efd,
-              mid_setUsePayloads_b110fc3a58c081ab,
-              mid_setWrapIfNotCachingTokenFilter_b110fc3a58c081ab,
-              mid_startFragment_bc0317ca0a60e657,
-              mid_newTermExtractor_53c5fcb4e5963d37,
+              mid_init$_192a5998e9bee925,
+              mid_init$_a28ff1cdbaf0bf6c,
+              mid_init$_9421654d65af6edf,
+              mid_init$_2aa00155ebd16955,
+              mid_init$_bf3dd050cd3f66a0,
+              mid_init$_c04814cc687a2d6e,
+              mid_getFragmentScore_8b62236f0e4d0dbc,
+              mid_getMaxTermWeight_8b62236f0e4d0dbc,
+              mid_getTokenScore_8b62236f0e4d0dbc,
+              mid_getWeightedSpanTerm_d900b7d165d35c37,
+              mid_init_f3e050e998938273,
+              mid_isExpandMultiTermQuery_9aa4f33e82ea333f,
+              mid_isUsePayloads_9aa4f33e82ea333f,
+              mid_setExpandMultiTermQuery_f5dd97eebf6a215a,
+              mid_setMaxDocCharsToAnalyze_8226bd0b0fc13dba,
+              mid_setUsePayloads_f5dd97eebf6a215a,
+              mid_setWrapIfNotCachingTokenFilter_f5dd97eebf6a215a,
+              mid_startFragment_f36ca6b77c71a3d9,
+              mid_newTermExtractor_ba0aee457cdda440,
               max_mid
             };
 

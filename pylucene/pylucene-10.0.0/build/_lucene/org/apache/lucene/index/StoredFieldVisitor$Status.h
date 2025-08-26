@@ -28,8 +28,8 @@ namespace org {
         class StoredFieldVisitor$Status : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_39e2a5372e47200c,
-            mid_values_28ba42e756d5d790,
+            mid_valueOf_3ab7d4c358ba75f8,
+            mid_values_eda51085e0c747d4,
             max_mid
           };
 

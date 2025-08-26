@@ -28,9 +28,9 @@ namespace org {
         class FacetField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_c16980b675f9738f,
-            mid_toString_09a7afff1868fc5e,
-            mid_verifyLabel_0d82408c6e55bc30,
+            mid_init$_4c0d457b1588985f,
+            mid_toString_e7df854526d67fa3,
+            mid_verifyLabel_ee46a189998009d6,
             max_mid
           };
 

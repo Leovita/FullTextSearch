@@ -30,11 +30,11 @@ namespace org {
           class LRUHashMap : public ::java::util::LinkedHashMap {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_clone_c4c6196975adb0a2,
-              mid_getMaxSize_20fbf7565993c3d7,
-              mid_setMaxSize_540b2b23d51b1efd,
-              mid_removeEldestEntry_b87cc2a77fb3efd1,
+              mid_init$_8226bd0b0fc13dba,
+              mid_clone_98bbe4537a24ef3f,
+              mid_getMaxSize_bd89ce15dad49192,
+              mid_setMaxSize_8226bd0b0fc13dba,
+              mid_removeEldestEntry_51ce039b19365325,
               max_mid
             };
 

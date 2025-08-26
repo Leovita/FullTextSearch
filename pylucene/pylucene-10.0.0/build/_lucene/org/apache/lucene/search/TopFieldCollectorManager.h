@@ -7,25 +7,25 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Sort;
-        class FieldDoc;
-        class CollectorManager;
-        class TopFieldDocs;
         class TopFieldCollector;
+        class TopFieldDocs;
+        class FieldDoc;
+        class Sort;
+        class CollectorManager;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class List;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -38,12 +38,12 @@ namespace org {
         class TopFieldCollectorManager : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_44e666c68b741aad,
-            mid_init$_a159a4109111ac92,
-            mid_init$_4cd2517c79142b57,
-            mid_getCollectors_36830460e10839eb,
-            mid_newCollector_ac1b40519f46310d,
-            mid_reduce_f140638060f9632c,
+            mid_init$_0fc7a1388a7e625b,
+            mid_init$_3d4b0c0789ad27a3,
+            mid_init$_166c659f22cfe178,
+            mid_getCollectors_1387e1e2702ac173,
+            mid_newCollector_7a01224a232cd87c,
+            mid_reduce_88adba6e169c6456,
             max_mid
           };
 

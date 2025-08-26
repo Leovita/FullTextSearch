@@ -3,14 +3,6 @@
 
 #include "org/antlr/v4/runtime/atn/SemanticContext.h"
 
-namespace java {
-  namespace lang {
-    class Comparable;
-    class Class;
-    class String;
-    class Object;
-  }
-}
 namespace org {
   namespace antlr {
     namespace v4 {
@@ -24,6 +16,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+    class Comparable;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -35,13 +35,13 @@ namespace org {
           class SemanticContext$PrecedencePredicate : public ::org::antlr::v4::runtime::atn::SemanticContext {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_compareTo_26e5bb05692a12d5,
-              mid_equals_570b5248a6da3ef6,
-              mid_eval_2f6604bbbd626ce3,
-              mid_evalPrecedence_626336ee8a08c066,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_8226bd0b0fc13dba,
+              mid_compareTo_24446ea626728a4e,
+              mid_equals_00d17418847797d4,
+              mid_eval_577846bdd15b33d8,
+              mid_evalPrecedence_320f4f475411693d,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -7,12 +7,12 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class CharStream;
         namespace atn {
-          class ATN;
           class LexerATNSimulator;
+          class ATN;
         }
         class Lexer;
+        class CharStream;
       }
     }
   }
@@ -34,33 +34,33 @@ namespace org {
           class LexerATNSimulator : public ::org::antlr::v4::runtime::atn::ATNSimulator {
            public:
             enum {
-              mid_clearDFA_3720c61b0679eb3e,
-              mid_consume_4d3fc62038ae73ec,
-              mid_copyState_e454e5aba5dc644f,
-              mid_getCharPositionInLine_20fbf7565993c3d7,
-              mid_getLine_20fbf7565993c3d7,
-              mid_getText_39e8c9c1fd82927b,
-              mid_getTokenName_cd8436557ab831f9,
-              mid_match_ffc671cfc0f0bc94,
-              mid_reset_3720c61b0679eb3e,
-              mid_setCharPositionInLine_540b2b23d51b1efd,
-              mid_setLine_540b2b23d51b1efd,
-              mid_getExistingTargetState_921945ff8f30a545,
-              mid_computeTargetState_43da49cba1060e13,
-              mid_execATN_502887b793079899,
-              mid_computeStartState_ced8467f8ec33fd3,
-              mid_getReachableTarget_23bdb8817045ffec,
-              mid_getEpsilonTarget_dc1fe48242bb7cda,
-              mid_addDFAEdge_e1dc52fd322d25a5,
-              mid_addDFAEdge_5f46a33733047e4b,
-              mid_addDFAState_283e23c341a39258,
-              mid_matchATN_f2e5621661cba8da,
-              mid_failOrAccept_981810e10bc022c8,
-              mid_getReachableConfigSet_7de50beed3c56417,
-              mid_evaluatePredicate_91ec85596161cb9d,
-              mid_captureSimState_389dab788e20d405,
-              mid_accept_1688fcfec2cfe118,
-              mid_closure_a6bec957908fb1fc,
+              mid_clearDFA_e7bdbe105ce1bafb,
+              mid_consume_dd3882a10cadcfaa,
+              mid_copyState_b3716a37d11cbcdf,
+              mid_getCharPositionInLine_bd89ce15dad49192,
+              mid_getLine_bd89ce15dad49192,
+              mid_getText_c8ab61c4011c909c,
+              mid_getTokenName_0da8f0b89b1e9a22,
+              mid_match_2c9010534cc51578,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setCharPositionInLine_8226bd0b0fc13dba,
+              mid_setLine_8226bd0b0fc13dba,
+              mid_matchATN_e4c6f9ea7abf5d36,
+              mid_execATN_0f8ad031a7506dd6,
+              mid_getExistingTargetState_52ede4f51e49b0e1,
+              mid_computeTargetState_9a7b401c5af8f08d,
+              mid_failOrAccept_b8c26832dfe4cdb2,
+              mid_getReachableConfigSet_f2d3710432262f86,
+              mid_getReachableTarget_190f35e22543d107,
+              mid_computeStartState_d02406fd31b18529,
+              mid_getEpsilonTarget_fc4dc32af4435fcb,
+              mid_evaluatePredicate_39b1325315d46b46,
+              mid_captureSimState_ee4924090bc5f8b3,
+              mid_addDFAEdge_376623fef84fb544,
+              mid_addDFAEdge_975a120f8235cbfc,
+              mid_addDFAState_56a586a9685d7899,
+              mid_accept_971f35de3b3646a5,
+              mid_closure_e83c26c1d695aa5e,
               max_mid
             };
 

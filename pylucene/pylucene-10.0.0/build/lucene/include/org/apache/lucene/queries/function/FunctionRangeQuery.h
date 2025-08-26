@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
-        class Weight;
         class IndexSearcher;
+        class QueryVisitor;
+        class Weight;
       }
       namespace queries {
         namespace function {
@@ -22,10 +22,10 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class Class;
-    class String;
-    class Number;
     class Object;
+    class Class;
+    class Number;
+    class String;
   }
   namespace io {
     class IOException;
@@ -42,18 +42,18 @@ namespace org {
           class FunctionRangeQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_init$_e4f6c833f6cb1c34,
-              mid_init$_f52995fc36b099b9,
-              mid_createWeight_77fe52950093e704,
-              mid_equals_570b5248a6da3ef6,
-              mid_getLowerVal_09a7afff1868fc5e,
-              mid_getUpperVal_09a7afff1868fc5e,
-              mid_getValueSource_7ac7f4aead9d4416,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isIncludeLower_947277eca0748c4e,
-              mid_isIncludeUpper_947277eca0748c4e,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_b5c09e08a098c196,
+              mid_init$_fbe7dcd2a3f3e417,
+              mid_createWeight_dc54d493278607e4,
+              mid_equals_00d17418847797d4,
+              mid_getLowerVal_e7df854526d67fa3,
+              mid_getUpperVal_e7df854526d67fa3,
+              mid_getValueSource_60e3d6394e3f177c,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isIncludeLower_9aa4f33e82ea333f,
+              mid_isIncludeUpper_9aa4f33e82ea333f,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class BooleanClause$Occur;
+        class Query;
       }
       namespace analysis {
         class Analyzer;
@@ -32,35 +32,35 @@ namespace org {
         class QueryBuilder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_07cd0f76cabcf75a,
-            mid_createBooleanQuery_9c67907ed0ac8b67,
-            mid_createBooleanQuery_1d575fec14991bb3,
-            mid_createMinShouldMatchQuery_afdd0007c4927190,
-            mid_createPhraseQuery_9c67907ed0ac8b67,
-            mid_createPhraseQuery_bf6a5f4bf27919ae,
-            mid_getAnalyzer_6755ba003d984513,
-            mid_getAutoGenerateMultiTermSynonymsPhraseQuery_947277eca0748c4e,
-            mid_getEnableGraphQueries_947277eca0748c4e,
-            mid_getEnablePositionIncrements_947277eca0748c4e,
-            mid_setAnalyzer_07cd0f76cabcf75a,
-            mid_setAutoGenerateMultiTermSynonymsPhraseQuery_b110fc3a58c081ab,
-            mid_setEnableGraphQueries_b110fc3a58c081ab,
-            mid_setEnablePositionIncrements_b110fc3a58c081ab,
-            mid_analyzeTerm_f4507eac21fef8da,
-            mid_analyzeGraphPhrase_d8a5c2a645ae5b57,
-            mid_analyzeGraphBoolean_3a3586ac6f4a5915,
-            mid_analyzeMultiPhrase_47b0066d3cc9f726,
-            mid_analyzePhrase_47b0066d3cc9f726,
-            mid_analyzeBoolean_f4507eac21fef8da,
-            mid_analyzeMultiBoolean_3a3586ac6f4a5915,
-            mid_newTermQuery_526dfe420434a962,
-            mid_newSynonymQuery_df67e7b99804a73c,
-            mid_newMultiPhraseQueryBuilder_89344691f7c712f2,
-            mid_newGraphSynonymQuery_93fd1e9e11dfd100,
-            mid_newBooleanQuery_3cf10685dab365aa,
-            mid_createFieldQuery_1f09db2030fa1ba6,
-            mid_createFieldQuery_1fb8846fbffec0ef,
-            mid_add_ab184fccf5c367d8,
+            mid_init$_1aaca852402a5069,
+            mid_createBooleanQuery_550dcf54034665c0,
+            mid_createBooleanQuery_aaf63fb4b05bfdc7,
+            mid_createMinShouldMatchQuery_5aabae9afa99de9b,
+            mid_createPhraseQuery_550dcf54034665c0,
+            mid_createPhraseQuery_964b0b3626756a89,
+            mid_getAnalyzer_7bc9b23f56937752,
+            mid_getAutoGenerateMultiTermSynonymsPhraseQuery_9aa4f33e82ea333f,
+            mid_getEnableGraphQueries_9aa4f33e82ea333f,
+            mid_getEnablePositionIncrements_9aa4f33e82ea333f,
+            mid_setAnalyzer_1aaca852402a5069,
+            mid_setAutoGenerateMultiTermSynonymsPhraseQuery_f5dd97eebf6a215a,
+            mid_setEnableGraphQueries_f5dd97eebf6a215a,
+            mid_setEnablePositionIncrements_f5dd97eebf6a215a,
+            mid_newSynonymQuery_d2e98e1358c7ca9c,
+            mid_newTermQuery_4f5fd3e6026f769f,
+            mid_newMultiPhraseQueryBuilder_700bfa64cd5ce84c,
+            mid_newGraphSynonymQuery_7e1d2c391d9c07a4,
+            mid_newBooleanQuery_5d4fe1bba074f5ec,
+            mid_createFieldQuery_6845f5dfeef9580e,
+            mid_createFieldQuery_c80b8755948b589f,
+            mid_analyzeTerm_1acf485a3124c86e,
+            mid_analyzeGraphPhrase_191c0c712230e104,
+            mid_analyzeGraphBoolean_5bac8b807e05f6fb,
+            mid_analyzeMultiPhrase_014c4df0d3174e20,
+            mid_analyzePhrase_014c4df0d3174e20,
+            mid_analyzeBoolean_1acf485a3124c86e,
+            mid_analyzeMultiBoolean_5bac8b807e05f6fb,
+            mid_add_98f87e73e9e1f8cc,
             max_mid
           };
 

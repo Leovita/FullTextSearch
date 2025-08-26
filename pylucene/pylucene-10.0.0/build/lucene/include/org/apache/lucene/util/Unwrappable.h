@@ -18,8 +18,8 @@ namespace org {
         class Unwrappable : public ::java::lang::Object {
          public:
           enum {
-            mid_unwrap_5655ed8670534604,
-            mid_unwrapAll_5fd81664d2d475e1,
+            mid_unwrap_4819806f62f1360a,
+            mid_unwrapAll_e2c45b124c12f4ec,
             max_mid
           };
 

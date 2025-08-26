@@ -28,7 +28,7 @@ namespace org {
           class LowerCaseFilter : public ::org::apache::lucene::analysis::LowerCaseFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
+              mid_init$_4fe096967a533954,
               max_mid
             };
 

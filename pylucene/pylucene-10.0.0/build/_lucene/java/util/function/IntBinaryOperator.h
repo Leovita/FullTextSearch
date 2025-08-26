@@ -17,7 +17,7 @@ namespace java {
       class IntBinaryOperator : public ::java::lang::Object {
        public:
         enum {
-          mid_applyAsInt_7f733b5d08bb5ec4,
+          mid_applyAsInt_7f27cf81a85a97e9,
           max_mid
         };
 

@@ -5,14 +5,14 @@
 
 namespace java {
   namespace util {
-    class SequencedCollection;
     class Iterator;
-    class Collection;
     class Deque;
+    class SequencedCollection;
+    class Collection;
   }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -23,35 +23,35 @@ namespace java {
     class Deque : public ::java::util::Queue {
      public:
       enum {
-        mid_add_570b5248a6da3ef6,
-        mid_addAll_f2a1f31c5865e20d,
-        mid_addFirst_eb61ef4d1db15d08,
-        mid_addLast_eb61ef4d1db15d08,
-        mid_contains_570b5248a6da3ef6,
-        mid_descendingIterator_0db4c76ff7ee995b,
-        mid_element_5655ed8670534604,
-        mid_getFirst_5655ed8670534604,
-        mid_getLast_5655ed8670534604,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_offer_570b5248a6da3ef6,
-        mid_offerFirst_570b5248a6da3ef6,
-        mid_offerLast_570b5248a6da3ef6,
-        mid_peek_5655ed8670534604,
-        mid_peekFirst_5655ed8670534604,
-        mid_peekLast_5655ed8670534604,
-        mid_poll_5655ed8670534604,
-        mid_pollFirst_5655ed8670534604,
-        mid_pollLast_5655ed8670534604,
-        mid_pop_5655ed8670534604,
-        mid_push_eb61ef4d1db15d08,
-        mid_remove_5655ed8670534604,
-        mid_remove_570b5248a6da3ef6,
-        mid_removeFirst_5655ed8670534604,
-        mid_removeFirstOccurrence_570b5248a6da3ef6,
-        mid_removeLast_5655ed8670534604,
-        mid_removeLastOccurrence_570b5248a6da3ef6,
-        mid_reversed_87b9d836199f85bf,
-        mid_size_20fbf7565993c3d7,
+        mid_add_00d17418847797d4,
+        mid_addAll_155d0ed876869448,
+        mid_addFirst_501c3eb890ff6d79,
+        mid_addLast_501c3eb890ff6d79,
+        mid_contains_00d17418847797d4,
+        mid_descendingIterator_c7985fafdcf40e83,
+        mid_element_4819806f62f1360a,
+        mid_getFirst_4819806f62f1360a,
+        mid_getLast_4819806f62f1360a,
+        mid_iterator_c7985fafdcf40e83,
+        mid_offer_00d17418847797d4,
+        mid_offerFirst_00d17418847797d4,
+        mid_offerLast_00d17418847797d4,
+        mid_peek_4819806f62f1360a,
+        mid_peekFirst_4819806f62f1360a,
+        mid_peekLast_4819806f62f1360a,
+        mid_poll_4819806f62f1360a,
+        mid_pollFirst_4819806f62f1360a,
+        mid_pollLast_4819806f62f1360a,
+        mid_pop_4819806f62f1360a,
+        mid_push_501c3eb890ff6d79,
+        mid_remove_4819806f62f1360a,
+        mid_remove_00d17418847797d4,
+        mid_removeFirst_4819806f62f1360a,
+        mid_removeFirstOccurrence_00d17418847797d4,
+        mid_removeLast_4819806f62f1360a,
+        mid_removeLastOccurrence_00d17418847797d4,
+        mid_reversed_7b57eff2d776489c,
+        mid_size_bd89ce15dad49192,
         max_mid
       };
 

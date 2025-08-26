@@ -4,12 +4,12 @@
 #include "java/util/Collection.h"
 
 namespace java {
-  namespace util {
-    class SequencedCollection;
-  }
   namespace lang {
     class Object;
     class Class;
+  }
+  namespace util {
+    class SequencedCollection;
   }
 }
 template<class T> class JArray;
@@ -20,13 +20,13 @@ namespace java {
     class SequencedCollection : public ::java::util::Collection {
      public:
       enum {
-        mid_addFirst_eb61ef4d1db15d08,
-        mid_addLast_eb61ef4d1db15d08,
-        mid_getFirst_5655ed8670534604,
-        mid_getLast_5655ed8670534604,
-        mid_removeFirst_5655ed8670534604,
-        mid_removeLast_5655ed8670534604,
-        mid_reversed_4fed86e29a000aaa,
+        mid_addFirst_501c3eb890ff6d79,
+        mid_addLast_501c3eb890ff6d79,
+        mid_getFirst_4819806f62f1360a,
+        mid_getLast_4819806f62f1360a,
+        mid_removeFirst_4819806f62f1360a,
+        mid_removeLast_4819806f62f1360a,
+        mid_reversed_f20e1cbf97be816c,
         max_mid
       };
 

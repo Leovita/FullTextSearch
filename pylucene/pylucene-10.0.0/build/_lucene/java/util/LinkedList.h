@@ -6,16 +6,16 @@
 namespace java {
   namespace util {
     class Iterator;
-    class LinkedList;
-    class Collection;
-    class ListIterator;
-    class Spliterator;
     class Deque;
+    class ListIterator;
+    class Collection;
+    class Spliterator;
+    class LinkedList;
   }
   namespace lang {
-    class Class;
     class Cloneable;
     class Object;
+    class Class;
   }
   namespace io {
     class Serializable;
@@ -29,49 +29,49 @@ namespace java {
     class LinkedList : public ::java::util::AbstractSequentialList {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_40eba2cff967cc45,
-        mid_add_570b5248a6da3ef6,
-        mid_add_45daa0687d5df9b5,
-        mid_addAll_f2a1f31c5865e20d,
-        mid_addAll_30cee388a7b048af,
-        mid_addFirst_eb61ef4d1db15d08,
-        mid_addLast_eb61ef4d1db15d08,
-        mid_clear_3720c61b0679eb3e,
-        mid_clone_5655ed8670534604,
-        mid_contains_570b5248a6da3ef6,
-        mid_descendingIterator_0db4c76ff7ee995b,
-        mid_element_5655ed8670534604,
-        mid_get_eb7eace67c4a21fd,
-        mid_getFirst_5655ed8670534604,
-        mid_getLast_5655ed8670534604,
-        mid_indexOf_657656e6a597f732,
-        mid_lastIndexOf_657656e6a597f732,
-        mid_listIterator_c5b65026385ab4af,
-        mid_offer_570b5248a6da3ef6,
-        mid_offerFirst_570b5248a6da3ef6,
-        mid_offerLast_570b5248a6da3ef6,
-        mid_peek_5655ed8670534604,
-        mid_peekFirst_5655ed8670534604,
-        mid_peekLast_5655ed8670534604,
-        mid_poll_5655ed8670534604,
-        mid_pollFirst_5655ed8670534604,
-        mid_pollLast_5655ed8670534604,
-        mid_pop_5655ed8670534604,
-        mid_push_eb61ef4d1db15d08,
-        mid_remove_5655ed8670534604,
-        mid_remove_eb7eace67c4a21fd,
-        mid_remove_570b5248a6da3ef6,
-        mid_removeFirst_5655ed8670534604,
-        mid_removeFirstOccurrence_570b5248a6da3ef6,
-        mid_removeLast_5655ed8670534604,
-        mid_removeLastOccurrence_570b5248a6da3ef6,
-        mid_reversed_18ad2615a289b7c9,
-        mid_set_b84ce9d3b2137b5e,
-        mid_size_20fbf7565993c3d7,
-        mid_spliterator_eebbc9cffa204672,
-        mid_toArray_e6b839682a4610a6,
-        mid_toArray_1794d6b866766560,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_b5398b431eb321fb,
+        mid_add_00d17418847797d4,
+        mid_add_09375f3fd0a3af05,
+        mid_addAll_155d0ed876869448,
+        mid_addAll_6a33d3084931e945,
+        mid_addFirst_501c3eb890ff6d79,
+        mid_addLast_501c3eb890ff6d79,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_clone_4819806f62f1360a,
+        mid_contains_00d17418847797d4,
+        mid_descendingIterator_c7985fafdcf40e83,
+        mid_element_4819806f62f1360a,
+        mid_get_2a2d7d7b9153274c,
+        mid_getFirst_4819806f62f1360a,
+        mid_getLast_4819806f62f1360a,
+        mid_indexOf_3b738b91667a06c2,
+        mid_lastIndexOf_3b738b91667a06c2,
+        mid_listIterator_a1b8e40853ea22b0,
+        mid_offer_00d17418847797d4,
+        mid_offerFirst_00d17418847797d4,
+        mid_offerLast_00d17418847797d4,
+        mid_peek_4819806f62f1360a,
+        mid_peekFirst_4819806f62f1360a,
+        mid_peekLast_4819806f62f1360a,
+        mid_poll_4819806f62f1360a,
+        mid_pollFirst_4819806f62f1360a,
+        mid_pollLast_4819806f62f1360a,
+        mid_pop_4819806f62f1360a,
+        mid_push_501c3eb890ff6d79,
+        mid_remove_4819806f62f1360a,
+        mid_remove_2a2d7d7b9153274c,
+        mid_remove_00d17418847797d4,
+        mid_removeFirst_4819806f62f1360a,
+        mid_removeFirstOccurrence_00d17418847797d4,
+        mid_removeLast_4819806f62f1360a,
+        mid_removeLastOccurrence_00d17418847797d4,
+        mid_reversed_99c1b12922548bb8,
+        mid_set_c8f65d2ef44d5c7c,
+        mid_size_bd89ce15dad49192,
+        mid_spliterator_fd118e26a3de79e6,
+        mid_toArray_1e688954528bc160,
+        mid_toArray_0b4a993b49b6d8e8,
         max_mid
       };
 

@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/StopwordAnalyzerBase.h"
 
-namespace java {
-  namespace io {
-    class Reader;
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class CharArraySet;
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class Reader;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,13 +32,13 @@ namespace org {
           class StandardAnalyzer : public ::org::apache::lucene::analysis::StopwordAnalyzerBase {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_dabfba64ef3a59b5,
-              mid_init$_fa55492f0f5d7f31,
-              mid_getMaxTokenLength_20fbf7565993c3d7,
-              mid_setMaxTokenLength_540b2b23d51b1efd,
-              mid_createComponents_f774fffda992519d,
-              mid_normalize_9793d650e44fa07f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_e214f28c42bbd933,
+              mid_init$_89ab2bee9aa84b00,
+              mid_getMaxTokenLength_bd89ce15dad49192,
+              mid_setMaxTokenLength_8226bd0b0fc13dba,
+              mid_createComponents_b734244e69a6c631,
+              mid_normalize_6c106c857ee0afd1,
               max_mid
             };
 

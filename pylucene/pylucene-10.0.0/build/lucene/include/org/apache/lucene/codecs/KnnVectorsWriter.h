@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace index {
         class MergeState;
-        class FieldInfo;
-        class DocsWithFieldSet;
         class Sorter$DocMap;
+        class DocsWithFieldSet;
+        class FieldInfo;
       }
       namespace util {
         class Accountable;
@@ -23,8 +23,8 @@ namespace org {
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -40,12 +40,12 @@ namespace org {
         class KnnVectorsWriter : public ::java::lang::Object {
          public:
           enum {
-            mid_addField_be5be518afaa3c4d,
-            mid_finish_3720c61b0679eb3e,
-            mid_flush_43b4ee6199cecfbf,
-            mid_mapOldOrdToNewOrd_9dcc80fb1e977ec4,
-            mid_merge_1d534d5055fd8b5a,
-            mid_mergeOneField_12bd7baeb6b4bf04,
+            mid_addField_745312302c5f11e8,
+            mid_finish_e7bdbe105ce1bafb,
+            mid_flush_fc9730fbac8271d5,
+            mid_mapOldOrdToNewOrd_f8b2d9d190ea8fef,
+            mid_merge_b7f5b82c43646887,
+            mid_mergeOneField_6efd9d341cba2a34,
             max_mid
           };
 

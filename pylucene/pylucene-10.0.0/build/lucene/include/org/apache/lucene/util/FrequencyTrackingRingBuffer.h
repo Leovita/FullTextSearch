@@ -27,10 +27,10 @@ namespace org {
         class FrequencyTrackingRingBuffer : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_e13cff512ebda969,
-            mid_add_540b2b23d51b1efd,
-            mid_frequency_3c9bba330f083871,
-            mid_ramBytesUsed_16939d9d0a9a9721,
+            mid_init$_645c25455f5b9b1c,
+            mid_add_8226bd0b0fc13dba,
+            mid_frequency_a3904e10f5bb9437,
+            mid_ramBytesUsed_0f176418e3e16541,
             max_mid
           };
 

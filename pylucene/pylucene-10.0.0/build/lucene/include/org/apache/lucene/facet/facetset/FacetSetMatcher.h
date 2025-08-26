@@ -20,7 +20,7 @@ namespace org {
           class FacetSetMatcher : public ::java::lang::Object {
            public:
             enum {
-              mid_matches_287940c60e46342c,
+              mid_matches_7ded1ec63264c3c1,
               max_mid
             };
 

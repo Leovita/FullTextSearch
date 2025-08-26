@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class ScoreMode;
+        class IndexSearcher;
         class Query;
         class QueryVisitor;
-        class ScoreMode;
         class Weight;
-        class IndexSearcher;
       }
     }
   }
@@ -35,16 +35,16 @@ namespace org {
         class Query : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_toString_09a7afff1868fc5e,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
-            mid_classHash_20fbf7565993c3d7,
-            mid_sameClassAs_570b5248a6da3ef6,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_toString_e7df854526d67fa3,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
+            mid_sameClassAs_00d17418847797d4,
+            mid_classHash_bd89ce15dad49192,
             max_mid
           };
 

@@ -21,11 +21,11 @@ namespace org {
               class FuzzyConfig : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_getMinSimilarity_9b6c3480dac00edf,
-                  mid_getPrefixLength_20fbf7565993c3d7,
-                  mid_setMinSimilarity_c771a95b0227fb6a,
-                  mid_setPrefixLength_540b2b23d51b1efd,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_getMinSimilarity_8b62236f0e4d0dbc,
+                  mid_getPrefixLength_bd89ce15dad49192,
+                  mid_setMinSimilarity_675f4cb9a2529ee0,
+                  mid_setPrefixLength_8226bd0b0fc13dba,
                   max_mid
                 };
 

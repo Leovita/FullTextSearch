@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class CharSequence;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -25,6 +19,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class CharSequence;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -38,7 +38,7 @@ namespace org {
               class SyntaxParser : public ::java::lang::Object {
                public:
                 enum {
-                  mid_parse_47ae7defeafa3cb7,
+                  mid_parse_e78d57446f1c745f,
                   max_mid
                 };
 

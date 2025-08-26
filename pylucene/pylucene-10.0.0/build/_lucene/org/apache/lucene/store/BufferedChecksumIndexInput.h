@@ -4,12 +4,12 @@
 #include "org/apache/lucene/store/ChecksumIndexInput.h"
 
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace io {
-    class IOException;
   }
 }
 namespace org {
@@ -31,15 +31,15 @@ namespace org {
         class BufferedChecksumIndexInput : public ::org::apache::lucene::store::ChecksumIndexInput {
          public:
           enum {
-            mid_init$_5d631c4d88317d46,
-            mid_clone_69ff96f993716366,
-            mid_close_3720c61b0679eb3e,
-            mid_getChecksum_16939d9d0a9a9721,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_length_16939d9d0a9a9721,
-            mid_readByte_847674f430f49e4c,
-            mid_readBytes_5fdd5da9426708e6,
-            mid_slice_4c0286d0c02e55b3,
+            mid_init$_a302e4ca19bb6bc3,
+            mid_clone_1107977def75ee66,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getChecksum_0f176418e3e16541,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_length_0f176418e3e16541,
+            mid_readByte_1456044a01a5c9bf,
+            mid_readBytes_116f7fcb5bff0f39,
+            mid_slice_fa5539b2c5f0192d,
             max_mid
           };
 

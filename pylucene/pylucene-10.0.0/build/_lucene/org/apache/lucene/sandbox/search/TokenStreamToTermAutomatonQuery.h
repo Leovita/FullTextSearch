@@ -15,13 +15,13 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class TokenStream;
+      }
       namespace sandbox {
         namespace search {
           class TermAutomatonQuery;
         }
-      }
-      namespace analysis {
-        class TokenStream;
       }
     }
   }
@@ -37,9 +37,9 @@ namespace org {
           class TokenStreamToTermAutomatonQuery : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_setPreservePositionIncrements_b110fc3a58c081ab,
-              mid_toQuery_943575705274a9ab,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_setPreservePositionIncrements_f5dd97eebf6a215a,
+              mid_toQuery_158f8061f11d3693,
               max_mid
             };
 

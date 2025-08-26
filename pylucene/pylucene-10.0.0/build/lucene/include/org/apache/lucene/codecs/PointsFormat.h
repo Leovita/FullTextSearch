@@ -6,24 +6,24 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class PointsFormat;
-        class PointsReader;
-        class PointsWriter;
-      }
       namespace index {
         class SegmentReadState;
         class SegmentWriteState;
+      }
+      namespace codecs {
+        class PointsReader;
+        class PointsFormat;
+        class PointsWriter;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -36,8 +36,8 @@ namespace org {
         class PointsFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_fieldsReader_2cb00384dee16cea,
-            mid_fieldsWriter_47318676b0878844,
+            mid_fieldsReader_b76720d7b0d5e57b,
+            mid_fieldsWriter_5ceea1c6eebefb67,
             max_mid
           };
 

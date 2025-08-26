@@ -6,17 +6,17 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class DocValuesFormat;
-        class DocValuesProducer;
-        class DocValuesConsumer;
-      }
-      namespace util {
-        class NamedSPILoader$NamedSPI;
-      }
       namespace index {
         class SegmentReadState;
         class SegmentWriteState;
+      }
+      namespace codecs {
+        class DocValuesConsumer;
+        class DocValuesFormat;
+        class DocValuesProducer;
+      }
+      namespace util {
+        class NamedSPILoader$NamedSPI;
       }
     }
   }
@@ -44,13 +44,13 @@ namespace org {
         class DocValuesFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_availableDocValuesFormats_4df174295554d7bd,
-            mid_fieldsConsumer_d0fc0c4688b977ff,
-            mid_fieldsProducer_4b11e7b79ec4a459,
-            mid_forName_97202d142f4d78a0,
-            mid_getName_09a7afff1868fc5e,
-            mid_reloadDocValuesFormats_7e882e12061eaf38,
-            mid_toString_09a7afff1868fc5e,
+            mid_availableDocValuesFormats_79131c6bbcf08916,
+            mid_fieldsConsumer_a45dfb1d405359ea,
+            mid_fieldsProducer_3a40b1af1475b985,
+            mid_forName_caba59d0f6dd2ac5,
+            mid_getName_e7df854526d67fa3,
+            mid_reloadDocValuesFormats_d603563f542d31ba,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

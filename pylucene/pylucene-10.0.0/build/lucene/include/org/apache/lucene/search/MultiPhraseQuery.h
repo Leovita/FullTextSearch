@@ -6,23 +6,23 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class ScoreMode;
+        class IndexSearcher;
+        class QueryVisitor;
+        class Weight;
+      }
       namespace index {
         class Term;
-      }
-      namespace search {
-        class QueryVisitor;
-        class ScoreMode;
-        class Weight;
-        class IndexSearcher;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -38,15 +38,15 @@ namespace org {
         class MultiPhraseQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_getPositions_623cd4a044ba647a,
-            mid_getSlop_20fbf7565993c3d7,
-            mid_getTermArrays_b5b9507dbd6fe6a4,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_getPositions_4b72a28a860ae838,
+            mid_getSlop_bd89ce15dad49192,
+            mid_getTermArrays_85e5393164af6d0d,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
             max_mid
           };
 

@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
+        class SegmentCommitInfo;
         class MergePolicy$MergeSpecification;
         class SegmentInfos;
-        class SegmentCommitInfo;
-        class MergePolicy$MergeContext;
         class CodecReader;
+        class MergePolicy$MergeContext;
         class MergeTrigger;
       }
       namespace util {
@@ -42,25 +42,25 @@ namespace org {
         class MergePolicy : public ::java::lang::Object {
          public:
           enum {
-            mid_findForcedDeletesMerges_7bfc14af8b38e726,
-            mid_findForcedMerges_d4963384c8456639,
-            mid_findFullFlushMerges_0275979aa5326fa2,
-            mid_findMerges_04bf92eb95442564,
-            mid_findMerges_0275979aa5326fa2,
-            mid_getMaxCFSSegmentSizeMB_32caabaad86c508b,
-            mid_getNoCFSRatio_32caabaad86c508b,
-            mid_keepFullyDeletedSegment_656ba708b162fe3d,
-            mid_numDeletesToMerge_764ee08fa6c8b00e,
-            mid_setMaxCFSSegmentSizeMB_b5bc1a2fb9ff9e90,
-            mid_setNoCFSRatio_b5bc1a2fb9ff9e90,
-            mid_useCompoundFile_97d5f0f86c190956,
-            mid_maxFullFlushMergeSize_16939d9d0a9a9721,
-            mid_assertDelCount_01be1b923251e768,
-            mid_isMerged_97d5f0f86c190956,
-            mid_segString_36bfe4082cfecff6,
-            mid_size_df03ba0154b74836,
-            mid_message_c1c0aeef574d361a,
-            mid_verbose_8952296e4fc73294,
+            mid_findForcedDeletesMerges_cd4e6143b01cb9a0,
+            mid_findForcedMerges_b54ded85c2bde575,
+            mid_findFullFlushMerges_6813602a04f57061,
+            mid_findMerges_4fbbcd7cd7f0ba5c,
+            mid_findMerges_6813602a04f57061,
+            mid_getMaxCFSSegmentSizeMB_6fb37e123fed7a1f,
+            mid_getNoCFSRatio_6fb37e123fed7a1f,
+            mid_keepFullyDeletedSegment_c40df34321e09510,
+            mid_numDeletesToMerge_3a22811d78d2c37d,
+            mid_setMaxCFSSegmentSizeMB_a03f734ddaeb69b4,
+            mid_setNoCFSRatio_a03f734ddaeb69b4,
+            mid_useCompoundFile_14b1e62c41caff89,
+            mid_maxFullFlushMergeSize_0f176418e3e16541,
+            mid_assertDelCount_2595125e3f28c66b,
+            mid_isMerged_14b1e62c41caff89,
+            mid_segString_ebd9889f9ec67039,
+            mid_size_4bcc685415af8b2d,
+            mid_message_d470a3580a83f698,
+            mid_verbose_77f1f11fde407016,
             max_mid
           };
 

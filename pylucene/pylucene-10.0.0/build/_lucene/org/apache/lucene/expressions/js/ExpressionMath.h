@@ -19,7 +19,7 @@ namespace org {
           class ExpressionMath : public ::java::lang::Object {
            public:
             enum {
-              mid_haversinKilometers_d4ea21cd79dbad71,
+              mid_haversinKilometers_3b7e25b0c0a0582d,
               max_mid
             };
 

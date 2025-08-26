@@ -18,7 +18,7 @@ namespace org {
         class UnicodeUtil$UTF8CodePoint : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
             max_mid
           };
 

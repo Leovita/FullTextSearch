@@ -3,6 +3,17 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/QueryNodeImpl.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+    class CharSequence;
+  }
+  namespace text {
+    class NumberFormat;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,17 +32,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class Number;
-  }
-  namespace text {
-    class NumberFormat;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -45,16 +45,16 @@ namespace org {
               class PointQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_08a1f453f638d49b,
-                  mid_getField_373f0038978f926b,
-                  mid_getNumberFormat_98badc23d3190d40,
-                  mid_getValue_1b3282bb4db06655,
-                  mid_setField_5ed8eb2e3024c663,
-                  mid_setNumberFormat_810368e518bc5e16,
-                  mid_setValue_87ffc007c701c5b4,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
-                  mid_getTermEscaped_d4d5dbebf21f5529,
+                  mid_init$_075ecf0ac1c33438,
+                  mid_getField_f2e5418fe0d66c69,
+                  mid_getNumberFormat_cae2d46e75202e5c,
+                  mid_getValue_b9665294ea488d3c,
+                  mid_setField_fe2ab7d27aa3fe1a,
+                  mid_setNumberFormat_72e1e9475236c1c8,
+                  mid_setValue_a01e288f5ff9f982,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
+                  mid_getTermEscaped_5260f1dc7a86fc8d,
                   max_mid
                 };
 

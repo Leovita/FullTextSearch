@@ -3,14 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +11,14 @@ namespace org {
         class SortedDocValues;
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,7 +31,7 @@ namespace org {
         class IndexSorter$SortedDocValuesProvider : public ::java::lang::Object {
          public:
           enum {
-            mid_get_88ef0ebcc16b8401,
+            mid_get_bde7fd5be89ace09,
             max_mid
           };
 

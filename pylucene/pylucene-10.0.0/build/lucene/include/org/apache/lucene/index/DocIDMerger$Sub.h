@@ -30,8 +30,8 @@ namespace org {
         class DocIDMerger$Sub : public ::java::lang::Object {
          public:
           enum {
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_nextMappedDoc_20fbf7565993c3d7,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_nextMappedDoc_bd89ce15dad49192,
             max_mid
           };
 

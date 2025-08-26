@@ -29,7 +29,7 @@ namespace org {
           class StopFilter : public ::org::apache::lucene::analysis::StopFilter {
            public:
             enum {
-              mid_init$_92e7098bbfc6f3de,
+              mid_init$_c584271ff3a78226,
               max_mid
             };
 

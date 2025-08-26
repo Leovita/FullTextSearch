@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
+        class MultiLongValuesSource;
         class MultiDoubleValuesSource;
         class MultiLongValues;
-        class MultiLongValuesSource;
       }
       namespace search {
-        class LongValuesSource;
         class SegmentCacheable;
+        class LongValuesSource;
       }
       namespace index {
         class LeafReaderContext;
@@ -22,12 +22,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,16 +40,16 @@ namespace org {
         class MultiLongValuesSource : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_equals_570b5248a6da3ef6,
-            mid_fromIntField_de85653cfd91d972,
-            mid_fromLongField_de85653cfd91d972,
-            mid_fromSingleValued_f58772a1bc02ff02,
-            mid_getValues_ac10d10eebbcd876,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toMultiDoubleValuesSource_222188429c91a840,
-            mid_toString_09a7afff1868fc5e,
-            mid_unwrapSingleton_2f08a78865c615b3,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_equals_00d17418847797d4,
+            mid_fromIntField_ee6ca37eb829599d,
+            mid_fromLongField_ee6ca37eb829599d,
+            mid_fromSingleValued_3f11c9d517d44f4c,
+            mid_getValues_99cf0978ec7e5dd3,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toMultiDoubleValuesSource_33007bef968aacf3,
+            mid_toString_e7df854526d67fa3,
+            mid_unwrapSingleton_0db0e966b46ec122,
             max_mid
           };
 

@@ -35,9 +35,9 @@ namespace org {
           class PersianStemFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_63abb054de6c8042,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_5871c5856cd21679,
               max_mid
             };
 

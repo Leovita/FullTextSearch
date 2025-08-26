@@ -21,8 +21,8 @@ namespace org {
         class ChecksumIndexInput : public ::org::apache::lucene::store::IndexInput {
          public:
           enum {
-            mid_getChecksum_16939d9d0a9a9721,
-            mid_seek_8b3d46852b435a94,
+            mid_getChecksum_0f176418e3e16541,
+            mid_seek_1d3149fac12f2af3,
             max_mid
           };
 

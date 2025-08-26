@@ -4,24 +4,24 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class Integer;
-    class Class;
-    class String;
-    class CharSequence;
-    class StringBuffer;
-    class StringBuilder;
-  }
   namespace util {
-    class Map;
     namespace regex {
+      class Pattern;
       class MatchResult;
       class Matcher;
-      class Pattern;
     }
     namespace function {
       class Function;
     }
+    class Map;
+  }
+  namespace lang {
+    class Class;
+    class Integer;
+    class StringBuilder;
+    class StringBuffer;
+    class String;
+    class CharSequence;
   }
 }
 template<class T> class JArray;
@@ -33,46 +33,46 @@ namespace java {
       class Matcher : public ::java::lang::Object {
        public:
         enum {
-          mid_appendReplacement_6768cbd48d4308c5,
-          mid_appendReplacement_b570cfb95bdd2440,
-          mid_appendTail_40e42e8f2152fd45,
-          mid_appendTail_ca543ab3a5860e70,
-          mid_end_20fbf7565993c3d7,
-          mid_end_3f230d713d7fd2b0,
-          mid_end_3c9bba330f083871,
-          mid_find_947277eca0748c4e,
-          mid_find_ae22d3a856ad56f1,
-          mid_group_09a7afff1868fc5e,
-          mid_group_cb0eb1432185fc94,
-          mid_group_cd8436557ab831f9,
-          mid_groupCount_20fbf7565993c3d7,
-          mid_hasAnchoringBounds_947277eca0748c4e,
-          mid_hasMatch_947277eca0748c4e,
-          mid_hasTransparentBounds_947277eca0748c4e,
-          mid_hitEnd_947277eca0748c4e,
-          mid_lookingAt_947277eca0748c4e,
-          mid_matches_947277eca0748c4e,
-          mid_namedGroups_f125f26c07a7bec8,
-          mid_pattern_fbba0baa64190115,
-          mid_quoteReplacement_cb0eb1432185fc94,
-          mid_region_fbbc813f920b81d2,
-          mid_regionEnd_20fbf7565993c3d7,
-          mid_regionStart_20fbf7565993c3d7,
-          mid_replaceAll_cb0eb1432185fc94,
-          mid_replaceAll_774126d1a38fa926,
-          mid_replaceFirst_cb0eb1432185fc94,
-          mid_replaceFirst_774126d1a38fa926,
-          mid_requireEnd_947277eca0748c4e,
-          mid_reset_920c899571b0dcfb,
-          mid_reset_e5e520b19b5b43f2,
-          mid_start_20fbf7565993c3d7,
-          mid_start_3f230d713d7fd2b0,
-          mid_start_3c9bba330f083871,
-          mid_toMatchResult_695d87f98db91a62,
-          mid_toString_09a7afff1868fc5e,
-          mid_useAnchoringBounds_8c6d9e53f22c1d26,
-          mid_usePattern_60e71b059d0fcf1f,
-          mid_useTransparentBounds_8c6d9e53f22c1d26,
+          mid_appendReplacement_99955ab0c5af1eab,
+          mid_appendReplacement_91c412f478551ec7,
+          mid_appendTail_76fc42b08f085b47,
+          mid_appendTail_bd631ed635644f83,
+          mid_end_bd89ce15dad49192,
+          mid_end_fa2a6f298bd618ab,
+          mid_end_a3904e10f5bb9437,
+          mid_find_9aa4f33e82ea333f,
+          mid_find_a8281eb3b9d9672d,
+          mid_group_e7df854526d67fa3,
+          mid_group_fef9c036acf290a9,
+          mid_group_0da8f0b89b1e9a22,
+          mid_groupCount_bd89ce15dad49192,
+          mid_hasAnchoringBounds_9aa4f33e82ea333f,
+          mid_hasMatch_9aa4f33e82ea333f,
+          mid_hasTransparentBounds_9aa4f33e82ea333f,
+          mid_hitEnd_9aa4f33e82ea333f,
+          mid_lookingAt_9aa4f33e82ea333f,
+          mid_matches_9aa4f33e82ea333f,
+          mid_namedGroups_5004bdf19ed33453,
+          mid_pattern_9bea244ff732f2bf,
+          mid_quoteReplacement_fef9c036acf290a9,
+          mid_region_4a95211ba4c7f3ac,
+          mid_regionEnd_bd89ce15dad49192,
+          mid_regionStart_bd89ce15dad49192,
+          mid_replaceAll_fef9c036acf290a9,
+          mid_replaceAll_098d889549d98309,
+          mid_replaceFirst_fef9c036acf290a9,
+          mid_replaceFirst_098d889549d98309,
+          mid_requireEnd_9aa4f33e82ea333f,
+          mid_reset_9aeaf75b1f29e4b6,
+          mid_reset_72bbaf25449cb62b,
+          mid_start_bd89ce15dad49192,
+          mid_start_fa2a6f298bd618ab,
+          mid_start_a3904e10f5bb9437,
+          mid_toMatchResult_1c9d053b2e35bd7f,
+          mid_toString_e7df854526d67fa3,
+          mid_useAnchoringBounds_9cb24e1fca8cd422,
+          mid_usePattern_f22cdcd3ec6aa84c,
+          mid_useTransparentBounds_9cb24e1fca8cd422,
           max_mid
         };
 

@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class DataOutput;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,12 +31,12 @@ namespace org {
           class AbstractBlockPackedWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_add_8b3d46852b435a94,
-              mid_finish_3720c61b0679eb3e,
-              mid_ord_16939d9d0a9a9721,
-              mid_reset_3a071e25ad99bd99,
-              mid_writeValues_540b2b23d51b1efd,
-              mid_flush_3720c61b0679eb3e,
+              mid_add_1d3149fac12f2af3,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_ord_0f176418e3e16541,
+              mid_reset_949eccaa2018a6dc,
+              mid_writeValues_8226bd0b0fc13dba,
+              mid_flush_e7bdbe105ce1bafb,
               max_mid
             };
 

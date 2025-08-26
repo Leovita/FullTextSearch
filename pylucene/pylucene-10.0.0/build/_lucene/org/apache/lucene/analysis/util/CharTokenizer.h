@@ -19,13 +19,13 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class AttributeFactory;
-      }
       namespace analysis {
         namespace util {
           class CharTokenizer;
         }
+      }
+      namespace util {
+        class AttributeFactory;
       }
     }
   }
@@ -41,17 +41,17 @@ namespace org {
           class CharTokenizer : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_d7660885ec4170d8,
-              mid_init$_5b7a424424431350,
-              mid_end_3720c61b0679eb3e,
-              mid_fromSeparatorCharPredicate_8103e187f0883313,
-              mid_fromSeparatorCharPredicate_d274be07dd9d2d94,
-              mid_fromTokenCharPredicate_8103e187f0883313,
-              mid_fromTokenCharPredicate_d274be07dd9d2d94,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_isTokenChar_ae22d3a856ad56f1,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_cf56ef8c7a468300,
+              mid_init$_3183b52194c9e763,
+              mid_end_e7bdbe105ce1bafb,
+              mid_fromSeparatorCharPredicate_ff5beb8bf504fb27,
+              mid_fromSeparatorCharPredicate_d7cea73dcd6e0e44,
+              mid_fromTokenCharPredicate_ff5beb8bf504fb27,
+              mid_fromTokenCharPredicate_d7cea73dcd6e0e44,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_isTokenChar_a8281eb3b9d9672d,
               max_mid
             };
 

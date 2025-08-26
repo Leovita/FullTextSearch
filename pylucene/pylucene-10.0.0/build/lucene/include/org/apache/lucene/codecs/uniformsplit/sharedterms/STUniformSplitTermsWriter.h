@@ -7,26 +7,26 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Fields;
         class MergeState;
         class SegmentWriteState;
+        class Fields;
       }
       namespace codecs {
-        class NormsProducer;
+        class PostingsWriterBase;
         namespace uniformsplit {
           class BlockEncoder;
         }
-        class PostingsWriterBase;
+        class NormsProducer;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,11 +41,11 @@ namespace org {
             class STUniformSplitTermsWriter : public ::org::apache::lucene::codecs::uniformsplit::UniformSplitTermsWriter {
              public:
               enum {
-                mid_init$_b18ec5de5dd74ea4,
-                mid_init$_bad8033a7e298cfc,
-                mid_merge_df989bc2b7fce8f8,
-                mid_write_664e5b1e2ee1912b,
-                mid_writeDictionary_5c814b4ef12996c8,
+                mid_init$_0298775a93f62f34,
+                mid_init$_9f43c54b2bdab56b,
+                mid_merge_929f03e0512be607,
+                mid_write_77e46eb449cb8d9e,
+                mid_writeDictionary_e6c70f3adb910106,
                 max_mid
               };
 

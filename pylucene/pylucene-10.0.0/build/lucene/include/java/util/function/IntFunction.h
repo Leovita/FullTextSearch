@@ -17,7 +17,7 @@ namespace java {
       class IntFunction : public ::java::lang::Object {
        public:
         enum {
-          mid_apply_eb7eace67c4a21fd,
+          mid_apply_2a2d7d7b9153274c,
           max_mid
         };
 

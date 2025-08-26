@@ -22,10 +22,10 @@ namespace java {
       class BiPredicate : public ::java::lang::Object {
        public:
         enum {
-          mid_and_6b95e6f4de1d7779,
-          mid_negate_b23c6d5e50c9300a,
-          mid_or_6b95e6f4de1d7779,
-          mid_test_6810d3c479f60a43,
+          mid_and_bcafd8f0db9a9cd7,
+          mid_negate_d46b5db839e537ed,
+          mid_or_bcafd8f0db9a9cd7,
+          mid_test_0596e01f2cdb5588,
           max_mid
         };
 

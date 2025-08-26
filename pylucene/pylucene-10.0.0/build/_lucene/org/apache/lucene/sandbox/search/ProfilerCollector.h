@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class LeafCollector;
         class ScoreMode;
-        class Weight;
+        class LeafCollector;
         class Collector;
+        class Weight;
       }
       namespace sandbox {
         namespace search {
@@ -29,11 +29,11 @@ namespace java {
     class Class;
     class String;
   }
-  namespace util {
-    class List;
-  }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -47,15 +47,15 @@ namespace org {
           class ProfilerCollector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_1d03ed82d1882763,
-              mid_getLeafCollector_aca3f888603431e1,
-              mid_getName_09a7afff1868fc5e,
-              mid_getProfileResult_c8368368d57b8b5f,
-              mid_getReason_09a7afff1868fc5e,
-              mid_getTime_16939d9d0a9a9721,
-              mid_scoreMode_45dfdcf7e901559d,
-              mid_setWeight_6d6ab2df81fdc63f,
-              mid_deriveCollectorName_4db8b3367abb602e,
+              mid_init$_f32de3721f345fcf,
+              mid_getLeafCollector_0a34433e6da38be9,
+              mid_getName_e7df854526d67fa3,
+              mid_getProfileResult_a73c846bcc32fa5c,
+              mid_getReason_e7df854526d67fa3,
+              mid_getTime_0f176418e3e16541,
+              mid_scoreMode_23e7061dcdc84768,
+              mid_setWeight_36438df74a772106,
+              mid_deriveCollectorName_56a2e8214ba47b1e,
               max_mid
             };
 

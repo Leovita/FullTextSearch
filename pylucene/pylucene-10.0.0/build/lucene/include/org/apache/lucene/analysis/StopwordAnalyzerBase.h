@@ -27,9 +27,9 @@ namespace org {
         class StopwordAnalyzerBase : public ::org::apache::lucene::analysis::Analyzer {
          public:
           enum {
-            mid_getStopwordSet_7a52625961f2f88e,
-            mid_loadStopwordSet_857fc18130886b55,
-            mid_loadStopwordSet_791e05356dccb21f,
+            mid_getStopwordSet_0a8f3a685855aa4f,
+            mid_loadStopwordSet_6bbe530bb4a1d5c5,
+            mid_loadStopwordSet_6f2709c2f236664c,
             max_mid
           };
 

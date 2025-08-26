@@ -4,12 +4,12 @@
 #include "org/apache/lucene/analysis/Tokenizer.h"
 
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace io {
-    class IOException;
   }
 }
 namespace org {
@@ -32,14 +32,14 @@ namespace org {
           class ClassicTokenizer : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_d7660885ec4170d8,
-              mid_close_3720c61b0679eb3e,
-              mid_end_3720c61b0679eb3e,
-              mid_getMaxTokenLength_20fbf7565993c3d7,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_setMaxTokenLength_540b2b23d51b1efd,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_cf56ef8c7a468300,
+              mid_close_e7bdbe105ce1bafb,
+              mid_end_e7bdbe105ce1bafb,
+              mid_getMaxTokenLength_bd89ce15dad49192,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setMaxTokenLength_8226bd0b0fc13dba,
               max_mid
             };
 

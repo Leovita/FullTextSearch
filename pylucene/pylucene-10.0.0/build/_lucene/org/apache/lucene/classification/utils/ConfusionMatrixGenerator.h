@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,12 +10,21 @@ namespace org {
         class IndexReader;
       }
       namespace classification {
+        class Classifier;
         namespace utils {
           class ConfusionMatrixGenerator$ConfusionMatrix;
         }
-        class Classifier;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,7 +38,7 @@ namespace org {
           class ConfusionMatrixGenerator : public ::java::lang::Object {
            public:
             enum {
-              mid_getConfusionMatrix_b0107b200ce6ae69,
+              mid_getConfusionMatrix_75c82a53e9e4fe76,
               max_mid
             };
 

@@ -18,7 +18,7 @@ namespace org {
         class ArrayUtil$ByteArrayComparator : public ::java::lang::Object {
          public:
           enum {
-            mid_compare_fff87cff58be6aa4,
+            mid_compare_450e09cafec2800d,
             max_mid
           };
 

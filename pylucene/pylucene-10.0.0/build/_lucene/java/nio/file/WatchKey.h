@@ -10,11 +10,11 @@ namespace java {
       class WatchEvent;
     }
   }
-  namespace util {
-    class List;
-  }
   namespace lang {
     class Class;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -26,11 +26,11 @@ namespace java {
       class WatchKey : public ::java::lang::Object {
        public:
         enum {
-          mid_cancel_3720c61b0679eb3e,
-          mid_isValid_947277eca0748c4e,
-          mid_pollEvents_36830460e10839eb,
-          mid_reset_947277eca0748c4e,
-          mid_watchable_810617c82f75b83b,
+          mid_cancel_e7bdbe105ce1bafb,
+          mid_isValid_9aa4f33e82ea333f,
+          mid_pollEvents_1387e1e2702ac173,
+          mid_reset_9aa4f33e82ea333f,
+          mid_watchable_c9acffb1708e3172,
           max_mid
         };
 

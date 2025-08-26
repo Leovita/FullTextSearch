@@ -9,8 +9,8 @@ namespace java {
     class Class;
   }
   namespace io {
-    class Closeable;
     class IOException;
+    class Closeable;
   }
 }
 template<class T> class JArray;
@@ -23,13 +23,13 @@ namespace org {
         class IndexOutput : public ::org::apache::lucene::store::DataOutput {
          public:
           enum {
-            mid_alignFilePointer_7b22650fccb5d574,
-            mid_alignOffset_53e8a647d71c2269,
-            mid_close_3720c61b0679eb3e,
-            mid_getChecksum_16939d9d0a9a9721,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_getName_09a7afff1868fc5e,
-            mid_toString_09a7afff1868fc5e,
+            mid_alignFilePointer_49af390f180d8ee7,
+            mid_alignOffset_02cc005e28960326,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getChecksum_0f176418e3e16541,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_getName_e7df854526d67fa3,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

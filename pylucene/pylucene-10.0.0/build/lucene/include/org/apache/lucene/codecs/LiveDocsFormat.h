@@ -3,10 +3,23 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class Collection;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
+      namespace util {
+        class Bits;
+      }
+      namespace index {
+        class SegmentCommitInfo;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
@@ -14,21 +27,8 @@ namespace java {
   namespace io {
     class IOException;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class Bits;
-      }
-      namespace index {
-        class SegmentCommitInfo;
-      }
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
-    }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -41,9 +41,9 @@ namespace org {
         class LiveDocsFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_files_6cafd307f1966789,
-            mid_readLiveDocs_25c5126636ada09e,
-            mid_writeLiveDocs_aa6e7f68a55b3638,
+            mid_files_0f92fd81714b4d0e,
+            mid_readLiveDocs_a6e367a10af13e52,
+            mid_writeLiveDocs_f93b608310103666,
             max_mid
           };
 

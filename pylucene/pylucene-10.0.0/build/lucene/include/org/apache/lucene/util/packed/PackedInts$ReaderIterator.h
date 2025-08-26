@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class LongsRef;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,11 +31,11 @@ namespace org {
           class PackedInts$ReaderIterator : public ::java::lang::Object {
            public:
             enum {
-              mid_getBitsPerValue_20fbf7565993c3d7,
-              mid_next_16939d9d0a9a9721,
-              mid_next_0eba6fe8a30b4b82,
-              mid_ord_20fbf7565993c3d7,
-              mid_size_20fbf7565993c3d7,
+              mid_getBitsPerValue_bd89ce15dad49192,
+              mid_next_0f176418e3e16541,
+              mid_next_a8fe1621a676484c,
+              mid_ord_bd89ce15dad49192,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

@@ -6,26 +6,26 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-        class IndexReader;
-      }
       namespace search {
         namespace spell {
           class SuggestMode;
-          class SuggestWord;
           class StringDistance;
+          class SuggestWord;
         }
+      }
+      namespace index {
+        class IndexReader;
+        class Term;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Comparator;
@@ -42,33 +42,33 @@ namespace org {
           class DirectSpellChecker : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_getAccuracy_9b6c3480dac00edf,
-              mid_getComparator_39238840448c1807,
-              mid_getDistance_478505d6ee0aee8d,
-              mid_getLowerCaseTerms_947277eca0748c4e,
-              mid_getMaxEdits_20fbf7565993c3d7,
-              mid_getMaxInspections_20fbf7565993c3d7,
-              mid_getMaxQueryFrequency_9b6c3480dac00edf,
-              mid_getMaxQueryLength_20fbf7565993c3d7,
-              mid_getMinPrefix_20fbf7565993c3d7,
-              mid_getMinQueryLength_20fbf7565993c3d7,
-              mid_getThresholdFrequency_9b6c3480dac00edf,
-              mid_setAccuracy_c771a95b0227fb6a,
-              mid_setComparator_480edaf434ebe52f,
-              mid_setDistance_c1f993af6d9506f9,
-              mid_setLowerCaseTerms_b110fc3a58c081ab,
-              mid_setMaxEdits_540b2b23d51b1efd,
-              mid_setMaxInspections_540b2b23d51b1efd,
-              mid_setMaxQueryFrequency_c771a95b0227fb6a,
-              mid_setMaxQueryLength_540b2b23d51b1efd,
-              mid_setMinPrefix_540b2b23d51b1efd,
-              mid_setMinQueryLength_540b2b23d51b1efd,
-              mid_setThresholdFrequency_c771a95b0227fb6a,
-              mid_suggestSimilar_8a76df3f949d02de,
-              mid_suggestSimilar_8920e25923bc88d8,
-              mid_suggestSimilar_afc872a0f570f5ca,
-              mid_suggestSimilar_d9828c2ed6636a54,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_getAccuracy_8b62236f0e4d0dbc,
+              mid_getComparator_5cc89c689cd941fe,
+              mid_getDistance_21d3be2e55fe7f08,
+              mid_getLowerCaseTerms_9aa4f33e82ea333f,
+              mid_getMaxEdits_bd89ce15dad49192,
+              mid_getMaxInspections_bd89ce15dad49192,
+              mid_getMaxQueryFrequency_8b62236f0e4d0dbc,
+              mid_getMaxQueryLength_bd89ce15dad49192,
+              mid_getMinPrefix_bd89ce15dad49192,
+              mid_getMinQueryLength_bd89ce15dad49192,
+              mid_getThresholdFrequency_8b62236f0e4d0dbc,
+              mid_setAccuracy_675f4cb9a2529ee0,
+              mid_setComparator_236c903ae32a3610,
+              mid_setDistance_79704ae345a0bc97,
+              mid_setLowerCaseTerms_f5dd97eebf6a215a,
+              mid_setMaxEdits_8226bd0b0fc13dba,
+              mid_setMaxInspections_8226bd0b0fc13dba,
+              mid_setMaxQueryFrequency_675f4cb9a2529ee0,
+              mid_setMaxQueryLength_8226bd0b0fc13dba,
+              mid_setMinPrefix_8226bd0b0fc13dba,
+              mid_setMinQueryLength_8226bd0b0fc13dba,
+              mid_setThresholdFrequency_675f4cb9a2529ee0,
+              mid_suggestSimilar_8e99d3cb12176e8c,
+              mid_suggestSimilar_6b61a2820134a666,
+              mid_suggestSimilar_b513906c31476f63,
+              mid_suggestSimilar_ca181bbca2ba18f9,
               max_mid
             };
 

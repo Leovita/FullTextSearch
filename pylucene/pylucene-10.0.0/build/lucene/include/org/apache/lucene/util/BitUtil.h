@@ -18,16 +18,16 @@ namespace org {
         class BitUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_deinterleave_91d66fa3ea476cea,
-            mid_flipFlop_91d66fa3ea476cea,
-            mid_interleave_1a8a71179739f982,
-            mid_isZeroOrPowerOfTwo_ae22d3a856ad56f1,
-            mid_nextHighestPowerOfTwo_3c9bba330f083871,
-            mid_nextHighestPowerOfTwo_91d66fa3ea476cea,
-            mid_zigZagDecode_3c9bba330f083871,
-            mid_zigZagDecode_91d66fa3ea476cea,
-            mid_zigZagEncode_3c9bba330f083871,
-            mid_zigZagEncode_91d66fa3ea476cea,
+            mid_deinterleave_3dc1c6e3a5a0baf0,
+            mid_flipFlop_3dc1c6e3a5a0baf0,
+            mid_interleave_e302117a821addff,
+            mid_isZeroOrPowerOfTwo_a8281eb3b9d9672d,
+            mid_nextHighestPowerOfTwo_a3904e10f5bb9437,
+            mid_nextHighestPowerOfTwo_3dc1c6e3a5a0baf0,
+            mid_zigZagDecode_a3904e10f5bb9437,
+            mid_zigZagDecode_3dc1c6e3a5a0baf0,
+            mid_zigZagEncode_a3904e10f5bb9437,
+            mid_zigZagEncode_3dc1c6e3a5a0baf0,
             max_mid
           };
 

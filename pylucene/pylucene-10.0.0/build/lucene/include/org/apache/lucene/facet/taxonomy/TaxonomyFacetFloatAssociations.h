@@ -6,27 +6,27 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class DoubleValuesSource;
+      }
       namespace facet {
         class FacetsCollector;
+        class FacetsConfig;
         namespace taxonomy {
           class AssociationAggregationFunction;
           class TaxonomyReader;
         }
-        class FacetsConfig;
-      }
-      namespace search {
-        class DoubleValuesSource;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,10 +40,10 @@ namespace org {
           class TaxonomyFacetFloatAssociations : public ::org::apache::lucene::facet::taxonomy::FloatTaxonomyFacets {
            public:
             enum {
-              mid_init$_a08fdb7e87d8c1a4,
-              mid_init$_b1f2dd1d90d1f879,
-              mid_init$_7dd6cac965f6ec3c,
-              mid_init$_46ea65292ea8d7c3,
+              mid_init$_f22cc94af8b0ea34,
+              mid_init$_2dd2d8537b5a1aaa,
+              mid_init$_f019d0936d834f6d,
+              mid_init$_6f99b08be794bb93,
               max_mid
             };
 

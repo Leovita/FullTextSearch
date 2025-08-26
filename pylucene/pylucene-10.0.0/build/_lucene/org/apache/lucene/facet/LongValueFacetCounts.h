@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
-        class FacetsCollector;
-        class FacetResult;
         class MultiLongValuesSource;
+        class FacetResult;
+        class FacetsCollector;
       }
       namespace index {
         class IndexReader;
@@ -21,13 +21,13 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
-    class String;
     class Number;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -43,18 +43,18 @@ namespace org {
         class LongValueFacetCounts : public ::org::apache::lucene::facet::Facets {
          public:
           enum {
-            mid_init$_3ab6a17715252fc2,
-            mid_init$_bc3224030714f7c9,
-            mid_init$_a6096ffb2883efd4,
-            mid_init$_2fcf1bb4a255817c,
-            mid_init$_f3fafa8be634dcb8,
-            mid_init$_fa9f15202070e381,
-            mid_getAllChildren_51a67cf6dd940ebb,
-            mid_getAllChildrenSortByValue_df947f9f4eed427d,
-            mid_getAllDims_3e47fe599d76d583,
-            mid_getSpecificValue_7fd685ee82fd50c5,
-            mid_getTopChildren_ca1b3747bbcc4341,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_832cd877fa8a2e4a,
+            mid_init$_c5a1ea708770acda,
+            mid_init$_058fd46ce7ffc04f,
+            mid_init$_de8d779d91238979,
+            mid_init$_4144275663e50d9c,
+            mid_init$_da06768c916e4abc,
+            mid_getAllChildren_09e74013a1015c10,
+            mid_getAllChildrenSortByValue_0e4ab2c1549f0b7d,
+            mid_getAllDims_b4b9401c877452e3,
+            mid_getSpecificValue_a53782a5574e06b9,
+            mid_getTopChildren_482e0070129e7ccc,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

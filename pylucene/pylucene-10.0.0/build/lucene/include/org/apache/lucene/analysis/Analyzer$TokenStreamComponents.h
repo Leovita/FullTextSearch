@@ -4,24 +4,24 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    namespace function {
-      class Consumer;
-    }
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class Reader;
   }
+  namespace util {
+    namespace function {
+      class Consumer;
+    }
+  }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class Tokenizer;
         class TokenStream;
+        class Tokenizer;
       }
     }
   }
@@ -36,11 +36,11 @@ namespace org {
         class Analyzer$TokenStreamComponents : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_10bf7e9e8d52bb05,
-            mid_init$_ea1667eccb880783,
-            mid_init$_5e0e26059467c4bb,
-            mid_getSource_3e8ace0f9e957785,
-            mid_getTokenStream_707aa2a89bdef693,
+            mid_init$_b759146a94c607b1,
+            mid_init$_466eed288aa45415,
+            mid_init$_f5be51a872fd7f91,
+            mid_getSource_4a63feda96a0f520,
+            mid_getTokenStream_6d4d6f6f288807ef,
             max_mid
           };
 

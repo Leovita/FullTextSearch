@@ -4,14 +4,14 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
   namespace nio {
     namespace file {
       class Path;
     }
+  }
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -23,7 +23,7 @@ namespace java {
       class Paths : public ::java::lang::Object {
        public:
         enum {
-          mid_get_c1dd8ffa3d682724,
+          mid_get_d84b0e3d2949c12d,
           max_mid
         };
 

@@ -6,12 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class DirectoryReader;
-        class IndexWriter;
-      }
       namespace store {
         class Directory;
+      }
+      namespace index {
+        class IndexWriter;
+        class DirectoryReader;
       }
     }
   }
@@ -34,14 +34,14 @@ namespace org {
         class ReaderManager : public ::org::apache::lucene::search::ReferenceManager {
          public:
           enum {
-            mid_init$_d3e27df2fcbfc7a9,
-            mid_init$_b16d1e819f837eb1,
-            mid_init$_3c151c130d7f3176,
-            mid_init$_8677e1358bc65b72,
-            mid_decRef_d3e27df2fcbfc7a9,
-            mid_tryIncRef_01cc508029c00f0b,
-            mid_getRefCount_b01b5fa97c8cb29b,
-            mid_refreshIfNeeded_c0f2d1165a6dcc7c,
+            mid_init$_3fc3c1b763ad80bd,
+            mid_init$_37dc89862eae995d,
+            mid_init$_0bf39a7351552ef4,
+            mid_init$_e3c6ab4d4fa5997e,
+            mid_decRef_3fc3c1b763ad80bd,
+            mid_getRefCount_48ed43adf19ce82d,
+            mid_refreshIfNeeded_f4693940cb629eaf,
+            mid_tryIncRef_6e6236badab6d588,
             max_mid
           };
 

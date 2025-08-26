@@ -22,9 +22,9 @@ namespace org {
         class CollationDocValuesField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_f3824b357cea0781,
-            mid_name_09a7afff1868fc5e,
-            mid_setStringValue_0d82408c6e55bc30,
+            mid_init$_32f7bd0207c369a0,
+            mid_name_e7df854526d67fa3,
+            mid_setStringValue_ee46a189998009d6,
             max_mid
           };
 

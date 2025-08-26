@@ -3,20 +3,6 @@
 
 #include "org/apache/lucene/codecs/KnnVectorsFormat.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace codecs {
-        class KnnVectorsReader;
-        class KnnVectorsWriter;
-      }
-      namespace index {
-        class SegmentReadState;
-        class SegmentWriteState;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Float;
@@ -32,6 +18,20 @@ namespace java {
     }
   }
 }
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class SegmentWriteState;
+      }
+      namespace codecs {
+        class KnnVectorsWriter;
+        class KnnVectorsReader;
+      }
+    }
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -43,13 +43,13 @@ namespace org {
           class Lucene99HnswScalarQuantizedVectorsFormat : public ::org::apache::lucene::codecs::KnnVectorsFormat {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_e13cff512ebda969,
-              mid_init$_585aaca9beae2738,
-              mid_fieldsReader_804fb3f7a48fdbd5,
-              mid_fieldsWriter_9d6535131b264391,
-              mid_getMaxDimensions_3f230d713d7fd2b0,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_645c25455f5b9b1c,
+              mid_init$_82ed016f4b1c3e5e,
+              mid_fieldsReader_e6e9752d6bb75a3c,
+              mid_fieldsWriter_cb1e4b426784850b,
+              mid_getMaxDimensions_fa2a6f298bd618ab,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

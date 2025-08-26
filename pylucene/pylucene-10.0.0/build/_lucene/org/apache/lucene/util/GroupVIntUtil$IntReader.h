@@ -18,7 +18,7 @@ namespace org {
         class GroupVIntUtil$IntReader : public ::java::lang::Object {
          public:
           enum {
-            mid_read_35c872f03f347c10,
+            mid_read_7af44747c1921bd4,
             max_mid
           };
 

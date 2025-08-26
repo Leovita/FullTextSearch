@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/index/FilterMergePolicy.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class MergePolicy$MergeSpecification;
-        class SegmentInfos;
-        class MergePolicy$MergeContext;
-        class MergePolicy;
-        class MergeTrigger;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class MergePolicy;
+        class MergePolicy$MergeSpecification;
+        class SegmentInfos;
+        class MergePolicy$MergeContext;
+        class MergeTrigger;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,10 +35,10 @@ namespace org {
           class MergeOnFlushMergePolicy : public ::org::apache::lucene::index::FilterMergePolicy {
            public:
             enum {
-              mid_init$_da6a0a436510179f,
-              mid_findFullFlushMerges_0275979aa5326fa2,
-              mid_getSmallSegmentThresholdMB_32caabaad86c508b,
-              mid_setSmallSegmentThresholdMB_b5bc1a2fb9ff9e90,
+              mid_init$_ca149660d3a98b53,
+              mid_findFullFlushMerges_6813602a04f57061,
+              mid_getSmallSegmentThresholdMB_6fb37e123fed7a1f,
+              mid_setSmallSegmentThresholdMB_a03f734ddaeb69b4,
               max_mid
             };
 

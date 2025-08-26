@@ -5,14 +5,11 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
+    class NumberFormatException;
+    class Object;
     class Class;
     class String;
-    class Object;
-    namespace constant {
-      class DynamicConstantDesc;
-    }
-    class NumberFormatException;
+    class Comparable;
     class Byte;
   }
   namespace util {
@@ -27,31 +24,30 @@ namespace java {
     class Byte : public ::java::lang::Number {
      public:
       enum {
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_bcdac0a459ff35f6,
-        mid_byteValue_847674f430f49e4c,
-        mid_compare_f98c890d5a71e1da,
-        mid_compareTo_04963373ac25be1e,
-        mid_compareUnsigned_f98c890d5a71e1da,
-        mid_decode_c1af22adfba184d2,
-        mid_describeConstable_d95173840d09a723,
-        mid_doubleValue_32caabaad86c508b,
-        mid_equals_570b5248a6da3ef6,
-        mid_floatValue_9b6c3480dac00edf,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_hashCode_9e29d85df323014f,
-        mid_intValue_20fbf7565993c3d7,
-        mid_longValue_16939d9d0a9a9721,
-        mid_parseByte_0048728f9019731d,
-        mid_parseByte_5437da9a69c9595a,
-        mid_shortValue_21ad82099ac5d56c,
-        mid_toString_09a7afff1868fc5e,
-        mid_toString_1e2bcbc46c0bef09,
-        mid_toUnsignedInt_9e29d85df323014f,
-        mid_toUnsignedLong_73e5e7ba2580f34e,
-        mid_valueOf_c1af22adfba184d2,
-        mid_valueOf_4e3388a684815837,
-        mid_valueOf_fccff24054726c14,
+        mid_init$_ee46a189998009d6,
+        mid_init$_a5d0ad9e85e76a64,
+        mid_byteValue_1456044a01a5c9bf,
+        mid_compare_eaefbee714f0937b,
+        mid_compareTo_fb6bce23dfc278d9,
+        mid_compareUnsigned_eaefbee714f0937b,
+        mid_decode_f1bfa1bbcb26835c,
+        mid_doubleValue_6fb37e123fed7a1f,
+        mid_equals_00d17418847797d4,
+        mid_floatValue_8b62236f0e4d0dbc,
+        mid_hashCode_bd89ce15dad49192,
+        mid_hashCode_a06f8b67893a843a,
+        mid_intValue_bd89ce15dad49192,
+        mid_longValue_0f176418e3e16541,
+        mid_parseByte_3c48362581bf518f,
+        mid_parseByte_3726946798915f17,
+        mid_shortValue_ae7a5bcb127748fd,
+        mid_toString_e7df854526d67fa3,
+        mid_toString_e53e9f832ff4d9ce,
+        mid_toUnsignedInt_a06f8b67893a843a,
+        mid_toUnsignedLong_42ec6c2f1cf9f243,
+        mid_valueOf_f1bfa1bbcb26835c,
+        mid_valueOf_c9fdd1bad87452fb,
+        mid_valueOf_b3f72ab0fc585608,
         max_mid
       };
 
@@ -80,7 +76,6 @@ namespace java {
       jint compareTo(const Byte &) const;
       static jint compareUnsigned(jbyte, jbyte);
       static Byte decode(const ::java::lang::String &);
-      ::java::util::Optional describeConstable() const;
       jdouble doubleValue() const;
       jboolean equals(const ::java::lang::Object &) const;
       jfloat floatValue() const;

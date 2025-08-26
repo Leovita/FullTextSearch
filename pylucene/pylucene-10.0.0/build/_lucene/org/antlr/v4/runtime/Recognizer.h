@@ -7,18 +7,18 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class TokenFactory;
         namespace atn {
-          class ATN;
           class ParseInfo;
+          class ATN;
           class ATNSimulator;
         }
-        class Token;
-        class IntStream;
-        class RecognitionException;
-        class ANTLRErrorListener;
         class Vocabulary;
+        class RecognitionException;
+        class TokenFactory;
+        class ANTLRErrorListener;
+        class IntStream;
         class RuleContext;
+        class Token;
       }
     }
   }
@@ -30,8 +30,8 @@ namespace java {
     class String;
   }
   namespace util {
-    class Map;
     class List;
+    class Map;
   }
 }
 template<class T> class JArray;
@@ -44,35 +44,35 @@ namespace org {
         class Recognizer : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_action_96b24f0df79f17ec,
-            mid_addErrorListener_99887d081589e93a,
-            mid_getATN_335001da772895f5,
-            mid_getErrorHeader_f047fdf8a012ef1e,
-            mid_getErrorListenerDispatch_e93d645b0563fd38,
-            mid_getErrorListeners_36830460e10839eb,
-            mid_getGrammarFileName_09a7afff1868fc5e,
-            mid_getInputStream_40b9ffd028ddfe4b,
-            mid_getInterpreter_aa6341945e2687ec,
-            mid_getParseInfo_93e605c5dd7930d6,
-            mid_getRuleIndexMap_f125f26c07a7bec8,
-            mid_getRuleNames_6da8f3ea65e22733,
-            mid_getSerializedATN_09a7afff1868fc5e,
-            mid_getState_20fbf7565993c3d7,
-            mid_getTokenErrorDisplay_2a05da314cfc39b2,
-            mid_getTokenFactory_c8e0d1a54d80678c,
-            mid_getTokenNames_6da8f3ea65e22733,
-            mid_getTokenType_3f230d713d7fd2b0,
-            mid_getTokenTypeMap_f125f26c07a7bec8,
-            mid_getVocabulary_5929726a339c9f67,
-            mid_precpred_a27b480fc32558f3,
-            mid_removeErrorListener_99887d081589e93a,
-            mid_removeErrorListeners_3720c61b0679eb3e,
-            mid_sempred_f605b1ab4390f314,
-            mid_setInputStream_e95b24b8d6abbd06,
-            mid_setInterpreter_5cfb6c9fd627ce9e,
-            mid_setState_540b2b23d51b1efd,
-            mid_setTokenFactory_70a7fa7b38564c5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_action_0237c683077ee56a,
+            mid_addErrorListener_72d99ae550fd94fe,
+            mid_getATN_ed49cd1984bb7c8a,
+            mid_getErrorHeader_34ae67c95de28640,
+            mid_getErrorListenerDispatch_d25ffb18b594de2d,
+            mid_getErrorListeners_1387e1e2702ac173,
+            mid_getGrammarFileName_e7df854526d67fa3,
+            mid_getInputStream_829b6fe8e52d501b,
+            mid_getInterpreter_a1a3c95c44cc01d8,
+            mid_getParseInfo_b824dd895c6732e5,
+            mid_getRuleIndexMap_5004bdf19ed33453,
+            mid_getRuleNames_970db9a2a49d840f,
+            mid_getSerializedATN_e7df854526d67fa3,
+            mid_getState_bd89ce15dad49192,
+            mid_getTokenErrorDisplay_f5e661dbe12de179,
+            mid_getTokenFactory_8ed3c222ea2cde3f,
+            mid_getTokenNames_970db9a2a49d840f,
+            mid_getTokenType_fa2a6f298bd618ab,
+            mid_getTokenTypeMap_5004bdf19ed33453,
+            mid_getVocabulary_47ac00fca39585d7,
+            mid_precpred_89c6843d7509da22,
+            mid_removeErrorListener_72d99ae550fd94fe,
+            mid_removeErrorListeners_e7bdbe105ce1bafb,
+            mid_sempred_7cdf9511593c498e,
+            mid_setInputStream_065453d2c889d4cb,
+            mid_setInterpreter_7292166fd6e58e13,
+            mid_setState_8226bd0b0fc13dba,
+            mid_setTokenFactory_6c179beec6a94365,
             max_mid
           };
 

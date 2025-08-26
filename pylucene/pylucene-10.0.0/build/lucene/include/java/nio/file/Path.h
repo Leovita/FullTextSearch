@@ -7,27 +7,27 @@ namespace java {
   namespace util {
     class Iterator;
   }
-  namespace nio {
-    namespace file {
-      class Watchable;
-      class WatchService;
-      class FileSystem;
-      class LinkOption;
-      class Path;
-      class WatchEvent$Kind;
-      class WatchKey;
-      class WatchEvent$Modifier;
-    }
-  }
   namespace io {
     class File;
     class IOException;
   }
+  namespace nio {
+    namespace file {
+      class WatchKey;
+      class Watchable;
+      class WatchService;
+      class WatchEvent$Kind;
+      class LinkOption;
+      class FileSystem;
+      class WatchEvent$Modifier;
+      class Path;
+    }
+  }
   namespace lang {
+    class Object;
     class Class;
     class String;
     class Iterable;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -39,35 +39,37 @@ namespace java {
       class Path : public ::java::lang::Comparable {
        public:
         enum {
-          mid_compareTo_c67987353446ff15,
-          mid_endsWith_4a13a663b5c11133,
-          mid_endsWith_51b0b54861f74b98,
-          mid_equals_570b5248a6da3ef6,
-          mid_getFileName_d21fdf719406f66d,
-          mid_getFileSystem_2cec0c20ec5ba9db,
-          mid_getName_a4f3639e558e8cbf,
-          mid_getNameCount_20fbf7565993c3d7,
-          mid_getParent_d21fdf719406f66d,
-          mid_getRoot_d21fdf719406f66d,
-          mid_hashCode_20fbf7565993c3d7,
-          mid_isAbsolute_947277eca0748c4e,
-          mid_iterator_0db4c76ff7ee995b,
-          mid_normalize_d21fdf719406f66d,
-          mid_of_c1dd8ffa3d682724,
-          mid_register_dc7d4ab737661faf,
-          mid_register_cd5eba900470f048,
-          mid_relativize_07f3bbbaf2aea84c,
-          mid_resolve_6dc2dbf3a7e46feb,
-          mid_resolve_07f3bbbaf2aea84c,
-          mid_resolveSibling_6dc2dbf3a7e46feb,
-          mid_resolveSibling_07f3bbbaf2aea84c,
-          mid_startsWith_4a13a663b5c11133,
-          mid_startsWith_51b0b54861f74b98,
-          mid_subpath_0f07a4ec716c023c,
-          mid_toAbsolutePath_d21fdf719406f66d,
-          mid_toFile_3ba2f8bbd3c09c8f,
-          mid_toRealPath_db4b55f1353e55c1,
-          mid_toString_09a7afff1868fc5e,
+          mid_compareTo_e56cc706a6dc01ff,
+          mid_endsWith_94f7e759d94961b0,
+          mid_endsWith_8e3a3ca1e06e8982,
+          mid_equals_00d17418847797d4,
+          mid_getFileName_da490036461fb4f2,
+          mid_getFileSystem_3f65d9025f86e2c7,
+          mid_getName_2bec25e35eb00086,
+          mid_getNameCount_bd89ce15dad49192,
+          mid_getParent_da490036461fb4f2,
+          mid_getRoot_da490036461fb4f2,
+          mid_hashCode_bd89ce15dad49192,
+          mid_isAbsolute_9aa4f33e82ea333f,
+          mid_iterator_c7985fafdcf40e83,
+          mid_normalize_da490036461fb4f2,
+          mid_of_d84b0e3d2949c12d,
+          mid_register_303167a0b7ca69ea,
+          mid_register_2dca432f38e67efe,
+          mid_relativize_9ed8a3e986701280,
+          mid_resolve_3c69a03244e8eb97,
+          mid_resolve_9ed8a3e986701280,
+          mid_resolve_d84b0e3d2949c12d,
+          mid_resolve_e4517620b5152593,
+          mid_resolveSibling_3c69a03244e8eb97,
+          mid_resolveSibling_9ed8a3e986701280,
+          mid_startsWith_94f7e759d94961b0,
+          mid_startsWith_8e3a3ca1e06e8982,
+          mid_subpath_a87f31ede97e4914,
+          mid_toAbsolutePath_da490036461fb4f2,
+          mid_toFile_f842686345e45341,
+          mid_toRealPath_57e894b81761e7a9,
+          mid_toString_e7df854526d67fa3,
           max_mid
         };
 
@@ -102,6 +104,8 @@ namespace java {
         Path relativize(const Path &) const;
         Path resolve(const ::java::lang::String &) const;
         Path resolve(const Path &) const;
+        Path resolve(const ::java::lang::String &, const JArray< ::java::lang::String > &) const;
+        Path resolve(const Path &, const JArray< Path > &) const;
         Path resolveSibling(const ::java::lang::String &) const;
         Path resolveSibling(const Path &) const;
         jboolean startsWith(const ::java::lang::String &) const;

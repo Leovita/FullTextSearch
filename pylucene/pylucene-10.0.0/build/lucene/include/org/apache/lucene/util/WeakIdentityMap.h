@@ -30,20 +30,20 @@ namespace org {
         class WeakIdentityMap : public ::java::lang::Object {
          public:
           enum {
-            mid_clear_3720c61b0679eb3e,
-            mid_containsKey_570b5248a6da3ef6,
-            mid_get_5fd81664d2d475e1,
-            mid_isEmpty_947277eca0748c4e,
-            mid_keyIterator_0db4c76ff7ee995b,
-            mid_newConcurrentHashMap_cc621e5cb98efe03,
-            mid_newConcurrentHashMap_63772f2faa0d8245,
-            mid_newHashMap_cc621e5cb98efe03,
-            mid_newHashMap_63772f2faa0d8245,
-            mid_put_243089e4ee289db6,
-            mid_reap_3720c61b0679eb3e,
-            mid_remove_5fd81664d2d475e1,
-            mid_size_20fbf7565993c3d7,
-            mid_valueIterator_0db4c76ff7ee995b,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_containsKey_00d17418847797d4,
+            mid_get_e2c45b124c12f4ec,
+            mid_isEmpty_9aa4f33e82ea333f,
+            mid_keyIterator_c7985fafdcf40e83,
+            mid_newConcurrentHashMap_9bf4e76d84db9efb,
+            mid_newConcurrentHashMap_50029a2e9515a2e0,
+            mid_newHashMap_9bf4e76d84db9efb,
+            mid_newHashMap_50029a2e9515a2e0,
+            mid_put_b3b175dfe26d2c44,
+            mid_reap_e7bdbe105ce1bafb,
+            mid_remove_e2c45b124c12f4ec,
+            mid_size_bd89ce15dad49192,
+            mid_valueIterator_c7985fafdcf40e83,
             max_mid
           };
 

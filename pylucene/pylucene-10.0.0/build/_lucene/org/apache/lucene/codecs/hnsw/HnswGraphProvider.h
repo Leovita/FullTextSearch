@@ -34,7 +34,7 @@ namespace org {
           class HnswGraphProvider : public ::java::lang::Object {
            public:
             enum {
-              mid_getGraph_f4c199e0f26ff1bf,
+              mid_getGraph_c1c25d370e8eb101,
               max_mid
             };
 

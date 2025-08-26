@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/search/grouping/SecondPassGroupingCollector.h"
 
-namespace java {
-  namespace util {
-    class Collection;
-    class List;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -25,6 +16,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace util {
+    class Collection;
+    class List;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -36,8 +36,8 @@ namespace org {
           class DistinctValuesCollector : public ::org::apache::lucene::search::grouping::SecondPassGroupingCollector {
            public:
             enum {
-              mid_init$_92ea8e22a8af0906,
-              mid_getGroups_36830460e10839eb,
+              mid_init$_cfaed354fffa9cd3,
+              mid_getGroups_1387e1e2702ac173,
               max_mid
             };
 

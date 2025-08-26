@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/facet/range/Range.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class DoubleValuesSource;
+        class Query;
       }
       namespace facet {
         class MultiDoubleValuesSource;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -34,13 +34,13 @@ namespace org {
           class DoubleRange : public ::org::apache::lucene::facet::range::Range {
            public:
             enum {
-              mid_init$_e0518f60cba95a7a,
-              mid_accept_9c3aeb3f8504878d,
-              mid_equals_570b5248a6da3ef6,
-              mid_getQuery_516398e1e26f90cf,
-              mid_getQuery_03dfa7e6012c9b90,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_6d19973e70ffc75f,
+              mid_accept_38862de998abbf87,
+              mid_equals_00d17418847797d4,
+              mid_getQuery_5685872201bf62f3,
+              mid_getQuery_c82c4169dd2687a7,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

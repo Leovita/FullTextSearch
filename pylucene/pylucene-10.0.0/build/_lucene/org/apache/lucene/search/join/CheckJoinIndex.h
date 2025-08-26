@@ -36,7 +36,7 @@ namespace org {
           class CheckJoinIndex : public ::java::lang::Object {
            public:
             enum {
-              mid_check_352ab623c920ae04,
+              mid_check_533688390942fba4,
               max_mid
             };
 

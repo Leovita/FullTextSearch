@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class CharSequence;
-    class Class;
-  }
-  namespace util {
-    class Locale;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -27,6 +18,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class CharSequence;
+    class Class;
+  }
+  namespace util {
+    class Locale;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -40,7 +40,7 @@ namespace org {
               class EscapeQuerySyntax : public ::java::lang::Object {
                public:
                 enum {
-                  mid_escape_39fe12cf03a343eb,
+                  mid_escape_a0fb62e43f39fc8c,
                   max_mid
                 };
 

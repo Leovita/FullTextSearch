@@ -6,23 +6,23 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-        class AttributeReflector;
-      }
       namespace analysis {
         namespace tokenattributes {
           class PayloadAttribute;
           class PayloadAttributeImpl;
         }
       }
+      namespace util {
+        class BytesRef;
+        class AttributeReflector;
+      }
     }
   }
 }
 namespace java {
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -36,16 +36,16 @@ namespace org {
           class PayloadAttributeImpl : public ::org::apache::lucene::util::AttributeImpl {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_ac0de3ee0e03786d,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_37bd25f1c53ec018,
-              mid_copyTo_9be83c6b2aff7007,
-              mid_equals_570b5248a6da3ef6,
-              mid_getPayload_9740fddd1c7df148,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_reflectWith_454217ab6e97f729,
-              mid_setPayload_ac0de3ee0e03786d,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_920ce0cdf4259cc9,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_558945da5929c32f,
+              mid_copyTo_b194e41b568bc1bc,
+              mid_equals_00d17418847797d4,
+              mid_getPayload_adbedbc1fa61c358,
+              mid_hashCode_bd89ce15dad49192,
+              mid_reflectWith_ac049850cfa29e37,
+              mid_setPayload_920ce0cdf4259cc9,
               max_mid
             };
 

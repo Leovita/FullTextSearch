@@ -8,9 +8,9 @@ namespace java {
     class BreakIterator;
   }
   namespace lang {
+    class Cloneable;
     class Class;
     class String;
-    class Cloneable;
   }
   namespace util {
     class Locale;
@@ -24,26 +24,26 @@ namespace java {
     class BreakIterator : public ::java::lang::Object {
      public:
       enum {
-        mid_clone_5655ed8670534604,
-        mid_current_20fbf7565993c3d7,
-        mid_first_20fbf7565993c3d7,
-        mid_following_3c9bba330f083871,
-        mid_getAvailableLocales_3d06acbf6689fb6c,
-        mid_getCharacterInstance_400eb320c957b561,
-        mid_getCharacterInstance_787660464240461f,
-        mid_getLineInstance_400eb320c957b561,
-        mid_getLineInstance_787660464240461f,
-        mid_getSentenceInstance_400eb320c957b561,
-        mid_getSentenceInstance_787660464240461f,
-        mid_getWordInstance_400eb320c957b561,
-        mid_getWordInstance_787660464240461f,
-        mid_isBoundary_ae22d3a856ad56f1,
-        mid_last_20fbf7565993c3d7,
-        mid_next_20fbf7565993c3d7,
-        mid_next_3c9bba330f083871,
-        mid_preceding_3c9bba330f083871,
-        mid_previous_20fbf7565993c3d7,
-        mid_setText_0d82408c6e55bc30,
+        mid_clone_4819806f62f1360a,
+        mid_current_bd89ce15dad49192,
+        mid_first_bd89ce15dad49192,
+        mid_following_a3904e10f5bb9437,
+        mid_getAvailableLocales_0daa090ed7228b3c,
+        mid_getCharacterInstance_be856f4ba1b0c28d,
+        mid_getCharacterInstance_0144641a48e32b21,
+        mid_getLineInstance_be856f4ba1b0c28d,
+        mid_getLineInstance_0144641a48e32b21,
+        mid_getSentenceInstance_be856f4ba1b0c28d,
+        mid_getSentenceInstance_0144641a48e32b21,
+        mid_getWordInstance_be856f4ba1b0c28d,
+        mid_getWordInstance_0144641a48e32b21,
+        mid_isBoundary_a8281eb3b9d9672d,
+        mid_last_bd89ce15dad49192,
+        mid_next_bd89ce15dad49192,
+        mid_next_a3904e10f5bb9437,
+        mid_preceding_a3904e10f5bb9437,
+        mid_previous_bd89ce15dad49192,
+        mid_setText_ee46a189998009d6,
         max_mid
       };
 

@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/search/Weight.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Matches;
         class Explanation;
         class ScorerSupplier;
+        class Matches;
       }
       namespace index {
         class LeafReaderContext;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,12 +35,12 @@ namespace org {
         class PhraseWeight : public ::org::apache::lucene::search::Weight {
          public:
           enum {
-            mid_explain_478bccbc961eab03,
-            mid_isCacheable_03101e9518c66be0,
-            mid_matches_8b48216623017f2b,
-            mid_scorerSupplier_45b7d9496c5acc93,
-            mid_getStats_a1481349ba0bc2df,
-            mid_getPhraseMatcher_d7123eb1a1107652,
+            mid_explain_b1310cbadc240f44,
+            mid_isCacheable_8e9f6225f14d0ebe,
+            mid_matches_868b3421ec3687f4,
+            mid_scorerSupplier_613b85087b5065ab,
+            mid_getPhraseMatcher_7c30b04eb55099bd,
+            mid_getStats_8fb3214c0d1b294c,
             max_mid
           };
 

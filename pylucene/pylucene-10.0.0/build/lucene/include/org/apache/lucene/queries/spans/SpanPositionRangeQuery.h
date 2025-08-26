@@ -32,13 +32,13 @@ namespace org {
           class SpanPositionRangeQuery : public ::org::apache::lucene::queries::spans::SpanPositionCheckQuery {
            public:
             enum {
-              mid_init$_b4676990aef006cd,
-              mid_equals_570b5248a6da3ef6,
-              mid_getEnd_20fbf7565993c3d7,
-              mid_getStart_20fbf7565993c3d7,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_cb0eb1432185fc94,
-              mid_acceptPosition_b59c8c4cfb25644b,
+              mid_init$_2ecddd01c7b7038e,
+              mid_equals_00d17418847797d4,
+              mid_getEnd_bd89ce15dad49192,
+              mid_getStart_bd89ce15dad49192,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_fef9c036acf290a9,
+              mid_acceptPosition_ded8f9d8e47cc29a,
               max_mid
             };
 

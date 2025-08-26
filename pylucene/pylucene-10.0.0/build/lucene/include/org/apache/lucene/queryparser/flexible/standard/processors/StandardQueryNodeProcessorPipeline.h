@@ -36,7 +36,7 @@ namespace org {
               class StandardQueryNodeProcessorPipeline : public ::org::apache::lucene::queryparser::flexible::core::processors::QueryNodeProcessorPipeline {
                public:
                 enum {
-                  mid_init$_0fc7dbcdbf111f0f,
+                  mid_init$_f8d3957fd2e3377b,
                   max_mid
                 };
 

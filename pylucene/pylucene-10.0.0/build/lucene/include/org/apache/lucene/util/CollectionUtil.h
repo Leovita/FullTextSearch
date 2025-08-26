@@ -4,14 +4,14 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace util {
+    class HashSet;
+    class Comparator;
+    class HashMap;
+    class List;
+  }
   namespace lang {
     class Class;
-  }
-  namespace util {
-    class List;
-    class HashMap;
-    class Comparator;
-    class HashSet;
   }
 }
 template<class T> class JArray;
@@ -24,12 +24,12 @@ namespace org {
         class CollectionUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_introSort_9425cd4f62c94bce,
-            mid_introSort_657df41b6fd0d20f,
-            mid_newHashMap_279083ce5539b531,
-            mid_newHashSet_47f821dadf33608c,
-            mid_timSort_9425cd4f62c94bce,
-            mid_timSort_657df41b6fd0d20f,
+            mid_introSort_acbb405b60a30822,
+            mid_introSort_96bf20ed71b7f7de,
+            mid_newHashMap_796bf355029a2f91,
+            mid_newHashSet_2c857f2fc253d736,
+            mid_timSort_acbb405b60a30822,
+            mid_timSort_96bf20ed71b7f7de,
             max_mid
           };
 

@@ -8,18 +8,18 @@ namespace org {
     namespace lucene {
       namespace queryparser {
         namespace flexible {
-          namespace core {
-            namespace parser {
-              class EscapeQuerySyntax;
-            }
-            namespace nodes {
-              class FieldableNode;
-              class TextableQueryNode;
-            }
-          }
           namespace standard {
             namespace nodes {
               class RegexpQueryNode;
+            }
+          }
+          namespace core {
+            namespace nodes {
+              class TextableQueryNode;
+              class FieldableNode;
+            }
+            namespace parser {
+              class EscapeQuerySyntax;
             }
           }
         }
@@ -33,8 +33,8 @@ namespace org {
 namespace java {
   namespace lang {
     class Class;
-    class CharSequence;
     class String;
+    class CharSequence;
     class CloneNotSupportedException;
   }
 }
@@ -51,17 +51,17 @@ namespace org {
               class RegexpQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_25d608db26253320,
-                  mid_init$_b974a1b06f039814,
-                  mid_cloneTree_4858e367e2f98412,
-                  mid_getField_373f0038978f926b,
-                  mid_getFieldAsString_09a7afff1868fc5e,
-                  mid_getText_373f0038978f926b,
-                  mid_setField_5ed8eb2e3024c663,
-                  mid_setText_5ed8eb2e3024c663,
-                  mid_textToBytesRef_9740fddd1c7df148,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_8603315685815f47,
+                  mid_init$_44298a318b5c73fe,
+                  mid_cloneTree_64fe86edc1c7449d,
+                  mid_getField_f2e5418fe0d66c69,
+                  mid_getFieldAsString_e7df854526d67fa3,
+                  mid_getText_f2e5418fe0d66c69,
+                  mid_setField_fe2ab7d27aa3fe1a,
+                  mid_setText_fe2ab7d27aa3fe1a,
+                  mid_textToBytesRef_adbedbc1fa61c358,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

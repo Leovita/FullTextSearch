@@ -21,7 +21,7 @@ namespace org {
         class IndexSorter$ComparableProvider : public ::java::lang::Object {
          public:
           enum {
-            mid_getAsComparableLong_7b22650fccb5d574,
+            mid_getAsComparableLong_49af390f180d8ee7,
             max_mid
           };
 

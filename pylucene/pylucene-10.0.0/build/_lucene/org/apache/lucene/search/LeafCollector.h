@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
         class DocIdSetIterator;
         class DocIdStream;
+        class Scorable;
       }
     }
   }
@@ -32,11 +32,11 @@ namespace org {
         class LeafCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_collect_f9e4a846fc88eb4a,
-            mid_collect_540b2b23d51b1efd,
-            mid_competitiveIterator_fc644a826c65d236,
-            mid_finish_3720c61b0679eb3e,
-            mid_setScorer_dd42dde4c0a7db1e,
+            mid_collect_88a1df634c710f78,
+            mid_collect_8226bd0b0fc13dba,
+            mid_competitiveIterator_b78969502cbf4939,
+            mid_finish_e7bdbe105ce1bafb,
+            mid_setScorer_c06bdf7d53c6460a,
             max_mid
           };
 

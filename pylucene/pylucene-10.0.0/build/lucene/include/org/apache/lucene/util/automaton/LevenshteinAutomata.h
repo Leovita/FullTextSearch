@@ -31,10 +31,10 @@ namespace org {
           class LevenshteinAutomata : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_855d5fa744141d54,
-              mid_init$_1f3f7355ad67325b,
-              mid_toAutomaton_bee936adc7ebdd5f,
-              mid_toAutomaton_c35819fb6815258a,
+              mid_init$_0c3fb5e97dae8b90,
+              mid_init$_a2398002aceeb56a,
+              mid_toAutomaton_8b59fea4e7d4c9ef,
+              mid_toAutomaton_d16b0e8108389ebc,
               max_mid
             };
 

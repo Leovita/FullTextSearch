@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
-    class Class;
-    class Runnable;
     class InterruptedException;
+    class Runnable;
+    class Class;
   }
   namespace util {
     class List;
@@ -26,13 +26,13 @@ namespace org {
         class SameThreadExecutorService : public ::java::util::concurrent::AbstractExecutorService {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_awaitTermination_e992b4908961e96e,
-            mid_execute_5f8e9a753ad746d2,
-            mid_isShutdown_947277eca0748c4e,
-            mid_isTerminated_947277eca0748c4e,
-            mid_shutdown_3720c61b0679eb3e,
-            mid_shutdownNow_36830460e10839eb,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_awaitTermination_67710f08bc0014c8,
+            mid_execute_b278873deffbc02b,
+            mid_isShutdown_9aa4f33e82ea333f,
+            mid_isTerminated_9aa4f33e82ea333f,
+            mid_shutdown_e7bdbe105ce1bafb,
+            mid_shutdownNow_1387e1e2702ac173,
             max_mid
           };
 

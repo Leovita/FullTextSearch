@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class ScandinavianNormalizer$Foldings : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_d5308ed2c7d2a615,
-              mid_values_ad594df921d54fb5,
+              mid_valueOf_42fae0dc6cc6d2be,
+              mid_values_291137b43a516c74,
               max_mid
             };
 

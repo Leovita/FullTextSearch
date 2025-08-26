@@ -32,9 +32,9 @@ namespace org {
           class LMSimilarity$DefaultCollectionModel : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_computeProbability_ea85b076e18a02e2,
-              mid_getName_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_computeProbability_b8ff741895585201,
+              mid_getName_e7df854526d67fa3,
               max_mid
             };
 

@@ -3,25 +3,25 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class IOContext;
         class Directory;
+        class IOContext;
       }
       namespace index {
-        class SegmentReadState;
         class SegmentInfo;
+        class SegmentReadState;
         class FieldInfos;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -34,9 +34,9 @@ namespace org {
         class SegmentReadState : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_d7a975039e287d49,
-            mid_init$_8a6064ffe72845a7,
-            mid_init$_2f938bd5b6af9bc4,
+            mid_init$_9393f024d84a3f5b,
+            mid_init$_deeb245564001ba1,
+            mid_init$_1d4567146056528c,
             max_mid
           };
 

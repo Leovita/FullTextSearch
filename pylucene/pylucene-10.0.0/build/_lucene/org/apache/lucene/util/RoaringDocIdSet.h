@@ -31,10 +31,10 @@ namespace org {
         class RoaringDocIdSet : public ::org::apache::lucene::search::DocIdSet {
          public:
           enum {
-            mid_cardinality_20fbf7565993c3d7,
-            mid_iterator_fc644a826c65d236,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_toString_09a7afff1868fc5e,
+            mid_cardinality_bd89ce15dad49192,
+            mid_iterator_b78969502cbf4939,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -20,20 +20,20 @@ namespace org {
           class NeighborQueue : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_2936d2706a18a684,
-              mid_add_06e0b8d4c1d7906b,
-              mid_clear_3720c61b0679eb3e,
-              mid_incomplete_947277eca0748c4e,
-              mid_insertWithOverflow_c1497fee57980602,
-              mid_markIncomplete_3720c61b0679eb3e,
-              mid_nodes_623cd4a044ba647a,
-              mid_pop_20fbf7565993c3d7,
-              mid_setVisitedCount_540b2b23d51b1efd,
-              mid_size_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
-              mid_topNode_20fbf7565993c3d7,
-              mid_topScore_9b6c3480dac00edf,
-              mid_visitedCount_20fbf7565993c3d7,
+              mid_init$_a0fed0a2cd38e7b1,
+              mid_add_a18b0cdf76a9509e,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_incomplete_9aa4f33e82ea333f,
+              mid_insertWithOverflow_0ebe0f1167a31953,
+              mid_markIncomplete_e7bdbe105ce1bafb,
+              mid_nodes_4b72a28a860ae838,
+              mid_pop_bd89ce15dad49192,
+              mid_setVisitedCount_8226bd0b0fc13dba,
+              mid_size_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
+              mid_topNode_bd89ce15dad49192,
+              mid_topScore_8b62236f0e4d0dbc,
+              mid_visitedCount_bd89ce15dad49192,
               max_mid
             };
 

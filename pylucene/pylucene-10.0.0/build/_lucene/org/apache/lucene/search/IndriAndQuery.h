@@ -3,17 +3,6 @@
 
 #include "org/apache/lucene/search/IndriQuery.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -26,6 +15,17 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -36,8 +36,8 @@ namespace org {
         class IndriAndQuery : public ::org::apache::lucene::search::IndriQuery {
          public:
           enum {
-            mid_init$_9425cd4f62c94bce,
-            mid_createWeight_77fe52950093e704,
+            mid_init$_acbb405b60a30822,
+            mid_createWeight_dc54d493278607e4,
             max_mid
           };
 

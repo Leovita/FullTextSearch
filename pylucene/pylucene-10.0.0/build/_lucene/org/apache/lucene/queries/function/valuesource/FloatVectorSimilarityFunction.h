@@ -34,8 +34,8 @@ namespace org {
             class FloatVectorSimilarityFunction : public ::org::apache::lucene::queries::function::valuesource::VectorSimilarityFunction {
              public:
               enum {
-                mid_init$_e5edf29e78a12878,
-                mid_func_8726746481c3aed8,
+                mid_init$_66630380548f024d,
+                mid_func_1c1d3073930107dc,
                 max_mid
               };
 

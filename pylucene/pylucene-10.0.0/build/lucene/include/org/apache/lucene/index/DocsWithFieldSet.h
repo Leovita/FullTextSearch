@@ -27,11 +27,11 @@ namespace org {
         class DocsWithFieldSet : public ::org::apache::lucene::search::DocIdSet {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_540b2b23d51b1efd,
-            mid_cardinality_20fbf7565993c3d7,
-            mid_iterator_fc644a826c65d236,
-            mid_ramBytesUsed_16939d9d0a9a9721,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_8226bd0b0fc13dba,
+            mid_cardinality_bd89ce15dad49192,
+            mid_iterator_b78969502cbf4939,
+            mid_ramBytesUsed_0f176418e3e16541,
             max_mid
           };
 

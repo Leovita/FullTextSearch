@@ -6,9 +6,6 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
       namespace search {
         class BooleanClause$Occur;
         class BooleanQuery;
@@ -19,28 +16,31 @@ namespace org {
           }
         }
       }
+      namespace store {
+        class Directory;
+      }
       namespace analysis {
         class Analyzer;
       }
-      namespace store {
-        class Directory;
+      namespace util {
+        class BytesRef;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class Double;
     class CharSequence;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
-    class List;
-    class Set;
     class Map;
+    class Set;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -55,16 +55,16 @@ namespace org {
             class BlendedInfixSuggester : public ::org::apache::lucene::search::suggest::analyzing::AnalyzingInfixSuggester {
              public:
               enum {
-                mid_init$_a23cdc2340ed50ac,
-                mid_init$_9cd4229f93a4b2bf,
-                mid_init$_9397f6823bfcb6cb,
-                mid_lookup_51465de8e2d90cbd,
-                mid_lookup_2fb7a4da1831fc59,
-                mid_lookup_fc4b9325750abfb8,
-                mid_lookup_21dea9664d0b635d,
-                mid_getTextFieldType_2c48559fc9452bd5,
-                mid_createResults_6e2cd9fbefb52e3d,
-                mid_calculateCoefficient_788f636887bfcb79,
+                mid_init$_0d5e41ccc32bd900,
+                mid_init$_e7c4907c0a7da2ba,
+                mid_init$_fc11ee2993044a7a,
+                mid_lookup_0b5d66b5da4a3286,
+                mid_lookup_69499ac9ec5cc8d4,
+                mid_lookup_6fbcdb5c4a619b49,
+                mid_lookup_3d6ae8859315914b,
+                mid_getTextFieldType_1856aa2ed33f6865,
+                mid_createResults_33e0f096e9c09495,
+                mid_calculateCoefficient_3bb466f769ef1c7f,
                 max_mid
               };
 

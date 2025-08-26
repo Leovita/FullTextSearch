@@ -3,6 +3,21 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    namespace concurrent {
+      class ExecutorService;
+    }
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,21 +33,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-    namespace concurrent {
-      class ExecutorService;
-    }
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -44,8 +44,8 @@ namespace org {
           class DynamicRangeUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_computeDynamicNumericRanges_08760d6b086f1361,
-              mid_computeDynamicRanges_37f137d73e1518ef,
+              mid_computeDynamicNumericRanges_c37b3dc3713ade2d,
+              mid_computeDynamicRanges_51ffb8659e98b6fe,
               max_mid
             };
 

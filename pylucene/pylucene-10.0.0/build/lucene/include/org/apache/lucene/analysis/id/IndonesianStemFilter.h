@@ -31,9 +31,9 @@ namespace org {
           class IndonesianStemFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_init$_303f0251e5222802,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_4fe096967a533954,
+              mid_init$_6d445dfe4136b2df,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

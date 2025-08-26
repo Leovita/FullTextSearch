@@ -28,8 +28,8 @@ namespace org {
         class ShapeField$DecodedTriangle$TYPE : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_580de747d2f30fac,
-            mid_values_bf8c3e27268d45ab,
+            mid_valueOf_46263c31d3d071dc,
+            mid_values_afd5bcd232e1ebf1,
             max_mid
           };
 

@@ -22,17 +22,17 @@ namespace org {
           class IntervalFilter : public ::org::apache::lucene::queries::intervals::IntervalIterator {
            public:
             enum {
-              mid_init$_e20f469d727f28f3,
-              mid_advance_3c9bba330f083871,
-              mid_cost_16939d9d0a9a9721,
-              mid_docID_20fbf7565993c3d7,
-              mid_end_20fbf7565993c3d7,
-              mid_gaps_20fbf7565993c3d7,
-              mid_matchCost_9b6c3480dac00edf,
-              mid_nextDoc_20fbf7565993c3d7,
-              mid_nextInterval_20fbf7565993c3d7,
-              mid_start_20fbf7565993c3d7,
-              mid_accept_947277eca0748c4e,
+              mid_init$_47762719cd9438bb,
+              mid_advance_a3904e10f5bb9437,
+              mid_cost_0f176418e3e16541,
+              mid_docID_bd89ce15dad49192,
+              mid_end_bd89ce15dad49192,
+              mid_gaps_bd89ce15dad49192,
+              mid_matchCost_8b62236f0e4d0dbc,
+              mid_nextDoc_bd89ce15dad49192,
+              mid_nextInterval_bd89ce15dad49192,
+              mid_start_bd89ce15dad49192,
+              mid_accept_9aa4f33e82ea333f,
               max_mid
             };
 

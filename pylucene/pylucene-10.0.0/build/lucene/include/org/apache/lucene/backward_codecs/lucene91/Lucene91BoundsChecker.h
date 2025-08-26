@@ -30,11 +30,11 @@ namespace org {
           class Lucene91BoundsChecker : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_check_ed8290af1db6b7df,
-              mid_create_7fe0ac521d6c34ea,
-              mid_set_c771a95b0227fb6a,
-              mid_update_c771a95b0227fb6a,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_check_bf47f881a09da8d2,
+              mid_create_287571eec9ef9256,
+              mid_set_675f4cb9a2529ee0,
+              mid_update_675f4cb9a2529ee0,
               max_mid
             };
 

@@ -3,29 +3,29 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Runnable;
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
         namespace hunspell {
-          class Dictionary;
-          class AffixedWord;
           class TimeoutPolicy;
-          class SuggestionTimeoutException;
+          class AffixedWord;
           class EntrySuggestion;
+          class Dictionary;
+          class SuggestionTimeoutException;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Runnable;
-    class String;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -39,15 +39,15 @@ namespace org {
           class Hunspell : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_25851638115dd159,
-              mid_init$_82429c0399f23892,
-              mid_analyzeSimpleWord_8eaa545bb5a79de3,
-              mid_compress_51c205eb479a03a8,
-              mid_getAllWordForms_8eaa545bb5a79de3,
-              mid_getRoots_8eaa545bb5a79de3,
-              mid_spell_4a13a663b5c11133,
-              mid_suggest_8eaa545bb5a79de3,
-              mid_suggest_f177eee3a5a0ff21,
+              mid_init$_081d976eaef7e2bb,
+              mid_init$_4103eff5f3c62ac6,
+              mid_analyzeSimpleWord_49920ced44282529,
+              mid_compress_d50f639aec147b86,
+              mid_getAllWordForms_49920ced44282529,
+              mid_getRoots_49920ced44282529,
+              mid_spell_94f7e759d94961b0,
+              mid_suggest_49920ced44282529,
+              mid_suggest_cb9f4139110d624d,
               max_mid
             };
 

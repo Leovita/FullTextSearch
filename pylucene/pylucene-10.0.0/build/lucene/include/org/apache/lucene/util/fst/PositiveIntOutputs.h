@@ -6,26 +6,26 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace store {
-        class DataInput;
-        class DataOutput;
-      }
       namespace util {
         namespace fst {
           class PositiveIntOutputs;
         }
       }
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
-    class String;
     class Long;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,16 +39,16 @@ namespace org {
           class PositiveIntOutputs : public ::org::apache::lucene::util::fst::Outputs {
            public:
             enum {
-              mid_add_45eb2284dd90b602,
-              mid_common_45eb2284dd90b602,
-              mid_getNoOutput_34383b55cea8435b,
-              mid_getSingleton_75954ce4a36be032,
-              mid_outputToString_0ecc2889c779f940,
-              mid_ramBytesUsed_0a2f7204813fa9d2,
-              mid_read_082d81551187c06f,
-              mid_subtract_45eb2284dd90b602,
-              mid_toString_09a7afff1868fc5e,
-              mid_write_f0037bba8dd69d9c,
+              mid_add_9c1d5e28b0f90eff,
+              mid_common_9c1d5e28b0f90eff,
+              mid_getNoOutput_c4ac57d488686cc8,
+              mid_getSingleton_ff17dcdc64ccf354,
+              mid_outputToString_facff0a0a6e3ae2e,
+              mid_ramBytesUsed_136b9d53556430e7,
+              mid_read_816c9e0ff245e4a0,
+              mid_subtract_9c1d5e28b0f90eff,
+              mid_toString_e7df854526d67fa3,
+              mid_write_0b77770957a7f1bc,
               max_mid
             };
 

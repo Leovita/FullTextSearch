@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
+        class NamedMatches;
         class Matches;
         class MatchesIterator;
-        class NamedMatches;
+        class Query;
       }
     }
   }
@@ -39,13 +39,13 @@ namespace org {
         class NamedMatches : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_fc19a8708189eae5,
-            mid_findNamedMatches_c1d0cceeb4e08115,
-            mid_getMatches_b5db4e114c82a54d,
-            mid_getName_09a7afff1868fc5e,
-            mid_getSubMatches_aa58b3beec16cbbd,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_wrapQuery_7e6debb9e2c7b0ca,
+            mid_init$_1e1d066dcb5706fc,
+            mid_findNamedMatches_e830a51d4469d008,
+            mid_getMatches_afa9177134b33792,
+            mid_getName_e7df854526d67fa3,
+            mid_getSubMatches_4a269b968b3a511f,
+            mid_iterator_c7985fafdcf40e83,
+            mid_wrapQuery_feaf0e31f2b72add,
             max_mid
           };
 

@@ -35,11 +35,11 @@ namespace org {
           class TypeAsSynonymFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_init$_d99a6a0dc69b5152,
-              mid_init$_b4a2c13559d179d6,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_4fe096967a533954,
+              mid_init$_8418fe9e89083363,
+              mid_init$_1a96a7106d428d0e,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

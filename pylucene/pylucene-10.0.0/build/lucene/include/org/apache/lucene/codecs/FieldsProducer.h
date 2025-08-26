@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class Closeable;
     class IOException;
+    class Closeable;
   }
   namespace lang {
     class Class;
@@ -31,9 +31,9 @@ namespace org {
         class FieldsProducer : public ::org::apache::lucene::index::Fields {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_getMergeInstance_47d662857d04070e,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getMergeInstance_181d74dce6e339fd,
             max_mid
           };
 

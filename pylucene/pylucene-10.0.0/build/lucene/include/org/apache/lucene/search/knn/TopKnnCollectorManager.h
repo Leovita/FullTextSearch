@@ -20,11 +20,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,8 +38,8 @@ namespace org {
           class TopKnnCollectorManager : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b13db767f0e6a902,
-              mid_newCollector_401e714a5e3dcc89,
+              mid_init$_0dd802825543d336,
+              mid_newCollector_7ffd49c5523c1db4,
               max_mid
             };
 

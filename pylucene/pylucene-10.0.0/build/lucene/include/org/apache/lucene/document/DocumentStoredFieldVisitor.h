@@ -4,12 +4,12 @@
 #include "org/apache/lucene/index/StoredFieldVisitor.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Set;
@@ -19,8 +19,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class FieldInfo;
         class StoredFieldVisitor$Status;
+        class FieldInfo;
       }
       namespace document {
         class Document;
@@ -38,17 +38,17 @@ namespace org {
         class DocumentStoredFieldVisitor : public ::org::apache::lucene::index::StoredFieldVisitor {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_ce41e621b30e91b1,
-            mid_init$_1d5d4c6f11d1b2ab,
-            mid_binaryField_81aec706077de3c8,
-            mid_doubleField_15da8d9582fee97c,
-            mid_floatField_013aff7dc250536b,
-            mid_getDocument_942036688bffb03f,
-            mid_intField_484c149275e4150c,
-            mid_longField_9d67b99cda581cf2,
-            mid_needsField_669f7cdbb6cf6bde,
-            mid_stringField_5c9f933456c04469,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_1f90f2fcbe43e50d,
+            mid_init$_478519f7d4301fc7,
+            mid_binaryField_60cae6b96c4b3d24,
+            mid_doubleField_a4548d4d49fe5baf,
+            mid_floatField_2e0b4786b01c00c5,
+            mid_getDocument_cc154206ff4e754b,
+            mid_intField_7da17ba798519794,
+            mid_longField_4573144ea666abda,
+            mid_needsField_e8318e220f0d744b,
+            mid_stringField_23bd4f2f5dbee707,
             max_mid
           };
 

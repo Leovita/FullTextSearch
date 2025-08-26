@@ -17,8 +17,8 @@ namespace org {
     namespace lucene {
       namespace internal {
         namespace hppc {
-          class CharObjectHashMap;
           class CharCursor;
+          class CharObjectHashMap;
         }
       }
     }
@@ -35,10 +35,10 @@ namespace org {
           class CharObjectHashMap$KeysContainer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_c6fd4e892c3b3c77,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_size_20fbf7565993c3d7,
-              mid_toArray_77d52ded526199de,
+              mid_init$_9310cb9ba6db8157,
+              mid_iterator_c7985fafdcf40e83,
+              mid_size_bd89ce15dad49192,
+              mid_toArray_e5926045e1917c62,
               max_mid
             };
 

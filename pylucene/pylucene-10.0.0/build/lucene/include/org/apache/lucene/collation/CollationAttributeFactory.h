@@ -35,9 +35,9 @@ namespace org {
         class CollationAttributeFactory : public ::org::apache::lucene::util::AttributeFactory$StaticImplementationAttributeFactory {
          public:
           enum {
-            mid_init$_df4e91f4589aa589,
-            mid_init$_152c780c2fd864ca,
-            mid_createInstance_264f66a31b92ec12,
+            mid_init$_b2f0a3261bb25874,
+            mid_init$_778d50f42bb1503b,
+            mid_createInstance_27e097d3bf2c7c8e,
             max_mid
           };
 

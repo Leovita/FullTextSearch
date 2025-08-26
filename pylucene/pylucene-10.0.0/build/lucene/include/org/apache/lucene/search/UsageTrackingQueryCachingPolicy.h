@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class QueryCachingPolicy;
+        class Query;
       }
     }
   }
@@ -31,11 +31,11 @@ namespace org {
         class UsageTrackingQueryCachingPolicy : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_540b2b23d51b1efd,
-            mid_onUse_d7278af460a7b96a,
-            mid_shouldCache_d00a8af12757838c,
-            mid_minFrequencyToCache_51f2321ccdd2e47d,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_8226bd0b0fc13dba,
+            mid_onUse_a28ff1cdbaf0bf6c,
+            mid_shouldCache_adfff59bd14791e2,
+            mid_minFrequencyToCache_aef74c16ca27d4d8,
             max_mid
           };
 

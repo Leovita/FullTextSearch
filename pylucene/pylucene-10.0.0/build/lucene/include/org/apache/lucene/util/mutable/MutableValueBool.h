@@ -20,13 +20,13 @@ namespace org {
           class MutableValueBool : public ::org::apache::lucene::util::mutable$::MutableValue {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_compareSameType_657656e6a597f732,
-              mid_copy_6ff892abee0fa393,
-              mid_duplicate_28c3cf024c0e87ef,
-              mid_equalsSameType_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toObject_5655ed8670534604,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_compareSameType_3b738b91667a06c2,
+              mid_copy_c9984adaa32a6ee1,
+              mid_duplicate_ab99a02747ee80a6,
+              mid_equalsSameType_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toObject_4819806f62f1360a,
               max_mid
             };
 

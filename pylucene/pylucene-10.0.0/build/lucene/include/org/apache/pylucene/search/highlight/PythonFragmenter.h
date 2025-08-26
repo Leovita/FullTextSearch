@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +17,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -34,11 +34,11 @@ namespace org {
           class PythonFragmenter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_isNewFragment_947277eca0748c4e,
-              mid_pythonExtension_16939d9d0a9a9721,
-              mid_pythonExtension_8b3d46852b435a94,
-              mid_start_5300007aee41849a,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_isNewFragment_9aa4f33e82ea333f,
+              mid_pythonExtension_0f176418e3e16541,
+              mid_pythonExtension_1d3149fac12f2af3,
+              mid_start_695328e8af0f010c,
               max_mid
             };
 

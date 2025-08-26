@@ -19,8 +19,8 @@ namespace org {
           class PositionLengthAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_getPositionLength_20fbf7565993c3d7,
-              mid_setPositionLength_540b2b23d51b1efd,
+              mid_getPositionLength_bd89ce15dad49192,
+              mid_setPositionLength_8226bd0b0fc13dba,
               max_mid
             };
 

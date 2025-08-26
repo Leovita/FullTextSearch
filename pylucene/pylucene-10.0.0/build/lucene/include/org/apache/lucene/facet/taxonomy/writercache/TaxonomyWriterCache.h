@@ -31,12 +31,12 @@ namespace org {
             class TaxonomyWriterCache : public ::java::lang::Object {
              public:
               enum {
-                mid_clear_3720c61b0679eb3e,
-                mid_close_3720c61b0679eb3e,
-                mid_get_b886af148d2e9c5a,
-                mid_isFull_947277eca0748c4e,
-                mid_put_a36a80be266c9fdf,
-                mid_size_20fbf7565993c3d7,
+                mid_clear_e7bdbe105ce1bafb,
+                mid_close_e7bdbe105ce1bafb,
+                mid_get_36dd33e0173c4244,
+                mid_isFull_9aa4f33e82ea333f,
+                mid_put_44521ca0d7cb4d7d,
+                mid_size_bd89ce15dad49192,
                 max_mid
               };
 

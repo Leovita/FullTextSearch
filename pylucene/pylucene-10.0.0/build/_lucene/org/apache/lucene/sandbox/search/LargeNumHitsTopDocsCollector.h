@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class LeafCollector;
         class ScoreMode;
+        class LeafCollector;
         class TopDocs;
         class Collector;
       }
@@ -34,13 +34,13 @@ namespace org {
           class LargeNumHitsTopDocsCollector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_getLeafCollector_aca3f888603431e1,
-              mid_scoreMode_45dfdcf7e901559d,
-              mid_topDocs_a61875f39685c639,
-              mid_topDocs_0289834b11e21a05,
-              mid_newTopDocs_4916685cddae650c,
-              mid_populateResults_de6fa2c5d78c15b6,
+              mid_init$_8226bd0b0fc13dba,
+              mid_getLeafCollector_0a34433e6da38be9,
+              mid_scoreMode_23e7061dcdc84768,
+              mid_topDocs_ff559ee576f938cf,
+              mid_topDocs_552a19c992db15ff,
+              mid_newTopDocs_d9349ba7899a61ca,
+              mid_populateResults_d8cc3a50beb36d32,
               max_mid
             };
 

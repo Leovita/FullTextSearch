@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class GeoBBox;
           class PlanetModel;
+          class GeoBBox;
         }
       }
     }
@@ -31,7 +31,7 @@ namespace org {
           class GeoBaseBBox : public ::org::apache::lucene::spatial3d::geom::GeoBaseAreaShape {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
+              mid_init$_ed6d55ea06962af0,
               max_mid
             };
 

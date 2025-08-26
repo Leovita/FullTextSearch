@@ -3,6 +3,17 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class Long;
+    class String;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -15,17 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
-    class Long;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -36,21 +36,21 @@ namespace org {
         class LongPoint : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_2e5171918cd5d9fa,
-            mid_decodeDimension_e68bac179e5a013e,
-            mid_encodeDimension_be470a93ee399bf5,
-            mid_newExactQuery_cb577c99d891ea6f,
-            mid_newRangeQuery_2e1f01af3550a891,
-            mid_newRangeQuery_d94de4eddd72517b,
-            mid_newSetQuery_b01e10398514ec4c,
-            mid_newSetQuery_9484176e9ce4ba1f,
-            mid_numericValue_1b3282bb4db06655,
-            mid_pack_e843a66d32ccb07a,
-            mid_setBytesValue_ac0de3ee0e03786d,
-            mid_setLongValue_8b3d46852b435a94,
-            mid_setLongValues_140bd592f9f15dfc,
-            mid_toString_09a7afff1868fc5e,
-            mid_unpack_59bfe2428519483b,
+            mid_init$_9e52c7109c8baa43,
+            mid_decodeDimension_6566cb2be8167573,
+            mid_encodeDimension_722532cf3f3003a2,
+            mid_newExactQuery_98e0283bae36d37a,
+            mid_newRangeQuery_83653169e610b239,
+            mid_newRangeQuery_d24bb07db2b1e6e7,
+            mid_newSetQuery_bf074e07e7c212d7,
+            mid_newSetQuery_525d6c1fce01d552,
+            mid_numericValue_b9665294ea488d3c,
+            mid_pack_e46322d5e87d00ca,
+            mid_setBytesValue_920ce0cdf4259cc9,
+            mid_setLongValue_1d3149fac12f2af3,
+            mid_setLongValues_bf6da8fca8728f3d,
+            mid_toString_e7df854526d67fa3,
+            mid_unpack_31efd53223f74c29,
             max_mid
           };
 

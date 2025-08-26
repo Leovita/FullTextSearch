@@ -6,10 +6,10 @@
 namespace java {
   namespace lang {
     class Comparable;
-    class Class;
-    class CharSequence;
-    class String;
     class Object;
+    class Class;
+    class String;
+    class CharSequence;
   }
 }
 namespace org {
@@ -37,11 +37,11 @@ namespace org {
             class TopSuggestDocs$SuggestScoreDoc : public ::org::apache::lucene::search::ScoreDoc {
              public:
               enum {
-                mid_init$_71bd587f44f798d5,
-                mid_compareTo_db0308377151db38,
-                mid_equals_570b5248a6da3ef6,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_4670c85a1c2acfe7,
+                mid_compareTo_571ee04cf5c70f32,
+                mid_equals_00d17418847797d4,
+                mid_hashCode_bd89ce15dad49192,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

@@ -28,9 +28,9 @@ namespace org {
       class Lift : public ::org::egothor::stemmer::Reduce {
        public:
         enum {
-          mid_init$_b110fc3a58c081ab,
-          mid_liftUp_3524b420495ec89d,
-          mid_optimize_9d77d4414065d0b1,
+          mid_init$_f5dd97eebf6a215a,
+          mid_liftUp_25caff2048980332,
+          mid_optimize_495cd644315e724e,
           max_mid
         };
 

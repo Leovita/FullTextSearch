@@ -7,19 +7,19 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
+        class Directory;
         class FSDirectory;
         class LockFactory;
-        class Directory;
       }
     }
   }
 }
 namespace java {
   namespace lang {
-    class ClassNotFoundException;
     class Class;
-    class String;
     class ReflectiveOperationException;
+    class String;
+    class ClassNotFoundException;
   }
   namespace nio {
     namespace file {
@@ -37,12 +37,12 @@ namespace org {
         class CommandLineUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_loadDirectoryClass_f5e647a8ccc975d0,
-            mid_loadFSDirectoryClass_f5e647a8ccc975d0,
-            mid_newFSDirectory_3f23e64f59eb87d3,
-            mid_newFSDirectory_9576c13c84840bd9,
-            mid_newFSDirectory_c05c17dacf249910,
-            mid_newFSDirectory_67611279311b395f,
+            mid_loadDirectoryClass_34dc63379bcbfa09,
+            mid_loadFSDirectoryClass_34dc63379bcbfa09,
+            mid_newFSDirectory_621709f2cd686486,
+            mid_newFSDirectory_4ac5b5c024b0f101,
+            mid_newFSDirectory_836ee71a081e130b,
+            mid_newFSDirectory_2a8316260124b141,
             max_mid
           };
 

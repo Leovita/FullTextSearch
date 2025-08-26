@@ -6,26 +6,26 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
       namespace util {
         class BytesRef;
       }
       namespace index {
         class FieldInfo;
       }
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,14 +39,14 @@ namespace org {
           class SimpleTextTermVectorsWriter : public ::org::apache::lucene::codecs::TermVectorsWriter {
            public:
             enum {
-              mid_init$_4dba7632ff601768,
-              mid_addPosition_54dd3593ad2b559e,
-              mid_close_3720c61b0679eb3e,
-              mid_finish_540b2b23d51b1efd,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_startDocument_540b2b23d51b1efd,
-              mid_startField_109b6acc549dbc3d,
-              mid_startTerm_be93bdc4fbbb5027,
+              mid_init$_242f0c71b92fd6af,
+              mid_addPosition_e467e9221c0680cd,
+              mid_close_e7bdbe105ce1bafb,
+              mid_finish_8226bd0b0fc13dba,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_startDocument_8226bd0b0fc13dba,
+              mid_startField_fa294ef516f109e2,
+              mid_startTerm_86aec93bf51df65e,
               max_mid
             };
 

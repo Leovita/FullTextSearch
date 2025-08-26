@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/queryparser/surround/query/SrndQuery.h"
 
+namespace java {
+  namespace util {
+    class Iterator;
+    class List;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,16 +29,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace util {
-    class Iterator;
-    class List;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -41,21 +41,21 @@ namespace org {
             class ComposedQuery : public ::org::apache::lucene::queryparser::surround::query::SrndQuery {
              public:
               enum {
-                mid_init$_4fcda0d6e43d0b71,
-                mid_getNrSubQueries_20fbf7565993c3d7,
-                mid_getOperatorName_09a7afff1868fc5e,
-                mid_getSubQueriesIterator_0db4c76ff7ee995b,
-                mid_getSubQuery_8106d80d6c2b47c3,
-                mid_isFieldsSubQueryAcceptable_947277eca0748c4e,
-                mid_isOperatorInfix_947277eca0748c4e,
-                mid_makeLuceneSubQueriesField_236aeb6408c91994,
-                mid_toString_09a7afff1868fc5e,
-                mid_infixToString_86d6edf9953c2f53,
-                mid_prefixToString_86d6edf9953c2f53,
-                mid_getBracketOpen_09a7afff1868fc5e,
-                mid_getBracketClose_09a7afff1868fc5e,
-                mid_getPrefixSeparator_09a7afff1868fc5e,
-                mid_recompose_9425cd4f62c94bce,
+                mid_init$_1ad19c832bba5d35,
+                mid_getNrSubQueries_bd89ce15dad49192,
+                mid_getOperatorName_e7df854526d67fa3,
+                mid_getSubQueriesIterator_c7985fafdcf40e83,
+                mid_getSubQuery_59c941d6f11d6b8c,
+                mid_isFieldsSubQueryAcceptable_9aa4f33e82ea333f,
+                mid_isOperatorInfix_9aa4f33e82ea333f,
+                mid_makeLuceneSubQueriesField_45d486352254701e,
+                mid_toString_e7df854526d67fa3,
+                mid_recompose_acbb405b60a30822,
+                mid_infixToString_5dd6a2d608961d5f,
+                mid_prefixToString_5dd6a2d608961d5f,
+                mid_getBracketOpen_e7df854526d67fa3,
+                mid_getBracketClose_e7df854526d67fa3,
+                mid_getPrefixSeparator_e7df854526d67fa3,
                 max_mid
               };
 

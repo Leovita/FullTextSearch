@@ -3,23 +3,23 @@
 
 #include "org/apache/lucene/search/similarities/Similarity.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class Explanation;
+        class TermStatistics;
         class CollectionStatistics;
         namespace similarities {
           class Similarity$SimScorer;
         }
-        class Explanation;
-        class TermStatistics;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -33,14 +33,14 @@ namespace org {
           class TFIDFSimilarity : public ::org::apache::lucene::search::similarities::Similarity {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_b110fc3a58c081ab,
-              mid_idf_080f674c1bc73c17,
-              mid_idfExplain_ab8a1aa08a5185a2,
-              mid_idfExplain_fd480d4fa493711e,
-              mid_lengthNorm_29cfa01aaad92564,
-              mid_scorer_67d67592415704df,
-              mid_tf_8fa359a2bc20a127,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f5dd97eebf6a215a,
+              mid_idf_49931e962a3f57e4,
+              mid_idfExplain_684e0a1764dc292f,
+              mid_idfExplain_9cf8582f72982b4d,
+              mid_lengthNorm_5873a23b935a9d49,
+              mid_scorer_556ce9e7c1c4eb6a,
+              mid_tf_760c23641efab431,
               max_mid
             };
 

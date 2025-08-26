@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class ResourceLoader;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,7 +30,7 @@ namespace org {
         class ResourceLoaderAware : public ::java::lang::Object {
          public:
           enum {
-            mid_inform_6addbf380886844e,
+            mid_inform_4ba602df53b96765,
             max_mid
           };
 

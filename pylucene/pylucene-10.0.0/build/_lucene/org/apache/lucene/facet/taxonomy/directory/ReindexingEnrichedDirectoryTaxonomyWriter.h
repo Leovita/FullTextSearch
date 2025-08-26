@@ -3,10 +3,24 @@
 
 #include "org/apache/lucene/facet/taxonomy/directory/DirectoryTaxonomyWriter.h"
 
-namespace java {
-  namespace io {
-    class IOException;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace document {
+        class Document;
+      }
+      namespace facet {
+        namespace taxonomy {
+          class FacetLabel;
+        }
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
   }
@@ -15,22 +29,8 @@ namespace java {
       class BiConsumer;
     }
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace facet {
-        namespace taxonomy {
-          class FacetLabel;
-        }
-      }
-      namespace document {
-        class Document;
-      }
-      namespace store {
-        class Directory;
-      }
-    }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -45,9 +45,9 @@ namespace org {
             class ReindexingEnrichedDirectoryTaxonomyWriter : public ::org::apache::lucene::facet::taxonomy::directory::DirectoryTaxonomyWriter {
              public:
               enum {
-                mid_init$_a6326fe1fbf1b206,
-                mid_reindexWithNewOrdinalData_b72e978f1e58c9c6,
-                mid_enrichOrdinalDocument_33e704356989236f,
+                mid_init$_282057b63cb7a319,
+                mid_reindexWithNewOrdinalData_309feadaabdabe33,
+                mid_enrichOrdinalDocument_f1e258f855995777,
                 max_mid
               };
 

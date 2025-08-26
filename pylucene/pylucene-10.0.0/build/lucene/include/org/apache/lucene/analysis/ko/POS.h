@@ -3,22 +3,22 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
         namespace ko {
-          class POS$Tag;
           class POS$Type;
+          class POS$Tag;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,11 +32,11 @@ namespace org {
           class POS : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_resolveTag_00fdd3cedeef483a,
-              mid_resolveTag_b8b2c2f3be753e4b,
-              mid_resolveType_63b6fde1540a694c,
-              mid_resolveType_72850f49e611245c,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_resolveTag_8571da0583036b9e,
+              mid_resolveTag_6093701d2b514446,
+              mid_resolveType_bed5413d169eee80,
+              mid_resolveType_777f0a758e6dfcd0,
               max_mid
             };
 

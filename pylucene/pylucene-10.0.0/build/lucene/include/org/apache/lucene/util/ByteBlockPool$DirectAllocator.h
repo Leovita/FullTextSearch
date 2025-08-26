@@ -18,8 +18,8 @@ namespace org {
         class ByteBlockPool$DirectAllocator : public ::org::apache::lucene::util::ByteBlockPool$Allocator {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_recycleByteBlocks_540f60124d959184,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_recycleByteBlocks_12d456106f915218,
             max_mid
           };
 

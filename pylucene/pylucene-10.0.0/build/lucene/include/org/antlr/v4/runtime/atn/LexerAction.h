@@ -31,9 +31,9 @@ namespace org {
           class LexerAction : public ::java::lang::Object {
            public:
             enum {
-              mid_execute_704fbc51304663e4,
-              mid_getActionType_18b0813cb0715daf,
-              mid_isPositionDependent_947277eca0748c4e,
+              mid_execute_cf99232fff9b5009,
+              mid_getActionType_8bb7285fc17e17a2,
+              mid_isPositionDependent_9aa4f33e82ea333f,
               max_mid
             };
 

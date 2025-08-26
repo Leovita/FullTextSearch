@@ -3,6 +3,12 @@
 
 #include "org/apache/lucene/util/AttributeImpl.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,12 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -38,13 +38,13 @@ namespace org {
             class ReadingAttributeImpl : public ::org::apache::lucene::util::AttributeImpl {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_clear_3720c61b0679eb3e,
-                mid_copyTo_9be83c6b2aff7007,
-                mid_getPronunciation_09a7afff1868fc5e,
-                mid_getReading_09a7afff1868fc5e,
-                mid_reflectWith_454217ab6e97f729,
-                mid_setToken_1fe887e577328fdb,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_clear_e7bdbe105ce1bafb,
+                mid_copyTo_b194e41b568bc1bc,
+                mid_getPronunciation_e7df854526d67fa3,
+                mid_getReading_e7df854526d67fa3,
+                mid_reflectWith_ac049850cfa29e37,
+                mid_setToken_13f1d4cb8cf00725,
                 max_mid
               };
 

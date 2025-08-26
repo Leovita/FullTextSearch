@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class DistanceStyle;
           class GeoPoint;
+          class DistanceStyle;
         }
       }
     }
@@ -31,10 +31,10 @@ namespace org {
           class GeoDistance : public ::org::apache::lucene::spatial3d::geom::Membership {
            public:
             enum {
-              mid_computeDeltaDistance_6635ccfc1ffc6db7,
-              mid_computeDeltaDistance_843fc02405cdd09d,
-              mid_computeDistance_6635ccfc1ffc6db7,
-              mid_computeDistance_843fc02405cdd09d,
+              mid_computeDeltaDistance_c279193319e1a46c,
+              mid_computeDeltaDistance_79a34b4fe77da1ae,
+              mid_computeDistance_c279193319e1a46c,
+              mid_computeDistance_79a34b4fe77da1ae,
               max_mid
             };
 

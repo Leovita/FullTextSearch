@@ -38,13 +38,13 @@ namespace org {
             class QueryParserTokenManager : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_c2b02911839614e6,
-                mid_init$_876a1399cff1cc40,
-                mid_ReInit_c2b02911839614e6,
-                mid_ReInit_876a1399cff1cc40,
-                mid_SwitchTo_540b2b23d51b1efd,
-                mid_getNextToken_d7b848889e5023e6,
-                mid_jjFillToken_d7b848889e5023e6,
+                mid_init$_e62548278c2da79e,
+                mid_init$_41ba174bb093a9c8,
+                mid_ReInit_e62548278c2da79e,
+                mid_ReInit_41ba174bb093a9c8,
+                mid_SwitchTo_8226bd0b0fc13dba,
+                mid_getNextToken_5b13e884ebe6ec11,
+                mid_jjFillToken_5b13e884ebe6ec11,
                 max_mid
               };
 

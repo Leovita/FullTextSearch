@@ -3,6 +3,16 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class Map;
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,16 +20,6 @@ namespace org {
         class Accountable;
       }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Collection;
-    class Map;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -32,11 +32,11 @@ namespace org {
         class Accountables : public ::java::lang::Object {
          public:
           enum {
-            mid_namedAccountable_666140f9ddda658b,
-            mid_namedAccountable_9b010ce3d169c965,
-            mid_namedAccountable_5998598d7d72841f,
-            mid_namedAccountables_7e053bb3e047fc24,
-            mid_toString_7f318ab194b9df4d,
+            mid_namedAccountable_9c8ebf5c8f0deb84,
+            mid_namedAccountable_e3e225107a452d53,
+            mid_namedAccountable_24cbe611653b88b6,
+            mid_namedAccountables_518d9c67641ee86f,
+            mid_toString_0d4be5fe23f65bd3,
             max_mid
           };
 

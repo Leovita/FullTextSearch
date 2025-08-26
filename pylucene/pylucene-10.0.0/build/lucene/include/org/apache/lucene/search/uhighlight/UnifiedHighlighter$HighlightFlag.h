@@ -3,6 +3,12 @@
 
 #include "java/lang/Enum.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,12 +18,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class UnifiedHighlighter$HighlightFlag : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_64f1e81abaad7aa7,
-              mid_values_750c8ad9b05d8739,
+              mid_valueOf_df58147a4a3efa23,
+              mid_values_e76ce0f8de86292a,
               max_mid
             };
 

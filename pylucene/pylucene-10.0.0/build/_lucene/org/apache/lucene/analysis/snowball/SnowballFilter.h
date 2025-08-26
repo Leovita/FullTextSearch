@@ -13,16 +13,16 @@ namespace java {
   }
 }
 namespace org {
-  namespace tartarus {
-    namespace snowball {
-      class SnowballStemmer;
-    }
-  }
   namespace apache {
     namespace lucene {
       namespace analysis {
         class TokenStream;
       }
+    }
+  }
+  namespace tartarus {
+    namespace snowball {
+      class SnowballStemmer;
     }
   }
 }
@@ -37,9 +37,9 @@ namespace org {
           class SnowballFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_cb213b10f8903e25,
-              mid_init$_d99a6a0dc69b5152,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_6f20f8fabd68a330,
+              mid_init$_8418fe9e89083363,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

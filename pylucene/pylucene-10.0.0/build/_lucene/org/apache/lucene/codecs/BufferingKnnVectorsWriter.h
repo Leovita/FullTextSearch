@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace index {
         class MergeState;
-        class FieldInfo;
         class Sorter$DocMap;
+        class FieldInfo;
       }
       namespace codecs {
         class KnnFieldVectorsWriter;
@@ -18,12 +18,12 @@ namespace org {
   }
 }
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
   namespace io {
     class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -36,12 +36,12 @@ namespace org {
         class BufferingKnnVectorsWriter : public ::org::apache::lucene::codecs::KnnVectorsWriter {
          public:
           enum {
-            mid_addField_be5be518afaa3c4d,
-            mid_flush_43b4ee6199cecfbf,
-            mid_mergeOneField_12bd7baeb6b4bf04,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_writeField_9aebc5bb68e46cf6,
-            mid_writeField_21ef140f0025c46f,
+            mid_addField_745312302c5f11e8,
+            mid_flush_fc9730fbac8271d5,
+            mid_mergeOneField_6efd9d341cba2a34,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_writeField_74438e6356e219a1,
+            mid_writeField_e0b887c5025e54b7,
             max_mid
           };
 

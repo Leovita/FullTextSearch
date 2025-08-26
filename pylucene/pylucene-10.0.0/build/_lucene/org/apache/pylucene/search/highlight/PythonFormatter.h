@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +13,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
           class PythonFormatter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_highlightTerm_ecd5d50f5d7e1e84,
-              mid_pythonExtension_16939d9d0a9a9721,
-              mid_pythonExtension_8b3d46852b435a94,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_highlightTerm_210671a0f4b1b3cf,
+              mid_pythonExtension_0f176418e3e16541,
+              mid_pythonExtension_1d3149fac12f2af3,
               max_mid
             };
 

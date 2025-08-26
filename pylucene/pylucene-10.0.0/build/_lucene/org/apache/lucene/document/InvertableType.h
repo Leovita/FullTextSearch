@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class InvertableType;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class InvertableType : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_2c2fb3d472323a8e,
-            mid_values_a4fac469f1473ee2,
+            mid_valueOf_b3b1448c10b1e236,
+            mid_values_1624f35bd8231b99,
             max_mid
           };
 

@@ -29,14 +29,14 @@ namespace org {
         class ByteVectorSimilarityQuery : public ::org::apache::lucene::search::AbstractVectorSimilarityQuery {
          public:
           enum {
-            mid_init$_65fbb8dfa540c664,
-            mid_init$_98cd59b9a8db03d6,
-            mid_init$_4a087004c1580994,
-            mid_init$_72110edbbf99fb7f,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_cb0eb1432185fc94,
-            mid_approximateSearch_2820dd1f2ca7baa6,
+            mid_init$_e6b869c49b5977e2,
+            mid_init$_fe726bb122c99684,
+            mid_init$_056bbbc19f3256ad,
+            mid_init$_6e49c7d6aff376fe,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_fef9c036acf290a9,
+            mid_approximateSearch_91ef996fb5702f76,
             max_mid
           };
 

@@ -31,10 +31,10 @@ namespace org {
           class MemoryAccountingBitsetCollector : public ::org::apache::lucene::search::SimpleCollector {
            public:
             enum {
-              mid_init$_0fff48158e8a39e3,
-              mid_collect_540b2b23d51b1efd,
-              mid_scoreMode_45dfdcf7e901559d,
-              mid_doSetNextReader_b7b06dce0a4097ed,
+              mid_init$_6b176080b6941c2e,
+              mid_collect_8226bd0b0fc13dba,
+              mid_scoreMode_23e7061dcdc84768,
+              mid_doSetNextReader_32243afefe6b151f,
               max_mid
             };
 

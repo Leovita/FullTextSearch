@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Cloneable;
     class Class;
     class String;
-    class Cloneable;
   }
   namespace io {
     class PrintStream;
@@ -41,24 +41,24 @@ namespace org {
             class TernaryTree : public ::java::lang::Object {
              public:
               enum {
-                mid_balance_3720c61b0679eb3e,
-                mid_clone_488a9ad432f73713,
-                mid_find_3f230d713d7fd2b0,
-                mid_find_9a7f8b7fc7b277ea,
-                mid_insert_2f4ccef78cebf8e8,
-                mid_insert_beb82c17ff6529e7,
-                mid_keys_a2a5e131c5f66817,
-                mid_knows_4a13a663b5c11133,
-                mid_printStats_f19a9aaf837ad692,
-                mid_size_20fbf7565993c3d7,
-                mid_strcmp_d8efb916c3f0b49d,
-                mid_strcmp_29624e033af61e73,
-                mid_strcpy_65abb54123aa1bab,
-                mid_strlen_1d6980f6711df1e4,
-                mid_strlen_9a7f8b7fc7b277ea,
-                mid_trimToSize_3720c61b0679eb3e,
-                mid_insertBalanced_90b2fcdcef4f2683,
-                mid_init_3720c61b0679eb3e,
+                mid_balance_e7bdbe105ce1bafb,
+                mid_clone_36c334d1a4d3cec7,
+                mid_find_fa2a6f298bd618ab,
+                mid_find_7146aefdd22b4b29,
+                mid_insert_8313299958c6bf15,
+                mid_insert_0ecaa5d73811e39f,
+                mid_keys_c0dcea0e1246b77b,
+                mid_knows_94f7e759d94961b0,
+                mid_printStats_922e82480ddcbcc4,
+                mid_size_bd89ce15dad49192,
+                mid_strcmp_2e4026490b647e02,
+                mid_strcmp_826b6903e83315ea,
+                mid_strcpy_0e39000fd3c14a8d,
+                mid_strlen_b5302190531968fe,
+                mid_strlen_7146aefdd22b4b29,
+                mid_trimToSize_e7bdbe105ce1bafb,
+                mid_insertBalanced_18ce85e8ce4d68fb,
+                mid_init_e7bdbe105ce1bafb,
                 max_mid
               };
 

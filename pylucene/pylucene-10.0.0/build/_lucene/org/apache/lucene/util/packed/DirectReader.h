@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class LongValues;
-      }
       namespace store {
         class RandomAccessInput;
+      }
+      namespace util {
+        class LongValues;
       }
     }
   }
@@ -31,11 +31,11 @@ namespace org {
           class DirectReader : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_getInstance_24e5b23f13bd7147,
-              mid_getInstance_473b769a0256b6ae,
-              mid_getMergeInstance_473b769a0256b6ae,
-              mid_getMergeInstance_5194b8af616d157b,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_getInstance_8f4b28191f3bbdcd,
+              mid_getInstance_a68fa1af95e0c2d2,
+              mid_getMergeInstance_a68fa1af95e0c2d2,
+              mid_getMergeInstance_02d7b45f4e418476,
               max_mid
             };
 

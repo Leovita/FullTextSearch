@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/codecs/DocValuesFormat.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,10 +11,18 @@ namespace org {
         class SegmentWriteState;
       }
       namespace codecs {
-        class DocValuesProducer;
         class DocValuesConsumer;
+        class DocValuesProducer;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -36,10 +36,10 @@ namespace org {
           class Lucene90DocValuesFormat : public ::org::apache::lucene::codecs::DocValuesFormat {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_fieldsConsumer_d0fc0c4688b977ff,
-              mid_fieldsProducer_4b11e7b79ec4a459,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_fieldsConsumer_a45dfb1d405359ea,
+              mid_fieldsProducer_3a40b1af1475b985,
               max_mid
             };
 

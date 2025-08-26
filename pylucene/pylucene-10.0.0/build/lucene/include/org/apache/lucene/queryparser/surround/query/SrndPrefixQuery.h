@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/queryparser/surround/query/SimpleTerm.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -28,6 +19,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -40,12 +40,12 @@ namespace org {
             class SrndPrefixQuery : public ::org::apache::lucene::queryparser::surround::query::SimpleTerm {
              public:
               enum {
-                mid_init$_dc909876e5b0346f,
-                mid_getPrefix_09a7afff1868fc5e,
-                mid_getSuffixOperator_6c956faefc706166,
-                mid_toStringUnquoted_09a7afff1868fc5e,
-                mid_visitMatchingTerms_67f593c567975eea,
-                mid_suffixToString_86d6edf9953c2f53,
+                mid_init$_178ad040a3add8fd,
+                mid_getPrefix_e7df854526d67fa3,
+                mid_getSuffixOperator_15a06771db8cb866,
+                mid_toStringUnquoted_e7df854526d67fa3,
+                mid_visitMatchingTerms_b61f1a3a9acfb89c,
+                mid_suffixToString_5dd6a2d608961d5f,
                 max_mid
               };
 

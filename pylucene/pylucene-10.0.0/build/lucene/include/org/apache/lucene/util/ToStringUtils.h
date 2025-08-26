@@ -3,6 +3,13 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class StringBuilder;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,13 +18,6 @@ namespace org {
         class BytesRefBuilder;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class StringBuilder;
   }
 }
 template<class T> class JArray;
@@ -30,11 +30,11 @@ namespace org {
         class ToStringUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_byteArray_cead73f62ca3b75c,
-            mid_bytesRefToString_6629ab823d439f65,
-            mid_bytesRefToString_3f93dbca6227d6f8,
-            mid_bytesRefToString_c67081c5b14480e2,
-            mid_longHex_f0c925499cca37b2,
+            mid_byteArray_f3183a32a6d34fd0,
+            mid_bytesRefToString_e16a141122e42829,
+            mid_bytesRefToString_0f852bf1d5588bee,
+            mid_bytesRefToString_518107ea555fac21,
+            mid_longHex_229c7997533c8554,
             max_mid
           };
 

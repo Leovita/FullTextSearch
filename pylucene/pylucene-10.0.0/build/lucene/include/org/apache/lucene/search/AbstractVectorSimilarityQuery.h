@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
         class Weight;
+        class QueryVisitor;
         class IndexSearcher;
       }
     }
@@ -17,8 +17,8 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
   namespace io {
     class IOException;
@@ -34,12 +34,12 @@ namespace org {
         class AbstractVectorSimilarityQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_visit_1b22ec612b613eea,
-            mid_getKnnCollectorManager_0362cc9e9dae94ff,
-            mid_approximateSearch_2820dd1f2ca7baa6,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_visit_85475af8e8904ab4,
+            mid_getKnnCollectorManager_231c57a261cea5a7,
+            mid_approximateSearch_91ef996fb5702f76,
             max_mid
           };
 

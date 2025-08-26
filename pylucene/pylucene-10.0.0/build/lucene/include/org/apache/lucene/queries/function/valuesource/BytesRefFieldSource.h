@@ -4,13 +4,13 @@
 #include "org/apache/lucene/queries/function/valuesource/FieldCacheSource.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -42,8 +42,8 @@ namespace org {
             class BytesRefFieldSource : public ::org::apache::lucene::queries::function::valuesource::FieldCacheSource {
              public:
               enum {
-                mid_init$_0d82408c6e55bc30,
-                mid_getValues_a7d46b98c691aeac,
+                mid_init$_ee46a189998009d6,
+                mid_getValues_9f85153ef1e32cca,
                 max_mid
               };
 

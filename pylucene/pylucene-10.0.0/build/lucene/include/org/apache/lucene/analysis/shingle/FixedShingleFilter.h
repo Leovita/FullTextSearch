@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/GraphTokenFilter.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -32,9 +32,9 @@ namespace org {
           class FixedShingleFilter : public ::org::apache::lucene::analysis::GraphTokenFilter {
            public:
             enum {
-              mid_init$_040618eef88cc819,
-              mid_init$_97715fb393838f11,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_40ae3e19a9468a36,
+              mid_init$_dcd358655e1e2c04,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

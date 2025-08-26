@@ -19,10 +19,10 @@ namespace org {
         class Vocabulary : public ::java::lang::Object {
          public:
           enum {
-            mid_getDisplayName_cd8436557ab831f9,
-            mid_getLiteralName_cd8436557ab831f9,
-            mid_getMaxTokenType_20fbf7565993c3d7,
-            mid_getSymbolicName_cd8436557ab831f9,
+            mid_getDisplayName_0da8f0b89b1e9a22,
+            mid_getLiteralName_0da8f0b89b1e9a22,
+            mid_getMaxTokenType_bd89ce15dad49192,
+            mid_getSymbolicName_0da8f0b89b1e9a22,
             max_mid
           };
 

@@ -19,12 +19,12 @@ namespace java {
     class SplittableRandom : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_8b3d46852b435a94,
-        mid_nextBytes_3ce1e597fb62ac79,
-        mid_nextInt_20fbf7565993c3d7,
-        mid_nextLong_16939d9d0a9a9721,
-        mid_split_a244a7089d96c882,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_1d3149fac12f2af3,
+        mid_nextBytes_a4d4f283481182e8,
+        mid_nextInt_bd89ce15dad49192,
+        mid_nextLong_0f176418e3e16541,
+        mid_split_e8fb61556fb5d5d0,
         max_mid
       };
 

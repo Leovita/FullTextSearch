@@ -6,14 +6,14 @@
 namespace java {
   namespace util {
     class Iterator;
+    class HashSet;
     class Collection;
     class Spliterator;
-    class HashSet;
   }
   namespace lang {
-    class Class;
     class Cloneable;
     class Object;
+    class Class;
   }
   namespace io {
     class Serializable;
@@ -27,22 +27,22 @@ namespace java {
     class HashSet : public ::java::util::AbstractSet {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_540b2b23d51b1efd,
-        mid_init$_40eba2cff967cc45,
-        mid_init$_06e0b8d4c1d7906b,
-        mid_add_570b5248a6da3ef6,
-        mid_clear_3720c61b0679eb3e,
-        mid_clone_5655ed8670534604,
-        mid_contains_570b5248a6da3ef6,
-        mid_isEmpty_947277eca0748c4e,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_newHashSet_47f821dadf33608c,
-        mid_remove_570b5248a6da3ef6,
-        mid_size_20fbf7565993c3d7,
-        mid_spliterator_eebbc9cffa204672,
-        mid_toArray_e6b839682a4610a6,
-        mid_toArray_1794d6b866766560,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_8226bd0b0fc13dba,
+        mid_init$_b5398b431eb321fb,
+        mid_init$_a18b0cdf76a9509e,
+        mid_add_00d17418847797d4,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_clone_4819806f62f1360a,
+        mid_contains_00d17418847797d4,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_iterator_c7985fafdcf40e83,
+        mid_newHashSet_2c857f2fc253d736,
+        mid_remove_00d17418847797d4,
+        mid_size_bd89ce15dad49192,
+        mid_spliterator_fd118e26a3de79e6,
+        mid_toArray_1e688954528bc160,
+        mid_toArray_0b4a993b49b6d8e8,
         max_mid
       };
 

@@ -34,7 +34,7 @@ namespace org {
           class IndexRearranger$DocumentSelector : public ::java::lang::Object {
            public:
             enum {
-              mid_getFilteredDocs_8ce5ade4c3bcb480,
+              mid_getFilteredDocs_e876ffa95ffa8743,
               max_mid
             };
 

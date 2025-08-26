@@ -29,14 +29,14 @@ namespace org {
             class CompletionAnalyzer : public ::org::apache::lucene::analysis::AnalyzerWrapper {
              public:
               enum {
-                mid_init$_07cd0f76cabcf75a,
-                mid_init$_7d805f720158f192,
-                mid_init$_965559a7f381d9a9,
-                mid_init$_b4d757576522a928,
-                mid_preservePositionIncrements_947277eca0748c4e,
-                mid_preserveSep_947277eca0748c4e,
-                mid_getWrappedAnalyzer_a1f5809ec41164b8,
-                mid_wrapComponents_3176534f1faba3ea,
+                mid_init$_1aaca852402a5069,
+                mid_init$_4d5dc95ef6ea4b72,
+                mid_init$_9b307225bbbd75f1,
+                mid_init$_5c1bc16943db645a,
+                mid_preservePositionIncrements_9aa4f33e82ea333f,
+                mid_preserveSep_9aa4f33e82ea333f,
+                mid_getWrappedAnalyzer_422029012b3df2c8,
+                mid_wrapComponents_c424eb4df905e9cf,
                 max_mid
               };
 

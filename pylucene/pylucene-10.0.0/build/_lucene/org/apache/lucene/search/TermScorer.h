@@ -4,11 +4,11 @@
 #include "org/apache/lucene/search/Scorer.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -16,12 +16,12 @@ namespace org {
     namespace lucene {
       namespace search {
         class DocIdSetIterator;
-        class Weight;
         class LeafSimScorer;
+        class Weight;
       }
       namespace index {
-        class ImpactsEnum;
         class PostingsEnum;
+        class ImpactsEnum;
       }
     }
   }
@@ -36,16 +36,16 @@ namespace org {
         class TermScorer : public ::org::apache::lucene::search::Scorer {
          public:
           enum {
-            mid_init$_6fdc11bd63ae84d7,
-            mid_init$_425fcdf4af19f5b9,
-            mid_advanceShallow_3c9bba330f083871,
-            mid_docID_20fbf7565993c3d7,
-            mid_freq_20fbf7565993c3d7,
-            mid_getMaxScore_29cfa01aaad92564,
-            mid_iterator_fc644a826c65d236,
-            mid_score_9b6c3480dac00edf,
-            mid_setMinCompetitiveScore_c771a95b0227fb6a,
-            mid_smoothingScore_29cfa01aaad92564,
+            mid_init$_bfc0ad438bde94cf,
+            mid_init$_178829ef84509811,
+            mid_advanceShallow_a3904e10f5bb9437,
+            mid_docID_bd89ce15dad49192,
+            mid_freq_bd89ce15dad49192,
+            mid_getMaxScore_5873a23b935a9d49,
+            mid_iterator_b78969502cbf4939,
+            mid_score_8b62236f0e4d0dbc,
+            mid_setMinCompetitiveScore_675f4cb9a2529ee0,
+            mid_smoothingScore_5873a23b935a9d49,
             max_mid
           };
 

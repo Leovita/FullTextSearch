@@ -3,9 +3,21 @@
 
 #include "org/apache/lucene/queryparser/classic/MultiFieldQueryParser.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
       namespace search {
         class Query;
         class BooleanClause;
@@ -15,19 +27,7 @@ namespace org {
           class ParseException;
         }
       }
-      namespace analysis {
-        class Analyzer;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -41,20 +41,20 @@ namespace org {
           class PythonMultiFieldQueryParser : public ::org::apache::lucene::queryparser::classic::MultiFieldQueryParser {
            public:
             enum {
-              mid_init$_de044ff3d28f5668,
-              mid_getBooleanQuery_cfa763d4712e8bc9,
-              mid_getFieldQuery_0904a80daeba8529,
-              mid_getFieldQuery_bf6a5f4bf27919ae,
-              mid_getFieldQuery_quoted_0904a80daeba8529,
-              mid_getFieldQuery_quoted_super_0904a80daeba8529,
-              mid_getFieldQuery_slop_bf6a5f4bf27919ae,
-              mid_getFieldQuery_slop_super_bf6a5f4bf27919ae,
-              mid_getFuzzyQuery_afdd0007c4927190,
-              mid_getPrefixQuery_9c67907ed0ac8b67,
-              mid_getRangeQuery_5d2f96a769d522a4,
-              mid_getWildcardQuery_9c67907ed0ac8b67,
-              mid_pythonExtension_16939d9d0a9a9721,
-              mid_pythonExtension_8b3d46852b435a94,
+              mid_init$_afdc600c68811682,
+              mid_getBooleanQuery_997498abbdceb67f,
+              mid_getFieldQuery_a525af63bfcd652e,
+              mid_getFieldQuery_964b0b3626756a89,
+              mid_getFieldQuery_quoted_a525af63bfcd652e,
+              mid_getFieldQuery_quoted_super_a525af63bfcd652e,
+              mid_getFieldQuery_slop_964b0b3626756a89,
+              mid_getFieldQuery_slop_super_964b0b3626756a89,
+              mid_getFuzzyQuery_5aabae9afa99de9b,
+              mid_getPrefixQuery_550dcf54034665c0,
+              mid_getRangeQuery_3a6923cec6886def,
+              mid_getWildcardQuery_550dcf54034665c0,
+              mid_pythonExtension_0f176418e3e16541,
+              mid_pythonExtension_1d3149fac12f2af3,
               max_mid
             };
 

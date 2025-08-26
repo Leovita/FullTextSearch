@@ -36,9 +36,9 @@ namespace org {
             class OrdinalIterator : public ::java::lang::Object {
              public:
               enum {
-                mid_fromArray_e5fb1ec838cf3e3e,
-                mid_nextOrd_20fbf7565993c3d7,
-                mid_toArray_623cd4a044ba647a,
+                mid_fromArray_832e3a8ccf9d95fd,
+                mid_nextOrd_bd89ce15dad49192,
+                mid_toArray_4b72a28a860ae838,
                 max_mid
               };
 

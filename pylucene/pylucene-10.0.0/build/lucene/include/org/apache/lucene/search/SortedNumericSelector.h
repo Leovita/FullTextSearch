@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class SortedNumericDocValues;
         class NumericDocValues;
+        class SortedNumericDocValues;
       }
       namespace search {
-        class SortedNumericSelector$Type;
         class SortField$Type;
+        class SortedNumericSelector$Type;
       }
     }
   }
@@ -32,8 +32,8 @@ namespace org {
         class SortedNumericSelector : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_wrap_b4c47fe0f1e8234d,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_wrap_afcc99c118278464,
             max_mid
           };
 

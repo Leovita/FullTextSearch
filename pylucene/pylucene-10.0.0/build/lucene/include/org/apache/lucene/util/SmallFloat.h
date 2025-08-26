@@ -18,14 +18,14 @@ namespace org {
         class SmallFloat : public ::java::lang::Object {
          public:
           enum {
-            mid_byte315ToFloat_3b41e541864adcbc,
-            mid_byte4ToInt_9e29d85df323014f,
-            mid_byteToFloat_829f8ac69eb32272,
-            mid_floatToByte_04ecff02fdeaa931,
-            mid_floatToByte315_d83b517543fc4b48,
-            mid_int4ToLong_7b22650fccb5d574,
-            mid_intToByte4_3b30672d0bff9ebb,
-            mid_longToInt4_35c872f03f347c10,
+            mid_byte315ToFloat_a57d59f158e09754,
+            mid_byte4ToInt_a06f8b67893a843a,
+            mid_byteToFloat_4f656137321f1c6e,
+            mid_floatToByte_fd5a0455a16d140d,
+            mid_floatToByte315_84c61ae6de481334,
+            mid_int4ToLong_49af390f180d8ee7,
+            mid_intToByte4_9e902c8fd52d5208,
+            mid_longToInt4_7af44747c1921bd4,
             max_mid
           };
 

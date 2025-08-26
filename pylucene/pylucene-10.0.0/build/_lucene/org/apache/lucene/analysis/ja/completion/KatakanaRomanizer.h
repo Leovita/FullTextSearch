@@ -3,14 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class List;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -27,6 +19,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace util {
+    class List;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -39,8 +39,8 @@ namespace org {
             class KatakanaRomanizer : public ::java::lang::Object {
              public:
               enum {
-                mid_getInstance_251165404fe6b36b,
-                mid_romanize_10dfc6c076caba3c,
+                mid_getInstance_e5559ed6ca9a2365,
+                mid_romanize_f23690776cb24923,
                 max_mid
               };
 

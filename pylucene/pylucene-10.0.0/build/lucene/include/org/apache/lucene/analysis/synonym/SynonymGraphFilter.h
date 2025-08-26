@@ -3,18 +3,6 @@
 
 #include "org/apache/lucene/analysis/TokenFilter.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        namespace synonym {
-          class SynonymMap;
-        }
-        class TokenStream;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
@@ -22,6 +10,18 @@ namespace java {
   namespace lang {
     class Class;
     class String;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class TokenStream;
+        namespace synonym {
+          class SynonymMap;
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
           class SynonymGraphFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_271f3b2169769aec,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_e922ffdf8bc000bb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

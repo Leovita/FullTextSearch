@@ -22,8 +22,8 @@ namespace org {
               class FieldableNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNode {
                public:
                 enum {
-                  mid_getField_373f0038978f926b,
-                  mid_setField_5ed8eb2e3024c663,
+                  mid_getField_f2e5418fe0d66c69,
+                  mid_setField_fe2ab7d27aa3fe1a,
                   max_mid
                 };
 

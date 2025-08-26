@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/index/DocValuesIterator.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class TermsEnum;
-      }
-      namespace util {
-        namespace automaton {
-          class CompiledAutomaton;
-        }
-        class BytesRef;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        namespace automaton {
+          class CompiledAutomaton;
+        }
+        class BytesRef;
+      }
+      namespace index {
+        class TermsEnum;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,13 +36,13 @@ namespace org {
         class SortedSetDocValues : public ::org::apache::lucene::index::DocValuesIterator {
          public:
           enum {
-            mid_docValueCount_20fbf7565993c3d7,
-            mid_getValueCount_16939d9d0a9a9721,
-            mid_intersect_21a0fc15840d17f9,
-            mid_lookupOrd_8e8c0c801351ec8d,
-            mid_lookupTerm_7595cb5441b08443,
-            mid_nextOrd_16939d9d0a9a9721,
-            mid_termsEnum_8a12f41bbebee35e,
+            mid_docValueCount_bd89ce15dad49192,
+            mid_getValueCount_0f176418e3e16541,
+            mid_intersect_c805ac0582f41304,
+            mid_lookupOrd_0b299353ac353256,
+            mid_lookupTerm_8c6e1447894d7a38,
+            mid_nextOrd_0f176418e3e16541,
+            mid_termsEnum_c92e16ad45780176,
             max_mid
           };
 

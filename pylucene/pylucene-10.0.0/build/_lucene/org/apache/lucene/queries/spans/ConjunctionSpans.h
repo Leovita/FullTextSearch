@@ -31,13 +31,13 @@ namespace org {
           class ConjunctionSpans : public ::org::apache::lucene::queries::spans::Spans {
            public:
             enum {
-              mid_advance_3c9bba330f083871,
-              mid_asTwoPhaseIterator_28c4f2cd9e5f8da7,
-              mid_cost_16939d9d0a9a9721,
-              mid_docID_20fbf7565993c3d7,
-              mid_getSubSpans_b1277192ed8fbc0e,
-              mid_nextDoc_20fbf7565993c3d7,
-              mid_positionsCost_9b6c3480dac00edf,
+              mid_advance_a3904e10f5bb9437,
+              mid_asTwoPhaseIterator_c827d3ab11221e86,
+              mid_cost_0f176418e3e16541,
+              mid_docID_bd89ce15dad49192,
+              mid_getSubSpans_f4ba7ada722b92d0,
+              mid_nextDoc_bd89ce15dad49192,
+              mid_positionsCost_8b62236f0e4d0dbc,
               max_mid
             };
 

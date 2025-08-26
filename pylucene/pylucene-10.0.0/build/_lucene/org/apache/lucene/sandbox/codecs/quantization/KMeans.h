@@ -4,27 +4,27 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class FloatVectorValues;
+        class VectorSimilarityFunction;
+      }
       namespace sandbox {
         namespace codecs {
           namespace quantization {
-            class KMeans$Results;
             class KMeans$KmeansInitializationMethod;
+            class KMeans$Results;
           }
         }
-      }
-      namespace index {
-        class VectorSimilarityFunction;
-        class FloatVectorValues;
       }
     }
   }
@@ -41,8 +41,8 @@ namespace org {
             class KMeans : public ::java::lang::Object {
              public:
               enum {
-                mid_cluster_75b71a397eca1011,
-                mid_cluster_335ac930e40eff43,
+                mid_cluster_66973339e6093aff,
+                mid_cluster_9fffc16212a5ab71,
                 max_mid
               };
 

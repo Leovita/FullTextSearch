@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class IndexSorter$ComparableProvider;
-        class IndexSorter$NumericDocValuesProvider;
-        class IndexSorter;
         class IndexSorter$DocComparator;
+        class IndexSorter$ComparableProvider;
+        class IndexSorter;
         class LeafReader;
+        class IndexSorter$NumericDocValuesProvider;
       }
     }
   }
@@ -19,14 +19,14 @@ namespace org {
 namespace java {
   namespace lang {
     class Float;
-    class String;
     class Class;
-  }
-  namespace util {
-    class List;
+    class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -39,10 +39,10 @@ namespace org {
         class IndexSorter$FloatSorter : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_6371ca2bc33095f4,
-            mid_getComparableProviders_a67440c3973dbbc1,
-            mid_getDocComparator_292ec420be98b531,
-            mid_getProviderName_09a7afff1868fc5e,
+            mid_init$_2af8d5ea5806c116,
+            mid_getComparableProviders_19c09bde37dfb9f4,
+            mid_getDocComparator_39610edf39379e77,
+            mid_getProviderName_e7df854526d67fa3,
             max_mid
           };
 

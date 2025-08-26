@@ -3,29 +3,29 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace util {
+        namespace bkd {
+          class BKDRadixSelector$PathSlice;
+          class BKDConfig;
+          class HeapPointWriter;
+        }
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        namespace bkd {
-          class BKDConfig;
-          class BKDRadixSelector$PathSlice;
-          class HeapPointWriter;
-        }
-      }
-      namespace store {
-        class Directory;
-      }
-    }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,9 +39,9 @@ namespace org {
           class BKDRadixSelector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_1fd895290c46f436,
-              mid_heapRadixSort_0276ba02f40163a0,
-              mid_select_18b12c8e433674aa,
+              mid_init$_ff0eef4ce518dc91,
+              mid_heapRadixSort_af566a8110d9ddcf,
+              mid_select_5be573b78b8f3d5d,
               max_mid
             };
 

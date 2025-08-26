@@ -6,10 +6,10 @@
 namespace java {
   namespace lang {
     class Comparable;
-    class Class;
-    class CharSequence;
-    class String;
     class Cloneable;
+    class Class;
+    class String;
+    class CharSequence;
   }
   namespace util {
     class Comparator;
@@ -34,23 +34,23 @@ namespace org {
         class CharsRef : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_0d82408c6e55bc30,
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_fc9be2ded8ee801f,
-            mid_charAt_92a13ce4196a7e69,
-            mid_charsEquals_8f45d37653ef7b2f,
-            mid_clone_94b51711598dd26a,
-            mid_compareTo_58b5f17b42039c33,
-            mid_deepCopyOf_886fb28256559fbb,
-            mid_equals_570b5248a6da3ef6,
-            mid_getUTF16SortedAsUTF8Comparator_39238840448c1807,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isValid_947277eca0748c4e,
-            mid_length_20fbf7565993c3d7,
-            mid_stringHashCode_db543c1e894f3140,
-            mid_subSequence_3202de35bfd622a0,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_ee46a189998009d6,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_186bb5d1c1aec30c,
+            mid_charAt_bc94dd98365f92fb,
+            mid_charsEquals_355501ecf156b28b,
+            mid_clone_669503bbeca09860,
+            mid_compareTo_cfeef7194c476a6a,
+            mid_deepCopyOf_991f7d51a3e848a7,
+            mid_equals_00d17418847797d4,
+            mid_getUTF16SortedAsUTF8Comparator_5cc89c689cd941fe,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isValid_9aa4f33e82ea333f,
+            mid_length_bd89ce15dad49192,
+            mid_stringHashCode_872baf22ed11fbaa,
+            mid_subSequence_e78c175a32c9e667,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

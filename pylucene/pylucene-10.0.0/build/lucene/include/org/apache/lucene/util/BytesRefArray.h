@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRef;
         class BytesRefArray$SortState;
-        class Counter;
-        class BytesRefIterator;
-        class BytesRefBuilder;
         class BytesRefArray$IndexedBytesRefIterator;
+        class Counter;
+        class BytesRef;
+        class BytesRefBuilder;
+        class BytesRefIterator;
       }
     }
   }
@@ -35,15 +35,15 @@ namespace org {
         class BytesRefArray : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_ac76f83e63dd1b05,
-            mid_append_5cda243a0bd46c4d,
-            mid_clear_3720c61b0679eb3e,
-            mid_get_bfeed0eb6a124327,
-            mid_iterator_bf0613f85af6401c,
-            mid_iterator_a7787130b08eb5c4,
-            mid_iterator_46c164f9399d3ab7,
-            mid_size_20fbf7565993c3d7,
-            mid_sort_95266773be9bee7b,
+            mid_init$_e07e11bc9ee23d51,
+            mid_append_59a6eaf88a8be404,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_get_262afb8b4d4d20d7,
+            mid_iterator_456b4b9059047e2a,
+            mid_iterator_b5c9982f5a8df10f,
+            mid_iterator_9f254622622fb4bd,
+            mid_size_bd89ce15dad49192,
+            mid_sort_24dbc4c76ea80d2b,
             max_mid
           };
 

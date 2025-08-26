@@ -19,8 +19,8 @@ namespace org {
           class DoubleFacetSet : public ::org::apache::lucene::facet::facetset::FacetSet {
            public:
             enum {
-              mid_init$_fdfa19ef08e3e691,
-              mid_getComparableValues_a057bd1a0d2826b3,
+              mid_init$_7dc1191a69fe0b60,
+              mid_getComparableValues_1aab5293a9d94cd3,
               max_mid
             };
 

@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class CharSequence;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class CharSequence;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,7 +31,7 @@ namespace org {
           class FragmentChecker : public ::java::lang::Object {
            public:
             enum {
-              mid_hasImpossibleFragmentAround_2721f35142c41b19,
+              mid_hasImpossibleFragmentAround_c917c37a1748281e,
               max_mid
             };
 

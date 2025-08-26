@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        namespace hnsw {
-          class RandomVectorScorer;
-        }
         namespace quantization {
+          class QuantizedVectorsReader;
           class ScalarQuantizer;
           class QuantizedByteVectorValues;
-          class QuantizedVectorsReader;
+        }
+        namespace hnsw {
+          class RandomVectorScorer;
         }
       }
       namespace index {
@@ -30,12 +30,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -49,16 +49,16 @@ namespace org {
           class Lucene99ScalarQuantizedVectorsReader : public ::org::apache::lucene::codecs::hnsw::FlatVectorsReader {
            public:
             enum {
-              mid_init$_9de058a428896d0a,
-              mid_checkIntegrity_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_getByteVectorValues_b6d55ee35cf0a7cd,
-              mid_getFloatVectorValues_d99d2b92faec6895,
-              mid_getQuantizationState_ab0992f9e171f8d4,
-              mid_getQuantizedVectorValues_20e6d465a58a6183,
-              mid_getRandomVectorScorer_898e8e709f33df67,
-              mid_getRandomVectorScorer_168f17ed76192a8a,
-              mid_ramBytesUsed_16939d9d0a9a9721,
+              mid_init$_9b5967d86e080b1f,
+              mid_checkIntegrity_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_getByteVectorValues_7ab2f26af1d93897,
+              mid_getFloatVectorValues_0c0ae22a56670782,
+              mid_getQuantizationState_79cb6c90083c7390,
+              mid_getQuantizedVectorValues_a165ba1a19df4b04,
+              mid_getRandomVectorScorer_16c4feadfb2390ab,
+              mid_getRandomVectorScorer_47e8f8006662be07,
+              mid_ramBytesUsed_0f176418e3e16541,
               max_mid
             };
 

@@ -3,26 +3,26 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class Bits;
+      }
       namespace index {
         class VectorEncoding;
         class KnnVectorValues;
         class KnnVectorValues$DocIndexIterator;
       }
-      namespace util {
-        class Bits;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,18 +35,18 @@ namespace org {
         class KnnVectorValues : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_copy_b734a515b1b8cb06,
-            mid_dimension_20fbf7565993c3d7,
-            mid_getAcceptOrds_372c76d90ab3ad4a,
-            mid_getEncoding_89ee194538cd6149,
-            mid_getVectorByteLength_20fbf7565993c3d7,
-            mid_iterator_cd2e842b8d8e9e2b,
-            mid_ordToDoc_3c9bba330f083871,
-            mid_size_20fbf7565993c3d7,
-            mid_createDenseIterator_cd2e842b8d8e9e2b,
-            mid_fromDISI_5f3bd9fe00a4fce2,
-            mid_createSparseIterator_cd2e842b8d8e9e2b,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_copy_ec254f51c043e927,
+            mid_dimension_bd89ce15dad49192,
+            mid_getAcceptOrds_952ad757d5b0c3b2,
+            mid_getEncoding_667892793043e3ed,
+            mid_getVectorByteLength_bd89ce15dad49192,
+            mid_iterator_95916eac162e9a1d,
+            mid_ordToDoc_a3904e10f5bb9437,
+            mid_size_bd89ce15dad49192,
+            mid_createDenseIterator_95916eac162e9a1d,
+            mid_fromDISI_377b95e0515cc316,
+            mid_createSparseIterator_95916eac162e9a1d,
             max_mid
           };
 

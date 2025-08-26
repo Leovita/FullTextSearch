@@ -4,14 +4,14 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
   namespace nio {
     namespace file {
       class Path;
     }
+  }
+  namespace lang {
+    class String;
+    class Class;
   }
   namespace io {
     class IOException;
@@ -28,9 +28,9 @@ namespace org {
           class ConnectionCostsWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_8156efeac2f22d8a,
-              mid_add_20022b6d5e83c732,
-              mid_write_d38f685b798c535e,
+              mid_init$_eafbfd3a60bdd64c,
+              mid_add_eee637a6cebc299b,
+              mid_write_d6afe3e9611b8d31,
               max_mid
             };
 

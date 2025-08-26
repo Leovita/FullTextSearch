@@ -37,11 +37,11 @@ namespace org {
               class ModifierQueryNode$Modifier : public ::java::lang::Enum {
                public:
                 enum {
-                  mid_toDigitString_09a7afff1868fc5e,
-                  mid_toLargeString_09a7afff1868fc5e,
-                  mid_toString_09a7afff1868fc5e,
-                  mid_valueOf_bb2223cb1b340dc3,
-                  mid_values_e585c0ae29f2e01e,
+                  mid_toDigitString_e7df854526d67fa3,
+                  mid_toLargeString_e7df854526d67fa3,
+                  mid_toString_e7df854526d67fa3,
+                  mid_valueOf_945da8672f37b94c,
+                  mid_values_9475138e4d5e4d90,
                   max_mid
                 };
 

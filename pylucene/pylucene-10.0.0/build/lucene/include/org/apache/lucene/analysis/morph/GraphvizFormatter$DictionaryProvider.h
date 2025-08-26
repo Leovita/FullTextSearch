@@ -32,7 +32,7 @@ namespace org {
           class GraphvizFormatter$DictionaryProvider : public ::java::lang::Object {
            public:
             enum {
-              mid_get_2892960c8d553fc2,
+              mid_get_42ae417d65a1505b,
               max_mid
             };
 

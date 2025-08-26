@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/expressions/js/JavascriptParser$ExpressionContext.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
@@ -13,15 +22,6 @@ namespace org {
         class Token;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Object;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
           class JavascriptParser$BoolorContext : public ::org::apache::lucene::expressions::js::JavascriptParser$ExpressionContext {
            public:
             enum {
-              mid_init$_8b5e6d7e643900ee,
-              mid_expression_36830460e10839eb,
-              mid_expression_d18bc2f02f3c03a2,
+              mid_init$_913e318594c2ce0d,
+              mid_expression_1387e1e2702ac173,
+              mid_expression_65ac9dedea6a0881,
               max_mid
             };
 

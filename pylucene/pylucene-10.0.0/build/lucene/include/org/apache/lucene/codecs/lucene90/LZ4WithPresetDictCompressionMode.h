@@ -3,22 +3,22 @@
 
 #include "org/apache/lucene/codecs/compressing/CompressionMode.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace codecs {
         namespace compressing {
-          class Decompressor;
           class Compressor;
+          class Decompressor;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
           class LZ4WithPresetDictCompressionMode : public ::org::apache::lucene::codecs::compressing::CompressionMode {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_newCompressor_a3906ae75978c8b0,
-              mid_newDecompressor_4831b2fbaf57a094,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_newCompressor_ffb008ea311c4f06,
+              mid_newDecompressor_0a2895b8bea244f0,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

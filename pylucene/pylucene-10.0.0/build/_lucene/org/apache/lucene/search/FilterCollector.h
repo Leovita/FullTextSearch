@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class LeafCollector;
         class ScoreMode;
-        class Weight;
+        class LeafCollector;
         class Collector;
+        class Weight;
       }
       namespace index {
         class LeafReaderContext;
@@ -37,11 +37,11 @@ namespace org {
         class FilterCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_91ebd1d75c9c0390,
-            mid_getLeafCollector_aca3f888603431e1,
-            mid_scoreMode_45dfdcf7e901559d,
-            mid_setWeight_6d6ab2df81fdc63f,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_01adb891a2ac56dc,
+            mid_getLeafCollector_0a34433e6da38be9,
+            mid_scoreMode_23e7061dcdc84768,
+            mid_setWeight_36438df74a772106,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

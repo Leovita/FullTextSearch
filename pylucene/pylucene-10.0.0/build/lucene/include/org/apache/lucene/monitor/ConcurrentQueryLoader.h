@@ -4,13 +4,13 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
   namespace lang {
-    class Class;
     class InterruptedException;
+    class Class;
+  }
+  namespace io {
+    class Closeable;
+    class IOException;
   }
 }
 namespace org {
@@ -33,10 +33,10 @@ namespace org {
         class ConcurrentQueryLoader : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_c23fa34ea0d42acd,
-            mid_init$_55b8b01ceb8807de,
-            mid_add_23495b004c551f45,
-            mid_close_3720c61b0679eb3e,
+            mid_init$_b7087f41a06ff5af,
+            mid_init$_69295511698e4b3a,
+            mid_add_bfc99e2847f20d8c,
+            mid_close_e7bdbe105ce1bafb,
             max_mid
           };
 

@@ -31,9 +31,9 @@ namespace org {
             class SumFloatFunction : public ::org::apache::lucene::queries::function::valuesource::MultiFloatFunction {
              public:
               enum {
-                mid_init$_03fbc37fc3d4d132,
-                mid_name_09a7afff1868fc5e,
-                mid_func_90765e4f1d688358,
+                mid_init$_20f24faff8ce675a,
+                mid_name_e7df854526d67fa3,
+                mid_func_995fdbb6859b2731,
                 max_mid
               };
 

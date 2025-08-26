@@ -6,28 +6,28 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-      }
       namespace search {
-        class QueryVisitor;
-        class Weight;
         class ScoreMode;
+        class IndexSearcher;
+        class QueryVisitor;
         namespace suggest {
           class BitsProducer;
         }
-        class IndexSearcher;
+        class Weight;
       }
       namespace analysis {
         class Analyzer;
+      }
+      namespace index {
+        class Term;
       }
     }
   }
 }
 namespace java {
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
   namespace io {
     class IOException;
@@ -45,13 +45,13 @@ namespace org {
             class PrefixCompletionQuery : public ::org::apache::lucene::search::suggest::document::CompletionQuery {
              public:
               enum {
-                mid_init$_ac117cbb7133c263,
-                mid_init$_c6aaa8bd6204b91d,
-                mid_createWeight_77fe52950093e704,
-                mid_equals_570b5248a6da3ef6,
-                mid_getAnalyzer_6755ba003d984513,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_visit_1b22ec612b613eea,
+                mid_init$_b64ffd8a29c180ba,
+                mid_init$_71dea2287eaa102e,
+                mid_createWeight_dc54d493278607e4,
+                mid_equals_00d17418847797d4,
+                mid_getAnalyzer_7bc9b23f56937752,
+                mid_hashCode_bd89ce15dad49192,
+                mid_visit_85475af8e8904ab4,
                 max_mid
               };
 

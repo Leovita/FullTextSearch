@@ -20,7 +20,7 @@ namespace org {
             class TooManyBasicQueries : public ::java::io::IOException {
              public:
               enum {
-                mid_init$_540b2b23d51b1efd,
+                mid_init$_8226bd0b0fc13dba,
                 max_mid
               };
 

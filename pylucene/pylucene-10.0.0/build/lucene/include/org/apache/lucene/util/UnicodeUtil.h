@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRef;
         class UnicodeUtil$UTF8CodePoint;
+        class BytesRef;
       }
     }
   }
@@ -16,8 +16,8 @@ namespace org {
 namespace java {
   namespace lang {
     class Class;
-    class CharSequence;
     class String;
+    class CharSequence;
   }
 }
 template<class T> class JArray;
@@ -30,20 +30,20 @@ namespace org {
         class UnicodeUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_UTF16toUTF8_e3974a0e68afabd7,
-            mid_UTF16toUTF8_0b81cda3850ec12f,
-            mid_UTF16toUTF8_7bdc384b0be608c0,
-            mid_UTF8toUTF16_870af57c43db9dde,
-            mid_UTF8toUTF16_7f772cfa046ad71d,
-            mid_UTF8toUTF32_b166c1e08c9f31fd,
-            mid_calcUTF16toUTF8Length_5e65ec5fa412fd78,
-            mid_codePointAt_c1daa183d608430e,
-            mid_codePointCount_5cda243a0bd46c4d,
-            mid_maxUTF8Length_3c9bba330f083871,
-            mid_newString_62b8835e97af3afb,
-            mid_toHexString_cb0eb1432185fc94,
-            mid_validUTF16String_7fa88c8af67956ed,
-            mid_validUTF16String_67ffc14a188f0fdf,
+            mid_UTF16toUTF8_6e0cfefba3c1a41d,
+            mid_UTF16toUTF8_3a5d6852ab296af7,
+            mid_UTF16toUTF8_2ca222e3e34637da,
+            mid_UTF8toUTF16_5c1ebcc782019fe5,
+            mid_UTF8toUTF16_38e59b69865a1d21,
+            mid_UTF8toUTF32_448dafdc28a1c4da,
+            mid_calcUTF16toUTF8Length_320c03fee8b6e65b,
+            mid_codePointAt_77c1c4a34221249a,
+            mid_codePointCount_59a6eaf88a8be404,
+            mid_maxUTF8Length_a3904e10f5bb9437,
+            mid_newString_7f75cf6f134e011e,
+            mid_toHexString_fef9c036acf290a9,
+            mid_validUTF16String_966cbeda474fd26b,
+            mid_validUTF16String_bdbbfc80c971dbfc,
             max_mid
           };
 

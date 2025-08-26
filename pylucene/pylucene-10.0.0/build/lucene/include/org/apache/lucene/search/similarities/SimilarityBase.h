@@ -3,23 +3,23 @@
 
 #include "org/apache/lucene/search/similarities/Similarity.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class TermStatistics;
         class CollectionStatistics;
         namespace similarities {
           class Similarity$SimScorer;
         }
-        class TermStatistics;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -33,16 +33,16 @@ namespace org {
           class SimilarityBase : public ::org::apache::lucene::search::similarities::Similarity {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_b110fc3a58c081ab,
-              mid_log2_8fff3d7dcb9fddc5,
-              mid_scorer_67d67592415704df,
-              mid_toString_09a7afff1868fc5e,
-              mid_score_4520853cec1acecd,
-              mid_fillBasicStats_1a0c84f82cdc2914,
-              mid_newStats_5a081c6c899495a8,
-              mid_explain_6430f3113e3b0626,
-              mid_explain_6fdabb12cf56abb7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f5dd97eebf6a215a,
+              mid_log2_8493a5edcb36d651,
+              mid_scorer_556ce9e7c1c4eb6a,
+              mid_toString_e7df854526d67fa3,
+              mid_newStats_358043c9fa641a0b,
+              mid_fillBasicStats_ec1d687160c8fb27,
+              mid_explain_3a0f0db458486fc7,
+              mid_explain_d24b72d1a2a90408,
+              mid_score_45900529809cd3f1,
               max_mid
             };
 

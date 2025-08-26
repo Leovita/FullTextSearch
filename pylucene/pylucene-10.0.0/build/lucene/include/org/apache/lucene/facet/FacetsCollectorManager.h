@@ -7,29 +7,29 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
+        class FacetsCollectorManager$FacetsResult;
         class FacetsCollector;
         class FacetsCollectorManager;
-        class FacetsCollectorManager$FacetsResult;
       }
       namespace search {
         class Query;
         class Sort;
         class ScoreDoc;
-        class CollectorManager;
         class IndexSearcher;
+        class CollectorManager;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -42,16 +42,16 @@ namespace org {
         class FacetsCollectorManager : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_b110fc3a58c081ab,
-            mid_newCollector_02cd9b76c139803e,
-            mid_reduce_dab92e9a249ea918,
-            mid_search_c8aa6e4c8e8e0613,
-            mid_search_a7d65dfe44f65341,
-            mid_search_692ff16b79eccfab,
-            mid_searchAfter_8e5973e9c1dc4416,
-            mid_searchAfter_fde5d5e4d9a30b6b,
-            mid_searchAfter_d70ad203010d75e9,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_f5dd97eebf6a215a,
+            mid_newCollector_081a27111876aa7f,
+            mid_reduce_a801423856f8c38a,
+            mid_search_f280a7d8d8892695,
+            mid_search_dce8264924f34816,
+            mid_search_2d59866d255ddfcf,
+            mid_searchAfter_53dbb599cbe4a33d,
+            mid_searchAfter_dddcd5beb6b75c19,
+            mid_searchAfter_ff6f22bb9e1361a2,
             max_mid
           };
 

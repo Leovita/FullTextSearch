@@ -3,25 +3,13 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Map;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
         class DoubleValuesSource;
-        class SortField;
         class LongValuesSource;
+        class SortField;
         class IndexSearcher;
       }
       namespace queries {
@@ -36,6 +24,18 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -47,18 +47,18 @@ namespace org {
           class ValueSource : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_asDoubleValuesSource_7219b817ce6d1d1a,
-              mid_asLongValuesSource_6d5a547f55f28d29,
-              mid_createWeight_ed456f113984b95a,
-              mid_description_09a7afff1868fc5e,
-              mid_equals_570b5248a6da3ef6,
-              mid_fromDoubleValuesSource_a66992962af9af5f,
-              mid_getSortField_33273beb7e6f6fa1,
-              mid_getValues_a7d46b98c691aeac,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_newContext_aada28aa60f3c559,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_asDoubleValuesSource_a04bc8c3654a6fd5,
+              mid_asLongValuesSource_199c6718f27496e6,
+              mid_createWeight_61f11467fc4f893b,
+              mid_description_e7df854526d67fa3,
+              mid_equals_00d17418847797d4,
+              mid_fromDoubleValuesSource_ad98b67aefd5028d,
+              mid_getSortField_6b771f2dc8fe37aa,
+              mid_getValues_9f85153ef1e32cca,
+              mid_hashCode_bd89ce15dad49192,
+              mid_newContext_e7f16c3eb9801e11,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -6,35 +6,35 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class Bits;
+        class InfoStream;
+      }
+      namespace index {
+        class SegmentInfo;
+        class MergeState$DocMap;
+        class FieldInfos;
+      }
       namespace codecs {
-        class KnnVectorsReader;
         class PointsReader;
         class StoredFieldsReader;
         class NormsProducer;
-        class TermVectorsReader;
         class FieldsProducer;
         class DocValuesProducer;
-      }
-      namespace util {
-        class InfoStream;
-        class Bits;
-      }
-      namespace index {
-        class MergeState$DocMap;
-        class SegmentInfo;
-        class FieldInfos;
+        class KnnVectorsReader;
+        class TermVectorsReader;
       }
     }
   }
 }
 namespace java {
-  namespace lang {
-    class Class;
-  }
   namespace util {
     namespace concurrent {
       class Executor;
     }
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -47,7 +47,7 @@ namespace org {
         class MergeState : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_473c34be269224d8,
+            mid_init$_2a875af2b5514d49,
             max_mid
           };
 

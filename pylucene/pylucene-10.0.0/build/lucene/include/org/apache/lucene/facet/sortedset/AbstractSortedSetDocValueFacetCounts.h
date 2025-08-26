@@ -3,19 +3,6 @@
 
 #include "org/apache/lucene/facet/Facets.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +10,19 @@ namespace org {
         class FacetResult;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -36,11 +36,11 @@ namespace org {
           class AbstractSortedSetDocValueFacetCounts : public ::org::apache::lucene::facet::Facets {
            public:
             enum {
-              mid_getAllChildren_51a67cf6dd940ebb,
-              mid_getAllDims_3e47fe599d76d583,
-              mid_getSpecificValue_7fd685ee82fd50c5,
-              mid_getTopChildren_ca1b3747bbcc4341,
-              mid_getTopDims_3690552717f6ec88,
+              mid_getAllChildren_09e74013a1015c10,
+              mid_getAllDims_b4b9401c877452e3,
+              mid_getSpecificValue_a53782a5574e06b9,
+              mid_getTopChildren_482e0070129e7ccc,
+              mid_getTopDims_6d7644d6c0697519,
               max_mid
             };
 

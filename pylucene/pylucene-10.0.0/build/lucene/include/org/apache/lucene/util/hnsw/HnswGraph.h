@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -13,14 +21,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,13 +34,13 @@ namespace org {
           class HnswGraph : public ::java::lang::Object {
            public:
             enum {
-              mid_entryNode_20fbf7565993c3d7,
-              mid_getNodesOnLevel_0f4b826da8e38ef5,
-              mid_maxNodeId_20fbf7565993c3d7,
-              mid_nextNeighbor_20fbf7565993c3d7,
-              mid_numLevels_20fbf7565993c3d7,
-              mid_seek_e13cff512ebda969,
-              mid_size_20fbf7565993c3d7,
+              mid_entryNode_bd89ce15dad49192,
+              mid_getNodesOnLevel_767b56846d01a898,
+              mid_maxNodeId_bd89ce15dad49192,
+              mid_nextNeighbor_bd89ce15dad49192,
+              mid_numLevels_bd89ce15dad49192,
+              mid_seek_645c25455f5b9b1c,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

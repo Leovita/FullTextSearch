@@ -6,21 +6,21 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class KnnVectorsReader;
-        class PointsReader;
-        class StoredFieldsReader;
-        class NormsProducer;
-        class TermVectorsReader;
-        class FieldsProducer;
-        class DocValuesProducer;
+      namespace util {
+        class Bits;
       }
       namespace index {
         class LeafMetaData;
         class FieldInfos;
       }
-      namespace util {
-        class Bits;
+      namespace codecs {
+        class PointsReader;
+        class StoredFieldsReader;
+        class FieldsProducer;
+        class NormsProducer;
+        class DocValuesProducer;
+        class KnnVectorsReader;
+        class TermVectorsReader;
       }
     }
   }
@@ -43,23 +43,23 @@ namespace org {
         class FilterCodecReader : public ::org::apache::lucene::index::CodecReader {
          public:
           enum {
-            mid_init$_f8b95f1936bf51e8,
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_getDelegate_5fac5acc6e64f9ea,
-            mid_getDocValuesReader_41ee33e34dc1b4f3,
-            mid_getFieldInfos_2d5786d39aaa5f0b,
-            mid_getFieldsReader_4e066a6f20734e17,
-            mid_getLiveDocs_959b4f7101dd7f4b,
-            mid_getMetaData_e29b13e9e9af4206,
-            mid_getNormsReader_86a2ee031b1b0d77,
-            mid_getPointsReader_7cecd0a8b5d53414,
-            mid_getPostingsReader_47d662857d04070e,
-            mid_getTermVectorsReader_0b9ae2ecfa80c759,
-            mid_getVectorReader_e70fe5e71b23e71f,
-            mid_maxDoc_20fbf7565993c3d7,
-            mid_numDocs_20fbf7565993c3d7,
-            mid_unwrap_1c28c4360592a6f7,
-            mid_doClose_3720c61b0679eb3e,
+            mid_init$_cf96b26dfb3dca38,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_getDelegate_c23783bb0326bc6a,
+            mid_getDocValuesReader_c522cf75f2048ee9,
+            mid_getFieldInfos_09577c1068fdaec4,
+            mid_getFieldsReader_a7e1c9cc255e1e90,
+            mid_getLiveDocs_92a4f567193c49d1,
+            mid_getMetaData_983410cc4aac3ed3,
+            mid_getNormsReader_bcb16c0940285072,
+            mid_getPointsReader_01e0d9afb4f515b4,
+            mid_getPostingsReader_181d74dce6e339fd,
+            mid_getTermVectorsReader_7a10ef35062ba8d1,
+            mid_getVectorReader_9001a1821793c4d1,
+            mid_maxDoc_bd89ce15dad49192,
+            mid_numDocs_bd89ce15dad49192,
+            mid_unwrap_97a04697f4a63d52,
+            mid_doClose_e7bdbe105ce1bafb,
             max_mid
           };
 

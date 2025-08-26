@@ -12,8 +12,8 @@ namespace org {
         }
       }
       namespace index {
-        class FieldInfo;
         class SegmentWriteState;
+        class FieldInfo;
       }
     }
   }
@@ -34,9 +34,9 @@ namespace org {
           class DefaultBloomFilterFactory : public ::org::apache::lucene::codecs::bloom::BloomFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_getSetForField_5d70d021617fc0f4,
-              mid_isSaturated_5344a7cf07b8d2e6,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_getSetForField_0affc7a8d895ec71,
+              mid_isSaturated_c81aec84945de617,
               max_mid
             };
 

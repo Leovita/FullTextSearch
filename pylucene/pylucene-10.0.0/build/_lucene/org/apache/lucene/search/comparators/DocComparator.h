@@ -3,23 +3,23 @@
 
 #include "org/apache/lucene/search/FieldComparator.h"
 
+namespace java {
+  namespace lang {
+    class Integer;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Pruning;
         class LeafFieldComparator;
+        class Pruning;
       }
       namespace index {
         class LeafReaderContext;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Integer;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -33,11 +33,11 @@ namespace org {
           class DocComparator : public ::org::apache::lucene::search::FieldComparator {
            public:
             enum {
-              mid_init$_1559275d4edb887e,
-              mid_compare_7f733b5d08bb5ec4,
-              mid_getLeafComparator_d019da77a226431f,
-              mid_setTopValue_9d2998185e8f6735,
-              mid_value_106c45aea76a783a,
+              mid_init$_55751aa7ace456c0,
+              mid_compare_7f27cf81a85a97e9,
+              mid_getLeafComparator_84b03b9ed9bc3019,
+              mid_setTopValue_ded8ed6494d3b015,
+              mid_value_557ffba2870d3111,
               max_mid
             };
 

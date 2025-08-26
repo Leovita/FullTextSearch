@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class BytesRef;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,22 +29,22 @@ namespace org {
           class Passage : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_addMatch_19a1c2247f6f083f,
-              mid_getEndOffset_20fbf7565993c3d7,
-              mid_getLength_20fbf7565993c3d7,
-              mid_getMatchEnds_623cd4a044ba647a,
-              mid_getMatchStarts_623cd4a044ba647a,
-              mid_getMatchTermFreqsInDoc_623cd4a044ba647a,
-              mid_getMatchTerms_15e86a23d022d444,
-              mid_getNumMatches_20fbf7565993c3d7,
-              mid_getScore_9b6c3480dac00edf,
-              mid_getStartOffset_20fbf7565993c3d7,
-              mid_reset_3720c61b0679eb3e,
-              mid_setEndOffset_540b2b23d51b1efd,
-              mid_setScore_c771a95b0227fb6a,
-              mid_setStartOffset_540b2b23d51b1efd,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_addMatch_cfcd4ea1529eeae3,
+              mid_getEndOffset_bd89ce15dad49192,
+              mid_getLength_bd89ce15dad49192,
+              mid_getMatchEnds_4b72a28a860ae838,
+              mid_getMatchStarts_4b72a28a860ae838,
+              mid_getMatchTermFreqsInDoc_4b72a28a860ae838,
+              mid_getMatchTerms_cb1c5650e8bc510b,
+              mid_getNumMatches_bd89ce15dad49192,
+              mid_getScore_8b62236f0e4d0dbc,
+              mid_getStartOffset_bd89ce15dad49192,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setEndOffset_8226bd0b0fc13dba,
+              mid_setScore_675f4cb9a2529ee0,
+              mid_setStartOffset_8226bd0b0fc13dba,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

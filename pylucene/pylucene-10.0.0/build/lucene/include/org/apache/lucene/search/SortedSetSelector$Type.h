@@ -28,8 +28,8 @@ namespace org {
         class SortedSetSelector$Type : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_6248c0557155c327,
-            mid_values_2c58c35254e467d4,
+            mid_valueOf_87db5ed0a1c5f64f,
+            mid_values_7fd12c19e3e1b691,
             max_mid
           };
 

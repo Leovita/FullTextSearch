@@ -5,10 +5,10 @@
 
 namespace java {
   namespace lang {
+    class Object;
     class Float;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -25,11 +25,11 @@ namespace org {
           class FunctionValues;
         }
       }
-      namespace index {
-        class LeafReaderContext;
-      }
       namespace search {
         class IndexSearcher;
+      }
+      namespace index {
+        class LeafReaderContext;
       }
     }
   }
@@ -46,13 +46,13 @@ namespace org {
             class RangeMapFloatFunction : public ::org::apache::lucene::queries::function::ValueSource {
              public:
               enum {
-                mid_init$_c32cb2f650bba28d,
-                mid_init$_9ba80552485f0451,
-                mid_createWeight_ed456f113984b95a,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_getValues_a7d46b98c691aeac,
-                mid_hashCode_20fbf7565993c3d7,
+                mid_init$_79f4cb19176559cd,
+                mid_init$_c4b04cff7188e4c9,
+                mid_createWeight_61f11467fc4f893b,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_getValues_9f85153ef1e32cca,
+                mid_hashCode_bd89ce15dad49192,
                 max_mid
               };
 

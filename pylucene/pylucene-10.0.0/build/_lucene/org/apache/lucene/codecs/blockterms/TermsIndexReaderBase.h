@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -37,10 +37,10 @@ namespace org {
           class TermsIndexReaderBase : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_getFieldEnum_f69c33209e4e27f2,
-              mid_supportsOrd_947277eca0748c4e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_getFieldEnum_1d6ba9fa54e64153,
+              mid_supportsOrd_9aa4f33e82ea333f,
               max_mid
             };
 

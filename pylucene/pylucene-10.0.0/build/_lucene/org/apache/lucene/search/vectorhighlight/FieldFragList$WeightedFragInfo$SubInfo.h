@@ -3,16 +3,6 @@
 
 #include "java/lang/Record.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -22,6 +12,16 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -35,14 +35,14 @@ namespace org {
           class FieldFragList$WeightedFragInfo$SubInfo : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_7e5d23cd8d5d4582,
-              mid_boost_9b6c3480dac00edf,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_seqnum_20fbf7565993c3d7,
-              mid_termsOffsets_36830460e10839eb,
-              mid_text_09a7afff1868fc5e,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_588baf4e971ba60f,
+              mid_boost_8b62236f0e4d0dbc,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_seqnum_bd89ce15dad49192,
+              mid_termsOffsets_1387e1e2702ac173,
+              mid_text_e7df854526d67fa3,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -16,8 +16,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class CharArraySet;
         class TokenStream;
+        class CharArraySet;
       }
     }
   }
@@ -33,9 +33,9 @@ namespace org {
           class CommonGramsFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_92e7098bbfc6f3de,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_c584271ff3a78226,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

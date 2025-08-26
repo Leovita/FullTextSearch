@@ -17,8 +17,8 @@ namespace org {
     namespace lucene {
       namespace internal {
         namespace hppc {
-          class DoubleCursor;
           class IntDoubleHashMap;
+          class DoubleCursor;
         }
       }
     }
@@ -35,10 +35,10 @@ namespace org {
           class IntDoubleHashMap$ValuesContainer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_f979a0f60df519b5,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_size_20fbf7565993c3d7,
-              mid_toArray_165feea9de2d0727,
+              mid_init$_018de5ac3d8f4601,
+              mid_iterator_c7985fafdcf40e83,
+              mid_size_bd89ce15dad49192,
+              mid_toArray_1d737fde75f82f40,
               max_mid
             };
 

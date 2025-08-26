@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/analysis/TokenizerFactory.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class Map;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,15 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Map;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -37,9 +37,9 @@ namespace org {
           class WikipediaTokenizerFactory : public ::org::apache::lucene::analysis::TokenizerFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_edd02bc3823bd243,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_a5c62d808d93b91b,
               max_mid
             };
 

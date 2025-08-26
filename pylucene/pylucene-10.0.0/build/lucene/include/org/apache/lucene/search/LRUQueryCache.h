@@ -3,6 +3,17 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    namespace function {
+      class Predicate;
+    }
+    class Collection;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,17 +32,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace util {
-    class Collection;
-    namespace function {
-      class Predicate;
-    }
-  }
-  namespace lang {
-    class Class;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -42,28 +42,28 @@ namespace org {
         class LRUQueryCache : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_52c53d6e59b40db2,
-            mid_init$_1b4f92fab6ac90bb,
-            mid_clear_3720c61b0679eb3e,
-            mid_clearCoreCacheKey_eb61ef4d1db15d08,
-            mid_clearQuery_d7278af460a7b96a,
-            mid_doCache_5bc1183793ec7adb,
-            mid_getCacheCount_16939d9d0a9a9721,
-            mid_getCacheSize_16939d9d0a9a9721,
-            mid_getChildResources_aa58b3beec16cbbd,
-            mid_getEvictionCount_16939d9d0a9a9721,
-            mid_getHitCount_16939d9d0a9a9721,
-            mid_getMissCount_16939d9d0a9a9721,
-            mid_getTotalCount_16939d9d0a9a9721,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_onMiss_c5f49f8a7c450a79,
-            mid_onHit_c5f49f8a7c450a79,
-            mid_onQueryCache_f2dce92de689b76c,
-            mid_onDocIdSetEviction_7193e7f25b723f65,
-            mid_onQueryEviction_f2dce92de689b76c,
-            mid_onClear_3720c61b0679eb3e,
-            mid_onDocIdSetCache_9ac1fb76fd0532e9,
-            mid_cacheImpl_e437c9e703655dab,
+            mid_init$_1d43622e571bd043,
+            mid_init$_681759dbf5d4e971,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_clearCoreCacheKey_501c3eb890ff6d79,
+            mid_clearQuery_a28ff1cdbaf0bf6c,
+            mid_doCache_fb979ea96c449295,
+            mid_getCacheCount_0f176418e3e16541,
+            mid_getCacheSize_0f176418e3e16541,
+            mid_getChildResources_4a269b968b3a511f,
+            mid_getEvictionCount_0f176418e3e16541,
+            mid_getHitCount_0f176418e3e16541,
+            mid_getMissCount_0f176418e3e16541,
+            mid_getTotalCount_0f176418e3e16541,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_onMiss_8d836ea3b7b869ea,
+            mid_onHit_8d836ea3b7b869ea,
+            mid_onQueryCache_d709081e2d777408,
+            mid_onDocIdSetEviction_ec6ef034cb73a1fd,
+            mid_onQueryEviction_d709081e2d777408,
+            mid_onClear_e7bdbe105ce1bafb,
+            mid_onDocIdSetCache_8076b21839806c1f,
+            mid_cacheImpl_8b9253ee7e9e1ef8,
             max_mid
           };
 

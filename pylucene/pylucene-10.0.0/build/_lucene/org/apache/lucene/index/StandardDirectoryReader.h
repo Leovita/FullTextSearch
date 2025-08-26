@@ -3,32 +3,32 @@
 
 #include "org/apache/lucene/index/DirectoryReader.h"
 
-namespace java {
-  namespace io {
-    class IOException;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace index {
+        class IndexCommit;
+        class IndexReader$CacheHelper;
+        class SegmentInfos;
+        class LeafReader;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
   }
-  namespace util {
-    class List;
-    class Comparator;
+  namespace io {
+    class IOException;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class SegmentInfos;
-        class IndexCommit;
-        class LeafReader;
-        class IndexReader$CacheHelper;
-      }
-      namespace store {
-        class Directory;
-      }
-    }
+  namespace util {
+    class Comparator;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -41,18 +41,18 @@ namespace org {
         class StandardDirectoryReader : public ::org::apache::lucene::index::DirectoryReader {
          public:
           enum {
-            mid_getIndexCommit_271a09cc45c80524,
-            mid_getReaderCacheHelper_3117e2e82cc46163,
-            mid_getSegmentInfos_8795f542c9448b69,
-            mid_getVersion_16939d9d0a9a9721,
-            mid_isCurrent_947277eca0748c4e,
-            mid_open_6efd95ea698bb0c8,
-            mid_toString_09a7afff1868fc5e,
-            mid_doClose_3720c61b0679eb3e,
-            mid_notifyReaderClosedListeners_3720c61b0679eb3e,
-            mid_doOpenIfChanged_774a8b4c09b28fb4,
-            mid_doOpenIfChanged_f7fded1703ce6ca1,
-            mid_doOpenIfChanged_398ab3433e6a540a,
+            mid_getIndexCommit_3f5d748efdffe9e0,
+            mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_getSegmentInfos_64f3216f596670dd,
+            mid_getVersion_0f176418e3e16541,
+            mid_isCurrent_9aa4f33e82ea333f,
+            mid_open_6ddf269a934fbdae,
+            mid_toString_e7df854526d67fa3,
+            mid_doOpenIfChanged_a8b6bb613ad0bc66,
+            mid_doOpenIfChanged_f3cbd71bf1d7f0c6,
+            mid_doOpenIfChanged_9a09931027467e73,
+            mid_doClose_e7bdbe105ce1bafb,
+            mid_notifyReaderClosedListeners_e7bdbe105ce1bafb,
             max_mid
           };
 

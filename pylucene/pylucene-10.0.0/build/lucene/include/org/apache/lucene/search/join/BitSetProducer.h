@@ -34,7 +34,7 @@ namespace org {
           class BitSetProducer : public ::java::lang::Object {
            public:
             enum {
-              mid_getBitSet_08a963d795e30c63,
+              mid_getBitSet_73b3b0dbc3a5df90,
               max_mid
             };
 

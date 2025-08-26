@@ -4,12 +4,12 @@
 #include "org/apache/lucene/search/comparators/NumericComparator$NumericLeafComparator.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Float;
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -37,13 +37,13 @@ namespace org {
           class FloatComparator$FloatLeafComparator : public ::org::apache::lucene::search::comparators::NumericComparator$NumericLeafComparator {
            public:
             enum {
-              mid_init$_93c4cc7050dc88ae,
-              mid_compareBottom_3c9bba330f083871,
-              mid_compareTop_3c9bba330f083871,
-              mid_copy_e13cff512ebda969,
-              mid_setBottom_540b2b23d51b1efd,
-              mid_bottomAsComparableLong_16939d9d0a9a9721,
-              mid_topAsComparableLong_16939d9d0a9a9721,
+              mid_init$_b78ca3047ed888e3,
+              mid_compareBottom_a3904e10f5bb9437,
+              mid_compareTop_a3904e10f5bb9437,
+              mid_copy_645c25455f5b9b1c,
+              mid_setBottom_8226bd0b0fc13dba,
+              mid_bottomAsComparableLong_0f176418e3e16541,
+              mid_topAsComparableLong_0f176418e3e16541,
               max_mid
             };
 

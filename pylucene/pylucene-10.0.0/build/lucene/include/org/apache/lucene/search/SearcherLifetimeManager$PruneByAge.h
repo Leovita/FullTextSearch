@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class IndexSearcher;
         class SearcherLifetimeManager$Pruner;
+        class IndexSearcher;
       }
     }
   }
@@ -28,8 +28,8 @@ namespace org {
         class SearcherLifetimeManager$PruneByAge : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_b5bc1a2fb9ff9e90,
-            mid_doPrune_9400a4fb126433ba,
+            mid_init$_a03f734ddaeb69b4,
+            mid_doPrune_3c384c7a71fc2b5d,
             max_mid
           };
 

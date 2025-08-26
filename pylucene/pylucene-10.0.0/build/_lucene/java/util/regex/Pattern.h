@@ -4,24 +4,24 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class Integer;
-    class Class;
-    class CharSequence;
-    class String;
-  }
-  namespace io {
-    class Serializable;
-  }
   namespace util {
+    namespace function {
+      class Predicate;
+    }
     namespace regex {
       class Pattern;
       class Matcher;
     }
-    namespace function {
-      class Predicate;
-    }
     class Map;
+  }
+  namespace lang {
+    class String;
+    class Class;
+    class Integer;
+    class CharSequence;
+  }
+  namespace io {
+    class Serializable;
   }
 }
 template<class T> class JArray;
@@ -33,20 +33,20 @@ namespace java {
       class Pattern : public ::java::lang::Object {
        public:
         enum {
-          mid_asMatchPredicate_318ca0ecdce1a7dd,
-          mid_asPredicate_318ca0ecdce1a7dd,
-          mid_compile_cf4fb26bb648413d,
-          mid_compile_0fcf29889a2e1675,
-          mid_flags_20fbf7565993c3d7,
-          mid_matcher_e5e520b19b5b43f2,
-          mid_matches_0461d033ec410ffa,
-          mid_namedGroups_f125f26c07a7bec8,
-          mid_pattern_09a7afff1868fc5e,
-          mid_quote_cb0eb1432185fc94,
-          mid_split_257fbbf7cd228645,
-          mid_split_622a9223fa621c56,
-          mid_splitWithDelimiters_622a9223fa621c56,
-          mid_toString_09a7afff1868fc5e,
+          mid_asMatchPredicate_e9ff27faf5d76fa6,
+          mid_asPredicate_e9ff27faf5d76fa6,
+          mid_compile_9ad9e44a0990c28d,
+          mid_compile_d03ec2a162831e51,
+          mid_flags_bd89ce15dad49192,
+          mid_matcher_72bbaf25449cb62b,
+          mid_matches_9bacd1fcaa09edd8,
+          mid_namedGroups_5004bdf19ed33453,
+          mid_pattern_e7df854526d67fa3,
+          mid_quote_fef9c036acf290a9,
+          mid_split_16a02646833e8c71,
+          mid_split_436384155516ccac,
+          mid_splitWithDelimiters_436384155516ccac,
+          mid_toString_e7df854526d67fa3,
           max_mid
         };
 

@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/index/BaseCompositeReader.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class IndexReader;
+        class IndexReader$CacheHelper;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
@@ -12,16 +22,6 @@ namespace java {
   }
   namespace util {
     class Comparator;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class IndexReader;
-        class IndexReader$CacheHelper;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -34,11 +34,11 @@ namespace org {
         class MultiReader : public ::org::apache::lucene::index::BaseCompositeReader {
          public:
           enum {
-            mid_init$_c3775b3616995907,
-            mid_init$_d64540bf22b2840c,
-            mid_init$_a6b88d72a8613499,
-            mid_getReaderCacheHelper_3117e2e82cc46163,
-            mid_doClose_3720c61b0679eb3e,
+            mid_init$_053ffeb4376325c6,
+            mid_init$_de68ea8de2565a8b,
+            mid_init$_dd39674645b505cf,
+            mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_doClose_e7bdbe105ce1bafb,
             max_mid
           };
 

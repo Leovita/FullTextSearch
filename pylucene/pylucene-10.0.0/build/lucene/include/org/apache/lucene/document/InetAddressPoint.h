@@ -3,22 +3,22 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
+      namespace search {
+        class Query;
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
     class String;
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Query;
-      }
-      namespace util {
-        class BytesRef;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
         class InetAddressPoint : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_setBytesValue_ac0de3ee0e03786d,
-            mid_toString_09a7afff1868fc5e,
+            mid_setBytesValue_920ce0cdf4259cc9,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -28,10 +28,10 @@ namespace org {
           class LetterTokenizer : public ::org::apache::lucene::analysis::util::CharTokenizer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_d7660885ec4170d8,
-              mid_init$_5b7a424424431350,
-              mid_isTokenChar_ae22d3a856ad56f1,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_cf56ef8c7a468300,
+              mid_init$_3183b52194c9e763,
+              mid_isTokenChar_a8281eb3b9d9672d,
               max_mid
             };
 

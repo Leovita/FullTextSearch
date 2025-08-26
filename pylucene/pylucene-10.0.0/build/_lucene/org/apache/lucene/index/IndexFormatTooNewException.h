@@ -28,12 +28,12 @@ namespace org {
         class IndexFormatTooNewException : public ::java::io::IOException {
          public:
           enum {
-            mid_init$_ad86ada88a1b06a4,
-            mid_init$_2f7ad747b6e05557,
-            mid_getMaxVersion_20fbf7565993c3d7,
-            mid_getMinVersion_20fbf7565993c3d7,
-            mid_getResourceDescription_09a7afff1868fc5e,
-            mid_getVersion_20fbf7565993c3d7,
+            mid_init$_7a4017944aa379f8,
+            mid_init$_bb72ce4920c859b2,
+            mid_getMaxVersion_bd89ce15dad49192,
+            mid_getMinVersion_bd89ce15dad49192,
+            mid_getResourceDescription_e7df854526d67fa3,
+            mid_getVersion_bd89ce15dad49192,
             max_mid
           };
 

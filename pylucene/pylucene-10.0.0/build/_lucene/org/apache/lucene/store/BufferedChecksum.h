@@ -18,10 +18,10 @@ namespace org {
         class BufferedChecksum : public ::java::lang::Object {
          public:
           enum {
-            mid_getValue_16939d9d0a9a9721,
-            mid_reset_3720c61b0679eb3e,
-            mid_update_540b2b23d51b1efd,
-            mid_update_5fdd5da9426708e6,
+            mid_getValue_0f176418e3e16541,
+            mid_reset_e7bdbe105ce1bafb,
+            mid_update_8226bd0b0fc13dba,
+            mid_update_116f7fcb5bff0f39,
             max_mid
           };
 

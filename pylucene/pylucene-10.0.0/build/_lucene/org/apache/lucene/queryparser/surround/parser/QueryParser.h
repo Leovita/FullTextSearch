@@ -3,19 +3,29 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    class ArrayList;
+    class List;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace queryparser {
         namespace surround {
-          namespace query {
-            class SrndQuery;
-          }
           namespace parser {
             class QueryParserConstants;
-            class QueryParserTokenManager;
             class ParseException;
+            class QueryParserTokenManager;
             class Token;
+          }
+          namespace query {
+            class SrndQuery;
           }
         }
         namespace charstream {
@@ -23,16 +33,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-    class ArrayList;
   }
 }
 template<class T> class JArray;
@@ -47,44 +47,44 @@ namespace org {
             class QueryParser : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_83625dc27b688f0a,
-                mid_init$_c2b02911839614e6,
-                mid_AndQuery_417e5294363c6a3a,
-                mid_FieldsQuery_417e5294363c6a3a,
-                mid_FieldsQueryList_36830460e10839eb,
-                mid_NQuery_417e5294363c6a3a,
-                mid_NotQuery_417e5294363c6a3a,
-                mid_OptionalFields_9bdb2d9a719b130b,
-                mid_OptionalWeights_55ba120b27453165,
-                mid_OrQuery_417e5294363c6a3a,
-                mid_PrefixOperatorQuery_417e5294363c6a3a,
-                mid_PrimaryQuery_417e5294363c6a3a,
-                mid_ReInit_83625dc27b688f0a,
-                mid_ReInit_c2b02911839614e6,
-                mid_SimpleTerm_417e5294363c6a3a,
-                mid_TopSrndQuery_417e5294363c6a3a,
-                mid_WQuery_417e5294363c6a3a,
-                mid_disable_tracing_3720c61b0679eb3e,
-                mid_enable_tracing_3720c61b0679eb3e,
-                mid_generateParseException_a130ebf53012db69,
-                mid_getNextToken_d7b848889e5023e6,
-                mid_getToken_5a0ea5068d70978e,
-                mid_parse_4ea19138decc60bc,
-                mid_parse2_4ea19138decc60bc,
-                mid_trace_enabled_947277eca0748c4e,
-                mid_getOpDistance_3f230d713d7fd2b0,
-                mid_checkDistanceSubQueries_f4d8721699aa24cb,
-                mid_getFieldsQuery_0b0dfa5b0afcca7f,
-                mid_getOrQuery_1177c364d74bbe91,
-                mid_getAndQuery_1177c364d74bbe91,
-                mid_getNotQuery_734448721af65acf,
-                mid_getDistanceQuery_1bf96a949fed6708,
-                mid_getTermQuery_c07a87ddcc465c16,
-                mid_allowedSuffix_4a13a663b5c11133,
-                mid_allowedTruncation_4a13a663b5c11133,
-                mid_getTruncQuery_4ea19138decc60bc,
-                mid_getPrefixQuery_c07a87ddcc465c16,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_2e9bebcfb7358b51,
+                mid_init$_e62548278c2da79e,
+                mid_AndQuery_3ca93962a82271ea,
+                mid_FieldsQuery_3ca93962a82271ea,
+                mid_FieldsQueryList_1387e1e2702ac173,
+                mid_NQuery_3ca93962a82271ea,
+                mid_NotQuery_3ca93962a82271ea,
+                mid_OptionalFields_bbf1941622ffad1e,
+                mid_OptionalWeights_a780f03e2b6991ca,
+                mid_OrQuery_3ca93962a82271ea,
+                mid_PrefixOperatorQuery_3ca93962a82271ea,
+                mid_PrimaryQuery_3ca93962a82271ea,
+                mid_ReInit_2e9bebcfb7358b51,
+                mid_ReInit_e62548278c2da79e,
+                mid_SimpleTerm_3ca93962a82271ea,
+                mid_TopSrndQuery_3ca93962a82271ea,
+                mid_WQuery_3ca93962a82271ea,
+                mid_disable_tracing_e7bdbe105ce1bafb,
+                mid_enable_tracing_e7bdbe105ce1bafb,
+                mid_generateParseException_0498256a56059405,
+                mid_getNextToken_5b13e884ebe6ec11,
+                mid_getToken_5be34bfb96237e22,
+                mid_parse_295e15389713802f,
+                mid_parse2_295e15389713802f,
+                mid_trace_enabled_9aa4f33e82ea333f,
+                mid_getPrefixQuery_ebdcb9e15cc9360d,
+                mid_checkDistanceSubQueries_45ee3dc51e50ec14,
+                mid_getFieldsQuery_13f62c472bc3b46b,
+                mid_getOrQuery_b326bef6c3da82d1,
+                mid_getAndQuery_b326bef6c3da82d1,
+                mid_getNotQuery_dd6ae41ad7eba3a2,
+                mid_getDistanceQuery_8fca3a8b37d7aefd,
+                mid_getTermQuery_ebdcb9e15cc9360d,
+                mid_allowedSuffix_94f7e759d94961b0,
+                mid_allowedTruncation_94f7e759d94961b0,
+                mid_getTruncQuery_295e15389713802f,
+                mid_getOpDistance_fa2a6f298bd618ab,
                 max_mid
               };
 

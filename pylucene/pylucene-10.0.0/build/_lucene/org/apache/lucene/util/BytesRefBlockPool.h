@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class BytesRef;
         class Accountable;
         class ByteBlockPool;
-        class BytesRef;
       }
     }
   }
@@ -29,11 +29,11 @@ namespace org {
         class BytesRefBlockPool : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_4fc7f90c0bbc4c49,
-            mid_addBytesRef_5cda243a0bd46c4d,
-            mid_fillBytesRef_be93bdc4fbbb5027,
-            mid_ramBytesUsed_16939d9d0a9a9721,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_792779e3e06e9579,
+            mid_addBytesRef_59a6eaf88a8be404,
+            mid_fillBytesRef_86aec93bf51df65e,
+            mid_ramBytesUsed_0f176418e3e16541,
             max_mid
           };
 

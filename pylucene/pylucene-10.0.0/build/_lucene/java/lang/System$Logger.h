@@ -5,16 +5,16 @@
 
 namespace java {
   namespace util {
+    class ResourceBundle;
     namespace function {
       class Supplier;
     }
-    class ResourceBundle;
   }
   namespace lang {
     class Class;
-    class String;
-    class System$Logger$Level;
     class Throwable;
+    class System$Logger$Level;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -25,16 +25,16 @@ namespace java {
     class System$Logger : public ::java::lang::Object {
      public:
       enum {
-        mid_getName_09a7afff1868fc5e,
-        mid_isLoggable_a70571046e08b51f,
-        mid_log_7b8cef65b00168f0,
-        mid_log_bd4e581e9614709c,
-        mid_log_19fac2572e23ea0c,
-        mid_log_19d8fc158b3b68a3,
-        mid_log_7b0a2e62464e5266,
-        mid_log_8609f4c1fe5e6141,
-        mid_log_6cb3d84a53994969,
-        mid_log_075bc738a664f470,
+        mid_getName_e7df854526d67fa3,
+        mid_isLoggable_31f3c3bf1de912fd,
+        mid_log_84a658d7c94490b6,
+        mid_log_5c3f166d4a66fe6e,
+        mid_log_a6ca503818a9ba3f,
+        mid_log_212e383ae4f7cc58,
+        mid_log_1da39ff37c6fced9,
+        mid_log_2055de2e5c075f21,
+        mid_log_6b7a4e20b899cc1d,
+        mid_log_9bf00a1d4ba906e2,
         max_mid
       };
 

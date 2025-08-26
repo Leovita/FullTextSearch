@@ -33,10 +33,10 @@ namespace org {
         class ClasspathResourceLoader : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_880cf094c8c20ccb,
-            mid_init$_7e882e12061eaf38,
-            mid_findClass_b5a648522f034964,
-            mid_openResource_4306cf2226901a47,
+            mid_init$_fbe53aa5d2a68b3e,
+            mid_init$_d603563f542d31ba,
+            mid_findClass_74b6933dfade62e7,
+            mid_openResource_9bd3a7bffb83deee,
             max_mid
           };
 

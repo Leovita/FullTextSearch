@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class Explanation;
         namespace similarities {
           class Similarity$SimScorer;
         }
-        class Explanation;
       }
       namespace index {
         class LeafReader;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
         class LeafSimScorer : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_8ff411517621baf3,
-            mid_explain_d1714a6d6aa036b4,
-            mid_getSimScorer_111a4f7871096932,
-            mid_score_38a8f22d32ce6b74,
+            mid_init$_2d5f2d8a8e41c577,
+            mid_explain_1e4eec8dc5824a4a,
+            mid_getSimScorer_6ef87505d5a49f93,
+            mid_score_cb697677f8bf71f1,
             max_mid
           };
 

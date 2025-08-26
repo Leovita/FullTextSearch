@@ -15,12 +15,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class Serializable;
-  }
   namespace lang {
     class String;
     class Class;
+  }
+  namespace io {
+    class Serializable;
   }
 }
 template<class T> class JArray;
@@ -34,13 +34,13 @@ namespace org {
           class Token : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_31f7ce1c11bbaf5e,
-              mid_getValue_5655ed8670534604,
-              mid_newToken_2195c86fd240eed6,
-              mid_newToken_f61e05efcc0cb5e8,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_e8e8ad20f065d3b3,
+              mid_getValue_4819806f62f1360a,
+              mid_newToken_369067b6f425bfb5,
+              mid_newToken_55f6fc73326d734e,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

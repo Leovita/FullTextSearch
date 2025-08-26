@@ -9,8 +9,8 @@ namespace org {
       namespace sandbox {
         namespace facet {
           namespace iterators {
-            class ComparableSupplier;
             class OrdinalIterator;
+            class ComparableSupplier;
           }
         }
       }
@@ -37,8 +37,8 @@ namespace org {
             class TopnOrdinalIterator : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_ff0733df5b09ca03,
-                mid_nextOrd_20fbf7565993c3d7,
+                mid_init$_7c8ac5269f0a0c48,
+                mid_nextOrd_bd89ce15dad49192,
                 max_mid
               };
 

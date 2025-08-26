@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class TotalHits;
         class ScoreDoc;
+        class TotalHits;
         class SortField;
       }
     }
@@ -29,7 +29,7 @@ namespace org {
         class TopFieldDocs : public ::org::apache::lucene::search::TopDocs {
          public:
           enum {
-            mid_init$_eab43486fb2f3389,
+            mid_init$_7a720e4aecd34225,
             max_mid
           };
 

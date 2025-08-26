@@ -19,8 +19,8 @@ namespace org {
           class MemoryTracker : public ::java::lang::Object {
            public:
             enum {
-              mid_getBytes_16939d9d0a9a9721,
-              mid_updateBytes_8b3d46852b435a94,
+              mid_getBytes_0f176418e3e16541,
+              mid_updateBytes_1d3149fac12f2af3,
               max_mid
             };
 

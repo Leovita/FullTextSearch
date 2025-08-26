@@ -12,9 +12,9 @@ namespace org {
         }
       }
       namespace util {
-        class ResourceLoader;
-        class AttributeFactory;
         class ResourceLoaderAware;
+        class AttributeFactory;
+        class ResourceLoader;
       }
     }
   }
@@ -42,10 +42,10 @@ namespace org {
           class KoreanTokenizerFactory : public ::org::apache::lucene::analysis::TokenizerFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_2e6e531fed8e29b6,
-              mid_inform_6addbf380886844e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_b803d561a41dede1,
+              mid_inform_4ba602df53b96765,
               max_mid
             };
 

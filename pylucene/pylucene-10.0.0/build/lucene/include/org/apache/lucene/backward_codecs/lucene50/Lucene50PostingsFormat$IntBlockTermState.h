@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/codecs/BlockTermState.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class TermState;
-      }
       namespace backward_codecs {
         namespace lucene50 {
           class Lucene50PostingsFormat$IntBlockTermState;
         }
       }
+      namespace index {
+        class TermState;
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,10 +34,10 @@ namespace org {
           class Lucene50PostingsFormat$IntBlockTermState : public ::org::apache::lucene::codecs::BlockTermState {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_clone_2e3bb903d7c1cd76,
-              mid_copyFrom_b61d12af4f67df0d,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_clone_a721826237f020f7,
+              mid_copyFrom_dcdf58576ff767de,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -20,11 +20,11 @@ namespace org {
           class StemmerUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_delete_db543c1e894f3140,
-              mid_deleteN_c8b0c06d307db35b,
-              mid_endsWith_9bfe3d10fb97574b,
-              mid_endsWith_53f7c4368cf96bf0,
-              mid_startsWith_53f7c4368cf96bf0,
+              mid_delete_872baf22ed11fbaa,
+              mid_deleteN_d1e8f79f5b105403,
+              mid_endsWith_6639f7279d4f1a49,
+              mid_endsWith_a78ac178c459d8d3,
+              mid_startsWith_a78ac178c459d8d3,
               max_mid
             };
 

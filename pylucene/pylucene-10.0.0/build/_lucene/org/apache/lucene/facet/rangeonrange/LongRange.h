@@ -21,11 +21,11 @@ namespace org {
           class LongRange : public ::org::apache::lucene::facet::rangeonrange::Range {
            public:
             enum {
-              mid_init$_3f569b0deb60acc0,
-              mid_init$_288e17a8f79d2853,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e89bb31d1592d697,
+              mid_init$_ff5ed639640787c7,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

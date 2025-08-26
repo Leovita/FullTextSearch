@@ -8,12 +8,12 @@ namespace org {
     namespace lucene {
       namespace analysis {
         namespace ko {
+          namespace dict {
+            class KoMorphData$Morpheme;
+            class KoMorphData;
+          }
           class POS$Tag;
           class POS$Type;
-          namespace dict {
-            class KoMorphData;
-            class KoMorphData$Morpheme;
-          }
         }
         namespace morph {
           class TokenType;
@@ -24,8 +24,8 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class String;
     class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -39,16 +39,16 @@ namespace org {
           class DictionaryToken : public ::org::apache::lucene::analysis::ko::Token {
            public:
             enum {
-              mid_init$_477652ff4afbcce6,
-              mid_getLeftPOS_8319649eebaf05cc,
-              mid_getMorphemes_da3226d9a4bd4f43,
-              mid_getPOSType_ee544d89d14021b5,
-              mid_getReading_09a7afff1868fc5e,
-              mid_getRightPOS_8319649eebaf05cc,
-              mid_isKnown_947277eca0748c4e,
-              mid_isUnknown_947277eca0748c4e,
-              mid_isUser_947277eca0748c4e,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_88868fcf7e25cd28,
+              mid_getLeftPOS_2a8a370cf50ce28f,
+              mid_getMorphemes_26d08ca9e8789c10,
+              mid_getPOSType_86949d14aaadbcf7,
+              mid_getReading_e7df854526d67fa3,
+              mid_getRightPOS_2a8a370cf50ce28f,
+              mid_isKnown_9aa4f33e82ea333f,
+              mid_isUnknown_9aa4f33e82ea333f,
+              mid_isUser_9aa4f33e82ea333f,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

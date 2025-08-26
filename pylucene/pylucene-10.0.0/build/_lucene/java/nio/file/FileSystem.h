@@ -4,22 +4,22 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace nio {
-    namespace file {
-      class WatchService;
-      class PathMatcher;
-      class FileStore;
-      class Path;
-    }
-  }
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
     class String;
     class Iterable;
+  }
+  namespace nio {
+    namespace file {
+      class PathMatcher;
+      class FileStore;
+      class Path;
+      class WatchService;
+    }
   }
   namespace util {
     class Set;
@@ -34,16 +34,16 @@ namespace java {
       class FileSystem : public ::java::lang::Object {
        public:
         enum {
-          mid_close_3720c61b0679eb3e,
-          mid_getFileStores_11d5156a64e3246d,
-          mid_getPath_c1dd8ffa3d682724,
-          mid_getPathMatcher_5df128f4e632875c,
-          mid_getRootDirectories_11d5156a64e3246d,
-          mid_getSeparator_09a7afff1868fc5e,
-          mid_isOpen_947277eca0748c4e,
-          mid_isReadOnly_947277eca0748c4e,
-          mid_newWatchService_093d120200a8dac2,
-          mid_supportedFileAttributeViews_4df174295554d7bd,
+          mid_close_e7bdbe105ce1bafb,
+          mid_getFileStores_85e1732aaf0b83f3,
+          mid_getPath_d84b0e3d2949c12d,
+          mid_getPathMatcher_54bcf2c47325ff94,
+          mid_getRootDirectories_85e1732aaf0b83f3,
+          mid_getSeparator_e7df854526d67fa3,
+          mid_isOpen_9aa4f33e82ea333f,
+          mid_isReadOnly_9aa4f33e82ea333f,
+          mid_newWatchService_70c50eec1bec2b28,
+          mid_supportedFileAttributeViews_79131c6bbcf08916,
           max_mid
         };
 

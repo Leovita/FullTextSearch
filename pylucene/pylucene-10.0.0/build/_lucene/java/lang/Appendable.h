@@ -21,9 +21,9 @@ namespace java {
     class Appendable : public ::java::lang::Object {
      public:
       enum {
-        mid_append_9ff310b2398f3345,
-        mid_append_109384249f8287db,
-        mid_append_6ba965e1dc9fe6af,
+        mid_append_c04071c345c46825,
+        mid_append_21a2a7764878a531,
+        mid_append_4086204bf865c300,
         max_mid
       };
 

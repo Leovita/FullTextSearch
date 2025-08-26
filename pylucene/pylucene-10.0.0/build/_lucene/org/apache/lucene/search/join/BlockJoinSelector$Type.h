@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class BlockJoinSelector$Type : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_49b253201d441132,
-              mid_values_f56d7410a58c08c9,
+              mid_valueOf_90f84728019fcbc8,
+              mid_values_df418e5a13c7566b,
               max_mid
             };
 

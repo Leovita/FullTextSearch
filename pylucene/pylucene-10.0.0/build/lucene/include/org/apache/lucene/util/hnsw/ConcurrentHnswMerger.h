@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class FieldInfo;
-      }
       namespace search {
         class TaskExecutor;
+      }
+      namespace index {
+        class FieldInfo;
       }
       namespace util {
         namespace hnsw {
@@ -36,8 +36,8 @@ namespace org {
           class ConcurrentHnswMerger : public ::org::apache::lucene::util::hnsw::IncrementalHnswGraphMerger {
            public:
             enum {
-              mid_init$_28ad4c41bd207067,
-              mid_createBuilder_b4645ff1a19dbd6f,
+              mid_init$_32f25929d61ff488,
+              mid_createBuilder_c1dcc3edd0f9d63b,
               max_mid
             };
 

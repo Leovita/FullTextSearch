@@ -20,8 +20,8 @@ namespace org {
         class LockVerifyServer : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_main_ce41e621b30e91b1,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_main_1f90f2fcbe43e50d,
             max_mid
           };
 

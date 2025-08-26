@@ -24,10 +24,6 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class Map;
-  }
   namespace lang {
     class Class;
     class String;
@@ -35,6 +31,10 @@ namespace java {
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Map;
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -48,20 +48,20 @@ namespace org {
           class DefaultSortedSetDocValuesReaderState : public ::org::apache::lucene::facet::sortedset::SortedSetDocValuesReaderState {
            public:
             enum {
-              mid_init$_f02bd9ae3f412324,
-              mid_init$_0aa7642301795061,
-              mid_getChildResources_aa58b3beec16cbbd,
-              mid_getDimTree_31fe6b5f17f7311c,
-              mid_getDims_11d5156a64e3246d,
-              mid_getDocValues_348af2e8d793dd96,
-              mid_getFacetsConfig_b68548eec032942f,
-              mid_getField_09a7afff1868fc5e,
-              mid_getOrdRange_717bbb88d75a181e,
-              mid_getPrefixToOrdRange_f125f26c07a7bec8,
-              mid_getReader_38e68c08dc5fee6f,
-              mid_getSize_20fbf7565993c3d7,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_3afc9b34b30e1036,
+              mid_init$_5020d716d5671194,
+              mid_getChildResources_4a269b968b3a511f,
+              mid_getDimTree_d565bf35416f4504,
+              mid_getDims_85e1732aaf0b83f3,
+              mid_getDocValues_82243807cdadc8f0,
+              mid_getFacetsConfig_c3113bd5035d2cb5,
+              mid_getField_e7df854526d67fa3,
+              mid_getOrdRange_00227a91277a7f9c,
+              mid_getPrefixToOrdRange_5004bdf19ed33453,
+              mid_getReader_9596617cc74c49f2,
+              mid_getSize_bd89ce15dad49192,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

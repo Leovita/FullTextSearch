@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/index/SortedDocValues.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class TermsEnum;
-      }
-      namespace util {
-        namespace automaton {
-          class CompiledAutomaton;
-        }
-        class BytesRef;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        namespace automaton {
+          class CompiledAutomaton;
+        }
+        class BytesRef;
+      }
+      namespace index {
+        class TermsEnum;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,18 +36,18 @@ namespace org {
         class FilterSortedDocValues : public ::org::apache::lucene::index::SortedDocValues {
          public:
           enum {
-            mid_init$_2294a75816a1ac17,
-            mid_advance_3c9bba330f083871,
-            mid_advanceExact_ae22d3a856ad56f1,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_getValueCount_20fbf7565993c3d7,
-            mid_intersect_21a0fc15840d17f9,
-            mid_lookupOrd_29bb531a30fe8369,
-            mid_lookupTerm_5cda243a0bd46c4d,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_ordValue_20fbf7565993c3d7,
-            mid_termsEnum_8a12f41bbebee35e,
+            mid_init$_b0507d164a84f42a,
+            mid_advance_a3904e10f5bb9437,
+            mid_advanceExact_a8281eb3b9d9672d,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_getValueCount_bd89ce15dad49192,
+            mid_intersect_c805ac0582f41304,
+            mid_lookupOrd_1e79f110a34c4312,
+            mid_lookupTerm_59a6eaf88a8be404,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_ordValue_bd89ce15dad49192,
+            mid_termsEnum_c92e16ad45780176,
             max_mid
           };
 

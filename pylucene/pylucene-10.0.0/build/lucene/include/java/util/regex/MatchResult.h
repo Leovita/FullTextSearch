@@ -22,18 +22,18 @@ namespace java {
       class MatchResult : public ::java::lang::Object {
        public:
         enum {
-          mid_end_20fbf7565993c3d7,
-          mid_end_3f230d713d7fd2b0,
-          mid_end_3c9bba330f083871,
-          mid_group_09a7afff1868fc5e,
-          mid_group_cb0eb1432185fc94,
-          mid_group_cd8436557ab831f9,
-          mid_groupCount_20fbf7565993c3d7,
-          mid_hasMatch_947277eca0748c4e,
-          mid_namedGroups_f125f26c07a7bec8,
-          mid_start_20fbf7565993c3d7,
-          mid_start_3f230d713d7fd2b0,
-          mid_start_3c9bba330f083871,
+          mid_end_bd89ce15dad49192,
+          mid_end_fa2a6f298bd618ab,
+          mid_end_a3904e10f5bb9437,
+          mid_group_e7df854526d67fa3,
+          mid_group_fef9c036acf290a9,
+          mid_group_0da8f0b89b1e9a22,
+          mid_groupCount_bd89ce15dad49192,
+          mid_hasMatch_9aa4f33e82ea333f,
+          mid_namedGroups_5004bdf19ed33453,
+          mid_start_bd89ce15dad49192,
+          mid_start_fa2a6f298bd618ab,
+          mid_start_a3904e10f5bb9437,
           max_mid
         };
 

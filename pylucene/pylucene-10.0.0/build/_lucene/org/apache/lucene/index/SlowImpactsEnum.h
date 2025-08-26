@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/index/ImpactsEnum.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class Impacts;
-        class PostingsEnum;
-      }
-      namespace util {
-        class BytesRef;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class PostingsEnum;
+        class Impacts;
+      }
+      namespace util {
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -34,18 +34,18 @@ namespace org {
         class SlowImpactsEnum : public ::org::apache::lucene::index::ImpactsEnum {
          public:
           enum {
-            mid_init$_fc7f54ca547c6a5d,
-            mid_advance_3c9bba330f083871,
-            mid_advanceShallow_540b2b23d51b1efd,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_endOffset_20fbf7565993c3d7,
-            mid_freq_20fbf7565993c3d7,
-            mid_getImpacts_5c436a45185cb8e8,
-            mid_getPayload_9740fddd1c7df148,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_nextPosition_20fbf7565993c3d7,
-            mid_startOffset_20fbf7565993c3d7,
+            mid_init$_328efe1af64e911e,
+            mid_advance_a3904e10f5bb9437,
+            mid_advanceShallow_8226bd0b0fc13dba,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_endOffset_bd89ce15dad49192,
+            mid_freq_bd89ce15dad49192,
+            mid_getImpacts_92b9bc95124e6d3a,
+            mid_getPayload_adbedbc1fa61c358,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_nextPosition_bd89ce15dad49192,
+            mid_startOffset_bd89ce15dad49192,
             max_mid
           };
 

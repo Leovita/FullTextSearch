@@ -6,20 +6,20 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace spatial3d {
+        namespace geom {
+          class GeoShape;
+          class PlanetModel;
+        }
+      }
+      namespace geo {
+        class Polygon;
+      }
       namespace search {
         class Query;
       }
       namespace document {
         class FieldType;
-      }
-      namespace spatial3d {
-        namespace geom {
-          class PlanetModel;
-          class GeoShape;
-        }
-      }
-      namespace geo {
-        class Polygon;
       }
     }
   }
@@ -40,19 +40,19 @@ namespace org {
         class Geo3DPoint : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_2095eaca19a2819d,
-            mid_init$_9c9e3683eff4eeeb,
-            mid_init$_589699ccf9019f69,
-            mid_init$_d9bd7b6db3184e36,
-            mid_decodeDimension_ff47a941f428e4d4,
-            mid_encodeDimension_16829905d72ac7d9,
-            mid_newBoxQuery_95e417d10cdb8136,
-            mid_newDistanceQuery_c1fa2089f7f526f1,
-            mid_newLargePolygonQuery_93c4a3c306a83343,
-            mid_newPathQuery_547ae09ca713d30d,
-            mid_newPolygonQuery_93c4a3c306a83343,
-            mid_newShapeQuery_41ae9699e5edaffd,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_21693830df0f9110,
+            mid_init$_f125438b32dc5e11,
+            mid_init$_b9aea55ce7dd073b,
+            mid_init$_dd57dbbef986029c,
+            mid_decodeDimension_a99c8357b510cd8e,
+            mid_encodeDimension_1f2ecfe2b7a6f3ee,
+            mid_newBoxQuery_b791db651c9974c8,
+            mid_newDistanceQuery_14a5df2bcd228f82,
+            mid_newLargePolygonQuery_a567819e53fca1a9,
+            mid_newPathQuery_b9ec0bdc90688ac0,
+            mid_newPolygonQuery_a567819e53fca1a9,
+            mid_newShapeQuery_eea38c53d8b6564d,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

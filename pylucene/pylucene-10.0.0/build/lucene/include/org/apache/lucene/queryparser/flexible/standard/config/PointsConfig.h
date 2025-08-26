@@ -25,13 +25,13 @@ namespace org {
               class PointsConfig : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_fcbc7637b3c7a43c,
-                  mid_equals_570b5248a6da3ef6,
-                  mid_getNumberFormat_98badc23d3190d40,
-                  mid_getType_8b9fee113c1a0b81,
-                  mid_hashCode_20fbf7565993c3d7,
-                  mid_setNumberFormat_810368e518bc5e16,
-                  mid_setType_880cf094c8c20ccb,
+                  mid_init$_3746fec28fbfeac6,
+                  mid_equals_00d17418847797d4,
+                  mid_getNumberFormat_cae2d46e75202e5c,
+                  mid_getType_99e3ace59a9dfdb9,
+                  mid_hashCode_bd89ce15dad49192,
+                  mid_setNumberFormat_72e1e9475236c1c8,
+                  mid_setType_fbe53aa5d2a68b3e,
                   max_mid
                 };
 

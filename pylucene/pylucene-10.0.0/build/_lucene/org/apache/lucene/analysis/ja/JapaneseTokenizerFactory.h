@@ -6,15 +6,15 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class ResourceLoaderAware;
+        class AttributeFactory;
+        class ResourceLoader;
+      }
       namespace analysis {
         namespace ja {
           class JapaneseTokenizer;
         }
-      }
-      namespace util {
-        class AttributeFactory;
-        class ResourceLoader;
-        class ResourceLoaderAware;
       }
     }
   }
@@ -42,10 +42,10 @@ namespace org {
           class JapaneseTokenizerFactory : public ::org::apache::lucene::analysis::TokenizerFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_b44001b5fb8fe8f1,
-              mid_inform_6addbf380886844e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_2cc1053aad7d28b6,
+              mid_inform_4ba602df53b96765,
               max_mid
             };
 

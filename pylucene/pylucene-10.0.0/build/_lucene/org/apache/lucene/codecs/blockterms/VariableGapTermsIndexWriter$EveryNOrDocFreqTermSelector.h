@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
       namespace index {
         class FieldInfo;
       }
       namespace codecs {
         class TermStats;
-      }
-      namespace util {
-        class BytesRef;
       }
     }
   }
@@ -34,9 +34,9 @@ namespace org {
           class VariableGapTermsIndexWriter$EveryNOrDocFreqTermSelector : public ::org::apache::lucene::codecs::blockterms::VariableGapTermsIndexWriter$IndexTermSelector {
            public:
             enum {
-              mid_init$_e13cff512ebda969,
-              mid_isIndexTerm_1236ecfbdb38ebd7,
-              mid_newField_571a63af52300367,
+              mid_init$_645c25455f5b9b1c,
+              mid_isIndexTerm_3d5cf943ed621c71,
+              mid_newField_4d7193cb5c8dc4a1,
               max_mid
             };
 

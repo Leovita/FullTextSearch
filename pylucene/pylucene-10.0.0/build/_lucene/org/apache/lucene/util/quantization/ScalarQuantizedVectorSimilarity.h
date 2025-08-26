@@ -33,8 +33,8 @@ namespace org {
           class ScalarQuantizedVectorSimilarity : public ::java::lang::Object {
            public:
             enum {
-              mid_fromVectorSimilarity_75ac978e7d414df0,
-              mid_score_ce358dca2a169081,
+              mid_fromVectorSimilarity_c1018fd0f1bc6aa2,
+              mid_score_c247ce6006875fda,
               max_mid
             };
 

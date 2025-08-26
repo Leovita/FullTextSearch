@@ -3,12 +3,24 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class Closeable;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+  namespace util {
+    class Comparator;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRef;
         class OfflineSorter;
+        class BytesRef;
       }
       namespace search {
         namespace suggest {
@@ -19,18 +31,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class Comparator;
   }
 }
 template<class T> class JArray;
@@ -45,11 +45,11 @@ namespace org {
             class ExternalRefSorter : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_7ebd9f62ac88a825,
-                mid_add_ac0de3ee0e03786d,
-                mid_close_3720c61b0679eb3e,
-                mid_getComparator_39238840448c1807,
-                mid_iterator_1f81cd071208a331,
+                mid_init$_43c5c0e986ba2187,
+                mid_add_920ce0cdf4259cc9,
+                mid_close_e7bdbe105ce1bafb,
+                mid_getComparator_5cc89c689cd941fe,
+                mid_iterator_636367afba53711a,
                 max_mid
               };
 

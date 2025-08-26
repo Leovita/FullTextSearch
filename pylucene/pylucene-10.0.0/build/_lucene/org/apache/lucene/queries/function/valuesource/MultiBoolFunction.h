@@ -3,38 +3,38 @@
 
 #include "org/apache/lucene/queries/function/valuesource/BoolFunction.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace queries {
         namespace function {
+          class ValueSource;
           namespace docvalues {
             class BoolDocValues;
           }
-          class ValueSource;
         }
-      }
-      namespace index {
-        class LeafReaderContext;
       }
       namespace search {
         class IndexSearcher;
       }
+      namespace index {
+        class LeafReaderContext;
+      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace util {
-    class List;
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -49,14 +49,14 @@ namespace org {
             class MultiBoolFunction : public ::org::apache::lucene::queries::function::valuesource::BoolFunction {
              public:
               enum {
-                mid_init$_9425cd4f62c94bce,
-                mid_createWeight_ed456f113984b95a,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_getValues_f321a80125c21569,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_name_09a7afff1868fc5e,
-                mid_func_50589dd14c9a9f13,
+                mid_init$_acbb405b60a30822,
+                mid_createWeight_61f11467fc4f893b,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_getValues_78ebb1125ed437fb,
+                mid_hashCode_bd89ce15dad49192,
+                mid_name_e7df854526d67fa3,
+                mid_func_da9008e0fa57cbd0,
                 max_mid
               };
 

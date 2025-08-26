@@ -3,6 +3,12 @@
 
 #include "org/apache/lucene/analysis/AnalyzerWrapper.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,12 +16,6 @@ namespace org {
         class Analyzer;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,20 +29,20 @@ namespace org {
           class ShingleAnalyzerWrapper : public ::org::apache::lucene::analysis::AnalyzerWrapper {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_07cd0f76cabcf75a,
-              mid_init$_7d805f720158f192,
-              mid_init$_e13cff512ebda969,
-              mid_init$_243cde3a6b13ee99,
-              mid_init$_090e39ffd9a0e08e,
-              mid_getFillerToken_09a7afff1868fc5e,
-              mid_getMaxShingleSize_20fbf7565993c3d7,
-              mid_getMinShingleSize_20fbf7565993c3d7,
-              mid_getTokenSeparator_09a7afff1868fc5e,
-              mid_getWrappedAnalyzer_a1f5809ec41164b8,
-              mid_isOutputUnigrams_947277eca0748c4e,
-              mid_isOutputUnigramsIfNoShingles_947277eca0748c4e,
-              mid_wrapComponents_3176534f1faba3ea,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_1aaca852402a5069,
+              mid_init$_4d5dc95ef6ea4b72,
+              mid_init$_645c25455f5b9b1c,
+              mid_init$_b90a8216fde78e62,
+              mid_init$_04296aa3ec411533,
+              mid_getFillerToken_e7df854526d67fa3,
+              mid_getMaxShingleSize_bd89ce15dad49192,
+              mid_getMinShingleSize_bd89ce15dad49192,
+              mid_getTokenSeparator_e7df854526d67fa3,
+              mid_getWrappedAnalyzer_422029012b3df2c8,
+              mid_isOutputUnigrams_9aa4f33e82ea333f,
+              mid_isOutputUnigramsIfNoShingles_9aa4f33e82ea333f,
+              mid_wrapComponents_c424eb4df905e9cf,
               max_mid
             };
 

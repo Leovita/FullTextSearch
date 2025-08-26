@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/analysis/morph/CharacterDefinition.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,6 +14,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,11 +34,11 @@ namespace org {
             class CharacterDefinition : public ::org::apache::lucene::analysis::morph::CharacterDefinition {
              public:
               enum {
-                mid_getInstance_612366fd955b73e5,
-                mid_hasCoda_4e84a8c37896b7c5,
-                mid_isHangul_4e84a8c37896b7c5,
-                mid_isHanja_4e84a8c37896b7c5,
-                mid_lookupCharacterClass_0048728f9019731d,
+                mid_getInstance_8203e8fb58ba90a7,
+                mid_hasCoda_96a1e5bdb33dde4e,
+                mid_isHangul_96a1e5bdb33dde4e,
+                mid_isHanja_96a1e5bdb33dde4e,
+                mid_lookupCharacterClass_3c48362581bf518f,
                 max_mid
               };
 

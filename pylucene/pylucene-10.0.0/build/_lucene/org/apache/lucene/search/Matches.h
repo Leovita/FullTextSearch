@@ -3,18 +3,6 @@
 
 #include "java/lang/Iterable.h"
 
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +11,18 @@ namespace org {
         class MatchesIterator;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -35,8 +35,8 @@ namespace org {
         class Matches : public ::java::lang::Iterable {
          public:
           enum {
-            mid_getMatches_b5db4e114c82a54d,
-            mid_getSubMatches_aa58b3beec16cbbd,
+            mid_getMatches_afa9177134b33792,
+            mid_getSubMatches_4a269b968b3a511f,
             max_mid
           };
 

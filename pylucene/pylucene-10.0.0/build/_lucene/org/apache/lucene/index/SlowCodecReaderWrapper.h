@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class CodecReader;
         class LeafReader;
+        class CodecReader;
       }
     }
   }
@@ -31,7 +31,7 @@ namespace org {
         class SlowCodecReaderWrapper : public ::java::lang::Object {
          public:
           enum {
-            mid_wrap_d8ddbb2d16aab279,
+            mid_wrap_784060143841027a,
             max_mid
           };
 

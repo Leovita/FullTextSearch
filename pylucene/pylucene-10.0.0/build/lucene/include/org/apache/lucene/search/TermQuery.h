@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class TermStates;
+        class Term;
       }
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
         class Weight;
+        class QueryVisitor;
         class IndexSearcher;
       }
     }
@@ -21,9 +21,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -39,15 +39,15 @@ namespace org {
         class TermQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_init$_3b0982cb6e1bfb9d,
-            mid_init$_bbb34b86902b0d49,
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_getTerm_8b5614d1be154430,
-            mid_getTermStates_adb7caab542db1be,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
+            mid_init$_ed33f9e055f7213d,
+            mid_init$_4dc0793209632872,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_getTerm_b549eaec39b02d52,
+            mid_getTermStates_182b9366a2a42e01,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
             max_mid
           };
 

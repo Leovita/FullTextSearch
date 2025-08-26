@@ -3,19 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        namespace matchhighlight {
-          class Passage;
-          class PassageAdjuster;
-          class OffsetRange;
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace text {
     class BreakIterator;
@@ -23,6 +10,19 @@ namespace java {
   namespace lang {
     class Class;
     class CharSequence;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        namespace matchhighlight {
+          class PassageAdjuster;
+          class OffsetRange;
+          class Passage;
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,10 +36,10 @@ namespace org {
           class BreakIteratorShrinkingAdjuster : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_81f559c8594973b6,
-              mid_adjust_2a42c2619ab0f0c5,
-              mid_currentValue_5ed8eb2e3024c663,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_e4e1cc72d4503bfa,
+              mid_adjust_20ee6581a15c41cf,
+              mid_currentValue_fe2ab7d27aa3fe1a,
               max_mid
             };
 

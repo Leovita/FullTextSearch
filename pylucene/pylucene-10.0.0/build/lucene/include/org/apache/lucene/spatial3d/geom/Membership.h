@@ -30,8 +30,8 @@ namespace org {
           class Membership : public ::java::lang::Object {
            public:
             enum {
-              mid_isWithin_d2545ca8f40aaba4,
-              mid_isWithin_5f47c01c69ca9460,
+              mid_isWithin_f78acf28287584e8,
+              mid_isWithin_7ff1eb501b1de7c2,
               max_mid
             };
 

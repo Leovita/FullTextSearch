@@ -6,17 +6,17 @@
 namespace java {
   namespace nio {
     namespace file {
-      class WatchService;
-      class WatchEvent$Kind;
       class WatchKey;
+      class WatchEvent$Kind;
       class WatchEvent$Modifier;
+      class WatchService;
     }
-  }
-  namespace io {
-    class IOException;
   }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace java {
       class Watchable : public ::java::lang::Object {
        public:
         enum {
-          mid_register_dc7d4ab737661faf,
-          mid_register_cd5eba900470f048,
+          mid_register_303167a0b7ca69ea,
+          mid_register_2dca432f38e67efe,
           max_mid
         };
 

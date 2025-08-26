@@ -5,17 +5,17 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
-    class Class;
     class String;
-    class Enum;
+    class Class;
     class Enum$EnumDesc;
-  }
-  namespace io {
-    class Serializable;
+    class Enum;
+    class Comparable;
   }
   namespace util {
     class Optional;
+  }
+  namespace io {
+    class Serializable;
   }
 }
 template<class T> class JArray;
@@ -26,17 +26,17 @@ namespace java {
     class Enum : public ::java::lang::Object {
      public:
       enum {
-        mid_compareTo_3f4695b02e9897bf,
-        mid_describeConstable_d95173840d09a723,
-        mid_equals_570b5248a6da3ef6,
-        mid_getDeclaringClass_8b9fee113c1a0b81,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_name_09a7afff1868fc5e,
-        mid_ordinal_20fbf7565993c3d7,
-        mid_toString_09a7afff1868fc5e,
-        mid_valueOf_928a6fd80428f3b7,
-        mid_finalize_3720c61b0679eb3e,
-        mid_clone_5655ed8670534604,
+        mid_compareTo_9dde75f81a23f758,
+        mid_describeConstable_9a972c66ccbfd657,
+        mid_equals_00d17418847797d4,
+        mid_getDeclaringClass_99e3ace59a9dfdb9,
+        mid_hashCode_bd89ce15dad49192,
+        mid_name_e7df854526d67fa3,
+        mid_ordinal_bd89ce15dad49192,
+        mid_toString_e7df854526d67fa3,
+        mid_valueOf_04e89fad476c76c5,
+        mid_finalize_e7bdbe105ce1bafb,
+        mid_clone_4819806f62f1360a,
         max_mid
       };
 

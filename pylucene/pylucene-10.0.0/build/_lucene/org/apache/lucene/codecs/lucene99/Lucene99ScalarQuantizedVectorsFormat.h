@@ -16,15 +16,15 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class SegmentWriteState;
+      }
       namespace codecs {
         namespace hnsw {
           class FlatVectorsReader;
           class FlatVectorsWriter;
         }
-      }
-      namespace index {
-        class SegmentReadState;
-        class SegmentWriteState;
       }
     }
   }
@@ -40,12 +40,12 @@ namespace org {
           class Lucene99ScalarQuantizedVectorsFormat : public ::org::apache::lucene::codecs::hnsw::FlatVectorsFormat {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_a3fb75cff3fc2dfc,
-              mid_calculateDefaultConfidenceInterval_29cfa01aaad92564,
-              mid_fieldsReader_b357f440421570ce,
-              mid_fieldsWriter_2ec0cddb641511c1,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_cfc70061bb10a9fe,
+              mid_calculateDefaultConfidenceInterval_5873a23b935a9d49,
+              mid_fieldsReader_d1a34b66ea06bc3b,
+              mid_fieldsWriter_c8010db3218dc643,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

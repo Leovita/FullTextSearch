@@ -3,14 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class Comparator;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +11,14 @@ namespace org {
         class BytesRefComparator;
       }
     }
+  }
+}
+namespace java {
+  namespace util {
+    class Comparator;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
         class BytesRefComparator : public ::java::lang::Object {
          public:
           enum {
-            mid_compare_c605ddf1ef691f34,
-            mid_compare_368a7087e643b330,
-            mid_byteAt_8b200667d2230cfc,
+            mid_compare_a0fa18546e6b17ce,
+            mid_compare_1355bf536a21d59a,
+            mid_byteAt_2bfb2622d112f52f,
             max_mid
           };
 

@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
-        class FacetsCollector;
         namespace sortedset {
           class SortedSetDocValuesReaderState;
         }
+        class FacetsCollector;
       }
     }
   }
@@ -34,8 +34,8 @@ namespace org {
           class SortedSetDocValuesFacetCounts : public ::org::apache::lucene::facet::sortedset::AbstractSortedSetDocValueFacetCounts {
            public:
             enum {
-              mid_init$_87279a49b0955c85,
-              mid_init$_24149e3d834ec4b8,
+              mid_init$_f33571be55e73fc3,
+              mid_init$_bb0295851377ee42,
               max_mid
             };
 

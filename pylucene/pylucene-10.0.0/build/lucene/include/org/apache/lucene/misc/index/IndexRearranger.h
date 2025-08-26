@@ -3,6 +3,23 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace misc {
+        namespace index {
+          class IndexRearranger$DocumentSelector;
+        }
+      }
+      namespace index {
+        class IndexWriterConfig;
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
     class Class;
@@ -10,23 +27,6 @@ namespace java {
   }
   namespace util {
     class List;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace misc {
-        namespace index {
-          class IndexRearranger$DocumentSelector;
-        }
-      }
-      namespace store {
-        class Directory;
-      }
-      namespace index {
-        class IndexWriterConfig;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -40,9 +40,9 @@ namespace org {
           class IndexRearranger : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b37ffa3beb647526,
-              mid_init$_de45c27872aaac04,
-              mid_execute_3720c61b0679eb3e,
+              mid_init$_910772d683de682f,
+              mid_init$_7f81c986dd488c74,
+              mid_execute_e7bdbe105ce1bafb,
               max_mid
             };
 

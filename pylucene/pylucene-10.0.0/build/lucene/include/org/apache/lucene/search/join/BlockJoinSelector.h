@@ -8,19 +8,19 @@ namespace org {
     namespace lucene {
       namespace index {
         class SortedSetDocValues;
-        class SortedNumericDocValues;
         class SortedDocValues;
         class NumericDocValues;
+        class SortedNumericDocValues;
+      }
+      namespace util {
+        class BitSet;
+        class Bits;
       }
       namespace search {
         class DocIdSetIterator;
         namespace join {
           class BlockJoinSelector$Type;
         }
-      }
-      namespace util {
-        class Bits;
-        class BitSet;
       }
     }
   }
@@ -41,12 +41,12 @@ namespace org {
           class BlockJoinSelector : public ::java::lang::Object {
            public:
             enum {
-              mid_wrap_ee0ea76495f3d614,
-              mid_wrap_d5e31816f4849c98,
-              mid_wrap_0829d97008139f68,
-              mid_wrap_ec4c837370055cbb,
-              mid_wrap_24bba287f2cef017,
-              mid_toIter_d2961d83f0ae333c,
+              mid_wrap_e3681fcf40e3eddd,
+              mid_wrap_c1b16f9713daee0d,
+              mid_wrap_031143e4135166f7,
+              mid_wrap_ddaa0c71028e05c7,
+              mid_wrap_35adcb60f005eff5,
+              mid_toIter_4cb7bd1e9f52fb46,
               max_mid
             };
 

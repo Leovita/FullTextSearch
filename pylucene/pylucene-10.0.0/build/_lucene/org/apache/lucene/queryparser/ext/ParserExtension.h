@@ -6,16 +6,16 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace queryparser {
-        namespace ext {
-          class ExtensionQuery;
-        }
         namespace classic {
           class ParseException;
         }
+        namespace ext {
+          class ExtensionQuery;
+        }
+      }
+      namespace search {
+        class Query;
       }
     }
   }
@@ -36,8 +36,8 @@ namespace org {
           class ParserExtension : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_parse_d8882ce4a763ede7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_parse_65cf18516bb758c2,
               max_mid
             };
 

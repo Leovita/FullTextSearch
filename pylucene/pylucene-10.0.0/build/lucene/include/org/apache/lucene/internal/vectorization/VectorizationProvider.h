@@ -3,33 +3,33 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace internal {
         namespace vectorization {
-          class PostingDecodingUtil;
           class VectorizationProvider;
+          class PostingDecodingUtil;
           class VectorUtilSupport;
         }
-      }
-      namespace store {
-        class IndexInput;
       }
       namespace codecs {
         namespace hnsw {
           class FlatVectorsScorer;
         }
       }
+      namespace store {
+        class IndexInput;
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -43,10 +43,10 @@ namespace org {
           class VectorizationProvider : public ::java::lang::Object {
            public:
             enum {
-              mid_getInstance_cc4d14999659b96e,
-              mid_getLucene99FlatVectorsScorer_7e681abd40bf9d07,
-              mid_getVectorUtilSupport_94b8af9d1480c6a6,
-              mid_newPostingDecodingUtil_0d80484d55b25f4a,
+              mid_getInstance_b200d10436ab9b82,
+              mid_getLucene99FlatVectorsScorer_0a520ed2ec7fc582,
+              mid_getVectorUtilSupport_57551dfdf3ac1825,
+              mid_newPostingDecodingUtil_d0d79baa99553ca3,
               max_mid
             };
 

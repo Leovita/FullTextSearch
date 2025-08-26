@@ -3,9 +3,18 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
       namespace search {
         class Query;
       }
@@ -17,16 +26,7 @@ namespace org {
           class QueryParser;
         }
       }
-      namespace analysis {
-        class Analyzer;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -41,9 +41,9 @@ namespace org {
             class UserInputQueryBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_4d31a7180ed665e6,
-                mid_init$_c50f2f6f1d850d13,
-                mid_createQueryParser_ba15c40cb11de799,
+                mid_init$_9149238e58ca70d0,
+                mid_init$_cc97c286759ef3b4,
+                mid_createQueryParser_b35fe6eeb519c8e9,
                 max_mid
               };
 

@@ -18,8 +18,8 @@ namespace org {
         class IntBlockPool$Allocator : public ::java::lang::Object {
          public:
           enum {
-            mid_getIntBlock_623cd4a044ba647a,
-            mid_recycleIntBlocks_db6edd5aae13a5bb,
+            mid_getIntBlock_4b72a28a860ae838,
+            mid_recycleIntBlocks_4bb8f555233a8d15,
             max_mid
           };
 

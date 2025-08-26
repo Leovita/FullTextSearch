@@ -7,22 +7,22 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class IndexSorter$ComparableProvider;
-        class IndexSorter$SortedDocValuesProvider;
-        class IndexSorter;
         class IndexSorter$DocComparator;
+        class IndexSorter$ComparableProvider;
+        class IndexSorter;
         class LeafReader;
+        class IndexSorter$SortedDocValuesProvider;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -38,10 +38,10 @@ namespace org {
         class IndexSorter$StringSorter : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_b38df8dcf15c7412,
-            mid_getComparableProviders_a67440c3973dbbc1,
-            mid_getDocComparator_292ec420be98b531,
-            mid_getProviderName_09a7afff1868fc5e,
+            mid_init$_2321aaa78d77ca8d,
+            mid_getComparableProviders_19c09bde37dfb9f4,
+            mid_getDocComparator_39610edf39379e77,
+            mid_getProviderName_e7df854526d67fa3,
             max_mid
           };
 

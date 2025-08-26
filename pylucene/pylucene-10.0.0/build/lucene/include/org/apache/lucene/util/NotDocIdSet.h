@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/search/DocIdSet.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +15,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -33,10 +33,10 @@ namespace org {
         class NotDocIdSet : public ::org::apache::lucene::search::DocIdSet {
          public:
           enum {
-            mid_init$_761ecf8569cde4dd,
-            mid_bits_959b4f7101dd7f4b,
-            mid_iterator_fc644a826c65d236,
-            mid_ramBytesUsed_16939d9d0a9a9721,
+            mid_init$_3c23448b9785a6e8,
+            mid_bits_92a4f567193c49d1,
+            mid_iterator_b78969502cbf4939,
+            mid_ramBytesUsed_0f176418e3e16541,
             max_mid
           };
 

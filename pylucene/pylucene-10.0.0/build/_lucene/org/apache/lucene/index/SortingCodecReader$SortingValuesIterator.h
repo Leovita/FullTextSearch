@@ -21,11 +21,11 @@ namespace org {
         class SortingCodecReader$SortingValuesIterator : public ::org::apache::lucene::index::KnnVectorValues$DocIndexIterator {
          public:
           enum {
-            mid_advance_3c9bba330f083871,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_index_20fbf7565993c3d7,
-            mid_nextDoc_20fbf7565993c3d7,
+            mid_advance_a3904e10f5bb9437,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_index_bd89ce15dad49192,
+            mid_nextDoc_bd89ce15dad49192,
             max_mid
           };
 

@@ -3,13 +3,21 @@
 
 #include "org/apache/lucene/codecs/PostingsWriterBase.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class TermsEnum;
-        class FieldInfo;
         class NumericDocValues;
+        class FieldInfo;
+        class TermsEnum;
       }
       namespace util {
         class BytesRef;
@@ -22,14 +30,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -40,14 +40,14 @@ namespace org {
         class PushPostingsWriterBase : public ::org::apache::lucene::codecs::PostingsWriterBase {
          public:
           enum {
-            mid_addPosition_c03eaff4c27deef8,
-            mid_finishDoc_3720c61b0679eb3e,
-            mid_finishTerm_bb894f5bc802a30a,
-            mid_newTermState_3bf66c86f1b277c4,
-            mid_setField_571a63af52300367,
-            mid_startDoc_e13cff512ebda969,
-            mid_startTerm_7bc4e3d8c59294ae,
-            mid_writeTerm_d77bd46abaf6d43f,
+            mid_addPosition_9a21dbec535f79a8,
+            mid_finishDoc_e7bdbe105ce1bafb,
+            mid_finishTerm_1164e37ee4555dea,
+            mid_newTermState_90e39a1aad9f7074,
+            mid_setField_4d7193cb5c8dc4a1,
+            mid_startDoc_645c25455f5b9b1c,
+            mid_startTerm_19acd403ee73f663,
+            mid_writeTerm_4326cc6a8fd7ad05,
             max_mid
           };
 

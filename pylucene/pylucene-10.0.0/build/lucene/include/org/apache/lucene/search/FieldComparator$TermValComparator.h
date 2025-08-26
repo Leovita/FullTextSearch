@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/search/FieldComparator.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Scorable;
-        class LeafFieldComparator;
-      }
       namespace util {
         class BytesRef;
+      }
+      namespace search {
+        class LeafFieldComparator;
+        class Scorable;
       }
       namespace index {
         class LeafReaderContext;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -38,18 +38,18 @@ namespace org {
         class FieldComparator$TermValComparator : public ::org::apache::lucene::search::FieldComparator {
          public:
           enum {
-            mid_init$_58d15134e785318e,
-            mid_compare_7f733b5d08bb5ec4,
-            mid_compareBottom_3c9bba330f083871,
-            mid_compareTop_3c9bba330f083871,
-            mid_compareValues_c605ddf1ef691f34,
-            mid_copy_e13cff512ebda969,
-            mid_getLeafComparator_d019da77a226431f,
-            mid_setBottom_540b2b23d51b1efd,
-            mid_setScorer_dd42dde4c0a7db1e,
-            mid_setTopValue_ac0de3ee0e03786d,
-            mid_value_29bb531a30fe8369,
-            mid_getBinaryDocValues_c85a086b6aa0e32c,
+            mid_init$_e5b5ed9024f3aa7f,
+            mid_compare_7f27cf81a85a97e9,
+            mid_compareBottom_a3904e10f5bb9437,
+            mid_compareTop_a3904e10f5bb9437,
+            mid_compareValues_a0fa18546e6b17ce,
+            mid_copy_645c25455f5b9b1c,
+            mid_getLeafComparator_84b03b9ed9bc3019,
+            mid_setBottom_8226bd0b0fc13dba,
+            mid_setScorer_c06bdf7d53c6460a,
+            mid_setTopValue_920ce0cdf4259cc9,
+            mid_value_1e79f110a34c4312,
+            mid_getBinaryDocValues_d763563797d0471f,
             max_mid
           };
 

@@ -22,9 +22,9 @@ namespace java {
       class WatchEvent : public ::java::lang::Object {
        public:
         enum {
-          mid_context_5655ed8670534604,
-          mid_count_20fbf7565993c3d7,
-          mid_kind_8cc027b62e3d234c,
+          mid_context_4819806f62f1360a,
+          mid_count_bd89ce15dad49192,
+          mid_kind_119f431c7098562d,
           max_mid
         };
 

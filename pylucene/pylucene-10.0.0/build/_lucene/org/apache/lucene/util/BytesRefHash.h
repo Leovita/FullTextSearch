@@ -3,21 +3,21 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class ByteBlockPool;
         class Accountable;
         class BytesRef;
         class BytesRefHash$BytesStartArray;
-        class ByteBlockPool;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,22 +30,22 @@ namespace org {
         class BytesRefHash : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_4fc7f90c0bbc4c49,
-            mid_init$_2e713ca508c1a291,
-            mid_add_5cda243a0bd46c4d,
-            mid_addByPoolOffset_3c9bba330f083871,
-            mid_byteStart_3c9bba330f083871,
-            mid_clear_3720c61b0679eb3e,
-            mid_clear_b110fc3a58c081ab,
-            mid_close_3720c61b0679eb3e,
-            mid_compact_623cd4a044ba647a,
-            mid_find_5cda243a0bd46c4d,
-            mid_get_59689a013e9bac42,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_reinit_3720c61b0679eb3e,
-            mid_size_20fbf7565993c3d7,
-            mid_sort_623cd4a044ba647a,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_792779e3e06e9579,
+            mid_init$_72f3ef8bc256aec7,
+            mid_add_59a6eaf88a8be404,
+            mid_addByPoolOffset_a3904e10f5bb9437,
+            mid_byteStart_a3904e10f5bb9437,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_clear_f5dd97eebf6a215a,
+            mid_close_e7bdbe105ce1bafb,
+            mid_compact_4b72a28a860ae838,
+            mid_find_59a6eaf88a8be404,
+            mid_get_10f37a8a5cdac708,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_reinit_e7bdbe105ce1bafb,
+            mid_size_bd89ce15dad49192,
+            mid_sort_4b72a28a860ae838,
             max_mid
           };
 

@@ -4,19 +4,16 @@
 #include "org/apache/lucene/index/ByteVectorValues.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class VectorScorer;
-      }
       namespace util {
         namespace quantization {
           class ScalarQuantizer;
@@ -30,6 +27,9 @@ namespace org {
       }
       namespace store {
         class IndexInput;
+      }
+      namespace search {
+        class VectorScorer;
       }
     }
   }
@@ -45,12 +45,12 @@ namespace org {
           class QuantizedByteVectorValues : public ::org::apache::lucene::index::ByteVectorValues {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_copy_941b033cf801968f,
-              mid_getScalarQuantizer_c7ba334748265ffc,
-              mid_getScoreCorrectionConstant_29cfa01aaad92564,
-              mid_getSlice_69ff96f993716366,
-              mid_scorer_a8fe418e8b9bfd3a,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_copy_e6d0558e65112591,
+              mid_getScalarQuantizer_ee5409c2abaa79cb,
+              mid_getScoreCorrectionConstant_5873a23b935a9d49,
+              mid_getSlice_1107977def75ee66,
+              mid_scorer_08ba7b0e97b17679,
               max_mid
             };
 

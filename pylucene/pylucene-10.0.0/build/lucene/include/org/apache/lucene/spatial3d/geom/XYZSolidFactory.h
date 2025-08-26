@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class XYZSolid;
           class PlanetModel;
           class XYZBounds;
+          class XYZSolid;
         }
       }
     }
@@ -32,8 +32,8 @@ namespace org {
           class XYZSolidFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_makeXYZSolid_8fab01200afec168,
-              mid_makeXYZSolid_d06332948485f19f,
+              mid_makeXYZSolid_aab583117ee14fd1,
+              mid_makeXYZSolid_9e93452d98ca2f3d,
               max_mid
             };
 

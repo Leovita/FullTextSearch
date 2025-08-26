@@ -19,10 +19,10 @@ namespace org {
           class ByteRunnable : public ::java::lang::Object {
            public:
             enum {
-              mid_getSize_20fbf7565993c3d7,
-              mid_isAccept_ae22d3a856ad56f1,
-              mid_run_93b96d1b7d1012e3,
-              mid_step_7f733b5d08bb5ec4,
+              mid_getSize_bd89ce15dad49192,
+              mid_isAccept_a8281eb3b9d9672d,
+              mid_run_8d796a751cbcaf8d,
+              mid_step_7f27cf81a85a97e9,
               max_mid
             };
 

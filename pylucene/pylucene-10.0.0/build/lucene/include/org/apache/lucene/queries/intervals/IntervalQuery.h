@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
         class Weight;
+        class QueryVisitor;
         class IndexSearcher;
       }
       namespace queries {
@@ -22,9 +22,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -41,15 +41,15 @@ namespace org {
           class IntervalQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_init$_d15d0d59212300c1,
-              mid_init$_43773e8449659975,
-              mid_init$_677c8089b09bee2b,
-              mid_createWeight_77fe52950093e704,
-              mid_equals_570b5248a6da3ef6,
-              mid_getField_09a7afff1868fc5e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_071af72004967fb5,
+              mid_init$_5cab293f3a7c8750,
+              mid_init$_9a9d0d1b876e37b4,
+              mid_createWeight_dc54d493278607e4,
+              mid_equals_00d17418847797d4,
+              mid_getField_e7df854526d67fa3,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

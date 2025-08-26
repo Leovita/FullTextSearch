@@ -7,8 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class BooleanClause$Occur;
+        class Query;
+      }
+      namespace analysis {
+        class Analyzer;
       }
       namespace queryparser {
         namespace flexible {
@@ -16,9 +19,6 @@ namespace org {
             class QueryNodeException;
           }
         }
-      }
-      namespace analysis {
-        class Analyzer;
       }
     }
   }
@@ -41,11 +41,11 @@ namespace org {
             class QueryParserUtil : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_escape_cb0eb1432185fc94,
-                mid_parse_251be478ca716343,
-                mid_parse_ad8cdb64c707bce6,
-                mid_parse_84ab5382023ec362,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_escape_fef9c036acf290a9,
+                mid_parse_f09b03d871c55c8e,
+                mid_parse_a485e2ab44d5b88a,
+                mid_parse_fba9d889e8196901,
                 max_mid
               };
 

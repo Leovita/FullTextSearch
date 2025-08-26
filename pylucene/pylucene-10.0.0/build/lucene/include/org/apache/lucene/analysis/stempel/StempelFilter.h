@@ -34,9 +34,9 @@ namespace org {
           class StempelFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_974b8f48e07fafca,
-              mid_init$_90ab2230b406ae82,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_ffdd51efe6f3d9f4,
+              mid_init$_df6b523ecd48d9c3,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

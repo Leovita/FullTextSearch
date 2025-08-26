@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class BooleanClause$Occur;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class BooleanClause$Occur : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_57c9d1e45d3c8f6c,
-            mid_values_a5e13a72056fd096,
+            mid_valueOf_33c5dbd891eeed64,
+            mid_values_fe23b3839bd43350,
             max_mid
           };
 

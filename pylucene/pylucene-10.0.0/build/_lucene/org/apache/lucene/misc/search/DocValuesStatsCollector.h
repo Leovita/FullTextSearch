@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class LeafCollector;
         class ScoreMode;
+        class LeafCollector;
         class Collector;
       }
       namespace misc {
@@ -41,9 +41,9 @@ namespace org {
           class DocValuesStatsCollector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_a073c060f1d277c0,
-              mid_getLeafCollector_aca3f888603431e1,
-              mid_scoreMode_45dfdcf7e901559d,
+              mid_init$_f14c14fc3047071c,
+              mid_getLeafCollector_0a34433e6da38be9,
+              mid_scoreMode_23e7061dcdc84768,
               max_mid
             };
 

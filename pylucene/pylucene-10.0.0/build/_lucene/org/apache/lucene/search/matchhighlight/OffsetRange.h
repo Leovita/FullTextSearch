@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Cloneable;
     class Class;
     class String;
-    class Cloneable;
   }
 }
 namespace org {
@@ -32,14 +32,14 @@ namespace org {
           class OffsetRange : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_e13cff512ebda969,
-              mid_clone_906ac5559d6968ac,
-              mid_contains_a9f8a07e17386c42,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_length_20fbf7565993c3d7,
-              mid_slice_d30ec62b6c5f74e9,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_645c25455f5b9b1c,
+              mid_clone_9cfa6cc676e1d6e4,
+              mid_contains_2363290fa0ec4d82,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_length_bd89ce15dad49192,
+              mid_slice_c383ac973ee93431,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

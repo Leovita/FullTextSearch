@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/search/DocIdSetIterator.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,14 +12,23 @@ namespace org {
         }
       }
       namespace store {
+        class RandomAccessInput;
         class IndexOutput;
         class IndexInput;
-        class RandomAccessInput;
       }
       namespace index {
         class KnnVectorValues$DocIndexIterator;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -42,17 +42,17 @@ namespace org {
           class IndexedDISI : public ::org::apache::lucene::search::DocIdSetIterator {
            public:
             enum {
-              mid_init$_6f513dfcefde089b,
-              mid_advance_3c9bba330f083871,
-              mid_advanceExact_ae22d3a856ad56f1,
-              mid_asDocIndexIterator_7df016af1e4f7aaa,
-              mid_cost_16939d9d0a9a9721,
-              mid_createBlockSlice_c3e18adeeefea4f5,
-              mid_createJumpTable_db330c1bc6dc4ce9,
-              mid_docID_20fbf7565993c3d7,
-              mid_index_20fbf7565993c3d7,
-              mid_nextDoc_20fbf7565993c3d7,
-              mid_writeBitSet_0dfac87d7ee7976a,
+              mid_init$_655f0ea261c9b3e9,
+              mid_advance_a3904e10f5bb9437,
+              mid_advanceExact_a8281eb3b9d9672d,
+              mid_asDocIndexIterator_191b65bb793ea697,
+              mid_cost_0f176418e3e16541,
+              mid_createBlockSlice_a6809c12e5909c69,
+              mid_createJumpTable_a81d87c18335332c,
+              mid_docID_bd89ce15dad49192,
+              mid_index_bd89ce15dad49192,
+              mid_nextDoc_bd89ce15dad49192,
+              mid_writeBitSet_cf51df7da1205ea9,
               max_mid
             };
 

@@ -32,10 +32,10 @@ namespace org {
           class PackedLongValues$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_add_481e76b2513faf38,
-              mid_build_2aa27fbce1a4ed2f,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_size_16939d9d0a9a9721,
+              mid_add_09cf2d336c0f4715,
+              mid_build_cbd68ef179992613,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_size_0f176418e3e16541,
               max_mid
             };
 

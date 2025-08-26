@@ -3,6 +3,19 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class InterruptedException;
+    class Class;
+    class Long;
+  }
+  namespace util {
+    class Map;
+    namespace function {
+      class BooleanSupplier;
+    }
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,19 +23,6 @@ namespace org {
         class MergePolicy$OneMergeProgress$PauseReason;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class InterruptedException;
-    class Long;
-  }
-  namespace util {
-    namespace function {
-      class BooleanSupplier;
-    }
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -35,12 +35,12 @@ namespace org {
         class MergePolicy$OneMergeProgress : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_abort_3720c61b0679eb3e,
-            mid_getPauseTimes_f125f26c07a7bec8,
-            mid_isAborted_947277eca0748c4e,
-            mid_pauseNanos_c5cf46ae70ca1b02,
-            mid_wakeup_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_abort_e7bdbe105ce1bafb,
+            mid_getPauseTimes_5004bdf19ed33453,
+            mid_isAborted_9aa4f33e82ea333f,
+            mid_pauseNanos_6adcd456b250cace,
+            mid_wakeup_e7bdbe105ce1bafb,
             max_mid
           };
 

@@ -35,20 +35,20 @@ namespace org {
           class UAX29URLEmailTokenizerImpl : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_fa55492f0f5d7f31,
-              mid_getNextToken_20fbf7565993c3d7,
-              mid_getText_ddd2ada188133d78,
-              mid_setBufferSize_540b2b23d51b1efd,
-              mid_yyatEOF_947277eca0748c4e,
-              mid_yybegin_540b2b23d51b1efd,
-              mid_yychar_20fbf7565993c3d7,
-              mid_yycharat_92a13ce4196a7e69,
-              mid_yyclose_3720c61b0679eb3e,
-              mid_yylength_20fbf7565993c3d7,
-              mid_yypushback_540b2b23d51b1efd,
-              mid_yyreset_fa55492f0f5d7f31,
-              mid_yystate_20fbf7565993c3d7,
-              mid_yytext_09a7afff1868fc5e,
+              mid_init$_89ab2bee9aa84b00,
+              mid_getNextToken_bd89ce15dad49192,
+              mid_getText_6c885244caf2c782,
+              mid_setBufferSize_8226bd0b0fc13dba,
+              mid_yyatEOF_9aa4f33e82ea333f,
+              mid_yybegin_8226bd0b0fc13dba,
+              mid_yychar_bd89ce15dad49192,
+              mid_yycharat_bc94dd98365f92fb,
+              mid_yyclose_e7bdbe105ce1bafb,
+              mid_yylength_bd89ce15dad49192,
+              mid_yypushback_8226bd0b0fc13dba,
+              mid_yyreset_89ab2bee9aa84b00,
+              mid_yystate_bd89ce15dad49192,
+              mid_yytext_e7df854526d67fa3,
               max_mid
             };
 

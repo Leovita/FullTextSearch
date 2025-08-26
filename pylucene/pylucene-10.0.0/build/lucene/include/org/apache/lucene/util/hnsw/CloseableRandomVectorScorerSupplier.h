@@ -30,7 +30,7 @@ namespace org {
           class CloseableRandomVectorScorerSupplier : public ::java::io::Closeable {
            public:
             enum {
-              mid_totalVectorCount_20fbf7565993c3d7,
+              mid_totalVectorCount_bd89ce15dad49192,
               max_mid
             };
 

@@ -6,38 +6,38 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
+      namespace store {
+        class Directory;
+      }
+      namespace facet {
+        namespace taxonomy {
+          class ParallelTaxonomyArrays;
+          namespace directory {
+            class DirectoryTaxonomyWriter;
+          }
+          class FacetLabel;
+        }
       }
       namespace index {
         class DirectoryReader;
       }
-      namespace facet {
-        namespace taxonomy {
-          class FacetLabel;
-          namespace directory {
-            class DirectoryTaxonomyWriter;
-          }
-          class ParallelTaxonomyArrays;
-        }
-      }
-      namespace store {
-        class Directory;
+      namespace util {
+        class Accountable;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class Map;
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
+    class Map;
   }
 }
 template<class T> class JArray;
@@ -52,24 +52,24 @@ namespace org {
             class DirectoryTaxonomyReader : public ::org::apache::lucene::facet::taxonomy::TaxonomyReader {
              public:
               enum {
-                mid_init$_bfb8ac4557dfef8c,
-                mid_init$_3c151c130d7f3176,
-                mid_getBulkOrdinals_7d0bc717fafc6e60,
-                mid_getBulkPath_b0d0c4216ac45539,
-                mid_getChildResources_aa58b3beec16cbbd,
-                mid_getCommitUserData_f125f26c07a7bec8,
-                mid_getInternalIndexReader_f7fded1703ce6ca1,
-                mid_getOrdinal_b886af148d2e9c5a,
-                mid_getParallelTaxonomyArrays_2a1c0e1b6b11270b,
-                mid_getPath_c21e0250a0465b0f,
-                mid_getSize_20fbf7565993c3d7,
-                mid_ramBytesUsed_16939d9d0a9a9721,
-                mid_setCacheSize_540b2b23d51b1efd,
-                mid_toString_cd8436557ab831f9,
-                mid_doClose_3720c61b0679eb3e,
-                mid_doOpenIfChanged_f3596a1d5eba38c2,
-                mid_openIndexReader_c84aecaf0e3ee77f,
-                mid_openIndexReader_305366f7010e8381,
+                mid_init$_f5bbf852e881e7ba,
+                mid_init$_0bf39a7351552ef4,
+                mid_getBulkOrdinals_a339b1a8e9820a7b,
+                mid_getBulkPath_08f83a8c8bc64590,
+                mid_getChildResources_4a269b968b3a511f,
+                mid_getCommitUserData_5004bdf19ed33453,
+                mid_getInternalIndexReader_a8b6bb613ad0bc66,
+                mid_getOrdinal_36dd33e0173c4244,
+                mid_getParallelTaxonomyArrays_ae30cad85926a26f,
+                mid_getPath_6c732e2e2e10e82a,
+                mid_getSize_bd89ce15dad49192,
+                mid_ramBytesUsed_0f176418e3e16541,
+                mid_setCacheSize_8226bd0b0fc13dba,
+                mid_toString_0da8f0b89b1e9a22,
+                mid_doOpenIfChanged_d37a89f8c60186b4,
+                mid_doClose_e7bdbe105ce1bafb,
+                mid_openIndexReader_ca7780014fe99b2c,
+                mid_openIndexReader_aa7d631f758a2283,
                 max_mid
               };
 

@@ -3,13 +3,15 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        class SortField;
-      }
       namespace document {
         class ShapeField$QueryRelation;
         class FieldType;
@@ -18,13 +20,11 @@ namespace org {
         class Polygon;
         class LatLonGeometry;
       }
+      namespace search {
+        class Query;
+        class SortField;
+      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -37,14 +37,14 @@ namespace org {
         class LatLonDocValuesField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_2095eaca19a2819d,
-            mid_newDistanceSort_91787bad138e62a7,
-            mid_newSlowBoxQuery_e637eb4fbb66cd45,
-            mid_newSlowDistanceQuery_d21aad6385d42f8d,
-            mid_newSlowGeometryQuery_cb622dfcc773fe50,
-            mid_newSlowPolygonQuery_59d6d1af2cb8e8f8,
-            mid_setLocationValue_e57e4ffd06f0f841,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_21693830df0f9110,
+            mid_newDistanceSort_ace157fa9b64518a,
+            mid_newSlowBoxQuery_4b9e2246d9254f26,
+            mid_newSlowDistanceQuery_0c73b5e361524dd7,
+            mid_newSlowGeometryQuery_011f4a02e303334b,
+            mid_newSlowPolygonQuery_88e3f68b51f65edb,
+            mid_setLocationValue_fa06324555fd7858,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

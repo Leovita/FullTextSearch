@@ -3,6 +3,18 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace internal {
+        namespace hppc {
+          class ObjectCursor;
+          class LongObjectHashMap;
+        }
+      }
+    }
+  }
+}
 namespace java {
   namespace util {
     class Iterator;
@@ -10,18 +22,6 @@ namespace java {
   namespace lang {
     class Class;
     class Iterable;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace internal {
-        namespace hppc {
-          class LongObjectHashMap;
-          class ObjectCursor;
-        }
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -35,10 +35,10 @@ namespace org {
           class LongObjectHashMap$ValuesContainer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_7c18306bfe70ad9b,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_size_20fbf7565993c3d7,
-              mid_toArray_e6b839682a4610a6,
+              mid_init$_f06275d73bb9493e,
+              mid_iterator_c7985fafdcf40e83,
+              mid_size_bd89ce15dad49192,
+              mid_toArray_1e688954528bc160,
               max_mid
             };
 

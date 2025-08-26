@@ -12,14 +12,14 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace analysis {
-        namespace morph {
-          class MorphData;
-          class Dictionary;
-        }
-      }
       namespace util {
         class IntsRef;
+      }
+      namespace analysis {
+        namespace morph {
+          class Dictionary;
+          class MorphData;
+        }
       }
     }
   }
@@ -35,7 +35,7 @@ namespace org {
           class BinaryDictionary : public ::java::lang::Object {
            public:
             enum {
-              mid_lookupWordIds_35dc548f02ed6569,
+              mid_lookupWordIds_b7a99778e1046454,
               max_mid
             };
 

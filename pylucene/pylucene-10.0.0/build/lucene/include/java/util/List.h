@@ -9,15 +9,15 @@ namespace java {
     namespace function {
       class UnaryOperator;
     }
-    class Collection;
-    class List;
     class ListIterator;
+    class Collection;
     class Spliterator;
     class Comparator;
+    class List;
   }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,54 +28,54 @@ namespace java {
     class List : public ::java::util::SequencedCollection {
      public:
       enum {
-        mid_add_570b5248a6da3ef6,
-        mid_add_45daa0687d5df9b5,
-        mid_addAll_f2a1f31c5865e20d,
-        mid_addAll_30cee388a7b048af,
-        mid_addFirst_eb61ef4d1db15d08,
-        mid_addLast_eb61ef4d1db15d08,
-        mid_clear_3720c61b0679eb3e,
-        mid_contains_570b5248a6da3ef6,
-        mid_containsAll_f2a1f31c5865e20d,
-        mid_copyOf_93d4f44cee5de8eb,
-        mid_equals_570b5248a6da3ef6,
-        mid_get_eb7eace67c4a21fd,
-        mid_getFirst_5655ed8670534604,
-        mid_getLast_5655ed8670534604,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_indexOf_657656e6a597f732,
-        mid_isEmpty_947277eca0748c4e,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_lastIndexOf_657656e6a597f732,
-        mid_listIterator_0f4ac4d253da0dce,
-        mid_listIterator_c5b65026385ab4af,
-        mid_of_36830460e10839eb,
-        mid_of_c1c05447f808d260,
-        mid_of_b887ee42d9bb67f9,
-        mid_of_66eed69f7b83d462,
-        mid_of_58760109881da01b,
-        mid_of_f0bc5e1e71c16eca,
-        mid_of_dae497ada2562257,
-        mid_of_2846e22cfe72480a,
-        mid_of_a39cb53f1022d529,
-        mid_of_36fd4d2d329a336d,
-        mid_of_9fb40195425a35c9,
-        mid_of_47918a7df2576f28,
-        mid_remove_eb7eace67c4a21fd,
-        mid_remove_570b5248a6da3ef6,
-        mid_removeAll_f2a1f31c5865e20d,
-        mid_removeFirst_5655ed8670534604,
-        mid_removeLast_5655ed8670534604,
-        mid_replaceAll_b7e61e41bd5d4ce6,
-        mid_retainAll_f2a1f31c5865e20d,
-        mid_reversed_36830460e10839eb,
-        mid_set_b84ce9d3b2137b5e,
-        mid_size_20fbf7565993c3d7,
-        mid_sort_480edaf434ebe52f,
-        mid_spliterator_eebbc9cffa204672,
-        mid_subList_3690552717f6ec88,
-        mid_toArray_e6b839682a4610a6,
-        mid_toArray_1794d6b866766560,
+        mid_add_00d17418847797d4,
+        mid_add_09375f3fd0a3af05,
+        mid_addAll_155d0ed876869448,
+        mid_addAll_6a33d3084931e945,
+        mid_addFirst_501c3eb890ff6d79,
+        mid_addLast_501c3eb890ff6d79,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_contains_00d17418847797d4,
+        mid_containsAll_155d0ed876869448,
+        mid_copyOf_edc76bb8b84c2b2b,
+        mid_equals_00d17418847797d4,
+        mid_get_2a2d7d7b9153274c,
+        mid_getFirst_4819806f62f1360a,
+        mid_getLast_4819806f62f1360a,
+        mid_hashCode_bd89ce15dad49192,
+        mid_indexOf_3b738b91667a06c2,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_iterator_c7985fafdcf40e83,
+        mid_lastIndexOf_3b738b91667a06c2,
+        mid_listIterator_f5b10a8957c7e8ce,
+        mid_listIterator_a1b8e40853ea22b0,
+        mid_of_1387e1e2702ac173,
+        mid_of_ebb457715b104bd1,
+        mid_of_7c2a76b8364a69bd,
+        mid_of_e049fa3b43b4bad3,
+        mid_of_759de8da72932a4d,
+        mid_of_ed9edda7eae22523,
+        mid_of_56e6346d566a2036,
+        mid_of_34deb7c7ca4473b7,
+        mid_of_bdcf7354306f62ee,
+        mid_of_bbe433fecfdb0afd,
+        mid_of_d08a6752383f6c8c,
+        mid_of_cd2e96ec815da392,
+        mid_remove_2a2d7d7b9153274c,
+        mid_remove_00d17418847797d4,
+        mid_removeAll_155d0ed876869448,
+        mid_removeFirst_4819806f62f1360a,
+        mid_removeLast_4819806f62f1360a,
+        mid_replaceAll_fcc268ba85ee9ee5,
+        mid_retainAll_155d0ed876869448,
+        mid_reversed_1387e1e2702ac173,
+        mid_set_c8f65d2ef44d5c7c,
+        mid_size_bd89ce15dad49192,
+        mid_sort_236c903ae32a3610,
+        mid_spliterator_fd118e26a3de79e6,
+        mid_subList_6d7644d6c0697519,
+        mid_toArray_1e688954528bc160,
+        mid_toArray_0b4a993b49b6d8e8,
         max_mid
       };
 

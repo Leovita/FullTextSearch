@@ -33,10 +33,10 @@ namespace org {
           class BlockLine : public ::java::lang::Object {
            public:
             enum {
-              mid_getTermBytes_1c202e6e076a42af,
-              mid_getTermStateRelativeOffset_20fbf7565993c3d7,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_reset_ef486b5c3ddd046d,
+              mid_getTermBytes_e9a90c7f33f55230,
+              mid_getTermStateRelativeOffset_bd89ce15dad49192,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_reset_a65a8a91e8437b05,
               max_mid
             };
 

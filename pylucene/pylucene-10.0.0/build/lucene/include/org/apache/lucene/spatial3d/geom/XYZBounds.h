@@ -8,13 +8,13 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Plane;
-          class XYZBounds;
           class Vector;
           class Membership;
+          class XYZBounds;
+          class Bounds;
           class GeoPoint;
           class PlanetModel;
-          class Bounds;
+          class Plane;
         }
       }
     }
@@ -23,8 +23,8 @@ namespace org {
 namespace java {
   namespace lang {
     class Class;
-    class String;
     class Double;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -38,40 +38,40 @@ namespace org {
           class XYZBounds : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_addBounds_eb94395ef689c590,
-              mid_addHorizontalPlane_a7e4b546e597b400,
-              mid_addIntersection_35219b12859162fe,
-              mid_addPlane_15a21c9a9d113d9d,
-              mid_addPoint_7d64811057c15b25,
-              mid_addVerticalPlane_a7e4b546e597b400,
-              mid_addXValue_7d64811057c15b25,
-              mid_addXValue_d3c7115e9474656f,
-              mid_addYValue_7d64811057c15b25,
-              mid_addYValue_d3c7115e9474656f,
-              mid_addZValue_7d64811057c15b25,
-              mid_addZValue_d3c7115e9474656f,
-              mid_getMaximumX_3427789f502c230e,
-              mid_getMaximumY_3427789f502c230e,
-              mid_getMaximumZ_3427789f502c230e,
-              mid_getMinimumX_3427789f502c230e,
-              mid_getMinimumY_3427789f502c230e,
-              mid_getMinimumZ_3427789f502c230e,
-              mid_isLargestMaxX_591bc2e0b2301d3a,
-              mid_isLargestMaxY_591bc2e0b2301d3a,
-              mid_isLargestMaxZ_591bc2e0b2301d3a,
-              mid_isSmallestMinX_591bc2e0b2301d3a,
-              mid_isSmallestMinY_591bc2e0b2301d3a,
-              mid_isSmallestMinZ_591bc2e0b2301d3a,
-              mid_isWide_9df9bcb078900198,
-              mid_isWithin_d2545ca8f40aaba4,
-              mid_isWithin_5f47c01c69ca9460,
-              mid_noBottomLatitudeBound_9df9bcb078900198,
-              mid_noBound_44b667a391f02bb2,
-              mid_noLongitudeBound_9df9bcb078900198,
-              mid_noTopLatitudeBound_9df9bcb078900198,
-              mid_overlaps_4127ff56ce328b15,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_addBounds_35eccb05435de8ff,
+              mid_addHorizontalPlane_745d4f480071b0dc,
+              mid_addIntersection_b47fb6a0917837bb,
+              mid_addPlane_2d8ce33354f55c61,
+              mid_addPoint_0b65f1ac399500f3,
+              mid_addVerticalPlane_745d4f480071b0dc,
+              mid_addXValue_0b65f1ac399500f3,
+              mid_addXValue_994740db6f30e34b,
+              mid_addYValue_0b65f1ac399500f3,
+              mid_addYValue_994740db6f30e34b,
+              mid_addZValue_0b65f1ac399500f3,
+              mid_addZValue_994740db6f30e34b,
+              mid_getMaximumX_4708af7d5ba009e9,
+              mid_getMaximumY_4708af7d5ba009e9,
+              mid_getMaximumZ_4708af7d5ba009e9,
+              mid_getMinimumX_4708af7d5ba009e9,
+              mid_getMinimumY_4708af7d5ba009e9,
+              mid_getMinimumZ_4708af7d5ba009e9,
+              mid_isLargestMaxX_084d831d65bcb675,
+              mid_isLargestMaxY_084d831d65bcb675,
+              mid_isLargestMaxZ_084d831d65bcb675,
+              mid_isSmallestMinX_084d831d65bcb675,
+              mid_isSmallestMinY_084d831d65bcb675,
+              mid_isSmallestMinZ_084d831d65bcb675,
+              mid_isWide_57bc77a77a7927f9,
+              mid_isWithin_f78acf28287584e8,
+              mid_isWithin_7ff1eb501b1de7c2,
+              mid_noBottomLatitudeBound_57bc77a77a7927f9,
+              mid_noBound_2b87fb506197c30d,
+              mid_noLongitudeBound_57bc77a77a7927f9,
+              mid_noTopLatitudeBound_57bc77a77a7927f9,
+              mid_overlaps_d70f9bd695c033f6,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

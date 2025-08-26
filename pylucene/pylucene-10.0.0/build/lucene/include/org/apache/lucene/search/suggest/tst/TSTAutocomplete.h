@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace util {
+    class ArrayList;
+  }
   namespace lang {
     class Class;
     class CharSequence;
-  }
-  namespace util {
-    class ArrayList;
   }
 }
 namespace org {
@@ -37,9 +37,9 @@ namespace org {
             class TSTAutocomplete : public ::java::lang::Object {
              public:
               enum {
-                mid_balancedTree_46b7ed99096c7409,
-                mid_insert_eb9021823c86a787,
-                mid_prefixCompletion_67505f7cbfe4c11c,
+                mid_balancedTree_d28044c83415f4ab,
+                mid_insert_790da37eef041837,
+                mid_prefixCompletion_1960898afd779216,
                 max_mid
               };
 

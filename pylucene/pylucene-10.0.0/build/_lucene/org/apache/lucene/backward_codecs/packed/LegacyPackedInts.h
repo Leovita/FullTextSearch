@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,19 +19,11 @@ namespace org {
       }
       namespace util {
         namespace packed {
-          class PackedInts$Reader;
           class PackedInts$Format;
+          class PackedInts$Reader;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -37,7 +37,7 @@ namespace org {
           class LegacyPackedInts : public ::java::lang::Object {
            public:
             enum {
-              mid_getReaderNoHeader_d6c196761d404d32,
+              mid_getReaderNoHeader_1212135d538e0798,
               max_mid
             };
 

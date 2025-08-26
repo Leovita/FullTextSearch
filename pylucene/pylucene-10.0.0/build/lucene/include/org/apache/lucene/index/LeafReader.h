@@ -6,41 +6,41 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class SortedNumericDocValues;
-        class FloatVectorValues;
-        class FieldInfos;
-        class BinaryDocValues;
-        class SortedSetDocValues;
-        class ByteVectorValues;
-        class SortedDocValues;
-        class LeafMetaData;
-        class NumericDocValues;
-        class PostingsEnum;
-        class LeafReaderContext;
-        class PointValues;
-        class Term;
-        class IndexReader$CacheHelper;
-        class Terms;
-        class DocValuesSkipper;
+      namespace util {
+        class Bits;
       }
       namespace search {
         class KnnCollector;
         class TopDocs;
       }
-      namespace util {
-        class Bits;
+      namespace index {
+        class FloatVectorValues;
+        class DocValuesSkipper;
+        class SortedNumericDocValues;
+        class BinaryDocValues;
+        class LeafReaderContext;
+        class ByteVectorValues;
+        class SortedDocValues;
+        class NumericDocValues;
+        class PointValues;
+        class FieldInfos;
+        class PostingsEnum;
+        class Term;
+        class IndexReader$CacheHelper;
+        class SortedSetDocValues;
+        class Terms;
+        class LeafMetaData;
       }
     }
   }
 }
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class Class;
     class String;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -53,34 +53,34 @@ namespace org {
         class LeafReader : public ::org::apache::lucene::index::IndexReader {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_docFreq_a72eb531d55acb0c,
-            mid_getBinaryDocValues_930cc2268218a3e3,
-            mid_getByteVectorValues_b6d55ee35cf0a7cd,
-            mid_getContext_73a30448bd05c3e2,
-            mid_getCoreCacheHelper_3117e2e82cc46163,
-            mid_getDocCount_3f230d713d7fd2b0,
-            mid_getDocValuesSkipper_6385669244954201,
-            mid_getFieldInfos_2d5786d39aaa5f0b,
-            mid_getFloatVectorValues_d99d2b92faec6895,
-            mid_getLiveDocs_959b4f7101dd7f4b,
-            mid_getMetaData_e29b13e9e9af4206,
-            mid_getNormValues_0c282caddf2d7938,
-            mid_getNumericDocValues_0c282caddf2d7938,
-            mid_getPointValues_9d784340b5464260,
-            mid_getSortedDocValues_e1c83af81f671c5d,
-            mid_getSortedNumericDocValues_5b5cc59b31747b26,
-            mid_getSortedSetDocValues_9473e7f34fd540a9,
-            mid_getSumDocFreq_e942a6f864c95ca0,
-            mid_getSumTotalTermFreq_e942a6f864c95ca0,
-            mid_postings_224d65cb2543fe1a,
-            mid_postings_e66cfe6c4abc9ccc,
-            mid_searchNearestVectors_e7c7b5d865f31eb3,
-            mid_searchNearestVectors_210bbfb50a2f4ef9,
-            mid_searchNearestVectors_ed748047d606d56c,
-            mid_searchNearestVectors_1b56a11b35d5f3ed,
-            mid_terms_734b49c46dc30275,
-            mid_totalTermFreq_e7e426c2707b0b8a,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_docFreq_c8503de727553d83,
+            mid_getBinaryDocValues_7dcd5a29ca65e591,
+            mid_getByteVectorValues_7ab2f26af1d93897,
+            mid_getContext_a465a075d20c01e1,
+            mid_getCoreCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_getDocCount_fa2a6f298bd618ab,
+            mid_getDocValuesSkipper_8b019ebe020b6965,
+            mid_getFieldInfos_09577c1068fdaec4,
+            mid_getFloatVectorValues_0c0ae22a56670782,
+            mid_getLiveDocs_92a4f567193c49d1,
+            mid_getMetaData_983410cc4aac3ed3,
+            mid_getNormValues_c8230d99abf988ec,
+            mid_getNumericDocValues_c8230d99abf988ec,
+            mid_getPointValues_db6b2fb22b12e7e1,
+            mid_getSortedDocValues_946c886dd7165459,
+            mid_getSortedNumericDocValues_d833735942a4e997,
+            mid_getSortedSetDocValues_a25ba477f918d8fc,
+            mid_getSumDocFreq_490f1686ea1cfda6,
+            mid_getSumTotalTermFreq_490f1686ea1cfda6,
+            mid_postings_c1c47f0427bbdeca,
+            mid_postings_2d244ed63bd383d8,
+            mid_searchNearestVectors_41e6931fdbdb5ba0,
+            mid_searchNearestVectors_61a952903eb61416,
+            mid_searchNearestVectors_f0c9e7fd865aee36,
+            mid_searchNearestVectors_bbf839c325625db0,
+            mid_terms_b30320f056ffba8d,
+            mid_totalTermFreq_3566c61061b446e6,
             max_mid
           };
 

@@ -20,7 +20,7 @@ namespace org {
           class CharacterDefinition$LookupCharacterClass : public ::java::lang::Object {
            public:
             enum {
-              mid_lookupCharacterClass_0048728f9019731d,
+              mid_lookupCharacterClass_3c48362581bf518f,
               max_mid
             };
 

@@ -31,9 +31,9 @@ namespace org {
           class IntPointMultiRangeBuilder : public ::org::apache::lucene::sandbox::search::MultiRangeQuery$Builder {
            public:
             enum {
-              mid_init$_a5140b013bba694a,
-              mid_add_09cea1ab2441144f,
-              mid_build_83b684d3a7823a4f,
+              mid_init$_49e27e98009acf15,
+              mid_add_788e8c3eb977c890,
+              mid_build_10ae858b8220da6e,
               max_mid
             };
 

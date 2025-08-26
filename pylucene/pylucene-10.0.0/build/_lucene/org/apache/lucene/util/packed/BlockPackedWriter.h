@@ -28,8 +28,8 @@ namespace org {
           class BlockPackedWriter : public ::org::apache::lucene::util::packed::AbstractBlockPackedWriter {
            public:
             enum {
-              mid_init$_26deaf282101d9e7,
-              mid_flush_3720c61b0679eb3e,
+              mid_init$_176e48709974b4ec,
+              mid_flush_e7bdbe105ce1bafb,
               max_mid
             };
 

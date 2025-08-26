@@ -3,9 +3,25 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class ClassLoader;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Set;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SortFieldProvider;
+      }
       namespace store {
         class DataInput;
         class DataOutput;
@@ -13,26 +29,10 @@ namespace org {
       namespace util {
         class NamedSPILoader$NamedSPI;
       }
-      namespace index {
-        class SortFieldProvider;
-      }
       namespace search {
         class SortField;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class ClassLoader;
-  }
-  namespace util {
-    class Set;
   }
 }
 template<class T> class JArray;
@@ -45,13 +45,13 @@ namespace org {
         class SortFieldProvider : public ::java::lang::Object {
          public:
           enum {
-            mid_availableSortFieldProviders_4df174295554d7bd,
-            mid_forName_fc8c46145814bb51,
-            mid_getName_09a7afff1868fc5e,
-            mid_readSortField_54cf7e36f33e748d,
-            mid_reloadSortFieldProviders_7e882e12061eaf38,
-            mid_write_8d2516256489aa49,
-            mid_writeSortField_8d2516256489aa49,
+            mid_availableSortFieldProviders_79131c6bbcf08916,
+            mid_forName_2ddaf12feb47cae8,
+            mid_getName_e7df854526d67fa3,
+            mid_readSortField_73b746c7467b3297,
+            mid_reloadSortFieldProviders_d603563f542d31ba,
+            mid_write_50bc26c3f21276b3,
+            mid_writeSortField_50bc26c3f21276b3,
             max_mid
           };
 

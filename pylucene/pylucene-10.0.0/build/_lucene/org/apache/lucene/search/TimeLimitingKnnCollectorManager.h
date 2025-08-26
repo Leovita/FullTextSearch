@@ -6,25 +6,25 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class QueryTimeout;
+        class LeafReaderContext;
+      }
       namespace search {
         class KnnCollector;
         namespace knn {
           class KnnCollectorManager;
         }
       }
-      namespace index {
-        class QueryTimeout;
-        class LeafReaderContext;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,9 +37,9 @@ namespace org {
         class TimeLimitingKnnCollectorManager : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_97897c4803d1dd0d,
-            mid_getQueryTimeout_f8dbdf3c43b86efc,
-            mid_newCollector_401e714a5e3dcc89,
+            mid_init$_45a1b16fec6e201b,
+            mid_getQueryTimeout_c564223390c8c408,
+            mid_newCollector_7ffd49c5523c1db4,
             max_mid
           };
 

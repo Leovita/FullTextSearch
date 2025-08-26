@@ -5,17 +5,17 @@
 
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace geo {
-        class GeoUtils$WindingOrder;
         class Polygon;
+        class GeoUtils$WindingOrder;
       }
     }
   }
@@ -30,22 +30,22 @@ namespace org {
         class Polygon : public ::org::apache::lucene::geo::LatLonGeometry {
          public:
           enum {
-            mid_init$_8d2d8002630b56f6,
-            mid_equals_570b5248a6da3ef6,
-            mid_fromGeoJSON_d2082644696a7f42,
-            mid_getHoles_59070f617e4e2cdc,
-            mid_getPolyLat_788f636887bfcb79,
-            mid_getPolyLats_165feea9de2d0727,
-            mid_getPolyLon_788f636887bfcb79,
-            mid_getPolyLons_165feea9de2d0727,
-            mid_getWindingOrder_e9ee6e52ae142ea4,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_numHoles_20fbf7565993c3d7,
-            mid_numPoints_20fbf7565993c3d7,
-            mid_toGeoJSON_09a7afff1868fc5e,
-            mid_toString_09a7afff1868fc5e,
-            mid_verticesToGeoJSON_abb3aad431ae880e,
-            mid_toComponent2D_2671ab2559e4bc09,
+            mid_init$_ba5ad671e850a778,
+            mid_equals_00d17418847797d4,
+            mid_fromGeoJSON_1354f05d57e302dc,
+            mid_getHoles_03652cd067cf5d0e,
+            mid_getPolyLat_3bb466f769ef1c7f,
+            mid_getPolyLats_1d737fde75f82f40,
+            mid_getPolyLon_3bb466f769ef1c7f,
+            mid_getPolyLons_1d737fde75f82f40,
+            mid_getWindingOrder_838b38b4e8121696,
+            mid_hashCode_bd89ce15dad49192,
+            mid_numHoles_bd89ce15dad49192,
+            mid_numPoints_bd89ce15dad49192,
+            mid_toGeoJSON_e7df854526d67fa3,
+            mid_toString_e7df854526d67fa3,
+            mid_verticesToGeoJSON_e6e7c537f13f6311,
+            mid_toComponent2D_826bc66e4432f11e,
             max_mid
           };
 

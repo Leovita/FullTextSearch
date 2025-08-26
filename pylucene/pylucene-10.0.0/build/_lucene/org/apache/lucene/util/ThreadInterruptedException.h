@@ -19,7 +19,7 @@ namespace org {
         class ThreadInterruptedException : public ::java::lang::RuntimeException {
          public:
           enum {
-            mid_init$_6d6927f9d7f2b17c,
+            mid_init$_e95d55c607beac8d,
             max_mid
           };
 

@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class CheckIndex$Status$SegmentInfoStatus;
-      }
       namespace store {
         class Directory;
+      }
+      namespace index {
+        class CheckIndex$Status$SegmentInfoStatus;
       }
     }
   }
@@ -21,8 +21,8 @@ namespace java {
     class String;
   }
   namespace util {
-    class List;
     class Map;
+    class List;
   }
 }
 template<class T> class JArray;

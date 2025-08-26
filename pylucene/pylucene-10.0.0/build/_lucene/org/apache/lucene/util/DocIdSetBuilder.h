@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class PointValues;
         class Terms;
+        class PointValues;
       }
       namespace search {
         class DocIdSetIterator;
@@ -21,12 +21,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,12 +39,12 @@ namespace org {
         class DocIdSetBuilder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_bd67e0e0eda4d76f,
-            mid_init$_96eb820e9dc2eb59,
-            mid_add_ed30298d46fa551b,
-            mid_build_a219f8c3cb9d9e57,
-            mid_grow_ad8c2d52c50bc6cb,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_cb0b4bd1a6733f5d,
+            mid_init$_9429bfd5e6ac6fb7,
+            mid_add_3bae9c6463463f0d,
+            mid_build_f1c62de6d8e65454,
+            mid_grow_a33ef6db3c93c50a,
             max_mid
           };
 

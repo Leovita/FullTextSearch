@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -17,8 +17,8 @@ namespace org {
     namespace lucene {
       namespace facet {
         namespace taxonomy {
-          class TaxonomyFacetLabels$FacetLabelReader;
           class TaxonomyReader;
+          class TaxonomyFacetLabels$FacetLabelReader;
         }
       }
       namespace index {
@@ -38,8 +38,8 @@ namespace org {
           class TaxonomyFacetLabels : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_fa710e9e48ad567a,
-              mid_getFacetLabelReader_0968b636d10b0b25,
+              mid_init$_7ecaea5d762768bf,
+              mid_getFacetLabelReader_38bc4cd826806910,
               max_mid
             };
 

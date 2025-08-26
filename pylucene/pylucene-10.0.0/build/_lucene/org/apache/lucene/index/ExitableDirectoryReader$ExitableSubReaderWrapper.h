@@ -28,8 +28,8 @@ namespace org {
         class ExitableDirectoryReader$ExitableSubReaderWrapper : public ::org::apache::lucene::index::FilterDirectoryReader$SubReaderWrapper {
          public:
           enum {
-            mid_init$_3347031fd3feff35,
-            mid_wrap_5c5d9aed327bf3e1,
+            mid_init$_957e9f789ab6489d,
+            mid_wrap_427792a09c74b11a,
             max_mid
           };
 

@@ -8,10 +8,10 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace bkd {
-          class PointReader;
-          class BKDConfig;
           class PointValue;
+          class BKDConfig;
           class PointWriter;
+          class PointReader;
         }
       }
     }
@@ -34,16 +34,16 @@ namespace org {
           class HeapPointWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_dab21c424c24d065,
-              mid_append_1c8d41d2d27992fa,
-              mid_append_3f6ea74fc0096aaa,
-              mid_close_3720c61b0679eb3e,
-              mid_computeCardinality_afa879432309a95b,
-              mid_count_16939d9d0a9a9721,
-              mid_destroy_3720c61b0679eb3e,
-              mid_getPackedValueSlice_22d1a65383306618,
-              mid_getReader_f1db140159383246,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_35bc81aaa1657bc9,
+              mid_append_e75111edd8888b9b,
+              mid_append_31e2e931f3bb1000,
+              mid_close_e7bdbe105ce1bafb,
+              mid_computeCardinality_22e5797eda5b5877,
+              mid_count_0f176418e3e16541,
+              mid_destroy_e7bdbe105ce1bafb,
+              mid_getPackedValueSlice_066efb1af8609795,
+              mid_getReader_e114ec76679aa7f3,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

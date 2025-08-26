@@ -8,9 +8,9 @@ namespace org {
     namespace v4 {
       namespace runtime {
         namespace atn {
-          class PredictionContext;
-          class PredictionContextCache;
           class ATN;
+          class PredictionContextCache;
+          class PredictionContext;
         }
       }
     }
@@ -32,11 +32,11 @@ namespace org {
           class ATNSimulator : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_58f343193639ddd2,
-              mid_clearDFA_3720c61b0679eb3e,
-              mid_getCachedContext_924f6b836b1b444d,
-              mid_getSharedContextCache_77e462da842d669c,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_df12678de465847e,
+              mid_clearDFA_e7bdbe105ce1bafb,
+              mid_getCachedContext_092c560f41ffd287,
+              mid_getSharedContextCache_776ea21abfad5dfb,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

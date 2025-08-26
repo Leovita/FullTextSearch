@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
     class Class;
     class String;
+    class Comparable;
   }
 }
 namespace org {
@@ -34,19 +34,19 @@ namespace org {
         class Term : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_0d82408c6e55bc30,
-            mid_init$_3d104da0b5c75e64,
-            mid_init$_45ab94acb6ed83e4,
-            mid_init$_cf7f0e3e4b9b15a5,
-            mid_bytes_9740fddd1c7df148,
-            mid_compareTo_a72eb531d55acb0c,
-            mid_equals_570b5248a6da3ef6,
-            mid_field_09a7afff1868fc5e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_text_09a7afff1868fc5e,
-            mid_toString_09a7afff1868fc5e,
-            mid_toString_3f93dbca6227d6f8,
+            mid_init$_ee46a189998009d6,
+            mid_init$_0dd012a11c3f389b,
+            mid_init$_a9a308f8485c52c9,
+            mid_init$_14bc43f7e946f93c,
+            mid_bytes_adbedbc1fa61c358,
+            mid_compareTo_c8503de727553d83,
+            mid_equals_00d17418847797d4,
+            mid_field_e7df854526d67fa3,
+            mid_hashCode_bd89ce15dad49192,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_text_e7df854526d67fa3,
+            mid_toString_e7df854526d67fa3,
+            mid_toString_0f852bf1d5588bee,
             max_mid
           };
 

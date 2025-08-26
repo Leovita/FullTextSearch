@@ -9,18 +9,18 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
-            namespace parser {
-              class SyntaxParser;
+            namespace builders {
+              class QueryBuilder;
             }
             namespace config {
               class QueryConfigHandler;
             }
-            namespace builders {
-              class QueryBuilder;
-            }
-            class QueryNodeException;
             namespace processors {
               class QueryNodeProcessor;
+            }
+            class QueryNodeException;
+            namespace parser {
+              class SyntaxParser;
             }
           }
         }
@@ -46,16 +46,16 @@ namespace org {
             class QueryParserHelper : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_f13017d5584aec93,
-                mid_getQueryBuilder_858b0349f7c357f3,
-                mid_getQueryConfigHandler_30bdf25ce42207ac,
-                mid_getQueryNodeProcessor_8090fa815b44148e,
-                mid_getSyntaxParser_2b04c7d4bc1e29cd,
-                mid_parse_fb511a2c917868ea,
-                mid_setQueryBuilder_32e7bee7810e6425,
-                mid_setQueryConfigHandler_0fc7dbcdbf111f0f,
-                mid_setQueryNodeProcessor_0d4188bade86aa26,
-                mid_setSyntaxParser_6405b94b65bfd980,
+                mid_init$_e8367afa60e1d007,
+                mid_getQueryBuilder_9d4e5197a672b34a,
+                mid_getQueryConfigHandler_2a2d77f833f4beaf,
+                mid_getQueryNodeProcessor_2c5b1aaf5f4796ef,
+                mid_getSyntaxParser_9ba62d9be5baff98,
+                mid_parse_d3d8eff0e0846e60,
+                mid_setQueryBuilder_942b0865a74fd61e,
+                mid_setQueryConfigHandler_f8d3957fd2e3377b,
+                mid_setQueryNodeProcessor_ec672068e99fb3f6,
+                mid_setSyntaxParser_45739a37e6d67374,
                 max_mid
               };
 

@@ -17,7 +17,7 @@ namespace java {
       class BooleanSupplier : public ::java::lang::Object {
        public:
         enum {
-          mid_getAsBoolean_947277eca0748c4e,
+          mid_getAsBoolean_9aa4f33e82ea333f,
           max_mid
         };
 

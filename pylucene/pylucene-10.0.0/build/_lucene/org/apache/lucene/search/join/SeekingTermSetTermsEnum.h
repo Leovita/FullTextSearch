@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class TermsEnum;
-      }
       namespace util {
         class BytesRefHash;
+      }
+      namespace index {
+        class TermsEnum;
       }
     }
   }
@@ -31,9 +31,9 @@ namespace org {
           class SeekingTermSetTermsEnum : public ::org::apache::lucene::index::FilteredTermsEnum {
            public:
             enum {
-              mid_init$_6f0fed522a28e2cd,
-              mid_nextSeekTerm_7ee20c47a981dd44,
-              mid_accept_5259ad97f7ee0cbd,
+              mid_init$_17759d0a246512a3,
+              mid_nextSeekTerm_2aeffe698cc65689,
+              mid_accept_da290bd6151f1a3d,
               max_mid
             };
 

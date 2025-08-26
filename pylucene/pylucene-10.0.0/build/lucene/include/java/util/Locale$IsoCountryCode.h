@@ -20,8 +20,8 @@ namespace java {
     class Locale$IsoCountryCode : public ::java::lang::Enum {
      public:
       enum {
-        mid_valueOf_4bffb44ff9d963c4,
-        mid_values_5087d7ecddff6c2a,
+        mid_valueOf_d6fcf3a5518930d8,
+        mid_values_030c2f6b5acec8d5,
         max_mid
       };
 

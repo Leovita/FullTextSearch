@@ -4,14 +4,14 @@
 #include "org/apache/lucene/spatial3d/geom/GeoBaseCompositeAreaShape.h"
 
 namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
+    class InputStream;
   }
 }
 namespace org {
@@ -37,10 +37,10 @@ namespace org {
           class GeoCompositePolygon : public ::org::apache::lucene::spatial3d::geom::GeoBaseCompositeAreaShape {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
-              mid_init$_0ce6bc2f42b874f2,
-              mid_equals_570b5248a6da3ef6,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_ed6d55ea06962af0,
+              mid_init$_2684d3cfbf647435,
+              mid_equals_00d17418847797d4,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

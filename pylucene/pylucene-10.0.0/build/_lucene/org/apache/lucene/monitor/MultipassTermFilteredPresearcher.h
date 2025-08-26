@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace monitor {
         class CustomQueryHandler;
-        class QueryTree;
         class TermWeightor;
+        class QueryTree;
       }
       namespace document {
         class Document;
@@ -23,8 +23,8 @@ namespace java {
     class String;
   }
   namespace util {
-    class List;
     class Set;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
         class MultipassTermFilteredPresearcher : public ::org::apache::lucene::monitor::TermFilteredPresearcher {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_ad7ac40a1d32d7f8,
-            mid_buildQueryDocument_4c96b8137c7fa5d6,
-            mid_getQueryBuilder_02bc336b844a966a,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_def07eeb3821d71b,
+            mid_buildQueryDocument_29e397accbe4f527,
+            mid_getQueryBuilder_4560c4e2be64368f,
             max_mid
           };
 

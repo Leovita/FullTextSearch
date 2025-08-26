@@ -18,10 +18,10 @@ namespace java {
     class SecurityException : public ::java::lang::RuntimeException {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_4b71a6d99b73f7d1,
-        mid_init$_ea9871c48698171a,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_ee46a189998009d6,
+        mid_init$_9b649326a1df01c3,
+        mid_init$_95082f1abe6d9712,
         max_mid
       };
 

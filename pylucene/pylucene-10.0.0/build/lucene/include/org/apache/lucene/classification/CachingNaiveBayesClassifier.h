@@ -6,25 +6,25 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace index {
         class IndexReader;
       }
       namespace analysis {
         class Analyzer;
       }
+      namespace search {
+        class Query;
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,9 +37,9 @@ namespace org {
         class CachingNaiveBayesClassifier : public ::org::apache::lucene::classification::SimpleNaiveBayesClassifier {
          public:
           enum {
-            mid_init$_d7e8ccf515412af3,
-            mid_reInitCache_2936d2706a18a684,
-            mid_assignClassNormalizedList_8eaa545bb5a79de3,
+            mid_init$_94ea461eba29b3f5,
+            mid_reInitCache_a0fed0a2cd38e7b1,
+            mid_assignClassNormalizedList_49920ced44282529,
             max_mid
           };
 

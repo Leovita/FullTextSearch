@@ -27,7 +27,7 @@ namespace org {
         class BlendedTermQuery$RewriteMethod : public ::java::lang::Object {
          public:
           enum {
-            mid_rewrite_92d28ee00f63f6c9,
+            mid_rewrite_5a10a6b812ca3566,
             max_mid
           };
 

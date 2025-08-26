@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/search/similarities/Similarity.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class FieldInvertState;
-      }
       namespace search {
+        class TermStatistics;
         class CollectionStatistics;
         namespace similarities {
           class Similarity$SimScorer;
         }
-        class TermStatistics;
+      }
+      namespace index {
+        class FieldInvertState;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -35,11 +35,11 @@ namespace org {
           class PythonSimilarity : public ::org::apache::lucene::search::similarities::Similarity {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_computeNorm_db45ef174ecfac03,
-              mid_pythonExtension_16939d9d0a9a9721,
-              mid_pythonExtension_8b3d46852b435a94,
-              mid_scorer_67d67592415704df,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_computeNorm_a143744c49fd06c4,
+              mid_pythonExtension_0f176418e3e16541,
+              mid_pythonExtension_1d3149fac12f2af3,
+              mid_scorer_556ce9e7c1c4eb6a,
               max_mid
             };
 

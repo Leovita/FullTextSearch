@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
+        class FacetResult;
         class FacetsCollector;
         namespace facetset {
-          class FacetSetDecoder;
           class FacetSetMatcher;
+          class FacetSetDecoder;
         }
-        class FacetResult;
       }
       namespace search {
         class Query;
@@ -21,13 +21,13 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
-    class String;
     class Number;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -44,12 +44,12 @@ namespace org {
           class MatchingFacetSetsCounts : public ::org::apache::lucene::facet::FacetCountsWithFilterQuery {
            public:
             enum {
-              mid_init$_441e3be7977026d5,
-              mid_init$_a8d45cde2df1e661,
-              mid_getAllChildren_51a67cf6dd940ebb,
-              mid_getAllDims_3e47fe599d76d583,
-              mid_getSpecificValue_7fd685ee82fd50c5,
-              mid_getTopChildren_ca1b3747bbcc4341,
+              mid_init$_2dff72a2c461a514,
+              mid_init$_867789feff4f4715,
+              mid_getAllChildren_09e74013a1015c10,
+              mid_getAllDims_b4b9401c877452e3,
+              mid_getSpecificValue_a53782a5574e06b9,
+              mid_getTopChildren_482e0070129e7ccc,
               max_mid
             };
 

@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace automaton {
-          class Automaton;
           class ByteRunnable;
+          class Automaton;
         }
       }
     }
@@ -31,8 +31,8 @@ namespace org {
           class ByteRunAutomaton : public ::org::apache::lucene::util::automaton::RunAutomaton {
            public:
             enum {
-              mid_init$_71373fad5757dc3c,
-              mid_init$_e8ae2840703427d3,
+              mid_init$_7350cbdcd883df0a,
+              mid_init$_96578e1ef10e7cb9,
               max_mid
             };
 

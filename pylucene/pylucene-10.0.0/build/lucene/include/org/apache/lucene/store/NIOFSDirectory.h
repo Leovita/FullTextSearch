@@ -4,12 +4,12 @@
 #include "org/apache/lucene/store/FSDirectory.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace nio {
     namespace file {
@@ -21,9 +21,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class LockFactory;
         class IndexInput;
         class IOContext;
+        class LockFactory;
       }
     }
   }
@@ -38,9 +38,9 @@ namespace org {
         class NIOFSDirectory : public ::org::apache::lucene::store::FSDirectory {
          public:
           enum {
-            mid_init$_8a3244428bfc77b8,
-            mid_init$_84a94904a0b471b0,
-            mid_openInput_f1f6511a018f52d0,
+            mid_init$_e7b3ede3efacc86d,
+            mid_init$_c55c15f13c4780a5,
+            mid_openInput_fc1a53ef559ae62a,
             max_mid
           };
 

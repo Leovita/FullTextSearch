@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class IndexReader;
+        class Term;
       }
       namespace queryparser {
         namespace surround {
@@ -21,12 +21,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,11 +41,11 @@ namespace org {
             class SrndTermQuery : public ::org::apache::lucene::queryparser::surround::query::SimpleTerm {
              public:
               enum {
-                mid_init$_855d5fa744141d54,
-                mid_getLuceneTerm_f915c22ed1dffa14,
-                mid_getTermText_09a7afff1868fc5e,
-                mid_toStringUnquoted_09a7afff1868fc5e,
-                mid_visitMatchingTerms_67f593c567975eea,
+                mid_init$_0c3fb5e97dae8b90,
+                mid_getLuceneTerm_9d1e629f2b25faba,
+                mid_getTermText_e7df854526d67fa3,
+                mid_toStringUnquoted_e7df854526d67fa3,
+                mid_visitMatchingTerms_b61f1a3a9acfb89c,
                 max_mid
               };
 

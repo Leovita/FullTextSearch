@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class DistanceStyle;
           class GeoPoint;
+          class DistanceStyle;
         }
       }
     }
@@ -31,8 +31,8 @@ namespace org {
           class GeoOutsideDistance : public ::org::apache::lucene::spatial3d::geom::Membership {
            public:
             enum {
-              mid_computeOutsideDistance_6635ccfc1ffc6db7,
-              mid_computeOutsideDistance_843fc02405cdd09d,
+              mid_computeOutsideDistance_c279193319e1a46c,
+              mid_computeOutsideDistance_79a34b4fe77da1ae,
               max_mid
             };
 

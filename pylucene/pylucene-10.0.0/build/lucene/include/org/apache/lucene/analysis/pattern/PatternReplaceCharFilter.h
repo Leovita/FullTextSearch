@@ -4,6 +4,11 @@
 #include "org/apache/lucene/analysis/charfilter/BaseCharFilter.h"
 
 namespace java {
+  namespace util {
+    namespace regex {
+      class Pattern;
+    }
+  }
   namespace io {
     class IOException;
     class Reader;
@@ -11,11 +16,6 @@ namespace java {
   namespace lang {
     class Class;
     class String;
-  }
-  namespace util {
-    namespace regex {
-      class Pattern;
-    }
   }
 }
 template<class T> class JArray;
@@ -29,10 +29,10 @@ namespace org {
           class PatternReplaceCharFilter : public ::org::apache::lucene::analysis::charfilter::BaseCharFilter {
            public:
             enum {
-              mid_init$_28c68bef791719cc,
-              mid_read_20fbf7565993c3d7,
-              mid_read_db543c1e894f3140,
-              mid_correct_3c9bba330f083871,
+              mid_init$_f2a1e33ae0ba0b9f,
+              mid_read_bd89ce15dad49192,
+              mid_read_872baf22ed11fbaa,
+              mid_correct_a3904e10f5bb9437,
               max_mid
             };
 

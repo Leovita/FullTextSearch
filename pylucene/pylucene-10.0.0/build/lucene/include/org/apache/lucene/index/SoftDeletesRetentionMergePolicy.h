@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace index {
         class SegmentCommitInfo;
-        class CodecReader;
         class MergePolicy;
+        class CodecReader;
+      }
+      namespace search {
+        class Query;
       }
       namespace util {
         class IOSupplier;
@@ -21,17 +21,17 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    namespace function {
-      class Supplier;
-    }
+  namespace lang {
+    class Class;
+    class String;
   }
   namespace io {
     class IOException;
   }
-  namespace lang {
-    class Class;
-    class String;
+  namespace util {
+    namespace function {
+      class Supplier;
+    }
   }
 }
 template<class T> class JArray;
@@ -44,9 +44,9 @@ namespace org {
         class SoftDeletesRetentionMergePolicy : public ::org::apache::lucene::index::OneMergeWrappingMergePolicy {
          public:
           enum {
-            mid_init$_41ceaf6071a5d9ba,
-            mid_keepFullyDeletedSegment_656ba708b162fe3d,
-            mid_numDeletesToMerge_764ee08fa6c8b00e,
+            mid_init$_282766eeaf8d453f,
+            mid_keepFullyDeletedSegment_c40df34321e09510,
+            mid_numDeletesToMerge_3a22811d78d2c37d,
             max_mid
           };
 

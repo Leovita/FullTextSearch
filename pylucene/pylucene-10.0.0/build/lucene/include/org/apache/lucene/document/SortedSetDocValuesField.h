@@ -6,12 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class SortedSetDocValuesField;
+        class FieldType;
+      }
       namespace search {
         class Query;
-      }
-      namespace document {
-        class FieldType;
-        class SortedSetDocValuesField;
       }
       namespace util {
         class BytesRef;
@@ -20,12 +20,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -38,11 +38,11 @@ namespace org {
         class SortedSetDocValuesField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_45ab94acb6ed83e4,
-            mid_indexedField_fe57a83684d8515d,
-            mid_newSlowExactQuery_1d6b931a26bb0724,
-            mid_newSlowRangeQuery_a5c1af108fd3eb64,
-            mid_newSlowSetQuery_9484176e9ce4ba1f,
+            mid_init$_a9a308f8485c52c9,
+            mid_indexedField_176c16f42f7bce89,
+            mid_newSlowExactQuery_d00347c545665303,
+            mid_newSlowRangeQuery_0c1bb46a77606d9e,
+            mid_newSlowSetQuery_525d6c1fce01d552,
             max_mid
           };
 

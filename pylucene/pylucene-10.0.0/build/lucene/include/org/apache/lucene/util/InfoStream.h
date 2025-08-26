@@ -31,11 +31,11 @@ namespace org {
         class InfoStream : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getDefault_d67a60a40c235833,
-            mid_isEnabled_4a13a663b5c11133,
-            mid_message_3d104da0b5c75e64,
-            mid_setDefault_3b3e574f321bdf38,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getDefault_7dc634bffa4290e2,
+            mid_isEnabled_94f7e759d94961b0,
+            mid_message_0dd012a11c3f389b,
+            mid_setDefault_f10e797612112ab1,
             max_mid
           };
 

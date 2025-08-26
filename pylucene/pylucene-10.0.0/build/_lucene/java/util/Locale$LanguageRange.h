@@ -9,9 +9,9 @@ namespace java {
     class String;
   }
   namespace util {
-    class List;
-    class Locale$LanguageRange;
     class Map;
+    class Locale$LanguageRange;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -22,16 +22,16 @@ namespace java {
     class Locale$LanguageRange : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_8c2de08a6e50677a,
-        mid_equals_570b5248a6da3ef6,
-        mid_getRange_09a7afff1868fc5e,
-        mid_getWeight_32caabaad86c508b,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_mapEquivalents_2c0cc6d9d32f8d13,
-        mid_parse_8eaa545bb5a79de3,
-        mid_parse_ed146b476e1c55d3,
-        mid_toString_09a7afff1868fc5e,
+        mid_init$_ee46a189998009d6,
+        mid_init$_dbeaa7d1faf6f28f,
+        mid_equals_00d17418847797d4,
+        mid_getRange_e7df854526d67fa3,
+        mid_getWeight_6fb37e123fed7a1f,
+        mid_hashCode_bd89ce15dad49192,
+        mid_mapEquivalents_d0985dbb3cbb545d,
+        mid_parse_49920ced44282529,
+        mid_parse_c33a1e6288ea2f25,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

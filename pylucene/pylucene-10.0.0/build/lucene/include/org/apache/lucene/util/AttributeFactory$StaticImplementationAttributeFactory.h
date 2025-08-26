@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/util/AttributeFactory.h"
 
-namespace java {
-  namespace lang {
-    class Object;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,6 +11,12 @@ namespace org {
         class Attribute;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,10 +29,10 @@ namespace org {
         class AttributeFactory$StaticImplementationAttributeFactory : public ::org::apache::lucene::util::AttributeFactory {
          public:
           enum {
-            mid_createAttributeInstance_14e9e8ac896476c4,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_createInstance_c9b39303c053ec9a,
+            mid_createAttributeInstance_25f583d4b4312c3b,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_createInstance_2f6651241a7e46cf,
             max_mid
           };
 

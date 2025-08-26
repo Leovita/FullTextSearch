@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/util/BitSet.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Object;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class DocIdSetIterator;
-      }
       namespace util {
         class Bits;
         class FixedBitSet;
       }
+      namespace search {
+        class DocIdSetIterator;
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,45 +35,45 @@ namespace org {
         class FixedBitSet : public ::org::apache::lucene::util::BitSet {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_70e26db984971679,
-            mid_and_c7b33956c11c3291,
-            mid_andNot_c7b33956c11c3291,
-            mid_andNot_ed30298d46fa551b,
-            mid_andNotCount_7a8042d866b1f6be,
-            mid_approximateCardinality_20fbf7565993c3d7,
-            mid_asReadOnlyBits_959b4f7101dd7f4b,
-            mid_bits2words_3c9bba330f083871,
-            mid_cardinality_20fbf7565993c3d7,
-            mid_clear_3720c61b0679eb3e,
-            mid_clear_540b2b23d51b1efd,
-            mid_clear_e13cff512ebda969,
-            mid_clone_5d012320ca853371,
-            mid_copyOf_66b4ecfb38007de4,
-            mid_ensureCapacity_eef1aa0d87d39044,
-            mid_equals_570b5248a6da3ef6,
-            mid_flip_540b2b23d51b1efd,
-            mid_flip_e13cff512ebda969,
-            mid_get_ae22d3a856ad56f1,
-            mid_getAndClear_ae22d3a856ad56f1,
-            mid_getAndSet_ae22d3a856ad56f1,
-            mid_getBits_a057bd1a0d2826b3,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_intersectionCount_7a8042d866b1f6be,
-            mid_intersects_293102f5c63ea018,
-            mid_length_20fbf7565993c3d7,
-            mid_nextSetBit_3c9bba330f083871,
-            mid_nextSetBit_7f733b5d08bb5ec4,
-            mid_or_c7b33956c11c3291,
-            mid_or_ed30298d46fa551b,
-            mid_prevSetBit_3c9bba330f083871,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_scanIsEmpty_947277eca0748c4e,
-            mid_set_540b2b23d51b1efd,
-            mid_set_e13cff512ebda969,
-            mid_unionCount_7a8042d866b1f6be,
-            mid_xor_c7b33956c11c3291,
-            mid_xor_ed30298d46fa551b,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_e28d84b49af388d8,
+            mid_and_edc8b0cbc50f7d4d,
+            mid_andNot_edc8b0cbc50f7d4d,
+            mid_andNot_3bae9c6463463f0d,
+            mid_andNotCount_ce95ffc3d21c183c,
+            mid_approximateCardinality_bd89ce15dad49192,
+            mid_asReadOnlyBits_92a4f567193c49d1,
+            mid_bits2words_a3904e10f5bb9437,
+            mid_cardinality_bd89ce15dad49192,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_clear_8226bd0b0fc13dba,
+            mid_clear_645c25455f5b9b1c,
+            mid_clone_205700981fe48e9e,
+            mid_copyOf_b4662109b33c792e,
+            mid_ensureCapacity_c904bcdcc437abcc,
+            mid_equals_00d17418847797d4,
+            mid_flip_8226bd0b0fc13dba,
+            mid_flip_645c25455f5b9b1c,
+            mid_get_a8281eb3b9d9672d,
+            mid_getAndClear_a8281eb3b9d9672d,
+            mid_getAndSet_a8281eb3b9d9672d,
+            mid_getBits_1aab5293a9d94cd3,
+            mid_hashCode_bd89ce15dad49192,
+            mid_intersectionCount_ce95ffc3d21c183c,
+            mid_intersects_49119b9bd3369921,
+            mid_length_bd89ce15dad49192,
+            mid_nextSetBit_a3904e10f5bb9437,
+            mid_nextSetBit_7f27cf81a85a97e9,
+            mid_or_edc8b0cbc50f7d4d,
+            mid_or_3bae9c6463463f0d,
+            mid_prevSetBit_a3904e10f5bb9437,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_scanIsEmpty_9aa4f33e82ea333f,
+            mid_set_8226bd0b0fc13dba,
+            mid_set_645c25455f5b9b1c,
+            mid_unionCount_ce95ffc3d21c183c,
+            mid_xor_edc8b0cbc50f7d4d,
+            mid_xor_3bae9c6463463f0d,
             max_mid
           };
 

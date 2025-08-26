@@ -17,13 +17,13 @@ namespace java {
       class Reference : public ::java::lang::Object {
        public:
         enum {
-          mid_clear_3720c61b0679eb3e,
-          mid_enqueue_947277eca0748c4e,
-          mid_get_5655ed8670534604,
-          mid_isEnqueued_947277eca0748c4e,
-          mid_reachabilityFence_eb61ef4d1db15d08,
-          mid_refersTo_570b5248a6da3ef6,
-          mid_clone_5655ed8670534604,
+          mid_clear_e7bdbe105ce1bafb,
+          mid_enqueue_9aa4f33e82ea333f,
+          mid_get_4819806f62f1360a,
+          mid_isEnqueued_9aa4f33e82ea333f,
+          mid_reachabilityFence_501c3eb890ff6d79,
+          mid_refersTo_00d17418847797d4,
+          mid_clone_4819806f62f1360a,
           max_mid
         };
 

@@ -21,10 +21,10 @@ namespace java {
     class Iterator : public ::java::lang::Object {
      public:
       enum {
-        mid_forEachRemaining_9460fa31d6623bfb,
-        mid_hasNext_947277eca0748c4e,
-        mid_next_5655ed8670534604,
-        mid_remove_3720c61b0679eb3e,
+        mid_forEachRemaining_b4f64d55664646ca,
+        mid_hasNext_9aa4f33e82ea333f,
+        mid_next_4819806f62f1360a,
+        mid_remove_e7bdbe105ce1bafb,
         max_mid
       };
 

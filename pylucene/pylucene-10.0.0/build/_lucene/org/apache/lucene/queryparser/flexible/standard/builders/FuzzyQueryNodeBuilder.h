@@ -14,10 +14,10 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
+            class QueryNodeException;
             namespace nodes {
               class QueryNode;
             }
-            class QueryNodeException;
           }
           namespace standard {
             namespace builders {
@@ -45,8 +45,8 @@ namespace org {
               class FuzzyQueryNodeBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_build_363b331a4e213c1b,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_build_30b50a24e6266252,
                   max_mid
                 };
 

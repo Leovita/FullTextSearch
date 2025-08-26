@@ -31,17 +31,17 @@ namespace org {
           class Token : public ::java::lang::Object {
            public:
             enum {
-              mid_getEndOffset_20fbf7565993c3d7,
-              mid_getLength_20fbf7565993c3d7,
-              mid_getOffset_20fbf7565993c3d7,
-              mid_getPositionIncrement_20fbf7565993c3d7,
-              mid_getPositionLength_20fbf7565993c3d7,
-              mid_getStartOffset_20fbf7565993c3d7,
-              mid_getSurfaceForm_77d52ded526199de,
-              mid_getSurfaceFormString_09a7afff1868fc5e,
-              mid_getType_466c4854c38ecbb1,
-              mid_setPositionIncrement_540b2b23d51b1efd,
-              mid_setPositionLength_540b2b23d51b1efd,
+              mid_getEndOffset_bd89ce15dad49192,
+              mid_getLength_bd89ce15dad49192,
+              mid_getOffset_bd89ce15dad49192,
+              mid_getPositionIncrement_bd89ce15dad49192,
+              mid_getPositionLength_bd89ce15dad49192,
+              mid_getStartOffset_bd89ce15dad49192,
+              mid_getSurfaceForm_e5926045e1917c62,
+              mid_getSurfaceFormString_e7df854526d67fa3,
+              mid_getType_909305cb461bb8af,
+              mid_setPositionIncrement_8226bd0b0fc13dba,
+              mid_setPositionLength_8226bd0b0fc13dba,
               max_mid
             };
 

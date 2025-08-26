@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
-        class MultiTermQuery;
-        class QueryVisitor;
         class ScoreMode;
+        class Query;
+        class QueryVisitor;
+        class MultiTermQuery;
         class IndexSearcher;
       }
       namespace queries {
@@ -24,9 +24,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -43,17 +43,17 @@ namespace org {
           class SpanMultiTermQueryWrapper : public ::org::apache::lucene::queries::spans::SpanQuery {
            public:
             enum {
-              mid_init$_2b7a6039cbcb46ab,
-              mid_createWeight_d7dfaaf9476f49d4,
-              mid_equals_570b5248a6da3ef6,
-              mid_getField_09a7afff1868fc5e,
-              mid_getRewriteMethod_965c8a99fa49f74d,
-              mid_getWrappedQuery_a3eacfacada795d4,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_setRewriteMethod_13fb0a71bd4baf08,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_2e5055b713bbc0e9,
+              mid_createWeight_b33c2c90db0d1d7e,
+              mid_equals_00d17418847797d4,
+              mid_getField_e7df854526d67fa3,
+              mid_getRewriteMethod_cdab8b408c21d6d4,
+              mid_getWrappedQuery_ffa7bd087b2a75aa,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rewrite_25984111320dbe39,
+              mid_setRewriteMethod_1b146ae5766f2523,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

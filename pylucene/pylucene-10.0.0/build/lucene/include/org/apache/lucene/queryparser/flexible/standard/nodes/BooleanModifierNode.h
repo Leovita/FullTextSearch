@@ -10,8 +10,8 @@ namespace org {
         namespace flexible {
           namespace core {
             namespace nodes {
-              class ModifierQueryNode$Modifier;
               class QueryNode;
+              class ModifierQueryNode$Modifier;
             }
           }
         }
@@ -37,7 +37,7 @@ namespace org {
               class BooleanModifierNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::ModifierQueryNode {
                public:
                 enum {
-                  mid_init$_c0191a272d8fbd7b,
+                  mid_init$_eb9185bb27e26863,
                   max_mid
                 };
 

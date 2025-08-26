@@ -3,19 +3,6 @@
 
 #include "org/apache/lucene/search/comparators/NumericComparator.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Pruning;
-        class LeafFieldComparator;
-      }
-      namespace index {
-        class LeafReaderContext;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Float;
@@ -24,6 +11,19 @@ namespace java {
   }
   namespace io {
     class IOException;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class LeafFieldComparator;
+        class Pruning;
+      }
+      namespace index {
+        class LeafReaderContext;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -37,13 +37,13 @@ namespace org {
           class FloatComparator : public ::org::apache::lucene::search::comparators::NumericComparator {
            public:
             enum {
-              mid_init$_b5a31d5ebcd1bb88,
-              mid_compare_7f733b5d08bb5ec4,
-              mid_getLeafComparator_d019da77a226431f,
-              mid_setTopValue_0b97bf2afe6e3ce4,
-              mid_value_375542890b644be2,
-              mid_missingValueAsComparableLong_16939d9d0a9a9721,
-              mid_sortableBytesToLong_7dab5080ccb55d77,
+              mid_init$_d10529b4144c676a,
+              mid_compare_7f27cf81a85a97e9,
+              mid_getLeafComparator_84b03b9ed9bc3019,
+              mid_setTopValue_2938af09589bdd21,
+              mid_value_180f9825b2d0a3dd,
+              mid_sortableBytesToLong_2eea73e2513f100f,
+              mid_missingValueAsComparableLong_0f176418e3e16541,
               max_mid
             };
 

@@ -3,18 +3,6 @@
 
 #include "org/apache/lucene/analysis/TokenFilterFactory.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        namespace ckb {
-          class SoraniStemFilter;
-        }
-        class TokenStream;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -22,6 +10,18 @@ namespace java {
   }
   namespace util {
     class Map;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class TokenStream;
+        namespace ckb {
+          class SoraniStemFilter;
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
           class SoraniStemFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_0f60af1935c9043c,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_3aca12b83ee34c67,
               max_mid
             };
 

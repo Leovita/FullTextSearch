@@ -3,36 +3,36 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class Closeable;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class TermsEnum;
-        class FieldInfo;
-        class SegmentWriteState;
+      namespace store {
+        class IndexOutput;
+        class DataOutput;
       }
       namespace util {
         class BytesRef;
         class FixedBitSet;
       }
+      namespace index {
+        class SegmentWriteState;
+        class FieldInfo;
+        class TermsEnum;
+      }
       namespace codecs {
         class NormsProducer;
         class BlockTermState;
       }
-      namespace store {
-        class IndexOutput;
-        class DataOutput;
-      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -45,11 +45,11 @@ namespace org {
         class PostingsWriterBase : public ::java::lang::Object {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_encodeTerm_43ee849e8e0e2ced,
-            mid_init_030f9650172b0ef5,
-            mid_setField_571a63af52300367,
-            mid_writeTerm_d77bd46abaf6d43f,
+            mid_close_e7bdbe105ce1bafb,
+            mid_encodeTerm_38368490f1fcfc98,
+            mid_init_893a09f6528ec65d,
+            mid_setField_4d7193cb5c8dc4a1,
+            mid_writeTerm_4326cc6a8fd7ad05,
             max_mid
           };
 

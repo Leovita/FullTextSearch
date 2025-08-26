@@ -7,17 +7,17 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace codecs {
-        class PointsFormat;
-        class KnnVectorsFormat;
-        class PostingsFormat;
-        class FieldInfosFormat;
-        class LiveDocsFormat;
         class DocValuesFormat;
-        class CompoundFormat;
-        class TermVectorsFormat;
-        class NormsFormat;
+        class LiveDocsFormat;
+        class PostingsFormat;
         class SegmentInfoFormat;
         class StoredFieldsFormat;
+        class PointsFormat;
+        class TermVectorsFormat;
+        class CompoundFormat;
+        class KnnVectorsFormat;
+        class FieldInfosFormat;
+        class NormsFormat;
       }
       namespace backward_codecs {
         namespace lucene99 {
@@ -44,22 +44,22 @@ namespace org {
           class Lucene99Codec : public ::org::apache::lucene::codecs::Codec {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_c46e45174ea6471d,
-              mid_compoundFormat_6844789daef630cb,
-              mid_docValuesFormat_06c1ab6be6539da4,
-              mid_fieldInfosFormat_3cf8b5a331e8768e,
-              mid_getDocValuesFormatForField_97202d142f4d78a0,
-              mid_getKnnVectorsFormatForField_e43dc95f99c292bf,
-              mid_getPostingsFormatForField_8bba56aaf031458d,
-              mid_knnVectorsFormat_9f07a770763426f0,
-              mid_liveDocsFormat_739fbeb532ce34a5,
-              mid_normsFormat_3022cec2c411efb0,
-              mid_pointsFormat_b32c61a9161d0f11,
-              mid_postingsFormat_019d203d73665477,
-              mid_segmentInfoFormat_63cfb57cea7dab8a,
-              mid_storedFieldsFormat_516d3e968c6386e2,
-              mid_termVectorsFormat_f9a872e2edb74504,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_bd802c8c8458067a,
+              mid_compoundFormat_5ccf17d12737e472,
+              mid_docValuesFormat_8bc23da4b70aa111,
+              mid_fieldInfosFormat_432de80d6afc329d,
+              mid_getDocValuesFormatForField_caba59d0f6dd2ac5,
+              mid_getKnnVectorsFormatForField_a99403b582f28782,
+              mid_getPostingsFormatForField_6919afeff7ce45d5,
+              mid_knnVectorsFormat_7fac28f68239bf9f,
+              mid_liveDocsFormat_a14df1a2ec4b52a0,
+              mid_normsFormat_119c76c8e09b0ea4,
+              mid_pointsFormat_64e9dcd452234bc9,
+              mid_postingsFormat_d6a14e29d4b97c21,
+              mid_segmentInfoFormat_b7e39676955b97da,
+              mid_storedFieldsFormat_8cf5ac770f75a8f2,
+              mid_termVectorsFormat_4ef406c4238ea10b,
               max_mid
             };
 

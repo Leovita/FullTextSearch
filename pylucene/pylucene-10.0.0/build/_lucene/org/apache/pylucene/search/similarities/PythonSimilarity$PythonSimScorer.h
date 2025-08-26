@@ -19,10 +19,10 @@ namespace org {
           class PythonSimilarity$PythonSimScorer : public ::org::apache::lucene::search::similarities::Similarity$SimScorer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_pythonExtension_16939d9d0a9a9721,
-              mid_pythonExtension_8b3d46852b435a94,
-              mid_score_1949cc832de18de1,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_pythonExtension_0f176418e3e16541,
+              mid_pythonExtension_1d3149fac12f2af3,
+              mid_score_dd526856e70b339f,
               max_mid
             };
 

@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-        class TermStates;
-      }
       namespace search {
+        class BlendedTermQuery;
         class BlendedTermQuery$Builder;
         class BlendedTermQuery$RewriteMethod;
-        class BlendedTermQuery;
+      }
+      namespace index {
+        class TermStates;
+        class Term;
       }
     }
   }
@@ -33,12 +33,12 @@ namespace org {
         class BlendedTermQuery$Builder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_ce8e2f5d1c32cdf4,
-            mid_add_dbbf61265922b194,
-            mid_add_c8b05ff1b79177e0,
-            mid_build_b2c85735bea6ca0d,
-            mid_setRewriteMethod_aba6a79542cec499,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_76da9065c0020324,
+            mid_add_0bd6104f07f49e3e,
+            mid_add_ad7d9eb1828b4078,
+            mid_build_bbd1558df4a42efd,
+            mid_setRewriteMethod_628d231127fffcab,
             max_mid
           };
 

@@ -8,12 +8,12 @@ namespace org {
     namespace lucene {
       namespace index {
         class SortedSetDocValues;
-        class LeafReaderContext;
-        class SortedNumericDocValues;
         class SortedDocValues;
         class NumericDocValues;
         class LeafReader;
+        class SortedNumericDocValues;
         class BinaryDocValues;
+        class LeafReaderContext;
       }
     }
   }
@@ -37,21 +37,21 @@ namespace org {
         class DocValues : public ::java::lang::Object {
          public:
           enum {
-            mid_emptyBinary_5f1b40567ba3820f,
-            mid_emptyNumeric_31591006b22d16cf,
-            mid_emptySorted_ca7d9e5e9fd8d26b,
-            mid_emptySortedNumeric_ea589b51a70cb6ef,
-            mid_emptySortedSet_348af2e8d793dd96,
-            mid_getBinary_fbdfdbdc97497f93,
-            mid_getNumeric_96eedf29c7ddf28d,
-            mid_getSorted_8debfb65e460d086,
-            mid_getSortedNumeric_28dd8cb648c37f95,
-            mid_getSortedSet_72a0461797e0f897,
-            mid_isCacheable_6564089db2d0245d,
-            mid_singleton_b3d7ca937d8f7c1f,
-            mid_singleton_2181c0923e97fba9,
-            mid_unwrapSingleton_df724d16530643ca,
-            mid_unwrapSingleton_f285acfc70dedee8,
+            mid_emptyBinary_1646c8f01f0d4681,
+            mid_emptyNumeric_c48ee0701bf1d193,
+            mid_emptySorted_3f42fc3b035432e7,
+            mid_emptySortedNumeric_d4ae2704ea8ab9fb,
+            mid_emptySortedSet_82243807cdadc8f0,
+            mid_getBinary_e85e91fa6284049d,
+            mid_getNumeric_b19476b0063773b9,
+            mid_getSorted_12e1342760895aef,
+            mid_getSortedNumeric_19cd2464536d90bc,
+            mid_getSortedSet_ef3092c80d651fc6,
+            mid_isCacheable_d13c11b24ade01cc,
+            mid_singleton_0c357c07f7603501,
+            mid_singleton_0ede4343877d091d,
+            mid_unwrapSingleton_9ff5104e2ff67532,
+            mid_unwrapSingleton_514a9e16e6c43690,
             max_mid
           };
 

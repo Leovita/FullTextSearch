@@ -20,16 +20,16 @@ namespace org {
           class SplittingBreakIterator : public ::java::text::BreakIterator {
            public:
             enum {
-              mid_init$_c3633fc33d6c2513,
-              mid_current_20fbf7565993c3d7,
-              mid_first_20fbf7565993c3d7,
-              mid_following_3c9bba330f083871,
-              mid_last_20fbf7565993c3d7,
-              mid_next_20fbf7565993c3d7,
-              mid_next_3c9bba330f083871,
-              mid_preceding_3c9bba330f083871,
-              mid_previous_20fbf7565993c3d7,
-              mid_setText_0d82408c6e55bc30,
+              mid_init$_5dcedcd55d0845ec,
+              mid_current_bd89ce15dad49192,
+              mid_first_bd89ce15dad49192,
+              mid_following_a3904e10f5bb9437,
+              mid_last_bd89ce15dad49192,
+              mid_next_bd89ce15dad49192,
+              mid_next_a3904e10f5bb9437,
+              mid_preceding_a3904e10f5bb9437,
+              mid_previous_bd89ce15dad49192,
+              mid_setText_ee46a189998009d6,
               max_mid
             };
 

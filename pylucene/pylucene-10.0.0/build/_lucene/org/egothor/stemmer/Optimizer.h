@@ -6,8 +6,8 @@
 namespace org {
   namespace egothor {
     namespace stemmer {
-      class Trie;
       class Row;
+      class Trie;
     }
   }
 }
@@ -25,9 +25,9 @@ namespace org {
       class Optimizer : public ::org::egothor::stemmer::Reduce {
        public:
         enum {
-          mid_init$_3720c61b0679eb3e,
-          mid_merge_a3c64334cbd294c9,
-          mid_optimize_9d77d4414065d0b1,
+          mid_init$_e7bdbe105ce1bafb,
+          mid_merge_b49c1032f671cb29,
+          mid_optimize_495cd644315e724e,
           max_mid
         };
 

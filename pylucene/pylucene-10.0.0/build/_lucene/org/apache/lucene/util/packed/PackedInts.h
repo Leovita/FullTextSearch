@@ -8,14 +8,14 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace packed {
-          class PackedInts$Mutable;
-          class PackedInts$Decoder;
+          class PackedInts$Writer;
           class PackedInts$Encoder;
-          class PackedInts$Reader;
+          class PackedInts$Decoder;
+          class PackedInts$ReaderIterator;
           class PackedInts$FormatAndBits;
           class PackedInts$Format;
-          class PackedInts$ReaderIterator;
-          class PackedInts$Writer;
+          class PackedInts$Mutable;
+          class PackedInts$Reader;
         }
       }
       namespace store {
@@ -42,19 +42,19 @@ namespace org {
           class PackedInts : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_bitsRequired_35c872f03f347c10,
-              mid_checkVersion_540b2b23d51b1efd,
-              mid_copy_ec05a47d4d8ed032,
-              mid_fastestFormatAndBits_01712621e153db20,
-              mid_getDecoder_a62ba07f72351e54,
-              mid_getEncoder_54d941eaf7d7bd70,
-              mid_getMutable_d14c322c40e7c262,
-              mid_getMutable_e292a175594e9c5e,
-              mid_getReaderIteratorNoHeader_72d833247d2e182a,
-              mid_getWriterNoHeader_8a790bc3e28aa88d,
-              mid_maxValue_7b22650fccb5d574,
-              mid_unsignedBitsRequired_35c872f03f347c10,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_bitsRequired_7af44747c1921bd4,
+              mid_checkVersion_8226bd0b0fc13dba,
+              mid_copy_fe755dccfaf591f8,
+              mid_fastestFormatAndBits_98812a39f345ab38,
+              mid_getDecoder_dee20148ea03fa9c,
+              mid_getEncoder_7e806054a3d92e67,
+              mid_getMutable_d2e17711944bc6c8,
+              mid_getMutable_e3708d355991e48c,
+              mid_getReaderIteratorNoHeader_aeb65412703b26af,
+              mid_getWriterNoHeader_b5446cb5ca3f3b2f,
+              mid_maxValue_49af390f180d8ee7,
+              mid_unsignedBitsRequired_7af44747c1921bd4,
               max_mid
             };
 

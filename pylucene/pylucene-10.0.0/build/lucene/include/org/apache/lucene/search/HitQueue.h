@@ -27,8 +27,8 @@ namespace org {
         class HitQueue : public ::org::apache::lucene::util::PriorityQueue {
          public:
           enum {
-            mid_init$_2936d2706a18a684,
-            mid_lessThan_ca70c29f3921c04f,
+            mid_init$_a0fed0a2cd38e7b1,
+            mid_lessThan_451305b650783fc6,
             max_mid
           };
 

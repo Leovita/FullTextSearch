@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Comparable;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Comparable;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
           class ComparableUtils$ByLongValueComparable : public ::java::lang::Object {
            public:
             enum {
-              mid_compareTo_fa4c9c36cb6d1cea,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
+              mid_compareTo_062ba67e72c26201,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
               max_mid
             };
 

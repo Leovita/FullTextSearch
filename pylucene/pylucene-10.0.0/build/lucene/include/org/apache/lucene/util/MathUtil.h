@@ -18,14 +18,14 @@ namespace org {
         class MathUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_acosh_8fff3d7dcb9fddc5,
-            mid_asinh_8fff3d7dcb9fddc5,
-            mid_atanh_8fff3d7dcb9fddc5,
-            mid_gcd_bcea5161e8951fae,
-            mid_log_351e9c3c9f2fa814,
-            mid_log_b1cd3475cb297685,
-            mid_sumRelativeErrorBound_788f636887bfcb79,
-            mid_sumUpperBound_d5534d93270c0a9b,
+            mid_acosh_8493a5edcb36d651,
+            mid_asinh_8493a5edcb36d651,
+            mid_atanh_8493a5edcb36d651,
+            mid_gcd_5804bd1c01b59205,
+            mid_log_9314817161e40a7e,
+            mid_log_d6152e1dadfddcdb,
+            mid_sumRelativeErrorBound_3bb466f769ef1c7f,
+            mid_sumUpperBound_8a3524cbdc43563c,
             max_mid
           };
 

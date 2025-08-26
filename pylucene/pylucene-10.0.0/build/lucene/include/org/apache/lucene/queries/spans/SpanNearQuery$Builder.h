@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -22,6 +16,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -33,11 +33,11 @@ namespace org {
           class SpanNearQuery$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_855d5fa744141d54,
-              mid_addClause_d2654fdd2d5ccb4a,
-              mid_addGap_a3b5cc37014a4d77,
-              mid_build_4f71365384ff680e,
-              mid_setSlop_a3b5cc37014a4d77,
+              mid_init$_0c3fb5e97dae8b90,
+              mid_addClause_608c3b8d7dfb48aa,
+              mid_addGap_fd105826beaf55d6,
+              mid_build_e7f57f842f49b3fe,
+              mid_setSlop_fd105826beaf55d6,
               max_mid
             };
 

@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
         class Weight;
+        class QueryVisitor;
         class IndexSearcher;
       }
     }
@@ -17,9 +17,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -35,18 +35,18 @@ namespace org {
         class PointRangeQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_checkArgs_534d2fe5648039c2,
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_getBytesPerDim_20fbf7565993c3d7,
-            mid_getField_09a7afff1868fc5e,
-            mid_getLowerPoint_5560da88fc44aa82,
-            mid_getNumDims_20fbf7565993c3d7,
-            mid_getUpperPoint_5560da88fc44aa82,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
-            mid_toString_d38e105f0ef83a34,
+            mid_checkArgs_f20780003f6d87ef,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_getBytesPerDim_bd89ce15dad49192,
+            mid_getField_e7df854526d67fa3,
+            mid_getLowerPoint_44e916dc40fc04cb,
+            mid_getNumDims_bd89ce15dad49192,
+            mid_getUpperPoint_44e916dc40fc04cb,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
+            mid_toString_110c01865d4b271d,
             max_mid
           };
 

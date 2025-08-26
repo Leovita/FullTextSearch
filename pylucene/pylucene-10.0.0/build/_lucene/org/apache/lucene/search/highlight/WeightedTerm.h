@@ -20,11 +20,11 @@ namespace org {
           class WeightedTerm : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3354ed1a1da7d6a1,
-              mid_getTerm_09a7afff1868fc5e,
-              mid_getWeight_9b6c3480dac00edf,
-              mid_setTerm_0d82408c6e55bc30,
-              mid_setWeight_c771a95b0227fb6a,
+              mid_init$_0ecabbb1d6a25118,
+              mid_getTerm_e7df854526d67fa3,
+              mid_getWeight_8b62236f0e4d0dbc,
+              mid_setTerm_ee46a189998009d6,
+              mid_setWeight_675f4cb9a2529ee0,
               max_mid
             };
 

@@ -19,8 +19,8 @@ namespace org {
           class RSLPStemmerBase : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_parse_25d17b9dc4f12cf6,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_parse_555b50074bbcbae1,
               max_mid
             };
 

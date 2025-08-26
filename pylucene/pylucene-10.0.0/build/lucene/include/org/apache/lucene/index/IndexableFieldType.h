@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class DocValuesSkipIndexType;
-        class DocValuesType;
-        class VectorSimilarityFunction;
         class VectorEncoding;
+        class VectorSimilarityFunction;
         class IndexOptions;
+        class DocValuesType;
+        class DocValuesSkipIndexType;
       }
     }
   }
@@ -35,23 +35,23 @@ namespace org {
         class IndexableFieldType : public ::java::lang::Object {
          public:
           enum {
-            mid_docValuesSkipIndexType_105258e940575563,
-            mid_docValuesType_0ce8ab755e2afd1f,
-            mid_getAttributes_f125f26c07a7bec8,
-            mid_indexOptions_0d9f22852de1dba6,
-            mid_omitNorms_947277eca0748c4e,
-            mid_pointDimensionCount_20fbf7565993c3d7,
-            mid_pointIndexDimensionCount_20fbf7565993c3d7,
-            mid_pointNumBytes_20fbf7565993c3d7,
-            mid_storeTermVectorOffsets_947277eca0748c4e,
-            mid_storeTermVectorPayloads_947277eca0748c4e,
-            mid_storeTermVectorPositions_947277eca0748c4e,
-            mid_storeTermVectors_947277eca0748c4e,
-            mid_stored_947277eca0748c4e,
-            mid_tokenized_947277eca0748c4e,
-            mid_vectorDimension_20fbf7565993c3d7,
-            mid_vectorEncoding_89ee194538cd6149,
-            mid_vectorSimilarityFunction_ab08f5c5789ece7c,
+            mid_docValuesSkipIndexType_97cc35d5a06c6328,
+            mid_docValuesType_632981fa09914ed1,
+            mid_getAttributes_5004bdf19ed33453,
+            mid_indexOptions_898aff4631b0024a,
+            mid_omitNorms_9aa4f33e82ea333f,
+            mid_pointDimensionCount_bd89ce15dad49192,
+            mid_pointIndexDimensionCount_bd89ce15dad49192,
+            mid_pointNumBytes_bd89ce15dad49192,
+            mid_storeTermVectorOffsets_9aa4f33e82ea333f,
+            mid_storeTermVectorPayloads_9aa4f33e82ea333f,
+            mid_storeTermVectorPositions_9aa4f33e82ea333f,
+            mid_storeTermVectors_9aa4f33e82ea333f,
+            mid_stored_9aa4f33e82ea333f,
+            mid_tokenized_9aa4f33e82ea333f,
+            mid_vectorDimension_bd89ce15dad49192,
+            mid_vectorEncoding_667892793043e3ed,
+            mid_vectorSimilarityFunction_0f05516cfc8fbfdc,
             max_mid
           };
 

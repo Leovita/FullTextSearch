@@ -8,17 +8,17 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace highlight {
-          class Fragmenter;
-          class Scorer;
           class InvalidTokenOffsetsException;
           class TextFragment;
           class Formatter;
           class Encoder;
+          class Scorer;
+          class Fragmenter;
         }
       }
       namespace analysis {
-        class Analyzer;
         class TokenStream;
+        class Analyzer;
       }
     }
   }
@@ -43,23 +43,23 @@ namespace org {
           class Highlighter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_18e81cbddf7ba652,
-              mid_init$_9bd1b07590680bfe,
-              mid_init$_d94eff9b8e624b7e,
-              mid_getBestFragment_6c6e60b8ae4f464e,
-              mid_getBestFragment_7c987f5a693289e1,
-              mid_getBestFragments_e080a6798450cb34,
-              mid_getBestFragments_8bcdf24125922188,
-              mid_getBestFragments_546150871d2ffb49,
-              mid_getBestTextFragments_fcc7a48e11f69a78,
-              mid_getEncoder_0ee43d3a1437b4c1,
-              mid_getFragmentScorer_459c538cfba8dd0c,
-              mid_getMaxDocCharsToAnalyze_20fbf7565993c3d7,
-              mid_getTextFragmenter_b4e8b5b1d625024e,
-              mid_setEncoder_f9beb7a8a145b1bb,
-              mid_setFragmentScorer_18e81cbddf7ba652,
-              mid_setMaxDocCharsToAnalyze_540b2b23d51b1efd,
-              mid_setTextFragmenter_a9a031655e33107f,
+              mid_init$_a6c2e2c3ee8c0728,
+              mid_init$_e9fcfce58768eeb6,
+              mid_init$_7923b35e98f88ae8,
+              mid_getBestFragment_773b33cc21ea89e5,
+              mid_getBestFragment_caf57cb7f57d0920,
+              mid_getBestFragments_4d1aab37a0c85254,
+              mid_getBestFragments_daccb57ee89ca3bb,
+              mid_getBestFragments_6c74eee114683133,
+              mid_getBestTextFragments_6a418415386ac8cf,
+              mid_getEncoder_4d1e08a23b68a290,
+              mid_getFragmentScorer_86d5e51c53dd3687,
+              mid_getMaxDocCharsToAnalyze_bd89ce15dad49192,
+              mid_getTextFragmenter_02f9bcf6a4fa1969,
+              mid_setEncoder_e3634de257cd1cdd,
+              mid_setFragmentScorer_a6c2e2c3ee8c0728,
+              mid_setMaxDocCharsToAnalyze_8226bd0b0fc13dba,
+              mid_setTextFragmenter_0a629e319ad6ff88,
               max_mid
             };
 

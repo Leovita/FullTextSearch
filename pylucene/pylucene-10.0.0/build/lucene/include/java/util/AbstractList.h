@@ -6,13 +6,13 @@
 namespace java {
   namespace util {
     class Iterator;
+    class ListIterator;
     class Collection;
     class List;
-    class ListIterator;
   }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -23,22 +23,22 @@ namespace java {
     class AbstractList : public ::java::util::AbstractCollection {
      public:
       enum {
-        mid_add_570b5248a6da3ef6,
-        mid_add_45daa0687d5df9b5,
-        mid_addAll_30cee388a7b048af,
-        mid_clear_3720c61b0679eb3e,
-        mid_equals_570b5248a6da3ef6,
-        mid_get_eb7eace67c4a21fd,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_indexOf_657656e6a597f732,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_lastIndexOf_657656e6a597f732,
-        mid_listIterator_0f4ac4d253da0dce,
-        mid_listIterator_c5b65026385ab4af,
-        mid_remove_eb7eace67c4a21fd,
-        mid_set_b84ce9d3b2137b5e,
-        mid_subList_3690552717f6ec88,
-        mid_removeRange_e13cff512ebda969,
+        mid_add_00d17418847797d4,
+        mid_add_09375f3fd0a3af05,
+        mid_addAll_6a33d3084931e945,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_equals_00d17418847797d4,
+        mid_get_2a2d7d7b9153274c,
+        mid_hashCode_bd89ce15dad49192,
+        mid_indexOf_3b738b91667a06c2,
+        mid_iterator_c7985fafdcf40e83,
+        mid_lastIndexOf_3b738b91667a06c2,
+        mid_listIterator_f5b10a8957c7e8ce,
+        mid_listIterator_a1b8e40853ea22b0,
+        mid_remove_2a2d7d7b9153274c,
+        mid_set_c8f65d2ef44d5c7c,
+        mid_subList_6d7644d6c0697519,
+        mid_removeRange_645c25455f5b9b1c,
         max_mid
       };
 

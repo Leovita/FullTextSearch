@@ -3,31 +3,31 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace index {
+        class Sorter$DocMap;
+        class CodecReader;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Set;
     namespace concurrent {
       class Executor;
-    }
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class Sorter$DocMap;
-        class CodecReader;
-      }
-      namespace store {
-        class Directory;
-      }
     }
   }
 }
@@ -42,15 +42,15 @@ namespace org {
           class BPIndexReorderer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_computeDocMap_98d323a015ab4355,
-              mid_reorder_404c74191f6c3d22,
-              mid_setFields_1d5d4c6f11d1b2ab,
-              mid_setMaxDocFreq_c771a95b0227fb6a,
-              mid_setMaxIters_540b2b23d51b1efd,
-              mid_setMinDocFreq_540b2b23d51b1efd,
-              mid_setMinPartitionSize_540b2b23d51b1efd,
-              mid_setRAMBudgetMB_b5bc1a2fb9ff9e90,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_computeDocMap_5f7456ece8b18a3b,
+              mid_reorder_178312907231784c,
+              mid_setFields_478519f7d4301fc7,
+              mid_setMaxDocFreq_675f4cb9a2529ee0,
+              mid_setMaxIters_8226bd0b0fc13dba,
+              mid_setMinDocFreq_8226bd0b0fc13dba,
+              mid_setMinPartitionSize_8226bd0b0fc13dba,
+              mid_setRAMBudgetMB_a03f734ddaeb69b4,
               max_mid
             };
 

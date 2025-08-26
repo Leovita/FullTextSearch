@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class Class;
+  }
   namespace io {
     class IOException;
     class OutputStream;
-  }
-  namespace lang {
-    class Class;
   }
 }
 namespace org {
@@ -17,8 +17,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class PlanetModel;
           class PlanetObject;
+          class PlanetModel;
         }
       }
     }
@@ -35,11 +35,11 @@ namespace org {
           class BasePlanetObject : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
-              mid_equals_570b5248a6da3ef6,
-              mid_getPlanetModel_34d67eb8d4783247,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_write_84831c9725b47eae,
+              mid_init$_ed6d55ea06962af0,
+              mid_equals_00d17418847797d4,
+              mid_getPlanetModel_43dd43afc5796af5,
+              mid_hashCode_bd89ce15dad49192,
+              mid_write_fbdd420d6e3d48b2,
               max_mid
             };
 

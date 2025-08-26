@@ -27,8 +27,8 @@ namespace org {
         class LongValues : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_get_91d66fa3ea476cea,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_get_3dc1c6e3a5a0baf0,
             max_mid
           };
 

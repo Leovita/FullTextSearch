@@ -31,8 +31,8 @@ namespace org {
         class StringDocValuesReaderState : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_7fb4f336ae7a0096,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_b95f5c829d58d915,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

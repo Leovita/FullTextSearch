@@ -18,8 +18,8 @@ namespace org {
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -35,10 +35,10 @@ namespace org {
         class PointsWriter : public ::java::lang::Object {
          public:
           enum {
-            mid_finish_3720c61b0679eb3e,
-            mid_merge_1d534d5055fd8b5a,
-            mid_writeField_47730f1914f6cee4,
-            mid_mergeOneField_a36f91c36766b499,
+            mid_finish_e7bdbe105ce1bafb,
+            mid_merge_b7f5b82c43646887,
+            mid_writeField_4e8caf49ce58da92,
+            mid_mergeOneField_0246529fa197339c,
             max_mid
           };
 

@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
           class QueryProfilerTimingType : public ::java::lang::Enum {
            public:
             enum {
-              mid_toString_09a7afff1868fc5e,
-              mid_valueOf_54493f00b9f0b91b,
-              mid_values_06db45b85f444a31,
+              mid_toString_e7df854526d67fa3,
+              mid_valueOf_9bc574534ea0f74f,
+              mid_values_12a47eb6fad98d3c,
               max_mid
             };
 

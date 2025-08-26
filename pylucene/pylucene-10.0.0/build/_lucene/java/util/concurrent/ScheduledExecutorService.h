@@ -5,15 +5,15 @@
 
 namespace java {
   namespace lang {
-    class Class;
     class Runnable;
     class Object;
+    class Class;
   }
   namespace util {
     namespace concurrent {
       class ScheduledFuture;
-      class TimeUnit;
       class Callable;
+      class TimeUnit;
     }
   }
 }
@@ -26,10 +26,10 @@ namespace java {
       class ScheduledExecutorService : public ::java::util::concurrent::ExecutorService {
        public:
         enum {
-          mid_schedule_534234136b3f6d4d,
-          mid_schedule_73109537b7aa4dee,
-          mid_scheduleAtFixedRate_be7cc484df30ab1f,
-          mid_scheduleWithFixedDelay_be7cc484df30ab1f,
+          mid_schedule_441fc9c931d49ead,
+          mid_schedule_064d09a1087e92f7,
+          mid_scheduleAtFixedRate_8113dafaa3924983,
+          mid_scheduleWithFixedDelay_8113dafaa3924983,
           max_mid
         };
 

@@ -5,11 +5,11 @@
 
 namespace java {
   namespace lang {
-    class IllegalAccessException;
     class NoSuchFieldException;
-    class Class;
-    class String;
     class IllegalStateException;
+    class Class;
+    class IllegalAccessException;
+    class String;
     class ClassLoader;
   }
   namespace util {
@@ -36,14 +36,14 @@ namespace org {
         class AnalysisSPILoader : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_880cf094c8c20ccb,
-            mid_init$_098cf6324232ea4b,
-            mid_availableServices_4df174295554d7bd,
-            mid_lookupClass_f5e647a8ccc975d0,
-            mid_lookupSPIName_205c6b35c6f0cc38,
-            mid_newFactoryClassInstance_f47a4b9d38f274a7,
-            mid_newInstance_50071edbe1bbdb94,
-            mid_reload_7e882e12061eaf38,
+            mid_init$_fbe53aa5d2a68b3e,
+            mid_init$_592d593345ffec2a,
+            mid_availableServices_79131c6bbcf08916,
+            mid_lookupClass_34dc63379bcbfa09,
+            mid_lookupSPIName_6db5b6bc30526b11,
+            mid_newFactoryClassInstance_2fde04f21cdda0c2,
+            mid_newInstance_39b9a36ff3fd5db5,
+            mid_reload_d603563f542d31ba,
             max_mid
           };
 

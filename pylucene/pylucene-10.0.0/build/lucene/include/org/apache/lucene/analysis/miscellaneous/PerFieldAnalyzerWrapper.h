@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/DelegatingAnalyzerWrapper.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        class Analyzer;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class String;
@@ -19,6 +10,15 @@ namespace java {
   }
   namespace util {
     class Map;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
           class PerFieldAnalyzerWrapper : public ::org::apache::lucene::analysis::DelegatingAnalyzerWrapper {
            public:
             enum {
-              mid_init$_07cd0f76cabcf75a,
-              mid_init$_7385dc08a4c2e1b0,
-              mid_toString_09a7afff1868fc5e,
-              mid_getWrappedAnalyzer_a1f5809ec41164b8,
+              mid_init$_1aaca852402a5069,
+              mid_init$_7adc1cea6a894907,
+              mid_toString_e7df854526d67fa3,
+              mid_getWrappedAnalyzer_422029012b3df2c8,
               max_mid
             };
 

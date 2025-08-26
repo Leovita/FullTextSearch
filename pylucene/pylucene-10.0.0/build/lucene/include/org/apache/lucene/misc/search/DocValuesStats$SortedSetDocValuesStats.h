@@ -28,9 +28,9 @@ namespace org {
           class DocValuesStats$SortedSetDocValuesStats : public ::org::apache::lucene::misc::search::DocValuesStats {
            public:
             enum {
-              mid_doAccumulate_540b2b23d51b1efd,
-              mid_init_03101e9518c66be0,
-              mid_hasValue_ae22d3a856ad56f1,
+              mid_doAccumulate_8226bd0b0fc13dba,
+              mid_init_8e9f6225f14d0ebe,
+              mid_hasValue_a8281eb3b9d9672d,
               max_mid
             };
 

@@ -6,10 +6,10 @@
 namespace java {
   namespace util {
     class Iterator;
+    class Spliterator;
     namespace function {
       class Consumer;
     }
-    class Spliterator;
   }
   namespace lang {
     class Class;
@@ -23,9 +23,9 @@ namespace java {
     class Iterable : public ::java::lang::Object {
      public:
       enum {
-        mid_forEach_9460fa31d6623bfb,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_spliterator_eebbc9cffa204672,
+        mid_forEach_b4f64d55664646ca,
+        mid_iterator_c7985fafdcf40e83,
+        mid_spliterator_fd118e26a3de79e6,
         max_mid
       };
 

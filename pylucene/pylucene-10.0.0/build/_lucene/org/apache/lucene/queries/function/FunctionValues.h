@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class Explanation;
+      }
       namespace queries {
         namespace function {
           class ValueSourceScorer;
           class FunctionValues$ValueFiller;
         }
-      }
-      namespace search {
-        class Explanation;
       }
       namespace util {
         class BytesRefBuilder;
@@ -25,12 +25,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -44,35 +44,35 @@ namespace org {
           class FunctionValues : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_boolVal_ae22d3a856ad56f1,
-              mid_byteVal_3b30672d0bff9ebb,
-              mid_byteVal_255018cd4981ed89,
-              mid_byteVectorVal_81e4ab9dd381561f,
-              mid_bytesVal_5ee67d79d93d193b,
-              mid_cost_9b6c3480dac00edf,
-              mid_doubleVal_788f636887bfcb79,
-              mid_doubleVal_edfa05fa7c29df1a,
-              mid_exists_ae22d3a856ad56f1,
-              mid_explain_d381e85477a576c6,
-              mid_floatVal_29cfa01aaad92564,
-              mid_floatVal_f82dd0be1ce311f7,
-              mid_floatVectorVal_837967dda86e7ad8,
-              mid_getRangeScorer_aecbec4e094d375b,
-              mid_getScorer_fd0cbb70daf58e9e,
-              mid_getValueFiller_fad7fc73a89d9be3,
-              mid_intVal_3c9bba330f083871,
-              mid_intVal_53431387eb1e9148,
-              mid_longVal_7b22650fccb5d574,
-              mid_longVal_12f9eb393fed87f6,
-              mid_numOrd_20fbf7565993c3d7,
-              mid_objectVal_eb7eace67c4a21fd,
-              mid_ordVal_3c9bba330f083871,
-              mid_shortVal_5e7313b7c028d5e0,
-              mid_shortVal_15d0d52d49b4ad2d,
-              mid_strVal_cd8436557ab831f9,
-              mid_strVal_27b7540d23547157,
-              mid_toString_cd8436557ab831f9,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_boolVal_a8281eb3b9d9672d,
+              mid_byteVal_9e902c8fd52d5208,
+              mid_byteVal_027bd37cec7676d5,
+              mid_byteVectorVal_d94c1f1d0c66928c,
+              mid_bytesVal_0a9b0f6d8ac17652,
+              mid_cost_8b62236f0e4d0dbc,
+              mid_doubleVal_3bb466f769ef1c7f,
+              mid_doubleVal_b16d3f4aaa08de03,
+              mid_exists_a8281eb3b9d9672d,
+              mid_explain_cc4f64c6e8e6aa85,
+              mid_floatVal_5873a23b935a9d49,
+              mid_floatVal_8f716e39d3fdfcfe,
+              mid_floatVectorVal_4392f4b0f19a3288,
+              mid_getRangeScorer_5d5d3a04371eed22,
+              mid_getScorer_2d81432867479478,
+              mid_getValueFiller_32f41a37c2710e92,
+              mid_intVal_a3904e10f5bb9437,
+              mid_intVal_ffaa99c90d5de360,
+              mid_longVal_49af390f180d8ee7,
+              mid_longVal_80fd146058a1e556,
+              mid_numOrd_bd89ce15dad49192,
+              mid_objectVal_2a2d7d7b9153274c,
+              mid_ordVal_a3904e10f5bb9437,
+              mid_shortVal_03c4a11d0633d4d1,
+              mid_shortVal_8b26a0c60ffbd71a,
+              mid_strVal_0da8f0b89b1e9a22,
+              mid_strVal_54396758fce4b45a,
+              mid_toString_0da8f0b89b1e9a22,
               max_mid
             };
 

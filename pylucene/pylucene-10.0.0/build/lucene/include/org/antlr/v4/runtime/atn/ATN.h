@@ -8,13 +8,13 @@ namespace org {
     namespace v4 {
       namespace runtime {
         namespace atn {
-          class ATNState;
-          class RuleStopState;
-          class ATNType;
-          class RuleStartState;
           class LexerAction;
           class DecisionState;
+          class RuleStartState;
+          class RuleStopState;
+          class ATNType;
           class TokensStartState;
+          class ATNState;
         }
       }
     }
@@ -26,8 +26,8 @@ namespace java {
     class String;
   }
   namespace util {
-    class List;
     class Map;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -41,12 +41,12 @@ namespace org {
           class ATN : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_48b4cd1cf881093a,
-              mid_addState_dbe437c90ceb25ad,
-              mid_defineDecisionState_95a5181510607ce3,
-              mid_getDecisionState_cd377a631c6b5266,
-              mid_getNumberOfDecisions_20fbf7565993c3d7,
-              mid_removeState_dbe437c90ceb25ad,
+              mid_init$_7071fbf0febe884f,
+              mid_addState_f5f54f1f5175616a,
+              mid_defineDecisionState_93508ee424451f16,
+              mid_getDecisionState_c449bcbe4e267d3d,
+              mid_getNumberOfDecisions_bd89ce15dad49192,
+              mid_removeState_f5f54f1f5175616a,
               max_mid
             };
 

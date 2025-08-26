@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class DoubleValuesSource;
-      }
       namespace expressions {
         class Expression;
+      }
+      namespace search {
+        class DoubleValuesSource;
       }
     }
   }
@@ -31,11 +31,11 @@ namespace org {
         class SimpleBindings : public ::org::apache::lucene::expressions::Bindings {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_972386f8e1fec758,
-            mid_add_2a5b548f6bb1716c,
-            mid_getDoubleValuesSource_fc4fee8eaa090fbd,
-            mid_validate_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_d8572f0cbd977c36,
+            mid_add_81b5de616e17c1ea,
+            mid_getDoubleValuesSource_4dceecd0b9399ae8,
+            mid_validate_e7bdbe105ce1bafb,
             max_mid
           };
 

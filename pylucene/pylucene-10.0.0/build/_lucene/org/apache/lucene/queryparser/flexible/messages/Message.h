@@ -24,10 +24,10 @@ namespace org {
             class Message : public ::java::lang::Object {
              public:
               enum {
-                mid_getArguments_e6b839682a4610a6,
-                mid_getKey_09a7afff1868fc5e,
-                mid_getLocalizedMessage_09a7afff1868fc5e,
-                mid_getLocalizedMessage_d2a6991e8d2aa45a,
+                mid_getArguments_1e688954528bc160,
+                mid_getKey_e7df854526d67fa3,
+                mid_getLocalizedMessage_e7df854526d67fa3,
+                mid_getLocalizedMessage_dce821ed97c0e930,
                 max_mid
               };
 

@@ -19,11 +19,11 @@ namespace org {
           class HnswGraph$ArrayNodesIterator : public ::org::apache::lucene::util::hnsw::HnswGraph$NodesIterator {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_6dc277ebf1e905ca,
-              mid_consume_99e50d7a0326d5c8,
-              mid_hasNext_947277eca0748c4e,
-              mid_nextInt_20fbf7565993c3d7,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_4b69c760d4874f88,
+              mid_consume_ce3442f6684197de,
+              mid_hasNext_9aa4f33e82ea333f,
+              mid_nextInt_bd89ce15dad49192,
               max_mid
             };
 

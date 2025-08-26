@@ -3,22 +3,22 @@
 
 #include "org/apache/lucene/search/FilterCollector.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class CachingCollector;
-        class Collector;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class Collector;
+        class CachingCollector;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -31,11 +31,11 @@ namespace org {
         class CachingCollector : public ::org::apache::lucene::search::FilterCollector {
          public:
           enum {
-            mid_create_5fe38cdf4e58fed3,
-            mid_create_bb683fdd55478c13,
-            mid_create_ac88c73b36265455,
-            mid_isCached_947277eca0748c4e,
-            mid_replay_91ebd1d75c9c0390,
+            mid_create_838bf97beb7644f3,
+            mid_create_d57563faff1a2754,
+            mid_create_b4ef739cf3457447,
+            mid_isCached_9aa4f33e82ea333f,
+            mid_replay_01adb891a2ac56dc,
             max_mid
           };
 

@@ -3,20 +3,6 @@
 
 #include "org/apache/lucene/facet/Facets.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
-  }
-  namespace util {
-    class List;
-    class Map;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -24,6 +10,20 @@ namespace org {
         class FacetResult;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -36,12 +36,12 @@ namespace org {
         class MultiFacets : public ::org::apache::lucene::facet::Facets {
          public:
           enum {
-            mid_init$_79ba0f5a7d05e623,
-            mid_init$_3229f4cf928a5f4e,
-            mid_getAllChildren_51a67cf6dd940ebb,
-            mid_getAllDims_3e47fe599d76d583,
-            mid_getSpecificValue_7fd685ee82fd50c5,
-            mid_getTopChildren_ca1b3747bbcc4341,
+            mid_init$_6a7e23584beb7c0f,
+            mid_init$_2b932a0ee1929d10,
+            mid_getAllChildren_09e74013a1015c10,
+            mid_getAllDims_b4b9401c877452e3,
+            mid_getSpecificValue_a53782a5574e06b9,
+            mid_getTopChildren_482e0070129e7ccc,
             max_mid
           };
 

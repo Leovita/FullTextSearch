@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/facet/taxonomy/IntTaxonomyFacets.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
         class FacetsCollector;
+        class FacetsConfig;
         namespace taxonomy {
           class AssociationAggregationFunction;
           class TaxonomyReader;
         }
-        class FacetsConfig;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -37,8 +37,8 @@ namespace org {
           class TaxonomyFacetIntAssociations : public ::org::apache::lucene::facet::taxonomy::IntTaxonomyFacets {
            public:
             enum {
-              mid_init$_a08fdb7e87d8c1a4,
-              mid_init$_b1f2dd1d90d1f879,
+              mid_init$_f22cc94af8b0ea34,
+              mid_init$_2dd2d8537b5a1aaa,
               max_mid
             };
 

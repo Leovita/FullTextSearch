@@ -3,6 +3,20 @@
 
 #include "org/apache/lucene/facet/sortedset/AbstractSortedSetDocValueFacetCounts.h"
 
+namespace java {
+  namespace lang {
+    class InterruptedException;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    namespace concurrent {
+      class ExecutorService;
+    }
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,20 +26,6 @@ namespace org {
           class SortedSetDocValuesReaderState;
         }
       }
-    }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class InterruptedException;
-  }
-  namespace util {
-    namespace concurrent {
-      class ExecutorService;
     }
   }
 }
@@ -40,8 +40,8 @@ namespace org {
           class ConcurrentSortedSetDocValuesFacetCounts : public ::org::apache::lucene::facet::sortedset::AbstractSortedSetDocValueFacetCounts {
            public:
             enum {
-              mid_init$_351929e28d17d0fd,
-              mid_init$_3c86017fb23486ad,
+              mid_init$_67a649d789de0406,
+              mid_init$_38f8c690440d4258,
               max_mid
             };
 

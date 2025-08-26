@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/spatial3d/geom/GeoBaseShape.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
+          class GeoMembershipShape;
           class Vector;
           class PlanetModel;
-          class GeoPoint;
-          class GeoMembershipShape;
           class DistanceStyle;
+          class GeoPoint;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,11 +34,11 @@ namespace org {
           class GeoBaseMembershipShape : public ::org::apache::lucene::spatial3d::geom::GeoBaseShape {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
-              mid_computeOutsideDistance_6635ccfc1ffc6db7,
-              mid_computeOutsideDistance_843fc02405cdd09d,
-              mid_isWithin_d2545ca8f40aaba4,
-              mid_outsideDistance_843fc02405cdd09d,
+              mid_init$_ed6d55ea06962af0,
+              mid_computeOutsideDistance_c279193319e1a46c,
+              mid_computeOutsideDistance_79a34b4fe77da1ae,
+              mid_isWithin_f78acf28287584e8,
+              mid_outsideDistance_79a34b4fe77da1ae,
               max_mid
             };
 

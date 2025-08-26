@@ -3,6 +3,26 @@
 
 #include "org/apache/lucene/codecs/StoredFieldsReader.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
+      namespace index {
+        class SegmentInfo;
+        class StoredFieldVisitor;
+        class FieldInfos;
+      }
+      namespace codecs {
+        namespace compressing {
+          class CompressionMode;
+        }
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
     class Class;
@@ -10,26 +30,6 @@ namespace java {
   }
   namespace io {
     class IOException;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
-      namespace codecs {
-        namespace compressing {
-          class CompressionMode;
-        }
-      }
-      namespace index {
-        class StoredFieldVisitor;
-        class SegmentInfo;
-        class FieldInfos;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -44,14 +44,14 @@ namespace org {
             class Lucene90CompressingStoredFieldsReader : public ::org::apache::lucene::codecs::StoredFieldsReader {
              public:
               enum {
-                mid_init$_91ac17f9b9a8045f,
-                mid_checkIntegrity_3720c61b0679eb3e,
-                mid_clone_4e066a6f20734e17,
-                mid_close_3720c61b0679eb3e,
-                mid_document_94ed5009dd10cb1f,
-                mid_getMergeInstance_4e066a6f20734e17,
-                mid_prefetch_540b2b23d51b1efd,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_c242a826fb0f11b7,
+                mid_checkIntegrity_e7bdbe105ce1bafb,
+                mid_clone_a7e1c9cc255e1e90,
+                mid_close_e7bdbe105ce1bafb,
+                mid_document_78d5bbf2e2144955,
+                mid_getMergeInstance_a7e1c9cc255e1e90,
+                mid_prefetch_8226bd0b0fc13dba,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

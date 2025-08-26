@@ -3,6 +3,12 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,12 +22,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -32,11 +32,11 @@ namespace org {
         class SortedNumericDocValuesField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_97897a260b413071,
-            mid_indexedField_cade4813c685f19b,
-            mid_newSlowExactQuery_cb577c99d891ea6f,
-            mid_newSlowRangeQuery_d94de4eddd72517b,
-            mid_newSlowSetQuery_b01e10398514ec4c,
+            mid_init$_eff9bbbaf264de7f,
+            mid_indexedField_cef6fe83bc5449ca,
+            mid_newSlowExactQuery_98e0283bae36d37a,
+            mid_newSlowRangeQuery_d24bb07db2b1e6e7,
+            mid_newSlowSetQuery_bf074e07e7c212d7,
             max_mid
           };
 

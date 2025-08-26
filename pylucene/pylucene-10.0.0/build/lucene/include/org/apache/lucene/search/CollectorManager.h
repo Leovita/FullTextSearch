@@ -7,11 +7,11 @@ namespace java {
   namespace io {
     class IOException;
   }
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
+  }
+  namespace util {
+    class Collection;
   }
 }
 namespace org {
@@ -33,8 +33,8 @@ namespace org {
         class CollectorManager : public ::java::lang::Object {
          public:
           enum {
-            mid_newCollector_4251c3f1d651d6d9,
-            mid_reduce_826559913eb50402,
+            mid_newCollector_6c5ef8f878eeb110,
+            mid_reduce_f351d27a1d611522,
             max_mid
           };
 

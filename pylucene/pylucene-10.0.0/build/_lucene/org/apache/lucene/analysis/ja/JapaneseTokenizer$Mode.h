@@ -31,8 +31,8 @@ namespace org {
           class JapaneseTokenizer$Mode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_56fff85cd617b2a5,
-              mid_values_4e4b3eaa0276245f,
+              mid_valueOf_43e17cb4aba3c263,
+              mid_values_c52db17521aca1bc,
               max_mid
             };
 

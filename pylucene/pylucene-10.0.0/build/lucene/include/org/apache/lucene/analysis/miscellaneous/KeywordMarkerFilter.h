@@ -22,8 +22,8 @@ namespace org {
           class KeywordMarkerFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_incrementToken_947277eca0748c4e,
-              mid_isKeyword_947277eca0748c4e,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_isKeyword_9aa4f33e82ea333f,
               max_mid
             };
 

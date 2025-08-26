@@ -6,25 +6,25 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        class QueryVisitor;
-      }
       namespace util {
         namespace automaton {
-          class CompiledAutomaton$AUTOMATON_TYPE;
-          class TransitionAccessor;
           class ByteRunAutomaton;
+          class TransitionAccessor;
           class Automaton;
           class ByteRunnable;
+          class CompiledAutomaton$AUTOMATON_TYPE;
         }
         class Accountable;
         class BytesRef;
         class BytesRefBuilder;
       }
       namespace index {
-        class TermsEnum;
         class Terms;
+        class TermsEnum;
+      }
+      namespace search {
+        class QueryVisitor;
+        class Query;
       }
     }
   }
@@ -49,17 +49,17 @@ namespace org {
           class CompiledAutomaton : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_71373fad5757dc3c,
-              mid_init$_5267b4d772cc54d7,
-              mid_init$_e4bcb1c4eea03e12,
-              mid_equals_570b5248a6da3ef6,
-              mid_floor_e612e9ea6cfad0ee,
-              mid_getByteRunnable_66b586cef7445fef,
-              mid_getTermsEnum_2c853141fa689f1e,
-              mid_getTransitionAccessor_faee24901aeae303,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_visit_f39f2b300307e8dd,
+              mid_init$_7350cbdcd883df0a,
+              mid_init$_fe89e4b488e93146,
+              mid_init$_37b62ad7a872d99b,
+              mid_equals_00d17418847797d4,
+              mid_floor_7dcdd9813c207136,
+              mid_getByteRunnable_a3fc7a69a9161d8b,
+              mid_getTermsEnum_46ef391d247cbb49,
+              mid_getTransitionAccessor_161c7a50777b799a,
+              mid_hashCode_bd89ce15dad49192,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_visit_5056b36406fe33c2,
               max_mid
             };
 

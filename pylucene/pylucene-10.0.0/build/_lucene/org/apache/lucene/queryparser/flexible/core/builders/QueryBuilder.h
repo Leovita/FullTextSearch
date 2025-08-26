@@ -37,7 +37,7 @@ namespace org {
               class QueryBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_build_9980026773de1f5d,
+                  mid_build_a8677244bcb61e5f,
                   max_mid
                 };
 

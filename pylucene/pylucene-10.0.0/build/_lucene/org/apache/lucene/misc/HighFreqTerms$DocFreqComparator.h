@@ -3,14 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class Comparator;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +10,14 @@ namespace org {
         class TermStats;
       }
     }
+  }
+}
+namespace java {
+  namespace util {
+    class Comparator;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,8 +30,8 @@ namespace org {
         class HighFreqTerms$DocFreqComparator : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_compare_c99392eb96aa141e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_compare_f70e15834571ef82,
             max_mid
           };
 

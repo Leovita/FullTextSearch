@@ -3,12 +3,20 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class PostingsEnum;
+        class Term;
       }
       namespace queries {
         namespace spans {
@@ -16,14 +24,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -37,11 +37,11 @@ namespace org {
           class PythonSpanCollector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_collectLeaf_3aa52d8f240f6edc,
-              mid_pythonExtension_16939d9d0a9a9721,
-              mid_pythonExtension_8b3d46852b435a94,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_collectLeaf_49f63465c86055a2,
+              mid_pythonExtension_0f176418e3e16541,
+              mid_pythonExtension_1d3149fac12f2af3,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

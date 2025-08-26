@@ -6,26 +6,26 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Fields;
-        class SegmentWriteState;
-      }
       namespace codecs {
-        class NormsProducer;
+        class PostingsWriterBase;
         namespace uniformsplit {
           class BlockEncoder;
         }
-        class PostingsWriterBase;
+        class NormsProducer;
+      }
+      namespace index {
+        class SegmentWriteState;
+        class Fields;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,17 +39,17 @@ namespace org {
           class UniformSplitTermsWriter : public ::org::apache::lucene::codecs::FieldsConsumer {
            public:
             enum {
-              mid_init$_b18ec5de5dd74ea4,
-              mid_init$_bad8033a7e298cfc,
-              mid_close_3720c61b0679eb3e,
-              mid_write_664e5b1e2ee1912b,
-              mid_writeDictionary_d103b6face46e3b6,
-              mid_writePostingLine_93bb74f4da47ab54,
-              mid_writeFieldsMetadata_98dfbad7eb83b619,
-              mid_validateSettings_e13cff512ebda969,
-              mid_writeFieldTerms_a9e188766d87c7d6,
-              mid_writeUnencodedFieldsMetadata_d3f4c532ef68439d,
-              mid_writeEncodedFieldsMetadata_d3f4c532ef68439d,
+              mid_init$_0298775a93f62f34,
+              mid_init$_9f43c54b2bdab56b,
+              mid_close_e7bdbe105ce1bafb,
+              mid_write_77e46eb449cb8d9e,
+              mid_validateSettings_645c25455f5b9b1c,
+              mid_writeFieldTerms_3e874d648233d713,
+              mid_writeFieldsMetadata_6bb5ef8d80b7ab97,
+              mid_writeUnencodedFieldsMetadata_5ed1c4def6f2f040,
+              mid_writeEncodedFieldsMetadata_5ed1c4def6f2f040,
+              mid_writePostingLine_6a82fc62132cab5b,
+              mid_writeDictionary_2798b2c9e81a469e,
               max_mid
             };
 

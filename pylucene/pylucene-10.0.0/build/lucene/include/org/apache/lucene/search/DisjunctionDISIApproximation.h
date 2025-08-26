@@ -30,11 +30,11 @@ namespace org {
         class DisjunctionDISIApproximation : public ::org::apache::lucene::search::DocIdSetIterator {
          public:
           enum {
-            mid_init$_17c4459d83c8bb89,
-            mid_advance_3c9bba330f083871,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_nextDoc_20fbf7565993c3d7,
+            mid_init$_3ef3434ac47b6d0f,
+            mid_advance_a3904e10f5bb9437,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_nextDoc_bd89ce15dad49192,
             max_mid
           };
 

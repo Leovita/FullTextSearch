@@ -3,35 +3,17 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    namespace function {
-      class Supplier;
-      class Predicate;
-      class Function;
-    }
-    class Set;
-    class Comparator;
-  }
-  namespace text {
-    class BreakIterator;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
         namespace uhighlight {
-          class UnifiedHighlighter$HighlightFlag;
-          class Passage;
-          class UnifiedHighlighter$Builder;
-          class UnifiedHighlighter;
           class PassageFormatter;
           class PassageScorer;
+          class UnifiedHighlighter$Builder;
+          class UnifiedHighlighter;
+          class Passage;
+          class UnifiedHighlighter$HighlightFlag;
         }
         class IndexSearcher;
       }
@@ -39,6 +21,24 @@ namespace org {
         class Analyzer;
       }
     }
+  }
+}
+namespace java {
+  namespace text {
+    class BreakIterator;
+  }
+  namespace util {
+    namespace function {
+      class Predicate;
+      class Function;
+      class Supplier;
+    }
+    class Comparator;
+    class Set;
+  }
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -52,25 +52,25 @@ namespace org {
           class UnifiedHighlighter$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_c61163c22195f70b,
-              mid_build_51499746e0aa5d54,
-              mid_getFlags_4df174295554d7bd,
-              mid_getIndexAnalyzer_6755ba003d984513,
-              mid_getIndexSearcher_8c9a1e527c2e5a94,
-              mid_withBreakIterator_39d5153852e9fda7,
-              mid_withCacheFieldValCharsThreshold_10084d94a344ba31,
-              mid_withFieldMatcher_f3ff6687e76dd171,
-              mid_withFlags_f56668c193e5ac76,
-              mid_withFormatter_2bc9ce04b11fc7c9,
-              mid_withHandleMultiTermQuery_f2ca432251607204,
-              mid_withHighlightPhrasesStrictly_f2ca432251607204,
-              mid_withMaskedFieldsFunc_79bbbe2d5712ff84,
-              mid_withMaxLength_10084d94a344ba31,
-              mid_withMaxNoHighlightPassages_10084d94a344ba31,
-              mid_withPassageRelevancyOverSpeed_f2ca432251607204,
-              mid_withPassageSortComparator_34eae4e045bb8da4,
-              mid_withScorer_c0a66abfdc49e093,
-              mid_withWeightMatches_f2ca432251607204,
+              mid_init$_2911da2a708e97e5,
+              mid_build_76a3df16ca2af9cc,
+              mid_getFlags_79131c6bbcf08916,
+              mid_getIndexAnalyzer_7bc9b23f56937752,
+              mid_getIndexSearcher_b5872e6ced4699df,
+              mid_withBreakIterator_6e5a284dfb8475c5,
+              mid_withCacheFieldValCharsThreshold_fec05e5f2ba6c1c8,
+              mid_withFieldMatcher_9daba775f0fea4be,
+              mid_withFlags_93b078fccecdfbe3,
+              mid_withFormatter_102828d2ed8c95c2,
+              mid_withHandleMultiTermQuery_8169aebdaa60a69d,
+              mid_withHighlightPhrasesStrictly_8169aebdaa60a69d,
+              mid_withMaskedFieldsFunc_9c184355f2c3d598,
+              mid_withMaxLength_fec05e5f2ba6c1c8,
+              mid_withMaxNoHighlightPassages_fec05e5f2ba6c1c8,
+              mid_withPassageRelevancyOverSpeed_8169aebdaa60a69d,
+              mid_withPassageSortComparator_b2def1b8016dd1fe,
+              mid_withScorer_847a5555dff90bf1,
+              mid_withWeightMatches_8169aebdaa60a69d,
               max_mid
             };
 

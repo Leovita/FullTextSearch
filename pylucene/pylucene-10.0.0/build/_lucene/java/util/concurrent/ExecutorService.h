@@ -4,23 +4,23 @@
 #include "java/util/concurrent/Executor.h"
 
 namespace java {
+  namespace lang {
+    class InterruptedException;
+    class Runnable;
+    class AutoCloseable;
+    class Object;
+    class Class;
+  }
   namespace util {
     namespace concurrent {
-      class ExecutionException;
-      class TimeUnit;
       class TimeoutException;
-      class Callable;
       class Future;
+      class ExecutionException;
+      class Callable;
+      class TimeUnit;
     }
     class Collection;
     class List;
-  }
-  namespace lang {
-    class Class;
-    class Runnable;
-    class InterruptedException;
-    class Object;
-    class AutoCloseable;
   }
 }
 template<class T> class JArray;
@@ -32,19 +32,19 @@ namespace java {
       class ExecutorService : public ::java::util::concurrent::Executor {
        public:
         enum {
-          mid_awaitTermination_e992b4908961e96e,
-          mid_close_3720c61b0679eb3e,
-          mid_invokeAll_93d4f44cee5de8eb,
-          mid_invokeAll_dda83133fda1a808,
-          mid_invokeAny_826559913eb50402,
-          mid_invokeAny_088e5f4306bab0bb,
-          mid_isShutdown_947277eca0748c4e,
-          mid_isTerminated_947277eca0748c4e,
-          mid_shutdown_3720c61b0679eb3e,
-          mid_shutdownNow_36830460e10839eb,
-          mid_submit_c9ea5bd72484906f,
-          mid_submit_26650fb8d35ea96b,
-          mid_submit_2a23a8b5cd6f3414,
+          mid_awaitTermination_67710f08bc0014c8,
+          mid_close_e7bdbe105ce1bafb,
+          mid_invokeAll_edc76bb8b84c2b2b,
+          mid_invokeAll_b2062f35bed0498c,
+          mid_invokeAny_f351d27a1d611522,
+          mid_invokeAny_ac04a621f274d657,
+          mid_isShutdown_9aa4f33e82ea333f,
+          mid_isTerminated_9aa4f33e82ea333f,
+          mid_shutdown_e7bdbe105ce1bafb,
+          mid_shutdownNow_1387e1e2702ac173,
+          mid_submit_10f56ee933c03a40,
+          mid_submit_aadcd45c37e94498,
+          mid_submit_e7bb37debec0815f,
           max_mid
         };
 

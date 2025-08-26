@@ -4,11 +4,11 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class Serializable;
-  }
   namespace util {
     class Random;
+  }
+  namespace io {
+    class Serializable;
   }
   namespace lang {
     class Class;
@@ -22,18 +22,18 @@ namespace java {
     class Random : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_8b3d46852b435a94,
-        mid_nextBoolean_947277eca0748c4e,
-        mid_nextBytes_3ce1e597fb62ac79,
-        mid_nextDouble_32caabaad86c508b,
-        mid_nextFloat_9b6c3480dac00edf,
-        mid_nextGaussian_32caabaad86c508b,
-        mid_nextInt_20fbf7565993c3d7,
-        mid_nextInt_3c9bba330f083871,
-        mid_nextLong_16939d9d0a9a9721,
-        mid_setSeed_8b3d46852b435a94,
-        mid_next_3c9bba330f083871,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_1d3149fac12f2af3,
+        mid_nextBoolean_9aa4f33e82ea333f,
+        mid_nextBytes_a4d4f283481182e8,
+        mid_nextDouble_6fb37e123fed7a1f,
+        mid_nextFloat_8b62236f0e4d0dbc,
+        mid_nextGaussian_6fb37e123fed7a1f,
+        mid_nextInt_bd89ce15dad49192,
+        mid_nextInt_a3904e10f5bb9437,
+        mid_nextLong_0f176418e3e16541,
+        mid_setSeed_1d3149fac12f2af3,
+        mid_next_a3904e10f5bb9437,
         max_mid
       };
 

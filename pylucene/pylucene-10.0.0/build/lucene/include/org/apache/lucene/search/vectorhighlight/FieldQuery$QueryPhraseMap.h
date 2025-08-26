@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,15 +25,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace util {
-    class List;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -36,14 +36,14 @@ namespace org {
           class FieldQuery$QueryPhraseMap : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b48ecde703a8c6eb,
-              mid_getBoost_9b6c3480dac00edf,
-              mid_getSlop_20fbf7565993c3d7,
-              mid_getTermMap_13fa662685d5fd24,
-              mid_getTermOrPhraseNumber_20fbf7565993c3d7,
-              mid_isTerminal_947277eca0748c4e,
-              mid_isValidTermOrPhrase_bda3ec12181d907f,
-              mid_searchPhrase_5fd0b4db6c3f3c83,
+              mid_init$_19fcfae6d7b0025d,
+              mid_getBoost_8b62236f0e4d0dbc,
+              mid_getSlop_bd89ce15dad49192,
+              mid_getTermMap_69d0cf843e74eb9d,
+              mid_getTermOrPhraseNumber_bd89ce15dad49192,
+              mid_isTerminal_9aa4f33e82ea333f,
+              mid_isValidTermOrPhrase_478a3b045e32c171,
+              mid_searchPhrase_7ef48b588792e019,
               max_mid
             };
 

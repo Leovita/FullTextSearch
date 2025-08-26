@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/codecs/MultiLevelSkipListReader.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class IndexInput;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,19 +31,19 @@ namespace org {
           class Lucene99SkipReader : public ::org::apache::lucene::codecs::MultiLevelSkipListReader {
            public:
             enum {
-              mid_init$_f731229a07ca537c,
-              mid_getDocPointer_16939d9d0a9a9721,
-              mid_getNextSkipDoc_20fbf7565993c3d7,
-              mid_getPayPointer_16939d9d0a9a9721,
-              mid_getPayloadByteUpto_20fbf7565993c3d7,
-              mid_getPosBufferUpto_20fbf7565993c3d7,
-              mid_getPosPointer_16939d9d0a9a9721,
-              mid_init_37346f2040eb1a47,
-              mid_readImpacts_0dad1b34475c81f9,
-              mid_readSkipData_ecaf58c646b57409,
-              mid_seekChild_540b2b23d51b1efd,
-              mid_setLastSkipData_540b2b23d51b1efd,
-              mid_trim_3c9bba330f083871,
+              mid_init$_e5ec13a31f276833,
+              mid_getDocPointer_0f176418e3e16541,
+              mid_getNextSkipDoc_bd89ce15dad49192,
+              mid_getPayPointer_0f176418e3e16541,
+              mid_getPayloadByteUpto_bd89ce15dad49192,
+              mid_getPosBufferUpto_bd89ce15dad49192,
+              mid_getPosPointer_0f176418e3e16541,
+              mid_init_41c2f04cbbff732c,
+              mid_seekChild_8226bd0b0fc13dba,
+              mid_setLastSkipData_8226bd0b0fc13dba,
+              mid_readSkipData_5f368c887824ddf9,
+              mid_readImpacts_9f5a87b1d1d97186,
+              mid_trim_a3904e10f5bb9437,
               max_mid
             };
 

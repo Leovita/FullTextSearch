@@ -3,29 +3,15 @@
 
 #include "org/apache/lucene/codecs/lucene95/OffHeapByteVectorValues.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class VectorScorer;
+      namespace util {
+        class Bits;
       }
       namespace index {
         class VectorSimilarityFunction;
         class KnnVectorValues$DocIndexIterator;
-      }
-      namespace util {
-        class Bits;
-      }
-      namespace store {
-        class IndexInput;
       }
       namespace codecs {
         namespace hnsw {
@@ -35,7 +21,21 @@ namespace org {
           class OffHeapByteVectorValues$DenseOffHeapVectorValues;
         }
       }
+      namespace store {
+        class IndexInput;
+      }
+      namespace search {
+        class VectorScorer;
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -49,11 +49,11 @@ namespace org {
           class OffHeapByteVectorValues$DenseOffHeapVectorValues : public ::org::apache::lucene::codecs::lucene95::OffHeapByteVectorValues {
            public:
             enum {
-              mid_init$_9737133e65ab8c1a,
-              mid_copy_f33b1b5371a9c780,
-              mid_getAcceptOrds_372c76d90ab3ad4a,
-              mid_iterator_cd2e842b8d8e9e2b,
-              mid_scorer_8c20e5d380e84ab5,
+              mid_init$_71c440f325fa186d,
+              mid_copy_4dc57036b767becd,
+              mid_getAcceptOrds_952ad757d5b0c3b2,
+              mid_iterator_95916eac162e9a1d,
+              mid_scorer_7b262f85b25549ee,
               max_mid
             };
 

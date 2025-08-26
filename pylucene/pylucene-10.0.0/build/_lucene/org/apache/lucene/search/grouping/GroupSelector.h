@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
         namespace grouping {
-          class GroupSelector$State;
           class SearchGroup;
+          class GroupSelector$State;
         }
+        class Scorable;
       }
       namespace index {
         class LeafReaderContext;
@@ -20,14 +20,14 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -41,13 +41,13 @@ namespace org {
           class GroupSelector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_advanceTo_f1eafbb57835401c,
-              mid_copyValue_5655ed8670534604,
-              mid_currentValue_5655ed8670534604,
-              mid_setGroups_40eba2cff967cc45,
-              mid_setNextReader_b7b06dce0a4097ed,
-              mid_setScorer_dd42dde4c0a7db1e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_advanceTo_15b8933896566317,
+              mid_copyValue_4819806f62f1360a,
+              mid_currentValue_4819806f62f1360a,
+              mid_setGroups_b5398b431eb321fb,
+              mid_setNextReader_32243afefe6b151f,
+              mid_setScorer_c06bdf7d53c6460a,
               max_mid
             };
 

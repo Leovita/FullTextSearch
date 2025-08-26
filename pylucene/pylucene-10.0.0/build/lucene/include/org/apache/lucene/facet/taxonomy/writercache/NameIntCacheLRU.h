@@ -20,8 +20,8 @@ namespace org {
             class NameIntCacheLRU : public ::java::lang::Object {
              public:
               enum {
-                mid_getMaxSize_20fbf7565993c3d7,
-                mid_getSize_20fbf7565993c3d7,
+                mid_getMaxSize_bd89ce15dad49192,
+                mid_getSize_bd89ce15dad49192,
                 max_mid
               };
 

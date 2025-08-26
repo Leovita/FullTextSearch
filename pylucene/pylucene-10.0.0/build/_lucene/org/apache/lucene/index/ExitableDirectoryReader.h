@@ -7,21 +7,21 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class DirectoryReader;
         class QueryTimeout;
-        class LeafReader;
+        class DirectoryReader;
         class IndexReader$CacheHelper;
+        class LeafReader;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -34,11 +34,11 @@ namespace org {
         class ExitableDirectoryReader : public ::org::apache::lucene::index::FilterDirectoryReader {
          public:
           enum {
-            mid_init$_4aa68ee6b8f8fb5d,
-            mid_getReaderCacheHelper_3117e2e82cc46163,
-            mid_toString_09a7afff1868fc5e,
-            mid_wrap_4f9ede19b9c7349b,
-            mid_doWrapDirectoryReader_c0f2d1165a6dcc7c,
+            mid_init$_df46601dbfa72daa,
+            mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_toString_e7df854526d67fa3,
+            mid_wrap_c23d02be6177f95a,
+            mid_doWrapDirectoryReader_f4693940cb629eaf,
             max_mid
           };
 

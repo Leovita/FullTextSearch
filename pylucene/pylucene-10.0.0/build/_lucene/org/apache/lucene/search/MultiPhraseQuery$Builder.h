@@ -6,12 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class Term;
+      }
       namespace search {
         class MultiPhraseQuery;
         class MultiPhraseQuery$Builder;
-      }
-      namespace index {
-        class Term;
       }
     }
   }
@@ -31,13 +31,13 @@ namespace org {
         class MultiPhraseQuery$Builder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_10c7b880fe7c1ea3,
-            mid_add_7d8044c01963e52a,
-            mid_add_cd895832ef5b026a,
-            mid_add_3d49a9a09324454e,
-            mid_build_ff632a030bc0595f,
-            mid_setSlop_bcdc79c6822481d6,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_7c4daf90227e5135,
+            mid_add_2749e5020375efd2,
+            mid_add_056eb2471f68f5e6,
+            mid_add_fca7fe25aecf19e4,
+            mid_build_b008d997345be3d9,
+            mid_setSlop_0bbcafe3777e1cd5,
             max_mid
           };
 

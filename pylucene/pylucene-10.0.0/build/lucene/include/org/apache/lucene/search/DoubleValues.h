@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class DoubleValues;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,10 +30,10 @@ namespace org {
         class DoubleValues : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_advanceExact_ae22d3a856ad56f1,
-            mid_doubleValue_32caabaad86c508b,
-            mid_withDefault_4e4d907e2501fff9,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_advanceExact_a8281eb3b9d9672d,
+            mid_doubleValue_6fb37e123fed7a1f,
+            mid_withDefault_6f83232b2f1c3834,
             max_mid
           };
 

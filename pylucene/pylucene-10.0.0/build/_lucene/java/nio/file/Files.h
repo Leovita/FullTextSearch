@@ -6,34 +6,34 @@
 namespace java {
   namespace nio {
     namespace file {
-      class DirectoryStream$Filter;
-      class CopyOption;
-      class FileVisitor;
       class LinkOption;
-      class FileVisitOption;
-      class FileStore;
+      class CopyOption;
       class Path;
       class DirectoryStream;
+      class FileVisitor;
+      class FileStore;
+      class FileVisitOption;
       class OpenOption;
+      class DirectoryStream$Filter;
     }
+  }
+  namespace io {
+    class IOException;
+    class OutputStream;
+    class BufferedReader;
+    class InputStream;
+    class BufferedWriter;
+  }
+  namespace util {
+    class Set;
+    class List;
+    class Map;
   }
   namespace lang {
     class CharSequence;
     class Class;
     class String;
     class Iterable;
-  }
-  namespace io {
-    class InputStream;
-    class OutputStream;
-    class IOException;
-    class BufferedWriter;
-    class BufferedReader;
-  }
-  namespace util {
-    class List;
-    class Set;
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -45,46 +45,46 @@ namespace java {
       class Files : public ::java::lang::Object {
        public:
         enum {
-          mid_copy_0024dc3b3a763e78,
-          mid_copy_9f01d7cdd0359a14,
-          mid_copy_5ff17de606f0d571,
-          mid_createLink_7c65087303c44fd4,
-          mid_delete_8a3244428bfc77b8,
-          mid_deleteIfExists_51b0b54861f74b98,
-          mid_exists_12e5e3168e059c98,
-          mid_getAttribute_7dfaa90b3814d5cc,
-          mid_getFileStore_9a63c42a4c7b6a4b,
-          mid_isDirectory_12e5e3168e059c98,
-          mid_isExecutable_51b0b54861f74b98,
-          mid_isHidden_51b0b54861f74b98,
-          mid_isReadable_51b0b54861f74b98,
-          mid_isRegularFile_12e5e3168e059c98,
-          mid_isSameFile_71341aae3884add1,
-          mid_isSymbolicLink_51b0b54861f74b98,
-          mid_isWritable_51b0b54861f74b98,
-          mid_mismatch_33dac77ebc949caa,
-          mid_move_5ff17de606f0d571,
-          mid_newBufferedReader_62a124dd0c95a3f2,
-          mid_newBufferedWriter_e5228d8c0584abd1,
-          mid_newDirectoryStream_f8c625b0b4c2e77f,
-          mid_newDirectoryStream_ff1fef44d068774e,
-          mid_newDirectoryStream_e9473da8f62ede89,
-          mid_newInputStream_e78262c5faa6870d,
-          mid_newOutputStream_1364d4bf85585674,
-          mid_notExists_12e5e3168e059c98,
-          mid_probeContentType_6d706fa77c0dc1f4,
-          mid_readAllBytes_512e3b90726d16d5,
-          mid_readAllLines_4b95983447b70e47,
-          mid_readAttributes_e4e6554623b1b1e0,
-          mid_readString_6d706fa77c0dc1f4,
-          mid_readSymbolicLink_07f3bbbaf2aea84c,
-          mid_setAttribute_8a0741827887bd67,
-          mid_size_1686efb16d5b1a5b,
-          mid_walkFileTree_f062c1de90d53b05,
-          mid_walkFileTree_4273a80c0f6eaf32,
-          mid_write_a014b12e8e1533f5,
-          mid_write_ac3a80be78f49ae0,
-          mid_writeString_f4ffb1ada2deafa6,
+          mid_copy_e0289c297b64c436,
+          mid_copy_17ea23c8557dcd9b,
+          mid_copy_50094afc68292ead,
+          mid_createLink_89d63ec4a90de9f9,
+          mid_delete_e7b3ede3efacc86d,
+          mid_deleteIfExists_8e3a3ca1e06e8982,
+          mid_exists_f9fdd03a093a43ab,
+          mid_getAttribute_1f19daeed2fa6cb9,
+          mid_getFileStore_fae242aadf842c22,
+          mid_isDirectory_f9fdd03a093a43ab,
+          mid_isExecutable_8e3a3ca1e06e8982,
+          mid_isHidden_8e3a3ca1e06e8982,
+          mid_isReadable_8e3a3ca1e06e8982,
+          mid_isRegularFile_f9fdd03a093a43ab,
+          mid_isSameFile_ff804a3eadd1579d,
+          mid_isSymbolicLink_8e3a3ca1e06e8982,
+          mid_isWritable_8e3a3ca1e06e8982,
+          mid_mismatch_bd063b349b6f0107,
+          mid_move_50094afc68292ead,
+          mid_newBufferedReader_3049a31d741e981f,
+          mid_newBufferedWriter_e8cbcd87f60aa418,
+          mid_newDirectoryStream_801e1e2f5c98a736,
+          mid_newDirectoryStream_83fd73950467df70,
+          mid_newDirectoryStream_5fbe37e227e1f2a9,
+          mid_newInputStream_65b1de316ac7d7a1,
+          mid_newOutputStream_13750de91b30885a,
+          mid_notExists_f9fdd03a093a43ab,
+          mid_probeContentType_07c8b6935b70591e,
+          mid_readAllBytes_f2fc9a508aaa5db9,
+          mid_readAllLines_26f76a871ac2a9b6,
+          mid_readAttributes_fc6e512f0aed3ffb,
+          mid_readString_07c8b6935b70591e,
+          mid_readSymbolicLink_9ed8a3e986701280,
+          mid_setAttribute_e2fcde27a269e5bd,
+          mid_size_a13d1ec0e7b95a2a,
+          mid_walkFileTree_f5c3c8b71fa252a7,
+          mid_walkFileTree_efa2ba4db6a5de2a,
+          mid_write_09910c080e0cbd1b,
+          mid_write_03408478ceea8b93,
+          mid_writeString_27418a4b2f220515,
           max_mid
         };
 

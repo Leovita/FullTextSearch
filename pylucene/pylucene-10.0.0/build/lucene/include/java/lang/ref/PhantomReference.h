@@ -18,7 +18,7 @@ namespace java {
       class PhantomReference : public ::java::lang::ref::Reference {
        public:
         enum {
-          mid_get_5655ed8670534604,
+          mid_get_4819806f62f1360a,
           max_mid
         };
 

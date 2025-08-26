@@ -3,16 +3,21 @@
 
 #include "org/apache/lucene/codecs/PushPostingsWriterBase.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
       namespace index {
-        class FieldInfo;
         class NumericDocValues;
         class SegmentWriteState;
+        class FieldInfo;
       }
       namespace store {
         class IndexOutput;
@@ -23,18 +28,13 @@ namespace org {
           class Lucene90PostingsFormat$IntBlockTermState;
         }
       }
+      namespace util {
+        class BytesRef;
+      }
       namespace codecs {
         class BlockTermState;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -48,17 +48,17 @@ namespace org {
           class Lucene90PostingsWriter : public ::org::apache::lucene::codecs::PushPostingsWriterBase {
            public:
             enum {
-              mid_init$_45b2848804214eb5,
-              mid_addPosition_c03eaff4c27deef8,
-              mid_close_3720c61b0679eb3e,
-              mid_encodeTerm_43ee849e8e0e2ced,
-              mid_finishDoc_3720c61b0679eb3e,
-              mid_finishTerm_bb894f5bc802a30a,
-              mid_init_030f9650172b0ef5,
-              mid_newTermState_cfdcae65d9e52cf4,
-              mid_setField_571a63af52300367,
-              mid_startDoc_e13cff512ebda969,
-              mid_startTerm_7bc4e3d8c59294ae,
+              mid_init$_5f1496262e5a9f7c,
+              mid_addPosition_9a21dbec535f79a8,
+              mid_close_e7bdbe105ce1bafb,
+              mid_encodeTerm_38368490f1fcfc98,
+              mid_finishDoc_e7bdbe105ce1bafb,
+              mid_finishTerm_1164e37ee4555dea,
+              mid_init_893a09f6528ec65d,
+              mid_newTermState_aaf123a224d945c4,
+              mid_setField_4d7193cb5c8dc4a1,
+              mid_startDoc_645c25455f5b9b1c,
+              mid_startTerm_19acd403ee73f663,
               max_mid
             };
 

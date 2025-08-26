@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
+        class MultiLongValuesSource;
         class FacetsCollector;
         namespace range {
           class LongRange;
         }
-        class MultiLongValuesSource;
       }
       namespace search {
         class Query;
@@ -21,12 +21,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,12 +40,12 @@ namespace org {
           class LongRangeFacetCounts : public ::org::apache::lucene::facet::range::RangeFacetCounts {
            public:
             enum {
-              mid_init$_8f5e123f04f11f10,
-              mid_init$_d05305d53b985598,
-              mid_init$_a8e523c515e05de0,
-              mid_init$_6ad4c917d04c105d,
-              mid_init$_24734c4f89de860e,
-              mid_getLongRanges_22b23276628e6c79,
+              mid_init$_10f9c32a7ad49af0,
+              mid_init$_e176ab60598717a3,
+              mid_init$_3427bbac0db18a64,
+              mid_init$_b581f97417f45be5,
+              mid_init$_d650e510d245056a,
+              mid_getLongRanges_9fb6e44e84feeef2,
               max_mid
             };
 

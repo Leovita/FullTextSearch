@@ -20,10 +20,10 @@ namespace org {
         class FieldDoc : public ::org::apache::lucene::search::ScoreDoc {
          public:
           enum {
-            mid_init$_06e0b8d4c1d7906b,
-            mid_init$_8b4e3b98446c653f,
-            mid_init$_c09c1a7e42fedbf5,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_a18b0cdf76a9509e,
+            mid_init$_212a8602f9f6f39b,
+            mid_init$_f30fd8ce5b9e6694,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

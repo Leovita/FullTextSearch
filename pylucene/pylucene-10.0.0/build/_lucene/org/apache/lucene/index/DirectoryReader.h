@@ -6,28 +6,28 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class DirectoryReader;
-        class IndexWriter;
-        class IndexCommit;
-        class LeafReader;
-      }
       namespace store {
         class Directory;
+      }
+      namespace index {
+        class IndexCommit;
+        class IndexWriter;
+        class DirectoryReader;
+        class LeafReader;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
-    class List;
     class Comparator;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -40,25 +40,25 @@ namespace org {
         class DirectoryReader : public ::org::apache::lucene::index::BaseCompositeReader {
          public:
           enum {
-            mid_directory_0d3b52699e153434,
-            mid_getIndexCommit_271a09cc45c80524,
-            mid_getVersion_16939d9d0a9a9721,
-            mid_indexExists_7b61d161dbcd407d,
-            mid_isCurrent_947277eca0748c4e,
-            mid_listCommits_4b0986df9f52b12e,
-            mid_open_774a8b4c09b28fb4,
-            mid_open_c84aecaf0e3ee77f,
-            mid_open_305366f7010e8381,
-            mid_open_90e7f2b21d1c5f9b,
-            mid_open_836a6a2e86e11b63,
-            mid_open_4736a4a2979dcef8,
-            mid_openIfChanged_c0f2d1165a6dcc7c,
-            mid_openIfChanged_877ce014dd23551c,
-            mid_openIfChanged_1af19c818e73f816,
-            mid_openIfChanged_ccc7bed723c10ab3,
-            mid_doOpenIfChanged_398ab3433e6a540a,
-            mid_doOpenIfChanged_774a8b4c09b28fb4,
-            mid_doOpenIfChanged_f7fded1703ce6ca1,
+            mid_directory_0b8988a9a36f43ec,
+            mid_getIndexCommit_3f5d748efdffe9e0,
+            mid_getVersion_0f176418e3e16541,
+            mid_indexExists_32385df1b55970bb,
+            mid_isCurrent_9aa4f33e82ea333f,
+            mid_listCommits_3987047513a78f19,
+            mid_open_f3cbd71bf1d7f0c6,
+            mid_open_aa7d631f758a2283,
+            mid_open_ca7780014fe99b2c,
+            mid_open_3c0811c128ca7107,
+            mid_open_01c8c62be8953d9f,
+            mid_open_e5048006742f0c8d,
+            mid_openIfChanged_f4693940cb629eaf,
+            mid_openIfChanged_e47c36271bbea3d0,
+            mid_openIfChanged_ea0ad5f5f7e52553,
+            mid_openIfChanged_d05c6a1bbee53789,
+            mid_doOpenIfChanged_a8b6bb613ad0bc66,
+            mid_doOpenIfChanged_9a09931027467e73,
+            mid_doOpenIfChanged_f3cbd71bf1d7f0c6,
             max_mid
           };
 

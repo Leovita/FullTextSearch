@@ -3,6 +3,13 @@
 
 #include "java/text/BreakIterator.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,13 +19,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -32,20 +32,20 @@ namespace org {
           class LengthGoalBreakIterator : public ::java::text::BreakIterator {
            public:
             enum {
-              mid_clone_5655ed8670534604,
-              mid_createClosestToLength_05ac6cd8e665a22f,
-              mid_createMinLength_05ac6cd8e665a22f,
-              mid_current_20fbf7565993c3d7,
-              mid_first_20fbf7565993c3d7,
-              mid_following_3c9bba330f083871,
-              mid_isBoundary_ae22d3a856ad56f1,
-              mid_last_20fbf7565993c3d7,
-              mid_next_20fbf7565993c3d7,
-              mid_next_3c9bba330f083871,
-              mid_preceding_3c9bba330f083871,
-              mid_previous_20fbf7565993c3d7,
-              mid_setText_0d82408c6e55bc30,
-              mid_toString_09a7afff1868fc5e,
+              mid_clone_4819806f62f1360a,
+              mid_createClosestToLength_d5f12a855adfb844,
+              mid_createMinLength_d5f12a855adfb844,
+              mid_current_bd89ce15dad49192,
+              mid_first_bd89ce15dad49192,
+              mid_following_a3904e10f5bb9437,
+              mid_isBoundary_a8281eb3b9d9672d,
+              mid_last_bd89ce15dad49192,
+              mid_next_bd89ce15dad49192,
+              mid_next_a3904e10f5bb9437,
+              mid_preceding_a3904e10f5bb9437,
+              mid_previous_bd89ce15dad49192,
+              mid_setText_ee46a189998009d6,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

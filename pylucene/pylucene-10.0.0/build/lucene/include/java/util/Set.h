@@ -6,12 +6,12 @@
 namespace java {
   namespace util {
     class Iterator;
-    class Set;
     class Spliterator;
+    class Set;
   }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -22,35 +22,35 @@ namespace java {
     class Set : public ::java::util::Collection {
      public:
       enum {
-        mid_add_570b5248a6da3ef6,
-        mid_addAll_f2a1f31c5865e20d,
-        mid_clear_3720c61b0679eb3e,
-        mid_contains_570b5248a6da3ef6,
-        mid_containsAll_f2a1f31c5865e20d,
-        mid_copyOf_5af7ee2a76b1ec4f,
-        mid_equals_570b5248a6da3ef6,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isEmpty_947277eca0748c4e,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_of_4df174295554d7bd,
-        mid_of_b380f2317f241657,
-        mid_of_c7137f34bb8eaa73,
-        mid_of_df97670ac3d2d92d,
-        mid_of_8b683af36ed68fcd,
-        mid_of_8550a70bb236f8ce,
-        mid_of_bae015132ddb5a22,
-        mid_of_9d649e3d52218fa9,
-        mid_of_18b6c215c4647608,
-        mid_of_284632e109c2a520,
-        mid_of_0e8bbf367f123b3d,
-        mid_of_1930b46ff7b33aae,
-        mid_remove_570b5248a6da3ef6,
-        mid_removeAll_f2a1f31c5865e20d,
-        mid_retainAll_f2a1f31c5865e20d,
-        mid_size_20fbf7565993c3d7,
-        mid_spliterator_eebbc9cffa204672,
-        mid_toArray_e6b839682a4610a6,
-        mid_toArray_1794d6b866766560,
+        mid_add_00d17418847797d4,
+        mid_addAll_155d0ed876869448,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_contains_00d17418847797d4,
+        mid_containsAll_155d0ed876869448,
+        mid_copyOf_00830a602a3a1196,
+        mid_equals_00d17418847797d4,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_iterator_c7985fafdcf40e83,
+        mid_of_79131c6bbcf08916,
+        mid_of_0582761d15c83947,
+        mid_of_1c9deec327a99730,
+        mid_of_788f3d5cd21ab8cc,
+        mid_of_970d6f4f775c8896,
+        mid_of_806fd90741ef2851,
+        mid_of_584fa2ebf5e155e5,
+        mid_of_60dcb5a6c95d5ed9,
+        mid_of_089507a39473efd1,
+        mid_of_5977374f22cca92f,
+        mid_of_7a772b5f98ad4a71,
+        mid_of_5a3c9ccae936013b,
+        mid_remove_00d17418847797d4,
+        mid_removeAll_155d0ed876869448,
+        mid_retainAll_155d0ed876869448,
+        mid_size_bd89ce15dad49192,
+        mid_spliterator_fd118e26a3de79e6,
+        mid_toArray_1e688954528bc160,
+        mid_toArray_0b4a993b49b6d8e8,
         max_mid
       };
 

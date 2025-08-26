@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/util/PriorityQueue.h"
 
-namespace java {
-  namespace util {
-    class Comparator;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,6 +12,14 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace util {
+    class Comparator;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -33,9 +33,9 @@ namespace org {
           class SuggestWordQueue : public ::org::apache::lucene::util::PriorityQueue {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_37a400fd6c406e0d,
-              mid_lessThan_59e9cccd1f7442ad,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_dde8d5ee171d4a57,
+              mid_lessThan_35cc85da21d98394,
               max_mid
             };
 

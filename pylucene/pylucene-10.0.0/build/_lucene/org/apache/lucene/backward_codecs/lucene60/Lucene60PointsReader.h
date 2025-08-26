@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class PointValues;
         class SegmentReadState;
+        class PointValues;
       }
     }
   }
@@ -33,10 +33,10 @@ namespace org {
           class Lucene60PointsReader : public ::org::apache::lucene::codecs::PointsReader {
            public:
             enum {
-              mid_init$_3a0f0d76cb59d83b,
-              mid_checkIntegrity_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_getValues_9d784340b5464260,
+              mid_init$_7865ebfeefbeb536,
+              mid_checkIntegrity_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_getValues_db6b2fb22b12e7e1,
               max_mid
             };
 

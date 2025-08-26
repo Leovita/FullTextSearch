@@ -9,10 +9,10 @@ namespace java {
     class List;
   }
   namespace lang {
+    class Object;
     class Class;
     class String;
     class Iterable;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -22,9 +22,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
         class Weight;
+        class QueryVisitor;
         class BooleanClause;
         class IndexSearcher;
       }
@@ -41,15 +41,15 @@ namespace org {
         class BooleanQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_clauses_36830460e10839eb,
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_getMinimumNumberShouldMatch_20fbf7565993c3d7,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
+            mid_clauses_1387e1e2702ac173,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_getMinimumNumberShouldMatch_bd89ce15dad49192,
+            mid_hashCode_bd89ce15dad49192,
+            mid_iterator_c7985fafdcf40e83,
+            mid_rewrite_25984111320dbe39,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
             max_mid
           };
 

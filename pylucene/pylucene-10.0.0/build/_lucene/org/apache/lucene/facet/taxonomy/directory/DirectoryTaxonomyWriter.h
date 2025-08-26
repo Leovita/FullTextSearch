@@ -6,23 +6,23 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace index {
         class IndexWriterConfig$OpenMode;
       }
       namespace facet {
         namespace taxonomy {
           class TaxonomyWriter;
-          class FacetLabel;
-          namespace directory {
-            class DirectoryTaxonomyWriter$OrdinalMap;
-          }
           namespace writercache {
             class TaxonomyWriterCache;
           }
+          namespace directory {
+            class DirectoryTaxonomyWriter$OrdinalMap;
+          }
+          class FacetLabel;
         }
-      }
-      namespace store {
-        class Directory;
       }
     }
   }
@@ -30,14 +30,14 @@ namespace org {
 namespace java {
   namespace lang {
     class Class;
-    class Iterable;
     class String;
-  }
-  namespace util {
-    class Map$Entry;
+    class Iterable;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Map$Entry;
   }
 }
 template<class T> class JArray;
@@ -52,31 +52,31 @@ namespace org {
             class DirectoryTaxonomyWriter : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3c151c130d7f3176,
-                mid_init$_4981915ac617cbab,
-                mid_init$_4963211c8a1ae7b6,
-                mid_addCategory_b886af148d2e9c5a,
-                mid_addTaxonomy_9b940ac8daf723e5,
-                mid_close_3720c61b0679eb3e,
-                mid_commit_16939d9d0a9a9721,
-                mid_defaultTaxonomyWriterCache_709bacafc6de9f0e,
-                mid_getCache_709bacafc6de9f0e,
-                mid_getDirectory_0d3b52699e153434,
-                mid_getLiveCommitData_11d5156a64e3246d,
-                mid_getParent_3c9bba330f083871,
-                mid_getSize_20fbf7565993c3d7,
-                mid_getTaxonomyEpoch_16939d9d0a9a9721,
-                mid_prepareCommit_16939d9d0a9a9721,
-                mid_replaceTaxonomy_3c151c130d7f3176,
-                mid_rollback_3720c61b0679eb3e,
-                mid_setCacheMissesUntilFill_540b2b23d51b1efd,
-                mid_setLiveCommitData_eb4b05d4345caaf0,
-                mid_createIndexWriterConfig_53c6c73834896f5c,
-                mid_openIndexWriter_a713e9a127d4d089,
-                mid_closeResources_3720c61b0679eb3e,
-                mid_findCategory_b886af148d2e9c5a,
-                mid_enrichOrdinalDocument_33e704356989236f,
-                mid_ensureOpen_3720c61b0679eb3e,
+                mid_init$_0bf39a7351552ef4,
+                mid_init$_9c204906620b09b1,
+                mid_init$_854e72c4c9df4c0b,
+                mid_addCategory_36dd33e0173c4244,
+                mid_addTaxonomy_3131de7c4fb3f9e7,
+                mid_close_e7bdbe105ce1bafb,
+                mid_commit_0f176418e3e16541,
+                mid_defaultTaxonomyWriterCache_7e7bbc4efba1fe46,
+                mid_getCache_7e7bbc4efba1fe46,
+                mid_getDirectory_0b8988a9a36f43ec,
+                mid_getLiveCommitData_85e1732aaf0b83f3,
+                mid_getParent_a3904e10f5bb9437,
+                mid_getSize_bd89ce15dad49192,
+                mid_getTaxonomyEpoch_0f176418e3e16541,
+                mid_prepareCommit_0f176418e3e16541,
+                mid_replaceTaxonomy_0bf39a7351552ef4,
+                mid_rollback_e7bdbe105ce1bafb,
+                mid_setCacheMissesUntilFill_8226bd0b0fc13dba,
+                mid_setLiveCommitData_e14ca79f217d88d0,
+                mid_createIndexWriterConfig_67fa0619a4e531cd,
+                mid_openIndexWriter_e979525bd023eee0,
+                mid_closeResources_e7bdbe105ce1bafb,
+                mid_findCategory_36dd33e0173c4244,
+                mid_enrichOrdinalDocument_f1e258f855995777,
+                mid_ensureOpen_e7bdbe105ce1bafb,
                 max_mid
               };
 

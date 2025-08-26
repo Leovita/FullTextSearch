@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/QueryNodeImpl.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,14 +29,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -42,12 +42,12 @@ namespace org {
               class BoostQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_0afa55a05821ec24,
-                  mid_cloneTree_7ba6641ec93d332a,
-                  mid_getChild_7ba6641ec93d332a,
-                  mid_getValue_9b6c3480dac00edf,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_5a5dd4178d43922b,
+                  mid_cloneTree_1a37a44f7f2f5350,
+                  mid_getChild_1a37a44f7f2f5350,
+                  mid_getValue_8b62236f0e4d0dbc,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

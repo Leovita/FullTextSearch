@@ -6,15 +6,15 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class PostingsEnum;
+        class FieldInfo;
+        class ImpactsEnum;
+      }
       namespace store {
         class DataInput;
         class IndexInput;
-      }
-      namespace index {
-        class FieldInfo;
-        class SegmentReadState;
-        class ImpactsEnum;
-        class PostingsEnum;
       }
       namespace codecs {
         class BlockTermState;
@@ -23,12 +23,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -42,15 +42,15 @@ namespace org {
           class Lucene90PostingsReader : public ::org::apache::lucene::codecs::PostingsReaderBase {
            public:
             enum {
-              mid_init$_3a0f0d76cb59d83b,
-              mid_checkIntegrity_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_decodeTerm_c14b3f3bf0df23b2,
-              mid_impacts_4686e942072fa0cb,
-              mid_init_5aeaed4c9b335aa7,
-              mid_newTermState_3bf66c86f1b277c4,
-              mid_postings_c852fee830ddd9aa,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_7865ebfeefbeb536,
+              mid_checkIntegrity_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_decodeTerm_c3dbd9645173728c,
+              mid_impacts_96d8b619eb0f0973,
+              mid_init_ba939baed22f7c47,
+              mid_newTermState_90e39a1aad9f7074,
+              mid_postings_d91efdb4d7782ade,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

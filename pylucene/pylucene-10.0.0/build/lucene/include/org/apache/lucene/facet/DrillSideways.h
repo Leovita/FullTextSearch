@@ -6,42 +6,42 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        class Sort;
-        class FieldDoc;
-        class ScoreDoc;
-        class CollectorManager;
-        class IndexSearcher;
-      }
       namespace facet {
+        class DrillSideways$ConcurrentDrillSidewaysResult;
+        class DrillDownQuery;
         class DrillSideways$DrillSidewaysResult;
-        class DrillSideways$Result;
+        class FacetsConfig;
         namespace sortedset {
           class SortedSetDocValuesReaderState;
         }
-        class FacetsConfig;
         namespace taxonomy {
           class TaxonomyReader;
         }
-        class DrillSideways$ConcurrentDrillSidewaysResult;
-        class DrillDownQuery;
+        class DrillSideways$Result;
+      }
+      namespace search {
+        class Query;
+        class FieldDoc;
+        class Sort;
+        class ScoreDoc;
+        class CollectorManager;
+        class IndexSearcher;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
-    class List;
     namespace concurrent {
       class ExecutorService;
     }
+    class List;
   }
 }
 template<class T> class JArray;
@@ -54,19 +54,19 @@ namespace org {
         class DrillSideways : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_cf611e020b3c52c1,
-            mid_init$_f310bcb2548fc889,
-            mid_init$_00969b7ac9189067,
-            mid_init$_b7aa8201d4550337,
-            mid_search_1371bc7d4b62e858,
-            mid_search_a6c360875b6e3b3a,
-            mid_search_458e307233d87f30,
-            mid_search_06d1b1a315043f1e,
-            mid_search_f88dac844e13a920,
-            mid_scoreSubDocsAtOnce_947277eca0748c4e,
-            mid_createDrillDownFacetsCollectorManager_d2fb57a37cba0e7e,
-            mid_createDrillSidewaysFacetsCollectorManager_d2fb57a37cba0e7e,
-            mid_buildFacetsResult_47053deb2dee2479,
+            mid_init$_d1a979243e340b5a,
+            mid_init$_dc22c8118c9ff056,
+            mid_init$_d2bec1169bf18fe1,
+            mid_init$_ffcdbfc988384b68,
+            mid_search_5e85c6c751005958,
+            mid_search_127ab00c00d4922b,
+            mid_search_7d3e2a448768df24,
+            mid_search_679ec3ac0b7c0199,
+            mid_search_3d473473647109d4,
+            mid_scoreSubDocsAtOnce_9aa4f33e82ea333f,
+            mid_createDrillDownFacetsCollectorManager_cc64f03137799bc3,
+            mid_createDrillSidewaysFacetsCollectorManager_cc64f03137799bc3,
+            mid_buildFacetsResult_1493baac4094820c,
             max_mid
           };
 

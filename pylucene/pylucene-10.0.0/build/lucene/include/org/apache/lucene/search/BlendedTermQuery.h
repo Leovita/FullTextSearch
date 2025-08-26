@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class BlendedTermQuery$RewriteMethod;
+        class QueryVisitor;
         class IndexSearcher;
       }
     }
@@ -16,9 +16,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -34,11 +34,11 @@ namespace org {
         class BlendedTermQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
             max_mid
           };
 

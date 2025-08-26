@@ -22,10 +22,10 @@ namespace org {
           class BaseCharFilter : public ::org::apache::lucene::analysis::CharFilter {
            public:
             enum {
-              mid_init$_fa55492f0f5d7f31,
-              mid_correct_3c9bba330f083871,
-              mid_getLastCumulativeDiff_20fbf7565993c3d7,
-              mid_addOffCorrectMap_e13cff512ebda969,
+              mid_init$_89ab2bee9aa84b00,
+              mid_getLastCumulativeDiff_bd89ce15dad49192,
+              mid_addOffCorrectMap_645c25455f5b9b1c,
+              mid_correct_a3904e10f5bb9437,
               max_mid
             };
 

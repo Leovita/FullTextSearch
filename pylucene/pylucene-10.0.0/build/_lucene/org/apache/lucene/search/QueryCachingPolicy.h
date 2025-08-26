@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class Query;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,8 +30,8 @@ namespace org {
         class QueryCachingPolicy : public ::java::lang::Object {
          public:
           enum {
-            mid_onUse_d7278af460a7b96a,
-            mid_shouldCache_d00a8af12757838c,
+            mid_onUse_a28ff1cdbaf0bf6c,
+            mid_shouldCache_adfff59bd14791e2,
             max_mid
           };
 

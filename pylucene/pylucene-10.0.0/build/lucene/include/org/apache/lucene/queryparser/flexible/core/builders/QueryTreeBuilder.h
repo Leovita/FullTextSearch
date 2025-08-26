@@ -3,30 +3,30 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace queryparser {
         namespace flexible {
           namespace core {
-            namespace nodes {
-              class QueryNode;
-            }
             namespace builders {
               class QueryBuilder;
             }
             class QueryNodeException;
+            namespace nodes {
+              class QueryNode;
+            }
           }
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
   }
 }
 template<class T> class JArray;
@@ -42,10 +42,10 @@ namespace org {
               class QueryTreeBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_build_9980026773de1f5d,
-                  mid_setBuilder_620ca598d47222b6,
-                  mid_setBuilder_96360a99c82d993f,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_build_a8677244bcb61e5f,
+                  mid_setBuilder_23a4fea6d47a652c,
+                  mid_setBuilder_68fec2f7f9f69cf4,
                   max_mid
                 };
 

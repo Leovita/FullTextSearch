@@ -32,8 +32,8 @@ namespace org {
           class CompressionMode : public ::java::lang::Object {
            public:
             enum {
-              mid_newCompressor_11aceb73d2617fb4,
-              mid_newDecompressor_8d4c813b15f3e002,
+              mid_newCompressor_e175d8b9e226dd0e,
+              mid_newDecompressor_fe18d09a76193c79,
               max_mid
             };
 

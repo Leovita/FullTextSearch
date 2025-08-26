@@ -27,11 +27,11 @@ namespace org {
           class HTMLStripCharFilter : public ::org::apache::lucene::analysis::charfilter::BaseCharFilter {
            public:
             enum {
-              mid_init$_fa55492f0f5d7f31,
-              mid_init$_27093434f6b72c64,
-              mid_close_3720c61b0679eb3e,
-              mid_read_20fbf7565993c3d7,
-              mid_read_db543c1e894f3140,
+              mid_init$_89ab2bee9aa84b00,
+              mid_init$_2411e97fb98386ff,
+              mid_close_e7bdbe105ce1bafb,
+              mid_read_bd89ce15dad49192,
+              mid_read_872baf22ed11fbaa,
               max_mid
             };
 

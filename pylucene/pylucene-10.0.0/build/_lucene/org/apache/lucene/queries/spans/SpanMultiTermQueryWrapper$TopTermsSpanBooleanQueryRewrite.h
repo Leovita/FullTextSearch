@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/queries/spans/SpanMultiTermQueryWrapper$SpanRewriteMethod.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,15 +27,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Object;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -38,11 +38,11 @@ namespace org {
           class SpanMultiTermQueryWrapper$TopTermsSpanBooleanQueryRewrite : public ::org::apache::lucene::queries::spans::SpanMultiTermQueryWrapper$SpanRewriteMethod {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_equals_570b5248a6da3ef6,
-              mid_getSize_20fbf7565993c3d7,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rewrite_0424510fe17059ea,
+              mid_init$_8226bd0b0fc13dba,
+              mid_equals_00d17418847797d4,
+              mid_getSize_bd89ce15dad49192,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rewrite_aaec0b2f503b1e20,
               max_mid
             };
 

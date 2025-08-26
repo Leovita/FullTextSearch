@@ -3,6 +3,17 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/AndQueryNode.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,17 +32,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
-  }
-  namespace util {
-    class List;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -45,14 +45,14 @@ namespace org {
               class AnyQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::AndQueryNode {
                public:
                 enum {
-                  mid_init$_c35d0f530b5740cf,
-                  mid_cloneTree_7ba6641ec93d332a,
-                  mid_getField_373f0038978f926b,
-                  mid_getFieldAsString_09a7afff1868fc5e,
-                  mid_getMinimumMatchingElements_20fbf7565993c3d7,
-                  mid_setField_5ed8eb2e3024c663,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_b484d0e4dfb245dc,
+                  mid_cloneTree_1a37a44f7f2f5350,
+                  mid_getField_f2e5418fe0d66c69,
+                  mid_getFieldAsString_e7df854526d67fa3,
+                  mid_getMinimumMatchingElements_bd89ce15dad49192,
+                  mid_setField_fe2ab7d27aa3fe1a,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

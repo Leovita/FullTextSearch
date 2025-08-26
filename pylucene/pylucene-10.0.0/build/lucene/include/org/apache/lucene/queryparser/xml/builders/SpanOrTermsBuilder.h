@@ -34,7 +34,7 @@ namespace org {
             class SpanOrTermsBuilder : public ::org::apache::lucene::queryparser::xml::builders::SpanBuilderBase {
              public:
               enum {
-                mid_init$_07cd0f76cabcf75a,
+                mid_init$_1aaca852402a5069,
                 max_mid
               };
 

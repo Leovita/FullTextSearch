@@ -3,27 +3,27 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class Collection;
-    class List;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
         namespace matchhighlight {
-          class MatchHighlighter$FieldValueHighlighter;
-          class OffsetRange;
           class MatchHighlighter$QueryOffsetRange;
+          class OffsetRange;
+          class MatchHighlighter$FieldValueHighlighter;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class Collection;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
           class MatchHighlighter$FieldValueHighlighter : public ::java::lang::Object {
            public:
             enum {
-              mid_alwaysFetchedFields_aa58b3beec16cbbd,
-              mid_format_c8c8b5629093fec6,
-              mid_isApplicable_65537d1c9b4b0498,
-              mid_or_05573c68f7c3ae7a,
+              mid_alwaysFetchedFields_4a269b968b3a511f,
+              mid_format_81d754d28d25cd6d,
+              mid_isApplicable_33c7d9e5bcac203c,
+              mid_or_675ad7b37d81cec0,
               max_mid
             };
 

@@ -3,25 +3,25 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class TokenStream;
+      }
       namespace search {
         namespace highlight {
           class QueryScorer;
           class Fragmenter;
         }
       }
-      namespace analysis {
-        class TokenStream;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -35,10 +35,10 @@ namespace org {
           class SimpleSpanFragmenter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b62c3e8fc801a1b3,
-              mid_init$_6a01e66131f30343,
-              mid_isNewFragment_947277eca0748c4e,
-              mid_start_5300007aee41849a,
+              mid_init$_01ffb47adcd4f670,
+              mid_init$_cf680678aeeada55,
+              mid_isNewFragment_9aa4f33e82ea333f,
+              mid_start_695328e8af0f010c,
               max_mid
             };
 

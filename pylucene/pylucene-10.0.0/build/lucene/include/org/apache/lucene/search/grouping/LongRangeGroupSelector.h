@@ -7,14 +7,14 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
         namespace grouping {
-          class GroupSelector$State;
           class SearchGroup;
           class LongRange;
+          class GroupSelector$State;
           class LongRangeFactory;
         }
         class LongValuesSource;
+        class Scorable;
       }
       namespace index {
         class LeafReaderContext;
@@ -23,14 +23,14 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -44,13 +44,13 @@ namespace org {
           class LongRangeGroupSelector : public ::org::apache::lucene::search::grouping::GroupSelector {
            public:
             enum {
-              mid_init$_74e1ee38edf66f8c,
-              mid_advanceTo_f1eafbb57835401c,
-              mid_copyValue_bd201b973ae4bc45,
-              mid_currentValue_bd201b973ae4bc45,
-              mid_setGroups_40eba2cff967cc45,
-              mid_setNextReader_b7b06dce0a4097ed,
-              mid_setScorer_dd42dde4c0a7db1e,
+              mid_init$_7e3be84a0e907535,
+              mid_advanceTo_15b8933896566317,
+              mid_copyValue_8598066985f01307,
+              mid_currentValue_8598066985f01307,
+              mid_setGroups_b5398b431eb321fb,
+              mid_setNextReader_32243afefe6b151f,
+              mid_setScorer_c06bdf7d53c6460a,
               max_mid
             };
 

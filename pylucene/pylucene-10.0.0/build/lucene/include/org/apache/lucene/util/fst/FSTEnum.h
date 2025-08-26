@@ -19,12 +19,12 @@ namespace org {
           class FSTEnum : public ::java::lang::Object {
            public:
             enum {
-              mid_doNext_3720c61b0679eb3e,
-              mid_doSeekCeil_3720c61b0679eb3e,
-              mid_getTargetLabel_20fbf7565993c3d7,
-              mid_getCurrentLabel_20fbf7565993c3d7,
-              mid_setCurrentLabel_540b2b23d51b1efd,
-              mid_grow_3720c61b0679eb3e,
+              mid_doNext_e7bdbe105ce1bafb,
+              mid_doSeekCeil_e7bdbe105ce1bafb,
+              mid_getTargetLabel_bd89ce15dad49192,
+              mid_getCurrentLabel_bd89ce15dad49192,
+              mid_setCurrentLabel_8226bd0b0fc13dba,
+              mid_grow_e7bdbe105ce1bafb,
               max_mid
             };
 

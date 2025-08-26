@@ -28,8 +28,8 @@ namespace org {
         class SortField$Type : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_fee097125ded6f4a,
-            mid_values_b7977b6ca7613bad,
+            mid_valueOf_3e895841d078ace9,
+            mid_values_99e472fd5547c688,
             max_mid
           };
 

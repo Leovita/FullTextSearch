@@ -27,10 +27,10 @@ namespace org {
         class PagedBytes$PagedBytesDataOutput : public ::org::apache::lucene::store::DataOutput {
          public:
           enum {
-            mid_init$_4d3ce72afaf37553,
-            mid_getPosition_16939d9d0a9a9721,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_5fdd5da9426708e6,
+            mid_init$_867150302eeff035,
+            mid_getPosition_0f176418e3e16541,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_116f7fcb5bff0f39,
             max_mid
           };
 

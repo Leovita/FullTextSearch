@@ -31,20 +31,20 @@ namespace org {
         class FieldInvertState : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_0963ceb49433c6ea,
-            mid_init$_45216f93381f9e59,
-            mid_getAttributeSource_ee6fc324885c7c07,
-            mid_getIndexCreatedVersionMajor_20fbf7565993c3d7,
-            mid_getIndexOptions_0d9f22852de1dba6,
-            mid_getLength_20fbf7565993c3d7,
-            mid_getMaxTermFrequency_20fbf7565993c3d7,
-            mid_getName_09a7afff1868fc5e,
-            mid_getNumOverlap_20fbf7565993c3d7,
-            mid_getOffset_20fbf7565993c3d7,
-            mid_getPosition_20fbf7565993c3d7,
-            mid_getUniqueTermCount_20fbf7565993c3d7,
-            mid_setLength_540b2b23d51b1efd,
-            mid_setNumOverlap_540b2b23d51b1efd,
+            mid_init$_9c8fff0cbe5dc2cc,
+            mid_init$_e33f1980a2a9878d,
+            mid_getAttributeSource_cdef0e51a2510793,
+            mid_getIndexCreatedVersionMajor_bd89ce15dad49192,
+            mid_getIndexOptions_898aff4631b0024a,
+            mid_getLength_bd89ce15dad49192,
+            mid_getMaxTermFrequency_bd89ce15dad49192,
+            mid_getName_e7df854526d67fa3,
+            mid_getNumOverlap_bd89ce15dad49192,
+            mid_getOffset_bd89ce15dad49192,
+            mid_getPosition_bd89ce15dad49192,
+            mid_getUniqueTermCount_bd89ce15dad49192,
+            mid_setLength_8226bd0b0fc13dba,
+            mid_setNumOverlap_8226bd0b0fc13dba,
             max_mid
           };
 

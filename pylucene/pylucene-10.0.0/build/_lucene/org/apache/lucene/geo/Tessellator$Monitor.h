@@ -3,16 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace geo {
-        class Point;
-        class Tessellator$Triangle;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -20,6 +10,16 @@ namespace java {
   }
   namespace util {
     class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace geo {
+        class Tessellator$Triangle;
+        class Point;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -32,9 +32,9 @@ namespace org {
         class Tessellator$Monitor : public ::java::lang::Object {
          public:
           enum {
-            mid_currentState_feb75d933ad5cac6,
-            mid_endSplit_0d82408c6e55bc30,
-            mid_startSplit_feb75d933ad5cac6,
+            mid_currentState_df232b549cc81b3b,
+            mid_endSplit_ee46a189998009d6,
+            mid_startSplit_df232b549cc81b3b,
             max_mid
           };
 

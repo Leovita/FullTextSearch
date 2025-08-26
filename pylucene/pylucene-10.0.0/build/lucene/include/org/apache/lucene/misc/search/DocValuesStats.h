@@ -20,14 +20,14 @@ namespace org {
           class DocValuesStats : public ::java::lang::Object {
            public:
             enum {
-              mid_count_20fbf7565993c3d7,
-              mid_field_09a7afff1868fc5e,
-              mid_max_5655ed8670534604,
-              mid_min_5655ed8670534604,
-              mid_missing_20fbf7565993c3d7,
-              mid_doAccumulate_540b2b23d51b1efd,
-              mid_init_03101e9518c66be0,
-              mid_hasValue_ae22d3a856ad56f1,
+              mid_count_bd89ce15dad49192,
+              mid_field_e7df854526d67fa3,
+              mid_max_4819806f62f1360a,
+              mid_min_4819806f62f1360a,
+              mid_missing_bd89ce15dad49192,
+              mid_doAccumulate_8226bd0b0fc13dba,
+              mid_init_8e9f6225f14d0ebe,
+              mid_hasValue_a8281eb3b9d9672d,
               max_mid
             };
 

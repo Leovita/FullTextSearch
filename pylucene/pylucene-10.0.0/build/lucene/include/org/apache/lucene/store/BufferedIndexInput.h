@@ -4,20 +4,20 @@
 #include "org/apache/lucene/store/IndexInput.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class BufferedIndexInput;
         class RandomAccessInput;
+        class BufferedIndexInput;
         class IOContext;
       }
     }
@@ -33,33 +33,33 @@ namespace org {
         class BufferedIndexInput : public ::org::apache::lucene::store::IndexInput {
          public:
           enum {
-            mid_init$_0d82408c6e55bc30,
-            mid_init$_e41903e0c61b1b8d,
-            mid_init$_a5140b013bba694a,
-            mid_bufferSize_41b14630658717ac,
-            mid_clone_48e28735240f5124,
-            mid_getBufferSize_20fbf7565993c3d7,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_readByte_847674f430f49e4c,
-            mid_readByte_2a9a6e154cb14e58,
-            mid_readBytes_5fdd5da9426708e6,
-            mid_readBytes_8ca6ba058aa9701b,
-            mid_readBytes_ded37dfd7b9f37c4,
-            mid_readFloats_e895d5e6b13d4d50,
-            mid_readGroupVInt_70e26db984971679,
-            mid_readInt_20fbf7565993c3d7,
-            mid_readInt_35c872f03f347c10,
-            mid_readInts_ad090cb6070ea6a2,
-            mid_readLong_16939d9d0a9a9721,
-            mid_readLong_91d66fa3ea476cea,
-            mid_readLongs_f3cd87eda3d12dc6,
-            mid_readShort_21ad82099ac5d56c,
-            mid_readShort_60f7d07ba3ea1177,
-            mid_seek_8b3d46852b435a94,
-            mid_slice_4c0286d0c02e55b3,
-            mid_wrap_97a452954446449b,
-            mid_readInternal_2edbab4eb1690b47,
-            mid_seekInternal_8b3d46852b435a94,
+            mid_init$_ee46a189998009d6,
+            mid_init$_1aa676c7c47306c5,
+            mid_init$_49e27e98009acf15,
+            mid_bufferSize_ba9bb96272cb0c97,
+            mid_clone_cb3967eb6eacc1e4,
+            mid_getBufferSize_bd89ce15dad49192,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_readByte_1456044a01a5c9bf,
+            mid_readByte_cb04f80b25dc941d,
+            mid_readBytes_116f7fcb5bff0f39,
+            mid_readBytes_c802d561b0b0b5a6,
+            mid_readBytes_da091ec7fbc87f01,
+            mid_readFloats_a1c18faad4aff7a1,
+            mid_readGroupVInt_e28d84b49af388d8,
+            mid_readInt_bd89ce15dad49192,
+            mid_readInt_7af44747c1921bd4,
+            mid_readInts_57da58ead958e473,
+            mid_readLong_0f176418e3e16541,
+            mid_readLong_3dc1c6e3a5a0baf0,
+            mid_readLongs_2a4a0e3eb510f108,
+            mid_readShort_ae7a5bcb127748fd,
+            mid_readShort_d0da64abd2ba9d05,
+            mid_seek_1d3149fac12f2af3,
+            mid_slice_fa5539b2c5f0192d,
+            mid_wrap_d6f7dc2e0e23c6d5,
+            mid_readInternal_bbc658db99820977,
+            mid_seekInternal_1d3149fac12f2af3,
             max_mid
           };
 

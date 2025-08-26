@@ -4,17 +4,17 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class Class;
-    class Runnable;
-  }
   namespace util {
     namespace concurrent {
+      class ThreadFactory;
       class ScheduledExecutorService;
       class ExecutorService;
-      class ThreadFactory;
       class Callable;
     }
+  }
+  namespace lang {
+    class Runnable;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -26,28 +26,28 @@ namespace java {
       class Executors : public ::java::lang::Object {
        public:
         enum {
-          mid_callable_65b38de82e8bfc12,
-          mid_callable_510a1f98ca28742f,
-          mid_defaultThreadFactory_e2e07c8857a89752,
-          mid_newCachedThreadPool_c4bef0fbb7bfa425,
-          mid_newCachedThreadPool_6fe08c5f09286bf9,
-          mid_newFixedThreadPool_55ea6f1f709d36c4,
-          mid_newFixedThreadPool_2befc4e515c0eec9,
-          mid_newScheduledThreadPool_b20e3a51527965e2,
-          mid_newScheduledThreadPool_81aca88b1df67eb4,
-          mid_newSingleThreadExecutor_c4bef0fbb7bfa425,
-          mid_newSingleThreadExecutor_6fe08c5f09286bf9,
-          mid_newSingleThreadScheduledExecutor_d1c9a0ccba899a6f,
-          mid_newSingleThreadScheduledExecutor_e9fe55e924c86b2b,
-          mid_newThreadPerTaskExecutor_6fe08c5f09286bf9,
-          mid_newVirtualThreadPerTaskExecutor_c4bef0fbb7bfa425,
-          mid_newWorkStealingPool_c4bef0fbb7bfa425,
-          mid_newWorkStealingPool_55ea6f1f709d36c4,
-          mid_privilegedCallable_0b73a589723790b7,
-          mid_privilegedCallableUsingCurrentClassLoader_0b73a589723790b7,
-          mid_privilegedThreadFactory_e2e07c8857a89752,
-          mid_unconfigurableExecutorService_29e077f830498b12,
-          mid_unconfigurableScheduledExecutorService_96910f531edccc88,
+          mid_callable_e6a94bbe0074f428,
+          mid_callable_6ddf67f78b35c9eb,
+          mid_defaultThreadFactory_5a599cf6c7f00f1e,
+          mid_newCachedThreadPool_2f27d22d9c4c8538,
+          mid_newCachedThreadPool_7c207395706e3715,
+          mid_newFixedThreadPool_ef576ea3debd6792,
+          mid_newFixedThreadPool_a22d3f32126e25eb,
+          mid_newScheduledThreadPool_140aa94794707a55,
+          mid_newScheduledThreadPool_c583760abca3645f,
+          mid_newSingleThreadExecutor_2f27d22d9c4c8538,
+          mid_newSingleThreadExecutor_7c207395706e3715,
+          mid_newSingleThreadScheduledExecutor_fe64a3e3ae93064d,
+          mid_newSingleThreadScheduledExecutor_47f02dff1b4ceed7,
+          mid_newThreadPerTaskExecutor_7c207395706e3715,
+          mid_newVirtualThreadPerTaskExecutor_2f27d22d9c4c8538,
+          mid_newWorkStealingPool_2f27d22d9c4c8538,
+          mid_newWorkStealingPool_ef576ea3debd6792,
+          mid_privilegedCallable_f83c08a3fc95808e,
+          mid_privilegedCallableUsingCurrentClassLoader_f83c08a3fc95808e,
+          mid_privilegedThreadFactory_5a599cf6c7f00f1e,
+          mid_unconfigurableExecutorService_cee2900a0324a64e,
+          mid_unconfigurableScheduledExecutorService_7cd46880e0ac381a,
           max_mid
         };
 

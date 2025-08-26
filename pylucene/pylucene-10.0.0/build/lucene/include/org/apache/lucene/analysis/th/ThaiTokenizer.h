@@ -28,10 +28,10 @@ namespace org {
           class ThaiTokenizer : public ::org::apache::lucene::analysis::util::SegmentingTokenizerBase {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_d7660885ec4170d8,
-              mid_setNextSentence_e13cff512ebda969,
-              mid_incrementWord_947277eca0748c4e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_cf56ef8c7a468300,
+              mid_setNextSentence_645c25455f5b9b1c,
+              mid_incrementWord_9aa4f33e82ea333f,
               max_mid
             };
 

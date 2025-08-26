@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/analysis/TokenFilterFactory.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Map;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class ResourceLoader;
         class ResourceLoaderAware;
+        class ResourceLoader;
       }
       namespace analysis {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
   }
 }
 template<class T> class JArray;
@@ -39,11 +39,11 @@ namespace org {
           class StemmerOverrideFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_2ec4d1726b35d478,
-              mid_inform_6addbf380886844e,
-              mid_isIgnoreCase_947277eca0748c4e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_f3e050e998938273,
+              mid_inform_4ba602df53b96765,
+              mid_isIgnoreCase_9aa4f33e82ea333f,
               max_mid
             };
 

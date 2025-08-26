@@ -5,23 +5,23 @@
 
 namespace java {
   namespace lang {
-    class IllegalAccessException;
-    class ClassNotFoundException;
-    class Class;
-    class String;
-    class InstantiationException;
-    class Package;
-    class Module;
-    class ClassLoader;
     class SecurityException;
+    class String;
+    class Class;
+    class IllegalAccessException;
+    class Module;
+    class ClassNotFoundException;
+    class Package;
+    class ClassLoader;
+    class InstantiationException;
   }
   namespace io {
     class InputStream;
     class Serializable;
   }
   namespace util {
-    class Set;
     class Optional;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -32,56 +32,56 @@ namespace java {
     class Class : public ::java::lang::Object {
      public:
       enum {
-        mid_arrayType_8b9fee113c1a0b81,
-        mid_asSubclass_4819f4605c0ada85,
-        mid_cast_5fd81664d2d475e1,
-        mid_componentType_8b9fee113c1a0b81,
-        mid_descriptorString_09a7afff1868fc5e,
-        mid_desiredAssertionStatus_947277eca0748c4e,
-        mid_forName_f5e647a8ccc975d0,
-        mid_forName_bccb69b8568038f2,
-        mid_forName_a504bdd1f956ae80,
-        mid_getCanonicalName_09a7afff1868fc5e,
-        mid_getClassLoader_c8c017ac4e9c9110,
-        mid_getClasses_c90261fb9ae27a0d,
-        mid_getComponentType_8b9fee113c1a0b81,
-        mid_getDeclaredClasses_c90261fb9ae27a0d,
-        mid_getDeclaringClass_8b9fee113c1a0b81,
-        mid_getEnclosingClass_8b9fee113c1a0b81,
-        mid_getEnumConstants_e6b839682a4610a6,
-        mid_getInterfaces_c90261fb9ae27a0d,
-        mid_getModifiers_20fbf7565993c3d7,
-        mid_getModule_48c5241001e44a43,
-        mid_getName_09a7afff1868fc5e,
-        mid_getNestHost_8b9fee113c1a0b81,
-        mid_getNestMembers_c90261fb9ae27a0d,
-        mid_getPackage_569dcfd44d172969,
-        mid_getPackageName_09a7afff1868fc5e,
-        mid_getPermittedSubclasses_c90261fb9ae27a0d,
-        mid_getResourceAsStream_4306cf2226901a47,
-        mid_getSigners_e6b839682a4610a6,
-        mid_getSimpleName_09a7afff1868fc5e,
-        mid_getSuperclass_8b9fee113c1a0b81,
-        mid_getTypeName_09a7afff1868fc5e,
-        mid_isAnnotation_947277eca0748c4e,
-        mid_isAnonymousClass_947277eca0748c4e,
-        mid_isArray_947277eca0748c4e,
-        mid_isAssignableFrom_0be35c16891dfd3c,
-        mid_isEnum_947277eca0748c4e,
-        mid_isHidden_947277eca0748c4e,
-        mid_isInstance_570b5248a6da3ef6,
-        mid_isInterface_947277eca0748c4e,
-        mid_isLocalClass_947277eca0748c4e,
-        mid_isMemberClass_947277eca0748c4e,
-        mid_isNestmateOf_0be35c16891dfd3c,
-        mid_isPrimitive_947277eca0748c4e,
-        mid_isRecord_947277eca0748c4e,
-        mid_isSealed_947277eca0748c4e,
-        mid_isSynthetic_947277eca0748c4e,
-        mid_isUnnamedClass_947277eca0748c4e,
-        mid_newInstance_5655ed8670534604,
-        mid_toGenericString_09a7afff1868fc5e,
-        mid_toString_09a7afff1868fc5e,
+        mid_arrayType_99e3ace59a9dfdb9,
+        mid_asSubclass_9757b18cf2c1e150,
+        mid_cast_e2c45b124c12f4ec,
+        mid_componentType_99e3ace59a9dfdb9,
+        mid_descriptorString_e7df854526d67fa3,
+        mid_desiredAssertionStatus_9aa4f33e82ea333f,
+        mid_forName_34dc63379bcbfa09,
+        mid_forName_121a559fad87c9d8,
+        mid_forName_a4e09dc50561ff10,
+        mid_forPrimitiveName_34dc63379bcbfa09,
+        mid_getCanonicalName_e7df854526d67fa3,
+        mid_getClassLoader_4897d4d2fef89082,
+        mid_getClasses_a0808d604013cf8d,
+        mid_getComponentType_99e3ace59a9dfdb9,
+        mid_getDeclaredClasses_a0808d604013cf8d,
+        mid_getDeclaringClass_99e3ace59a9dfdb9,
+        mid_getEnclosingClass_99e3ace59a9dfdb9,
+        mid_getEnumConstants_1e688954528bc160,
+        mid_getInterfaces_a0808d604013cf8d,
+        mid_getModifiers_bd89ce15dad49192,
+        mid_getModule_46a63e53598d2664,
+        mid_getName_e7df854526d67fa3,
+        mid_getNestHost_99e3ace59a9dfdb9,
+        mid_getNestMembers_a0808d604013cf8d,
+        mid_getPackage_fc67730034bbb751,
+        mid_getPackageName_e7df854526d67fa3,
+        mid_getPermittedSubclasses_a0808d604013cf8d,
+        mid_getResourceAsStream_9bd3a7bffb83deee,
+        mid_getSigners_1e688954528bc160,
+        mid_getSimpleName_e7df854526d67fa3,
+        mid_getSuperclass_99e3ace59a9dfdb9,
+        mid_getTypeName_e7df854526d67fa3,
+        mid_isAnnotation_9aa4f33e82ea333f,
+        mid_isAnonymousClass_9aa4f33e82ea333f,
+        mid_isArray_9aa4f33e82ea333f,
+        mid_isAssignableFrom_4c29bd646fc74404,
+        mid_isEnum_9aa4f33e82ea333f,
+        mid_isHidden_9aa4f33e82ea333f,
+        mid_isInstance_00d17418847797d4,
+        mid_isInterface_9aa4f33e82ea333f,
+        mid_isLocalClass_9aa4f33e82ea333f,
+        mid_isMemberClass_9aa4f33e82ea333f,
+        mid_isNestmateOf_4c29bd646fc74404,
+        mid_isPrimitive_9aa4f33e82ea333f,
+        mid_isRecord_9aa4f33e82ea333f,
+        mid_isSealed_9aa4f33e82ea333f,
+        mid_isSynthetic_9aa4f33e82ea333f,
+        mid_newInstance_4819806f62f1360a,
+        mid_toGenericString_e7df854526d67fa3,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 
@@ -105,6 +105,7 @@ namespace java {
       static Class forName(const ::java::lang::String &);
       static Class forName(const ::java::lang::Module &, const ::java::lang::String &);
       static Class forName(const ::java::lang::String &, jboolean, const ::java::lang::ClassLoader &);
+      static Class forPrimitiveName(const ::java::lang::String &);
       ::java::lang::String getCanonicalName() const;
       ::java::lang::ClassLoader getClassLoader() const;
       JArray< Class > getClasses() const;
@@ -142,7 +143,6 @@ namespace java {
       jboolean isRecord() const;
       jboolean isSealed() const;
       jboolean isSynthetic() const;
-      jboolean isUnnamedClass() const;
       ::java::lang::Object newInstance() const;
       ::java::lang::String toGenericString() const;
       ::java::lang::String toString() const;

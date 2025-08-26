@@ -4,14 +4,14 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
   namespace nio {
     namespace file {
       class Path;
     }
+  }
+  namespace lang {
+    class String;
+    class Class;
   }
   namespace io {
     class IOException;
@@ -29,8 +29,8 @@ namespace org {
             class DictionaryBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_build_a01d27feb4a5db73,
-                mid_main_ce41e621b30e91b1,
+                mid_build_2c195629eda12bed,
+                mid_main_1f90f2fcbe43e50d,
                 max_mid
               };
 

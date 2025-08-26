@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
-    class Class;
-    class String;
     class Cloneable;
+    class String;
+    class Class;
     class StringBuffer;
   }
   namespace io {
@@ -22,9 +22,9 @@ namespace java {
     class Format : public ::java::lang::Object {
      public:
       enum {
-        mid_clone_5655ed8670534604,
-        mid_format_a6472d0c4a2d4dc6,
-        mid_parseObject_e5cf973b773e2999,
+        mid_clone_4819806f62f1360a,
+        mid_format_5f92096499c6603e,
+        mid_parseObject_a78a91e32cc37c7c,
         max_mid
       };
 

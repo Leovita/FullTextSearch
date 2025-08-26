@@ -17,7 +17,7 @@ namespace java {
       class LongToDoubleFunction : public ::java::lang::Object {
        public:
         enum {
-          mid_applyAsDouble_212c665780cd8e77,
+          mid_applyAsDouble_1f153cac77223155,
           max_mid
         };
 

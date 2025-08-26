@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Fields;
-        class SegmentInfo;
-        class FieldInfos;
-      }
       namespace store {
-        class IOContext;
         class Directory;
+        class IOContext;
+      }
+      namespace index {
+        class SegmentInfo;
+        class Fields;
+        class FieldInfos;
       }
       namespace codecs {
         namespace compressing {
@@ -24,12 +24,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -44,14 +44,14 @@ namespace org {
             class Lucene90CompressingTermVectorsReader : public ::org::apache::lucene::codecs::TermVectorsReader {
              public:
               enum {
-                mid_init$_91ac17f9b9a8045f,
-                mid_checkIntegrity_3720c61b0679eb3e,
-                mid_clone_0b9ae2ecfa80c759,
-                mid_close_3720c61b0679eb3e,
-                mid_get_780247cb7111176e,
-                mid_getMergeInstance_0b9ae2ecfa80c759,
-                mid_prefetch_540b2b23d51b1efd,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_c242a826fb0f11b7,
+                mid_checkIntegrity_e7bdbe105ce1bafb,
+                mid_clone_7a10ef35062ba8d1,
+                mid_close_e7bdbe105ce1bafb,
+                mid_get_fb85108cc18b1699,
+                mid_getMergeInstance_7a10ef35062ba8d1,
+                mid_prefetch_8226bd0b0fc13dba,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

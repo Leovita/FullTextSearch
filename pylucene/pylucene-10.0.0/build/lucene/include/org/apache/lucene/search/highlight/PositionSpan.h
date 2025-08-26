@@ -19,7 +19,7 @@ namespace org {
           class PositionSpan : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_e13cff512ebda969,
+              mid_init$_645c25455f5b9b1c,
               max_mid
             };
 

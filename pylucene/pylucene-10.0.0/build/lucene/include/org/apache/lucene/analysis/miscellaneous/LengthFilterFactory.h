@@ -3,6 +3,18 @@
 
 #include "org/apache/lucene/analysis/TokenFilterFactory.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        namespace miscellaneous {
+          class LengthFilter;
+        }
+        class TokenStream;
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
     class Class;
@@ -10,18 +22,6 @@ namespace java {
   }
   namespace util {
     class Map;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        class TokenStream;
-        namespace miscellaneous {
-          class LengthFilter;
-        }
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
           class LengthFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_f7d1e62ceec00018,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_ab958f2e121da855,
               max_mid
             };
 

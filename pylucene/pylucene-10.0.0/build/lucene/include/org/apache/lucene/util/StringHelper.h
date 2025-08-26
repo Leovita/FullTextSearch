@@ -3,20 +3,20 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class IntsRef;
         class BytesRef;
+        class IntsRef;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,16 +29,16 @@ namespace org {
         class StringHelper : public ::java::lang::Object {
          public:
           enum {
-            mid_bytesDifference_c605ddf1ef691f34,
-            mid_endsWith_4f661ad29dd313e4,
-            mid_idToString_6629ab823d439f65,
-            mid_intsRefToBytesRef_899c5d86dd0256eb,
-            mid_murmurhash3_x86_32_8b200667d2230cfc,
-            mid_murmurhash3_x86_32_5812dacb3de72816,
-            mid_randomId_5560da88fc44aa82,
-            mid_sortKeyLength_c605ddf1ef691f34,
-            mid_startsWith_3cdc1e532145fc06,
-            mid_startsWith_4f661ad29dd313e4,
+            mid_bytesDifference_a0fa18546e6b17ce,
+            mid_endsWith_e1f6fb62db0d00cc,
+            mid_idToString_e16a141122e42829,
+            mid_intsRefToBytesRef_48eda4c764fb9d1d,
+            mid_murmurhash3_x86_32_2bfb2622d112f52f,
+            mid_murmurhash3_x86_32_33b6b40a1d01b320,
+            mid_randomId_44e916dc40fc04cb,
+            mid_sortKeyLength_a0fa18546e6b17ce,
+            mid_startsWith_1bd0d86e59b7f4d6,
+            mid_startsWith_e1f6fb62db0d00cc,
             max_mid
           };
 

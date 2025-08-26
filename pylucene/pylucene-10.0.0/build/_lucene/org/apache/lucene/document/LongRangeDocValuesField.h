@@ -28,10 +28,10 @@ namespace org {
         class LongRangeDocValuesField : public ::org::apache::lucene::document::BinaryRangeDocValuesField {
          public:
           enum {
-            mid_init$_3f569b0deb60acc0,
-            mid_getMax_7b22650fccb5d574,
-            mid_getMin_7b22650fccb5d574,
-            mid_newSlowIntersectsQuery_2e1f01af3550a891,
+            mid_init$_e89bb31d1592d697,
+            mid_getMax_49af390f180d8ee7,
+            mid_getMin_49af390f180d8ee7,
+            mid_newSlowIntersectsQuery_83653169e610b239,
             max_mid
           };
 

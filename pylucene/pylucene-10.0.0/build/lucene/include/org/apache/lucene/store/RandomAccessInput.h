@@ -21,13 +21,13 @@ namespace org {
         class RandomAccessInput : public ::java::lang::Object {
          public:
           enum {
-            mid_length_16939d9d0a9a9721,
-            mid_prefetch_c3501637982a28bc,
-            mid_readByte_2a9a6e154cb14e58,
-            mid_readBytes_ded37dfd7b9f37c4,
-            mid_readInt_35c872f03f347c10,
-            mid_readLong_91d66fa3ea476cea,
-            mid_readShort_60f7d07ba3ea1177,
+            mid_length_0f176418e3e16541,
+            mid_prefetch_9ebf8c93de5f0fe1,
+            mid_readByte_cb04f80b25dc941d,
+            mid_readBytes_da091ec7fbc87f01,
+            mid_readInt_7af44747c1921bd4,
+            mid_readLong_3dc1c6e3a5a0baf0,
+            mid_readShort_d0da64abd2ba9d05,
             max_mid
           };
 

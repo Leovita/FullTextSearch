@@ -18,7 +18,7 @@ namespace org {
         class IndexSorter$DocComparator : public ::java::lang::Object {
          public:
           enum {
-            mid_compare_7f733b5d08bb5ec4,
+            mid_compare_7f27cf81a85a97e9,
             max_mid
           };
 

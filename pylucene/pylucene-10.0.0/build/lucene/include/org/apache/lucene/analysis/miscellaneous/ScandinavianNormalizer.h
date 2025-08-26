@@ -33,8 +33,8 @@ namespace org {
           class ScandinavianNormalizer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_1d5d4c6f11d1b2ab,
-              mid_processToken_9a7f8b7fc7b277ea,
+              mid_init$_478519f7d4301fc7,
+              mid_processToken_7146aefdd22b4b29,
               max_mid
             };
 

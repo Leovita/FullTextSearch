@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace index {
         class IndexReader;
       }
       namespace analysis {
         class Analyzer;
       }
-      namespace store {
-        class Directory;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,8 +38,8 @@ namespace org {
           class DatasetSplitter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_e57e4ffd06f0f841,
-              mid_split_34dcaaf57d4c4186,
+              mid_init$_fa06324555fd7858,
+              mid_split_484aaba9c42f58f9,
               max_mid
             };
 

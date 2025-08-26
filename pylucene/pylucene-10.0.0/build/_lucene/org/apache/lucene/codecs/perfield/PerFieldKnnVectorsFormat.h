@@ -6,24 +6,24 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class KnnVectorsReader;
-        class KnnVectorsWriter;
-      }
       namespace index {
         class SegmentReadState;
         class SegmentWriteState;
+      }
+      namespace codecs {
+        class KnnVectorsWriter;
+        class KnnVectorsReader;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
           class PerFieldKnnVectorsFormat : public ::org::apache::lucene::codecs::KnnVectorsFormat {
            public:
             enum {
-              mid_fieldsReader_804fb3f7a48fdbd5,
-              mid_fieldsWriter_9d6535131b264391,
-              mid_getKnnVectorsFormatForField_e43dc95f99c292bf,
-              mid_getMaxDimensions_3f230d713d7fd2b0,
+              mid_fieldsReader_e6e9752d6bb75a3c,
+              mid_fieldsWriter_cb1e4b426784850b,
+              mid_getKnnVectorsFormatForField_a99403b582f28782,
+              mid_getMaxDimensions_fa2a6f298bd618ab,
               max_mid
             };
 

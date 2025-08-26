@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/index/FieldTermIterator.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class BytesRef;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,9 +28,9 @@ namespace org {
         class PrefixCodedTerms$TermIterator : public ::org::apache::lucene::index::FieldTermIterator {
          public:
           enum {
-            mid_delGen_16939d9d0a9a9721,
-            mid_field_09a7afff1868fc5e,
-            mid_next_9740fddd1c7df148,
+            mid_delGen_0f176418e3e16541,
+            mid_field_e7df854526d67fa3,
+            mid_next_adbedbc1fa61c358,
             max_mid
           };
 

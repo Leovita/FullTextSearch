@@ -33,16 +33,16 @@ namespace org {
         class SnapshotDeletionPolicy : public ::org::apache::lucene::index::IndexDeletionPolicy {
          public:
           enum {
-            mid_init$_7eff430ee0fc9ba5,
-            mid_getIndexCommit_da133be75e7ddd70,
-            mid_getSnapshotCount_20fbf7565993c3d7,
-            mid_getSnapshots_36830460e10839eb,
-            mid_onCommit_9425cd4f62c94bce,
-            mid_onInit_9425cd4f62c94bce,
-            mid_release_2b1e61274f0bac24,
-            mid_snapshot_271a09cc45c80524,
-            mid_incRef_2b1e61274f0bac24,
-            mid_releaseGen_8b3d46852b435a94,
+            mid_init$_d4028a7ecf18dc21,
+            mid_getIndexCommit_2acc70b53501640b,
+            mid_getSnapshotCount_bd89ce15dad49192,
+            mid_getSnapshots_1387e1e2702ac173,
+            mid_onCommit_acbb405b60a30822,
+            mid_onInit_acbb405b60a30822,
+            mid_release_8fc5926f74e4489e,
+            mid_snapshot_3f5d748efdffe9e0,
+            mid_releaseGen_1d3149fac12f2af3,
+            mid_incRef_8fc5926f74e4489e,
             max_mid
           };
 

@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class OfflineSorter;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class OfflineSorter$SortInfo : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_7ebd9f62ac88a825,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_43c5c0e986ba2187,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

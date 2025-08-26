@@ -19,7 +19,7 @@ namespace org {
           class ScalarQuantizedVectorSimilarity$ByteVectorComparator : public ::java::lang::Object {
            public:
             enum {
-              mid_compare_15d7e5623d88e7f9,
+              mid_compare_75b7f528788b10ee,
               max_mid
             };
 

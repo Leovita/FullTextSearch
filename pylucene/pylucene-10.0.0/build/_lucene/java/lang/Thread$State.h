@@ -18,8 +18,8 @@ namespace java {
     class Thread$State : public ::java::lang::Enum {
      public:
       enum {
-        mid_valueOf_fd1c0879e9514637,
-        mid_values_863707c9c228cc0c,
+        mid_valueOf_99e6c63eb4107b06,
+        mid_values_d6cd989ae474b09c,
         max_mid
       };
 

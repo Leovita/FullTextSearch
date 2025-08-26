@@ -6,17 +6,17 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace index {
-        class DirectoryReader;
         class IndexReader;
         class IndexWriter;
+        class DirectoryReader;
       }
       namespace search {
         class SearcherFactory;
         class IndexSearcher;
-      }
-      namespace store {
-        class Directory;
       }
     }
   }
@@ -39,16 +39,16 @@ namespace org {
         class SearcherManager : public ::org::apache::lucene::search::ReferenceManager {
          public:
           enum {
-            mid_init$_62926817842f01c9,
-            mid_init$_27c33cf692d70365,
-            mid_init$_bdcbfd03e282a5aa,
-            mid_init$_dc433d95fbc76dad,
-            mid_getSearcher_a2da158af80d6be8,
-            mid_isSearcherCurrent_947277eca0748c4e,
-            mid_decRef_64fdfedb3d23d646,
-            mid_tryIncRef_adc2cfa9c80723e1,
-            mid_getRefCount_c2bd0870c5672a4e,
-            mid_refreshIfNeeded_8e313b89dd23fd2a,
+            mid_init$_e6c4e6c27aabee06,
+            mid_init$_e8dd957f3e103c5c,
+            mid_init$_0b76d356c15ba8c3,
+            mid_init$_1151bcbc24bc7c82,
+            mid_getSearcher_b3a7bfd8853bc8d2,
+            mid_isSearcherCurrent_9aa4f33e82ea333f,
+            mid_decRef_ca121b0bc447f41f,
+            mid_getRefCount_b78cab58a7654f93,
+            mid_refreshIfNeeded_23519a62df157602,
+            mid_tryIncRef_bbbaf9f2f4d0b272,
             max_mid
           };
 

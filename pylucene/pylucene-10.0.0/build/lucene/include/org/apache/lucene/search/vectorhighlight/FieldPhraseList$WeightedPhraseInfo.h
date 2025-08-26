@@ -3,29 +3,29 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Comparable;
-    class Class;
-    class String;
-  }
-  namespace util {
-    class LinkedList;
-    class Collection;
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
         namespace vectorhighlight {
-          class FieldPhraseList$WeightedPhraseInfo$Toffs;
           class FieldPhraseList$WeightedPhraseInfo;
+          class FieldPhraseList$WeightedPhraseInfo$Toffs;
           class FieldTermStack$TermInfo;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class Comparable;
+  }
+  namespace util {
+    class Collection;
+    class LinkedList;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -39,21 +39,21 @@ namespace org {
           class FieldPhraseList$WeightedPhraseInfo : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_40eba2cff967cc45,
-              mid_init$_343863c57677a758,
-              mid_init$_474bb29b8d514263,
-              mid_compareTo_0a2b1425c538db16,
-              mid_equals_570b5248a6da3ef6,
-              mid_getBoost_9b6c3480dac00edf,
-              mid_getEndOffset_20fbf7565993c3d7,
-              mid_getSeqnum_20fbf7565993c3d7,
-              mid_getStartOffset_20fbf7565993c3d7,
-              mid_getTermsInfos_36830460e10839eb,
-              mid_getTermsOffsets_36830460e10839eb,
-              mid_getText_09a7afff1868fc5e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isOffsetOverlap_c982dfae987751f9,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_b5398b431eb321fb,
+              mid_init$_b1f01c8252976973,
+              mid_init$_30ce6c56607f14c3,
+              mid_compareTo_4041bbbf06699981,
+              mid_equals_00d17418847797d4,
+              mid_getBoost_8b62236f0e4d0dbc,
+              mid_getEndOffset_bd89ce15dad49192,
+              mid_getSeqnum_bd89ce15dad49192,
+              mid_getStartOffset_bd89ce15dad49192,
+              mid_getTermsInfos_1387e1e2702ac173,
+              mid_getTermsOffsets_1387e1e2702ac173,
+              mid_getText_e7df854526d67fa3,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isOffsetOverlap_0260e0ee34ec192a,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class NumericDocValues;
         class LeafReader;
+        class NumericDocValues;
       }
     }
   }
@@ -31,7 +31,7 @@ namespace org {
         class IndexSorter$NumericDocValuesProvider : public ::java::lang::Object {
          public:
           enum {
-            mid_get_e8cec232f90aacda,
+            mid_get_44492a7a441e5464,
             max_mid
           };
 

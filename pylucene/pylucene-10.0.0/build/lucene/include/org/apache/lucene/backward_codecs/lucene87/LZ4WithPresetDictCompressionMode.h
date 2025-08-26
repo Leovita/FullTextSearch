@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/backward_codecs/compressing/CompressionMode.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +13,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
           class LZ4WithPresetDictCompressionMode : public ::org::apache::lucene::backward_codecs::compressing::CompressionMode {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_newCompressor_11aceb73d2617fb4,
-              mid_newDecompressor_8d4c813b15f3e002,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_newCompressor_e175d8b9e226dd0e,
+              mid_newDecompressor_fe18d09a76193c79,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class Iterator;
-  }
-  namespace lang {
-    class Iterable;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class DisiWrapper;
       }
     }
+  }
+}
+namespace java {
+  namespace util {
+    class Iterator;
+  }
+  namespace lang {
+    class Iterable;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,17 +31,17 @@ namespace org {
         class DisiPriorityQueue : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_add_812e9e58df56e7ab,
-            mid_addAll_a24a6b1383e70e3b,
-            mid_clear_3720c61b0679eb3e,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_pop_0f4267db604d23ac,
-            mid_size_20fbf7565993c3d7,
-            mid_top_0f4267db604d23ac,
-            mid_top2_0f4267db604d23ac,
-            mid_topList_0f4267db604d23ac,
-            mid_updateTop_0f4267db604d23ac,
+            mid_init$_8226bd0b0fc13dba,
+            mid_add_61f46716f12a460c,
+            mid_addAll_be687b31989e4c5c,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_iterator_c7985fafdcf40e83,
+            mid_pop_7b16128bc7bb7bd7,
+            mid_size_bd89ce15dad49192,
+            mid_top_7b16128bc7bb7bd7,
+            mid_top2_7b16128bc7bb7bd7,
+            mid_topList_7b16128bc7bb7bd7,
+            mid_updateTop_7b16128bc7bb7bd7,
             max_mid
           };
 

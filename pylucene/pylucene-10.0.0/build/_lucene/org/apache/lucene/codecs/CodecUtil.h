@@ -3,27 +3,27 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Throwable;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class DataInput;
         class IndexOutput;
+        class DataInput;
         class IndexInput;
-        class DataOutput;
         class ChecksumIndexInput;
+        class DataOutput;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Throwable;
   }
 }
 template<class T> class JArray;
@@ -36,29 +36,29 @@ namespace org {
         class CodecUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_checkFooter_ce278c5b250e3f79,
-            mid_checkFooter_e42b06ef5e97d3b8,
-            mid_checkHeader_4b5e24300bc1b01b,
-            mid_checkHeaderNoMagic_4b5e24300bc1b01b,
-            mid_checkIndexHeader_3d0f29b078127e96,
-            mid_checkIndexHeaderID_bc7051ba6ff56b6b,
-            mid_checkIndexHeaderSuffix_603cbc6afe04c331,
-            mid_checksumEntireFile_6886de856ac1e531,
-            mid_footerLength_20fbf7565993c3d7,
-            mid_headerLength_3f230d713d7fd2b0,
-            mid_indexHeaderLength_3eac829a4fafb93c,
-            mid_readBEInt_aa555dd69434a422,
-            mid_readBELong_9ed0f9e11aaa3dba,
-            mid_readFooter_839c027f316aace1,
-            mid_readIndexHeader_839c027f316aace1,
-            mid_retrieveChecksum_6886de856ac1e531,
-            mid_retrieveChecksum_2035c4857398eea1,
-            mid_verifyAndCopyIndexHeader_ff524edaa87bced6,
-            mid_writeBEInt_26deaf282101d9e7,
-            mid_writeBELong_2eb8050a898a81cb,
-            mid_writeFooter_c39b7a857991d9b7,
-            mid_writeHeader_dfa84c7f40b38fcd,
-            mid_writeIndexHeader_0bb33e88eed712a3,
+            mid_checkFooter_c582ecc5ed9cbcc7,
+            mid_checkFooter_b675860585e16adb,
+            mid_checkHeader_0db0f89db63a2a53,
+            mid_checkHeaderNoMagic_0db0f89db63a2a53,
+            mid_checkIndexHeader_b21703ebf5a6234b,
+            mid_checkIndexHeaderID_a603e66a2fb490b7,
+            mid_checkIndexHeaderSuffix_7ad93fd9a83c64bb,
+            mid_checksumEntireFile_698cbb5cc171d648,
+            mid_footerLength_bd89ce15dad49192,
+            mid_headerLength_fa2a6f298bd618ab,
+            mid_indexHeaderLength_d543d4acd34a463f,
+            mid_readBEInt_d467dbc40d89e4aa,
+            mid_readBELong_b962a5b56e0daade,
+            mid_readFooter_cfed38404d713c02,
+            mid_readIndexHeader_cfed38404d713c02,
+            mid_retrieveChecksum_698cbb5cc171d648,
+            mid_retrieveChecksum_d2d5c293056b1a35,
+            mid_verifyAndCopyIndexHeader_155b885eb82e2ac8,
+            mid_writeBEInt_176e48709974b4ec,
+            mid_writeBELong_4e66f2b401777d7f,
+            mid_writeFooter_9713fe0a5c49ff9f,
+            mid_writeHeader_a0dca0744d7b20b0,
+            mid_writeIndexHeader_2981c48682677f84,
             max_mid
           };
 

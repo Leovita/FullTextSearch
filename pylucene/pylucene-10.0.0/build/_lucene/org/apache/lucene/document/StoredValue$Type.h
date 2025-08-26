@@ -28,8 +28,8 @@ namespace org {
         class StoredValue$Type : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_a84130c3c8a7132c,
-            mid_values_b27741a1fc3be0a2,
+            mid_valueOf_d081d19d68d9c224,
+            mid_values_dc7936659cce869c,
             max_mid
           };
 

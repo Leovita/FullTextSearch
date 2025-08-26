@@ -4,14 +4,14 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    class Collection;
-    class Map;
-  }
   namespace lang {
     class Class;
-    class String;
     class Exception;
+    class String;
+  }
+  namespace util {
+    class Map;
+    class Collection;
   }
 }
 namespace org {
@@ -33,14 +33,14 @@ namespace org {
         class MultiMatchingQueries : public ::java::lang::Object {
          public:
           enum {
-            mid_getBatchSize_20fbf7565993c3d7,
-            mid_getErrors_f125f26c07a7bec8,
-            mid_getMatchCount_3c9bba330f083871,
-            mid_getMatches_2e794aa7732e7a67,
-            mid_getQueriesRun_20fbf7565993c3d7,
-            mid_getQueryBuildTime_16939d9d0a9a9721,
-            mid_getSearchTime_16939d9d0a9a9721,
-            mid_matches_c4c506afc337af7e,
+            mid_getBatchSize_bd89ce15dad49192,
+            mid_getErrors_5004bdf19ed33453,
+            mid_getMatchCount_a3904e10f5bb9437,
+            mid_getMatches_92753308dd2e296d,
+            mid_getQueriesRun_bd89ce15dad49192,
+            mid_getQueryBuildTime_0f176418e3e16541,
+            mid_getSearchTime_0f176418e3e16541,
+            mid_matches_874ce1098fb1fc99,
             max_mid
           };
 

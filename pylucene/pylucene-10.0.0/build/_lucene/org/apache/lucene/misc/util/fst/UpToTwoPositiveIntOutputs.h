@@ -9,8 +9,8 @@ namespace org {
       namespace misc {
         namespace util {
           namespace fst {
-            class UpToTwoPositiveIntOutputs;
             class UpToTwoPositiveIntOutputs$TwoLongs;
+            class UpToTwoPositiveIntOutputs;
           }
         }
       }
@@ -22,14 +22,14 @@ namespace org {
   }
 }
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class Long;
+    class String;
+  }
   namespace io {
     class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-    class Long;
   }
 }
 template<class T> class JArray;
@@ -44,18 +44,18 @@ namespace org {
             class UpToTwoPositiveIntOutputs : public ::org::apache::lucene::util::fst::Outputs {
              public:
               enum {
-                mid_add_243089e4ee289db6,
-                mid_common_6c3a377a8d3b8801,
-                mid_get_d61b9f0cccefe16a,
-                mid_get_090da5de8b06dcc1,
-                mid_getNoOutput_5655ed8670534604,
-                mid_getSingleton_51272c71ec8db7c6,
-                mid_merge_243089e4ee289db6,
-                mid_outputToString_a6472d0c4a2d4dc6,
-                mid_ramBytesUsed_eed3c4edb9cd98e2,
-                mid_read_76ad041c51ef9e53,
-                mid_subtract_6c3a377a8d3b8801,
-                mid_write_1fb2a58964472a7b,
+                mid_add_b3b175dfe26d2c44,
+                mid_common_9a76f8c329485099,
+                mid_get_4edfa53b3afa7fb6,
+                mid_get_d03405c43dc0a3de,
+                mid_getNoOutput_4819806f62f1360a,
+                mid_getSingleton_228a921241d298bb,
+                mid_merge_b3b175dfe26d2c44,
+                mid_outputToString_5f92096499c6603e,
+                mid_ramBytesUsed_5dbd30c7e10c20e0,
+                mid_read_6c9264745f696649,
+                mid_subtract_9a76f8c329485099,
+                mid_write_dd080dec4470e08d,
                 max_mid
               };
 

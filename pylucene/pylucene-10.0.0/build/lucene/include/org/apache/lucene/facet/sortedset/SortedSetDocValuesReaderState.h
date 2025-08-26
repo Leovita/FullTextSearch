@@ -24,13 +24,13 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
     class Iterable;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -47,15 +47,15 @@ namespace org {
           class SortedSetDocValuesReaderState : public ::java::lang::Object {
            public:
             enum {
-              mid_getDimTree_31fe6b5f17f7311c,
-              mid_getDims_11d5156a64e3246d,
-              mid_getDocValues_348af2e8d793dd96,
-              mid_getFacetsConfig_b68548eec032942f,
-              mid_getField_09a7afff1868fc5e,
-              mid_getOrdRange_717bbb88d75a181e,
-              mid_getPrefixToOrdRange_f125f26c07a7bec8,
-              mid_getReader_38e68c08dc5fee6f,
-              mid_getSize_20fbf7565993c3d7,
+              mid_getDimTree_d565bf35416f4504,
+              mid_getDims_85e1732aaf0b83f3,
+              mid_getDocValues_82243807cdadc8f0,
+              mid_getFacetsConfig_c3113bd5035d2cb5,
+              mid_getField_e7df854526d67fa3,
+              mid_getOrdRange_00227a91277a7f9c,
+              mid_getPrefixToOrdRange_5004bdf19ed33453,
+              mid_getReader_9596617cc74c49f2,
+              mid_getSize_bd89ce15dad49192,
               max_mid
             };
 

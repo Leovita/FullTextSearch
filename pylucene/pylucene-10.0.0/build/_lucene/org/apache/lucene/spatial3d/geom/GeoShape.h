@@ -3,22 +3,22 @@
 
 #include "org/apache/lucene/spatial3d/geom/GeoBounds.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Plane;
           class Membership;
           class GeoPoint;
+          class Plane;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
           class GeoShape : public ::org::apache::lucene::spatial3d::geom::GeoBounds {
            public:
             enum {
-              mid_getEdgePoints_05087e5d605ddc41,
-              mid_intersects_2e010e50159965c2,
+              mid_getEdgePoints_95d1cb3266b24052,
+              mid_intersects_3db773112fd2ab99,
               max_mid
             };
 

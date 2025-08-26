@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/store/FilterDirectory.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
+        class Directory;
         class IndexOutput;
         class IOContext;
-        class Directory;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -34,12 +34,12 @@ namespace org {
           class ByteWritesTrackingDirectoryWrapper : public ::org::apache::lucene::store::FilterDirectory {
            public:
             enum {
-              mid_init$_3c151c130d7f3176,
-              mid_init$_2e3fc13dd1964cb7,
-              mid_createOutput_08efc12d1beeafa9,
-              mid_createTempOutput_767e9bfea4c09d00,
-              mid_getFlushedBytes_16939d9d0a9a9721,
-              mid_getMergedBytes_16939d9d0a9a9721,
+              mid_init$_0bf39a7351552ef4,
+              mid_init$_7a7a47c2d7770928,
+              mid_createOutput_5ee859a77f556d05,
+              mid_createTempOutput_c416e7b8f77d8569,
+              mid_getFlushedBytes_0f176418e3e16541,
+              mid_getMergedBytes_0f176418e3e16541,
               max_mid
             };
 

@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class Bits;
+        class Accountable;
         namespace hnsw {
           class RandomVectorScorer;
         }
-        class Accountable;
-        class Bits;
       }
       namespace search {
         class KnnCollector;
@@ -25,12 +25,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -44,11 +44,11 @@ namespace org {
           class FlatVectorsReader : public ::org::apache::lucene::codecs::KnnVectorsReader {
            public:
             enum {
-              mid_getFlatVectorScorer_7e681abd40bf9d07,
-              mid_getRandomVectorScorer_898e8e709f33df67,
-              mid_getRandomVectorScorer_168f17ed76192a8a,
-              mid_search_e7c7b5d865f31eb3,
-              mid_search_210bbfb50a2f4ef9,
+              mid_getFlatVectorScorer_0a520ed2ec7fc582,
+              mid_getRandomVectorScorer_16c4feadfb2390ab,
+              mid_getRandomVectorScorer_47e8f8006662be07,
+              mid_search_41e6931fdbdb5ba0,
+              mid_search_61a952903eb61416,
               max_mid
             };
 

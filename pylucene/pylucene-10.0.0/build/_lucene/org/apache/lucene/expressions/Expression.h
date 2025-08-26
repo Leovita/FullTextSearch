@@ -6,25 +6,25 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace expressions {
-        class Bindings;
-      }
       namespace search {
-        class Rescorer;
         class DoubleValuesSource;
         class DoubleValues;
+        class Rescorer;
         class SortField;
+      }
+      namespace expressions {
+        class Bindings;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
         class Expression : public ::java::lang::Object {
          public:
           enum {
-            mid_evaluate_ec4e0311d82a14b9,
-            mid_getDoubleValuesSource_dc0bfcc4cb8ef44e,
-            mid_getRescorer_8761942990bcf182,
-            mid_getSortField_982095d8fe30563e,
+            mid_evaluate_b9218ff9f90e0d9b,
+            mid_getDoubleValuesSource_a2952aaad5729b0d,
+            mid_getRescorer_5f6d33441066bd57,
+            mid_getSortField_d332000cf449950e,
             max_mid
           };
 

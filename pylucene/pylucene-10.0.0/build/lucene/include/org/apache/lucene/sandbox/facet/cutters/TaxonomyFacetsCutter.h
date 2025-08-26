@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -17,12 +17,12 @@ namespace org {
     namespace lucene {
       namespace sandbox {
         namespace facet {
-          namespace iterators {
-            class OrdinalIterator;
-          }
           namespace cutters {
             class LeafFacetCutter;
             class FacetCutter;
+          }
+          namespace iterators {
+            class OrdinalIterator;
           }
         }
       }
@@ -50,11 +50,11 @@ namespace org {
             class TaxonomyFacetsCutter : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_baf42332c1ad3c78,
-                mid_init$_215f1848c347334a,
-                mid_createLeafCutter_54e08d9616e9005a,
-                mid_getChildrenOrds_1985361a9773a98f,
-                mid_getOrdinalsToRollup_57cddf93ba106e9f,
+                mid_init$_133f0f6d0dfa5122,
+                mid_init$_0c2ead5468f27484,
+                mid_createLeafCutter_3722fb0d3a7d3776,
+                mid_getChildrenOrds_e78e488c1d146775,
+                mid_getOrdinalsToRollup_8b96a93b5acb34cf,
                 max_mid
               };
 

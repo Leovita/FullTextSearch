@@ -3,25 +3,25 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace store {
-        class IndexOutput;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class IndexOutput;
+      }
+      namespace util {
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -34,11 +34,11 @@ namespace org {
         class OfflineSorter$ByteSequencesWriter : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_c39b7a857991d9b7,
-            mid_close_3720c61b0679eb3e,
-            mid_write_3ce1e597fb62ac79,
-            mid_write_ac0de3ee0e03786d,
-            mid_write_5fdd5da9426708e6,
+            mid_init$_9713fe0a5c49ff9f,
+            mid_close_e7bdbe105ce1bafb,
+            mid_write_a4d4f283481182e8,
+            mid_write_920ce0cdf4259cc9,
+            mid_write_116f7fcb5bff0f39,
             max_mid
           };
 

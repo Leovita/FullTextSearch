@@ -31,7 +31,7 @@ namespace org {
           class GeoBBox : public ::org::apache::lucene::spatial3d::geom::GeoAreaShape {
            public:
             enum {
-              mid_expand_618c6b01c5366197,
+              mid_expand_fc16670221639d8c,
               max_mid
             };
 

@@ -27,9 +27,9 @@ namespace org {
         class ByteBlockPool$DirectTrackingAllocator : public ::org::apache::lucene::util::ByteBlockPool$Allocator {
          public:
           enum {
-            mid_init$_ac76f83e63dd1b05,
-            mid_getByteBlock_5560da88fc44aa82,
-            mid_recycleByteBlocks_540f60124d959184,
+            mid_init$_e07e11bc9ee23d51,
+            mid_getByteBlock_44e916dc40fc04cb,
+            mid_recycleByteBlocks_12d456106f915218,
             max_mid
           };
 

@@ -32,18 +32,18 @@ namespace org {
           class AbstractPagedMutable : public ::org::apache::lucene::util::LongValues {
            public:
             enum {
-              mid_get_91d66fa3ea476cea,
-              mid_grow_50283e96e04801b1,
-              mid_grow_50032b6fa6a69262,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_resize_50032b6fa6a69262,
-              mid_set_c3501637982a28bc,
-              mid_size_16939d9d0a9a9721,
-              mid_toString_09a7afff1868fc5e,
-              mid_fillPages_3720c61b0679eb3e,
-              mid_baseRamBytesUsed_16939d9d0a9a9721,
-              mid_newUnfilledCopy_50032b6fa6a69262,
-              mid_newMutable_6cba1b578155166a,
+              mid_get_3dc1c6e3a5a0baf0,
+              mid_grow_a9e6c6184d585a53,
+              mid_grow_2727038977e88366,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_resize_2727038977e88366,
+              mid_set_9ebf8c93de5f0fe1,
+              mid_size_0f176418e3e16541,
+              mid_toString_e7df854526d67fa3,
+              mid_newUnfilledCopy_2727038977e88366,
+              mid_newMutable_aa50c3146efe12b9,
+              mid_fillPages_e7bdbe105ce1bafb,
+              mid_baseRamBytesUsed_0f176418e3e16541,
               max_mid
             };
 

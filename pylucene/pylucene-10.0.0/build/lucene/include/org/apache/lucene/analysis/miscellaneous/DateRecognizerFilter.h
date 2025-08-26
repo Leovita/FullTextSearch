@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/FilteringTokenFilter.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace text {
-    class DateFormat;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace text {
+    class DateFormat;
   }
 }
 template<class T> class JArray;
@@ -32,9 +32,9 @@ namespace org {
           class DateRecognizerFilter : public ::org::apache::lucene::analysis::FilteringTokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_init$_692e1a000b27b139,
-              mid_accept_947277eca0748c4e,
+              mid_init$_4fe096967a533954,
+              mid_init$_c297c2d358ce0c0c,
+              mid_accept_9aa4f33e82ea333f,
               max_mid
             };
 

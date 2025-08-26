@@ -3,29 +3,29 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    namespace function {
+      class Function;
+    }
+    class List;
+  }
+  namespace lang {
+    class Class;
+    class StringBuilder;
+    class String;
+    class CharSequence;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
         namespace matchhighlight {
-          class Passage;
           class OffsetRange;
+          class Passage;
         }
       }
-    }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class CharSequence;
-    class StringBuilder;
-  }
-  namespace util {
-    class List;
-    namespace function {
-      class Function;
     }
   }
 }
@@ -40,10 +40,10 @@ namespace org {
           class PassageFormatter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_f8f56bd17402e3b3,
-              mid_init$_ef63314fbbbb4e29,
-              mid_format_616f719f371cb04e,
-              mid_format_229d971809a63198,
+              mid_init$_f29246d136b6952d,
+              mid_init$_9e1646df9272970b,
+              mid_format_1802e972ececd000,
+              mid_format_7459e8d13cdb4d7d,
               max_mid
             };
 

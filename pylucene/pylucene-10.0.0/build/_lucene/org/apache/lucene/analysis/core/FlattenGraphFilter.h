@@ -31,11 +31,11 @@ namespace org {
           class FlattenGraphFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_end_3720c61b0679eb3e,
-              mid_getMaxLookaheadUsed_20fbf7565993c3d7,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_4fe096967a533954,
+              mid_end_e7bdbe105ce1bafb,
+              mid_getMaxLookaheadUsed_bd89ce15dad49192,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

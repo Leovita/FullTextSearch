@@ -3,14 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -26,6 +18,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -37,8 +37,8 @@ namespace org {
           class IndexDictionary : public ::java::lang::Object {
            public:
             enum {
-              mid_browser_a1250803d9fc677a,
-              mid_write_92a1156cce64bb27,
+              mid_browser_9e34968c5df117e5,
+              mid_write_abb2afb031e7df2d,
               max_mid
             };
 

@@ -7,11 +7,11 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
+        class Lexer;
         class CharStream;
         namespace atn {
           class ATNConfigSet;
         }
-        class Lexer;
       }
     }
   }
@@ -32,11 +32,11 @@ namespace org {
         class LexerNoViableAltException : public ::org::antlr::v4::runtime::RecognitionException {
          public:
           enum {
-            mid_init$_12ff470fd131a0d9,
-            mid_getDeadEndConfigs_c7ac6b3f4d432cfe,
-            mid_getInputStream_b461eccf8f9c2fcc,
-            mid_getStartIndex_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_d3890e79223c59de,
+            mid_getDeadEndConfigs_f2b7c06f51fadfea,
+            mid_getInputStream_ecdf4d21c837fa97,
+            mid_getStartIndex_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

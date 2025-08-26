@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class MergeTrigger;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class MergeTrigger : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_f7edec5cd382f957,
-            mid_values_391a8accfb40733a,
+            mid_valueOf_511a331a59d1396d,
+            mid_values_6c877d6aed2c8822,
             max_mid
           };
 

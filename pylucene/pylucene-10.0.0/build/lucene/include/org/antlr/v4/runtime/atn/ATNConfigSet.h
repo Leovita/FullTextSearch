@@ -3,33 +3,33 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    class Iterator;
+    class ArrayList;
+    class BitSet;
+    class Collection;
+    class Set;
+    class List;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
         namespace atn {
-          class ATNState;
-          class SemanticContext;
-          class ATNSimulator;
-          class ATNConfig;
           class ATNConfigSet$AbstractConfigHashSet;
+          class SemanticContext;
+          class ATNConfig;
+          class ATNSimulator;
+          class ATNState;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Iterator;
-    class BitSet;
-    class Collection;
-    class List;
-    class Set;
-    class ArrayList;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -43,33 +43,33 @@ namespace org {
           class ATNConfigSet : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_b110fc3a58c081ab,
-              mid_add_1274b529738a1c30,
-              mid_addAll_f2a1f31c5865e20d,
-              mid_clear_3720c61b0679eb3e,
-              mid_contains_570b5248a6da3ef6,
-              mid_containsAll_f2a1f31c5865e20d,
-              mid_containsFast_1274b529738a1c30,
-              mid_elements_36830460e10839eb,
-              mid_equals_570b5248a6da3ef6,
-              mid_get_30baa13de933d284,
-              mid_getAlts_a3ae020b288cd028,
-              mid_getPredicates_36830460e10839eb,
-              mid_getStates_4df174295554d7bd,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isEmpty_947277eca0748c4e,
-              mid_isReadonly_947277eca0748c4e,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_optimizeConfigs_5cfb6c9fd627ce9e,
-              mid_remove_570b5248a6da3ef6,
-              mid_removeAll_f2a1f31c5865e20d,
-              mid_retainAll_f2a1f31c5865e20d,
-              mid_setReadonly_b110fc3a58c081ab,
-              mid_size_20fbf7565993c3d7,
-              mid_toArray_90cac70f3363a8e7,
-              mid_toArray_1794d6b866766560,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f5dd97eebf6a215a,
+              mid_add_4291e6f193a35bdb,
+              mid_addAll_155d0ed876869448,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_contains_00d17418847797d4,
+              mid_containsAll_155d0ed876869448,
+              mid_containsFast_4291e6f193a35bdb,
+              mid_elements_1387e1e2702ac173,
+              mid_equals_00d17418847797d4,
+              mid_get_8febd6f08279ef6c,
+              mid_getAlts_c2733845efaa53a6,
+              mid_getPredicates_1387e1e2702ac173,
+              mid_getStates_79131c6bbcf08916,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_isReadonly_9aa4f33e82ea333f,
+              mid_iterator_c7985fafdcf40e83,
+              mid_optimizeConfigs_7292166fd6e58e13,
+              mid_remove_00d17418847797d4,
+              mid_removeAll_155d0ed876869448,
+              mid_retainAll_155d0ed876869448,
+              mid_setReadonly_f5dd97eebf6a215a,
+              mid_size_bd89ce15dad49192,
+              mid_toArray_f9ed0a0a7a45f79c,
+              mid_toArray_0b4a993b49b6d8e8,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -3,12 +3,18 @@
 
 #include "org/apache/lucene/monitor/QueryMatch.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace monitor {
-        class ScoringMatch;
         class MatcherFactory;
+        class ScoringMatch;
       }
       namespace search {
         namespace similarities {
@@ -16,12 +22,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -34,10 +34,10 @@ namespace org {
         class ScoringMatch : public ::org::apache::lucene::monitor::QueryMatch {
          public:
           enum {
-            mid_equals_570b5248a6da3ef6,
-            mid_getScore_9b6c3480dac00edf,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_matchWithSimilarity_80b47347ef454e50,
+            mid_equals_00d17418847797d4,
+            mid_getScore_8b62236f0e4d0dbc,
+            mid_hashCode_bd89ce15dad49192,
+            mid_matchWithSimilarity_405e59b4c9d5608c,
             max_mid
           };
 

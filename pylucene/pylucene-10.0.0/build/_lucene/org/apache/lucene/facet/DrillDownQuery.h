@@ -3,31 +3,31 @@
 
 #include "org/apache/lucene/search/Query.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
+      namespace facet {
+        class DrillDownQuery;
+        class FacetsConfig;
       }
       namespace search {
         class QueryVisitor;
         class IndexSearcher;
       }
-      namespace facet {
-        class FacetsConfig;
-        class DrillDownQuery;
+      namespace index {
+        class Term;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,19 +40,19 @@ namespace org {
         class DrillDownQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_init$_fc7569dcbe27fa06,
-            mid_init$_58ed92cd6088b06b,
-            mid_add_c16980b675f9738f,
-            mid_add_3a7caebbff9089ff,
-            mid_clone_d348727867614dc5,
-            mid_equals_570b5248a6da3ef6,
-            mid_getBaseQuery_a3eacfacada795d4,
-            mid_getDrillDownQueries_5da868febe51e141,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_term_a125477360b24a49,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
+            mid_init$_1b022d839bcbba29,
+            mid_init$_7a6bdc4c8935a389,
+            mid_add_4c0d457b1588985f,
+            mid_add_526f2ae9dd799047,
+            mid_clone_423b61b51390b939,
+            mid_equals_00d17418847797d4,
+            mid_getBaseQuery_ffa7bd087b2a75aa,
+            mid_getDrillDownQueries_bc7e56e884e8acce,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_term_2723a9518c3fba11,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
             max_mid
           };
 

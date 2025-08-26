@@ -29,9 +29,9 @@ namespace org {
           class Transition : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

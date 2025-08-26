@@ -3,10 +3,24 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace facet {
+        namespace taxonomy {
+          class ParallelTaxonomyArrays;
+          class TaxonomyReader$ChildrenIterator;
+          class FacetLabel;
+          class TaxonomyReader;
+        }
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -14,20 +28,6 @@ namespace java {
   }
   namespace util {
     class Map;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace facet {
-        namespace taxonomy {
-          class FacetLabel;
-          class TaxonomyReader;
-          class TaxonomyReader$ChildrenIterator;
-          class ParallelTaxonomyArrays;
-        }
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -41,25 +41,25 @@ namespace org {
           class TaxonomyReader : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_decRef_3720c61b0679eb3e,
-              mid_getBulkOrdinals_7d0bc717fafc6e60,
-              mid_getBulkPath_b0d0c4216ac45539,
-              mid_getChildren_45ad5705f78f69d0,
-              mid_getCommitUserData_f125f26c07a7bec8,
-              mid_getOrdinal_b886af148d2e9c5a,
-              mid_getOrdinal_f5d0d3372a4bf2ce,
-              mid_getParallelTaxonomyArrays_2a1c0e1b6b11270b,
-              mid_getPath_c21e0250a0465b0f,
-              mid_getRefCount_20fbf7565993c3d7,
-              mid_getSize_20fbf7565993c3d7,
-              mid_incRef_3720c61b0679eb3e,
-              mid_openIfChanged_cfaa388445998035,
-              mid_tryIncRef_947277eca0748c4e,
-              mid_doClose_3720c61b0679eb3e,
-              mid_doOpenIfChanged_0572dc1c93078a81,
-              mid_ensureOpen_3720c61b0679eb3e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_decRef_e7bdbe105ce1bafb,
+              mid_getBulkOrdinals_a339b1a8e9820a7b,
+              mid_getBulkPath_08f83a8c8bc64590,
+              mid_getChildren_cd04cb8b7b0a9c6a,
+              mid_getCommitUserData_5004bdf19ed33453,
+              mid_getOrdinal_36dd33e0173c4244,
+              mid_getOrdinal_88d7ba4d0f25ac7e,
+              mid_getParallelTaxonomyArrays_ae30cad85926a26f,
+              mid_getPath_6c732e2e2e10e82a,
+              mid_getRefCount_bd89ce15dad49192,
+              mid_getSize_bd89ce15dad49192,
+              mid_incRef_e7bdbe105ce1bafb,
+              mid_openIfChanged_13430f3bfc69e411,
+              mid_tryIncRef_9aa4f33e82ea333f,
+              mid_doOpenIfChanged_fab4d9e24fa5d222,
+              mid_doClose_e7bdbe105ce1bafb,
+              mid_ensureOpen_e7bdbe105ce1bafb,
               max_mid
             };
 

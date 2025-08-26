@@ -3,6 +3,12 @@
 
 #include "java/util/List.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,12 +18,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
           class DictEntries : public ::java::util::List {
            public:
             enum {
-              mid_getMorphologicalData_cd8436557ab831f9,
-              mid_getMorphologicalValues_c360d0d2aa319270,
-              mid_size_20fbf7565993c3d7,
+              mid_getMorphologicalData_0da8f0b89b1e9a22,
+              mid_getMorphologicalValues_5e00cb8aceec402a,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

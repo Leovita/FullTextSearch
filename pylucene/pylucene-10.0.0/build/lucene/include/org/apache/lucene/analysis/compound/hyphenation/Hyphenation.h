@@ -20,8 +20,8 @@ namespace org {
             class Hyphenation : public ::java::lang::Object {
              public:
               enum {
-                mid_getHyphenationPoints_623cd4a044ba647a,
-                mid_length_20fbf7565993c3d7,
+                mid_getHyphenationPoints_4b72a28a860ae838,
+                mid_length_bd89ce15dad49192,
                 max_mid
               };
 

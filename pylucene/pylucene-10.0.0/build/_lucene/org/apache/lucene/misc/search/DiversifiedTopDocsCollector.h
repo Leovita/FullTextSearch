@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class LeafCollector;
         class ScoreMode;
+        class LeafCollector;
       }
       namespace misc {
         namespace search {
@@ -40,12 +40,12 @@ namespace org {
           class DiversifiedTopDocsCollector : public ::org::apache::lucene::search::TopDocsCollector {
            public:
             enum {
-              mid_init$_e13cff512ebda969,
-              mid_getLeafCollector_aca3f888603431e1,
-              mid_scoreMode_45dfdcf7e901559d,
-              mid_newTopDocs_f6010540414086f3,
-              mid_insert_58ff3c672fc8d5cb,
-              mid_getKeys_af47394cc631abf9,
+              mid_init$_645c25455f5b9b1c,
+              mid_getLeafCollector_0a34433e6da38be9,
+              mid_scoreMode_23e7061dcdc84768,
+              mid_newTopDocs_d4fc5c39fd7326b6,
+              mid_insert_b502b4935cd622d4,
+              mid_getKeys_e3170d0ac23ceefa,
               max_mid
             };
 

@@ -3,22 +3,22 @@
 
 #include "org/apache/lucene/document/BinaryDocValuesField.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
         namespace facetset {
-          class FacetSetsField;
           class FacetSet;
+          class FacetSetsField;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,7 +32,7 @@ namespace org {
           class FacetSetsField : public ::org::apache::lucene::document::BinaryDocValuesField {
            public:
             enum {
-              mid_create_dda0703098a95cc2,
+              mid_create_5c5635baa64c9a83,
               max_mid
             };
 

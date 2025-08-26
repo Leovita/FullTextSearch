@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/store/FilterDirectory.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class Lock;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
@@ -10,16 +20,6 @@ namespace java {
   namespace lang {
     class Class;
     class String;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class Lock;
-        class Directory;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
         class SleepingLockWrapper : public ::org::apache::lucene::store::FilterDirectory {
          public:
           enum {
-            mid_init$_066399a14ad4fdb5,
-            mid_init$_ba9c440f30c3de82,
-            mid_obtainLock_cc83df755c1d5fef,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_289f28de251c5476,
+            mid_init$_ff2bca2dda81f51a,
+            mid_obtainLock_3ede4234fbb2098d,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

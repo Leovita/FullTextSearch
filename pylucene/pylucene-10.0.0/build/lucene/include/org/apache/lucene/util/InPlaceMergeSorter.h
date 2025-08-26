@@ -18,8 +18,8 @@ namespace org {
         class InPlaceMergeSorter : public ::org::apache::lucene::util::Sorter {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_sort_e13cff512ebda969,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_sort_645c25455f5b9b1c,
             max_mid
           };
 

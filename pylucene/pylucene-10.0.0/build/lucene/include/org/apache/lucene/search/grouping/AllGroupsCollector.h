@@ -7,24 +7,24 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
-        class ScoreMode;
         namespace grouping {
           class GroupSelector;
         }
+        class ScoreMode;
+        class Scorable;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -38,13 +38,13 @@ namespace org {
           class AllGroupsCollector : public ::org::apache::lucene::search::SimpleCollector {
            public:
             enum {
-              mid_init$_665eebd6bb04e638,
-              mid_collect_540b2b23d51b1efd,
-              mid_getGroupCount_20fbf7565993c3d7,
-              mid_getGroups_aa58b3beec16cbbd,
-              mid_scoreMode_45dfdcf7e901559d,
-              mid_setScorer_dd42dde4c0a7db1e,
-              mid_doSetNextReader_b7b06dce0a4097ed,
+              mid_init$_dddaabc7d6744e95,
+              mid_collect_8226bd0b0fc13dba,
+              mid_getGroupCount_bd89ce15dad49192,
+              mid_getGroups_4a269b968b3a511f,
+              mid_scoreMode_23e7061dcdc84768,
+              mid_setScorer_c06bdf7d53c6460a,
+              mid_doSetNextReader_32243afefe6b151f,
               max_mid
             };
 

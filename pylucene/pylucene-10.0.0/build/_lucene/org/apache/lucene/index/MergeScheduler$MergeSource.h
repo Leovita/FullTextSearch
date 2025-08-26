@@ -30,10 +30,10 @@ namespace org {
         class MergeScheduler$MergeSource : public ::java::lang::Object {
          public:
           enum {
-            mid_getNextMerge_aa23617778a1f5b7,
-            mid_hasPendingMerges_947277eca0748c4e,
-            mid_merge_e1e55891bbba68fb,
-            mid_onMergeFinished_e1e55891bbba68fb,
+            mid_getNextMerge_197161d5eaf72b00,
+            mid_hasPendingMerges_9aa4f33e82ea333f,
+            mid_merge_43e5fc07fd56a753,
+            mid_onMergeFinished_43e5fc07fd56a753,
             max_mid
           };
 

@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class Class;
     class InterruptedException;
+    class Class;
   }
   namespace io {
     class Closeable;
@@ -15,11 +15,11 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class ReferenceManager;
-      }
       namespace index {
         class IndexWriter;
+      }
+      namespace search {
+        class ReferenceManager;
       }
     }
   }
@@ -34,12 +34,12 @@ namespace org {
         class ControlledRealTimeReopenThread : public ::java::lang::Thread {
          public:
           enum {
-            mid_init$_18ab418a069ea482,
-            mid_close_3720c61b0679eb3e,
-            mid_getSearchingGen_16939d9d0a9a9721,
-            mid_run_3720c61b0679eb3e,
-            mid_waitForGeneration_8b3d46852b435a94,
-            mid_waitForGeneration_42bb0fb87803ccf8,
+            mid_init$_3cba3497e873b5dc,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getSearchingGen_0f176418e3e16541,
+            mid_run_e7bdbe105ce1bafb,
+            mid_waitForGeneration_1d3149fac12f2af3,
+            mid_waitForGeneration_7f4975b815f68db8,
             max_mid
           };
 

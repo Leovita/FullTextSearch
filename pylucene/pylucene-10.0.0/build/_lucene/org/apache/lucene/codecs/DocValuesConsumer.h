@@ -18,13 +18,13 @@ namespace org {
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
-    class Iterable;
     class Number;
+    class Iterable;
   }
 }
 template<class T> class JArray;
@@ -37,19 +37,19 @@ namespace org {
         class DocValuesConsumer : public ::java::lang::Object {
          public:
           enum {
-            mid_addBinaryField_5efff8f523b95a6b,
-            mid_addNumericField_5efff8f523b95a6b,
-            mid_addSortedField_5efff8f523b95a6b,
-            mid_addSortedNumericField_5efff8f523b95a6b,
-            mid_addSortedSetField_5efff8f523b95a6b,
-            mid_isSingleValued_208048c5f505b11a,
-            mid_merge_1d534d5055fd8b5a,
-            mid_mergeBinaryField_12bd7baeb6b4bf04,
-            mid_mergeNumericField_12bd7baeb6b4bf04,
-            mid_mergeSortedField_12bd7baeb6b4bf04,
-            mid_mergeSortedNumericField_12bd7baeb6b4bf04,
-            mid_mergeSortedSetField_12bd7baeb6b4bf04,
-            mid_singletonView_90e097876de5ae19,
+            mid_addBinaryField_e3ec6fa79196e073,
+            mid_addNumericField_e3ec6fa79196e073,
+            mid_addSortedField_e3ec6fa79196e073,
+            mid_addSortedNumericField_e3ec6fa79196e073,
+            mid_addSortedSetField_e3ec6fa79196e073,
+            mid_isSingleValued_053f5f273d2882a9,
+            mid_merge_b7f5b82c43646887,
+            mid_mergeBinaryField_6efd9d341cba2a34,
+            mid_mergeNumericField_6efd9d341cba2a34,
+            mid_mergeSortedField_6efd9d341cba2a34,
+            mid_mergeSortedNumericField_6efd9d341cba2a34,
+            mid_mergeSortedSetField_6efd9d341cba2a34,
+            mid_singletonView_f13c6467b2068a63,
             max_mid
           };
 

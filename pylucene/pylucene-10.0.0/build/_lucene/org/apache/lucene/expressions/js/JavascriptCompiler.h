@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class Map;
-  }
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class Expression;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace util {
+    class Map;
   }
 }
 template<class T> class JArray;
@@ -32,7 +32,7 @@ namespace org {
           class JavascriptCompiler : public ::java::lang::Object {
            public:
             enum {
-              mid_compile_f3e73116de38effe,
+              mid_compile_83f5b3fb2bb55c6c,
               max_mid
             };
 

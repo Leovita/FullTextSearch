@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/search/similarities/Similarity.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class FieldInvertState;
-      }
       namespace search {
+        class TermStatistics;
         class CollectionStatistics;
         namespace similarities {
           class Similarity$SimScorer;
         }
-        class TermStatistics;
+      }
+      namespace index {
+        class FieldInvertState;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
           class MultiSimilarity : public ::org::apache::lucene::search::similarities::Similarity {
            public:
             enum {
-              mid_init$_af466d1661aebb02,
-              mid_computeNorm_db45ef174ecfac03,
-              mid_scorer_67d67592415704df,
+              mid_init$_17d42e07ff3f0de3,
+              mid_computeNorm_a143744c49fd06c4,
+              mid_scorer_556ce9e7c1c4eb6a,
               max_mid
             };
 

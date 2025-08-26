@@ -6,21 +6,21 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace index {
         class MergeScheduler$MergeSource;
         class MergePolicy$OneMerge;
         class MergeTrigger;
-      }
-      namespace store {
-        class Directory;
       }
     }
   }
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -41,12 +41,12 @@ namespace org {
         class MergeScheduler : public ::java::lang::Object {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_getIntraMergeExecutor_0678b9dde6ccd395,
-            mid_merge_d9d4a2a45897a889,
-            mid_wrapForMerge_8bef5abc6563f83d,
-            mid_message_0d82408c6e55bc30,
-            mid_verbose_947277eca0748c4e,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getIntraMergeExecutor_194c3f7bd1dfc463,
+            mid_merge_256e955b9cf4fc16,
+            mid_wrapForMerge_a59e5ec3e050adb9,
+            mid_message_ee46a189998009d6,
+            mid_verbose_9aa4f33e82ea333f,
             max_mid
           };
 

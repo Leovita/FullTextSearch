@@ -28,8 +28,8 @@ namespace org {
         class Pruning : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_8d0d8fe1241a82c9,
-            mid_values_6e18f1d56ea98df1,
+            mid_valueOf_780d588bceb52d23,
+            mid_values_6eeaa0c44e56720c,
             max_mid
           };
 

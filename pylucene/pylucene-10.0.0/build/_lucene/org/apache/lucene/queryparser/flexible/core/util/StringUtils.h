@@ -22,8 +22,8 @@ namespace org {
               class StringUtils : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_toString_a6472d0c4a2d4dc6,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_toString_5f92096499c6603e,
                   max_mid
                 };
 

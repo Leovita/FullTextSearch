@@ -3,6 +3,18 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class SegmentCommitInfo;
+      }
+      namespace util {
+        class InfoStream;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
@@ -12,18 +24,6 @@ namespace java {
   }
   namespace util {
     class Set;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class InfoStream;
-      }
-      namespace index {
-        class SegmentCommitInfo;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -36,10 +36,10 @@ namespace org {
         class MergePolicy$MergeContext : public ::java::lang::Object {
          public:
           enum {
-            mid_getInfoStream_d67a60a40c235833,
-            mid_getMergingSegments_4df174295554d7bd,
-            mid_numDeletedDocs_f2b27fe465afdaf9,
-            mid_numDeletesToMerge_f2b27fe465afdaf9,
+            mid_getInfoStream_7dc634bffa4290e2,
+            mid_getMergingSegments_79131c6bbcf08916,
+            mid_numDeletedDocs_a0105afcf7393ca2,
+            mid_numDeletesToMerge_a0105afcf7393ca2,
             max_mid
           };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class Parser;
         class Recognizer;
+        class Parser;
         class RecognitionException;
       }
     }
@@ -30,7 +30,7 @@ namespace org {
         class ANTLRErrorListener : public ::java::lang::Object {
          public:
           enum {
-            mid_syntaxError_c28f0e92dee08f5e,
+            mid_syntaxError_0482a45c87bd68ee,
             max_mid
           };
 

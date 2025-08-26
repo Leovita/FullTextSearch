@@ -14,8 +14,8 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace similarities {
-          class AfterEffect;
           class BasicModel;
+          class AfterEffect;
           class Normalization;
         }
       }
@@ -33,15 +33,15 @@ namespace org {
           class DFRSimilarity : public ::org::apache::lucene::search::similarities::SimilarityBase {
            public:
             enum {
-              mid_init$_bdf55b76f7d61053,
-              mid_init$_c18421d3abef070b,
-              mid_getAfterEffect_8abddab41823f5bb,
-              mid_getBasicModel_57076d6fa86a08f6,
-              mid_getNormalization_07b38a3f3e70ebe0,
-              mid_toString_09a7afff1868fc5e,
-              mid_score_4520853cec1acecd,
-              mid_explain_6430f3113e3b0626,
-              mid_explain_6fdabb12cf56abb7,
+              mid_init$_6f354abe05ffdeda,
+              mid_init$_c6c71650e73537c1,
+              mid_getAfterEffect_ccd73641c413bf76,
+              mid_getBasicModel_8639b25a3453f1b8,
+              mid_getNormalization_ca18619fc3dbc413,
+              mid_toString_e7df854526d67fa3,
+              mid_explain_3a0f0db458486fc7,
+              mid_explain_d24b72d1a2a90408,
+              mid_score_45900529809cd3f1,
               max_mid
             };
 

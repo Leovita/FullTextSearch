@@ -3,29 +3,29 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    class Iterator;
+  }
+  namespace lang {
+    class Cloneable;
+    class Class;
+    class Iterable;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace internal {
         namespace hppc {
-          class CharHashSet;
           class CharCursor;
+          class CharHashSet;
         }
       }
       namespace util {
         class Accountable;
       }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Iterator;
-  }
-  namespace lang {
-    class Class;
-    class Iterable;
-    class Cloneable;
   }
 }
 template<class T> class JArray;
@@ -39,41 +39,41 @@ namespace org {
           class CharHashSet : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_bfec175f942874e6,
-              mid_add_4e84a8c37896b7c5,
-              mid_addAll_1d6980f6711df1e4,
-              mid_addAll_c0cd1088f95462ce,
-              mid_addAll_96d1463b11b9fbe9,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_6819e28c952c6659,
-              mid_contains_4e84a8c37896b7c5,
-              mid_ensureCapacity_540b2b23d51b1efd,
-              mid_equals_570b5248a6da3ef6,
-              mid_from_bbf9befb53834603,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_indexExists_ae22d3a856ad56f1,
-              mid_indexGet_92a13ce4196a7e69,
-              mid_indexInsert_931c9794de74ba08,
-              mid_indexOf_99c33562a336f6e9,
-              mid_indexRemove_540b2b23d51b1efd,
-              mid_indexReplace_d0078caac5d553f4,
-              mid_isEmpty_947277eca0748c4e,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_release_3720c61b0679eb3e,
-              mid_remove_4e84a8c37896b7c5,
-              mid_removeAll_c0cd1088f95462ce,
-              mid_size_20fbf7565993c3d7,
-              mid_toArray_77d52ded526199de,
-              mid_verifyLoadFactor_8fff3d7dcb9fddc5,
-              mid_hashKey_99c33562a336f6e9,
-              mid_allocateThenInsertThenRehash_931c9794de74ba08,
-              mid_nextIterationSeed_20fbf7565993c3d7,
-              mid_shiftConflictingKeys_540b2b23d51b1efd,
-              mid_allocateBuffers_540b2b23d51b1efd,
-              mid_rehash_cc40ee25f19f0868,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_21c15812094aeb13,
+              mid_add_96a1e5bdb33dde4e,
+              mid_addAll_b5302190531968fe,
+              mid_addAll_70c9ef868020deea,
+              mid_addAll_29d327a2ef457411,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_8f23fb4866395fe6,
+              mid_contains_96a1e5bdb33dde4e,
+              mid_ensureCapacity_8226bd0b0fc13dba,
+              mid_equals_00d17418847797d4,
+              mid_from_2c4a68c51b15a1ff,
+              mid_hashCode_bd89ce15dad49192,
+              mid_indexExists_a8281eb3b9d9672d,
+              mid_indexGet_bc94dd98365f92fb,
+              mid_indexInsert_53f645c50443c1f0,
+              mid_indexOf_71dc1db9b5187263,
+              mid_indexRemove_8226bd0b0fc13dba,
+              mid_indexReplace_9abdc22200c06b43,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_iterator_c7985fafdcf40e83,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_release_e7bdbe105ce1bafb,
+              mid_remove_96a1e5bdb33dde4e,
+              mid_removeAll_70c9ef868020deea,
+              mid_size_bd89ce15dad49192,
+              mid_toArray_e5926045e1917c62,
+              mid_nextIterationSeed_bd89ce15dad49192,
+              mid_allocateThenInsertThenRehash_53f645c50443c1f0,
+              mid_verifyLoadFactor_8493a5edcb36d651,
+              mid_hashKey_71dc1db9b5187263,
+              mid_shiftConflictingKeys_8226bd0b0fc13dba,
+              mid_allocateBuffers_8226bd0b0fc13dba,
+              mid_rehash_ae4452529cb9c0dd,
               max_mid
             };
 

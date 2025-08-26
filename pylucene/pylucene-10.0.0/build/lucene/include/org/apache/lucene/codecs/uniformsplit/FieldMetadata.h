@@ -3,6 +3,11 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,11 +24,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -35,23 +35,23 @@ namespace org {
           class FieldMetadata : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_484c149275e4150c,
-              mid_init$_05d328eb61b954f6,
-              mid_getDictionaryStartFP_16939d9d0a9a9721,
-              mid_getDocCount_20fbf7565993c3d7,
-              mid_getDocsSeen_5d012320ca853371,
-              mid_getFieldInfo_53b09c8f6420c847,
-              mid_getFirstBlockStartFP_16939d9d0a9a9721,
-              mid_getLastBlockStartFP_16939d9d0a9a9721,
-              mid_getLastTerm_9740fddd1c7df148,
-              mid_getNumTerms_16939d9d0a9a9721,
-              mid_getSumDocFreq_16939d9d0a9a9721,
-              mid_getSumTotalTermFreq_16939d9d0a9a9721,
-              mid_setDictionaryStartFP_8b3d46852b435a94,
-              mid_setFirstBlockStartFP_8b3d46852b435a94,
-              mid_setLastBlockStartFP_8b3d46852b435a94,
-              mid_setLastTerm_ac0de3ee0e03786d,
-              mid_updateStats_bb894f5bc802a30a,
+              mid_init$_7da17ba798519794,
+              mid_init$_ef747ae4b4d96c13,
+              mid_getDictionaryStartFP_0f176418e3e16541,
+              mid_getDocCount_bd89ce15dad49192,
+              mid_getDocsSeen_205700981fe48e9e,
+              mid_getFieldInfo_4b0d373af1912442,
+              mid_getFirstBlockStartFP_0f176418e3e16541,
+              mid_getLastBlockStartFP_0f176418e3e16541,
+              mid_getLastTerm_adbedbc1fa61c358,
+              mid_getNumTerms_0f176418e3e16541,
+              mid_getSumDocFreq_0f176418e3e16541,
+              mid_getSumTotalTermFreq_0f176418e3e16541,
+              mid_setDictionaryStartFP_1d3149fac12f2af3,
+              mid_setFirstBlockStartFP_1d3149fac12f2af3,
+              mid_setLastBlockStartFP_1d3149fac12f2af3,
+              mid_setLastTerm_920ce0cdf4259cc9,
+              mid_updateStats_1164e37ee4555dea,
               max_mid
             };
 

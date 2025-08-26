@@ -7,20 +7,20 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class PointValues$PointTree;
         class PointValues$IntersectVisitor;
+        class PointValues$PointTree;
         class IndexReader;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -33,22 +33,22 @@ namespace org {
         class PointValues : public ::java::lang::Object {
          public:
           enum {
-            mid_estimateDocCount_fd598851f3d028de,
-            mid_estimatePointCount_fd598851f3d028de,
-            mid_getBytesPerDimension_20fbf7565993c3d7,
-            mid_getDocCount_20fbf7565993c3d7,
-            mid_getDocCount_a59bb07deb8784c0,
-            mid_getMaxPackedValue_5560da88fc44aa82,
-            mid_getMaxPackedValue_3a5595b41029d3cf,
-            mid_getMinPackedValue_5560da88fc44aa82,
-            mid_getMinPackedValue_3a5595b41029d3cf,
-            mid_getNumDimensions_20fbf7565993c3d7,
-            mid_getNumIndexDimensions_20fbf7565993c3d7,
-            mid_getPointTree_f845dee012b447f9,
-            mid_intersect_639354b6b3c6f802,
-            mid_isEstimatedPointCountGreaterThanOrEqualTo_61f05c388d615a8f,
-            mid_size_16939d9d0a9a9721,
-            mid_size_475e703ea813243d,
+            mid_estimateDocCount_149f72f7af6a4410,
+            mid_estimatePointCount_149f72f7af6a4410,
+            mid_getBytesPerDimension_bd89ce15dad49192,
+            mid_getDocCount_bd89ce15dad49192,
+            mid_getDocCount_b3f5efcffe0aac36,
+            mid_getMaxPackedValue_44e916dc40fc04cb,
+            mid_getMaxPackedValue_60283476f16c2359,
+            mid_getMinPackedValue_44e916dc40fc04cb,
+            mid_getMinPackedValue_60283476f16c2359,
+            mid_getNumDimensions_bd89ce15dad49192,
+            mid_getNumIndexDimensions_bd89ce15dad49192,
+            mid_getPointTree_105acb8614b902b9,
+            mid_intersect_0ccbfe2d8ea647b2,
+            mid_isEstimatedPointCountGreaterThanOrEqualTo_bee39d7128829816,
+            mid_size_0f176418e3e16541,
+            mid_size_eab1c2d1bb2a9f12,
             max_mid
           };
 

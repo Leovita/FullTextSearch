@@ -18,8 +18,8 @@ namespace org {
         class IntBlockPool$DirectAllocator : public ::org::apache::lucene::util::IntBlockPool$Allocator {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_recycleIntBlocks_db6edd5aae13a5bb,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_recycleIntBlocks_4bb8f555233a8d15,
             max_mid
           };
 

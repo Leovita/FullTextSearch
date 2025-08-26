@@ -30,12 +30,12 @@ namespace org {
           class PassageScorer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_d3786670c86635a1,
-              mid_norm_29cfa01aaad92564,
-              mid_score_ed294d018f418179,
-              mid_tf_cc6a9a4422dc9503,
-              mid_weight_cc6a9a4422dc9503,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_cb8c0cc53840532d,
+              mid_norm_5873a23b935a9d49,
+              mid_score_6d119490fca09275,
+              mid_tf_0d48bf2a3a0fe642,
+              mid_weight_0d48bf2a3a0fe642,
               max_mid
             };
 

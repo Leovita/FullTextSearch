@@ -19,8 +19,8 @@ namespace org {
           class PositionIncrementAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_getPositionIncrement_20fbf7565993c3d7,
-              mid_setPositionIncrement_540b2b23d51b1efd,
+              mid_getPositionIncrement_bd89ce15dad49192,
+              mid_setPositionIncrement_8226bd0b0fc13dba,
               max_mid
             };
 

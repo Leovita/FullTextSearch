@@ -31,8 +31,8 @@ namespace org {
           class Lucene92Codec$Mode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_56f0ff47816bae1d,
-              mid_values_23b8cb5a9b4d3805,
+              mid_valueOf_144a75b7c1da3e0d,
+              mid_values_a81220f5024391cd,
               max_mid
             };
 

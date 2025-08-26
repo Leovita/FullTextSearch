@@ -22,15 +22,15 @@ namespace org {
         class Multiset : public ::java::util::AbstractCollection {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_570b5248a6da3ef6,
-            mid_clear_3720c61b0679eb3e,
-            mid_contains_570b5248a6da3ef6,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_remove_570b5248a6da3ef6,
-            mid_size_20fbf7565993c3d7,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_00d17418847797d4,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_contains_00d17418847797d4,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_iterator_c7985fafdcf40e83,
+            mid_remove_00d17418847797d4,
+            mid_size_bd89ce15dad49192,
             max_mid
           };
 

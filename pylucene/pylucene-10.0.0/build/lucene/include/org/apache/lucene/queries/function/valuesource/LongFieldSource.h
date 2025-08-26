@@ -4,13 +4,13 @@
 #include "org/apache/lucene/queries/function/valuesource/FieldCacheSource.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -45,16 +45,16 @@ namespace org {
             class LongFieldSource : public ::org::apache::lucene::queries::function::valuesource::FieldCacheSource {
              public:
               enum {
-                mid_init$_0d82408c6e55bc30,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_externalToLong_e942a6f864c95ca0,
-                mid_getSortField_33273beb7e6f6fa1,
-                mid_getValues_a7d46b98c691aeac,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_longToObject_fbeea4c1018ff27e,
-                mid_longToString_f0c925499cca37b2,
-                mid_getNumericDocValues_7907eac73ef81c86,
+                mid_init$_ee46a189998009d6,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_externalToLong_490f1686ea1cfda6,
+                mid_getSortField_6b771f2dc8fe37aa,
+                mid_getValues_9f85153ef1e32cca,
+                mid_hashCode_bd89ce15dad49192,
+                mid_longToObject_f2d6f8a161abad90,
+                mid_longToString_229c7997533c8554,
+                mid_getNumericDocValues_acbba77126cc7841,
                 max_mid
               };
 

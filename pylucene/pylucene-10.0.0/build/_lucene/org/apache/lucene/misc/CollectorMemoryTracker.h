@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,9 +30,9 @@ namespace org {
         class CollectorMemoryTracker : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_97897a260b413071,
-            mid_getBytes_16939d9d0a9a9721,
-            mid_updateBytes_8b3d46852b435a94,
+            mid_init$_eff9bbbaf264de7f,
+            mid_getBytes_0f176418e3e16541,
+            mid_updateBytes_1d3149fac12f2af3,
             max_mid
           };
 

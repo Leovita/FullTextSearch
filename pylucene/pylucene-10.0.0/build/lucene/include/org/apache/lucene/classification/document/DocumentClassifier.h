@@ -3,18 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace classification {
-        class ClassificationResult;
-      }
-      namespace document {
-        class Document;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
@@ -24,6 +12,18 @@ namespace java {
   }
   namespace util {
     class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace document {
+        class Document;
+      }
+      namespace classification {
+        class ClassificationResult;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -37,9 +37,9 @@ namespace org {
           class DocumentClassifier : public ::java::lang::Object {
            public:
             enum {
-              mid_assignClass_e9d448768a8cb51a,
-              mid_getClasses_d828968791cef3d9,
-              mid_getClasses_cd00ee8af1e542bb,
+              mid_assignClass_dfa6ad443c74742e,
+              mid_getClasses_0fc9fb2d5c6e9925,
+              mid_getClasses_0b358d24f3316d10,
               max_mid
             };
 

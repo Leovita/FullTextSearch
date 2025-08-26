@@ -3,16 +3,25 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        namespace hnsw {
-          class RandomVectorScorer;
-          class RandomVectorScorerSupplier;
-        }
         namespace quantization {
           class ScalarQuantizer;
+        }
+        namespace hnsw {
+          class RandomVectorScorerSupplier;
+          class RandomVectorScorer;
         }
       }
       namespace index {
@@ -27,15 +36,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -47,12 +47,12 @@ namespace org {
           class ScalarQuantizedVectorScorer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_a5645d6209864bd2,
-              mid_getRandomVectorScorer_fc28bd70a9118057,
-              mid_getRandomVectorScorer_1701594e562f69f6,
-              mid_getRandomVectorScorerSupplier_2c8c5cbb3a1d58d0,
-              mid_quantizeQuery_79899c0f635449f6,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_1528c98833b309dc,
+              mid_getRandomVectorScorer_1ebe787c53ff62b6,
+              mid_getRandomVectorScorer_c110b05f7f5c1d6c,
+              mid_getRandomVectorScorerSupplier_effa0cc5d9ffc106,
+              mid_quantizeQuery_6167ef4363a985e0,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

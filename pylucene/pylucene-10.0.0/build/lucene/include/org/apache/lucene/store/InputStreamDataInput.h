@@ -5,9 +5,9 @@
 
 namespace java {
   namespace io {
-    class Closeable;
-    class InputStream;
     class IOException;
+    class InputStream;
+    class Closeable;
   }
   namespace lang {
     class Class;
@@ -23,11 +23,11 @@ namespace org {
         class InputStreamDataInput : public ::org::apache::lucene::store::DataInput {
          public:
           enum {
-            mid_init$_37e23ef4361d4c28,
-            mid_close_3720c61b0679eb3e,
-            mid_readByte_847674f430f49e4c,
-            mid_readBytes_5fdd5da9426708e6,
-            mid_skipBytes_8b3d46852b435a94,
+            mid_init$_da97eaa7d893a93a,
+            mid_close_e7bdbe105ce1bafb,
+            mid_readByte_1456044a01a5c9bf,
+            mid_readBytes_116f7fcb5bff0f39,
+            mid_skipBytes_1d3149fac12f2af3,
             max_mid
           };
 

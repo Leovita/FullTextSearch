@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/util/Attribute.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
             class ReadingAttribute : public ::org::apache::lucene::util::Attribute {
              public:
               enum {
-                mid_getReading_09a7afff1868fc5e,
-                mid_setToken_cff4f6c452786eb5,
+                mid_getReading_e7df854526d67fa3,
+                mid_setToken_3352cfaa0db5996d,
                 max_mid
               };
 

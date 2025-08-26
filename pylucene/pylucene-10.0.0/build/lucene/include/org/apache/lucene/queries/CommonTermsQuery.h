@@ -6,31 +6,31 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-        class IndexReader;
-        class TermStates;
-        class LeafReaderContext;
-      }
       namespace search {
-        class QueryVisitor;
         class BooleanClause$Occur;
+        class QueryVisitor;
         class IndexSearcher;
+      }
+      namespace index {
+        class TermStates;
+        class IndexReader;
+        class Term;
+        class LeafReaderContext;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
-  }
-  namespace util {
-    class List;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -43,28 +43,28 @@ namespace org {
         class CommonTermsQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_init$_515940149b7f69fc,
-            mid_add_3b0982cb6e1bfb9d,
-            mid_collectTermStates_12d97c4285b19e0d,
-            mid_equals_570b5248a6da3ef6,
-            mid_getHighFreqBoost_9b6c3480dac00edf,
-            mid_getHighFreqMinimumNumberShouldMatch_9b6c3480dac00edf,
-            mid_getHighFreqOccur_75abc2b8d272b588,
-            mid_getLowFreqBoost_9b6c3480dac00edf,
-            mid_getLowFreqMinimumNumberShouldMatch_9b6c3480dac00edf,
-            mid_getLowFreqOccur_75abc2b8d272b588,
-            mid_getMaxTermFrequency_9b6c3480dac00edf,
-            mid_getTerms_36830460e10839eb,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_setHighFreqMinimumNumberShouldMatch_c771a95b0227fb6a,
-            mid_setLowFreqMinimumNumberShouldMatch_c771a95b0227fb6a,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
-            mid_newTermQuery_c16b5012c73d3e7d,
-            mid_calcLowFreqMinimumNumberShouldMatch_3c9bba330f083871,
-            mid_calcHighFreqMinimumNumberShouldMatch_3c9bba330f083871,
-            mid_buildQuery_c853f83e3bbf096d,
+            mid_init$_22e935421821be09,
+            mid_add_ed33f9e055f7213d,
+            mid_collectTermStates_f2ea78062ac6d9b5,
+            mid_equals_00d17418847797d4,
+            mid_getHighFreqBoost_8b62236f0e4d0dbc,
+            mid_getHighFreqMinimumNumberShouldMatch_8b62236f0e4d0dbc,
+            mid_getHighFreqOccur_285e02dfd9c0e1d9,
+            mid_getLowFreqBoost_8b62236f0e4d0dbc,
+            mid_getLowFreqMinimumNumberShouldMatch_8b62236f0e4d0dbc,
+            mid_getLowFreqOccur_285e02dfd9c0e1d9,
+            mid_getMaxTermFrequency_8b62236f0e4d0dbc,
+            mid_getTerms_1387e1e2702ac173,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_setHighFreqMinimumNumberShouldMatch_675f4cb9a2529ee0,
+            mid_setLowFreqMinimumNumberShouldMatch_675f4cb9a2529ee0,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
+            mid_newTermQuery_8dbb46f1aae46c36,
+            mid_buildQuery_d0cf945a19236f68,
+            mid_calcLowFreqMinimumNumberShouldMatch_a3904e10f5bb9437,
+            mid_calcHighFreqMinimumNumberShouldMatch_a3904e10f5bb9437,
             max_mid
           };
 

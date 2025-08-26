@@ -3,21 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        namespace fst {
-          class Util$TopResults;
-          class Util$FSTPath;
-          class FST$Arc;
-          class FST;
-        }
-        class IntsRefBuilder;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -28,6 +13,21 @@ namespace java {
   }
   namespace util {
     class Comparator;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        namespace fst {
+          class FST;
+          class Util$TopResults;
+          class Util$FSTPath;
+          class FST$Arc;
+        }
+        class IntsRefBuilder;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -41,15 +41,15 @@ namespace org {
           class Util$TopNSearcher : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_00bc7350f449b1db,
-              mid_init$_60f70a21d6c94113,
-              mid_addStartPaths_6747eb924c445417,
-              mid_addStartPaths_736f1a71b7872e65,
-              mid_search_925d3a774e1de08f,
-              mid_acceptPartialPath_ba8849d67b79a9e2,
-              mid_addIfCompetitive_f13383d2f80d5b62,
-              mid_acceptResult_ba8849d67b79a9e2,
-              mid_acceptResult_0e6dbcacfd87fd12,
+              mid_init$_5ce270309ebfbcae,
+              mid_init$_c59b60f93ed29838,
+              mid_addStartPaths_1bcb8ef17ff0751b,
+              mid_addStartPaths_52765721c1adc067,
+              mid_search_14750a549f4bd047,
+              mid_acceptResult_35eedff78afc9d96,
+              mid_acceptResult_3387f691cc6b58c6,
+              mid_acceptPartialPath_3387f691cc6b58c6,
+              mid_addIfCompetitive_66d691c0cd0adb99,
               max_mid
             };
 

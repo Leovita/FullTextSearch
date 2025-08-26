@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/index/IndexDeletionPolicy.h"
 
-namespace java {
-  namespace util {
-    class List;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +10,14 @@ namespace org {
         class IndexCommit;
       }
     }
+  }
+}
+namespace java {
+  namespace util {
+    class List;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,8 +30,8 @@ namespace org {
         class NoDeletionPolicy : public ::org::apache::lucene::index::IndexDeletionPolicy {
          public:
           enum {
-            mid_onCommit_9425cd4f62c94bce,
-            mid_onInit_9425cd4f62c94bce,
+            mid_onCommit_acbb405b60a30822,
+            mid_onInit_acbb405b60a30822,
             max_mid
           };
 

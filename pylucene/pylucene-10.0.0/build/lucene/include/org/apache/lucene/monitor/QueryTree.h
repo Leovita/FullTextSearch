@@ -3,32 +3,32 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace index {
-        class Term;
-      }
-      namespace monitor {
-        class QueryTree;
-        class TermWeightor;
-      }
-    }
-  }
-}
 namespace java {
+  namespace util {
+    namespace function {
+      class Function;
+      class BiConsumer;
+    }
+    class List;
+  }
   namespace lang {
     class Class;
     class String;
   }
-  namespace util {
-    class List;
-    namespace function {
-      class BiConsumer;
-      class Function;
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace monitor {
+        class TermWeightor;
+        class QueryTree;
+      }
+      namespace index {
+        class Term;
+      }
+      namespace util {
+        class BytesRef;
+      }
     }
   }
 }
@@ -42,19 +42,19 @@ namespace org {
         class QueryTree : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_advancePhase_9c3aeb3f8504878d,
-            mid_anyTerm_fbac04a720c5d535,
-            mid_collectTerms_b72e978f1e58c9c6,
-            mid_conjunction_322ef3779a1e5fa6,
-            mid_disjunction_322ef3779a1e5fa6,
-            mid_term_33a5d68f5a36cf52,
-            mid_term_cdf200f2df70a8fe,
-            mid_term_463e9f87969c4735,
-            mid_toString_09a7afff1868fc5e,
-            mid_toString_cd8436557ab831f9,
-            mid_weight_32caabaad86c508b,
-            mid_space_cd8436557ab831f9,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_advancePhase_38862de998abbf87,
+            mid_anyTerm_b015296bd923de86,
+            mid_collectTerms_309feadaabdabe33,
+            mid_conjunction_8f4976cc6de7103b,
+            mid_disjunction_8f4976cc6de7103b,
+            mid_term_52ee705bb2f9e37c,
+            mid_term_d17a760c37a1d1ec,
+            mid_term_1e3c18666618c808,
+            mid_toString_e7df854526d67fa3,
+            mid_toString_0da8f0b89b1e9a22,
+            mid_weight_6fb37e123fed7a1f,
+            mid_space_0da8f0b89b1e9a22,
             max_mid
           };
 

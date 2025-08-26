@@ -31,11 +31,11 @@ namespace org {
             class LabelToOrdinal : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_addLabel_c03899e4bfaf2ba4,
-                mid_getMaxOrdinal_20fbf7565993c3d7,
-                mid_getNextOrdinal_20fbf7565993c3d7,
-                mid_getOrdinal_b886af148d2e9c5a,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_addLabel_92b1218d011a67a8,
+                mid_getMaxOrdinal_bd89ce15dad49192,
+                mid_getNextOrdinal_bd89ce15dad49192,
+                mid_getOrdinal_36dd33e0173c4244,
                 max_mid
               };
 

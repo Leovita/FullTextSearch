@@ -7,20 +7,20 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorer;
-        class DocIdSetIterator;
         class TwoPhaseIterator;
+        class DocIdSetIterator;
+        class Scorer;
       }
     }
   }
 }
 namespace java {
+  namespace lang {
+    class Class;
+  }
   namespace util {
     class Collection;
     class List;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -33,12 +33,12 @@ namespace org {
         class ConjunctionUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_addIterator_3e0a9656970b7746,
-            mid_addTwoPhaseIterator_aa5dccdeebcee872,
-            mid_createConjunction_1724434e8298b8ea,
-            mid_intersectIterators_fa61acd4fe763fe4,
-            mid_intersectScorers_0bec4b4e3b62bc41,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_addIterator_61a440c79d5b3509,
+            mid_addTwoPhaseIterator_8ee69a1603a205de,
+            mid_createConjunction_7a5917f2521a684b,
+            mid_intersectIterators_a4411f409ce3243a,
+            mid_intersectScorers_2a88249bbaa58eff,
             max_mid
           };
 

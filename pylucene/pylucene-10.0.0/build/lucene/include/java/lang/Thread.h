@@ -5,18 +5,18 @@
 
 namespace java {
   namespace lang {
-    class StackTraceElement;
-    class Thread$UncaughtExceptionHandler;
-    class Class;
+    class InterruptedException;
+    class ThreadGroup;
     class Runnable;
-    class String;
+    class Thread$UncaughtExceptionHandler;
+    class Thread;
+    class Class;
+    class Thread$Builder$OfPlatform;
+    class StackTraceElement;
     class Thread$Builder$OfVirtual;
     class Thread$State;
-    class InterruptedException;
-    class Thread$Builder$OfPlatform;
-    class Thread;
+    class String;
     class ClassLoader;
-    class ThreadGroup;
   }
   namespace util {
     class Map;
@@ -30,62 +30,59 @@ namespace java {
     class Thread : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_5f8e9a753ad746d2,
-        mid_init$_a4fe61fd51fefd67,
-        mid_init$_df3227e07e1a5f16,
-        mid_init$_5b54cda95a1cb724,
-        mid_init$_e6066fd48a4ae50a,
-        mid_init$_46c5c3398ef1359c,
-        mid_init$_a8f8ed1f66f4b7ab,
-        mid_activeCount_20fbf7565993c3d7,
-        mid_checkAccess_3720c61b0679eb3e,
-        mid_countStackFrames_20fbf7565993c3d7,
-        mid_currentThread_d237cf0a682577ec,
-        mid_dumpStack_3720c61b0679eb3e,
-        mid_enumerate_6bd42c14de27270b,
-        mid_getAllStackTraces_f125f26c07a7bec8,
-        mid_getContextClassLoader_c8c017ac4e9c9110,
-        mid_getDefaultUncaughtExceptionHandler_10547e2bde8cbe85,
-        mid_getId_16939d9d0a9a9721,
-        mid_getName_09a7afff1868fc5e,
-        mid_getPriority_20fbf7565993c3d7,
-        mid_getStackTrace_2ecac95d7eda48b5,
-        mid_getState_76aada4a5b0c20f4,
-        mid_getThreadGroup_1409ca4f99a5e054,
-        mid_getUncaughtExceptionHandler_10547e2bde8cbe85,
-        mid_holdsLock_570b5248a6da3ef6,
-        mid_interrupt_3720c61b0679eb3e,
-        mid_interrupted_947277eca0748c4e,
-        mid_isAlive_947277eca0748c4e,
-        mid_isDaemon_947277eca0748c4e,
-        mid_isInterrupted_947277eca0748c4e,
-        mid_isVirtual_947277eca0748c4e,
-        mid_join_3720c61b0679eb3e,
-        mid_join_8b3d46852b435a94,
-        mid_join_b0983bb665c1a771,
-        mid_ofPlatform_abbe535f37b5a2fb,
-        mid_ofVirtual_34f1c9d66a592431,
-        mid_onSpinWait_3720c61b0679eb3e,
-        mid_resume_3720c61b0679eb3e,
-        mid_run_3720c61b0679eb3e,
-        mid_setContextClassLoader_7e882e12061eaf38,
-        mid_setDaemon_b110fc3a58c081ab,
-        mid_setDefaultUncaughtExceptionHandler_16760234b6ede3e4,
-        mid_setName_0d82408c6e55bc30,
-        mid_setPriority_540b2b23d51b1efd,
-        mid_setUncaughtExceptionHandler_16760234b6ede3e4,
-        mid_sleep_8b3d46852b435a94,
-        mid_sleep_b0983bb665c1a771,
-        mid_start_3720c61b0679eb3e,
-        mid_startVirtualThread_b7c94fccf120862d,
-        mid_stop_3720c61b0679eb3e,
-        mid_suspend_3720c61b0679eb3e,
-        mid_threadId_16939d9d0a9a9721,
-        mid_toString_09a7afff1868fc5e,
-        mid_yield_3720c61b0679eb3e,
-        mid_clone_5655ed8670534604,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_ee46a189998009d6,
+        mid_init$_b278873deffbc02b,
+        mid_init$_19803cbc17b92361,
+        mid_init$_afbaf05a4a5b657d,
+        mid_init$_7ed2d7629563f555,
+        mid_init$_8da5555ec0347baf,
+        mid_init$_56c70da88f89d054,
+        mid_init$_93cb0d349ff3d542,
+        mid_activeCount_bd89ce15dad49192,
+        mid_checkAccess_e7bdbe105ce1bafb,
+        mid_currentThread_4b5daa49003e4686,
+        mid_dumpStack_e7bdbe105ce1bafb,
+        mid_enumerate_93ba06f711cebdb5,
+        mid_getAllStackTraces_5004bdf19ed33453,
+        mid_getContextClassLoader_4897d4d2fef89082,
+        mid_getDefaultUncaughtExceptionHandler_4d0991fb317ea618,
+        mid_getId_0f176418e3e16541,
+        mid_getName_e7df854526d67fa3,
+        mid_getPriority_bd89ce15dad49192,
+        mid_getStackTrace_28d41e156fd049ea,
+        mid_getState_47d137dc2c9d5e02,
+        mid_getThreadGroup_183cb1483640e28b,
+        mid_getUncaughtExceptionHandler_4d0991fb317ea618,
+        mid_holdsLock_00d17418847797d4,
+        mid_interrupt_e7bdbe105ce1bafb,
+        mid_interrupted_9aa4f33e82ea333f,
+        mid_isAlive_9aa4f33e82ea333f,
+        mid_isDaemon_9aa4f33e82ea333f,
+        mid_isInterrupted_9aa4f33e82ea333f,
+        mid_isVirtual_9aa4f33e82ea333f,
+        mid_join_e7bdbe105ce1bafb,
+        mid_join_1d3149fac12f2af3,
+        mid_join_3d289b1efbb219e1,
+        mid_ofPlatform_739623f8c58a1e28,
+        mid_ofVirtual_962f45efb9ef2ca5,
+        mid_onSpinWait_e7bdbe105ce1bafb,
+        mid_run_e7bdbe105ce1bafb,
+        mid_setContextClassLoader_d603563f542d31ba,
+        mid_setDaemon_f5dd97eebf6a215a,
+        mid_setDefaultUncaughtExceptionHandler_4c7886931b2c9817,
+        mid_setName_ee46a189998009d6,
+        mid_setPriority_8226bd0b0fc13dba,
+        mid_setUncaughtExceptionHandler_4c7886931b2c9817,
+        mid_sleep_1d3149fac12f2af3,
+        mid_sleep_3d289b1efbb219e1,
+        mid_start_e7bdbe105ce1bafb,
+        mid_startVirtualThread_f5e519c688d87f98,
+        mid_stop_e7bdbe105ce1bafb,
+        mid_threadId_0f176418e3e16541,
+        mid_toString_e7df854526d67fa3,
+        mid_yield_e7bdbe105ce1bafb,
+        mid_clone_4819806f62f1360a,
         max_mid
       };
 
@@ -116,7 +113,6 @@ namespace java {
 
       static jint activeCount();
       void checkAccess() const;
-      jint countStackFrames() const;
       static Thread currentThread();
       static void dumpStack();
       static jint enumerate(const JArray< Thread > &);
@@ -143,7 +139,6 @@ namespace java {
       static ::java::lang::Thread$Builder$OfPlatform ofPlatform();
       static ::java::lang::Thread$Builder$OfVirtual ofVirtual();
       static void onSpinWait();
-      void resume() const;
       void run() const;
       void setContextClassLoader(const ::java::lang::ClassLoader &) const;
       void setDaemon(jboolean) const;
@@ -156,7 +151,6 @@ namespace java {
       void start() const;
       static Thread startVirtualThread(const ::java::lang::Runnable &);
       void stop() const;
-      void suspend() const;
       jlong threadId() const;
       ::java::lang::String toString() const;
       static void yield();

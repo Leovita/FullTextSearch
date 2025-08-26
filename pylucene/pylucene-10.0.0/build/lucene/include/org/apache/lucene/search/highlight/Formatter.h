@@ -31,7 +31,7 @@ namespace org {
           class Formatter : public ::java::lang::Object {
            public:
             enum {
-              mid_highlightTerm_ecd5d50f5d7e1e84,
+              mid_highlightTerm_210671a0f4b1b3cf,
               max_mid
             };
 

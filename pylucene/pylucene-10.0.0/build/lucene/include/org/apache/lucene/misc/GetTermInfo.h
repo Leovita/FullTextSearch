@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-      }
       namespace store {
         class Directory;
+      }
+      namespace index {
+        class Term;
       }
     }
   }
@@ -18,8 +18,8 @@ namespace org {
 namespace java {
   namespace lang {
     class Class;
-    class String;
     class Exception;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -32,9 +32,9 @@ namespace org {
         class GetTermInfo : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getTermInfo_d458dfff2e6f4876,
-            mid_main_ce41e621b30e91b1,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getTermInfo_89a3671cb66d2284,
+            mid_main_1f90f2fcbe43e50d,
             max_mid
           };
 

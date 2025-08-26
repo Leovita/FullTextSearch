@@ -28,8 +28,8 @@ namespace org {
           class PayloadAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_getPayload_9740fddd1c7df148,
-              mid_setPayload_ac0de3ee0e03786d,
+              mid_getPayload_adbedbc1fa61c358,
+              mid_setPayload_920ce0cdf4259cc9,
               max_mid
             };
 

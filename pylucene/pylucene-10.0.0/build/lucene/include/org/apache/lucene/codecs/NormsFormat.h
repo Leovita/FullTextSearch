@@ -3,26 +3,26 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class NormsProducer;
-        class NormsConsumer;
-      }
       namespace index {
         class SegmentReadState;
         class SegmentWriteState;
       }
+      namespace codecs {
+        class NormsConsumer;
+        class NormsProducer;
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,8 +35,8 @@ namespace org {
         class NormsFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_normsConsumer_f7ca28e9ed5c7ba4,
-            mid_normsProducer_62a9a1ab2c081701,
+            mid_normsConsumer_b17eca5cc2c59a55,
+            mid_normsProducer_00f9cd25e5b2229a,
             max_mid
           };
 

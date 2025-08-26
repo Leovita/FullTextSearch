@@ -29,8 +29,8 @@ namespace org {
           class SetKeywordMarkerFilter : public ::org::apache::lucene::analysis::miscellaneous::KeywordMarkerFilter {
            public:
             enum {
-              mid_init$_92e7098bbfc6f3de,
-              mid_isKeyword_947277eca0748c4e,
+              mid_init$_c584271ff3a78226,
+              mid_isKeyword_9aa4f33e82ea333f,
               max_mid
             };
 

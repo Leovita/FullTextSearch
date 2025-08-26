@@ -7,19 +7,19 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
-        class Weight;
         class IndexSearcher;
+        class QueryVisitor;
+        class Weight;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -33,15 +33,15 @@ namespace org {
           class HumanReadableQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_init$_8848e7ccd8e9c62a,
-              mid_createWeight_77fe52950093e704,
-              mid_equals_570b5248a6da3ef6,
-              mid_getDescription_09a7afff1868fc5e,
-              mid_getWrappedQuery_a3eacfacada795d4,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_9421654d65af6edf,
+              mid_createWeight_dc54d493278607e4,
+              mid_equals_00d17418847797d4,
+              mid_getDescription_e7df854526d67fa3,
+              mid_getWrappedQuery_ffa7bd087b2a75aa,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rewrite_25984111320dbe39,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

@@ -31,10 +31,10 @@ namespace org {
           class SpanWeight$Postings : public ::java::lang::Enum {
            public:
             enum {
-              mid_atLeast_a3223f1f334eeff5,
-              mid_getRequiredPostings_20fbf7565993c3d7,
-              mid_valueOf_95e8e397e4884509,
-              mid_values_0fa21665e59a2c0c,
+              mid_atLeast_7b1d5345e9809b98,
+              mid_getRequiredPostings_bd89ce15dad49192,
+              mid_valueOf_705ab4049c687eac,
+              mid_values_ac867a07053670c8,
               max_mid
             };
 

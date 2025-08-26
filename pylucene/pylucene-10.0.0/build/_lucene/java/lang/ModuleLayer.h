@@ -4,18 +4,18 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace util {
+    class Optional;
+    class Set;
+    class List;
+  }
   namespace lang {
     class Class;
-    class String;
-    class Module;
-    class ModuleLayer;
-    class ClassLoader;
     class ModuleLayer$Controller;
-  }
-  namespace util {
-    class List;
-    class Set;
-    class Optional;
+    class Module;
+    class String;
+    class ClassLoader;
+    class ModuleLayer;
   }
 }
 template<class T> class JArray;
@@ -26,13 +26,13 @@ namespace java {
     class ModuleLayer : public ::java::lang::Object {
      public:
       enum {
-        mid_boot_e0d6a2c9ff2cc4b5,
-        mid_empty_e0d6a2c9ff2cc4b5,
-        mid_findLoader_44eed47d76f48e5f,
-        mid_findModule_ef8f83464d079b7a,
-        mid_modules_4df174295554d7bd,
-        mid_parents_36830460e10839eb,
-        mid_toString_09a7afff1868fc5e,
+        mid_boot_c5223455e367451f,
+        mid_empty_c5223455e367451f,
+        mid_findLoader_de02e3b80e16f40e,
+        mid_findModule_a7724673db6b2842,
+        mid_modules_79131c6bbcf08916,
+        mid_parents_1387e1e2702ac173,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

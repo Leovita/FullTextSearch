@@ -7,18 +7,18 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
+        class MultiLongValuesSource;
         namespace range {
           class LongRange;
         }
-        class MultiLongValuesSource;
       }
       namespace sandbox {
         namespace facet {
           namespace cutters {
-            class FacetCutter;
             namespace ranges {
               class LongRangeFacetCutter;
             }
+            class FacetCutter;
           }
         }
       }
@@ -43,7 +43,7 @@ namespace org {
               class LongRangeFacetCutter : public ::java::lang::Object {
                public:
                 enum {
-                  mid_create_11f01e7657f21665,
+                  mid_create_9d2ea3e62d7bd5ad,
                   max_mid
                 };
 

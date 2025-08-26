@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class CharSequence;
     class String;
+    class CharSequence;
     class Class;
   }
 }
@@ -32,12 +32,12 @@ namespace org {
           class TextFragment : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_17dee08b301eed95,
-              mid_follows_f24ae3dbbf6a51c8,
-              mid_getFragNum_20fbf7565993c3d7,
-              mid_getScore_9b6c3480dac00edf,
-              mid_merge_bc0317ca0a60e657,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_1e5b55d602c23ab6,
+              mid_follows_52c60607d6750e74,
+              mid_getFragNum_bd89ce15dad49192,
+              mid_getScore_8b62236f0e4d0dbc,
+              mid_merge_f36ca6b77c71a3d9,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

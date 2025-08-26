@@ -5,10 +5,10 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
+    class Cloneable;
     class Class;
     class String;
-    class Cloneable;
+    class Comparable;
   }
 }
 namespace org {
@@ -30,17 +30,17 @@ namespace org {
         class LongsRef : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_f3cd87eda3d12dc6,
-            mid_clone_6a47e19541528a42,
-            mid_compareTo_5f07af77bc1aa553,
-            mid_deepCopyOf_da1ff7e79b0df8b2,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isValid_947277eca0748c4e,
-            mid_longsEquals_bb9b0153a6a38a01,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_2a4a0e3eb510f108,
+            mid_clone_f28527272776d920,
+            mid_compareTo_34fae71ea256cd2a,
+            mid_deepCopyOf_a13d779221ab4c1b,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isValid_9aa4f33e82ea333f,
+            mid_longsEquals_f3034a1cfaa08c57,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

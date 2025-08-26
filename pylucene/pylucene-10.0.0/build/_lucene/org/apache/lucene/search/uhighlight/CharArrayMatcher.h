@@ -3,12 +3,20 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRef;
         class CharsRef;
+        class BytesRef;
       }
       namespace search {
         namespace uhighlight {
@@ -16,14 +24,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -37,9 +37,9 @@ namespace org {
           class CharArrayMatcher : public ::java::lang::Object {
            public:
             enum {
-              mid_fromTerms_a712c72bc44ef2a7,
-              mid_match_8f45d37653ef7b2f,
-              mid_match_bab09355a5cf0732,
+              mid_fromTerms_c205836e81a7e029,
+              mid_match_355501ecf156b28b,
+              mid_match_355feee9125d4fb1,
               max_mid
             };
 

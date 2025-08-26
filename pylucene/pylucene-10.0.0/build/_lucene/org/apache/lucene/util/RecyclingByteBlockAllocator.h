@@ -27,15 +27,15 @@ namespace org {
         class RecyclingByteBlockAllocator : public ::org::apache::lucene::util::ByteBlockPool$Allocator {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_e56ec7e576fdba66,
-            mid_bytesUsed_16939d9d0a9a9721,
-            mid_freeBlocks_3c9bba330f083871,
-            mid_getByteBlock_5560da88fc44aa82,
-            mid_maxBufferedBlocks_20fbf7565993c3d7,
-            mid_numBufferedBlocks_20fbf7565993c3d7,
-            mid_recycleByteBlocks_540f60124d959184,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_3f16b8628c08efc6,
+            mid_bytesUsed_0f176418e3e16541,
+            mid_freeBlocks_a3904e10f5bb9437,
+            mid_getByteBlock_44e916dc40fc04cb,
+            mid_maxBufferedBlocks_bd89ce15dad49192,
+            mid_numBufferedBlocks_bd89ce15dad49192,
+            mid_recycleByteBlocks_12d456106f915218,
             max_mid
           };
 

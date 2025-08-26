@@ -3,21 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Integer;
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Collection;
-    class Set;
-    class Map;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -26,6 +11,21 @@ namespace org {
         class SegmentInfo;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Integer;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
+    class Collection;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -38,27 +38,27 @@ namespace org {
         class SegmentCommitInfo : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_4b55f879234159fa,
-            mid_clone_6f5c2e9d37fb2f83,
-            mid_files_aa58b3beec16cbbd,
-            mid_getDelCount_20fbf7565993c3d7,
-            mid_getDelGen_16939d9d0a9a9721,
-            mid_getDocValuesGen_16939d9d0a9a9721,
-            mid_getDocValuesUpdatesFiles_f125f26c07a7bec8,
-            mid_getFieldInfosFiles_4df174295554d7bd,
-            mid_getFieldInfosGen_16939d9d0a9a9721,
-            mid_getId_5560da88fc44aa82,
-            mid_getNextDelGen_16939d9d0a9a9721,
-            mid_getNextDocValuesGen_16939d9d0a9a9721,
-            mid_getNextFieldInfosGen_16939d9d0a9a9721,
-            mid_getSoftDelCount_20fbf7565993c3d7,
-            mid_hasDeletions_947277eca0748c4e,
-            mid_hasFieldUpdates_947277eca0748c4e,
-            mid_setDocValuesUpdatesFiles_79ba0f5a7d05e623,
-            mid_setFieldInfosFiles_1d5d4c6f11d1b2ab,
-            mid_sizeInBytes_16939d9d0a9a9721,
-            mid_toString_09a7afff1868fc5e,
-            mid_toString_cd8436557ab831f9,
+            mid_init$_3f51dfccd135639d,
+            mid_clone_5666aee396fcdc2a,
+            mid_files_4a269b968b3a511f,
+            mid_getDelCount_bd89ce15dad49192,
+            mid_getDelGen_0f176418e3e16541,
+            mid_getDocValuesGen_0f176418e3e16541,
+            mid_getDocValuesUpdatesFiles_5004bdf19ed33453,
+            mid_getFieldInfosFiles_79131c6bbcf08916,
+            mid_getFieldInfosGen_0f176418e3e16541,
+            mid_getId_44e916dc40fc04cb,
+            mid_getNextDelGen_0f176418e3e16541,
+            mid_getNextDocValuesGen_0f176418e3e16541,
+            mid_getNextFieldInfosGen_0f176418e3e16541,
+            mid_getSoftDelCount_bd89ce15dad49192,
+            mid_hasDeletions_9aa4f33e82ea333f,
+            mid_hasFieldUpdates_9aa4f33e82ea333f,
+            mid_setDocValuesUpdatesFiles_6a7e23584beb7c0f,
+            mid_setFieldInfosFiles_478519f7d4301fc7,
+            mid_sizeInBytes_0f176418e3e16541,
+            mid_toString_e7df854526d67fa3,
+            mid_toString_0da8f0b89b1e9a22,
             max_mid
           };
 

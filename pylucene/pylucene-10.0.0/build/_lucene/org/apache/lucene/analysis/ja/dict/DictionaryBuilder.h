@@ -3,19 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        namespace ja {
-          namespace dict {
-            class DictionaryBuilder$DictionaryFormat;
-          }
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
@@ -27,6 +14,19 @@ namespace java {
   namespace nio {
     namespace file {
       class Path;
+    }
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        namespace ja {
+          namespace dict {
+            class DictionaryBuilder$DictionaryFormat;
+          }
+        }
+      }
     }
   }
 }
@@ -42,8 +42,8 @@ namespace org {
             class DictionaryBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_build_4c11648d24027b85,
-                mid_main_ce41e621b30e91b1,
+                mid_build_c5e31e2fc3e92841,
+                mid_main_1f90f2fcbe43e50d,
                 max_mid
               };
 

@@ -17,7 +17,7 @@ namespace java {
       class IntToLongFunction : public ::java::lang::Object {
        public:
         enum {
-          mid_applyAsLong_7b22650fccb5d574,
+          mid_applyAsLong_49af390f180d8ee7,
           max_mid
         };
 

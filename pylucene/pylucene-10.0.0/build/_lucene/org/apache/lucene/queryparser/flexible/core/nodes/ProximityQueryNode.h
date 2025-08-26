@@ -3,6 +3,17 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/BooleanQueryNode.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -13,24 +24,13 @@ namespace org {
               class EscapeQuerySyntax;
             }
             namespace nodes {
-              class QueryNode;
               class ProximityQueryNode$Type;
+              class QueryNode;
             }
           }
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -46,17 +46,17 @@ namespace org {
               class ProximityQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::BooleanQueryNode {
                public:
                 enum {
-                  mid_init$_b1b50ffbbe9b0320,
-                  mid_init$_f669bd79e2a17e37,
-                  mid_cloneTree_7ba6641ec93d332a,
-                  mid_getDistance_20fbf7565993c3d7,
-                  mid_getField_373f0038978f926b,
-                  mid_getFieldAsString_09a7afff1868fc5e,
-                  mid_getProximityType_206575a92f8fce0f,
-                  mid_isInOrder_947277eca0748c4e,
-                  mid_setField_5ed8eb2e3024c663,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_4c7f9f990e710021,
+                  mid_init$_4b027672c1849531,
+                  mid_cloneTree_1a37a44f7f2f5350,
+                  mid_getDistance_bd89ce15dad49192,
+                  mid_getField_f2e5418fe0d66c69,
+                  mid_getFieldAsString_e7df854526d67fa3,
+                  mid_getProximityType_23b5a1d0f3278935,
+                  mid_isInOrder_9aa4f33e82ea333f,
+                  mid_setField_fe2ab7d27aa3fe1a,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

@@ -7,8 +7,8 @@ namespace java {
   namespace lang {
     class Thread$UncaughtExceptionHandler;
     class Class;
-    class String;
     class Thread$Builder$OfVirtual;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -19,10 +19,10 @@ namespace java {
     class Thread$Builder$OfVirtual : public ::java::lang::Thread$Builder {
      public:
       enum {
-        mid_inheritInheritableThreadLocals_31b51bcb2c62de53,
-        mid_name_5ced0742cdf09bd6,
-        mid_name_ffab56d0107d75d7,
-        mid_uncaughtExceptionHandler_313e29eab009c355,
+        mid_inheritInheritableThreadLocals_d60aee2f375249bb,
+        mid_name_666fb7b5be729cca,
+        mid_name_f59471d97ee3d450,
+        mid_uncaughtExceptionHandler_71d604d4a3f408ff,
         max_mid
       };
 

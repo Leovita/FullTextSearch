@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace uhighlight {
-          class OffsetsEnum;
           class UHComponents;
+          class OffsetsEnum;
         }
       }
       namespace analysis {
@@ -22,12 +22,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,8 +41,8 @@ namespace org {
           class TokenStreamOffsetStrategy : public ::org::apache::lucene::search::uhighlight::AnalysisOffsetStrategy {
            public:
             enum {
-              mid_init$_657140c5a10ae61c,
-              mid_getOffsetsEnum_717b49b3028aff18,
+              mid_init$_712d9a19d40f047e,
+              mid_getOffsetsEnum_5610a28ef32aa7b7,
               max_mid
             };
 

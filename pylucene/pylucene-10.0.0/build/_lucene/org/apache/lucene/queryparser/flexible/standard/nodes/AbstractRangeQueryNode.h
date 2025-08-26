@@ -9,12 +9,12 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
+            namespace nodes {
+              class FieldValuePairQueryNode;
+              class RangeQueryNode;
+            }
             namespace parser {
               class EscapeQuerySyntax;
-            }
-            namespace nodes {
-              class RangeQueryNode;
-              class FieldValuePairQueryNode;
             }
           }
         }
@@ -24,10 +24,10 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
     class Object;
+    class Class;
+    class String;
+    class CharSequence;
   }
 }
 template<class T> class JArray;
@@ -43,15 +43,15 @@ namespace org {
               class AbstractRangeQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_getField_373f0038978f926b,
-                  mid_getLowerBound_0aac99d16f405c93,
-                  mid_getUpperBound_0aac99d16f405c93,
-                  mid_isLowerInclusive_947277eca0748c4e,
-                  mid_isUpperInclusive_947277eca0748c4e,
-                  mid_setBounds_d8fe065a622c2b4c,
-                  mid_setField_5ed8eb2e3024c663,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_getField_f2e5418fe0d66c69,
+                  mid_getLowerBound_e70134a84b454b28,
+                  mid_getUpperBound_e70134a84b454b28,
+                  mid_isLowerInclusive_9aa4f33e82ea333f,
+                  mid_isUpperInclusive_9aa4f33e82ea333f,
+                  mid_setBounds_5bcf424dad5066d1,
+                  mid_setField_fe2ab7d27aa3fe1a,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

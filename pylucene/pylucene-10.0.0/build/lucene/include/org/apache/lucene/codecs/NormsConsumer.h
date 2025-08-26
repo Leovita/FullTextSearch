@@ -18,8 +18,8 @@ namespace org {
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -35,9 +35,9 @@ namespace org {
         class NormsConsumer : public ::java::lang::Object {
          public:
           enum {
-            mid_addNormsField_e7e4c5153e0574ca,
-            mid_merge_1d534d5055fd8b5a,
-            mid_mergeNormsField_12bd7baeb6b4bf04,
+            mid_addNormsField_104f6ae984362566,
+            mid_merge_b7f5b82c43646887,
+            mid_mergeNormsField_6efd9d341cba2a34,
             max_mid
           };
 

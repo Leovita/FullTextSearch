@@ -19,8 +19,8 @@ namespace org {
           class IntervalMatchesIterator : public ::org::apache::lucene::search::MatchesIterator {
            public:
             enum {
-              mid_gaps_20fbf7565993c3d7,
-              mid_width_20fbf7565993c3d7,
+              mid_gaps_bd89ce15dad49192,
+              mid_width_bd89ce15dad49192,
               max_mid
             };
 

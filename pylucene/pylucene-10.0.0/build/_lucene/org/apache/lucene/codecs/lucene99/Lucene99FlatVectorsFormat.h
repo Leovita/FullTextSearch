@@ -3,30 +3,30 @@
 
 #include "org/apache/lucene/codecs/hnsw/FlatVectorsFormat.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        namespace hnsw {
-          class FlatVectorsReader;
-          class FlatVectorsScorer;
-          class FlatVectorsWriter;
-        }
-      }
       namespace index {
         class SegmentReadState;
         class SegmentWriteState;
       }
+      namespace codecs {
+        namespace hnsw {
+          class FlatVectorsScorer;
+          class FlatVectorsReader;
+          class FlatVectorsWriter;
+        }
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,10 +40,10 @@ namespace org {
           class Lucene99FlatVectorsFormat : public ::org::apache::lucene::codecs::hnsw::FlatVectorsFormat {
            public:
             enum {
-              mid_init$_a5645d6209864bd2,
-              mid_fieldsReader_b357f440421570ce,
-              mid_fieldsWriter_2ec0cddb641511c1,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_1528c98833b309dc,
+              mid_fieldsReader_d1a34b66ea06bc3b,
+              mid_fieldsWriter_c8010db3218dc643,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

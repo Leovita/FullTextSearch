@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class CharsRef;
+        class CharsRefBuilder;
+      }
       namespace analysis {
         namespace synonym {
           class SynonymMap;
         }
       }
-      namespace util {
-        class CharsRef;
-        class CharsRefBuilder;
-      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -38,11 +38,11 @@ namespace org {
           class SynonymMap$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_b110fc3a58c081ab,
-              mid_add_d2a55fbd70ebe451,
-              mid_build_a83e97c711110689,
-              mid_join_ff38e197315aea5b,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f5dd97eebf6a215a,
+              mid_add_77774a5a18cef005,
+              mid_build_54a4766b9df350c4,
+              mid_join_399c311593a333ed,
               max_mid
             };
 

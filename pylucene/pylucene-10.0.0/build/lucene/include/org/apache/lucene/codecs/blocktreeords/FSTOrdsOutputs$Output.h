@@ -3,25 +3,25 @@
 
 #include "java/lang/Record.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
       namespace codecs {
         namespace blocktreeords {
           class FSTOrdsOutputs$Output;
         }
       }
+      namespace util {
+        class BytesRef;
+      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -35,13 +35,13 @@ namespace org {
           class FSTOrdsOutputs$Output : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_25ff7a0759a6ca17,
-              mid_bytes_9740fddd1c7df148,
-              mid_endOrd_16939d9d0a9a9721,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_startOrd_16939d9d0a9a9721,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_21a316e27b6ef4ff,
+              mid_bytes_adbedbc1fa61c358,
+              mid_endOrd_0f176418e3e16541,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_startOrd_0f176418e3e16541,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

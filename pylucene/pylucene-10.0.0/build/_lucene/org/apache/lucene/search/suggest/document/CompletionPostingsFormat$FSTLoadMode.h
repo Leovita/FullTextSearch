@@ -34,8 +34,8 @@ namespace org {
             class CompletionPostingsFormat$FSTLoadMode : public ::java::lang::Enum {
              public:
               enum {
-                mid_valueOf_1a6c6987d4cae66b,
-                mid_values_0b18be8e5691b336,
+                mid_valueOf_61f37d32874ff423,
+                mid_values_2b2e6481d92c38df,
                 max_mid
               };
 

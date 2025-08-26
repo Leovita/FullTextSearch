@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,15 +21,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -34,7 +34,7 @@ namespace org {
           class AutomatonProvider : public ::java::lang::Object {
            public:
             enum {
-              mid_getAutomaton_19ccfea663b93327,
+              mid_getAutomaton_e2fb5d1ad86a4236,
               max_mid
             };
 

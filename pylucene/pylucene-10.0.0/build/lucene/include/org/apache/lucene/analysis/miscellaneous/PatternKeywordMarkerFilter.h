@@ -33,8 +33,8 @@ namespace org {
           class PatternKeywordMarkerFilter : public ::org::apache::lucene::analysis::miscellaneous::KeywordMarkerFilter {
            public:
             enum {
-              mid_init$_5963f1fdfab15bb9,
-              mid_isKeyword_947277eca0748c4e,
+              mid_init$_65eb2f2a7b49f2f5,
+              mid_isKeyword_9aa4f33e82ea333f,
               max_mid
             };
 

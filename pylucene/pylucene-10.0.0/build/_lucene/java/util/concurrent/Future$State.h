@@ -4,14 +4,14 @@
 #include "java/lang/Enum.h"
 
 namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
   namespace util {
     namespace concurrent {
       class Future$State;
     }
+  }
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -23,8 +23,8 @@ namespace java {
       class Future$State : public ::java::lang::Enum {
        public:
         enum {
-          mid_valueOf_aff7a9935c081600,
-          mid_values_12a737d6ea9acc48,
+          mid_valueOf_b8dbd719b21a9169,
+          mid_values_1df90489ff69d4d6,
           max_mid
         };
 

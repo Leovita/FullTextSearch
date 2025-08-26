@@ -3,12 +3,17 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-      }
       namespace store {
         class DataInput;
         class DataOutput;
@@ -18,15 +23,10 @@ namespace org {
           class BlockLine;
         }
       }
+      namespace util {
+        class Accountable;
+      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -40,15 +40,15 @@ namespace org {
           class BlockLine$Serializer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_readLine_319193dd2818da52,
-              mid_writeLine_3e5c4bb7f9fac94d,
-              mid_readIncrementallyEncodedTerm_4b3f218369a91d61,
-              mid_writeIncrementallyEncodedTerm_0d007d664dfdb43e,
-              mid_numBitsToEncode_3c9bba330f083871,
-              mid_writeLineTermState_850b9ec37df5bb7e,
-              mid_readBytes_8a137ea39c515db6,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_readLine_da9ebcc55e1a4400,
+              mid_writeLine_9ec52fb7ce42b31e,
+              mid_readIncrementallyEncodedTerm_4d18a0fa502f4021,
+              mid_writeLineTermState_4c86255027cde33b,
+              mid_writeIncrementallyEncodedTerm_9e2a8621b892af00,
+              mid_numBitsToEncode_a3904e10f5bb9437,
+              mid_readBytes_a08d975f809d9649,
               max_mid
             };
 

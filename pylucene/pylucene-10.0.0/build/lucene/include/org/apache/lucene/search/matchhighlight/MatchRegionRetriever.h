@@ -7,19 +7,19 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         namespace matchhighlight {
-          class MatchRegionRetriever$FieldValueProvider;
           class OffsetsRetrievalStrategySupplier;
-          class OffsetRange;
           class MatchRegionRetriever$MatchOffsetsConsumer;
+          class OffsetRange;
+          class MatchRegionRetriever$FieldValueProvider;
         }
+        class Query;
         class TopDocs;
         class IndexSearcher;
       }
       namespace index {
-        class LeafReaderContext;
         class IndexReader;
+        class LeafReaderContext;
       }
       namespace analysis {
         class Analyzer;
@@ -28,21 +28,21 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
   namespace util {
-    class Map;
-    class List;
     namespace function {
       class Predicate;
       class ToIntFunction;
     }
     class PrimitiveIterator$OfInt;
+    class Map;
+    class List;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -56,13 +56,13 @@ namespace org {
           class MatchRegionRetriever : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_48ba6b5c8ef11bbf,
-              mid_init$_0dbfa4f0fb90a9a8,
-              mid_computeOffsetRetrievalStrategies_ae537147a63977e9,
-              mid_highlightDocument_d5577040d9ba548c,
-              mid_highlightDocuments_9fc78026862b793d,
-              mid_highlightDocuments_d6c429aa18142697,
-              mid_highlightDocuments_fc2a40722a21906d,
+              mid_init$_2a569346bd675121,
+              mid_init$_d8d0bd10252b97eb,
+              mid_computeOffsetRetrievalStrategies_5587f49d50d40446,
+              mid_highlightDocument_59946594c28daae1,
+              mid_highlightDocuments_fbbd403c97d04bad,
+              mid_highlightDocuments_6f33d27e8c0bbe8a,
+              mid_highlightDocuments_4e15cd2a613232fb,
               max_mid
             };
 

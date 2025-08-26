@@ -6,18 +6,18 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace monitor {
         class CustomQueryHandler;
         class TermWeightor;
       }
-      namespace util {
-        class BytesRef;
-      }
       namespace document {
         class Document;
+      }
+      namespace search {
+        class Query;
+      }
+      namespace util {
+        class BytesRef;
       }
       namespace index {
         class LeafReader;
@@ -26,17 +26,17 @@ namespace org {
   }
 }
 namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
   namespace util {
-    class List;
-    class Set;
     namespace function {
       class BiPredicate;
     }
     class Map;
+    class Set;
+    class List;
+  }
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -49,13 +49,13 @@ namespace org {
         class TermFilteredPresearcher : public ::org::apache::lucene::monitor::Presearcher {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_55ece150dcdde36f,
-            mid_buildQuery_5ac880f711e7891d,
-            mid_indexQuery_6c9ecad1e4032583,
-            mid_getQueryBuilder_02bc336b844a966a,
-            mid_buildQueryDocument_4c96b8137c7fa5d6,
-            mid_collectTerms_8d0d1e2bf6f0b5c7,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_47050778bb92656b,
+            mid_buildQuery_3ea5bedfc296f473,
+            mid_indexQuery_50a389fecd57172d,
+            mid_collectTerms_030d883ed3190581,
+            mid_buildQueryDocument_29e397accbe4f527,
+            mid_getQueryBuilder_4560c4e2be64368f,
             max_mid
           };
 

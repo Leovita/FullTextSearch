@@ -30,11 +30,11 @@ namespace org {
           class PackedInts$NullReader : public ::org::apache::lucene::util::packed::PackedInts$Reader {
            public:
             enum {
-              mid_forCount_b91bdbd6984b51be,
-              mid_get_7b22650fccb5d574,
-              mid_get_be281815fcc98213,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_size_20fbf7565993c3d7,
+              mid_forCount_b0b7c746fb48eda2,
+              mid_get_49af390f180d8ee7,
+              mid_get_bee5a5809f1f577a,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

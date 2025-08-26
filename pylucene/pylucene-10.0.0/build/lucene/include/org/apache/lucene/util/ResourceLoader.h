@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class InputStream;
     class IOException;
+    class InputStream;
   }
   namespace lang {
     class Class;
@@ -23,9 +23,9 @@ namespace org {
         class ResourceLoader : public ::java::lang::Object {
          public:
           enum {
-            mid_findClass_b5a648522f034964,
-            mid_newInstance_41015388295e12f4,
-            mid_openResource_4306cf2226901a47,
+            mid_findClass_74b6933dfade62e7,
+            mid_newInstance_ca22afea7b505a3f,
+            mid_openResource_9bd3a7bffb83deee,
             max_mid
           };
 

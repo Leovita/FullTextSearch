@@ -28,8 +28,8 @@ namespace org {
           class CodepointCountFilter : public ::org::apache::lucene::analysis::FilteringTokenFilter {
            public:
             enum {
-              mid_init$_e05e82644d70e02c,
-              mid_accept_947277eca0748c4e,
+              mid_init$_2184c5b3e9ae83b3,
+              mid_accept_9aa4f33e82ea333f,
               max_mid
             };
 

@@ -7,15 +7,15 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        namespace hnsw {
-          class RandomVectorScorer;
-          class OnHeapHnswGraph;
-          class HnswGraph;
-          class HnswGraphBuilder$GraphBuilderKnnCollector;
-          class NeighborQueue;
-        }
         class BitSet;
         class Bits;
+        namespace hnsw {
+          class OnHeapHnswGraph;
+          class RandomVectorScorer;
+          class NeighborQueue;
+          class HnswGraphBuilder$GraphBuilderKnnCollector;
+          class HnswGraph;
+        }
       }
       namespace search {
         class KnnCollector;
@@ -24,11 +24,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -42,10 +42,10 @@ namespace org {
           class HnswGraphSearcher : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b6a27a513de9819d,
-              mid_search_139a3ae324ce873e,
-              mid_search_b757d65561ac0ca4,
-              mid_searchLevel_b8eb913892ac4b3d,
+              mid_init$_f020b326a37c9a45,
+              mid_search_dfbd4ff3304f265b,
+              mid_search_23c9dcab711ab0b1,
+              mid_searchLevel_b02a3fae423b38f3,
               max_mid
             };
 

@@ -6,9 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
       namespace index {
-        class Fields;
         class SegmentInfo;
+        class Fields;
         class FieldInfos;
       }
       namespace backward_codecs {
@@ -16,20 +20,16 @@ namespace org {
           class CompressionMode;
         }
       }
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -44,12 +44,12 @@ namespace org {
             class Lucene50CompressingTermVectorsReader : public ::org::apache::lucene::codecs::TermVectorsReader {
              public:
               enum {
-                mid_init$_eb4ac1d51baa343d,
-                mid_checkIntegrity_3720c61b0679eb3e,
-                mid_clone_0b9ae2ecfa80c759,
-                mid_close_3720c61b0679eb3e,
-                mid_get_780247cb7111176e,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_bd2900f0b87f53fa,
+                mid_checkIntegrity_e7bdbe105ce1bafb,
+                mid_clone_7a10ef35062ba8d1,
+                mid_close_e7bdbe105ce1bafb,
+                mid_get_fb85108cc18b1699,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

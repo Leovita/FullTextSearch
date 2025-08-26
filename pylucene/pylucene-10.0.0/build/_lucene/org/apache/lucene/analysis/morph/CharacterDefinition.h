@@ -20,9 +20,9 @@ namespace org {
           class CharacterDefinition : public ::java::lang::Object {
            public:
             enum {
-              mid_getCharacterClass_b717c26a2b6bd25e,
-              mid_isGroup_4e84a8c37896b7c5,
-              mid_isInvoke_4e84a8c37896b7c5,
+              mid_getCharacterClass_506402600b0c5fc4,
+              mid_isGroup_96a1e5bdb33dde4e,
+              mid_isInvoke_96a1e5bdb33dde4e,
               max_mid
             };
 

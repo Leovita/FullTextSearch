@@ -21,7 +21,7 @@ namespace org {
             class DocTermsIndexDocValues$DocTermsIndexException : public ::java::lang::RuntimeException {
              public:
               enum {
-                mid_init$_3f10b58708b59833,
+                mid_init$_0bc9bf059f55c6c7,
                 max_mid
               };
 

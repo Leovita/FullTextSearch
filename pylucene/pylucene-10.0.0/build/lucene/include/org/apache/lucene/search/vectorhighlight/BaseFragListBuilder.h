@@ -30,10 +30,10 @@ namespace org {
           class BaseFragListBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_createFieldFragList_9cadea4e9d11ff1d,
-              mid_acceptPhrase_c6f5a903b531f59f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_acceptPhrase_9fa9fbb7f4c96948,
+              mid_createFieldFragList_ab69bff2852ba637,
               max_mid
             };
 

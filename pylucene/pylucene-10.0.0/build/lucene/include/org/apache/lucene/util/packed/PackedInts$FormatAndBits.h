@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class String;
     class Object;
+    class String;
     class Class;
   }
 }
@@ -32,12 +32,12 @@ namespace org {
           class PackedInts$FormatAndBits : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_bce1a1e80fdef8e4,
-              mid_bitsPerValue_20fbf7565993c3d7,
-              mid_equals_570b5248a6da3ef6,
-              mid_format_e1a5aa94ef41e2e5,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_a821b6ea7fae7b9d,
+              mid_bitsPerValue_bd89ce15dad49192,
+              mid_equals_00d17418847797d4,
+              mid_format_ab5e842417ef5ecc,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

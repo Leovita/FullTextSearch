@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class IOException;
     class DataInput;
+    class IOException;
     class DataOutput;
     class PrintStream;
   }
@@ -23,19 +23,19 @@ namespace org {
       class Row : public ::java::lang::Object {
        public:
         enum {
-          mid_init$_3720c61b0679eb3e,
-          mid_init$_8ffc0b64a085f7b2,
-          mid_getCells_20fbf7565993c3d7,
-          mid_getCellsPnt_20fbf7565993c3d7,
-          mid_getCellsVal_20fbf7565993c3d7,
-          mid_getCmd_99c33562a336f6e9,
-          mid_getCnt_99c33562a336f6e9,
-          mid_getRef_99c33562a336f6e9,
-          mid_print_f19a9aaf837ad692,
-          mid_setCmd_4888b010066312ee,
-          mid_setRef_4888b010066312ee,
-          mid_store_fe9bf8370403deab,
-          mid_uniformCmd_42933a2c511fc642,
+          mid_init$_e7bdbe105ce1bafb,
+          mid_init$_97ec23eaea7e6222,
+          mid_getCells_bd89ce15dad49192,
+          mid_getCellsPnt_bd89ce15dad49192,
+          mid_getCellsVal_bd89ce15dad49192,
+          mid_getCmd_71dc1db9b5187263,
+          mid_getCnt_71dc1db9b5187263,
+          mid_getRef_71dc1db9b5187263,
+          mid_print_922e82480ddcbcc4,
+          mid_setCmd_3d99d4ca27105ade,
+          mid_setRef_3d99d4ca27105ade,
+          mid_store_5ebb39b7772e6a1c,
+          mid_uniformCmd_34394399396c7e21,
           max_mid
         };
 

@@ -3,26 +3,26 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class PointValues;
-      }
-      namespace codecs {
-        class PointsReader;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
     class String;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace codecs {
+        class PointsReader;
+      }
+      namespace index {
+        class PointValues;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
         class PointsReader : public ::java::lang::Object {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_getMergeInstance_7cecd0a8b5d53414,
-            mid_getValues_9d784340b5464260,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_getMergeInstance_01e0d9afb4f515b4,
+            mid_getValues_db6b2fb22b12e7e1,
             max_mid
           };
 

@@ -6,15 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace document {
-        class DateTools$Resolution;
-      }
       namespace queryparser {
         namespace flexible {
           namespace standard {
             namespace config {
-              class FuzzyConfig;
               class StandardQueryConfigHandler$Operator;
+              class FuzzyConfig;
               class PointsConfig;
             }
           }
@@ -25,11 +22,14 @@ namespace org {
           }
         }
       }
-      namespace search {
-        class MultiTermQuery$RewriteMethod;
+      namespace document {
+        class DateTools$Resolution;
       }
       namespace analysis {
         class Analyzer;
+      }
+      namespace search {
+        class MultiTermQuery$RewriteMethod;
       }
     }
   }
@@ -37,15 +37,15 @@ namespace org {
 namespace java {
   namespace lang {
     class Integer;
-    class Float;
     class Boolean;
     class Class;
-    class CharSequence;
+    class Float;
     class String;
+    class CharSequence;
   }
   namespace util {
-    class Map;
     class TimeZone;
+    class Map;
     class Locale;
   }
 }
@@ -62,7 +62,7 @@ namespace org {
               class StandardQueryConfigHandler$ConfigurationKeys : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
+                  mid_init$_e7bdbe105ce1bafb,
                   max_mid
                 };
 

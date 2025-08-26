@@ -5,11 +5,11 @@
 
 namespace java {
   namespace lang {
+    class ThreadGroup;
     class Thread$UncaughtExceptionHandler;
     class Class;
-    class String;
     class Thread$Builder$OfPlatform;
-    class ThreadGroup;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -20,15 +20,15 @@ namespace java {
     class Thread$Builder$OfPlatform : public ::java::lang::Thread$Builder {
      public:
       enum {
-        mid_daemon_abbe535f37b5a2fb,
-        mid_daemon_d360c26432edbddd,
-        mid_group_c0c275e769078d1f,
-        mid_inheritInheritableThreadLocals_d360c26432edbddd,
-        mid_name_3fca8fa3e9176d1e,
-        mid_name_087d566fdf390afa,
-        mid_priority_4993735a1dd87da9,
-        mid_stackSize_3ca5a5ff49d385a1,
-        mid_uncaughtExceptionHandler_ca63e70f2a264d1f,
+        mid_daemon_739623f8c58a1e28,
+        mid_daemon_ef3d7240f52bfcdb,
+        mid_group_a83e33c0552ae788,
+        mid_inheritInheritableThreadLocals_ef3d7240f52bfcdb,
+        mid_name_ac111cc6f685f75d,
+        mid_name_971066cd2d40423f,
+        mid_priority_c09b3ea55f043abe,
+        mid_stackSize_2acfd982bae6c92e,
+        mid_uncaughtExceptionHandler_5130ed6b1adbe606,
         max_mid
       };
 

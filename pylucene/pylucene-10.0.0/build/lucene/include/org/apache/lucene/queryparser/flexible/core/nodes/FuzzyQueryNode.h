@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/FieldQueryNode.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,14 +29,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -42,14 +42,14 @@ namespace org {
               class FuzzyQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::FieldQueryNode {
                public:
                 enum {
-                  mid_init$_8c43cdd74e1c43b8,
-                  mid_cloneTree_06a74b1c5ca34186,
-                  mid_getPrefixLength_20fbf7565993c3d7,
-                  mid_getSimilarity_9b6c3480dac00edf,
-                  mid_setPrefixLength_540b2b23d51b1efd,
-                  mid_setSimilarity_c771a95b0227fb6a,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_ab6c9ad3256f24b5,
+                  mid_cloneTree_b6b821ed21c41bdc,
+                  mid_getPrefixLength_bd89ce15dad49192,
+                  mid_getSimilarity_8b62236f0e4d0dbc,
+                  mid_setPrefixLength_8226bd0b0fc13dba,
+                  mid_setSimilarity_675f4cb9a2529ee0,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

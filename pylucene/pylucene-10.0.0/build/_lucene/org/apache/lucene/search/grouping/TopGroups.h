@@ -3,25 +3,25 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Sort;
-        namespace grouping {
-          class GroupDocs;
-          class TopGroups;
-          class TopGroups$ScoreMergeMode;
-        }
-        class SortField;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Integer;
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        namespace grouping {
+          class TopGroups$ScoreMergeMode;
+          class TopGroups;
+          class GroupDocs;
+        }
+        class SortField;
+        class Sort;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
           class TopGroups : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_6bc3f31d5e065f75,
-              mid_init$_359138b040aa61e3,
-              mid_merge_673b66bc48e27842,
+              mid_init$_7c00819063e6b25b,
+              mid_init$_0389d4a798de13a4,
+              mid_merge_0e6019692f8319f9,
               max_mid
             };
 

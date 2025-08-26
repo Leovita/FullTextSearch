@@ -10,16 +10,16 @@ namespace java {
     class ClassLoader;
   }
   namespace util {
-    class Set;
     class Map;
+    class Set;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class TokenFilterFactory;
         class TokenStream;
+        class TokenFilterFactory;
       }
     }
   }
@@ -34,13 +34,13 @@ namespace org {
         class TokenFilterFactory : public ::org::apache::lucene::analysis::AbstractAnalysisFactory {
          public:
           enum {
-            mid_availableTokenFilters_4df174295554d7bd,
-            mid_create_2ec4d1726b35d478,
-            mid_findSPIName_205c6b35c6f0cc38,
-            mid_forName_6f9339a4de142596,
-            mid_lookupClass_f5e647a8ccc975d0,
-            mid_normalize_2ec4d1726b35d478,
-            mid_reloadTokenFilters_7e882e12061eaf38,
+            mid_availableTokenFilters_79131c6bbcf08916,
+            mid_create_f3e050e998938273,
+            mid_findSPIName_6db5b6bc30526b11,
+            mid_forName_1529cfa172cd9821,
+            mid_lookupClass_34dc63379bcbfa09,
+            mid_normalize_f3e050e998938273,
+            mid_reloadTokenFilters_d603563f542d31ba,
             max_mid
           };
 

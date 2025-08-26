@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
         class ScoreMode;
+        class Scorable;
       }
       namespace facet {
         class FacetsCollector$MatchingDocs;
@@ -17,11 +17,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -37,15 +37,15 @@ namespace org {
         class FacetsCollector : public ::org::apache::lucene::search::SimpleCollector {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_b110fc3a58c081ab,
-            mid_collect_540b2b23d51b1efd,
-            mid_finish_3720c61b0679eb3e,
-            mid_getKeepScores_947277eca0748c4e,
-            mid_getMatchingDocs_36830460e10839eb,
-            mid_scoreMode_45dfdcf7e901559d,
-            mid_setScorer_dd42dde4c0a7db1e,
-            mid_doSetNextReader_b7b06dce0a4097ed,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_f5dd97eebf6a215a,
+            mid_collect_8226bd0b0fc13dba,
+            mid_finish_e7bdbe105ce1bafb,
+            mid_getKeepScores_9aa4f33e82ea333f,
+            mid_getMatchingDocs_1387e1e2702ac173,
+            mid_scoreMode_23e7061dcdc84768,
+            mid_setScorer_c06bdf7d53c6460a,
+            mid_doSetNextReader_32243afefe6b151f,
             max_mid
           };
 

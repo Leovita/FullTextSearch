@@ -30,9 +30,9 @@ namespace org {
           class Lookup$LookupPriorityQueue : public ::org::apache::lucene::util::PriorityQueue {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_getResults_bf0df9f560f06b9c,
-              mid_lessThan_d0f7d231756db9fc,
+              mid_init$_8226bd0b0fc13dba,
+              mid_getResults_af127f29f1ca3a9b,
+              mid_lessThan_ad057db6240427ea,
               max_mid
             };
 

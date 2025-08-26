@@ -5,10 +5,10 @@
 
 namespace java {
   namespace lang {
+    class ThreadGroup;
+    class Thread;
     class Class;
     class String;
-    class Thread;
-    class ThreadGroup;
   }
   namespace io {
     class FileDescriptor;
@@ -22,33 +22,33 @@ namespace java {
     class SecurityManager : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_checkAccept_a5140b013bba694a,
-        mid_checkAccess_534abaa36b51a25f,
-        mid_checkAccess_27f8ea11f067e26d,
-        mid_checkConnect_a5140b013bba694a,
-        mid_checkConnect_374223b731bb12e0,
-        mid_checkCreateClassLoader_3720c61b0679eb3e,
-        mid_checkDelete_0d82408c6e55bc30,
-        mid_checkExec_0d82408c6e55bc30,
-        mid_checkExit_540b2b23d51b1efd,
-        mid_checkLink_0d82408c6e55bc30,
-        mid_checkListen_540b2b23d51b1efd,
-        mid_checkPackageAccess_0d82408c6e55bc30,
-        mid_checkPackageDefinition_0d82408c6e55bc30,
-        mid_checkPrintJobAccess_3720c61b0679eb3e,
-        mid_checkPropertiesAccess_3720c61b0679eb3e,
-        mid_checkPropertyAccess_0d82408c6e55bc30,
-        mid_checkRead_d617a5f729fbcea9,
-        mid_checkRead_0d82408c6e55bc30,
-        mid_checkRead_7a6f329c036f2238,
-        mid_checkSecurityAccess_0d82408c6e55bc30,
-        mid_checkSetFactory_3720c61b0679eb3e,
-        mid_checkWrite_d617a5f729fbcea9,
-        mid_checkWrite_0d82408c6e55bc30,
-        mid_getSecurityContext_5655ed8670534604,
-        mid_getThreadGroup_1409ca4f99a5e054,
-        mid_getClassContext_c90261fb9ae27a0d,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_checkAccept_49e27e98009acf15,
+        mid_checkAccess_982838d333d00132,
+        mid_checkAccess_62046d3ee4cc2414,
+        mid_checkConnect_49e27e98009acf15,
+        mid_checkConnect_451247a4fce503c0,
+        mid_checkCreateClassLoader_e7bdbe105ce1bafb,
+        mid_checkDelete_ee46a189998009d6,
+        mid_checkExec_ee46a189998009d6,
+        mid_checkExit_8226bd0b0fc13dba,
+        mid_checkLink_ee46a189998009d6,
+        mid_checkListen_8226bd0b0fc13dba,
+        mid_checkPackageAccess_ee46a189998009d6,
+        mid_checkPackageDefinition_ee46a189998009d6,
+        mid_checkPrintJobAccess_e7bdbe105ce1bafb,
+        mid_checkPropertiesAccess_e7bdbe105ce1bafb,
+        mid_checkPropertyAccess_ee46a189998009d6,
+        mid_checkRead_784d5a22abc62de8,
+        mid_checkRead_ee46a189998009d6,
+        mid_checkRead_101074fdf5bb68f6,
+        mid_checkSecurityAccess_ee46a189998009d6,
+        mid_checkSetFactory_e7bdbe105ce1bafb,
+        mid_checkWrite_784d5a22abc62de8,
+        mid_checkWrite_ee46a189998009d6,
+        mid_getSecurityContext_4819806f62f1360a,
+        mid_getThreadGroup_183cb1483640e28b,
+        mid_getClassContext_a0808d604013cf8d,
         max_mid
       };
 

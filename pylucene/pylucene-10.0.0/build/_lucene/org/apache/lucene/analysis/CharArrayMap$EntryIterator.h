@@ -23,13 +23,13 @@ namespace org {
         class CharArrayMap$EntryIterator : public ::java::lang::Object {
          public:
           enum {
-            mid_currentValue_5655ed8670534604,
-            mid_hasNext_947277eca0748c4e,
-            mid_next_158df3d9a50522a0,
-            mid_nextKey_77d52ded526199de,
-            mid_nextKeyString_09a7afff1868fc5e,
-            mid_remove_3720c61b0679eb3e,
-            mid_setValue_5fd81664d2d475e1,
+            mid_currentValue_4819806f62f1360a,
+            mid_hasNext_9aa4f33e82ea333f,
+            mid_next_74fc562d8145a290,
+            mid_nextKey_e5926045e1917c62,
+            mid_nextKeyString_e7df854526d67fa3,
+            mid_remove_e7bdbe105ce1bafb,
+            mid_setValue_e2c45b124c12f4ec,
             max_mid
           };
 

@@ -29,13 +29,13 @@ namespace org {
         class KnnFloatVectorQuery : public ::org::apache::lucene::search::AbstractKnnVectorQuery {
          public:
           enum {
-            mid_init$_b87d4f9c1a1b228f,
-            mid_init$_6cd3f93c4b7d050b,
-            mid_equals_570b5248a6da3ef6,
-            mid_getTargetCopy_808165844ea67079,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_cb0eb1432185fc94,
-            mid_approximateSearch_2820dd1f2ca7baa6,
+            mid_init$_f41f3863017979be,
+            mid_init$_6557f529db2173a2,
+            mid_equals_00d17418847797d4,
+            mid_getTargetCopy_67d89dc3894661ff,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_fef9c036acf290a9,
+            mid_approximateSearch_91ef996fb5702f76,
             max_mid
           };
 

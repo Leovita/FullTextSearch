@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/search/comparators/NumericComparator.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Double;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Pruning;
         class LeafFieldComparator;
+        class Pruning;
       }
       namespace index {
         class LeafReaderContext;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Double;
   }
 }
 template<class T> class JArray;
@@ -37,13 +37,13 @@ namespace org {
           class DoubleComparator : public ::org::apache::lucene::search::comparators::NumericComparator {
            public:
             enum {
-              mid_init$_8708cc5a81ea4d04,
-              mid_compare_7f733b5d08bb5ec4,
-              mid_getLeafComparator_d019da77a226431f,
-              mid_setTopValue_6155374895b9fa17,
-              mid_value_4bb5f70f2558e470,
-              mid_missingValueAsComparableLong_16939d9d0a9a9721,
-              mid_sortableBytesToLong_7dab5080ccb55d77,
+              mid_init$_0c0a4b132fd0e363,
+              mid_compare_7f27cf81a85a97e9,
+              mid_getLeafComparator_84b03b9ed9bc3019,
+              mid_setTopValue_0adc5c909a7e3530,
+              mid_value_97d0bd4a1c681f44,
+              mid_sortableBytesToLong_2eea73e2513f100f,
+              mid_missingValueAsComparableLong_0f176418e3e16541,
               max_mid
             };
 

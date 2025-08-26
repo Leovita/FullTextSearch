@@ -8,14 +8,9 @@ namespace org {
     namespace lucene {
       namespace index {
         class MergeState;
-        class FieldInfo;
         class Sorter$DocMap;
         class SegmentWriteState;
-      }
-      namespace util {
-        namespace hnsw {
-          class CloseableRandomVectorScorerSupplier;
-        }
+        class FieldInfo;
       }
       namespace codecs {
         namespace hnsw {
@@ -23,16 +18,21 @@ namespace org {
           class FlatVectorsScorer;
         }
       }
+      namespace util {
+        namespace hnsw {
+          class CloseableRandomVectorScorerSupplier;
+        }
+      }
     }
   }
 }
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
   namespace io {
     class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -46,14 +46,14 @@ namespace org {
           class Lucene99FlatVectorsWriter : public ::org::apache::lucene::codecs::hnsw::FlatVectorsWriter {
            public:
             enum {
-              mid_init$_0ddb21838f0d9547,
-              mid_addField_44964e60d390bc8a,
-              mid_close_3720c61b0679eb3e,
-              mid_finish_3720c61b0679eb3e,
-              mid_flush_43b4ee6199cecfbf,
-              mid_mergeOneField_12bd7baeb6b4bf04,
-              mid_mergeOneFieldToIndex_217133d77eed44a7,
-              mid_ramBytesUsed_16939d9d0a9a9721,
+              mid_init$_8d9d99cebb387fb4,
+              mid_addField_76c4339cdaf520e5,
+              mid_close_e7bdbe105ce1bafb,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_flush_fc9730fbac8271d5,
+              mid_mergeOneField_6efd9d341cba2a34,
+              mid_mergeOneFieldToIndex_5c4f6ff4c6255bd4,
+              mid_ramBytesUsed_0f176418e3e16541,
               max_mid
             };
 

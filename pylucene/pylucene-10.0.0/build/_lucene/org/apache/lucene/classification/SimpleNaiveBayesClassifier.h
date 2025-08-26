@@ -6,32 +6,32 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexReader;
+      }
+      namespace classification {
+        class Classifier;
+        class ClassificationResult;
+      }
+      namespace analysis {
+        class Analyzer;
+      }
       namespace search {
         class Query;
       }
       namespace util {
         class BytesRef;
       }
-      namespace classification {
-        class ClassificationResult;
-        class Classifier;
-      }
-      namespace index {
-        class IndexReader;
-      }
-      namespace analysis {
-        class Analyzer;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -47,14 +47,14 @@ namespace org {
         class SimpleNaiveBayesClassifier : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_d7e8ccf515412af3,
-            mid_assignClass_d43a29c6c576ed5d,
-            mid_getClasses_8eaa545bb5a79de3,
-            mid_getClasses_844be75dc1eb0e33,
-            mid_assignClassNormalizedList_8eaa545bb5a79de3,
-            mid_tokenize_a06e92f371939b0b,
-            mid_normClassificationResults_48d117cbefb4cfc5,
-            mid_countDocsWithClass_20fbf7565993c3d7,
+            mid_init$_94ea461eba29b3f5,
+            mid_assignClass_f41729c7a04388b4,
+            mid_getClasses_49920ced44282529,
+            mid_getClasses_de45d3d1e8012f87,
+            mid_assignClassNormalizedList_49920ced44282529,
+            mid_tokenize_7b34cb521ce5d8ff,
+            mid_countDocsWithClass_bd89ce15dad49192,
+            mid_normClassificationResults_398768262d403ff6,
             max_mid
           };
 

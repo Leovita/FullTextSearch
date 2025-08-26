@@ -31,12 +31,12 @@ namespace org {
           class EndiannessReverserIndexInput$EndiannessReverserRandomAccessInput : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_8053522a8b367050,
-              mid_length_16939d9d0a9a9721,
-              mid_readByte_2a9a6e154cb14e58,
-              mid_readInt_35c872f03f347c10,
-              mid_readLong_91d66fa3ea476cea,
-              mid_readShort_60f7d07ba3ea1177,
+              mid_init$_6a8cc79932840ace,
+              mid_length_0f176418e3e16541,
+              mid_readByte_cb04f80b25dc941d,
+              mid_readInt_7af44747c1921bd4,
+              mid_readLong_3dc1c6e3a5a0baf0,
+              mid_readShort_d0da64abd2ba9d05,
               max_mid
             };
 

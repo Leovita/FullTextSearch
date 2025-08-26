@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
       namespace codecs {
         class CompoundDirectory;
       }
       namespace index {
         class SegmentInfo;
       }
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,8 +37,8 @@ namespace org {
         class CompoundFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_getCompoundReader_dccd880d35d42711,
-            mid_write_a9ba310ae9ac5967,
+            mid_getCompoundReader_e773b2ae282587ad,
+            mid_write_0915fb04c93214b0,
             max_mid
           };
 

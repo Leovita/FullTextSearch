@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class IndexReaderContext;
         class IndexReader;
+        class IndexReaderContext;
         class CompositeReaderContext;
         class LeafReaderContext;
       }
@@ -17,8 +17,8 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class UnsupportedOperationException;
     class Class;
+    class UnsupportedOperationException;
   }
   namespace util {
     class List;
@@ -34,10 +34,10 @@ namespace org {
         class IndexReaderContext : public ::java::lang::Object {
          public:
           enum {
-            mid_children_36830460e10839eb,
-            mid_id_5655ed8670534604,
-            mid_leaves_36830460e10839eb,
-            mid_reader_38e68c08dc5fee6f,
+            mid_children_1387e1e2702ac173,
+            mid_id_4819806f62f1360a,
+            mid_leaves_1387e1e2702ac173,
+            mid_reader_9596617cc74c49f2,
             max_mid
           };
 

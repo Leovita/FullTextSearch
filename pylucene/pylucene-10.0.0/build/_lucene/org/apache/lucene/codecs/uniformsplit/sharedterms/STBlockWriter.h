@@ -3,12 +3,20 @@
 
 #include "org/apache/lucene/codecs/uniformsplit/BlockWriter.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
       namespace store {
         class IndexOutput;
       }
@@ -21,18 +29,10 @@ namespace org {
           }
         }
       }
+      namespace util {
+        class BytesRef;
+      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -47,12 +47,12 @@ namespace org {
             class STBlockWriter : public ::org::apache::lucene::codecs::uniformsplit::BlockWriter {
              public:
               enum {
-                mid_init$_410ddb262214bd07,
-                mid_addLine_9a353437f8f93d26,
-                mid_createBlockLineSerializer_73ba64f41f1e264b,
-                mid_writeBlockLine_968a024485a51fb6,
-                mid_updateFieldMetadata_8b3d46852b435a94,
-                mid_finishLastBlock_d103b6face46e3b6,
+                mid_init$_7ebd87d81e05f1d7,
+                mid_addLine_ed5a1b2436e42806,
+                mid_createBlockLineSerializer_119d0a6549b55a52,
+                mid_writeBlockLine_03a26e2e9b3359ce,
+                mid_updateFieldMetadata_1d3149fac12f2af3,
+                mid_finishLastBlock_2798b2c9e81a469e,
                 max_mid
               };
 

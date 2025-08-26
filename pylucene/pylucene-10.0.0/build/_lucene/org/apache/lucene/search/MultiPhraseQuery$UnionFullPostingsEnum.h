@@ -3,18 +3,6 @@
 
 #include "org/apache/lucene/search/MultiPhraseQuery$UnionPostingsEnum.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace index {
-        class PostingsEnum;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
@@ -24,6 +12,18 @@ namespace java {
   }
   namespace util {
     class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class PostingsEnum;
+      }
+      namespace util {
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,12 +36,12 @@ namespace org {
         class MultiPhraseQuery$UnionFullPostingsEnum : public ::org::apache::lucene::search::MultiPhraseQuery$UnionPostingsEnum {
          public:
           enum {
-            mid_init$_9425cd4f62c94bce,
-            mid_endOffset_20fbf7565993c3d7,
-            mid_freq_20fbf7565993c3d7,
-            mid_getPayload_9740fddd1c7df148,
-            mid_nextPosition_20fbf7565993c3d7,
-            mid_startOffset_20fbf7565993c3d7,
+            mid_init$_acbb405b60a30822,
+            mid_endOffset_bd89ce15dad49192,
+            mid_freq_bd89ce15dad49192,
+            mid_getPayload_adbedbc1fa61c358,
+            mid_nextPosition_bd89ce15dad49192,
+            mid_startOffset_bd89ce15dad49192,
             max_mid
           };
 

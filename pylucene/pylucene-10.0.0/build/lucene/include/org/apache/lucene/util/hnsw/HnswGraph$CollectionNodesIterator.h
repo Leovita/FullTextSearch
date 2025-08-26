@@ -30,10 +30,10 @@ namespace org {
           class HnswGraph$CollectionNodesIterator : public ::org::apache::lucene::util::hnsw::HnswGraph$NodesIterator {
            public:
             enum {
-              mid_init$_c3af146f69cd4491,
-              mid_consume_99e50d7a0326d5c8,
-              mid_hasNext_947277eca0748c4e,
-              mid_nextInt_20fbf7565993c3d7,
+              mid_init$_dbabfa5caaab3f52,
+              mid_consume_ce3442f6684197de,
+              mid_hasNext_9aa4f33e82ea333f,
+              mid_nextInt_bd89ce15dad49192,
               max_mid
             };
 

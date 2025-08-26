@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class Explanation;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,12 +29,12 @@ namespace org {
           class PayloadFunction : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_currentScore_0f6c9cf58af489b0,
-              mid_docScore_170195d7c9e97239,
-              mid_equals_570b5248a6da3ef6,
-              mid_explain_22d23c5d85ab5dc2,
-              mid_hashCode_20fbf7565993c3d7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_currentScore_0770ede9ac56e5a2,
+              mid_docScore_51091127e7000815,
+              mid_equals_00d17418847797d4,
+              mid_explain_a46ae71a0c9cb626,
+              mid_hashCode_bd89ce15dad49192,
               max_mid
             };
 

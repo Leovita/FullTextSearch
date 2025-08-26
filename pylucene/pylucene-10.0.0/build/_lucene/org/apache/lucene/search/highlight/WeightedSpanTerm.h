@@ -4,12 +4,12 @@
 #include "org/apache/lucene/search/highlight/WeightedTerm.h"
 
 namespace java {
+  namespace util {
+    class List;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace util {
-    class List;
   }
 }
 namespace org {
@@ -34,13 +34,13 @@ namespace org {
           class WeightedSpanTerm : public ::org::apache::lucene::search::highlight::WeightedTerm {
            public:
             enum {
-              mid_init$_3354ed1a1da7d6a1,
-              mid_init$_49fe9b4cb6a0a319,
-              mid_addPositionSpans_9425cd4f62c94bce,
-              mid_checkPosition_ae22d3a856ad56f1,
-              mid_getPositionSpans_36830460e10839eb,
-              mid_isPositionSensitive_947277eca0748c4e,
-              mid_setPositionSensitive_b110fc3a58c081ab,
+              mid_init$_0ecabbb1d6a25118,
+              mid_init$_90bc29c98029f266,
+              mid_addPositionSpans_acbb405b60a30822,
+              mid_checkPosition_a8281eb3b9d9672d,
+              mid_getPositionSpans_1387e1e2702ac173,
+              mid_isPositionSensitive_9aa4f33e82ea333f,
+              mid_setPositionSensitive_f5dd97eebf6a215a,
               max_mid
             };
 

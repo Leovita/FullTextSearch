@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Fields;
         class TermVectors;
         class Terms;
+        class Fields;
       }
     }
   }
@@ -33,9 +33,9 @@ namespace org {
         class TermVectors : public ::java::lang::Object {
          public:
           enum {
-            mid_get_780247cb7111176e,
-            mid_get_e4bd2c2085eb70df,
-            mid_prefetch_540b2b23d51b1efd,
+            mid_get_fb85108cc18b1699,
+            mid_get_c75230ec6a909a2d,
+            mid_prefetch_8226bd0b0fc13dba,
             max_mid
           };
 

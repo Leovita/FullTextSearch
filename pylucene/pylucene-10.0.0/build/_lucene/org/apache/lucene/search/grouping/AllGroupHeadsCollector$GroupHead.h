@@ -19,10 +19,10 @@ namespace org {
           class AllGroupHeadsCollector$GroupHead : public ::java::lang::Object {
            public:
             enum {
-              mid_setNextReader_b7b06dce0a4097ed,
-              mid_updateDocHead_540b2b23d51b1efd,
-              mid_setScorer_dd42dde4c0a7db1e,
-              mid_compare_7f733b5d08bb5ec4,
+              mid_setNextReader_32243afefe6b151f,
+              mid_updateDocHead_8226bd0b0fc13dba,
+              mid_setScorer_c06bdf7d53c6460a,
+              mid_compare_7f27cf81a85a97e9,
               max_mid
             };
 

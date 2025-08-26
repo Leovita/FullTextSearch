@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class Matches;
         class MatchesIterator;
+        class Query;
       }
       namespace util {
-        class BytesRefIterator;
         class IOSupplier;
+        class BytesRefIterator;
       }
       namespace index {
         class LeafReaderContext;
@@ -22,12 +22,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -43,10 +43,10 @@ namespace org {
         class MatchesUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_disjunction_521adb235ebb4417,
-            mid_disjunction_a605db50574c5d09,
-            mid_forField_41fed8ea1287f663,
-            mid_fromSubMatches_a4aae0318122d55f,
+            mid_disjunction_ff30b7c4967d7998,
+            mid_disjunction_6608873d0485baff,
+            mid_forField_8d05ab7a17a5140e,
+            mid_fromSubMatches_989e5a9b4242fc58,
             max_mid
           };
 

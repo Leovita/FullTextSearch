@@ -6,13 +6,6 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        class MultiTermQuery$RewriteMethod;
-      }
-      namespace document {
-        class DateTools$Resolution;
-      }
       namespace queryparser {
         namespace classic {
           class QueryParser$Operator;
@@ -27,8 +20,15 @@ namespace org {
           class CharStream;
         }
       }
+      namespace document {
+        class DateTools$Resolution;
+      }
       namespace analysis {
         class Analyzer;
+      }
+      namespace search {
+        class Query;
+        class MultiTermQuery$RewriteMethod;
       }
     }
   }
@@ -54,54 +54,54 @@ namespace org {
           class QueryParserBase : public ::org::apache::lucene::util::QueryBuilder {
            public:
             enum {
-              mid_ReInit_c2b02911839614e6,
-              mid_TopLevelQuery_171433ef85015467,
-              mid_escape_cb0eb1432185fc94,
-              mid_getAllowLeadingWildcard_947277eca0748c4e,
-              mid_getAutoGeneratePhraseQueries_947277eca0748c4e,
-              mid_getDateResolution_92aca2d981a92351,
-              mid_getDefaultOperator_34959f8c573c1cb6,
-              mid_getDeterminizeWorkLimit_20fbf7565993c3d7,
-              mid_getField_09a7afff1868fc5e,
-              mid_getFuzzyMinSim_9b6c3480dac00edf,
-              mid_getFuzzyPrefixLength_20fbf7565993c3d7,
-              mid_getLocale_319fd40ee3061260,
-              mid_getMultiTermRewriteMethod_69f9b567563cc3af,
-              mid_getPhraseSlop_20fbf7565993c3d7,
-              mid_getTimeZone_1559a29f5a26b141,
-              mid_init_c50f2f6f1d850d13,
-              mid_parse_171433ef85015467,
-              mid_setAllowLeadingWildcard_b110fc3a58c081ab,
-              mid_setAutoGeneratePhraseQueries_b110fc3a58c081ab,
-              mid_setDateResolution_2be4ed3be7cfaf63,
-              mid_setDateResolution_946669d8f7532e6e,
-              mid_setDefaultOperator_164f65d769154d30,
-              mid_setDeterminizeWorkLimit_540b2b23d51b1efd,
-              mid_setFuzzyMinSim_c771a95b0227fb6a,
-              mid_setFuzzyPrefixLength_540b2b23d51b1efd,
-              mid_setLocale_25a056d06ffd1209,
-              mid_setMultiTermRewriteMethod_edfee9e3c27be2a0,
-              mid_setPhraseSlop_540b2b23d51b1efd,
-              mid_setTimeZone_1bdebe6495070eda,
-              mid_addClause_7a47174e0a633939,
-              mid_newRangeQuery_5d2f96a769d522a4,
-              mid_getFieldQuery_0904a80daeba8529,
-              mid_getFieldQuery_bf6a5f4bf27919ae,
-              mid_getBooleanQuery_cfa763d4712e8bc9,
-              mid_getFuzzyQuery_afdd0007c4927190,
-              mid_getPrefixQuery_9c67907ed0ac8b67,
-              mid_getRangeQuery_5d2f96a769d522a4,
-              mid_getWildcardQuery_9c67907ed0ac8b67,
-              mid_getRegexpQuery_9c67907ed0ac8b67,
-              mid_addMultiTermClauses_52fe98907c755ddb,
-              mid_newBooleanClause_60173cad66095e1f,
-              mid_newFieldQuery_ca9c1be4e87ff1f8,
-              mid_newMatchAllDocsQuery_a3eacfacada795d4,
-              mid_newWildcardQuery_4b8582c581d6c16f,
-              mid_newRegexpQuery_4b8582c581d6c16f,
-              mid_newPrefixQuery_4b8582c581d6c16f,
-              mid_newFuzzyQuery_ac7b1de948619d65,
-              mid_getFuzzyDistance_57fbc9afec715603,
+              mid_ReInit_e62548278c2da79e,
+              mid_TopLevelQuery_9b1de8e0d58e515c,
+              mid_escape_fef9c036acf290a9,
+              mid_getAllowLeadingWildcard_9aa4f33e82ea333f,
+              mid_getAutoGeneratePhraseQueries_9aa4f33e82ea333f,
+              mid_getDateResolution_9aba0b95437a4f09,
+              mid_getDefaultOperator_a8c47d3ac6939dce,
+              mid_getDeterminizeWorkLimit_bd89ce15dad49192,
+              mid_getField_e7df854526d67fa3,
+              mid_getFuzzyMinSim_8b62236f0e4d0dbc,
+              mid_getFuzzyPrefixLength_bd89ce15dad49192,
+              mid_getLocale_d50f7bd45bffb467,
+              mid_getMultiTermRewriteMethod_cdae28086b3bbe9c,
+              mid_getPhraseSlop_bd89ce15dad49192,
+              mid_getTimeZone_f0ab2fb84439b1af,
+              mid_init_cc97c286759ef3b4,
+              mid_parse_9b1de8e0d58e515c,
+              mid_setAllowLeadingWildcard_f5dd97eebf6a215a,
+              mid_setAutoGeneratePhraseQueries_f5dd97eebf6a215a,
+              mid_setDateResolution_fc9c774cd4ca88ae,
+              mid_setDateResolution_625aaa01f515a7a5,
+              mid_setDefaultOperator_d064a4233803d5d9,
+              mid_setDeterminizeWorkLimit_8226bd0b0fc13dba,
+              mid_setFuzzyMinSim_675f4cb9a2529ee0,
+              mid_setFuzzyPrefixLength_8226bd0b0fc13dba,
+              mid_setLocale_160efbb0dee8e527,
+              mid_setMultiTermRewriteMethod_83f3c0af3316ffc0,
+              mid_setPhraseSlop_8226bd0b0fc13dba,
+              mid_setTimeZone_6bae4ff1843f5310,
+              mid_newRangeQuery_3a6923cec6886def,
+              mid_getFieldQuery_964b0b3626756a89,
+              mid_getFieldQuery_a525af63bfcd652e,
+              mid_getFuzzyQuery_5aabae9afa99de9b,
+              mid_getPrefixQuery_550dcf54034665c0,
+              mid_getWildcardQuery_550dcf54034665c0,
+              mid_getRangeQuery_3a6923cec6886def,
+              mid_getRegexpQuery_550dcf54034665c0,
+              mid_getBooleanQuery_997498abbdceb67f,
+              mid_addMultiTermClauses_bd8526d871d24e1c,
+              mid_newBooleanClause_054f051a7fdef639,
+              mid_newFieldQuery_29e64d1e1891957a,
+              mid_newMatchAllDocsQuery_ffa7bd087b2a75aa,
+              mid_newWildcardQuery_90fae07a23bf0372,
+              mid_newRegexpQuery_90fae07a23bf0372,
+              mid_newPrefixQuery_90fae07a23bf0372,
+              mid_newFuzzyQuery_a741969044c9d331,
+              mid_getFuzzyDistance_75896d97017f3337,
+              mid_addClause_cb81175944a4a657,
               max_mid
             };
 

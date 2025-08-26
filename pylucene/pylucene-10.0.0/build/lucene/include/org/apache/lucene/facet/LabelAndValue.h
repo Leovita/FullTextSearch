@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class String;
     class Number;
+    class String;
     class Class;
   }
 }
@@ -20,11 +20,11 @@ namespace org {
         class LabelAndValue : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_c86ac875d86f33a2,
-            mid_init$_6014f629a55c52b1,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_2510e438a698e588,
+            mid_init$_aeecff622bb9a200,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

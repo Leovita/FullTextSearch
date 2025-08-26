@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class DoubleValuesSource;
+        class Query;
         class SortField;
       }
       namespace analysis {
-        class Analyzer;
         class TokenStream;
+        class Analyzer;
       }
     }
   }
@@ -34,17 +34,17 @@ namespace org {
         class FeatureField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_f61248330d4b259e,
-            mid_getFeatureValue_9b6c3480dac00edf,
-            mid_newDoubleValues_55593851c33ceb3b,
-            mid_newFeatureSort_edbea1a6658792cb,
-            mid_newLinearQuery_afdd0007c4927190,
-            mid_newLogQuery_3fb9f2db1d8e4f1e,
-            mid_newSaturationQuery_9c67907ed0ac8b67,
-            mid_newSaturationQuery_3fb9f2db1d8e4f1e,
-            mid_newSigmoidQuery_4100888aea16714f,
-            mid_setFeatureValue_c771a95b0227fb6a,
-            mid_tokenStream_675528819f96fe99,
+            mid_init$_d294b1e2e0c50e22,
+            mid_getFeatureValue_8b62236f0e4d0dbc,
+            mid_newDoubleValues_493d536ed42e49a1,
+            mid_newFeatureSort_a78fe62288bfca7f,
+            mid_newLinearQuery_5aabae9afa99de9b,
+            mid_newLogQuery_5770b557159e5c85,
+            mid_newSaturationQuery_550dcf54034665c0,
+            mid_newSaturationQuery_5770b557159e5c85,
+            mid_newSigmoidQuery_5a95ea497dd1b373,
+            mid_setFeatureValue_675f4cb9a2529ee0,
+            mid_tokenStream_c33c4c82a743c93e,
             max_mid
           };
 

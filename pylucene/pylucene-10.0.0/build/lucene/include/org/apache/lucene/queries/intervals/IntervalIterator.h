@@ -23,14 +23,14 @@ namespace org {
           class IntervalIterator : public ::org::apache::lucene::search::DocIdSetIterator {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_end_20fbf7565993c3d7,
-              mid_gaps_20fbf7565993c3d7,
-              mid_matchCost_9b6c3480dac00edf,
-              mid_nextInterval_20fbf7565993c3d7,
-              mid_start_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
-              mid_width_20fbf7565993c3d7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_end_bd89ce15dad49192,
+              mid_gaps_bd89ce15dad49192,
+              mid_matchCost_8b62236f0e4d0dbc,
+              mid_nextInterval_bd89ce15dad49192,
+              mid_start_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
+              mid_width_bd89ce15dad49192,
               max_mid
             };
 

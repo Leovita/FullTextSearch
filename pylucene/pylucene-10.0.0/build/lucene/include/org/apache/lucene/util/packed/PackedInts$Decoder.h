@@ -19,14 +19,14 @@ namespace org {
           class PackedInts$Decoder : public ::java::lang::Object {
            public:
             enum {
-              mid_byteBlockCount_20fbf7565993c3d7,
-              mid_byteValueCount_20fbf7565993c3d7,
-              mid_decode_6637d203d8c8137e,
-              mid_decode_d18ccef04df19d11,
-              mid_decode_310bfccf2d85fbb1,
-              mid_decode_42b916e356f7a343,
-              mid_longBlockCount_20fbf7565993c3d7,
-              mid_longValueCount_20fbf7565993c3d7,
+              mid_byteBlockCount_bd89ce15dad49192,
+              mid_byteValueCount_bd89ce15dad49192,
+              mid_decode_8260e364225ef13f,
+              mid_decode_531a2c05541e385e,
+              mid_decode_892946b55131e02e,
+              mid_decode_d896d30bdf12de93,
+              mid_longBlockCount_bd89ce15dad49192,
+              mid_longValueCount_bd89ce15dad49192,
               max_mid
             };
 

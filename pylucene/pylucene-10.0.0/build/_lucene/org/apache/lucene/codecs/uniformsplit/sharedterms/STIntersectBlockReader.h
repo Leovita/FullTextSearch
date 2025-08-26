@@ -6,19 +6,19 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace codecs {
+        namespace uniformsplit {
+          class IndexDictionary$BrowserSupplier;
+          class BlockDecoder;
+          class FieldMetadata;
+        }
+        class PostingsReaderBase;
+      }
       namespace util {
         namespace automaton {
           class CompiledAutomaton;
         }
         class BytesRef;
-      }
-      namespace codecs {
-        class PostingsReaderBase;
-        namespace uniformsplit {
-          class BlockDecoder;
-          class IndexDictionary$BrowserSupplier;
-          class FieldMetadata;
-        }
       }
       namespace store {
         class IndexInput;
@@ -30,11 +30,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -49,10 +49,10 @@ namespace org {
             class STIntersectBlockReader : public ::org::apache::lucene::codecs::uniformsplit::IntersectBlockReader {
              public:
               enum {
-                mid_init$_47c44d3ceac62d88,
-                mid_next_9740fddd1c7df148,
-                mid_createBlockLineSerializer_45fe2efb6fcd9fa0,
-                mid_readTermState_3bf66c86f1b277c4,
+                mid_init$_3c678b707826e7de,
+                mid_next_adbedbc1fa61c358,
+                mid_createBlockLineSerializer_0b068f814020a587,
+                mid_readTermState_90e39a1aad9f7074,
                 max_mid
               };
 

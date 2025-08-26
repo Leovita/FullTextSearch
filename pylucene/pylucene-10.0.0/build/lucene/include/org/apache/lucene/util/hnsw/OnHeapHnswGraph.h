@@ -3,6 +3,12 @@
 
 #include "org/apache/lucene/util/hnsw/HnswGraph.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,12 +22,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -33,19 +33,19 @@ namespace org {
           class OnHeapHnswGraph : public ::org::apache::lucene::util::hnsw::HnswGraph {
            public:
             enum {
-              mid_addNode_e13cff512ebda969,
-              mid_entryNode_20fbf7565993c3d7,
-              mid_getNeighbors_8a4290b2a3b8f486,
-              mid_getNodesOnLevel_0f4b826da8e38ef5,
-              mid_maxNodeId_20fbf7565993c3d7,
-              mid_nextNeighbor_20fbf7565993c3d7,
-              mid_numLevels_20fbf7565993c3d7,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_seek_e13cff512ebda969,
-              mid_size_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
-              mid_tryPromoteNewEntryNode_fb87b32bf7e41aa6,
-              mid_trySetNewEntryNode_3f91d6e63b0427e9,
+              mid_addNode_645c25455f5b9b1c,
+              mid_entryNode_bd89ce15dad49192,
+              mid_getNeighbors_2b70ee545095d66c,
+              mid_getNodesOnLevel_767b56846d01a898,
+              mid_maxNodeId_bd89ce15dad49192,
+              mid_nextNeighbor_bd89ce15dad49192,
+              mid_numLevels_bd89ce15dad49192,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_seek_645c25455f5b9b1c,
+              mid_size_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
+              mid_tryPromoteNewEntryNode_964913aa98f38ea1,
+              mid_trySetNewEntryNode_5dd9e64338fe1611,
               max_mid
             };
 

@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class TokenStream;
+      }
       namespace util {
         namespace automaton {
           class Automaton;
         }
-      }
-      namespace analysis {
-        class TokenStream;
       }
     }
   }
@@ -35,12 +35,12 @@ namespace org {
         class TokenStreamToAutomaton : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_setFinalOffsetGapAsHole_b110fc3a58c081ab,
-            mid_setPreservePositionIncrements_b110fc3a58c081ab,
-            mid_setUnicodeArcs_b110fc3a58c081ab,
-            mid_toAutomaton_0701c7d47980a366,
-            mid_changeToken_7ee20c47a981dd44,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_setFinalOffsetGapAsHole_f5dd97eebf6a215a,
+            mid_setPreservePositionIncrements_f5dd97eebf6a215a,
+            mid_setUnicodeArcs_f5dd97eebf6a215a,
+            mid_toAutomaton_6305a6a4d7a19750,
+            mid_changeToken_2aeffe698cc65689,
             max_mid
           };
 

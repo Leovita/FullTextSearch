@@ -4,13 +4,13 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace util {
+    class Set;
+  }
   namespace lang {
     class Class;
     class StringBuilder;
     class Character;
-  }
-  namespace util {
-    class Set;
   }
 }
 namespace org {
@@ -35,14 +35,14 @@ namespace org {
           class SimpleBoundaryScanner : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_5f1691ab0db33468,
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_1fa292cafad34d61,
-              mid_init$_bf985cb084ecbf74,
-              mid_init$_0f58f229782f5805,
-              mid_findEndOffset_2b824368d48f30fc,
-              mid_findStartOffset_2b824368d48f30fc,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_0d94a4c2ef17bd7e,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_2e9665167dfbf95f,
+              mid_init$_2dfcfe857b709698,
+              mid_init$_8f327b118d75eccc,
+              mid_findEndOffset_e514c7a94058a30d,
+              mid_findStartOffset_e514c7a94058a30d,
               max_mid
             };
 

@@ -37,8 +37,8 @@ namespace org {
               class EscapeQuerySyntax$Type : public ::java::lang::Enum {
                public:
                 enum {
-                  mid_valueOf_ec323c5981ee262a,
-                  mid_values_df53144e77ea5f6d,
+                  mid_valueOf_4e2ce90e2e14ad8c,
+                  mid_values_3af7dd6b36f66cca,
                   max_mid
                 };
 

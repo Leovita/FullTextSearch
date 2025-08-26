@@ -20,15 +20,15 @@ namespace org {
         class CollectionStatistics : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_017fbe32f38f833f,
-            mid_docCount_16939d9d0a9a9721,
-            mid_equals_570b5248a6da3ef6,
-            mid_field_09a7afff1868fc5e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_maxDoc_16939d9d0a9a9721,
-            mid_sumDocFreq_16939d9d0a9a9721,
-            mid_sumTotalTermFreq_16939d9d0a9a9721,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_a6bdb9424f7510b6,
+            mid_docCount_0f176418e3e16541,
+            mid_equals_00d17418847797d4,
+            mid_field_e7df854526d67fa3,
+            mid_hashCode_bd89ce15dad49192,
+            mid_maxDoc_0f176418e3e16541,
+            mid_sumDocFreq_0f176418e3e16541,
+            mid_sumTotalTermFreq_0f176418e3e16541,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

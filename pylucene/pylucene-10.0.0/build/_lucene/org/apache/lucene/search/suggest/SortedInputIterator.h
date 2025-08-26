@@ -6,31 +6,31 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
+      namespace store {
+        class Directory;
       }
       namespace search {
         namespace suggest {
           class InputIterator;
         }
       }
-      namespace store {
-        class Directory;
+      namespace util {
+        class BytesRef;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
-    class Set;
     class Comparator;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -44,18 +44,18 @@ namespace org {
           class SortedInputIterator : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_5a80e19b6da9a632,
-              mid_init$_2da4a5554b8d7591,
-              mid_contexts_4df174295554d7bd,
-              mid_hasContexts_947277eca0748c4e,
-              mid_hasPayloads_947277eca0748c4e,
-              mid_next_9740fddd1c7df148,
-              mid_payload_9740fddd1c7df148,
-              mid_weight_16939d9d0a9a9721,
-              mid_decodePayload_4f0750ef14e50d15,
-              mid_decodeContexts_516d4ca7e9b550ef,
-              mid_decode_dabe770f590f2fae,
-              mid_encode_8b3c6540b47104cd,
+              mid_init$_7793bb2956618377,
+              mid_init$_ace9f84460b86fcb,
+              mid_contexts_79131c6bbcf08916,
+              mid_hasContexts_9aa4f33e82ea333f,
+              mid_hasPayloads_9aa4f33e82ea333f,
+              mid_next_adbedbc1fa61c358,
+              mid_payload_adbedbc1fa61c358,
+              mid_weight_0f176418e3e16541,
+              mid_decodePayload_f532fe68d9b318a5,
+              mid_decodeContexts_7ded067b86db171a,
+              mid_decode_143b74fa9d0612d3,
+              mid_encode_bbc2132f5b41ff3f,
               max_mid
             };
 

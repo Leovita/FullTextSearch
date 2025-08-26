@@ -20,11 +20,11 @@ namespace org {
           class NumericComparator : public ::org::apache::lucene::search::FieldComparator {
            public:
             enum {
-              mid_disableSkipping_3720c61b0679eb3e,
-              mid_setSingleSort_3720c61b0679eb3e,
-              mid_setTopValue_87ffc007c701c5b4,
-              mid_missingValueAsComparableLong_16939d9d0a9a9721,
-              mid_sortableBytesToLong_7dab5080ccb55d77,
+              mid_disableSkipping_e7bdbe105ce1bafb,
+              mid_setSingleSort_e7bdbe105ce1bafb,
+              mid_setTopValue_a01e288f5ff9f982,
+              mid_sortableBytesToLong_2eea73e2513f100f,
+              mid_missingValueAsComparableLong_0f176418e3e16541,
               max_mid
             };
 

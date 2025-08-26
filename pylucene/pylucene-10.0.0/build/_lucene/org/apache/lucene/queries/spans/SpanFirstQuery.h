@@ -31,9 +31,9 @@ namespace org {
           class SpanFirstQuery : public ::org::apache::lucene::queries::spans::SpanPositionRangeQuery {
            public:
             enum {
-              mid_init$_41cee0d93574670b,
-              mid_toString_cb0eb1432185fc94,
-              mid_acceptPosition_b59c8c4cfb25644b,
+              mid_init$_844a9a160dd6952f,
+              mid_toString_fef9c036acf290a9,
+              mid_acceptPosition_ded8f9d8e47cc29a,
               max_mid
             };
 

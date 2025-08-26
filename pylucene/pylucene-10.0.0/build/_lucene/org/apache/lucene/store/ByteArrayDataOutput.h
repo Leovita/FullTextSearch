@@ -18,17 +18,17 @@ namespace org {
         class ByteArrayDataOutput : public ::org::apache::lucene::store::DataOutput {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_3ce1e597fb62ac79,
-            mid_init$_5fdd5da9426708e6,
-            mid_getPosition_20fbf7565993c3d7,
-            mid_reset_3ce1e597fb62ac79,
-            mid_reset_5fdd5da9426708e6,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_5fdd5da9426708e6,
-            mid_writeInt_540b2b23d51b1efd,
-            mid_writeLong_8b3d46852b435a94,
-            mid_writeShort_13ddeb599c553531,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_a4d4f283481182e8,
+            mid_init$_116f7fcb5bff0f39,
+            mid_getPosition_bd89ce15dad49192,
+            mid_reset_a4d4f283481182e8,
+            mid_reset_116f7fcb5bff0f39,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_116f7fcb5bff0f39,
+            mid_writeInt_8226bd0b0fc13dba,
+            mid_writeLong_1d3149fac12f2af3,
+            mid_writeShort_19904c0bd37f0d7f,
             max_mid
           };
 

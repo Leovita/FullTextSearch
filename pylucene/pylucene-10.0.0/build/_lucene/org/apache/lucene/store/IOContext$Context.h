@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class IOContext$Context;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class IOContext$Context : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_4c5a78b0f469e51d,
-            mid_values_2d8673f5bc7a8fd4,
+            mid_valueOf_7d929cf469dbb1c8,
+            mid_values_b6bbb7614010578a,
             max_mid
           };
 

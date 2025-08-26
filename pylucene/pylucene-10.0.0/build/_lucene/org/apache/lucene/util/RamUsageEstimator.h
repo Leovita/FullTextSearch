@@ -3,6 +3,21 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Integer;
+    class Class;
+    class Long;
+    class String;
+  }
+  namespace util {
+    class Map;
+    class Collection;
+  }
+  namespace text {
+    class DecimalFormat;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -15,21 +30,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Integer;
-    class Class;
-    class String;
-    class Long;
-  }
-  namespace util {
-    class Collection;
-    class Map;
-  }
-  namespace text {
-    class DecimalFormat;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -40,42 +40,42 @@ namespace org {
         class RamUsageEstimator : public ::java::lang::Object {
          public:
           enum {
-            mid_alignObjectSize_91d66fa3ea476cea,
-            mid_humanReadableUnits_f0c925499cca37b2,
-            mid_humanReadableUnits_7f319908c3add2a5,
-            mid_shallowSizeOf_7dab5080ccb55d77,
-            mid_shallowSizeOf_90e997efee233afb,
-            mid_shallowSizeOf_de9e3978dfe278c7,
-            mid_shallowSizeOf_78d5d1569ad78ba1,
-            mid_shallowSizeOf_557e39bb5021f66e,
-            mid_shallowSizeOf_58ca7f1fb84194c8,
-            mid_shallowSizeOf_f51729baf37fc971,
-            mid_shallowSizeOf_6b2c318d939bfa56,
-            mid_shallowSizeOf_7bee8443f9f075c3,
-            mid_shallowSizeOf_eed3c4edb9cd98e2,
-            mid_shallowSizeOfInstance_e0a1057005b61266,
-            mid_sizeOf_b9750753b164b8f5,
-            mid_sizeOf_0a2f7204813fa9d2,
-            mid_sizeOf_7dab5080ccb55d77,
-            mid_sizeOf_90e997efee233afb,
-            mid_sizeOf_de9e3978dfe278c7,
-            mid_sizeOf_78d5d1569ad78ba1,
-            mid_sizeOf_557e39bb5021f66e,
-            mid_sizeOf_58ca7f1fb84194c8,
-            mid_sizeOf_e745ec38bd0adeb1,
-            mid_sizeOf_b33a3cf49dabcee9,
-            mid_sizeOf_6b2c318d939bfa56,
-            mid_sizeOf_7bee8443f9f075c3,
-            mid_sizeOf_e942a6f864c95ca0,
-            mid_sizeOf_90631375eb656193,
-            mid_sizeOf_49aff4b8bf515c13,
-            mid_sizeOf_6035174dc560fd6c,
-            mid_sizeOfCollection_ffd3e4b5e216555e,
-            mid_sizeOfCollection_be69c100b5062f43,
-            mid_sizeOfMap_9fe0a1c17a84b6fd,
-            mid_sizeOfMap_3c8d56c0215f7de8,
-            mid_sizeOfObject_eed3c4edb9cd98e2,
-            mid_sizeOfObject_f119323f1d9c6133,
+            mid_alignObjectSize_3dc1c6e3a5a0baf0,
+            mid_humanReadableUnits_229c7997533c8554,
+            mid_humanReadableUnits_64da472460598b88,
+            mid_shallowSizeOf_2eea73e2513f100f,
+            mid_shallowSizeOf_1b22e85d5ed71759,
+            mid_shallowSizeOf_3a780600ffcdce4c,
+            mid_shallowSizeOf_777436b1a69819b0,
+            mid_shallowSizeOf_c09fa8358a3aebb6,
+            mid_shallowSizeOf_9b6e7f492f1f8e04,
+            mid_shallowSizeOf_60168c63e0080b93,
+            mid_shallowSizeOf_a374da2f058f2110,
+            mid_shallowSizeOf_5e84c3b93d36b099,
+            mid_shallowSizeOf_5dbd30c7e10c20e0,
+            mid_shallowSizeOfInstance_f8ffecff85bcb191,
+            mid_sizeOf_dc37bbd447fd5310,
+            mid_sizeOf_136b9d53556430e7,
+            mid_sizeOf_2eea73e2513f100f,
+            mid_sizeOf_1b22e85d5ed71759,
+            mid_sizeOf_3a780600ffcdce4c,
+            mid_sizeOf_777436b1a69819b0,
+            mid_sizeOf_c09fa8358a3aebb6,
+            mid_sizeOf_9b6e7f492f1f8e04,
+            mid_sizeOf_2fd4d01b6225c364,
+            mid_sizeOf_ff8176b3f920573c,
+            mid_sizeOf_a374da2f058f2110,
+            mid_sizeOf_5e84c3b93d36b099,
+            mid_sizeOf_490f1686ea1cfda6,
+            mid_sizeOf_273f2a9efa594dc9,
+            mid_sizeOf_69c47e07c8ba94b4,
+            mid_sizeOf_b3eca917281231d7,
+            mid_sizeOfCollection_99d6d9c9e47b2b27,
+            mid_sizeOfCollection_d0d653933bbedefb,
+            mid_sizeOfMap_e9b2fb8718ee15b2,
+            mid_sizeOfMap_68f8347d5cedf57e,
+            mid_sizeOfObject_5dbd30c7e10c20e0,
+            mid_sizeOfObject_622562a8a78614fa,
             max_mid
           };
 

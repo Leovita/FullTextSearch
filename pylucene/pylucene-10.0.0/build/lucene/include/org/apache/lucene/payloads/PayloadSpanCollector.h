@@ -3,12 +3,23 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class PostingsEnum;
+        class Term;
       }
       namespace queries {
         namespace spans {
@@ -16,17 +27,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,10 +39,10 @@ namespace org {
         class PayloadSpanCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_collectLeaf_3aa52d8f240f6edc,
-            mid_getPayloads_aa58b3beec16cbbd,
-            mid_reset_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_collectLeaf_49f63465c86055a2,
+            mid_getPayloads_4a269b968b3a511f,
+            mid_reset_e7bdbe105ce1bafb,
             max_mid
           };
 

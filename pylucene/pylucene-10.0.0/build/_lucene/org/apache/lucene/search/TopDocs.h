@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class TotalHits;
-        class Sort;
-        class ScoreDoc;
         class TopFieldDocs;
+        class TotalHits;
         class TopDocs;
+        class ScoreDoc;
+        class Sort;
       }
     }
   }
@@ -34,13 +34,13 @@ namespace org {
         class TopDocs : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_acfcb51187f3eaef,
-            mid_merge_5603bbb8687f47b5,
-            mid_merge_70445d7fe64878d3,
-            mid_merge_c71fe70a886b91bb,
-            mid_merge_45dd4d1558097c79,
-            mid_merge_9043e91a03ab495a,
-            mid_merge_c524001c1b48ab71,
+            mid_init$_5a870f7ff8ffe001,
+            mid_merge_5ae8b36445b785f3,
+            mid_merge_3555ffba756f3887,
+            mid_merge_797cfcdfd93d6846,
+            mid_merge_6652fb2d5d1b986d,
+            mid_merge_11638f7b9bf5694f,
+            mid_merge_2464a6b9137341ec,
             max_mid
           };
 

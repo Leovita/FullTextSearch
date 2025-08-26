@@ -7,27 +7,27 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class TermsEnum;
         class IndexReader;
-        class ReaderSlice;
         class PostingsEnum;
+        class TermsEnum;
+        class ReaderSlice;
       }
       namespace util {
-        class BytesRef;
         namespace automaton {
           class CompiledAutomaton;
         }
+        class BytesRef;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,24 +40,24 @@ namespace org {
         class MultiTerms : public ::org::apache::lucene::index::Terms {
          public:
           enum {
-            mid_init$_9785f29e771b4ff2,
-            mid_getDocCount_20fbf7565993c3d7,
-            mid_getMax_9740fddd1c7df148,
-            mid_getMin_9740fddd1c7df148,
-            mid_getSubSlices_884dc492b30b6119,
-            mid_getSubTerms_6dbb3ec16a4932d2,
-            mid_getSumDocFreq_16939d9d0a9a9721,
-            mid_getSumTotalTermFreq_16939d9d0a9a9721,
-            mid_getTermPostingsEnum_2f10b4bda9edf761,
-            mid_getTermPostingsEnum_1fc2c5ae058446c9,
-            mid_getTerms_79b880eb6af0149b,
-            mid_hasFreqs_947277eca0748c4e,
-            mid_hasOffsets_947277eca0748c4e,
-            mid_hasPayloads_947277eca0748c4e,
-            mid_hasPositions_947277eca0748c4e,
-            mid_intersect_ae180b89f91722b6,
-            mid_iterator_8a12f41bbebee35e,
-            mid_size_16939d9d0a9a9721,
+            mid_init$_022ff2bc159439a7,
+            mid_getDocCount_bd89ce15dad49192,
+            mid_getMax_adbedbc1fa61c358,
+            mid_getMin_adbedbc1fa61c358,
+            mid_getSubSlices_09ee992dbe798521,
+            mid_getSubTerms_959ee968f26cc623,
+            mid_getSumDocFreq_0f176418e3e16541,
+            mid_getSumTotalTermFreq_0f176418e3e16541,
+            mid_getTermPostingsEnum_ff1a354145b66181,
+            mid_getTermPostingsEnum_3b84f966c0e9da3d,
+            mid_getTerms_30b083a83e5c78c1,
+            mid_hasFreqs_9aa4f33e82ea333f,
+            mid_hasOffsets_9aa4f33e82ea333f,
+            mid_hasPayloads_9aa4f33e82ea333f,
+            mid_hasPositions_9aa4f33e82ea333f,
+            mid_intersect_1265e3f103794636,
+            mid_iterator_c92e16ad45780176,
+            mid_size_0f176418e3e16541,
             max_mid
           };
 

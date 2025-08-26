@@ -6,33 +6,33 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
+      namespace codecs {
+        namespace uniformsplit {
+          class IndexDictionary$BrowserSupplier;
+          class BlockDecoder;
+          class FieldMetadata;
+        }
+        class PostingsReaderBase;
       }
       namespace index {
         class TermsEnum$SeekStatus;
         class FieldInfos;
       }
-      namespace codecs {
-        class PostingsReaderBase;
-        namespace uniformsplit {
-          class BlockDecoder;
-          class IndexDictionary$BrowserSupplier;
-          class FieldMetadata;
-        }
-      }
       namespace store {
         class IndexInput;
+      }
+      namespace util {
+        class BytesRef;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -47,14 +47,14 @@ namespace org {
             class STBlockReader : public ::org::apache::lucene::codecs::uniformsplit::BlockReader {
              public:
               enum {
-                mid_init$_cef1229cb7779421,
-                mid_next_9740fddd1c7df148,
-                mid_seekCeil_69261b500ab5d3e8,
-                mid_seekExact_f460ee421aade2fd,
-                mid_isBeyondLastTerm_b5635b16bb9884e4,
-                mid_createBlockLineSerializer_45fe2efb6fcd9fa0,
-                mid_readTermState_3bf66c86f1b277c4,
-                mid_nextTerm_9740fddd1c7df148,
+                mid_init$_475e8a36c870e4ae,
+                mid_next_adbedbc1fa61c358,
+                mid_seekCeil_3c5e68bf2fc0b5b1,
+                mid_seekExact_08ac7a49de309824,
+                mid_createBlockLineSerializer_0b068f814020a587,
+                mid_readTermState_90e39a1aad9f7074,
+                mid_nextTerm_adbedbc1fa61c358,
+                mid_isBeyondLastTerm_028f2a3472ff2200,
                 max_mid
               };
 

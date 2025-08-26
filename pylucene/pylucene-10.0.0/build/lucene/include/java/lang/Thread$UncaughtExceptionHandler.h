@@ -18,7 +18,7 @@ namespace java {
     class Thread$UncaughtExceptionHandler : public ::java::lang::Object {
      public:
       enum {
-        mid_uncaughtException_337f9378fa50bcb6,
+        mid_uncaughtException_d15744a81f85b58c,
         max_mid
       };
 

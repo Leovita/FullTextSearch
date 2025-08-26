@@ -28,7 +28,7 @@ namespace org {
           class MatchingReaders : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_1d534d5055fd8b5a,
+              mid_init$_b7f5b82c43646887,
               max_mid
             };
 

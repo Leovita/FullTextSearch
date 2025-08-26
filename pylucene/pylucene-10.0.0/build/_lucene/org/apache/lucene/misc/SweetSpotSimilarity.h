@@ -19,16 +19,16 @@ namespace org {
         class SweetSpotSimilarity : public ::org::apache::lucene::search::similarities::ClassicSimilarity {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_b110fc3a58c081ab,
-            mid_baselineTf_8fa359a2bc20a127,
-            mid_hyperbolicTf_8fa359a2bc20a127,
-            mid_lengthNorm_29cfa01aaad92564,
-            mid_setBaselineTfFactors_13cb7e72f513d797,
-            mid_setHyperbolicTfFactors_2bbcbde4855ac067,
-            mid_setLengthNormFactors_c891bbfbb935732a,
-            mid_tf_8fa359a2bc20a127,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_f5dd97eebf6a215a,
+            mid_baselineTf_760c23641efab431,
+            mid_hyperbolicTf_760c23641efab431,
+            mid_lengthNorm_5873a23b935a9d49,
+            mid_setBaselineTfFactors_cb7687d0612879b8,
+            mid_setHyperbolicTfFactors_2aa8aaf7db08adc9,
+            mid_setLengthNormFactors_637d040f0f81bc84,
+            mid_tf_760c23641efab431,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -3,9 +3,19 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class StoredValue;
+        class Field$Store;
+      }
       namespace search {
         class Query;
         class SortedNumericSelector$Type;
@@ -14,17 +24,7 @@ namespace org {
       namespace util {
         class BytesRef;
       }
-      namespace document {
-        class StoredValue;
-        class Field$Store;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -37,16 +37,16 @@ namespace org {
         class LongField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_e44bef3408dd7416,
-            mid_binaryValue_9740fddd1c7df148,
-            mid_newDistanceFeatureQuery_8e8f93a33e8b5295,
-            mid_newExactQuery_cb577c99d891ea6f,
-            mid_newRangeQuery_d94de4eddd72517b,
-            mid_newSetQuery_b01e10398514ec4c,
-            mid_newSortField_5b850b28323a3ff9,
-            mid_setLongValue_8b3d46852b435a94,
-            mid_storedValue_c117239a18be2fcb,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_7c430675c6632d47,
+            mid_binaryValue_adbedbc1fa61c358,
+            mid_newDistanceFeatureQuery_1ad6f1bc3c7f80e0,
+            mid_newExactQuery_98e0283bae36d37a,
+            mid_newRangeQuery_d24bb07db2b1e6e7,
+            mid_newSetQuery_bf074e07e7c212d7,
+            mid_newSortField_0edd70834183cd64,
+            mid_setLongValue_1d3149fac12f2af3,
+            mid_storedValue_71ce58210dba1993,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

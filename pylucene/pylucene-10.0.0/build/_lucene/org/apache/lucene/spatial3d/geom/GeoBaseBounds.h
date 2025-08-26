@@ -32,8 +32,8 @@ namespace org {
           class GeoBaseBounds : public ::org::apache::lucene::spatial3d::geom::BasePlanetObject {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
-              mid_getBounds_d23bdea549cf3849,
+              mid_init$_ed6d55ea06962af0,
+              mid_getBounds_92d81e4ba71a8653,
               max_mid
             };
 

@@ -3,10 +3,18 @@
 
 #include "org/apache/lucene/store/Directory.h"
 
-namespace java {
-  namespace util {
-    class Collection;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Lock;
+        class IndexOutput;
+        class IOContext;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
@@ -14,16 +22,8 @@ namespace java {
   namespace io {
     class IOException;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class IndexOutput;
-        class Lock;
-        class IOContext;
-      }
-    }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -36,14 +36,14 @@ namespace org {
         class CompoundDirectory : public ::org::apache::lucene::store::Directory {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_createOutput_08efc12d1beeafa9,
-            mid_createTempOutput_767e9bfea4c09d00,
-            mid_deleteFile_0d82408c6e55bc30,
-            mid_obtainLock_cc83df755c1d5fef,
-            mid_rename_3d104da0b5c75e64,
-            mid_sync_40eba2cff967cc45,
-            mid_syncMetaData_3720c61b0679eb3e,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_createOutput_5ee859a77f556d05,
+            mid_createTempOutput_c416e7b8f77d8569,
+            mid_deleteFile_ee46a189998009d6,
+            mid_obtainLock_3ede4234fbb2098d,
+            mid_rename_0dd012a11c3f389b,
+            mid_sync_b5398b431eb321fb,
+            mid_syncMetaData_e7bdbe105ce1bafb,
             max_mid
           };
 

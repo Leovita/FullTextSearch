@@ -31,8 +31,8 @@ namespace org {
           class ExactFacetSetMatcher : public ::org::apache::lucene::facet::facetset::FacetSetMatcher {
            public:
             enum {
-              mid_init$_0dea033fd72a8b82,
-              mid_matches_287940c60e46342c,
+              mid_init$_c67d75562592665b,
+              mid_matches_7ded1ec63264c3c1,
               max_mid
             };
 

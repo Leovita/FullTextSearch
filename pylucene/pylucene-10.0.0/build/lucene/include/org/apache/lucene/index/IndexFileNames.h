@@ -24,14 +24,14 @@ namespace org {
         class IndexFileNames : public ::java::lang::Object {
          public:
           enum {
-            mid_fileNameFromGeneration_c883a2eae0fc5f6e,
-            mid_getExtension_cb0eb1432185fc94,
-            mid_matchesExtension_c0bb61902cd4a0bf,
-            mid_parseGeneration_e942a6f864c95ca0,
-            mid_parseSegmentName_cb0eb1432185fc94,
-            mid_segmentFileName_fcb5213defb8ae05,
-            mid_stripExtension_cb0eb1432185fc94,
-            mid_stripSegmentName_cb0eb1432185fc94,
+            mid_fileNameFromGeneration_0bbe29ee43d0d63a,
+            mid_getExtension_fef9c036acf290a9,
+            mid_matchesExtension_8159c21a76bdf601,
+            mid_parseGeneration_490f1686ea1cfda6,
+            mid_parseSegmentName_fef9c036acf290a9,
+            mid_segmentFileName_ce6f610a15d47a8b,
+            mid_stripExtension_fef9c036acf290a9,
+            mid_stripSegmentName_fef9c036acf290a9,
             max_mid
           };
 

@@ -10,10 +10,10 @@ namespace java {
   }
   namespace lang {
     class Class;
-    class String;
     class Module;
-    class ModuleLayer;
+    class String;
     class ClassLoader;
+    class ModuleLayer;
   }
   namespace util {
     class Set;
@@ -27,24 +27,24 @@ namespace java {
     class Module : public ::java::lang::Object {
      public:
       enum {
-        mid_addExports_5cab0b51e36edae9,
-        mid_addOpens_5cab0b51e36edae9,
-        mid_addReads_1379db5e25131d5d,
-        mid_addUses_13677570190e6fc8,
-        mid_canRead_07af9c04fcc840bd,
-        mid_canUse_0be35c16891dfd3c,
-        mid_getClassLoader_c8c017ac4e9c9110,
-        mid_getLayer_e0d6a2c9ff2cc4b5,
-        mid_getName_09a7afff1868fc5e,
-        mid_getPackages_4df174295554d7bd,
-        mid_getResourceAsStream_4306cf2226901a47,
-        mid_isExported_4a13a663b5c11133,
-        mid_isExported_af1d7601530bf66b,
-        mid_isNamed_947277eca0748c4e,
-        mid_isNativeAccessEnabled_947277eca0748c4e,
-        mid_isOpen_4a13a663b5c11133,
-        mid_isOpen_af1d7601530bf66b,
-        mid_toString_09a7afff1868fc5e,
+        mid_addExports_ab887687208812a5,
+        mid_addOpens_ab887687208812a5,
+        mid_addReads_0789efa9c6573d7e,
+        mid_addUses_3606ab6b246006b5,
+        mid_canRead_16e833e47b2fccc8,
+        mid_canUse_4c29bd646fc74404,
+        mid_getClassLoader_4897d4d2fef89082,
+        mid_getLayer_c5223455e367451f,
+        mid_getName_e7df854526d67fa3,
+        mid_getPackages_79131c6bbcf08916,
+        mid_getResourceAsStream_9bd3a7bffb83deee,
+        mid_isExported_94f7e759d94961b0,
+        mid_isExported_a8e130d9e542d563,
+        mid_isNamed_9aa4f33e82ea333f,
+        mid_isNativeAccessEnabled_9aa4f33e82ea333f,
+        mid_isOpen_94f7e759d94961b0,
+        mid_isOpen_a8e130d9e542d563,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

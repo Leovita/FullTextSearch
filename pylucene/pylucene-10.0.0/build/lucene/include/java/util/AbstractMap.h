@@ -4,15 +4,15 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    class Collection;
-    class Map$Entry;
-    class Set;
-    class Map;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace util {
+    class Map$Entry;
+    class Map;
+    class Collection;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -23,22 +23,22 @@ namespace java {
     class AbstractMap : public ::java::lang::Object {
      public:
       enum {
-        mid_clear_3720c61b0679eb3e,
-        mid_containsKey_570b5248a6da3ef6,
-        mid_containsValue_570b5248a6da3ef6,
-        mid_entrySet_4df174295554d7bd,
-        mid_equals_570b5248a6da3ef6,
-        mid_get_5fd81664d2d475e1,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isEmpty_947277eca0748c4e,
-        mid_keySet_4df174295554d7bd,
-        mid_put_243089e4ee289db6,
-        mid_putAll_79ba0f5a7d05e623,
-        mid_remove_5fd81664d2d475e1,
-        mid_size_20fbf7565993c3d7,
-        mid_toString_09a7afff1868fc5e,
-        mid_values_aa58b3beec16cbbd,
-        mid_clone_5655ed8670534604,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_containsKey_00d17418847797d4,
+        mid_containsValue_00d17418847797d4,
+        mid_entrySet_79131c6bbcf08916,
+        mid_equals_00d17418847797d4,
+        mid_get_e2c45b124c12f4ec,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_keySet_79131c6bbcf08916,
+        mid_put_b3b175dfe26d2c44,
+        mid_putAll_6a7e23584beb7c0f,
+        mid_remove_e2c45b124c12f4ec,
+        mid_size_bd89ce15dad49192,
+        mid_toString_e7df854526d67fa3,
+        mid_values_4a269b968b3a511f,
+        mid_clone_4819806f62f1360a,
         max_mid
       };
 

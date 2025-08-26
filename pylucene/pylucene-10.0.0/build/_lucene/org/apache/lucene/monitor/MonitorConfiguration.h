@@ -7,18 +7,18 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace monitor {
+        class MonitorConfiguration;
         class QueryDecomposer;
         class MonitorQuerySerializer;
-        class MonitorConfiguration;
+      }
+      namespace store {
+        class Directory;
       }
       namespace index {
         class IndexWriter;
       }
       namespace util {
         class IOSupplier;
-      }
-      namespace store {
-        class Directory;
       }
     }
   }
@@ -31,14 +31,14 @@ namespace java {
   namespace io {
     class IOException;
   }
-  namespace util {
-    namespace concurrent {
-      class TimeUnit;
-    }
-  }
   namespace nio {
     namespace file {
       class Path;
+    }
+  }
+  namespace util {
+    namespace concurrent {
+      class TimeUnit;
     }
   }
 }
@@ -52,22 +52,22 @@ namespace org {
         class MonitorConfiguration : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_buildIndexWriter_3b7bf1abcd5bd7c1,
-            mid_getDirectoryProvider_1dbee8b21f6095f0,
-            mid_getPurgeFrequency_16939d9d0a9a9721,
-            mid_getPurgeFrequencyUnits_6d3e678510aa5794,
-            mid_getQueryDecomposer_af40e520a76d6bc4,
-            mid_getQuerySerializer_3f7f932c604adf0f,
-            mid_getQueryUpdateBufferSize_20fbf7565993c3d7,
-            mid_isReadOnly_947277eca0748c4e,
-            mid_setDirectoryProvider_515171a47b250350,
-            mid_setDirectoryProvider_dc5cb23d44739abc,
-            mid_setIndexPath_0e0652c81712276e,
-            mid_setPurgeFrequency_75ee080a170a4225,
-            mid_setQueryDecomposer_62b6f44969dad40f,
-            mid_setQueryUpdateBufferSize_017b03d56db840c4,
-            mid_getIndexWriterConfig_48ddfd77112ab74b,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_buildIndexWriter_7f6c4f10208f72b7,
+            mid_getDirectoryProvider_25300918e0bc2501,
+            mid_getPurgeFrequency_0f176418e3e16541,
+            mid_getPurgeFrequencyUnits_f75da27545d7a3b0,
+            mid_getQueryDecomposer_27b3aa9f7dba2fa4,
+            mid_getQuerySerializer_444a73dcab46a928,
+            mid_getQueryUpdateBufferSize_bd89ce15dad49192,
+            mid_isReadOnly_9aa4f33e82ea333f,
+            mid_setDirectoryProvider_e0383ba0e1a82a1e,
+            mid_setDirectoryProvider_5cf89d6ad66e825a,
+            mid_setIndexPath_267594603a8cb465,
+            mid_setPurgeFrequency_1af7371e7f5c5d61,
+            mid_setQueryDecomposer_852a8d2d9e8e193b,
+            mid_setQueryUpdateBufferSize_d0c894c96c176488,
+            mid_getIndexWriterConfig_da28bb1eeb056abd,
             max_mid
           };
 

@@ -4,25 +4,25 @@
 #include "org/apache/lucene/index/ByteVectorValues.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class VectorSimilarityFunction;
         class VectorEncoding;
+        class VectorSimilarityFunction;
       }
       namespace codecs {
         namespace lucene95 {
           class HasIndexSlice;
-          class OrdToDocDISIReaderConfiguration;
           class OffHeapByteVectorValues;
+          class OrdToDocDISIReaderConfiguration;
         }
         namespace hnsw {
           class FlatVectorsScorer;
@@ -45,11 +45,11 @@ namespace org {
           class OffHeapByteVectorValues : public ::org::apache::lucene::index::ByteVectorValues {
            public:
             enum {
-              mid_dimension_20fbf7565993c3d7,
-              mid_getSlice_69ff96f993716366,
-              mid_load_25c08ac6d8e37fc6,
-              mid_size_20fbf7565993c3d7,
-              mid_vectorValue_81e4ab9dd381561f,
+              mid_dimension_bd89ce15dad49192,
+              mid_getSlice_1107977def75ee66,
+              mid_load_c0f90263efdbe372,
+              mid_size_bd89ce15dad49192,
+              mid_vectorValue_d94c1f1d0c66928c,
               max_mid
             };
 

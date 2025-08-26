@@ -8,10 +8,10 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace fst {
-          class FST$INPUT_TYPE;
-          class FSTCompiler$Builder;
-          class FSTCompiler;
           class Outputs;
+          class FST$INPUT_TYPE;
+          class FSTCompiler;
+          class FSTCompiler$Builder;
         }
       }
       namespace store {
@@ -36,13 +36,13 @@ namespace org {
           class FSTCompiler$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_4fdbfad7c34e313e,
-              mid_allowFixedLengthArcs_e20ff9d080443c4b,
-              mid_build_99bc22f9840fe00d,
-              mid_dataOutput_afaefbc80557d8f0,
-              mid_directAddressingMaxOversizingFactor_3a45bf02fa4b795b,
-              mid_setVersion_d07ef88e29023c1d,
-              mid_suffixRAMLimitMB_06cc8f2f463b384d,
+              mid_init$_e9b41ad7479ee583,
+              mid_allowFixedLengthArcs_eaeb770d3608cc1f,
+              mid_build_4c2cad5748296689,
+              mid_dataOutput_4e2aad45caff5f20,
+              mid_directAddressingMaxOversizingFactor_e82b08984e84f322,
+              mid_setVersion_c6a8ecf0a017a896,
+              mid_suffixRAMLimitMB_3503669662c3020a,
               max_mid
             };
 

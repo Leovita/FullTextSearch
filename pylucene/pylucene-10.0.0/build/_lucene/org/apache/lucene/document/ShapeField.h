@@ -27,8 +27,8 @@ namespace org {
         class ShapeField : public ::java::lang::Object {
          public:
           enum {
-            mid_decodeTriangle_a77e1efdca68378c,
-            mid_encodeTriangle_8df0e0ef0ac42d4e,
+            mid_decodeTriangle_2efa483d68cc77d6,
+            mid_encodeTriangle_2599f6bf8fcfd992,
             max_mid
           };
 

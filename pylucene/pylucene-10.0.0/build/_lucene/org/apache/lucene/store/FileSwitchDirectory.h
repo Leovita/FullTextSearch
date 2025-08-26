@@ -3,11 +3,19 @@
 
 #include "org/apache/lucene/store/Directory.h"
 
-namespace java {
-  namespace util {
-    class Collection;
-    class Set;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Lock;
+        class IndexOutput;
+        class IndexInput;
+        class IOContext;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
@@ -15,17 +23,9 @@ namespace java {
   namespace io {
     class IOException;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class IndexOutput;
-        class IndexInput;
-        class Lock;
-        class IOContext;
-      }
-    }
+  namespace util {
+    class Collection;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -38,22 +38,22 @@ namespace org {
         class FileSwitchDirectory : public ::org::apache::lucene::store::Directory {
          public:
           enum {
-            mid_init$_b167d8a0af338603,
-            mid_close_3720c61b0679eb3e,
-            mid_createOutput_08efc12d1beeafa9,
-            mid_createTempOutput_767e9bfea4c09d00,
-            mid_deleteFile_0d82408c6e55bc30,
-            mid_fileLength_e942a6f864c95ca0,
-            mid_getExtension_cb0eb1432185fc94,
-            mid_getPendingDeletions_4df174295554d7bd,
-            mid_getPrimaryDir_0d3b52699e153434,
-            mid_getSecondaryDir_0d3b52699e153434,
-            mid_listAll_6da8f3ea65e22733,
-            mid_obtainLock_cc83df755c1d5fef,
-            mid_openInput_f1f6511a018f52d0,
-            mid_rename_3d104da0b5c75e64,
-            mid_sync_40eba2cff967cc45,
-            mid_syncMetaData_3720c61b0679eb3e,
+            mid_init$_1c3f998d23de5de2,
+            mid_close_e7bdbe105ce1bafb,
+            mid_createOutput_5ee859a77f556d05,
+            mid_createTempOutput_c416e7b8f77d8569,
+            mid_deleteFile_ee46a189998009d6,
+            mid_fileLength_490f1686ea1cfda6,
+            mid_getExtension_fef9c036acf290a9,
+            mid_getPendingDeletions_79131c6bbcf08916,
+            mid_getPrimaryDir_0b8988a9a36f43ec,
+            mid_getSecondaryDir_0b8988a9a36f43ec,
+            mid_listAll_970db9a2a49d840f,
+            mid_obtainLock_3ede4234fbb2098d,
+            mid_openInput_fc1a53ef559ae62a,
+            mid_rename_0dd012a11c3f389b,
+            mid_sync_b5398b431eb321fb,
+            mid_syncMetaData_e7bdbe105ce1bafb,
             max_mid
           };
 

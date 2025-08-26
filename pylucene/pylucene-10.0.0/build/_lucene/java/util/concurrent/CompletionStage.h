@@ -6,20 +6,20 @@
 namespace java {
   namespace util {
     namespace function {
-      class Consumer;
       class BiFunction;
-      class BiConsumer;
       class Function;
+      class BiConsumer;
+      class Consumer;
     }
     namespace concurrent {
-      class CompletionStage;
       class CompletableFuture;
+      class CompletionStage;
       class Executor;
     }
   }
   namespace lang {
-    class Class;
     class Runnable;
+    class Class;
     class Void;
     class Throwable;
   }
@@ -33,49 +33,49 @@ namespace java {
       class CompletionStage : public ::java::lang::Object {
        public:
         enum {
-          mid_acceptEither_70c417c0faaf4598,
-          mid_acceptEitherAsync_70c417c0faaf4598,
-          mid_acceptEitherAsync_9b5bdf58c2c02074,
-          mid_applyToEither_1ab1cffe7f1f7dab,
-          mid_applyToEitherAsync_1ab1cffe7f1f7dab,
-          mid_applyToEitherAsync_f455df2f1305ab43,
-          mid_exceptionally_8d6f7e61e17d3f6d,
-          mid_exceptionallyAsync_8d6f7e61e17d3f6d,
-          mid_exceptionallyAsync_a61822ed03a52f7f,
-          mid_exceptionallyCompose_8d6f7e61e17d3f6d,
-          mid_exceptionallyComposeAsync_8d6f7e61e17d3f6d,
-          mid_exceptionallyComposeAsync_a61822ed03a52f7f,
-          mid_handle_f0570b96a612cca1,
-          mid_handleAsync_f0570b96a612cca1,
-          mid_handleAsync_073c71704105e00b,
-          mid_runAfterBoth_59ecd927df0749e6,
-          mid_runAfterBothAsync_59ecd927df0749e6,
-          mid_runAfterBothAsync_201b4e93c3747d88,
-          mid_runAfterEither_59ecd927df0749e6,
-          mid_runAfterEitherAsync_59ecd927df0749e6,
-          mid_runAfterEitherAsync_201b4e93c3747d88,
-          mid_thenAccept_23e2d4f1113a0298,
-          mid_thenAcceptAsync_23e2d4f1113a0298,
-          mid_thenAcceptAsync_cfad9c5b51d6eba2,
-          mid_thenAcceptBoth_bfe59fe74a3234ee,
-          mid_thenAcceptBothAsync_bfe59fe74a3234ee,
-          mid_thenAcceptBothAsync_d4e195ae32bfc1f0,
-          mid_thenApply_8d6f7e61e17d3f6d,
-          mid_thenApplyAsync_8d6f7e61e17d3f6d,
-          mid_thenApplyAsync_a61822ed03a52f7f,
-          mid_thenCombine_78c74e43f43e08fa,
-          mid_thenCombineAsync_78c74e43f43e08fa,
-          mid_thenCombineAsync_f67d8a1fd0dc508f,
-          mid_thenCompose_8d6f7e61e17d3f6d,
-          mid_thenComposeAsync_8d6f7e61e17d3f6d,
-          mid_thenComposeAsync_a61822ed03a52f7f,
-          mid_thenRun_5a87c88bf99df1db,
-          mid_thenRunAsync_5a87c88bf99df1db,
-          mid_thenRunAsync_7a3a2f313f36946e,
-          mid_toCompletableFuture_67c044688e7780df,
-          mid_whenComplete_2b245a0dce7a704c,
-          mid_whenCompleteAsync_2b245a0dce7a704c,
-          mid_whenCompleteAsync_e6919763cd2ee0ec,
+          mid_acceptEither_09f1f29940fb5e8e,
+          mid_acceptEitherAsync_09f1f29940fb5e8e,
+          mid_acceptEitherAsync_29734c3f5c4febeb,
+          mid_applyToEither_b69241c4bfb79a76,
+          mid_applyToEitherAsync_b69241c4bfb79a76,
+          mid_applyToEitherAsync_a2325c8a8d2c95e5,
+          mid_exceptionally_86be1e75fcd992ca,
+          mid_exceptionallyAsync_86be1e75fcd992ca,
+          mid_exceptionallyAsync_7157f63447e7c53e,
+          mid_exceptionallyCompose_86be1e75fcd992ca,
+          mid_exceptionallyComposeAsync_86be1e75fcd992ca,
+          mid_exceptionallyComposeAsync_7157f63447e7c53e,
+          mid_handle_de2b6d99c912589b,
+          mid_handleAsync_de2b6d99c912589b,
+          mid_handleAsync_defa5e9091bc2bd5,
+          mid_runAfterBoth_e1635c10abb2eb1e,
+          mid_runAfterBothAsync_e1635c10abb2eb1e,
+          mid_runAfterBothAsync_8acb42dc0398693e,
+          mid_runAfterEither_e1635c10abb2eb1e,
+          mid_runAfterEitherAsync_e1635c10abb2eb1e,
+          mid_runAfterEitherAsync_8acb42dc0398693e,
+          mid_thenAccept_6fb1a390dca0c248,
+          mid_thenAcceptAsync_6fb1a390dca0c248,
+          mid_thenAcceptAsync_4771cd1664c47170,
+          mid_thenAcceptBoth_3a69ef4ae360ee99,
+          mid_thenAcceptBothAsync_3a69ef4ae360ee99,
+          mid_thenAcceptBothAsync_ac0ceb85acb410e1,
+          mid_thenApply_86be1e75fcd992ca,
+          mid_thenApplyAsync_86be1e75fcd992ca,
+          mid_thenApplyAsync_7157f63447e7c53e,
+          mid_thenCombine_09ff46abdeee70a9,
+          mid_thenCombineAsync_09ff46abdeee70a9,
+          mid_thenCombineAsync_8704066d85069f7b,
+          mid_thenCompose_86be1e75fcd992ca,
+          mid_thenComposeAsync_86be1e75fcd992ca,
+          mid_thenComposeAsync_7157f63447e7c53e,
+          mid_thenRun_a5abdacf48f6c04d,
+          mid_thenRunAsync_a5abdacf48f6c04d,
+          mid_thenRunAsync_e30a1c552ccb2e07,
+          mid_toCompletableFuture_645e0257444d1f5e,
+          mid_whenComplete_56c447c66e07ee0f,
+          mid_whenCompleteAsync_56c447c66e07ee0f,
+          mid_whenCompleteAsync_0b5da3424694f86d,
           max_mid
         };
 

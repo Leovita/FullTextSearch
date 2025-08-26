@@ -31,7 +31,7 @@ namespace org {
           class GeoAreaShape : public ::org::apache::lucene::spatial3d::geom::GeoMembershipShape {
            public:
             enum {
-              mid_intersects_9d5b040d556fdb23,
+              mid_intersects_f6f461ab5889e14d,
               max_mid
             };
 

@@ -7,22 +7,22 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Sort;
         namespace grouping {
           class SearchGroup;
           class GroupSelector;
           class TopGroups;
         }
+        class Sort;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -36,8 +36,8 @@ namespace org {
           class TopGroupsCollector : public ::org::apache::lucene::search::grouping::SecondPassGroupingCollector {
            public:
             enum {
-              mid_init$_68b9a240f54ed70f,
-              mid_getTopGroups_e8d4b81c0362a569,
+              mid_init$_c28d8fe3c9f7f8ce,
+              mid_getTopGroups_e09b717f6248f7bb,
               max_mid
             };
 

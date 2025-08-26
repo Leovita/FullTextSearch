@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/search/similarities/Similarity.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class Explanation;
+        class TermStatistics;
         class CollectionStatistics;
         namespace similarities {
           class Similarity$SimScorer;
         }
-        class Explanation;
-        class TermStatistics;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -34,18 +34,18 @@ namespace org {
           class BM25Similarity : public ::org::apache::lucene::search::similarities::Similarity {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_b110fc3a58c081ab,
-              mid_init$_13cb7e72f513d797,
-              mid_init$_7fd9de174e6f9e9b,
-              mid_getB_9b6c3480dac00edf,
-              mid_getK1_9b6c3480dac00edf,
-              mid_idfExplain_ab8a1aa08a5185a2,
-              mid_idfExplain_fd480d4fa493711e,
-              mid_scorer_67d67592415704df,
-              mid_toString_09a7afff1868fc5e,
-              mid_avgFieldLength_6458350086f47b00,
-              mid_idf_080f674c1bc73c17,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f5dd97eebf6a215a,
+              mid_init$_cb7687d0612879b8,
+              mid_init$_bd3193681f5d747e,
+              mid_getB_8b62236f0e4d0dbc,
+              mid_getK1_8b62236f0e4d0dbc,
+              mid_idfExplain_684e0a1764dc292f,
+              mid_idfExplain_9cf8582f72982b4d,
+              mid_scorer_556ce9e7c1c4eb6a,
+              mid_toString_e7df854526d67fa3,
+              mid_avgFieldLength_76c0f2cd78d86449,
+              mid_idf_49931e962a3f57e4,
               max_mid
             };
 

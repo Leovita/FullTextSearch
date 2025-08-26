@@ -22,9 +22,9 @@ namespace org {
               class FieldConfig : public ::org::apache::lucene::queryparser::flexible::core::config::AbstractQueryConfig {
                public:
                 enum {
-                  mid_init$_0d82408c6e55bc30,
-                  mid_getField_09a7afff1868fc5e,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_ee46a189998009d6,
+                  mid_getField_e7df854526d67fa3,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
     class Class;
+    class Comparable;
   }
   namespace util {
     class List;
@@ -15,13 +15,13 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class PhraseQuery$PostingsAndFreq;
-      }
       namespace index {
+        class PostingsEnum;
         class Term;
         class ImpactsEnum;
-        class PostingsEnum;
+      }
+      namespace search {
+        class PhraseQuery$PostingsAndFreq;
       }
     }
   }
@@ -36,11 +36,11 @@ namespace org {
         class PhraseQuery$PostingsAndFreq : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_18df93565475924b,
-            mid_init$_f143f561fb79e0f2,
-            mid_compareTo_6c3ea2c757fb9fe7,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
+            mid_init$_08bb70a68a4a17c5,
+            mid_init$_f092a1cab3d9bec2,
+            mid_compareTo_4ccda97b4bd9e179,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
             max_mid
           };
 

@@ -21,7 +21,7 @@ namespace org {
         class IOSupplier : public ::java::lang::Object {
          public:
           enum {
-            mid_get_5655ed8670534604,
+            mid_get_4819806f62f1360a,
             max_mid
           };
 

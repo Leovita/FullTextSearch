@@ -9,13 +9,13 @@ namespace org {
       namespace analysis {
         class Analyzer;
       }
-      namespace search {
-        class Query;
-      }
       namespace queryparser {
         namespace xml {
           class QueryBuilder;
         }
+      }
+      namespace search {
+        class Query;
       }
     }
   }
@@ -37,7 +37,7 @@ namespace org {
             class TermsQueryBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_07cd0f76cabcf75a,
+                mid_init$_1aaca852402a5069,
                 max_mid
               };
 

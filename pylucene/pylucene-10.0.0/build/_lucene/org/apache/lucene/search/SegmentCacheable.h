@@ -27,7 +27,7 @@ namespace org {
         class SegmentCacheable : public ::java::lang::Object {
          public:
           enum {
-            mid_isCacheable_03101e9518c66be0,
+            mid_isCacheable_8e9f6225f14d0ebe,
             max_mid
           };
 

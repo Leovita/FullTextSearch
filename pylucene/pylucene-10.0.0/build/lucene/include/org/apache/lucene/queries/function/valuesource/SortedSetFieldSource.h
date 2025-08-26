@@ -4,13 +4,13 @@
 #include "org/apache/lucene/queries/function/valuesource/FieldCacheSource.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -19,14 +19,14 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class SortedSetSelector$Type;
-        class SortField;
-      }
       namespace queries {
         namespace function {
           class FunctionValues;
         }
+      }
+      namespace search {
+        class SortedSetSelector$Type;
+        class SortField;
       }
       namespace index {
         class LeafReaderContext;
@@ -46,13 +46,13 @@ namespace org {
             class SortedSetFieldSource : public ::org::apache::lucene::queries::function::valuesource::FieldCacheSource {
              public:
               enum {
-                mid_init$_0d82408c6e55bc30,
-                mid_init$_f3869952ef98f244,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_getSortField_33273beb7e6f6fa1,
-                mid_getValues_a7d46b98c691aeac,
-                mid_hashCode_20fbf7565993c3d7,
+                mid_init$_ee46a189998009d6,
+                mid_init$_83df237011d2a544,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_getSortField_6b771f2dc8fe37aa,
+                mid_getValues_9f85153ef1e32cca,
+                mid_hashCode_bd89ce15dad49192,
                 max_mid
               };
 

@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace bkd {
-          class PointReader;
           class PointValue;
+          class PointReader;
         }
       }
     }
@@ -34,11 +34,11 @@ namespace org {
           class PointWriter : public ::java::io::Closeable {
            public:
             enum {
-              mid_append_1c8d41d2d27992fa,
-              mid_append_3f6ea74fc0096aaa,
-              mid_count_16939d9d0a9a9721,
-              mid_destroy_3720c61b0679eb3e,
-              mid_getReader_f1db140159383246,
+              mid_append_e75111edd8888b9b,
+              mid_append_31e2e931f3bb1000,
+              mid_count_0f176418e3e16541,
+              mid_destroy_e7bdbe105ce1bafb,
+              mid_getReader_e114ec76679aa7f3,
               max_mid
             };
 

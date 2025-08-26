@@ -33,12 +33,12 @@ namespace org {
             class KoMorphData$Morpheme : public ::java::lang::Record {
              public:
               enum {
-                mid_init$_8240235dc72ce132,
-                mid_equals_570b5248a6da3ef6,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_posTag_8319649eebaf05cc,
-                mid_surfaceForm_09a7afff1868fc5e,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_86059803c175e8a1,
+                mid_equals_00d17418847797d4,
+                mid_hashCode_bd89ce15dad49192,
+                mid_posTag_2a8a370cf50ce28f,
+                mid_surfaceForm_e7df854526d67fa3,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

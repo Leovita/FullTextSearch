@@ -3,31 +3,31 @@
 
 #include "org/apache/lucene/search/MultiTermQuery.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class Accountable;
         namespace automaton {
           class CompiledAutomaton;
           class Automaton;
         }
-      }
-      namespace index {
-        class Term;
+        class Accountable;
       }
       namespace search {
         class QueryVisitor;
         class MultiTermQuery$RewriteMethod;
       }
+      namespace index {
+        class Term;
+      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -40,18 +40,18 @@ namespace org {
         class AutomatonQuery : public ::org::apache::lucene::search::MultiTermQuery {
          public:
           enum {
-            mid_init$_afc18e95601e7baa,
-            mid_init$_12abd3414ad09af0,
-            mid_init$_1638a45376d95b79,
-            mid_equals_570b5248a6da3ef6,
-            mid_getAutomaton_275570da72a90658,
-            mid_getCompiled_667c3f67aa7a3aa5,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isAutomatonBinary_947277eca0748c4e,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
-            mid_getTermsEnum_b346bdb4749db660,
+            mid_init$_35582c417b31b833,
+            mid_init$_2ba163ef12a89a37,
+            mid_init$_6344b4a669bbc7ff,
+            mid_equals_00d17418847797d4,
+            mid_getAutomaton_d4cfa49a0a7bdead,
+            mid_getCompiled_8fd87a038bf9e303,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isAutomatonBinary_9aa4f33e82ea333f,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
+            mid_getTermsEnum_05b4875ff8d0c914,
             max_mid
           };
 

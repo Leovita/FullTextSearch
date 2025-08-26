@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class WordBreakSpellChecker$BreakSuggestionSortMethod : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_0d2a85e90a21eaba,
-              mid_values_f6ad3afc2c9dfa04,
+              mid_valueOf_5029279ce4a972ad,
+              mid_values_9b725f70c7c1964a,
               max_mid
             };
 

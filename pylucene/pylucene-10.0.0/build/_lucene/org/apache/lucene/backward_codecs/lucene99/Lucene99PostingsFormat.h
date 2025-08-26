@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/codecs/PostingsFormat.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class FieldsProducer;
-        class FieldsConsumer;
-      }
       namespace index {
         class SegmentReadState;
         class SegmentWriteState;
       }
+      namespace codecs {
+        class FieldsProducer;
+        class FieldsConsumer;
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
           class Lucene99PostingsFormat : public ::org::apache::lucene::codecs::PostingsFormat {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_fieldsConsumer_19c1d7ed57faee5d,
-              mid_fieldsProducer_1c13fe60e408387e,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_fieldsConsumer_53e79f306f41e536,
+              mid_fieldsProducer_5a3bb464060de23c,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

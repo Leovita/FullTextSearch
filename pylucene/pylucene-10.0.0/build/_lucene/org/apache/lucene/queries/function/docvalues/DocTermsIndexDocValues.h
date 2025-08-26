@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/queries/function/FunctionValues.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -22,16 +32,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -44,19 +44,19 @@ namespace org {
             class DocTermsIndexDocValues : public ::org::apache::lucene::queries::function::FunctionValues {
              public:
               enum {
-                mid_init$_c7f4ac916b9a5b31,
-                mid_boolVal_ae22d3a856ad56f1,
-                mid_bytesVal_5ee67d79d93d193b,
-                mid_exists_ae22d3a856ad56f1,
-                mid_getRangeScorer_aecbec4e094d375b,
-                mid_getValueFiller_fad7fc73a89d9be3,
-                mid_numOrd_20fbf7565993c3d7,
-                mid_objectVal_eb7eace67c4a21fd,
-                mid_ordVal_3c9bba330f083871,
-                mid_strVal_cd8436557ab831f9,
-                mid_toString_cd8436557ab831f9,
-                mid_getOrdForDoc_3c9bba330f083871,
-                mid_toTerm_cb0eb1432185fc94,
+                mid_init$_9c5d80cf95aacc16,
+                mid_boolVal_a8281eb3b9d9672d,
+                mid_bytesVal_0a9b0f6d8ac17652,
+                mid_exists_a8281eb3b9d9672d,
+                mid_getRangeScorer_5d5d3a04371eed22,
+                mid_getValueFiller_32f41a37c2710e92,
+                mid_numOrd_bd89ce15dad49192,
+                mid_objectVal_2a2d7d7b9153274c,
+                mid_ordVal_a3904e10f5bb9437,
+                mid_strVal_0da8f0b89b1e9a22,
+                mid_toString_0da8f0b89b1e9a22,
+                mid_getOrdForDoc_a3904e10f5bb9437,
+                mid_toTerm_fef9c036acf290a9,
                 max_mid
               };
 

@@ -3,23 +3,15 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace sandbox {
         namespace facet {
           namespace recorders {
-            class Reducer;
-            class LeafFacetRecorder;
             class FacetRecorder;
+            class LeafFacetRecorder;
+            class Reducer;
           }
           namespace iterators {
             class OrdinalIterator;
@@ -38,6 +30,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -50,13 +50,13 @@ namespace org {
             class LongAggregationsFacetRecorder : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_091e1317bd1f5b26,
-                mid_contains_ae22d3a856ad56f1,
-                mid_getLeafRecorder_2a2d00636bd9a973,
-                mid_getRecordedValue_1a8a71179739f982,
-                mid_isEmpty_947277eca0748c4e,
-                mid_recordedOrds_57cddf93ba106e9f,
-                mid_reduce_b6f6e293249d2dde,
+                mid_init$_0d85b1cd77a88201,
+                mid_contains_a8281eb3b9d9672d,
+                mid_getLeafRecorder_5bbfd55d37aae51b,
+                mid_getRecordedValue_e302117a821addff,
+                mid_isEmpty_9aa4f33e82ea333f,
+                mid_recordedOrds_8b96a93b5acb34cf,
+                mid_reduce_530641278d3adcf6,
                 max_mid
               };
 

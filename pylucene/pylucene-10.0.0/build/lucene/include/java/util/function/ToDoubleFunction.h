@@ -17,7 +17,7 @@ namespace java {
       class ToDoubleFunction : public ::java::lang::Object {
        public:
         enum {
-          mid_applyAsDouble_0fa386172441ea29,
+          mid_applyAsDouble_6a8a269f1356bb63,
           max_mid
         };
 

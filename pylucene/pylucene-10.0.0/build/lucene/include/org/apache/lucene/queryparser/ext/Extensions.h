@@ -32,15 +32,15 @@ namespace org {
           class Extensions : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_97f8668422006638,
-              mid_add_86ad3fccc3255391,
-              mid_buildExtensionField_cb0eb1432185fc94,
-              mid_buildExtensionField_6829292399b85216,
-              mid_escapeExtensionField_cb0eb1432185fc94,
-              mid_getExtension_e791b00f549ca21b,
-              mid_getExtensionFieldDelimiter_6c956faefc706166,
-              mid_splitExtensionField_a8255a41afc5d58f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_121fb0d25559975f,
+              mid_add_d2ee852598c92e95,
+              mid_buildExtensionField_fef9c036acf290a9,
+              mid_buildExtensionField_3bdb499546f6bd60,
+              mid_escapeExtensionField_fef9c036acf290a9,
+              mid_getExtension_74a316e524300879,
+              mid_getExtensionFieldDelimiter_15a06771db8cb866,
+              mid_splitExtensionField_df4de799ee66f1f9,
               max_mid
             };
 

@@ -3,23 +3,23 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class PrefixCodedTerms;
+        class Term;
       }
       namespace util {
         class BytesRef;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
         class PrefixCodedTerms$Builder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_3b0982cb6e1bfb9d,
-            mid_add_45ab94acb6ed83e4,
-            mid_finish_f6b680c28e00bf07,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_ed33f9e055f7213d,
+            mid_add_a9a308f8485c52c9,
+            mid_finish_47f3c307806189e0,
             max_mid
           };
 

@@ -4,12 +4,12 @@
 #include "java/lang/RuntimeException.h"
 
 namespace java {
+  namespace util {
+    class List;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -23,8 +23,8 @@ namespace org {
           class SuggestionTimeoutException : public ::java::lang::RuntimeException {
            public:
             enum {
-              mid_init$_3b582520f99b8484,
-              mid_getPartialResult_36830460e10839eb,
+              mid_init$_2b1f4f2cb56352a4,
+              mid_getPartialResult_1387e1e2702ac173,
               max_mid
             };
 

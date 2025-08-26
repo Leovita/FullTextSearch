@@ -13,19 +13,19 @@ namespace org {
       }
       namespace index {
         class TermsEnum$SeekStatus;
+        class PostingsEnum;
         class TermState;
         class ImpactsEnum;
-        class PostingsEnum;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,20 +38,20 @@ namespace org {
         class FilterLeafReader$FilterTermsEnum : public ::org::apache::lucene::index::TermsEnum {
          public:
           enum {
-            mid_attributes_ee6fc324885c7c07,
-            mid_docFreq_20fbf7565993c3d7,
-            mid_impacts_060f17b3b6523f29,
-            mid_next_9740fddd1c7df148,
-            mid_ord_16939d9d0a9a9721,
-            mid_postings_99afe58b6211434f,
-            mid_prepareSeekExact_a6006c0d7e0ec315,
-            mid_seekCeil_69261b500ab5d3e8,
-            mid_seekExact_f460ee421aade2fd,
-            mid_seekExact_8b3d46852b435a94,
-            mid_seekExact_5c001dd449c905b9,
-            mid_term_9740fddd1c7df148,
-            mid_termState_0f33111124ab1b09,
-            mid_totalTermFreq_16939d9d0a9a9721,
+            mid_attributes_cdef0e51a2510793,
+            mid_docFreq_bd89ce15dad49192,
+            mid_impacts_690aa98c917b43c2,
+            mid_next_adbedbc1fa61c358,
+            mid_ord_0f176418e3e16541,
+            mid_postings_1e5de27ebc464616,
+            mid_prepareSeekExact_0a02c02826151691,
+            mid_seekCeil_3c5e68bf2fc0b5b1,
+            mid_seekExact_08ac7a49de309824,
+            mid_seekExact_1d3149fac12f2af3,
+            mid_seekExact_68ebcc8117fd12a5,
+            mid_term_adbedbc1fa61c358,
+            mid_termState_7f3f2ee4b8db95a4,
+            mid_totalTermFreq_0f176418e3e16541,
             max_mid
           };
 

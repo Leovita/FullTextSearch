@@ -36,7 +36,7 @@ namespace org {
               class TermRangeQueryNode : public ::org::apache::lucene::queryparser::flexible::standard::nodes::AbstractRangeQueryNode {
                public:
                 enum {
-                  mid_init$_c486da53da10db46,
+                  mid_init$_ccc27df3efbec9ac,
                   max_mid
                 };
 

@@ -6,33 +6,33 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace backward_codecs {
-        namespace compressing {
-          class CompressionMode;
-        }
+      namespace store {
+        class Directory;
+        class IOContext;
       }
       namespace codecs {
-        class TermVectorsReader;
         class TermVectorsWriter;
-      }
-      namespace store {
-        class IOContext;
-        class Directory;
+        class TermVectorsReader;
       }
       namespace index {
         class SegmentInfo;
         class FieldInfos;
       }
+      namespace backward_codecs {
+        namespace compressing {
+          class CompressionMode;
+        }
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -47,10 +47,10 @@ namespace org {
             class Lucene50CompressingTermVectorsFormat : public ::org::apache::lucene::codecs::TermVectorsFormat {
              public:
               enum {
-                mid_init$_09d8d4307a2e9de9,
-                mid_toString_09a7afff1868fc5e,
-                mid_vectorsReader_1964f2596a25f5d6,
-                mid_vectorsWriter_1818d8841252adb6,
+                mid_init$_dc92c386ef66ed75,
+                mid_toString_e7df854526d67fa3,
+                mid_vectorsReader_7d1a6a780d28332f,
+                mid_vectorsWriter_b2b9759be25f6183,
                 max_mid
               };
 

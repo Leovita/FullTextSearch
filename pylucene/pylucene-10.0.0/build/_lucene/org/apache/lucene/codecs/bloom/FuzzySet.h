@@ -3,33 +3,33 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-        class BytesRef;
+      namespace codecs {
+        namespace bloom {
+          class FuzzySet$ContainsResult;
+          class FuzzySet;
+        }
       }
       namespace store {
         class DataInput;
         class DataOutput;
       }
-      namespace codecs {
-        namespace bloom {
-          class FuzzySet;
-          class FuzzySet$ContainsResult;
-        }
+      namespace util {
+        class Accountable;
+        class BytesRef;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -43,22 +43,22 @@ namespace org {
           class FuzzySet : public ::java::lang::Object {
            public:
             enum {
-              mid_addValue_ac0de3ee0e03786d,
-              mid_contains_9fb2aa8c0895ab2e,
-              mid_createOptimalSet_76092f639ed9a392,
-              mid_createSetBasedOnMaxMemory_39b887e5f25fbc4e,
-              mid_createSetBasedOnQuality_0d10c88195c65be6,
-              mid_deserialize_7b0fd792109af46f,
-              mid_downsize_ec2c153eabd85ee7,
-              mid_getEstimatedNumberUniqueValuesAllowingForCollisions_7f733b5d08bb5ec4,
-              mid_getEstimatedUniqueValues_20fbf7565993c3d7,
-              mid_getNearestSetSize_3c9bba330f083871,
-              mid_getNearestSetSize_de5c7a0fc59420f3,
-              mid_getSaturation_9b6c3480dac00edf,
-              mid_getTargetMaxSaturation_9b6c3480dac00edf,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_serialize_3a071e25ad99bd99,
-              mid_toString_09a7afff1868fc5e,
+              mid_addValue_920ce0cdf4259cc9,
+              mid_contains_99cb6f14133cb185,
+              mid_createOptimalSet_45ee904532d93304,
+              mid_createSetBasedOnMaxMemory_fe4f395b27f7e648,
+              mid_createSetBasedOnQuality_20a0ef78331ff415,
+              mid_deserialize_e9fd604f1575bb45,
+              mid_downsize_31873e70d08d7715,
+              mid_getEstimatedNumberUniqueValuesAllowingForCollisions_7f27cf81a85a97e9,
+              mid_getEstimatedUniqueValues_bd89ce15dad49192,
+              mid_getNearestSetSize_a3904e10f5bb9437,
+              mid_getNearestSetSize_e1ec4434aefe4164,
+              mid_getSaturation_8b62236f0e4d0dbc,
+              mid_getTargetMaxSaturation_8b62236f0e4d0dbc,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_serialize_949eccaa2018a6dc,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

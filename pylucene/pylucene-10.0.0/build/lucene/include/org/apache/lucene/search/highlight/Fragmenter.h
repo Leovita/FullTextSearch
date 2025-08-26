@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,8 +29,8 @@ namespace org {
           class Fragmenter : public ::java::lang::Object {
            public:
             enum {
-              mid_isNewFragment_947277eca0748c4e,
-              mid_start_5300007aee41849a,
+              mid_isNewFragment_9aa4f33e82ea333f,
+              mid_start_695328e8af0f010c,
               max_mid
             };
 

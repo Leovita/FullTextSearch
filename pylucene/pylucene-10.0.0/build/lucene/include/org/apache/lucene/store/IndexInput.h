@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -17,8 +17,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class IndexInput;
         class RandomAccessInput;
+        class IndexInput;
         class ReadAdvice;
       }
     }
@@ -34,18 +34,18 @@ namespace org {
         class IndexInput : public ::org::apache::lucene::store::DataInput {
          public:
           enum {
-            mid_clone_69ff96f993716366,
-            mid_close_3720c61b0679eb3e,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_length_16939d9d0a9a9721,
-            mid_prefetch_c3501637982a28bc,
-            mid_randomAccessSlice_2e3247f0548f785b,
-            mid_seek_8b3d46852b435a94,
-            mid_skipBytes_8b3d46852b435a94,
-            mid_slice_4c0286d0c02e55b3,
-            mid_slice_8a3c35d9e45e885a,
-            mid_toString_09a7afff1868fc5e,
-            mid_getFullSliceDescription_cb0eb1432185fc94,
+            mid_clone_1107977def75ee66,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_length_0f176418e3e16541,
+            mid_prefetch_9ebf8c93de5f0fe1,
+            mid_randomAccessSlice_02040cfc534fdd16,
+            mid_seek_1d3149fac12f2af3,
+            mid_skipBytes_1d3149fac12f2af3,
+            mid_slice_fa5539b2c5f0192d,
+            mid_slice_10680211b6dde0c2,
+            mid_toString_e7df854526d67fa3,
+            mid_getFullSliceDescription_fef9c036acf290a9,
             max_mid
           };
 

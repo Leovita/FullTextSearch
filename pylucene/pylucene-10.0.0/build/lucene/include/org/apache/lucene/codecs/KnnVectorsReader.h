@@ -6,26 +6,26 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class Bits;
+      }
+      namespace index {
+        class ByteVectorValues;
+        class FloatVectorValues;
+      }
       namespace search {
         class KnnCollector;
       }
       namespace codecs {
         class KnnVectorsReader;
       }
-      namespace index {
-        class ByteVectorValues;
-        class FloatVectorValues;
-      }
-      namespace util {
-        class Bits;
-      }
     }
   }
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -42,12 +42,12 @@ namespace org {
         class KnnVectorsReader : public ::java::lang::Object {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_getByteVectorValues_b6d55ee35cf0a7cd,
-            mid_getFloatVectorValues_d99d2b92faec6895,
-            mid_getMergeInstance_e70fe5e71b23e71f,
-            mid_search_e7c7b5d865f31eb3,
-            mid_search_210bbfb50a2f4ef9,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_getByteVectorValues_7ab2f26af1d93897,
+            mid_getFloatVectorValues_0c0ae22a56670782,
+            mid_getMergeInstance_9001a1821793c4d1,
+            mid_search_41e6931fdbdb5ba0,
+            mid_search_61a952903eb61416,
             max_mid
           };
 

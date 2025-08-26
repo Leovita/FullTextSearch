@@ -3,14 +3,28 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+    class Iterable;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class TokenStream;
+        class Analyzer;
+      }
       namespace search {
-        class Query;
         namespace similarities {
           class Similarity;
         }
+        class Query;
         class IndexSearcher;
       }
       namespace index {
@@ -19,21 +33,7 @@ namespace org {
           class MemoryIndex;
         }
       }
-      namespace analysis {
-        class TokenStream;
-        class Analyzer;
-      }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Iterable;
   }
 }
 template<class T> class JArray;
@@ -47,24 +47,24 @@ namespace org {
           class MemoryIndex : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_b110fc3a58c081ab,
-              mid_init$_c485d474c3ac8ca0,
-              mid_addField_5300007aee41849a,
-              mid_addField_8d7e516a07e3462a,
-              mid_addField_1e0e23976df36509,
-              mid_addField_da890baf8104419b,
-              mid_addField_070d56197b28bb4d,
-              mid_createSearcher_8c9a1e527c2e5a94,
-              mid_freeze_3720c61b0679eb3e,
-              mid_fromDocument_74de683bdc1c2846,
-              mid_fromDocument_82a52930d010889d,
-              mid_fromDocument_3ccdda35375abed3,
-              mid_keywordTokenStream_470a4c25304f0747,
-              mid_reset_3720c61b0679eb3e,
-              mid_search_49adda0d5a704396,
-              mid_setSimilarity_8ae0f58eeda358f3,
-              mid_toStringDebug_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f5dd97eebf6a215a,
+              mid_init$_625f7a21e54cb1c3,
+              mid_addField_695328e8af0f010c,
+              mid_addField_9add7da5a6d073de,
+              mid_addField_497f620d1c2af58a,
+              mid_addField_e8c46cf1ae504637,
+              mid_addField_3330adae8a2603bd,
+              mid_createSearcher_b5872e6ced4699df,
+              mid_freeze_e7bdbe105ce1bafb,
+              mid_fromDocument_6c0043d47509958d,
+              mid_fromDocument_792c5f19f6df0ee6,
+              mid_fromDocument_2111a74b48ee7620,
+              mid_keywordTokenStream_d4664abf3ecd2ecd,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_search_513101d4b8185212,
+              mid_setSimilarity_0ad3b8cdfb835d9f,
+              mid_toStringDebug_e7df854526d67fa3,
               max_mid
             };
 

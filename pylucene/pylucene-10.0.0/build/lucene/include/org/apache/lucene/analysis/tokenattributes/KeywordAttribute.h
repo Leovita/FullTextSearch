@@ -19,8 +19,8 @@ namespace org {
           class KeywordAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_isKeyword_947277eca0748c4e,
-              mid_setKeyword_b110fc3a58c081ab,
+              mid_isKeyword_9aa4f33e82ea333f,
+              mid_setKeyword_f5dd97eebf6a215a,
               max_mid
             };
 

@@ -11,13 +11,16 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class PrefixQuery;
+      }
       namespace queryparser {
         namespace flexible {
           namespace core {
+            class QueryNodeException;
             namespace nodes {
               class QueryNode;
             }
-            class QueryNodeException;
           }
           namespace standard {
             namespace builders {
@@ -25,9 +28,6 @@ namespace org {
             }
           }
         }
-      }
-      namespace search {
-        class PrefixQuery;
       }
     }
   }
@@ -45,8 +45,8 @@ namespace org {
               class PrefixWildcardQueryNodeBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_build_54fe7455c17f122c,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_build_f2a3d5b3773e123e,
                   max_mid
                 };
 

@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -22,6 +13,15 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -35,13 +35,13 @@ namespace org {
           class AffixedWord : public ::java::lang::Object {
            public:
             enum {
-              mid_equals_570b5248a6da3ef6,
-              mid_getDictEntry_323f61312f786e2b,
-              mid_getPrefixes_36830460e10839eb,
-              mid_getSuffixes_36830460e10839eb,
-              mid_getWord_09a7afff1868fc5e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_equals_00d17418847797d4,
+              mid_getDictEntry_ffff6cda48c61f98,
+              mid_getPrefixes_1387e1e2702ac173,
+              mid_getSuffixes_1387e1e2702ac173,
+              mid_getWord_e7df854526d67fa3,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

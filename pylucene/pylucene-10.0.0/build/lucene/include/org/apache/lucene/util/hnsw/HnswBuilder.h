@@ -34,11 +34,11 @@ namespace org {
           class HnswBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_addGraphNode_540b2b23d51b1efd,
-              mid_build_9fd6d69296ace9c0,
-              mid_getCompletedGraph_7f2a628e64b61b56,
-              mid_getGraph_7f2a628e64b61b56,
-              mid_setInfoStream_3b3e574f321bdf38,
+              mid_addGraphNode_8226bd0b0fc13dba,
+              mid_build_890c1737c7309e31,
+              mid_getCompletedGraph_c6522999a4810969,
+              mid_getGraph_c6522999a4810969,
+              mid_setInfoStream_f10e797612112ab1,
               max_mid
             };
 

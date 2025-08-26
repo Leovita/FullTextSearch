@@ -36,7 +36,7 @@ namespace org {
           class BlockEncoder : public ::java::lang::Object {
            public:
             enum {
-              mid_encode_52c01c9594e316b9,
+              mid_encode_fa54363fa5768858,
               max_mid
             };
 

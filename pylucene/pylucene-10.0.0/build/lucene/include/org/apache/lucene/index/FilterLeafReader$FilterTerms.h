@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/index/Terms.h"
 
-namespace java {
-  namespace lang {
-    class Object;
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TermsEnum;
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,16 +31,16 @@ namespace org {
         class FilterLeafReader$FilterTerms : public ::org::apache::lucene::index::Terms {
          public:
           enum {
-            mid_getDocCount_20fbf7565993c3d7,
-            mid_getStats_5655ed8670534604,
-            mid_getSumDocFreq_16939d9d0a9a9721,
-            mid_getSumTotalTermFreq_16939d9d0a9a9721,
-            mid_hasFreqs_947277eca0748c4e,
-            mid_hasOffsets_947277eca0748c4e,
-            mid_hasPayloads_947277eca0748c4e,
-            mid_hasPositions_947277eca0748c4e,
-            mid_iterator_8a12f41bbebee35e,
-            mid_size_16939d9d0a9a9721,
+            mid_getDocCount_bd89ce15dad49192,
+            mid_getStats_4819806f62f1360a,
+            mid_getSumDocFreq_0f176418e3e16541,
+            mid_getSumTotalTermFreq_0f176418e3e16541,
+            mid_hasFreqs_9aa4f33e82ea333f,
+            mid_hasOffsets_9aa4f33e82ea333f,
+            mid_hasPayloads_9aa4f33e82ea333f,
+            mid_hasPositions_9aa4f33e82ea333f,
+            mid_iterator_c92e16ad45780176,
+            mid_size_0f176418e3e16541,
             max_mid
           };
 

@@ -3,6 +3,16 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,16 +29,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -40,10 +40,10 @@ namespace org {
           class JoinUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_createJoinQuery_d6761fa8c4297dcf,
-              mid_createJoinQuery_bf302e9cb5972e70,
-              mid_createJoinQuery_852cf3493851b601,
-              mid_createJoinQuery_fb187dbcab4b720c,
+              mid_createJoinQuery_1be86402bf9e322a,
+              mid_createJoinQuery_145cdcca36873324,
+              mid_createJoinQuery_5382b899a14162dc,
+              mid_createJoinQuery_950112994a38e91f,
               max_mid
             };
 

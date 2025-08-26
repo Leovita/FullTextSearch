@@ -3,30 +3,30 @@
 
 #include "org/apache/lucene/search/Query.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class QueryVisitor;
-        class IndexSearcher;
-      }
-      namespace analysis {
-        class Analyzer;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
   }
   namespace util {
     class Set;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
+      namespace search {
+        class QueryVisitor;
+        class IndexSearcher;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -40,28 +40,28 @@ namespace org {
           class MoreLikeThisQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_init$_7d60edbea360c24f,
-              mid_equals_570b5248a6da3ef6,
-              mid_getAnalyzer_6755ba003d984513,
-              mid_getLikeText_09a7afff1868fc5e,
-              mid_getMaxQueryTerms_20fbf7565993c3d7,
-              mid_getMinDocFreq_20fbf7565993c3d7,
-              mid_getMinTermFrequency_20fbf7565993c3d7,
-              mid_getMoreLikeFields_6da8f3ea65e22733,
-              mid_getPercentTermsToMatch_9b6c3480dac00edf,
-              mid_getStopWords_4df174295554d7bd,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_setAnalyzer_07cd0f76cabcf75a,
-              mid_setLikeText_0d82408c6e55bc30,
-              mid_setMaxQueryTerms_540b2b23d51b1efd,
-              mid_setMinDocFreq_540b2b23d51b1efd,
-              mid_setMinTermFrequency_540b2b23d51b1efd,
-              mid_setMoreLikeFields_ce41e621b30e91b1,
-              mid_setPercentTermsToMatch_c771a95b0227fb6a,
-              mid_setStopWords_1d5d4c6f11d1b2ab,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_d38b51d5ca082375,
+              mid_equals_00d17418847797d4,
+              mid_getAnalyzer_7bc9b23f56937752,
+              mid_getLikeText_e7df854526d67fa3,
+              mid_getMaxQueryTerms_bd89ce15dad49192,
+              mid_getMinDocFreq_bd89ce15dad49192,
+              mid_getMinTermFrequency_bd89ce15dad49192,
+              mid_getMoreLikeFields_970db9a2a49d840f,
+              mid_getPercentTermsToMatch_8b62236f0e4d0dbc,
+              mid_getStopWords_79131c6bbcf08916,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rewrite_25984111320dbe39,
+              mid_setAnalyzer_1aaca852402a5069,
+              mid_setLikeText_ee46a189998009d6,
+              mid_setMaxQueryTerms_8226bd0b0fc13dba,
+              mid_setMinDocFreq_8226bd0b0fc13dba,
+              mid_setMinTermFrequency_8226bd0b0fc13dba,
+              mid_setMoreLikeFields_1f90f2fcbe43e50d,
+              mid_setPercentTermsToMatch_675f4cb9a2529ee0,
+              mid_setStopWords_478519f7d4301fc7,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

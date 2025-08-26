@@ -8,10 +8,10 @@ namespace org {
     namespace lucene {
       namespace analysis {
         namespace hunspell {
-          class Dictionary;
-          class FragmentChecker;
-          class NGramFragmentChecker$NGramConsumer;
           class NGramFragmentChecker;
+          class NGramFragmentChecker$NGramConsumer;
+          class FragmentChecker;
+          class Dictionary;
         }
       }
     }
@@ -19,9 +19,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Runnable;
     class Class;
     class CharSequence;
-    class Runnable;
   }
   namespace util {
     class Collection;
@@ -38,10 +38,10 @@ namespace org {
           class NGramFragmentChecker : public ::java::lang::Object {
            public:
             enum {
-              mid_fromAllSimpleWords_d5dca26b4271ecdf,
-              mid_fromWords_f1e041a91615bf92,
-              mid_hasImpossibleFragmentAround_2721f35142c41b19,
-              mid_processNGrams_92e2cf0e88fe3228,
+              mid_fromAllSimpleWords_d4f943041a3ed218,
+              mid_fromWords_c62e62a081b936e0,
+              mid_hasImpossibleFragmentAround_c917c37a1748281e,
+              mid_processNGrams_0481b2389cd41d4b,
               max_mid
             };
 

@@ -28,7 +28,7 @@ namespace org {
           class SegmentReaderAccess : public ::java::lang::Object {
            public:
             enum {
-              mid_getCore_709cabd921054cc4,
+              mid_getCore_85d2569b1377e15c,
               max_mid
             };
 

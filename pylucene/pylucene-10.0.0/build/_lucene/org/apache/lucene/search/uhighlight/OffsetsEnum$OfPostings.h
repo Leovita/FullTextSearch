@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class PostingsEnum;
-      }
       namespace util {
         class BytesRef;
+      }
+      namespace index {
+        class PostingsEnum;
       }
     }
   }
@@ -34,14 +34,14 @@ namespace org {
           class OffsetsEnum$OfPostings : public ::org::apache::lucene::search::uhighlight::OffsetsEnum {
            public:
             enum {
-              mid_init$_b8ddd4aa0c0952c4,
-              mid_init$_67a6d19f4df5507c,
-              mid_endOffset_20fbf7565993c3d7,
-              mid_freq_20fbf7565993c3d7,
-              mid_getPostingsEnum_4e8e845e02728bdc,
-              mid_getTerm_9740fddd1c7df148,
-              mid_nextPosition_947277eca0748c4e,
-              mid_startOffset_20fbf7565993c3d7,
+              mid_init$_d5106d0959a7e9c5,
+              mid_init$_4bc988a2f6fb6fa9,
+              mid_endOffset_bd89ce15dad49192,
+              mid_freq_bd89ce15dad49192,
+              mid_getPostingsEnum_b1e913e16fa764af,
+              mid_getTerm_adbedbc1fa61c358,
+              mid_nextPosition_9aa4f33e82ea333f,
+              mid_startOffset_bd89ce15dad49192,
               max_mid
             };
 

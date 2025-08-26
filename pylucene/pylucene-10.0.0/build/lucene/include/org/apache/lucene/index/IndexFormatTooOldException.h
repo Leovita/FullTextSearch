@@ -29,15 +29,15 @@ namespace org {
         class IndexFormatTooOldException : public ::java::io::IOException {
          public:
           enum {
-            mid_init$_3d104da0b5c75e64,
-            mid_init$_2885ca24e476bfcc,
-            mid_init$_ad86ada88a1b06a4,
-            mid_init$_2f7ad747b6e05557,
-            mid_getMaxVersion_0babf078bb41693e,
-            mid_getMinVersion_0babf078bb41693e,
-            mid_getReason_09a7afff1868fc5e,
-            mid_getResourceDescription_09a7afff1868fc5e,
-            mid_getVersion_0babf078bb41693e,
+            mid_init$_0dd012a11c3f389b,
+            mid_init$_fb57e08f3099cd5a,
+            mid_init$_7a4017944aa379f8,
+            mid_init$_bb72ce4920c859b2,
+            mid_getMaxVersion_078821faeee94f65,
+            mid_getMinVersion_078821faeee94f65,
+            mid_getReason_e7df854526d67fa3,
+            mid_getResourceDescription_e7df854526d67fa3,
+            mid_getVersion_078821faeee94f65,
             max_mid
           };
 

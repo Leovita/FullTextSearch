@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,6 +15,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -31,9 +31,9 @@ namespace org {
         class RangeFieldQuery$QueryType : public ::java::lang::Enum {
          public:
           enum {
-            mid_matches_2f8e80d3b4e5131b,
-            mid_valueOf_f64541eae0672f37,
-            mid_values_1d3c2eb60b1c075e,
+            mid_matches_ad83ec729288ee64,
+            mid_valueOf_2845bf9d497f92eb,
+            mid_values_4805ce309f2363e0,
             max_mid
           };
 

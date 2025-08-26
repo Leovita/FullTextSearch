@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/search/Query.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,15 +27,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -39,11 +39,11 @@ namespace org {
             class CompletionQuery : public ::org::apache::lucene::search::Query {
              public:
               enum {
-                mid_getField_09a7afff1868fc5e,
-                mid_getFilter_5e0c07ef176f8094,
-                mid_getTerm_8b5614d1be154430,
-                mid_rewrite_aeaa882ae5e96552,
-                mid_toString_cb0eb1432185fc94,
+                mid_getField_e7df854526d67fa3,
+                mid_getFilter_b51451763cbcb3ee,
+                mid_getTerm_b549eaec39b02d52,
+                mid_rewrite_25984111320dbe39,
+                mid_toString_fef9c036acf290a9,
                 max_mid
               };
 

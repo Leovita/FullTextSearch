@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/search/DocIdSetIterator.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -26,6 +17,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -37,17 +37,17 @@ namespace org {
           class Spans : public ::org::apache::lucene::search::DocIdSetIterator {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_asTwoPhaseIterator_28c4f2cd9e5f8da7,
-              mid_collect_f57fa7214a0e10bb,
-              mid_endPosition_20fbf7565993c3d7,
-              mid_nextStartPosition_20fbf7565993c3d7,
-              mid_positionsCost_9b6c3480dac00edf,
-              mid_startPosition_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
-              mid_width_20fbf7565993c3d7,
-              mid_doStartCurrentDoc_3720c61b0679eb3e,
-              mid_doCurrentSpans_3720c61b0679eb3e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_asTwoPhaseIterator_c827d3ab11221e86,
+              mid_collect_6a7e0ba175326672,
+              mid_endPosition_bd89ce15dad49192,
+              mid_nextStartPosition_bd89ce15dad49192,
+              mid_positionsCost_8b62236f0e4d0dbc,
+              mid_startPosition_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
+              mid_width_bd89ce15dad49192,
+              mid_doStartCurrentDoc_e7bdbe105ce1bafb,
+              mid_doCurrentSpans_e7bdbe105ce1bafb,
               max_mid
             };
 

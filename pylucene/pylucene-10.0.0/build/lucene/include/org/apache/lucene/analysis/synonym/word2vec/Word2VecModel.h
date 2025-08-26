@@ -6,16 +6,16 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-        class TermAndVector;
-      }
       namespace analysis {
         namespace synonym {
           namespace word2vec {
             class Word2VecModel;
           }
         }
+      }
+      namespace util {
+        class TermAndVector;
+        class BytesRef;
       }
     }
   }
@@ -40,14 +40,14 @@ namespace org {
             class Word2VecModel : public ::org::apache::lucene::index::FloatVectorValues {
              public:
               enum {
-                mid_init$_e13cff512ebda969,
-                mid_addTermAndVector_d1d721862b22db11,
-                mid_copy_49612d1a82445b67,
-                mid_dimension_20fbf7565993c3d7,
-                mid_size_20fbf7565993c3d7,
-                mid_termValue_29bb531a30fe8369,
-                mid_vectorValue_44a5a01e0d30e1db,
-                mid_vectorValue_837967dda86e7ad8,
+                mid_init$_645c25455f5b9b1c,
+                mid_addTermAndVector_b464c263d076fb4f,
+                mid_copy_fa879f6e4066ded6,
+                mid_dimension_bd89ce15dad49192,
+                mid_size_bd89ce15dad49192,
+                mid_termValue_1e79f110a34c4312,
+                mid_vectorValue_3d03ef295b78a3d0,
+                mid_vectorValue_4392f4b0f19a3288,
                 max_mid
               };
 

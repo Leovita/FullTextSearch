@@ -4,13 +4,13 @@
 #include "org/apache/lucene/store/IndexOutput.h"
 
 namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
   namespace io {
     class IOException;
     class OutputStream;
+  }
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -23,15 +23,15 @@ namespace org {
         class OutputStreamIndexOutput : public ::org::apache::lucene::store::IndexOutput {
          public:
           enum {
-            mid_init$_718cdafe169fa965,
-            mid_close_3720c61b0679eb3e,
-            mid_getChecksum_16939d9d0a9a9721,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_5fdd5da9426708e6,
-            mid_writeInt_540b2b23d51b1efd,
-            mid_writeLong_8b3d46852b435a94,
-            mid_writeShort_13ddeb599c553531,
+            mid_init$_b5fe19acfbcafb1e,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getChecksum_0f176418e3e16541,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_116f7fcb5bff0f39,
+            mid_writeInt_8226bd0b0fc13dba,
+            mid_writeLong_1d3149fac12f2af3,
+            mid_writeShort_19904c0bd37f0d7f,
             max_mid
           };
 

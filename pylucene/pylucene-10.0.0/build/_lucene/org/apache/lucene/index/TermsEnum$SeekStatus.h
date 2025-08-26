@@ -28,8 +28,8 @@ namespace org {
         class TermsEnum$SeekStatus : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_1091e67ebc78f41d,
-            mid_values_15ca5532c5a4383f,
+            mid_valueOf_1c384b2104162c02,
+            mid_values_72c5c4cfe353413b,
             max_mid
           };
 

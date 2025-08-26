@@ -28,8 +28,8 @@ namespace org {
           class PhraseWildcardQuery$TermStats : public ::java::lang::Object {
            public:
             enum {
-              mid_getTermBytes_9740fddd1c7df148,
-              mid_addStats_52c53d6e59b40db2,
+              mid_getTermBytes_adbedbc1fa61c358,
+              mid_addStats_1d43622e571bd043,
               max_mid
             };
 

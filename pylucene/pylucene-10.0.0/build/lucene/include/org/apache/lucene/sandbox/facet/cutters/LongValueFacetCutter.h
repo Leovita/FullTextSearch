@@ -3,38 +3,38 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace facet {
-        namespace taxonomy {
-          class FacetLabel;
-        }
-      }
       namespace sandbox {
         namespace facet {
+          namespace labels {
+            class OrdToLabel;
+          }
           namespace cutters {
             class LeafFacetCutter;
             class FacetCutter;
           }
-          namespace labels {
-            class OrdToLabel;
-          }
+        }
+      }
+      namespace facet {
+        namespace taxonomy {
+          class FacetLabel;
         }
       }
       namespace index {
         class LeafReaderContext;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -49,11 +49,11 @@ namespace org {
             class LongValueFacetCutter : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_0d82408c6e55bc30,
-                mid_createLeafCutter_54e08d9616e9005a,
-                mid_getLabel_c21e0250a0465b0f,
-                mid_getLabels_b0d0c4216ac45539,
-                mid_getValue_7b22650fccb5d574,
+                mid_init$_ee46a189998009d6,
+                mid_createLeafCutter_3722fb0d3a7d3776,
+                mid_getLabel_6c732e2e2e10e82a,
+                mid_getLabels_08f83a8c8bc64590,
+                mid_getValue_49af390f180d8ee7,
                 max_mid
               };
 

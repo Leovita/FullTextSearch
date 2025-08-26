@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/document/Field.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,6 +15,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -31,7 +31,7 @@ namespace org {
         class BinaryDocValuesField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_45ab94acb6ed83e4,
+            mid_init$_a9a308f8485c52c9,
             max_mid
           };
 

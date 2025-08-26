@@ -19,12 +19,12 @@ namespace org {
           class PackedInts$Mutable : public ::org::apache::lucene::util::packed::PackedInts$Reader {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_clear_3720c61b0679eb3e,
-              mid_fill_d02046eceb4997f8,
-              mid_getBitsPerValue_20fbf7565993c3d7,
-              mid_set_52c53d6e59b40db2,
-              mid_set_be281815fcc98213,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_fill_ee45698dad8106c5,
+              mid_getBitsPerValue_bd89ce15dad49192,
+              mid_set_1d43622e571bd043,
+              mid_set_bee5a5809f1f577a,
               max_mid
             };
 

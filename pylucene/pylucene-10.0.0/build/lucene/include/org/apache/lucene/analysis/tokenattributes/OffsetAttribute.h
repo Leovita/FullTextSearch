@@ -19,9 +19,9 @@ namespace org {
           class OffsetAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_endOffset_20fbf7565993c3d7,
-              mid_setOffset_e13cff512ebda969,
-              mid_startOffset_20fbf7565993c3d7,
+              mid_endOffset_bd89ce15dad49192,
+              mid_setOffset_645c25455f5b9b1c,
+              mid_startOffset_bd89ce15dad49192,
               max_mid
             };
 

@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace analysis {
-        class Analyzer;
-      }
       namespace search {
         namespace uhighlight {
-          class UHComponents;
           class UnifiedHighlighter$OffsetSource;
+          class UHComponents;
         }
+      }
+      namespace analysis {
+        class Analyzer;
       }
     }
   }
@@ -34,9 +34,9 @@ namespace org {
           class AnalysisOffsetStrategy : public ::org::apache::lucene::search::uhighlight::FieldOffsetStrategy {
            public:
             enum {
-              mid_init$_657140c5a10ae61c,
-              mid_getOffsetSource_77a619b338f9ed68,
-              mid_tokenStream_e581d491e3e3b7dc,
+              mid_init$_712d9a19d40f047e,
+              mid_getOffsetSource_e52a710f16ce6a53,
+              mid_tokenStream_95eb54d5351e5d73,
               max_mid
             };
 

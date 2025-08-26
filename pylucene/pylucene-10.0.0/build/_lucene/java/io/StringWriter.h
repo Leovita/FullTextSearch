@@ -4,15 +4,15 @@
 #include "java/io/Writer.h"
 
 namespace java {
+  namespace lang {
+    class Class;
+    class StringBuffer;
+    class String;
+    class CharSequence;
+  }
   namespace io {
     class IOException;
     class StringWriter;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class CharSequence;
-    class StringBuffer;
   }
 }
 template<class T> class JArray;
@@ -23,19 +23,19 @@ namespace java {
     class StringWriter : public ::java::io::Writer {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_540b2b23d51b1efd,
-        mid_append_dfb0292a931845cc,
-        mid_append_d1c830b9f262498e,
-        mid_append_cfba332fdb13d759,
-        mid_close_3720c61b0679eb3e,
-        mid_flush_3720c61b0679eb3e,
-        mid_getBuffer_f9f076bdddc266c4,
-        mid_toString_09a7afff1868fc5e,
-        mid_write_0d82408c6e55bc30,
-        mid_write_540b2b23d51b1efd,
-        mid_write_fc9be2ded8ee801f,
-        mid_write_54573ef49c0daa22,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_8226bd0b0fc13dba,
+        mid_append_448153e0fdacb51f,
+        mid_append_bf44a2a0cf1a8b5e,
+        mid_append_1b58f4bb7cfe2d8f,
+        mid_close_e7bdbe105ce1bafb,
+        mid_flush_e7bdbe105ce1bafb,
+        mid_getBuffer_a1814e978bf76f8c,
+        mid_toString_e7df854526d67fa3,
+        mid_write_ee46a189998009d6,
+        mid_write_8226bd0b0fc13dba,
+        mid_write_186bb5d1c1aec30c,
+        mid_write_ae8275bdfad592e6,
         max_mid
       };
 

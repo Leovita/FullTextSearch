@@ -28,9 +28,9 @@ namespace org {
         class CompositeReader : public ::org::apache::lucene::index::IndexReader {
          public:
           enum {
-            mid_getContext_0f962619b0bef537,
-            mid_toString_09a7afff1868fc5e,
-            mid_getSequentialSubReaders_36830460e10839eb,
+            mid_getContext_32144e2a3162d90e,
+            mid_toString_e7df854526d67fa3,
+            mid_getSequentialSubReaders_1387e1e2702ac173,
             max_mid
           };
 

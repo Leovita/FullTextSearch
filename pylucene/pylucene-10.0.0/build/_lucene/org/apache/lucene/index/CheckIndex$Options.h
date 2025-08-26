@@ -22,10 +22,10 @@ namespace org {
         class CheckIndex$Options : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getDirImpl_09a7afff1868fc5e,
-            mid_getIndexPath_09a7afff1868fc5e,
-            mid_setOut_f19a9aaf837ad692,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getDirImpl_e7df854526d67fa3,
+            mid_getIndexPath_e7df854526d67fa3,
+            mid_setOut_922e82480ddcbcc4,
             max_mid
           };
 

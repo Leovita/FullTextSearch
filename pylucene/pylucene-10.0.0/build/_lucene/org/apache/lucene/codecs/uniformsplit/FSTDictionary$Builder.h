@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace codecs {
         namespace uniformsplit {
-          class FSTDictionary;
           class IndexDictionary$Builder;
+          class FSTDictionary;
         }
       }
       namespace util {
@@ -37,9 +37,9 @@ namespace org {
           class FSTDictionary$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_add_dbb330f97b1490f4,
-              mid_build_65e045df6b153837,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_add_0ad076b578ea277f,
+              mid_build_f6767439fc779789,
               max_mid
             };
 

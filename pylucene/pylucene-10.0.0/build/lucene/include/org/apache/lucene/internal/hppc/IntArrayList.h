@@ -8,23 +8,23 @@ namespace java {
     class Iterator;
   }
   namespace lang {
+    class Cloneable;
     class Class;
     class String;
     class Iterable;
-    class Cloneable;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-      }
       namespace internal {
         namespace hppc {
-          class IntArrayList;
           class IntCursor;
+          class IntArrayList;
         }
+      }
+      namespace util {
+        class Accountable;
       }
     }
   }
@@ -40,45 +40,45 @@ namespace org {
           class IntArrayList : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_add_143c0cd4e297ef70,
-              mid_add_540b2b23d51b1efd,
-              mid_add_ad090cb6070ea6a2,
-              mid_addAll_59ea6a464e3fe1b6,
-              mid_addAll_96d1463b11b9fbe9,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_608d4b1616a38cec,
-              mid_contains_ae22d3a856ad56f1,
-              mid_ensureCapacity_540b2b23d51b1efd,
-              mid_equals_570b5248a6da3ef6,
-              mid_from_1f4179f7ba76391a,
-              mid_get_3c9bba330f083871,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_indexOf_3c9bba330f083871,
-              mid_insert_e13cff512ebda969,
-              mid_isEmpty_947277eca0748c4e,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_lastIndexOf_3c9bba330f083871,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_release_3720c61b0679eb3e,
-              mid_removeAll_3c9bba330f083871,
-              mid_removeAt_3c9bba330f083871,
-              mid_removeElement_ae22d3a856ad56f1,
-              mid_removeFirst_3c9bba330f083871,
-              mid_removeLast_20fbf7565993c3d7,
-              mid_removeLast_3c9bba330f083871,
-              mid_removeRange_e13cff512ebda969,
-              mid_resize_540b2b23d51b1efd,
-              mid_reverse_608d4b1616a38cec,
-              mid_set_7f733b5d08bb5ec4,
-              mid_size_20fbf7565993c3d7,
-              mid_sort_608d4b1616a38cec,
-              mid_toArray_623cd4a044ba647a,
-              mid_toString_09a7afff1868fc5e,
-              mid_trimToSize_3720c61b0679eb3e,
-              mid_equalElements_b1859301f16e71ce,
-              mid_ensureBufferSpace_540b2b23d51b1efd,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_add_5434f4e6ff59bff9,
+              mid_add_8226bd0b0fc13dba,
+              mid_add_57da58ead958e473,
+              mid_addAll_ca63f9c7174522c2,
+              mid_addAll_29d327a2ef457411,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_5010e7e735e21c22,
+              mid_contains_a8281eb3b9d9672d,
+              mid_ensureCapacity_8226bd0b0fc13dba,
+              mid_equals_00d17418847797d4,
+              mid_from_1afeb470a245a984,
+              mid_get_a3904e10f5bb9437,
+              mid_hashCode_bd89ce15dad49192,
+              mid_indexOf_a3904e10f5bb9437,
+              mid_insert_645c25455f5b9b1c,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_iterator_c7985fafdcf40e83,
+              mid_lastIndexOf_a3904e10f5bb9437,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_release_e7bdbe105ce1bafb,
+              mid_removeAll_a3904e10f5bb9437,
+              mid_removeAt_a3904e10f5bb9437,
+              mid_removeElement_a8281eb3b9d9672d,
+              mid_removeFirst_a3904e10f5bb9437,
+              mid_removeLast_bd89ce15dad49192,
+              mid_removeLast_a3904e10f5bb9437,
+              mid_removeRange_645c25455f5b9b1c,
+              mid_resize_8226bd0b0fc13dba,
+              mid_reverse_5010e7e735e21c22,
+              mid_set_7f27cf81a85a97e9,
+              mid_size_bd89ce15dad49192,
+              mid_sort_5010e7e735e21c22,
+              mid_toArray_4b72a28a860ae838,
+              mid_toString_e7df854526d67fa3,
+              mid_trimToSize_e7bdbe105ce1bafb,
+              mid_ensureBufferSpace_8226bd0b0fc13dba,
+              mid_equalElements_34d06cca622eed39,
               max_mid
             };
 

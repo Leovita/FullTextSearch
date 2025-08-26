@@ -23,11 +23,11 @@ namespace org {
           class RollingCharBuffer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_freeBefore_540b2b23d51b1efd,
-              mid_get_3c9bba330f083871,
-              mid_get_409504209a1bfef2,
-              mid_reset_fa55492f0f5d7f31,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_freeBefore_8226bd0b0fc13dba,
+              mid_get_a3904e10f5bb9437,
+              mid_get_b1c50a048e5e6cc3,
+              mid_reset_89ab2bee9aa84b00,
               max_mid
             };
 

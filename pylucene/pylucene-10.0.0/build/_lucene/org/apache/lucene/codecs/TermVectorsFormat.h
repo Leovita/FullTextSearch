@@ -3,30 +3,30 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class TermVectorsReader;
-        class TermVectorsWriter;
-      }
       namespace store {
-        class IOContext;
         class Directory;
+        class IOContext;
+      }
+      namespace codecs {
+        class TermVectorsWriter;
+        class TermVectorsReader;
       }
       namespace index {
         class SegmentInfo;
         class FieldInfos;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,8 +39,8 @@ namespace org {
         class TermVectorsFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_vectorsReader_1964f2596a25f5d6,
-            mid_vectorsWriter_1818d8841252adb6,
+            mid_vectorsReader_7d1a6a780d28332f,
+            mid_vectorsWriter_b2b9759be25f6183,
             max_mid
           };
 

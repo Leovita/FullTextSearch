@@ -8,27 +8,27 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Plane;
-          class Vector;
-          class Membership;
           class GeoShape;
+          class Vector;
+          class Plane;
+          class Membership;
+          class Bounds;
           class PlanetModel;
           class GeoPoint;
-          class Bounds;
         }
       }
     }
   }
 }
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
   namespace io {
-    class InputStream;
     class IOException;
     class OutputStream;
-  }
-  namespace lang {
-    class Class;
-    class Object;
+    class InputStream;
   }
   namespace util {
     class List;
@@ -45,20 +45,20 @@ namespace org {
           class GeoBaseCompositeShape : public ::org::apache::lucene::spatial3d::geom::BasePlanetObject {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
-              mid_init$_05079111a134d0e5,
-              mid_addShape_e092afae31c1f78c,
-              mid_equals_570b5248a6da3ef6,
-              mid_getBounds_d23bdea549cf3849,
-              mid_getEdgePoints_05087e5d605ddc41,
-              mid_getShape_044961e50afd1c16,
-              mid_getShapes_36830460e10839eb,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_intersects_2e010e50159965c2,
-              mid_isWithin_d2545ca8f40aaba4,
-              mid_isWithin_5f47c01c69ca9460,
-              mid_size_20fbf7565993c3d7,
-              mid_write_84831c9725b47eae,
+              mid_init$_ed6d55ea06962af0,
+              mid_init$_f0c441081bfdcfd8,
+              mid_addShape_6561a5edf4dc2771,
+              mid_equals_00d17418847797d4,
+              mid_getBounds_92d81e4ba71a8653,
+              mid_getEdgePoints_95d1cb3266b24052,
+              mid_getShape_d3e412f4b42185fc,
+              mid_getShapes_1387e1e2702ac173,
+              mid_hashCode_bd89ce15dad49192,
+              mid_intersects_3db773112fd2ab99,
+              mid_isWithin_f78acf28287584e8,
+              mid_isWithin_7ff1eb501b1de7c2,
+              mid_size_bd89ce15dad49192,
+              mid_write_fbdd420d6e3d48b2,
               max_mid
             };
 

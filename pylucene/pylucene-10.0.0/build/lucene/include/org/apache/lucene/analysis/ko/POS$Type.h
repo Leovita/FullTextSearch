@@ -31,8 +31,8 @@ namespace org {
           class POS$Type : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_63b6fde1540a694c,
-              mid_values_c9812a2a13540315,
+              mid_valueOf_bed5413d169eee80,
+              mid_values_3745b2a670ccb4da,
               max_mid
             };
 

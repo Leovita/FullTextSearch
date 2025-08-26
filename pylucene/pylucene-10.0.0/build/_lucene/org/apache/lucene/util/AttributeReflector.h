@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class Attribute;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,7 +28,7 @@ namespace org {
         class AttributeReflector : public ::java::lang::Object {
          public:
           enum {
-            mid_reflect_b0ddfab093884211,
+            mid_reflect_a165d083e5ec62e8,
             max_mid
           };
 

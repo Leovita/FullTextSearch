@@ -3,22 +3,22 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace expressions {
         namespace js {
-          class VariableContext$Type;
           class VariableContext;
+          class VariableContext$Type;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,7 +32,7 @@ namespace org {
           class VariableContext : public ::java::lang::Object {
            public:
             enum {
-              mid_parse_593434543b6ac8d0,
+              mid_parse_7e6e4641cd93f5ff,
               max_mid
             };
 

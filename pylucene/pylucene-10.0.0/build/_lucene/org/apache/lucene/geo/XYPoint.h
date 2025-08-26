@@ -20,13 +20,13 @@ namespace org {
         class XYPoint : public ::org::apache::lucene::geo::XYGeometry {
          public:
           enum {
-            mid_init$_13cb7e72f513d797,
-            mid_equals_570b5248a6da3ef6,
-            mid_getX_9b6c3480dac00edf,
-            mid_getY_9b6c3480dac00edf,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_toComponent2D_2671ab2559e4bc09,
+            mid_init$_cb7687d0612879b8,
+            mid_equals_00d17418847797d4,
+            mid_getX_8b62236f0e4d0dbc,
+            mid_getY_8b62236f0e4d0dbc,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_toComponent2D_826bc66e4432f11e,
             max_mid
           };
 

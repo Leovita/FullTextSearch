@@ -9,8 +9,8 @@ namespace org {
       namespace util {
         namespace fst {
           class FST$BytesReader;
-          class FST$Arc;
           class FST;
+          class FST$Arc;
         }
         class BytesRef;
       }
@@ -18,11 +18,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -36,9 +36,9 @@ namespace org {
           class StemmerOverrideFilter$StemmerOverrideMap : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_74edd98313088909,
-              mid_get_be0f34e55062ebb9,
-              mid_getBytesReader_14e8f9e66b6f303e,
+              mid_init$_2f8d36dfdffd31d2,
+              mid_get_99336029cf9d4aac,
+              mid_getBytesReader_541a60a9425cbcde,
               max_mid
             };
 

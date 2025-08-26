@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace matchhighlight {
-          class Passage;
           class PassageAdjuster;
           class OffsetRange;
+          class Passage;
         }
       }
     }
@@ -22,8 +22,8 @@ namespace java {
     class CharSequence;
   }
   namespace util {
-    class List;
     class Comparator;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -37,11 +37,11 @@ namespace org {
           class PassageSelector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_7bc3047968c6f583,
-              mid_pickBest_659d2f6b9af8526e,
-              mid_pickBest_a8bd55ef4b1755ec,
-              mid_pickDefaultPassage_52e2c7e70783d3a2,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_df2d0639b6d7fdd6,
+              mid_pickBest_eed2f434edf9e7f9,
+              mid_pickBest_0e3a3d844dcb4746,
+              mid_pickDefaultPassage_22b71cf7cf7ac372,
               max_mid
             };
 

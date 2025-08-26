@@ -4,12 +4,12 @@
 #include "org/apache/lucene/queries/function/FunctionValues.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -17,10 +17,10 @@ namespace org {
     namespace lucene {
       namespace queries {
         namespace function {
+          class FunctionValues$ValueFiller;
           namespace valuesource {
             class MultiFunction;
           }
-          class FunctionValues$ValueFiller;
         }
       }
     }
@@ -38,9 +38,9 @@ namespace org {
             class MultiFunction$Values : public ::org::apache::lucene::queries::function::FunctionValues {
              public:
               enum {
-                mid_init$_17e8874ea3662239,
-                mid_getValueFiller_fad7fc73a89d9be3,
-                mid_toString_cd8436557ab831f9,
+                mid_init$_c971e0112184dcbd,
+                mid_getValueFiller_32f41a37c2710e92,
+                mid_toString_0da8f0b89b1e9a22,
                 max_mid
               };
 

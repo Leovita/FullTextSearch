@@ -34,8 +34,8 @@ namespace org {
             class BlendedInfixSuggester$BlenderType : public ::java::lang::Enum {
              public:
               enum {
-                mid_valueOf_1822300160011073,
-                mid_values_84e40facc6409853,
+                mid_valueOf_f2a73c6d4dd96f08,
+                mid_values_4e73e80ba4eb470d,
                 max_mid
               };
 

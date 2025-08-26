@@ -3,6 +3,17 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Long;
+    class String;
+  }
+  namespace util {
+    class Map;
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,17 +23,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Long;
-  }
-  namespace util {
-    class List;
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -36,12 +36,12 @@ namespace org {
           class QueryProfilerResult : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_ecbd352bd7669553,
-              mid_getDescription_09a7afff1868fc5e,
-              mid_getProfiledChildren_36830460e10839eb,
-              mid_getQueryName_09a7afff1868fc5e,
-              mid_getTimeBreakdown_f125f26c07a7bec8,
-              mid_getTotalTime_16939d9d0a9a9721,
+              mid_init$_12bb22e357303317,
+              mid_getDescription_e7df854526d67fa3,
+              mid_getProfiledChildren_1387e1e2702ac173,
+              mid_getQueryName_e7df854526d67fa3,
+              mid_getTimeBreakdown_5004bdf19ed33453,
+              mid_getTotalTime_0f176418e3e16541,
               max_mid
             };
 

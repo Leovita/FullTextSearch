@@ -12,8 +12,8 @@ namespace org {
         }
       }
       namespace index {
-        class FieldInfo;
         class SegmentWriteState;
+        class FieldInfo;
       }
     }
   }
@@ -34,10 +34,10 @@ namespace org {
           class BloomFilterFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_downsize_6b433b04188b47f8,
-              mid_getSetForField_5d70d021617fc0f4,
-              mid_isSaturated_5344a7cf07b8d2e6,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_downsize_434f57e7bae075ec,
+              mid_getSetForField_0affc7a8d895ec71,
+              mid_isSaturated_c81aec84945de617,
               max_mid
             };
 

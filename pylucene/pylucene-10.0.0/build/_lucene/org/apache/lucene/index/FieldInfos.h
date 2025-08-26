@@ -18,8 +18,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class FieldInfo;
         class IndexReader;
+        class FieldInfo;
         class FieldInfos;
       }
     }
@@ -35,25 +35,25 @@ namespace org {
         class FieldInfos : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_ebe037716ef528e9,
-            mid_fieldInfo_a0a445f355d9f4d7,
-            mid_fieldInfo_6062eff24b57598a,
-            mid_getIndexedFields_0161ea5c9439de41,
-            mid_getMergedFieldInfos_b68ddee61bb60075,
-            mid_getParentField_09a7afff1868fc5e,
-            mid_getSoftDeletesField_09a7afff1868fc5e,
-            mid_hasDocValues_947277eca0748c4e,
-            mid_hasFreq_947277eca0748c4e,
-            mid_hasNorms_947277eca0748c4e,
-            mid_hasOffsets_947277eca0748c4e,
-            mid_hasPayloads_947277eca0748c4e,
-            mid_hasPointValues_947277eca0748c4e,
-            mid_hasPostings_947277eca0748c4e,
-            mid_hasProx_947277eca0748c4e,
-            mid_hasTermVectors_947277eca0748c4e,
-            mid_hasVectorValues_947277eca0748c4e,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_size_20fbf7565993c3d7,
+            mid_init$_e26bc3b68b5c7db7,
+            mid_fieldInfo_e0f86c1ef7db94db,
+            mid_fieldInfo_26314d0927d205f0,
+            mid_getIndexedFields_e913fe1c5e8c9aa4,
+            mid_getMergedFieldInfos_538fcfa0ef86614e,
+            mid_getParentField_e7df854526d67fa3,
+            mid_getSoftDeletesField_e7df854526d67fa3,
+            mid_hasDocValues_9aa4f33e82ea333f,
+            mid_hasFreq_9aa4f33e82ea333f,
+            mid_hasNorms_9aa4f33e82ea333f,
+            mid_hasOffsets_9aa4f33e82ea333f,
+            mid_hasPayloads_9aa4f33e82ea333f,
+            mid_hasPointValues_9aa4f33e82ea333f,
+            mid_hasPostings_9aa4f33e82ea333f,
+            mid_hasProx_9aa4f33e82ea333f,
+            mid_hasTermVectors_9aa4f33e82ea333f,
+            mid_hasVectorValues_9aa4f33e82ea333f,
+            mid_iterator_c7985fafdcf40e83,
+            mid_size_bd89ce15dad49192,
             max_mid
           };
 

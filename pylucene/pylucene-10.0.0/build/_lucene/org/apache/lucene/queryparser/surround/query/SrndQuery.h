@@ -3,6 +3,13 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Cloneable;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,19 +19,12 @@ namespace org {
       namespace queryparser {
         namespace surround {
           namespace query {
-            class BasicQueryFactory;
             class SrndQuery;
+            class BasicQueryFactory;
           }
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Cloneable;
   }
 }
 template<class T> class JArray;
@@ -39,20 +39,20 @@ namespace org {
             class SrndQuery : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_clone_417e5294363c6a3a,
-                mid_equals_570b5248a6da3ef6,
-                mid_getWeight_9b6c3480dac00edf,
-                mid_getWeightOperator_09a7afff1868fc5e,
-                mid_getWeightString_09a7afff1868fc5e,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_isFieldsSubQueryAcceptable_947277eca0748c4e,
-                mid_isWeighted_947277eca0748c4e,
-                mid_makeLuceneQueryField_c9d13380f7762023,
-                mid_makeLuceneQueryFieldNoBoost_c9d13380f7762023,
-                mid_setWeight_c771a95b0227fb6a,
-                mid_toString_09a7afff1868fc5e,
-                mid_weightToString_86d6edf9953c2f53,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_clone_3ca93962a82271ea,
+                mid_equals_00d17418847797d4,
+                mid_getWeight_8b62236f0e4d0dbc,
+                mid_getWeightOperator_e7df854526d67fa3,
+                mid_getWeightString_e7df854526d67fa3,
+                mid_hashCode_bd89ce15dad49192,
+                mid_isFieldsSubQueryAcceptable_9aa4f33e82ea333f,
+                mid_isWeighted_9aa4f33e82ea333f,
+                mid_makeLuceneQueryField_f72be4f202dc3d74,
+                mid_makeLuceneQueryFieldNoBoost_f72be4f202dc3d74,
+                mid_setWeight_675f4cb9a2529ee0,
+                mid_toString_e7df854526d67fa3,
+                mid_weightToString_5dd6a2d608961d5f,
                 max_mid
               };
 

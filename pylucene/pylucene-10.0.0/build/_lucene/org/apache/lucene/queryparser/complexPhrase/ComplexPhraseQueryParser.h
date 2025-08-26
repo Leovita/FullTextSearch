@@ -3,9 +3,18 @@
 
 #include "org/apache/lucene/queryparser/classic/QueryParser.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
       namespace search {
         class Query;
       }
@@ -14,16 +23,7 @@ namespace org {
           class ParseException;
         }
       }
-      namespace analysis {
-        class Analyzer;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -37,15 +37,15 @@ namespace org {
           class ComplexPhraseQueryParser : public ::org::apache::lucene::queryparser::classic::QueryParser {
            public:
             enum {
-              mid_init$_c50f2f6f1d850d13,
-              mid_parse_171433ef85015467,
-              mid_setInOrder_b110fc3a58c081ab,
-              mid_newTermQuery_526dfe420434a962,
-              mid_newRangeQuery_5d2f96a769d522a4,
-              mid_getFieldQuery_bf6a5f4bf27919ae,
-              mid_getFuzzyQuery_afdd0007c4927190,
-              mid_getRangeQuery_5d2f96a769d522a4,
-              mid_getWildcardQuery_9c67907ed0ac8b67,
+              mid_init$_cc97c286759ef3b4,
+              mid_parse_9b1de8e0d58e515c,
+              mid_setInOrder_f5dd97eebf6a215a,
+              mid_newRangeQuery_3a6923cec6886def,
+              mid_newTermQuery_4f5fd3e6026f769f,
+              mid_getFieldQuery_964b0b3626756a89,
+              mid_getFuzzyQuery_5aabae9afa99de9b,
+              mid_getWildcardQuery_550dcf54034665c0,
+              mid_getRangeQuery_3a6923cec6886def,
               max_mid
             };
 

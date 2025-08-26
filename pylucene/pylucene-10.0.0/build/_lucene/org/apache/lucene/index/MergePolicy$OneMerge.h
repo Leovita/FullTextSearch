@@ -6,27 +6,27 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+        class MergeInfo;
+      }
       namespace index {
+        class SegmentCommitInfo;
         class MergePolicy$MergeAbortedException;
         class Sorter$DocMap;
-        class MergePolicy$OneMergeProgress;
-        class SegmentCommitInfo;
         class CodecReader;
-      }
-      namespace store {
-        class MergeInfo;
-        class Directory;
+        class MergePolicy$OneMergeProgress;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -45,22 +45,22 @@ namespace org {
         class MergePolicy$OneMerge : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_e360e028b63ee226,
-            mid_init$_9425cd4f62c94bce,
-            mid_checkAborted_3720c61b0679eb3e,
-            mid_getMergeInfo_6f5c2e9d37fb2f83,
-            mid_getMergeProgress_62639b0388dc50ff,
-            mid_getStoreMergeInfo_6033acd37091ac6a,
-            mid_isAborted_947277eca0748c4e,
-            mid_mergeFinished_c485d474c3ac8ca0,
-            mid_mergeInit_3720c61b0679eb3e,
-            mid_reorder_98d323a015ab4355,
-            mid_segString_09a7afff1868fc5e,
-            mid_setAborted_3720c61b0679eb3e,
-            mid_setMergeInfo_3bfd7bf5d987134c,
-            mid_totalBytesSize_16939d9d0a9a9721,
-            mid_totalNumDocs_20fbf7565993c3d7,
-            mid_wrapForMerge_1c28c4360592a6f7,
+            mid_init$_e2bc57e6038dc6e4,
+            mid_init$_acbb405b60a30822,
+            mid_checkAborted_e7bdbe105ce1bafb,
+            mid_getMergeInfo_5666aee396fcdc2a,
+            mid_getMergeProgress_28ba09f9e16f8da3,
+            mid_getStoreMergeInfo_9a0328045cee16c5,
+            mid_isAborted_9aa4f33e82ea333f,
+            mid_mergeFinished_625f7a21e54cb1c3,
+            mid_mergeInit_e7bdbe105ce1bafb,
+            mid_reorder_5f7456ece8b18a3b,
+            mid_segString_e7df854526d67fa3,
+            mid_setAborted_e7bdbe105ce1bafb,
+            mid_setMergeInfo_848ab87634d8a590,
+            mid_totalBytesSize_0f176418e3e16541,
+            mid_totalNumDocs_bd89ce15dad49192,
+            mid_wrapForMerge_97a04697f4a63d52,
             max_mid
           };
 

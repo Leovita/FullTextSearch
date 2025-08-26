@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/codecs/bloom/HashFunction.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class BytesRef;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,10 +29,10 @@ namespace org {
           class MurmurHash64 : public ::org::apache::lucene::codecs::bloom::HashFunction {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_hash_7595cb5441b08443,
-              mid_hash64_6d073fb9753d87dc,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_hash_8c6e1447894d7a38,
+              mid_hash64_fa8398b039e25950,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

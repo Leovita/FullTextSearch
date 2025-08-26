@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class Accountable;
-        class Bits;
         class BitSet;
+        class Bits;
+        class Accountable;
       }
       namespace search {
         class DocIdSetIterator;
@@ -18,11 +18,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,20 +35,20 @@ namespace org {
         class BitSet : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_approximateCardinality_20fbf7565993c3d7,
-            mid_cardinality_20fbf7565993c3d7,
-            mid_clear_3720c61b0679eb3e,
-            mid_clear_540b2b23d51b1efd,
-            mid_clear_e13cff512ebda969,
-            mid_getAndSet_ae22d3a856ad56f1,
-            mid_nextSetBit_3c9bba330f083871,
-            mid_nextSetBit_7f733b5d08bb5ec4,
-            mid_of_4eba484482b8b875,
-            mid_or_ed30298d46fa551b,
-            mid_prevSetBit_3c9bba330f083871,
-            mid_set_540b2b23d51b1efd,
-            mid_checkUnpositioned_ed30298d46fa551b,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_approximateCardinality_bd89ce15dad49192,
+            mid_cardinality_bd89ce15dad49192,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_clear_8226bd0b0fc13dba,
+            mid_clear_645c25455f5b9b1c,
+            mid_getAndSet_a8281eb3b9d9672d,
+            mid_nextSetBit_a3904e10f5bb9437,
+            mid_nextSetBit_7f27cf81a85a97e9,
+            mid_of_2f8ad3d64e48a5f1,
+            mid_or_3bae9c6463463f0d,
+            mid_prevSetBit_a3904e10f5bb9437,
+            mid_set_8226bd0b0fc13dba,
+            mid_checkUnpositioned_3bae9c6463463f0d,
             max_mid
           };
 

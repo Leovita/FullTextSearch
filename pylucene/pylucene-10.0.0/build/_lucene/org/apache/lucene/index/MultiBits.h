@@ -12,11 +12,11 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class IndexReader;
-      }
       namespace util {
         class Bits;
+      }
+      namespace index {
+        class IndexReader;
       }
     }
   }
@@ -31,10 +31,10 @@ namespace org {
         class MultiBits : public ::java::lang::Object {
          public:
           enum {
-            mid_get_ae22d3a856ad56f1,
-            mid_getLiveDocs_2b0f6b4ee94386bd,
-            mid_length_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_get_a8281eb3b9d9672d,
+            mid_getLiveDocs_4dd8200b28d4f50b,
+            mid_length_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -20,17 +20,17 @@ namespace org {
           class AxiomaticF3LOG : public ::org::apache::lucene::search::similarities::Axiomatic {
            public:
             enum {
-              mid_init$_7f788b790e3ecc38,
-              mid_toString_09a7afff1868fc5e,
-              mid_idfExplain_9818494c02db3b22,
-              mid_idf_4520853cec1acecd,
-              mid_gamma_4520853cec1acecd,
-              mid_tf_4520853cec1acecd,
-              mid_tfln_4520853cec1acecd,
-              mid_tfExplain_9818494c02db3b22,
-              mid_lnExplain_9818494c02db3b22,
-              mid_tflnExplain_9818494c02db3b22,
-              mid_ln_4520853cec1acecd,
+              mid_init$_984811d1f83e2eef,
+              mid_toString_e7df854526d67fa3,
+              mid_tf_45900529809cd3f1,
+              mid_tfln_45900529809cd3f1,
+              mid_idf_45900529809cd3f1,
+              mid_gamma_45900529809cd3f1,
+              mid_tfExplain_e4c25e99aedac7d3,
+              mid_lnExplain_e4c25e99aedac7d3,
+              mid_tflnExplain_e4c25e99aedac7d3,
+              mid_idfExplain_e4c25e99aedac7d3,
+              mid_ln_45900529809cd3f1,
               max_mid
             };
 

@@ -21,7 +21,7 @@ namespace org {
         class IOConsumer : public ::java::lang::Object {
          public:
           enum {
-            mid_accept_eb61ef4d1db15d08,
+            mid_accept_501c3eb890ff6d79,
             max_mid
           };
 

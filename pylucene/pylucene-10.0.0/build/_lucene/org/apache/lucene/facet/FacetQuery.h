@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/search/TermQuery.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class FacetsConfig;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class FacetQuery : public ::org::apache::lucene::search::TermQuery {
          public:
           enum {
-            mid_init$_c16980b675f9738f,
-            mid_init$_0b7456f4c4554e82,
+            mid_init$_4c0d457b1588985f,
+            mid_init$_a66cce77328a8126,
             max_mid
           };
 

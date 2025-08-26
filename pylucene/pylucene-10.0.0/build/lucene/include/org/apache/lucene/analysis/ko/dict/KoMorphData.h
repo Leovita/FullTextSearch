@@ -8,11 +8,11 @@ namespace org {
     namespace lucene {
       namespace analysis {
         namespace ko {
-          class POS$Tag;
-          class POS$Type;
           namespace dict {
             class KoMorphData$Morpheme;
           }
+          class POS$Tag;
+          class POS$Type;
         }
       }
     }
@@ -36,11 +36,11 @@ namespace org {
             class KoMorphData : public ::org::apache::lucene::analysis::morph::MorphData {
              public:
               enum {
-                mid_getLeftPOS_aaabe9c3d0c4ec64,
-                mid_getMorphemes_2adb092e08e57358,
-                mid_getPOSType_e6fe68c793eb798f,
-                mid_getReading_cd8436557ab831f9,
-                mid_getRightPOS_aaabe9c3d0c4ec64,
+                mid_getLeftPOS_51fec7bb8fb3ba51,
+                mid_getMorphemes_f5b40e1c8b3719a4,
+                mid_getPOSType_8a424fed53279e6e,
+                mid_getReading_0da8f0b89b1e9a22,
+                mid_getRightPOS_51fec7bb8fb3ba51,
                 max_mid
               };
 

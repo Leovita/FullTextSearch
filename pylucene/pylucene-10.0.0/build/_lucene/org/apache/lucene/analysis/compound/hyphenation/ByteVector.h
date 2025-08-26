@@ -20,17 +20,17 @@ namespace org {
             class ByteVector : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_3ce1e597fb62ac79,
-                mid_init$_540b2b23d51b1efd,
-                mid_init$_3f6ea74fc0096aaa,
-                mid_alloc_3c9bba330f083871,
-                mid_capacity_20fbf7565993c3d7,
-                mid_get_3b30672d0bff9ebb,
-                mid_getArray_5560da88fc44aa82,
-                mid_length_20fbf7565993c3d7,
-                mid_put_d5c089c49f1419cd,
-                mid_trimToSize_3720c61b0679eb3e,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_a4d4f283481182e8,
+                mid_init$_8226bd0b0fc13dba,
+                mid_init$_31e2e931f3bb1000,
+                mid_alloc_a3904e10f5bb9437,
+                mid_capacity_bd89ce15dad49192,
+                mid_get_9e902c8fd52d5208,
+                mid_getArray_44e916dc40fc04cb,
+                mid_length_bd89ce15dad49192,
+                mid_put_db535d0d1edecac5,
+                mid_trimToSize_e7bdbe105ce1bafb,
                 max_mid
               };
 

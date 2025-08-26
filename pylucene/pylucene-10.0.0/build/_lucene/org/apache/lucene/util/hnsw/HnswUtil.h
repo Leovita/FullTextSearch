@@ -32,7 +32,7 @@ namespace org {
           class HnswUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_graphIsRooted_1334871ddbc6a30f,
+              mid_graphIsRooted_5f0b51980dcace85,
               max_mid
             };
 

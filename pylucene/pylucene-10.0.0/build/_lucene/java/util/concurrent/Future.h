@@ -4,18 +4,18 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class InterruptedException;
+    class Class;
+    class Throwable;
+  }
   namespace util {
     namespace concurrent {
+      class Future$State;
+      class TimeoutException;
       class ExecutionException;
       class TimeUnit;
-      class TimeoutException;
-      class Future$State;
     }
-  }
-  namespace lang {
-    class Class;
-    class InterruptedException;
-    class Throwable;
   }
 }
 template<class T> class JArray;
@@ -27,14 +27,14 @@ namespace java {
       class Future : public ::java::lang::Object {
        public:
         enum {
-          mid_cancel_6a2c1000a9889653,
-          mid_exceptionNow_d175b950df78251e,
-          mid_get_5655ed8670534604,
-          mid_get_261f2550fa3ae634,
-          mid_isCancelled_947277eca0748c4e,
-          mid_isDone_947277eca0748c4e,
-          mid_resultNow_5655ed8670534604,
-          mid_state_3d0516f37f4dccff,
+          mid_cancel_7c42d16ca5eaa145,
+          mid_exceptionNow_76f90963e923fefa,
+          mid_get_4819806f62f1360a,
+          mid_get_ad1b8b5e28a7cd43,
+          mid_isCancelled_9aa4f33e82ea333f,
+          mid_isDone_9aa4f33e82ea333f,
+          mid_resultNow_4819806f62f1360a,
+          mid_state_033a0f97d9c62181,
           max_mid
         };
 

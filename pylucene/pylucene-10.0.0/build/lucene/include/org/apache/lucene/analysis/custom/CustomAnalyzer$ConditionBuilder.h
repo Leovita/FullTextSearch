@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -19,11 +19,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        namespace custom {
-          class CustomAnalyzer$Builder;
-          class CustomAnalyzer$ConditionBuilder;
-        }
         class TokenFilterFactory;
+        namespace custom {
+          class CustomAnalyzer$ConditionBuilder;
+          class CustomAnalyzer$Builder;
+        }
       }
     }
   }
@@ -39,11 +39,11 @@ namespace org {
           class CustomAnalyzer$ConditionBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_addTokenFilter_8d1034691aafa16a,
-              mid_addTokenFilter_8f1956b6dc41b948,
-              mid_addTokenFilter_97894207c2295ff9,
-              mid_addTokenFilter_4c605a3ddb537c54,
-              mid_endwhen_2ec25e4994287f08,
+              mid_addTokenFilter_f0fb92f2376bfe15,
+              mid_addTokenFilter_ed95f9b1a7f17afb,
+              mid_addTokenFilter_aab6d90f0c7212fd,
+              mid_addTokenFilter_d6f70b9731e626ce,
+              mid_endwhen_05785b09dcf57625,
               max_mid
             };
 

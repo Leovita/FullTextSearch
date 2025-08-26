@@ -22,12 +22,12 @@ namespace java {
       class Predicate : public ::java::lang::Object {
        public:
         enum {
-          mid_and_bd41e8de46e57e03,
-          mid_isEqual_4c367dea4e96d90c,
-          mid_negate_318ca0ecdce1a7dd,
-          mid_not_bd41e8de46e57e03,
-          mid_or_bd41e8de46e57e03,
-          mid_test_570b5248a6da3ef6,
+          mid_and_77fc61a53594d752,
+          mid_isEqual_69c1c91bd8d7265b,
+          mid_negate_e9ff27faf5d76fa6,
+          mid_not_77fc61a53594d752,
+          mid_or_77fc61a53594d752,
+          mid_test_00d17418847797d4,
           max_mid
         };
 

@@ -21,9 +21,9 @@ namespace org {
         class TwoPhaseCommit : public ::java::lang::Object {
          public:
           enum {
-            mid_commit_16939d9d0a9a9721,
-            mid_prepareCommit_16939d9d0a9a9721,
-            mid_rollback_3720c61b0679eb3e,
+            mid_commit_0f176418e3e16541,
+            mid_prepareCommit_0f176418e3e16541,
+            mid_rollback_e7bdbe105ce1bafb,
             max_mid
           };
 

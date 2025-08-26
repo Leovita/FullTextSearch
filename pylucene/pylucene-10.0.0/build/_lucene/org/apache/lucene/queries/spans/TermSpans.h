@@ -3,31 +3,31 @@
 
 #include "org/apache/lucene/queries/spans/Spans.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class PostingsEnum;
+        class Term;
+      }
+      namespace search {
+        class LeafSimScorer;
       }
       namespace queries {
         namespace spans {
           class SpanCollector;
         }
       }
-      namespace search {
-        class LeafSimScorer;
-      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -41,19 +41,19 @@ namespace org {
           class TermSpans : public ::org::apache::lucene::queries::spans::Spans {
            public:
             enum {
-              mid_init$_6e2d266a8d9ac2c5,
-              mid_advance_3c9bba330f083871,
-              mid_collect_f57fa7214a0e10bb,
-              mid_cost_16939d9d0a9a9721,
-              mid_docID_20fbf7565993c3d7,
-              mid_endPosition_20fbf7565993c3d7,
-              mid_getPostings_4e8e845e02728bdc,
-              mid_nextDoc_20fbf7565993c3d7,
-              mid_nextStartPosition_20fbf7565993c3d7,
-              mid_positionsCost_9b6c3480dac00edf,
-              mid_startPosition_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
-              mid_width_20fbf7565993c3d7,
+              mid_init$_9e48627fe2b4faa7,
+              mid_advance_a3904e10f5bb9437,
+              mid_collect_6a7e0ba175326672,
+              mid_cost_0f176418e3e16541,
+              mid_docID_bd89ce15dad49192,
+              mid_endPosition_bd89ce15dad49192,
+              mid_getPostings_b1e913e16fa764af,
+              mid_nextDoc_bd89ce15dad49192,
+              mid_nextStartPosition_bd89ce15dad49192,
+              mid_positionsCost_8b62236f0e4d0dbc,
+              mid_startPosition_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
+              mid_width_bd89ce15dad49192,
               max_mid
             };
 

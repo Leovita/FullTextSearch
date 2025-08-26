@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 namespace org {
@@ -30,19 +30,19 @@ namespace org {
         class XYPolygon : public ::org::apache::lucene::geo::XYGeometry {
          public:
           enum {
-            mid_init$_37cd993dce427826,
-            mid_equals_570b5248a6da3ef6,
-            mid_getHoles_884863faefccc468,
-            mid_getPolyX_808165844ea67079,
-            mid_getPolyX_29cfa01aaad92564,
-            mid_getPolyY_808165844ea67079,
-            mid_getPolyY_29cfa01aaad92564,
-            mid_getWindingOrder_e9ee6e52ae142ea4,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_numHoles_20fbf7565993c3d7,
-            mid_numPoints_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_toComponent2D_2671ab2559e4bc09,
+            mid_init$_9ac79418eb7485af,
+            mid_equals_00d17418847797d4,
+            mid_getHoles_6383c061db339f3c,
+            mid_getPolyX_67d89dc3894661ff,
+            mid_getPolyX_5873a23b935a9d49,
+            mid_getPolyY_67d89dc3894661ff,
+            mid_getPolyY_5873a23b935a9d49,
+            mid_getWindingOrder_838b38b4e8121696,
+            mid_hashCode_bd89ce15dad49192,
+            mid_numHoles_bd89ce15dad49192,
+            mid_numPoints_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_toComponent2D_826bc66e4432f11e,
             max_mid
           };
 

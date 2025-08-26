@@ -3,23 +3,23 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace sandbox {
         namespace search {
+          class MultiRangeQuery$Builder;
           class MultiRangeQuery;
           class MultiRangeQuery$RangeClause;
-          class MultiRangeQuery$Builder;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -33,10 +33,10 @@ namespace org {
           class MultiRangeQuery$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_54573ef49c0daa22,
-              mid_add_17dee36096c210bd,
-              mid_add_a0e13d01da4ac12e,
-              mid_build_83b684d3a7823a4f,
+              mid_init$_ae8275bdfad592e6,
+              mid_add_4fedc75cc08fd5c0,
+              mid_add_1ca10e682d9992dc,
+              mid_build_10ae858b8220da6e,
               max_mid
             };
 

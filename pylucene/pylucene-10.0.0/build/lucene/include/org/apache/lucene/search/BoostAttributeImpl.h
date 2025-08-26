@@ -30,12 +30,12 @@ namespace org {
         class BoostAttributeImpl : public ::org::apache::lucene::util::AttributeImpl {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_clear_3720c61b0679eb3e,
-            mid_copyTo_9be83c6b2aff7007,
-            mid_getBoost_9b6c3480dac00edf,
-            mid_reflectWith_454217ab6e97f729,
-            mid_setBoost_c771a95b0227fb6a,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_copyTo_b194e41b568bc1bc,
+            mid_getBoost_8b62236f0e4d0dbc,
+            mid_reflectWith_ac049850cfa29e37,
+            mid_setBoost_675f4cb9a2529ee0,
             max_mid
           };
 

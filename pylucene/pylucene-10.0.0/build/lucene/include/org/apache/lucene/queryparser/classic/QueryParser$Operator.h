@@ -31,8 +31,8 @@ namespace org {
           class QueryParser$Operator : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_08b914ac5d0f363d,
-              mid_values_3a119023d04ea1ec,
+              mid_valueOf_19dbda790edc77af,
+              mid_values_6ebb11bb7a8f4fd4,
               max_mid
             };
 

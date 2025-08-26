@@ -18,11 +18,11 @@ namespace org {
         class StringSorter : public ::org::apache::lucene::util::Sorter {
          public:
           enum {
-            mid_sort_e13cff512ebda969,
-            mid_fallbackSorter_e92cafc13661fdd3,
-            mid_radixSorter_aeb011de122f1f55,
-            mid_get_2073167355116fc4,
-            mid_compare_7f733b5d08bb5ec4,
+            mid_sort_645c25455f5b9b1c,
+            mid_radixSorter_f2f772fc7abc81b0,
+            mid_fallbackSorter_147a26479192d1f6,
+            mid_get_e7c3fa5efda97588,
+            mid_compare_7f27cf81a85a97e9,
             max_mid
           };
 

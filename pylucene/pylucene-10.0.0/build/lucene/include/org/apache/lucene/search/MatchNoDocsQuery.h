@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
         class Weight;
+        class QueryVisitor;
         class IndexSearcher;
       }
     }
@@ -17,9 +17,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -35,13 +35,13 @@ namespace org {
         class MatchNoDocsQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_0d82408c6e55bc30,
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_ee46a189998009d6,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
             max_mid
           };
 

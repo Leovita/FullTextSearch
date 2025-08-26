@@ -4,20 +4,20 @@
 #include "java/io/FilterOutputStream.h"
 
 namespace java {
+  namespace io {
+    class File;
+    class IOException;
+    class PrintStream;
+    class FileNotFoundException;
+    class UnsupportedEncodingException;
+    class OutputStream;
+  }
   namespace lang {
+    class Object;
     class Appendable;
     class Class;
     class String;
     class CharSequence;
-    class Object;
-  }
-  namespace io {
-    class File;
-    class FileNotFoundException;
-    class UnsupportedEncodingException;
-    class IOException;
-    class OutputStream;
-    class PrintStream;
   }
   namespace util {
     class Locale;
@@ -31,48 +31,48 @@ namespace java {
     class PrintStream : public ::java::io::FilterOutputStream {
      public:
       enum {
-        mid_init$_a0738b5f41071828,
-        mid_init$_84831c9725b47eae,
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_e959520fd6b758e1,
-        mid_init$_3d104da0b5c75e64,
-        mid_init$_a73ac245e9d314c5,
-        mid_init$_2985d7d156c4d1c7,
-        mid_append_53022182faacafb9,
-        mid_append_33cdb18c283c4c55,
-        mid_append_84a2d12d676b3e40,
-        mid_checkError_947277eca0748c4e,
-        mid_close_3720c61b0679eb3e,
-        mid_flush_3720c61b0679eb3e,
-        mid_format_6584e4f63235f701,
-        mid_format_a67d5c7502acb2d4,
-        mid_print_cc40ee25f19f0868,
-        mid_print_0d82408c6e55bc30,
-        mid_print_b110fc3a58c081ab,
-        mid_print_97f8668422006638,
-        mid_print_b5bc1a2fb9ff9e90,
-        mid_print_c771a95b0227fb6a,
-        mid_print_540b2b23d51b1efd,
-        mid_print_eb61ef4d1db15d08,
-        mid_print_8b3d46852b435a94,
-        mid_printf_6584e4f63235f701,
-        mid_printf_a67d5c7502acb2d4,
-        mid_println_3720c61b0679eb3e,
-        mid_println_cc40ee25f19f0868,
-        mid_println_0d82408c6e55bc30,
-        mid_println_b110fc3a58c081ab,
-        mid_println_97f8668422006638,
-        mid_println_b5bc1a2fb9ff9e90,
-        mid_println_c771a95b0227fb6a,
-        mid_println_540b2b23d51b1efd,
-        mid_println_eb61ef4d1db15d08,
-        mid_println_8b3d46852b435a94,
-        mid_write_3ce1e597fb62ac79,
-        mid_write_540b2b23d51b1efd,
-        mid_write_5fdd5da9426708e6,
-        mid_writeBytes_3ce1e597fb62ac79,
-        mid_setError_3720c61b0679eb3e,
-        mid_clearError_3720c61b0679eb3e,
+        mid_init$_8771d7b2e28229dd,
+        mid_init$_fbdd420d6e3d48b2,
+        mid_init$_ee46a189998009d6,
+        mid_init$_eb4a708af6270cb7,
+        mid_init$_0dd012a11c3f389b,
+        mid_init$_94dfb8c9ea020262,
+        mid_init$_07d3b356de582f3a,
+        mid_append_b049e678812954fc,
+        mid_append_971db9c193950218,
+        mid_append_076905f150d20346,
+        mid_checkError_9aa4f33e82ea333f,
+        mid_close_e7bdbe105ce1bafb,
+        mid_flush_e7bdbe105ce1bafb,
+        mid_format_0699757b7f69b6a1,
+        mid_format_bec75aab33e4bbe3,
+        mid_print_ae4452529cb9c0dd,
+        mid_print_ee46a189998009d6,
+        mid_print_f5dd97eebf6a215a,
+        mid_print_121fb0d25559975f,
+        mid_print_a03f734ddaeb69b4,
+        mid_print_675f4cb9a2529ee0,
+        mid_print_8226bd0b0fc13dba,
+        mid_print_501c3eb890ff6d79,
+        mid_print_1d3149fac12f2af3,
+        mid_printf_0699757b7f69b6a1,
+        mid_printf_bec75aab33e4bbe3,
+        mid_println_e7bdbe105ce1bafb,
+        mid_println_ae4452529cb9c0dd,
+        mid_println_ee46a189998009d6,
+        mid_println_f5dd97eebf6a215a,
+        mid_println_121fb0d25559975f,
+        mid_println_a03f734ddaeb69b4,
+        mid_println_675f4cb9a2529ee0,
+        mid_println_8226bd0b0fc13dba,
+        mid_println_501c3eb890ff6d79,
+        mid_println_1d3149fac12f2af3,
+        mid_write_a4d4f283481182e8,
+        mid_write_8226bd0b0fc13dba,
+        mid_write_116f7fcb5bff0f39,
+        mid_writeBytes_a4d4f283481182e8,
+        mid_setError_e7bdbe105ce1bafb,
+        mid_clearError_e7bdbe105ce1bafb,
         max_mid
       };
 

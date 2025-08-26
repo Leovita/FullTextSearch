@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace uhighlight {
+          class UHComponents;
           class OffsetsEnum;
           class UnifiedHighlighter$OffsetSource;
-          class UHComponents;
         }
       }
       namespace index {
@@ -20,12 +20,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,9 +39,9 @@ namespace org {
           class TermVectorOffsetStrategy : public ::org::apache::lucene::search::uhighlight::FieldOffsetStrategy {
            public:
             enum {
-              mid_init$_04bb0549c47d4303,
-              mid_getOffsetSource_77a619b338f9ed68,
-              mid_getOffsetsEnum_717b49b3028aff18,
+              mid_init$_4b4c5570af772ffe,
+              mid_getOffsetSource_e52a710f16ce6a53,
+              mid_getOffsetsEnum_5610a28ef32aa7b7,
               max_mid
             };
 

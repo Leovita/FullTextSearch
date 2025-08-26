@@ -4,11 +4,11 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -17,19 +17,19 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        namespace fst {
+          class FST;
+        }
+        namespace automaton {
+          class Automaton;
+        }
+      }
       namespace search {
         namespace suggest {
           namespace analyzing {
             class FSTUtil$Path;
           }
-        }
-      }
-      namespace util {
-        namespace automaton {
-          class Automaton;
-        }
-        namespace fst {
-          class FST;
         }
       }
     }
@@ -47,7 +47,7 @@ namespace org {
             class FSTUtil : public ::java::lang::Object {
              public:
               enum {
-                mid_intersectPrefixPaths_c8cec6244d481a31,
+                mid_intersectPrefixPaths_49c62e46778efffd,
                 max_mid
               };
 

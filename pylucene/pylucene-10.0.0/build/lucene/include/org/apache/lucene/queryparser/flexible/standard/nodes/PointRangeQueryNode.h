@@ -3,31 +3,31 @@
 
 #include "org/apache/lucene/queryparser/flexible/standard/nodes/AbstractRangeQueryNode.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace queryparser {
         namespace flexible {
+          namespace core {
+            class QueryNodeException;
+          }
           namespace standard {
-            namespace nodes {
-              class PointQueryNode;
-            }
             namespace config {
               class PointsConfig;
             }
-          }
-          namespace core {
-            class QueryNodeException;
+            namespace nodes {
+              class PointQueryNode;
+            }
           }
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -43,10 +43,10 @@ namespace org {
               class PointRangeQueryNode : public ::org::apache::lucene::queryparser::flexible::standard::nodes::AbstractRangeQueryNode {
                public:
                 enum {
-                  mid_init$_5b68d8fb091a2ca3,
-                  mid_getPointsConfig_f8eb2bb46a413365,
-                  mid_setBounds_5b68d8fb091a2ca3,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_d6c21d5f84b2b38e,
+                  mid_getPointsConfig_99e7c6f56280d586,
+                  mid_setBounds_d6c21d5f84b2b38e,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

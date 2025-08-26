@@ -3,23 +3,7 @@
 
 #include "org/apache/lucene/store/BaseDirectory.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class FSDirectory;
-        class LockFactory;
-        class IndexOutput;
-        class IOContext;
-      }
-    }
-  }
-}
 namespace java {
-  namespace util {
-    class Collection;
-    class Set;
-  }
   namespace lang {
     class Class;
     class String;
@@ -27,9 +11,25 @@ namespace java {
   namespace io {
     class IOException;
   }
+  namespace util {
+    class Collection;
+    class Set;
+  }
   namespace nio {
     namespace file {
       class Path;
+    }
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class IndexOutput;
+        class FSDirectory;
+        class IOContext;
+        class LockFactory;
+      }
     }
   }
 }
@@ -43,24 +43,24 @@ namespace org {
         class FSDirectory : public ::org::apache::lucene::store::BaseDirectory {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_createOutput_08efc12d1beeafa9,
-            mid_createTempOutput_767e9bfea4c09d00,
-            mid_deleteFile_0d82408c6e55bc30,
-            mid_deletePendingFiles_3720c61b0679eb3e,
-            mid_fileLength_e942a6f864c95ca0,
-            mid_getDirectory_d21fdf719406f66d,
-            mid_getPendingDeletions_4df174295554d7bd,
-            mid_listAll_6da8f3ea65e22733,
-            mid_listAll_f8e7ddc216795a19,
-            mid_open_d6e686597c6908e7,
-            mid_open_318a460e8f75f7da,
-            mid_rename_3d104da0b5c75e64,
-            mid_sync_40eba2cff967cc45,
-            mid_syncMetaData_3720c61b0679eb3e,
-            mid_toString_09a7afff1868fc5e,
-            mid_fsync_0d82408c6e55bc30,
-            mid_ensureCanRead_0d82408c6e55bc30,
+            mid_close_e7bdbe105ce1bafb,
+            mid_createOutput_5ee859a77f556d05,
+            mid_createTempOutput_c416e7b8f77d8569,
+            mid_deleteFile_ee46a189998009d6,
+            mid_deletePendingFiles_e7bdbe105ce1bafb,
+            mid_fileLength_490f1686ea1cfda6,
+            mid_getDirectory_da490036461fb4f2,
+            mid_getPendingDeletions_79131c6bbcf08916,
+            mid_listAll_970db9a2a49d840f,
+            mid_listAll_555962c76f87104f,
+            mid_open_653fa1dab7b0a4fa,
+            mid_open_4e200fcd00e2cd6d,
+            mid_rename_0dd012a11c3f389b,
+            mid_sync_b5398b431eb321fb,
+            mid_syncMetaData_e7bdbe105ce1bafb,
+            mid_toString_e7df854526d67fa3,
+            mid_fsync_ee46a189998009d6,
+            mid_ensureCanRead_ee46a189998009d6,
             max_mid
           };
 

@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class ScoreMode;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,7 +28,7 @@ namespace org {
         class QueryIndex$QueryCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_scoreMode_45dfdcf7e901559d,
+            mid_scoreMode_23e7061dcdc84768,
             max_mid
           };
 

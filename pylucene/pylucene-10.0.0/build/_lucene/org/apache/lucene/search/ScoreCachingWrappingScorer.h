@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/search/Scorable.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class LeafCollector;
         class Scorable$ChildScorable;
+        class LeafCollector;
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -34,10 +34,10 @@ namespace org {
         class ScoreCachingWrappingScorer : public ::org::apache::lucene::search::Scorable {
          public:
           enum {
-            mid_getChildren_aa58b3beec16cbbd,
-            mid_score_9b6c3480dac00edf,
-            mid_setMinCompetitiveScore_c771a95b0227fb6a,
-            mid_wrap_384159add565dbed,
+            mid_getChildren_4a269b968b3a511f,
+            mid_score_8b62236f0e4d0dbc,
+            mid_setMinCompetitiveScore_675f4cb9a2529ee0,
+            mid_wrap_c6b76337299d6a53,
             max_mid
           };
 

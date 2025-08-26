@@ -28,16 +28,16 @@ namespace org {
         class LongRange : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_3f569b0deb60acc0,
-            mid_getMax_7b22650fccb5d574,
-            mid_getMin_7b22650fccb5d574,
-            mid_newContainsQuery_2e1f01af3550a891,
-            mid_newCrossesQuery_2e1f01af3550a891,
-            mid_newIntersectsQuery_2e1f01af3550a891,
-            mid_newWithinQuery_2e1f01af3550a891,
-            mid_setRangeValues_4299757ff7ab3bc4,
-            mid_toString_09a7afff1868fc5e,
-            mid_verifyAndEncode_8d0448c54b3d760b,
+            mid_init$_e89bb31d1592d697,
+            mid_getMax_49af390f180d8ee7,
+            mid_getMin_49af390f180d8ee7,
+            mid_newContainsQuery_83653169e610b239,
+            mid_newCrossesQuery_83653169e610b239,
+            mid_newIntersectsQuery_83653169e610b239,
+            mid_newWithinQuery_83653169e610b239,
+            mid_setRangeValues_694256c3370a551a,
+            mid_toString_e7df854526d67fa3,
+            mid_verifyAndEncode_19d2656ffc974933,
             max_mid
           };
 

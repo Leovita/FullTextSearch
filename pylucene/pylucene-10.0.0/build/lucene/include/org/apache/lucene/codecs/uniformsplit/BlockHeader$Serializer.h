@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,14 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -37,9 +37,9 @@ namespace org {
           class BlockHeader$Serializer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_read_e7d031d75f7a62f4,
-              mid_write_127c9fdda7dff9f4,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_read_f5dd484282160b2f,
+              mid_write_78cb39ac77db673e,
               max_mid
             };
 

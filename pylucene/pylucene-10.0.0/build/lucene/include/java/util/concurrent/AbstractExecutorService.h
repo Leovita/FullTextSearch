@@ -4,22 +4,22 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class InterruptedException;
+    class Runnable;
+    class Class;
+  }
   namespace util {
     namespace concurrent {
-      class ExecutionException;
-      class ExecutorService;
-      class TimeUnit;
       class TimeoutException;
-      class Callable;
       class Future;
+      class ExecutorService;
+      class Callable;
+      class ExecutionException;
+      class TimeUnit;
     }
     class Collection;
     class List;
-  }
-  namespace lang {
-    class Class;
-    class Runnable;
-    class InterruptedException;
   }
 }
 template<class T> class JArray;
@@ -31,16 +31,16 @@ namespace java {
       class AbstractExecutorService : public ::java::lang::Object {
        public:
         enum {
-          mid_init$_3720c61b0679eb3e,
-          mid_invokeAll_93d4f44cee5de8eb,
-          mid_invokeAll_dda83133fda1a808,
-          mid_invokeAny_826559913eb50402,
-          mid_invokeAny_088e5f4306bab0bb,
-          mid_submit_c9ea5bd72484906f,
-          mid_submit_26650fb8d35ea96b,
-          mid_submit_2a23a8b5cd6f3414,
-          mid_newTaskFor_f49b41824a1b1541,
-          mid_newTaskFor_fce0422604201c6b,
+          mid_init$_e7bdbe105ce1bafb,
+          mid_invokeAll_edc76bb8b84c2b2b,
+          mid_invokeAll_b2062f35bed0498c,
+          mid_invokeAny_f351d27a1d611522,
+          mid_invokeAny_ac04a621f274d657,
+          mid_submit_10f56ee933c03a40,
+          mid_submit_aadcd45c37e94498,
+          mid_submit_e7bb37debec0815f,
+          mid_newTaskFor_a480c90dae6f7c31,
+          mid_newTaskFor_3eb11f18c2abbd7e,
           max_mid
         };
 

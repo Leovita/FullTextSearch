@@ -28,7 +28,7 @@ namespace org {
           class FilterIndexInputAccess : public ::java::lang::Object {
            public:
             enum {
-              mid_addTestFilterType_880cf094c8c20ccb,
+              mid_addTestFilterType_fbe53aa5d2a68b3e,
               max_mid
             };
 

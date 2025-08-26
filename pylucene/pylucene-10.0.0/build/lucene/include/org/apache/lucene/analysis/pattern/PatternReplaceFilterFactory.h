@@ -16,10 +16,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
+        class TokenStream;
         namespace pattern {
           class PatternReplaceFilter;
         }
-        class TokenStream;
       }
     }
   }
@@ -35,9 +35,9 @@ namespace org {
           class PatternReplaceFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_7f1d4ce351e5cdde,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_bfbf2aeebcb43ff6,
               max_mid
             };
 

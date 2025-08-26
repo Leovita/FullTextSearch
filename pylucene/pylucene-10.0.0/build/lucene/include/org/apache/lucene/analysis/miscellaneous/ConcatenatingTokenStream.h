@@ -22,11 +22,11 @@ namespace org {
           class ConcatenatingTokenStream : public ::org::apache::lucene::analysis::TokenStream {
            public:
             enum {
-              mid_init$_fba9ed32ad72bd65,
-              mid_close_3720c61b0679eb3e,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_3bd328fe6d6d8f2c,
+              mid_close_e7bdbe105ce1bafb,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

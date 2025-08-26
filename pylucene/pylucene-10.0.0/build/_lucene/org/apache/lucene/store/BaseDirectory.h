@@ -31,9 +31,9 @@ namespace org {
         class BaseDirectory : public ::org::apache::lucene::store::Directory {
          public:
           enum {
-            mid_obtainLock_cc83df755c1d5fef,
-            mid_toString_09a7afff1868fc5e,
-            mid_ensureOpen_3720c61b0679eb3e,
+            mid_obtainLock_3ede4234fbb2098d,
+            mid_toString_e7df854526d67fa3,
+            mid_ensureOpen_e7bdbe105ce1bafb,
             max_mid
           };
 

@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
@@ -13,15 +22,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -35,21 +35,21 @@ namespace org {
           class ATNState : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_addTransition_c51e71640d4aacd3,
-              mid_addTransition_f33347ff42daac33,
-              mid_equals_570b5248a6da3ef6,
-              mid_getNumberOfTransitions_20fbf7565993c3d7,
-              mid_getStateType_20fbf7565993c3d7,
-              mid_getTransitions_1c39c967c8348547,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isNonGreedyExitState_947277eca0748c4e,
-              mid_onlyHasEpsilonTransitions_947277eca0748c4e,
-              mid_removeTransition_a48f9f0ab24566f5,
-              mid_setRuleIndex_540b2b23d51b1efd,
-              mid_setTransition_f33347ff42daac33,
-              mid_toString_09a7afff1868fc5e,
-              mid_transition_a48f9f0ab24566f5,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_addTransition_ac751bbb8780fc68,
+              mid_addTransition_7f61555c37dc20f5,
+              mid_equals_00d17418847797d4,
+              mid_getNumberOfTransitions_bd89ce15dad49192,
+              mid_getStateType_bd89ce15dad49192,
+              mid_getTransitions_eeb32cc52ef1e45b,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isNonGreedyExitState_9aa4f33e82ea333f,
+              mid_onlyHasEpsilonTransitions_9aa4f33e82ea333f,
+              mid_removeTransition_0a10c9142699a59f,
+              mid_setRuleIndex_8226bd0b0fc13dba,
+              mid_setTransition_7f61555c37dc20f5,
+              mid_toString_e7df854526d67fa3,
+              mid_transition_0a10c9142699a59f,
               max_mid
             };
 

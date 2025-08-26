@@ -3,30 +3,30 @@
 
 #include "org/apache/lucene/store/DataInput.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class Accountable;
-      }
-      namespace store {
-        class ByteBuffersDataInput;
-        class RandomAccessInput;
-      }
-    }
-  }
-}
 namespace java {
-  namespace io {
-    class IOException;
-    class EOFException;
-  }
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+    class EOFException;
+  }
   namespace util {
     class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class RandomAccessInput;
+        class ByteBuffersDataInput;
+      }
+      namespace util {
+        class Accountable;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -39,26 +39,26 @@ namespace org {
         class ByteBuffersDataInput : public ::org::apache::lucene::store::DataInput {
          public:
           enum {
-            mid_length_16939d9d0a9a9721,
-            mid_position_16939d9d0a9a9721,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_readByte_847674f430f49e4c,
-            mid_readByte_2a9a6e154cb14e58,
-            mid_readBytes_5fdd5da9426708e6,
-            mid_readBytes_ded37dfd7b9f37c4,
-            mid_readFloats_e895d5e6b13d4d50,
-            mid_readGroupVInt_70e26db984971679,
-            mid_readInt_20fbf7565993c3d7,
-            mid_readInt_35c872f03f347c10,
-            mid_readLong_16939d9d0a9a9721,
-            mid_readLong_91d66fa3ea476cea,
-            mid_readLongs_f3cd87eda3d12dc6,
-            mid_readShort_21ad82099ac5d56c,
-            mid_readShort_60f7d07ba3ea1177,
-            mid_seek_8b3d46852b435a94,
-            mid_skipBytes_8b3d46852b435a94,
-            mid_slice_28a81f80cad2ae61,
-            mid_toString_09a7afff1868fc5e,
+            mid_length_0f176418e3e16541,
+            mid_position_0f176418e3e16541,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_readByte_1456044a01a5c9bf,
+            mid_readByte_cb04f80b25dc941d,
+            mid_readBytes_116f7fcb5bff0f39,
+            mid_readBytes_da091ec7fbc87f01,
+            mid_readFloats_a1c18faad4aff7a1,
+            mid_readGroupVInt_e28d84b49af388d8,
+            mid_readInt_bd89ce15dad49192,
+            mid_readInt_7af44747c1921bd4,
+            mid_readLong_0f176418e3e16541,
+            mid_readLong_3dc1c6e3a5a0baf0,
+            mid_readLongs_2a4a0e3eb510f108,
+            mid_readShort_ae7a5bcb127748fd,
+            mid_readShort_d0da64abd2ba9d05,
+            mid_seek_1d3149fac12f2af3,
+            mid_skipBytes_1d3149fac12f2af3,
+            mid_slice_d4073299449c6330,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

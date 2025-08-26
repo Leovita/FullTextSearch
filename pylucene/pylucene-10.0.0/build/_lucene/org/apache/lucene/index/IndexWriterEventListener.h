@@ -28,8 +28,8 @@ namespace org {
         class IndexWriterEventListener : public ::java::lang::Object {
          public:
           enum {
-            mid_beginMergeOnFullFlush_e96594eb00031dc0,
-            mid_endMergeOnFullFlush_e96594eb00031dc0,
+            mid_beginMergeOnFullFlush_1e73bc3f9384f9d6,
+            mid_endMergeOnFullFlush_1e73bc3f9384f9d6,
             max_mid
           };
 

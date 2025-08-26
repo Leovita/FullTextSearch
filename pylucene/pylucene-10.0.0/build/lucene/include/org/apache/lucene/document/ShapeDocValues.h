@@ -6,30 +6,30 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class ShapeField$DecodedTriangle$TYPE;
+        class ShapeField$QueryRelation;
+      }
       namespace search {
         class Query;
-      }
-      namespace document {
-        class ShapeField$QueryRelation;
-        class ShapeField$DecodedTriangle$TYPE;
-      }
-      namespace index {
-        class PointValues$Relation;
       }
       namespace geo {
         class Component2D;
         class Geometry;
       }
+      namespace index {
+        class PointValues$Relation;
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -42,24 +42,24 @@ namespace org {
         class ShapeDocValues : public ::java::lang::Object {
          public:
           enum {
-            mid_getBoundingBox_29c6d8aa930fea8d,
-            mid_getCentroid_29c6d8aa930fea8d,
-            mid_getEncodedMaxX_20fbf7565993c3d7,
-            mid_getEncodedMaxY_20fbf7565993c3d7,
-            mid_getEncodedMinX_20fbf7565993c3d7,
-            mid_getEncodedMinY_20fbf7565993c3d7,
-            mid_getHighestDimension_51afc60d7bb54a69,
-            mid_newGeometryQuery_ae807bfca69d7107,
-            mid_numberOfTerms_20fbf7565993c3d7,
-            mid_relate_5ca96898777848d6,
-            mid_getEncoder_ebb8e14a479901b7,
-            mid_getEncodedCentroidY_20fbf7565993c3d7,
-            mid_getEncodedCentroidX_20fbf7565993c3d7,
-            mid_computeBoundingBox_29c6d8aa930fea8d,
-            mid_computeCentroid_29c6d8aa930fea8d,
-            mid_vLongSize_35c872f03f347c10,
-            mid_vIntSize_3c9bba330f083871,
-            mid_binaryValue_9740fddd1c7df148,
+            mid_getBoundingBox_76f13cb944295f5f,
+            mid_getCentroid_76f13cb944295f5f,
+            mid_getEncodedMaxX_bd89ce15dad49192,
+            mid_getEncodedMaxY_bd89ce15dad49192,
+            mid_getEncodedMinX_bd89ce15dad49192,
+            mid_getEncodedMinY_bd89ce15dad49192,
+            mid_getHighestDimension_b3356d9fb10d4eb7,
+            mid_newGeometryQuery_87a659bded1931ca,
+            mid_numberOfTerms_bd89ce15dad49192,
+            mid_relate_9f610275a05364dc,
+            mid_computeCentroid_76f13cb944295f5f,
+            mid_computeBoundingBox_76f13cb944295f5f,
+            mid_vLongSize_7af44747c1921bd4,
+            mid_vIntSize_a3904e10f5bb9437,
+            mid_getEncodedCentroidX_bd89ce15dad49192,
+            mid_getEncodedCentroidY_bd89ce15dad49192,
+            mid_getEncoder_914ecc1b33d6ab21,
+            mid_binaryValue_adbedbc1fa61c358,
             max_mid
           };
 

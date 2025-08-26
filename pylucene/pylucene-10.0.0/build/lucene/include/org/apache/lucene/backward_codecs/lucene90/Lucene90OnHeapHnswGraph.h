@@ -3,30 +3,19 @@
 
 #include "org/apache/lucene/util/hnsw/HnswGraph.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class SplittableRandom;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class VectorSimilarityFunction;
-        class FloatVectorValues;
-      }
       namespace util {
         class Bits;
         namespace hnsw {
-          class HnswGraph$NodesIterator;
           class NeighborQueue;
+          class HnswGraph$NodesIterator;
         }
+      }
+      namespace index {
+        class FloatVectorValues;
+        class VectorSimilarityFunction;
       }
       namespace backward_codecs {
         namespace lucene90 {
@@ -34,6 +23,17 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace util {
+    class SplittableRandom;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -47,14 +47,14 @@ namespace org {
           class Lucene90OnHeapHnswGraph : public ::org::apache::lucene::util::hnsw::HnswGraph {
            public:
             enum {
-              mid_entryNode_20fbf7565993c3d7,
-              mid_getNeighbors_ddd662ec0a9a3c31,
-              mid_getNodesOnLevel_0f4b826da8e38ef5,
-              mid_nextNeighbor_20fbf7565993c3d7,
-              mid_numLevels_20fbf7565993c3d7,
-              mid_search_dd930b54554106c4,
-              mid_seek_e13cff512ebda969,
-              mid_size_20fbf7565993c3d7,
+              mid_entryNode_bd89ce15dad49192,
+              mid_getNeighbors_ca68b0533505abe5,
+              mid_getNodesOnLevel_767b56846d01a898,
+              mid_nextNeighbor_bd89ce15dad49192,
+              mid_numLevels_bd89ce15dad49192,
+              mid_search_287bf047e0d46a55,
+              mid_seek_645c25455f5b9b1c,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

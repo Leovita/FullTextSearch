@@ -14,12 +14,12 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentWriteState;
+        class FieldInfo;
+      }
       namespace codecs {
         class NormsProducer;
-      }
-      namespace index {
-        class FieldInfo;
-        class SegmentWriteState;
       }
     }
   }
@@ -35,9 +35,9 @@ namespace org {
           class SimpleTextNormsFormat$SimpleTextNormsConsumer : public ::org::apache::lucene::codecs::NormsConsumer {
            public:
             enum {
-              mid_init$_45b2848804214eb5,
-              mid_addNormsField_e7e4c5153e0574ca,
-              mid_close_3720c61b0679eb3e,
+              mid_init$_5f1496262e5a9f7c,
+              mid_addNormsField_104f6ae984362566,
+              mid_close_e7bdbe105ce1bafb,
               max_mid
             };
 

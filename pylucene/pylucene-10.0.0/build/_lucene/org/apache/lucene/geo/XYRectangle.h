@@ -14,8 +14,8 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class Object;
     class String;
+    class Object;
     class Class;
   }
 }
@@ -29,12 +29,12 @@ namespace org {
         class XYRectangle : public ::org::apache::lucene::geo::XYGeometry {
          public:
           enum {
-            mid_init$_b464fbf7627ff1ea,
-            mid_equals_570b5248a6da3ef6,
-            mid_fromPointDistance_241303afc8d0b26e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_toComponent2D_2671ab2559e4bc09,
+            mid_init$_9bb03c2190964870,
+            mid_equals_00d17418847797d4,
+            mid_fromPointDistance_2547f71f0fe5cf8d,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_toComponent2D_826bc66e4432f11e,
             max_mid
           };
 

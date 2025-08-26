@@ -4,13 +4,13 @@
 #include "org/apache/lucene/queries/function/ValueSource.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -43,12 +43,12 @@ namespace org {
             class VectorSimilarityFunction : public ::org::apache::lucene::queries::function::ValueSource {
              public:
               enum {
-                mid_init$_e5edf29e78a12878,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_getValues_a7d46b98c691aeac,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_func_8726746481c3aed8,
+                mid_init$_66630380548f024d,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_getValues_9f85153ef1e32cca,
+                mid_hashCode_bd89ce15dad49192,
+                mid_func_1c1d3073930107dc,
                 max_mid
               };
 

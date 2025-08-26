@@ -6,27 +6,22 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        namespace similarities {
-          class TFIDFSimilarity;
-        }
-      }
       namespace index {
         class IndexReader;
       }
       namespace analysis {
         class Analyzer;
       }
+      namespace search {
+        class Query;
+        namespace similarities {
+          class TFIDFSimilarity;
+        }
+      }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class Set;
-    class Map;
-  }
   namespace lang {
     class Class;
     class String;
@@ -34,6 +29,11 @@ namespace java {
   namespace io {
     class IOException;
     class Reader;
+  }
+  namespace util {
+    class Map;
+    class Collection;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -47,41 +47,41 @@ namespace org {
           class MoreLikeThis : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_1980becffa418484,
-              mid_init$_f4039b562c99241d,
-              mid_describeParams_09a7afff1868fc5e,
-              mid_getAnalyzer_6755ba003d984513,
-              mid_getBoostFactor_9b6c3480dac00edf,
-              mid_getFieldNames_6da8f3ea65e22733,
-              mid_getMaxDocFreq_20fbf7565993c3d7,
-              mid_getMaxNumTokensParsed_20fbf7565993c3d7,
-              mid_getMaxQueryTerms_20fbf7565993c3d7,
-              mid_getMaxWordLen_20fbf7565993c3d7,
-              mid_getMinDocFreq_20fbf7565993c3d7,
-              mid_getMinTermFreq_20fbf7565993c3d7,
-              mid_getMinWordLen_20fbf7565993c3d7,
-              mid_getSimilarity_f4c8dce3201d1d50,
-              mid_getStopWords_4df174295554d7bd,
-              mid_isBoost_947277eca0748c4e,
-              mid_like_084e5d933b3db302,
-              mid_like_329233af2742a1a1,
-              mid_like_81d497e8e0cac0b2,
-              mid_retrieveInterestingTerms_def776e128cea4f0,
-              mid_retrieveInterestingTerms_c53d91f263c9b62a,
-              mid_setAnalyzer_07cd0f76cabcf75a,
-              mid_setBoost_b110fc3a58c081ab,
-              mid_setBoostFactor_c771a95b0227fb6a,
-              mid_setFieldNames_ce41e621b30e91b1,
-              mid_setMaxDocFreq_540b2b23d51b1efd,
-              mid_setMaxDocFreqPct_540b2b23d51b1efd,
-              mid_setMaxNumTokensParsed_540b2b23d51b1efd,
-              mid_setMaxQueryTerms_540b2b23d51b1efd,
-              mid_setMaxWordLen_540b2b23d51b1efd,
-              mid_setMinDocFreq_540b2b23d51b1efd,
-              mid_setMinTermFreq_540b2b23d51b1efd,
-              mid_setMinWordLen_540b2b23d51b1efd,
-              mid_setSimilarity_ffb1b98621f5c301,
-              mid_setStopWords_1d5d4c6f11d1b2ab,
+              mid_init$_d988f6cfce8380fb,
+              mid_init$_00bbf5fd440872d7,
+              mid_describeParams_e7df854526d67fa3,
+              mid_getAnalyzer_7bc9b23f56937752,
+              mid_getBoostFactor_8b62236f0e4d0dbc,
+              mid_getFieldNames_970db9a2a49d840f,
+              mid_getMaxDocFreq_bd89ce15dad49192,
+              mid_getMaxNumTokensParsed_bd89ce15dad49192,
+              mid_getMaxQueryTerms_bd89ce15dad49192,
+              mid_getMaxWordLen_bd89ce15dad49192,
+              mid_getMinDocFreq_bd89ce15dad49192,
+              mid_getMinTermFreq_bd89ce15dad49192,
+              mid_getMinWordLen_bd89ce15dad49192,
+              mid_getSimilarity_296babe06eda0bc8,
+              mid_getStopWords_79131c6bbcf08916,
+              mid_isBoost_9aa4f33e82ea333f,
+              mid_like_e351d4d4ee40278f,
+              mid_like_b22490156853b6e4,
+              mid_like_7c3eb2b2173affda,
+              mid_retrieveInterestingTerms_f202269f1bcafd9e,
+              mid_retrieveInterestingTerms_51c557d4d2d526b6,
+              mid_setAnalyzer_1aaca852402a5069,
+              mid_setBoost_f5dd97eebf6a215a,
+              mid_setBoostFactor_675f4cb9a2529ee0,
+              mid_setFieldNames_1f90f2fcbe43e50d,
+              mid_setMaxDocFreq_8226bd0b0fc13dba,
+              mid_setMaxDocFreqPct_8226bd0b0fc13dba,
+              mid_setMaxNumTokensParsed_8226bd0b0fc13dba,
+              mid_setMaxQueryTerms_8226bd0b0fc13dba,
+              mid_setMaxWordLen_8226bd0b0fc13dba,
+              mid_setMinDocFreq_8226bd0b0fc13dba,
+              mid_setMinTermFreq_8226bd0b0fc13dba,
+              mid_setMinWordLen_8226bd0b0fc13dba,
+              mid_setSimilarity_4f3ec3e49a52259d,
+              mid_setStopWords_478519f7d4301fc7,
               max_mid
             };
 

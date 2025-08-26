@@ -3,6 +3,13 @@
 
 #include "org/apache/lucene/search/AutomatonQuery.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,13 +28,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -38,13 +38,13 @@ namespace org {
         class PrefixQuery : public ::org::apache::lucene::search::AutomatonQuery {
          public:
           enum {
-            mid_init$_3b0982cb6e1bfb9d,
-            mid_init$_10e3883d695612f2,
-            mid_equals_570b5248a6da3ef6,
-            mid_getPrefix_8b5614d1be154430,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toAutomaton_742f04198c20516e,
-            mid_toString_cb0eb1432185fc94,
+            mid_init$_ed33f9e055f7213d,
+            mid_init$_32dbe860e4e09580,
+            mid_equals_00d17418847797d4,
+            mid_getPrefix_b549eaec39b02d52,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toAutomaton_9f3670e6fbfa1ef8,
+            mid_toString_fef9c036acf290a9,
             max_mid
           };
 

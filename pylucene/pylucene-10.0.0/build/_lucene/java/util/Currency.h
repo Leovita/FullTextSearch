@@ -5,16 +5,16 @@
 
 namespace java {
   namespace lang {
-    class Class;
     class String;
+    class Class;
+  }
+  namespace util {
+    class Currency;
+    class Set;
+    class Locale;
   }
   namespace io {
     class Serializable;
-  }
-  namespace util {
-    class Set;
-    class Locale;
-    class Currency;
   }
 }
 template<class T> class JArray;
@@ -25,18 +25,18 @@ namespace java {
     class Currency : public ::java::lang::Object {
      public:
       enum {
-        mid_getAvailableCurrencies_4df174295554d7bd,
-        mid_getCurrencyCode_09a7afff1868fc5e,
-        mid_getDefaultFractionDigits_20fbf7565993c3d7,
-        mid_getDisplayName_09a7afff1868fc5e,
-        mid_getDisplayName_d2a6991e8d2aa45a,
-        mid_getInstance_0f0ac219bc095928,
-        mid_getInstance_744d01caf13d4e54,
-        mid_getNumericCode_20fbf7565993c3d7,
-        mid_getNumericCodeAsString_09a7afff1868fc5e,
-        mid_getSymbol_09a7afff1868fc5e,
-        mid_getSymbol_d2a6991e8d2aa45a,
-        mid_toString_09a7afff1868fc5e,
+        mid_getAvailableCurrencies_79131c6bbcf08916,
+        mid_getCurrencyCode_e7df854526d67fa3,
+        mid_getDefaultFractionDigits_bd89ce15dad49192,
+        mid_getDisplayName_e7df854526d67fa3,
+        mid_getDisplayName_dce821ed97c0e930,
+        mid_getInstance_969f5eedce42bce5,
+        mid_getInstance_30bed9539c5ac838,
+        mid_getNumericCode_bd89ce15dad49192,
+        mid_getNumericCodeAsString_e7df854526d67fa3,
+        mid_getSymbol_e7df854526d67fa3,
+        mid_getSymbol_dce821ed97c0e930,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

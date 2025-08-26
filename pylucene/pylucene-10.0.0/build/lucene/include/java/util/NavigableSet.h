@@ -9,8 +9,8 @@ namespace java {
     class NavigableSet;
   }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -21,24 +21,24 @@ namespace java {
     class NavigableSet : public ::java::util::SortedSet {
      public:
       enum {
-        mid_ceiling_5fd81664d2d475e1,
-        mid_descendingIterator_0db4c76ff7ee995b,
-        mid_descendingSet_556010bda6404a08,
-        mid_floor_5fd81664d2d475e1,
-        mid_headSet_1516bad7f6fb1290,
-        mid_headSet_6a24b70872af969c,
-        mid_higher_5fd81664d2d475e1,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_lower_5fd81664d2d475e1,
-        mid_pollFirst_5655ed8670534604,
-        mid_pollLast_5655ed8670534604,
-        mid_removeFirst_5655ed8670534604,
-        mid_removeLast_5655ed8670534604,
-        mid_reversed_556010bda6404a08,
-        mid_subSet_1d475f20354e842e,
-        mid_subSet_bfd493acadefcd46,
-        mid_tailSet_1516bad7f6fb1290,
-        mid_tailSet_6a24b70872af969c,
+        mid_ceiling_e2c45b124c12f4ec,
+        mid_descendingIterator_c7985fafdcf40e83,
+        mid_descendingSet_14f8c5e2b19c135d,
+        mid_floor_e2c45b124c12f4ec,
+        mid_headSet_f231c428223f5b8c,
+        mid_headSet_daee4ccd29b8e6cb,
+        mid_higher_e2c45b124c12f4ec,
+        mid_iterator_c7985fafdcf40e83,
+        mid_lower_e2c45b124c12f4ec,
+        mid_pollFirst_4819806f62f1360a,
+        mid_pollLast_4819806f62f1360a,
+        mid_removeFirst_4819806f62f1360a,
+        mid_removeLast_4819806f62f1360a,
+        mid_reversed_14f8c5e2b19c135d,
+        mid_subSet_1f99b28c25ad8a5b,
+        mid_subSet_e821c18950b968ec,
+        mid_tailSet_f231c428223f5b8c,
+        mid_tailSet_daee4ccd29b8e6cb,
         max_mid
       };
 

@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace io {
+    class File;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace io {
-    class File;
   }
 }
 template<class T> class JArray;
@@ -20,7 +20,7 @@ namespace java {
     class FilenameFilter : public ::java::lang::Object {
      public:
       enum {
-        mid_accept_c1d0cd126605f3f3,
+        mid_accept_8595e5ad164d0b57,
         max_mid
       };
 

@@ -21,13 +21,13 @@ namespace org {
         class FilterIndexOutput : public ::org::apache::lucene::store::IndexOutput {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_getChecksum_16939d9d0a9a9721,
-            mid_getDelegate_a25fe80ba41eeda1,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_unwrap_962f743bfd463960,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_5fdd5da9426708e6,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getChecksum_0f176418e3e16541,
+            mid_getDelegate_f8de4593eca76f8a,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_unwrap_92a665f1a6cd882f,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_116f7fcb5bff0f39,
             max_mid
           };
 

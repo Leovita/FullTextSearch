@@ -19,7 +19,7 @@ namespace org {
         class ClassLoaderUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_isParentClassLoader_2926b0b9663c0d16,
+            mid_isParentClassLoader_14c9c142fc803f0e,
             max_mid
           };
 

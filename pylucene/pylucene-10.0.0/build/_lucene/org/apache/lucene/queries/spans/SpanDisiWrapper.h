@@ -6,15 +6,15 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class TwoPhaseIterator;
+        class DocIdSetIterator;
+      }
       namespace queries {
         namespace spans {
-          class SpanDisiWrapper;
           class Spans;
+          class SpanDisiWrapper;
         }
-      }
-      namespace search {
-        class DocIdSetIterator;
-        class TwoPhaseIterator;
       }
     }
   }
@@ -35,7 +35,7 @@ namespace org {
           class SpanDisiWrapper : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_2b57ab75b8eb6cbf,
+              mid_init$_37c668aed6429a31,
               max_mid
             };
 

@@ -4,11 +4,11 @@
 #include "org/apache/lucene/util/quantization/QuantizedByteVectorValues.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -22,19 +22,19 @@ namespace org {
       namespace index {
         class VectorSimilarityFunction;
       }
-      namespace store {
-        class IndexInput;
-      }
       namespace codecs {
+        namespace hnsw {
+          class FlatVectorsScorer;
+        }
         namespace lucene99 {
           class OffHeapQuantizedByteVectorValues;
         }
         namespace lucene95 {
           class OrdToDocDISIReaderConfiguration;
         }
-        namespace hnsw {
-          class FlatVectorsScorer;
-        }
+      }
+      namespace store {
+        class IndexInput;
       }
     }
   }
@@ -50,14 +50,14 @@ namespace org {
           class OffHeapQuantizedByteVectorValues : public ::org::apache::lucene::util::quantization::QuantizedByteVectorValues {
            public:
             enum {
-              mid_dimension_20fbf7565993c3d7,
-              mid_getScalarQuantizer_c7ba334748265ffc,
-              mid_getScoreCorrectionConstant_29cfa01aaad92564,
-              mid_getSlice_69ff96f993716366,
-              mid_getVectorByteLength_20fbf7565993c3d7,
-              mid_load_f0b73e5396981578,
-              mid_size_20fbf7565993c3d7,
-              mid_vectorValue_81e4ab9dd381561f,
+              mid_dimension_bd89ce15dad49192,
+              mid_getScalarQuantizer_ee5409c2abaa79cb,
+              mid_getScoreCorrectionConstant_5873a23b935a9d49,
+              mid_getSlice_1107977def75ee66,
+              mid_getVectorByteLength_bd89ce15dad49192,
+              mid_load_4e267b2ab94991a6,
+              mid_size_bd89ce15dad49192,
+              mid_vectorValue_d94c1f1d0c66928c,
               max_mid
             };
 

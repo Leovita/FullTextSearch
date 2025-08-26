@@ -24,13 +24,13 @@ namespace org {
           class SortedSetDocValuesReaderState$OrdRange : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_e13cff512ebda969,
-              mid_end_20fbf7565993c3d7,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_iterator_4e2efb333bca91a5,
-              mid_start_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_645c25455f5b9b1c,
+              mid_end_bd89ce15dad49192,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_iterator_455faf74d08510a3,
+              mid_start_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

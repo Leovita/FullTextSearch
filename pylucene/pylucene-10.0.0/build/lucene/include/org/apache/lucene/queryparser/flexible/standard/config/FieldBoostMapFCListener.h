@@ -11,8 +11,8 @@ namespace org {
           namespace core {
             namespace config {
               class QueryConfigHandler;
-              class FieldConfigListener;
               class FieldConfig;
+              class FieldConfigListener;
             }
           }
         }
@@ -38,8 +38,8 @@ namespace org {
               class FieldBoostMapFCListener : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_0fc7dbcdbf111f0f,
-                  mid_buildFieldConfig_d5a7e1b94ac0c20a,
+                  mid_init$_f8d3957fd2e3377b,
+                  mid_buildFieldConfig_9179f3f5b3e27a34,
                   max_mid
                 };
 

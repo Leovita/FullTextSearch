@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class Closeable;
     class IOException;
+    class Closeable;
   }
   namespace lang {
     class Class;
@@ -22,15 +22,15 @@ namespace org {
         class MultiLevelSkipListReader : public ::java::lang::Object {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_getDoc_20fbf7565993c3d7,
-            mid_init_b0983bb665c1a771,
-            mid_skipTo_3c9bba330f083871,
-            mid_readSkipData_ecaf58c646b57409,
-            mid_readLevelLength_6886de856ac1e531,
-            mid_readChildPointer_6886de856ac1e531,
-            mid_seekChild_540b2b23d51b1efd,
-            mid_setLastSkipData_540b2b23d51b1efd,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getDoc_bd89ce15dad49192,
+            mid_init_3d289b1efbb219e1,
+            mid_skipTo_a3904e10f5bb9437,
+            mid_seekChild_8226bd0b0fc13dba,
+            mid_setLastSkipData_8226bd0b0fc13dba,
+            mid_readSkipData_5f368c887824ddf9,
+            mid_readChildPointer_698cbb5cc171d648,
+            mid_readLevelLength_698cbb5cc171d648,
             max_mid
           };
 

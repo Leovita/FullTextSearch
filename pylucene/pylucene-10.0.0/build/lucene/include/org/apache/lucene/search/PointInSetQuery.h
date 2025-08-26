@@ -6,29 +6,29 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-      }
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
         class Weight;
+        class QueryVisitor;
         class IndexSearcher;
+      }
+      namespace util {
+        class Accountable;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -41,17 +41,17 @@ namespace org {
         class PointInSetQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_getBytesPerDim_20fbf7565993c3d7,
-            mid_getField_09a7afff1868fc5e,
-            mid_getNumDims_20fbf7565993c3d7,
-            mid_getPackedPoints_aa58b3beec16cbbd,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
-            mid_toString_6629ab823d439f65,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_getBytesPerDim_bd89ce15dad49192,
+            mid_getField_e7df854526d67fa3,
+            mid_getNumDims_bd89ce15dad49192,
+            mid_getPackedPoints_4a269b968b3a511f,
+            mid_hashCode_bd89ce15dad49192,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
+            mid_toString_e16a141122e42829,
             max_mid
           };
 

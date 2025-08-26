@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class Closeable;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,15 +20,6 @@ namespace org {
         class IndexSearcher;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,12 +32,12 @@ namespace org {
         class SearcherLifetimeManager : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_acquire_e8f9cedd5bd10d14,
-            mid_close_3720c61b0679eb3e,
-            mid_prune_ea40361ef342aa4e,
-            mid_record_3d6bb50ad05caec0,
-            mid_release_64fdfedb3d23d646,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_acquire_834066908b06dbe1,
+            mid_close_e7bdbe105ce1bafb,
+            mid_prune_d9e722a20889ffbb,
+            mid_record_8c180f6bbb4623d8,
+            mid_release_ca121b0bc447f41f,
             max_mid
           };
 

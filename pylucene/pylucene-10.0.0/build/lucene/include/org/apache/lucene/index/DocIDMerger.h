@@ -34,10 +34,10 @@ namespace org {
         class DocIDMerger : public ::java::lang::Object {
          public:
           enum {
-            mid_next_a568bfb84b288d73,
-            mid_of_6984d1a3dfd8ccd6,
-            mid_of_d2e0f46f52439044,
-            mid_reset_3720c61b0679eb3e,
+            mid_next_1d43900cb9b674d1,
+            mid_of_a3c6d38be7f2c499,
+            mid_of_a18d1f18570150d2,
+            mid_reset_e7bdbe105ce1bafb,
             max_mid
           };
 

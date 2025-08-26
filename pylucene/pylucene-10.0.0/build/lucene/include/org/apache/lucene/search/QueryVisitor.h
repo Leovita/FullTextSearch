@@ -7,31 +7,31 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
-        class QueryVisitor;
         class BooleanClause$Occur;
-      }
-      namespace index {
-        class Term;
+        class QueryVisitor;
+        class Query;
       }
       namespace util {
         namespace automaton {
           class ByteRunAutomaton;
         }
       }
+      namespace index {
+        class Term;
+      }
     }
   }
 }
 namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
   namespace util {
     namespace function {
       class Supplier;
     }
     class Set;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -44,13 +44,13 @@ namespace org {
         class QueryVisitor : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_acceptField_4a13a663b5c11133,
-            mid_consumeTerms_1d31265646f78664,
-            mid_consumeTermsMatching_3243e0ccb20fb4ce,
-            mid_getSubVisitor_ed5fcf5599bddd2b,
-            mid_termCollector_e8ccbf000d586c49,
-            mid_visitLeaf_d7278af460a7b96a,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_acceptField_94f7e759d94961b0,
+            mid_consumeTerms_e38f28ef925b0c54,
+            mid_consumeTermsMatching_383497160206f014,
+            mid_getSubVisitor_a175a038b3441be8,
+            mid_termCollector_71f54b3481c1dbbf,
+            mid_visitLeaf_a28ff1cdbaf0bf6c,
             max_mid
           };
 

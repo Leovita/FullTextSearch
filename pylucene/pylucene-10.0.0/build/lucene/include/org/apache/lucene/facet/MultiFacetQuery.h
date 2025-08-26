@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/search/TermInSetQuery.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class FacetsConfig;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class MultiFacetQuery : public ::org::apache::lucene::search::TermInSetQuery {
          public:
           enum {
-            mid_init$_bddc3bee86415cc3,
-            mid_init$_a7f588859ab63e6c,
+            mid_init$_248b34d6defce16a,
+            mid_init$_594faaa865a0365e,
             max_mid
           };
 

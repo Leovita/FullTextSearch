@@ -31,10 +31,10 @@ namespace org {
           class POS$Tag : public ::java::lang::Enum {
            public:
             enum {
-              mid_code_20fbf7565993c3d7,
-              mid_description_09a7afff1868fc5e,
-              mid_valueOf_00fdd3cedeef483a,
-              mid_values_cc92ca36384b1b73,
+              mid_code_bd89ce15dad49192,
+              mid_description_e7df854526d67fa3,
+              mid_valueOf_8571da0583036b9e,
+              mid_values_a2020f46aaefc986,
               max_mid
             };
 

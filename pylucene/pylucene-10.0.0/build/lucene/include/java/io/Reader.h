@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
     class Writer;
     class Reader;
   }
@@ -23,17 +23,17 @@ namespace java {
     class Reader : public ::java::lang::Object {
      public:
       enum {
-        mid_close_3720c61b0679eb3e,
-        mid_mark_540b2b23d51b1efd,
-        mid_markSupported_947277eca0748c4e,
-        mid_nullReader_2493c69d5db06811,
-        mid_read_20fbf7565993c3d7,
-        mid_read_1d6980f6711df1e4,
-        mid_read_db543c1e894f3140,
-        mid_ready_947277eca0748c4e,
-        mid_reset_3720c61b0679eb3e,
-        mid_skip_91d66fa3ea476cea,
-        mid_transferTo_b44a0e5fdad7cc9b,
+        mid_close_e7bdbe105ce1bafb,
+        mid_mark_8226bd0b0fc13dba,
+        mid_markSupported_9aa4f33e82ea333f,
+        mid_nullReader_58cfbaca8545e054,
+        mid_read_bd89ce15dad49192,
+        mid_read_b5302190531968fe,
+        mid_read_872baf22ed11fbaa,
+        mid_ready_9aa4f33e82ea333f,
+        mid_reset_e7bdbe105ce1bafb,
+        mid_skip_3dc1c6e3a5a0baf0,
+        mid_transferTo_6d3a18d8dbe78620,
         max_mid
       };
 

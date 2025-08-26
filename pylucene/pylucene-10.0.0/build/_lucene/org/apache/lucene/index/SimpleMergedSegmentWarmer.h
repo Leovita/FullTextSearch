@@ -3,14 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -24,6 +16,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -34,8 +34,8 @@ namespace org {
         class SimpleMergedSegmentWarmer : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3b3e574f321bdf38,
-            mid_warm_739689c57d25027c,
+            mid_init$_f10e797612112ab1,
+            mid_warm_412cc6aacc4af1b9,
             max_mid
           };
 

@@ -30,10 +30,10 @@ namespace org {
           class PredictionContextCache : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_add_924f6b836b1b444d,
-              mid_get_924f6b836b1b444d,
-              mid_size_20fbf7565993c3d7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_add_092c560f41ffd287,
+              mid_get_092c560f41ffd287,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

@@ -11,11 +11,11 @@ namespace org {
         class IOSupplier;
       }
       namespace index {
-        class MergePolicy$MergeSpecification;
-        class SegmentInfos;
         class SegmentCommitInfo;
-        class MergePolicy$MergeContext;
+        class MergePolicy$MergeSpecification;
         class CodecReader;
+        class SegmentInfos;
+        class MergePolicy$MergeContext;
         class MergeTrigger;
       }
     }
@@ -44,23 +44,23 @@ namespace org {
         class FilterMergePolicy : public ::org::apache::lucene::index::MergePolicy {
          public:
           enum {
-            mid_init$_da6a0a436510179f,
-            mid_findForcedDeletesMerges_7bfc14af8b38e726,
-            mid_findForcedMerges_d4963384c8456639,
-            mid_findFullFlushMerges_0275979aa5326fa2,
-            mid_findMerges_04bf92eb95442564,
-            mid_findMerges_0275979aa5326fa2,
-            mid_getMaxCFSSegmentSizeMB_32caabaad86c508b,
-            mid_getNoCFSRatio_32caabaad86c508b,
-            mid_keepFullyDeletedSegment_656ba708b162fe3d,
-            mid_numDeletesToMerge_764ee08fa6c8b00e,
-            mid_setMaxCFSSegmentSizeMB_b5bc1a2fb9ff9e90,
-            mid_setNoCFSRatio_b5bc1a2fb9ff9e90,
-            mid_toString_09a7afff1868fc5e,
-            mid_unwrap_462a53a2e93fb0f5,
-            mid_useCompoundFile_97d5f0f86c190956,
-            mid_maxFullFlushMergeSize_16939d9d0a9a9721,
-            mid_size_df03ba0154b74836,
+            mid_init$_ca149660d3a98b53,
+            mid_findForcedDeletesMerges_cd4e6143b01cb9a0,
+            mid_findForcedMerges_b54ded85c2bde575,
+            mid_findFullFlushMerges_6813602a04f57061,
+            mid_findMerges_4fbbcd7cd7f0ba5c,
+            mid_findMerges_6813602a04f57061,
+            mid_getMaxCFSSegmentSizeMB_6fb37e123fed7a1f,
+            mid_getNoCFSRatio_6fb37e123fed7a1f,
+            mid_keepFullyDeletedSegment_c40df34321e09510,
+            mid_numDeletesToMerge_3a22811d78d2c37d,
+            mid_setMaxCFSSegmentSizeMB_a03f734ddaeb69b4,
+            mid_setNoCFSRatio_a03f734ddaeb69b4,
+            mid_toString_e7df854526d67fa3,
+            mid_unwrap_1fcb76658e81d877,
+            mid_useCompoundFile_14b1e62c41caff89,
+            mid_maxFullFlushMergeSize_0f176418e3e16541,
+            mid_size_4bcc685415af8b2d,
             max_mid
           };
 

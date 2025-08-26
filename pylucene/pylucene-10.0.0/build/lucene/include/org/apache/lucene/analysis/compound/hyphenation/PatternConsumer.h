@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace util {
+    class ArrayList;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace util {
-    class ArrayList;
   }
 }
 template<class T> class JArray;
@@ -24,9 +24,9 @@ namespace org {
             class PatternConsumer : public ::java::lang::Object {
              public:
               enum {
-                mid_addClass_0d82408c6e55bc30,
-                mid_addException_b54ed4e18591173a,
-                mid_addPattern_3d104da0b5c75e64,
+                mid_addClass_ee46a189998009d6,
+                mid_addException_63b99db3d97c5637,
+                mid_addPattern_0dd012a11c3f389b,
                 max_mid
               };
 

@@ -27,11 +27,11 @@ namespace org {
         class Counter : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_addAndGet_91d66fa3ea476cea,
-            mid_get_16939d9d0a9a9721,
-            mid_newCounter_993628ed46aa1aa4,
-            mid_newCounter_9d0951e03ae48749,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_addAndGet_3dc1c6e3a5a0baf0,
+            mid_get_0f176418e3e16541,
+            mid_newCounter_614d0d06bc777eee,
+            mid_newCounter_23105f302537e691,
             max_mid
           };
 

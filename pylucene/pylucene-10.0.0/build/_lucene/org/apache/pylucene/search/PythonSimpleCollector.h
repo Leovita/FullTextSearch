@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
         class ScoreMode;
+        class Scorable;
       }
       namespace index {
         class LeafReaderContext;
@@ -34,14 +34,14 @@ namespace org {
         class PythonSimpleCollector : public ::org::apache::lucene::search::SimpleCollector {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_collect_540b2b23d51b1efd,
-            mid_collect_06e0b8d4c1d7906b,
-            mid_doSetNextReader_b7b06dce0a4097ed,
-            mid_pythonExtension_16939d9d0a9a9721,
-            mid_pythonExtension_8b3d46852b435a94,
-            mid_scoreMode_45dfdcf7e901559d,
-            mid_setScorer_dd42dde4c0a7db1e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_collect_8226bd0b0fc13dba,
+            mid_collect_a18b0cdf76a9509e,
+            mid_doSetNextReader_32243afefe6b151f,
+            mid_pythonExtension_0f176418e3e16541,
+            mid_pythonExtension_1d3149fac12f2af3,
+            mid_scoreMode_23e7061dcdc84768,
+            mid_setScorer_c06bdf7d53c6460a,
             max_mid
           };
 

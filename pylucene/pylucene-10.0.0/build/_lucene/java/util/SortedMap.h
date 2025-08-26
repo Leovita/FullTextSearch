@@ -5,15 +5,15 @@
 
 namespace java {
   namespace util {
-    class Collection;
-    class Map$Entry;
     class Set;
-    class Comparator;
+    class Map$Entry;
     class SortedMap;
+    class Collection;
+    class Comparator;
   }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -24,18 +24,18 @@ namespace java {
     class SortedMap : public ::java::util::SequencedMap {
      public:
       enum {
-        mid_comparator_39238840448c1807,
-        mid_entrySet_4df174295554d7bd,
-        mid_firstKey_5655ed8670534604,
-        mid_headMap_6286144843a4831e,
-        mid_keySet_4df174295554d7bd,
-        mid_lastKey_5655ed8670534604,
-        mid_putFirst_243089e4ee289db6,
-        mid_putLast_243089e4ee289db6,
-        mid_reversed_feb174fb4da71ac1,
-        mid_subMap_e4438454b46669df,
-        mid_tailMap_6286144843a4831e,
-        mid_values_aa58b3beec16cbbd,
+        mid_comparator_5cc89c689cd941fe,
+        mid_entrySet_79131c6bbcf08916,
+        mid_firstKey_4819806f62f1360a,
+        mid_headMap_dbc886c56c0dce27,
+        mid_keySet_79131c6bbcf08916,
+        mid_lastKey_4819806f62f1360a,
+        mid_putFirst_b3b175dfe26d2c44,
+        mid_putLast_b3b175dfe26d2c44,
+        mid_reversed_b51ff49a40ed1f6c,
+        mid_subMap_5243e52c9d1e1c58,
+        mid_tailMap_dbc886c56c0dce27,
+        mid_values_4a269b968b3a511f,
         max_mid
       };
 

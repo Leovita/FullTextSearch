@@ -21,11 +21,11 @@ namespace org {
               class MultiFieldQueryNodeProcessor : public ::org::apache::lucene::queryparser::flexible::core::processors::QueryNodeProcessorImpl {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_preProcessNode_8ca6e32fcbac6a62,
-                  mid_postProcessNode_8ca6e32fcbac6a62,
-                  mid_setChildrenOrder_52060c8532319091,
-                  mid_processChildren_7b62f837facd6562,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_processChildren_7bd9517de8cc5b9b,
+                  mid_preProcessNode_4b838b17650067cf,
+                  mid_postProcessNode_4b838b17650067cf,
+                  mid_setChildrenOrder_be19c667f3dea389,
                   max_mid
                 };
 

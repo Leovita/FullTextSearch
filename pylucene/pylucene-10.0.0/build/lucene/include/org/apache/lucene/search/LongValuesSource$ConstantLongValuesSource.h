@@ -4,21 +4,21 @@
 #include "org/apache/lucene/search/LongValuesSource.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class DoubleValues;
         class LongValues;
+        class DoubleValues;
         class IndexSearcher;
       }
       namespace index {
@@ -37,14 +37,14 @@ namespace org {
         class LongValuesSource$ConstantLongValuesSource : public ::org::apache::lucene::search::LongValuesSource {
          public:
           enum {
-            mid_equals_570b5248a6da3ef6,
-            mid_getValue_16939d9d0a9a9721,
-            mid_getValues_8c03d5035a4ada0c,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isCacheable_03101e9518c66be0,
-            mid_needsScores_947277eca0748c4e,
-            mid_rewrite_1d4782bd2f4d5e85,
-            mid_toString_09a7afff1868fc5e,
+            mid_equals_00d17418847797d4,
+            mid_getValue_0f176418e3e16541,
+            mid_getValues_a89f934572e6aea6,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isCacheable_8e9f6225f14d0ebe,
+            mid_needsScores_9aa4f33e82ea333f,
+            mid_rewrite_1a7a7c9f23bd616a,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

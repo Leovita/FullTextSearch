@@ -23,7 +23,7 @@ namespace java {
       class Delayed : public ::java::lang::Comparable {
        public:
         enum {
-          mid_getDelay_c388efbac5736a8b,
+          mid_getDelay_9422612c893252c6,
           max_mid
         };
 

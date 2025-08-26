@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,14 +20,6 @@ namespace org {
         class IndexSearcher;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,9 +32,9 @@ namespace org {
         class MultiTermQuery$RewriteMethod : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_rewrite_dcf1727ad038e63a,
-            mid_getTermsEnum_58f4211504959482,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_rewrite_ea36ecc6891147cc,
+            mid_getTermsEnum_44a83075a71ed746,
             max_mid
           };
 

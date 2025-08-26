@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -31,20 +31,20 @@ namespace org {
         class ReferenceManager : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_acquire_5655ed8670534604,
-            mid_addListener_0043c104d69fdc13,
-            mid_close_3720c61b0679eb3e,
-            mid_maybeRefresh_947277eca0748c4e,
-            mid_maybeRefreshBlocking_3720c61b0679eb3e,
-            mid_release_eb61ef4d1db15d08,
-            mid_removeListener_0043c104d69fdc13,
-            mid_decRef_eb61ef4d1db15d08,
-            mid_tryIncRef_570b5248a6da3ef6,
-            mid_getRefCount_657656e6a597f732,
-            mid_refreshIfNeeded_5fd81664d2d475e1,
-            mid_afterClose_3720c61b0679eb3e,
-            mid_afterMaybeRefresh_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_acquire_4819806f62f1360a,
+            mid_addListener_bcc7de6c3774499a,
+            mid_close_e7bdbe105ce1bafb,
+            mid_maybeRefresh_9aa4f33e82ea333f,
+            mid_maybeRefreshBlocking_e7bdbe105ce1bafb,
+            mid_release_501c3eb890ff6d79,
+            mid_removeListener_bcc7de6c3774499a,
+            mid_decRef_501c3eb890ff6d79,
+            mid_getRefCount_3b738b91667a06c2,
+            mid_refreshIfNeeded_e2c45b124c12f4ec,
+            mid_afterClose_e7bdbe105ce1bafb,
+            mid_afterMaybeRefresh_e7bdbe105ce1bafb,
+            mid_tryIncRef_00d17418847797d4,
             max_mid
           };
 

@@ -3,19 +3,6 @@
 
 #include "org/apache/lucene/analysis/AbstractAnalysisFactory.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        class TokenizerFactory;
-        class Tokenizer;
-      }
-      namespace util {
-        class AttributeFactory;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -23,8 +10,21 @@ namespace java {
     class ClassLoader;
   }
   namespace util {
-    class Set;
     class Map;
+    class Set;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class Tokenizer;
+        class TokenizerFactory;
+      }
+      namespace util {
+        class AttributeFactory;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -37,13 +37,13 @@ namespace org {
         class TokenizerFactory : public ::org::apache::lucene::analysis::AbstractAnalysisFactory {
          public:
           enum {
-            mid_availableTokenizers_4df174295554d7bd,
-            mid_create_e38a88d9cd60cfe5,
-            mid_create_8e359444ad2c1a86,
-            mid_findSPIName_205c6b35c6f0cc38,
-            mid_forName_8b82a6546107495b,
-            mid_lookupClass_f5e647a8ccc975d0,
-            mid_reloadTokenizers_7e882e12061eaf38,
+            mid_availableTokenizers_79131c6bbcf08916,
+            mid_create_29ac49742f21d24e,
+            mid_create_734505517ea78b04,
+            mid_findSPIName_6db5b6bc30526b11,
+            mid_forName_840473299cb213f2,
+            mid_lookupClass_34dc63379bcbfa09,
+            mid_reloadTokenizers_d603563f542d31ba,
             max_mid
           };
 

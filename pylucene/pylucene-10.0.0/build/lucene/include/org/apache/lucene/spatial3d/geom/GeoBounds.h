@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Membership;
           class PlanetObject;
+          class Membership;
         }
       }
     }

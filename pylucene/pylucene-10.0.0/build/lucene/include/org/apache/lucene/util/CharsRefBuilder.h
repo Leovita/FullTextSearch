@@ -15,9 +15,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRef;
         class CharsRef;
         class CharsRefBuilder;
+        class BytesRef;
       }
     }
   }
@@ -32,27 +32,27 @@ namespace org {
         class CharsRefBuilder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_append_48fa5c77bd58f5dd,
-            mid_append_b8a96e85eae4ca64,
-            mid_append_fc9be2ded8ee801f,
-            mid_append_817ab3104dd30a42,
-            mid_charAt_92a13ce4196a7e69,
-            mid_chars_77d52ded526199de,
-            mid_clear_3720c61b0679eb3e,
-            mid_copyChars_a3634bb724ee336f,
-            mid_copyChars_fc9be2ded8ee801f,
-            mid_copyUTF8Bytes_ac0de3ee0e03786d,
-            mid_copyUTF8Bytes_5fdd5da9426708e6,
-            mid_equals_570b5248a6da3ef6,
-            mid_get_94b51711598dd26a,
-            mid_grow_540b2b23d51b1efd,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_length_20fbf7565993c3d7,
-            mid_setCharAt_931c9794de74ba08,
-            mid_setLength_540b2b23d51b1efd,
-            mid_toCharsRef_94b51711598dd26a,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_append_740f2d8769b75ff0,
+            mid_append_285ce592cb37c468,
+            mid_append_186bb5d1c1aec30c,
+            mid_append_80b34effdad6f003,
+            mid_charAt_bc94dd98365f92fb,
+            mid_chars_e5926045e1917c62,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_copyChars_3e9672e903fb771a,
+            mid_copyChars_186bb5d1c1aec30c,
+            mid_copyUTF8Bytes_920ce0cdf4259cc9,
+            mid_copyUTF8Bytes_116f7fcb5bff0f39,
+            mid_equals_00d17418847797d4,
+            mid_get_669503bbeca09860,
+            mid_grow_8226bd0b0fc13dba,
+            mid_hashCode_bd89ce15dad49192,
+            mid_length_bd89ce15dad49192,
+            mid_setCharAt_53f645c50443c1f0,
+            mid_setLength_8226bd0b0fc13dba,
+            mid_toCharsRef_669503bbeca09860,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

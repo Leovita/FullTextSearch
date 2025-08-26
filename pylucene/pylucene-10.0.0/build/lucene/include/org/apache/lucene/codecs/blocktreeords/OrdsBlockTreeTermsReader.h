@@ -7,23 +7,23 @@ namespace java {
   namespace util {
     class Iterator;
   }
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class Terms;
+        class SegmentReadState;
+      }
       namespace codecs {
         class PostingsReaderBase;
-      }
-      namespace index {
-        class SegmentReadState;
-        class Terms;
       }
     }
   }
@@ -39,13 +39,13 @@ namespace org {
           class OrdsBlockTreeTermsReader : public ::org::apache::lucene::codecs::FieldsProducer {
            public:
             enum {
-              mid_init$_46efc898ca1ac228,
-              mid_checkIntegrity_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_size_20fbf7565993c3d7,
-              mid_terms_734b49c46dc30275,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_0379056afeb55d0d,
+              mid_checkIntegrity_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_iterator_c7985fafdcf40e83,
+              mid_size_bd89ce15dad49192,
+              mid_terms_b30320f056ffba8d,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

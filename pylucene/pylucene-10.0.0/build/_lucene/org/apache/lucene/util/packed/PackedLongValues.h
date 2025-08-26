@@ -32,16 +32,16 @@ namespace org {
           class PackedLongValues : public ::org::apache::lucene::util::LongValues {
            public:
             enum {
-              mid_deltaPackedBuilder_2450678ff81ec0a0,
-              mid_deltaPackedBuilder_2227f24b41799c8f,
-              mid_get_91d66fa3ea476cea,
-              mid_iterator_bf1b1a992388e72a,
-              mid_monotonicBuilder_2450678ff81ec0a0,
-              mid_monotonicBuilder_2227f24b41799c8f,
-              mid_packedBuilder_2450678ff81ec0a0,
-              mid_packedBuilder_2227f24b41799c8f,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_size_16939d9d0a9a9721,
+              mid_deltaPackedBuilder_b0fa622b86f470ca,
+              mid_deltaPackedBuilder_1531c498389174c2,
+              mid_get_3dc1c6e3a5a0baf0,
+              mid_iterator_843b8aa51c30b45e,
+              mid_monotonicBuilder_b0fa622b86f470ca,
+              mid_monotonicBuilder_1531c498389174c2,
+              mid_packedBuilder_b0fa622b86f470ca,
+              mid_packedBuilder_1531c498389174c2,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_size_0f176418e3e16541,
               max_mid
             };
 

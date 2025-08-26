@@ -7,15 +7,15 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRef;
         namespace fst {
           class FST$BytesReader;
-          class Util$TopResults;
           class FST$Arc;
           class FST;
+          class Util$TopResults;
         }
-        class BytesRefBuilder;
         class IntsRef;
+        class BytesRef;
+        class BytesRefBuilder;
         class IntsRefBuilder;
       }
     }
@@ -27,8 +27,8 @@ namespace java {
     class CharSequence;
   }
   namespace io {
-    class Writer;
     class IOException;
+    class Writer;
   }
   namespace util {
     class Comparator;
@@ -45,16 +45,16 @@ namespace org {
           class Util : public ::java::lang::Object {
            public:
             enum {
-              mid_get_a67ca86ae62e8d9e,
-              mid_get_f131f969127bb08e,
-              mid_readCeilArc_9814122d10e0dc62,
-              mid_shortestPaths_5b7c79d2113d5d8c,
-              mid_toBytesRef_895f21eb8b7e1d8a,
-              mid_toDot_2c4fc8fed09367b4,
-              mid_toIntsRef_18fb74a04911a13f,
-              mid_toUTF16_1c1137e1b402e49a,
-              mid_toUTF32_1c1137e1b402e49a,
-              mid_toUTF32_39e1646b42aff6bf,
+              mid_get_8a3f3cc21885beaf,
+              mid_get_b50e05b544627516,
+              mid_readCeilArc_c42e46a7b1a5cda3,
+              mid_shortestPaths_236232f12b2af2de,
+              mid_toBytesRef_456655b771cc5985,
+              mid_toDot_7fba8a93c9307c4d,
+              mid_toIntsRef_077f8c50f573fbd9,
+              mid_toUTF16_b8d8d034b744c153,
+              mid_toUTF32_b8d8d034b744c153,
+              mid_toUTF32_dee7d4f27dea3377,
               max_mid
             };
 

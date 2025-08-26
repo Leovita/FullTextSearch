@@ -3,16 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Throwable;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,6 +10,16 @@ namespace org {
         class MonitorQuery;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class Throwable;
+    class String;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -32,11 +32,11 @@ namespace org {
         class MonitorUpdateListener : public ::java::lang::Object {
          public:
           enum {
-            mid_afterClear_3720c61b0679eb3e,
-            mid_afterDelete_9425cd4f62c94bce,
-            mid_afterUpdate_9425cd4f62c94bce,
-            mid_onPurge_3720c61b0679eb3e,
-            mid_onPurgeError_4b71a6d99b73f7d1,
+            mid_afterClear_e7bdbe105ce1bafb,
+            mid_afterDelete_acbb405b60a30822,
+            mid_afterUpdate_acbb405b60a30822,
+            mid_onPurge_e7bdbe105ce1bafb,
+            mid_onPurgeError_9b649326a1df01c3,
             max_mid
           };
 

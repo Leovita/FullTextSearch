@@ -3,24 +3,24 @@
 
 #include "org/antlr/v4/runtime/RecognitionException.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class Parser;
         class TokenStream;
+        class Parser;
         namespace atn {
           class ATNConfigSet;
         }
-        class Token;
         class ParserRuleContext;
+        class Token;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -33,10 +33,10 @@ namespace org {
         class NoViableAltException : public ::org::antlr::v4::runtime::RecognitionException {
          public:
           enum {
-            mid_init$_c54371d1025687ef,
-            mid_init$_8b0158a5ba7de247,
-            mid_getDeadEndConfigs_c7ac6b3f4d432cfe,
-            mid_getStartToken_9ddaacaf798f5cf6,
+            mid_init$_e8c82ba13b1236ed,
+            mid_init$_06bbccc5b23a2613,
+            mid_getDeadEndConfigs_f2b7c06f51fadfea,
+            mid_getStartToken_91a9980574ecdd91,
             max_mid
           };
 

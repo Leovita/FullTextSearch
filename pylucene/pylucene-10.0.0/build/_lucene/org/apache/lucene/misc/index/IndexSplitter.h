@@ -9,8 +9,8 @@ namespace java {
   }
   namespace lang {
     class Class;
-    class String;
     class Exception;
+    class String;
   }
   namespace nio {
     namespace file {
@@ -38,11 +38,11 @@ namespace org {
           class IndexSplitter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_8a3244428bfc77b8,
-              mid_listSegments_3720c61b0679eb3e,
-              mid_main_ce41e621b30e91b1,
-              mid_remove_ce41e621b30e91b1,
-              mid_split_3af9614f02c4b997,
+              mid_init$_e7b3ede3efacc86d,
+              mid_listSegments_e7bdbe105ce1bafb,
+              mid_main_1f90f2fcbe43e50d,
+              mid_remove_1f90f2fcbe43e50d,
+              mid_split_681d97fdeb48db92,
               max_mid
             };
 

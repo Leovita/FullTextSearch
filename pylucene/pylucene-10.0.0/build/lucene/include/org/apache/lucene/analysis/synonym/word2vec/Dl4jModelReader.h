@@ -3,16 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-    class Closeable;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -24,6 +14,16 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class Closeable;
+    class IOException;
+    class InputStream;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -38,9 +38,9 @@ namespace org {
             class Dl4jModelReader : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_37e23ef4361d4c28,
-                mid_close_3720c61b0679eb3e,
-                mid_read_49612d1a82445b67,
+                mid_init$_da97eaa7d893a93a,
+                mid_close_e7bdbe105ce1bafb,
+                mid_read_fa879f6e4066ded6,
                 max_mid
               };
 

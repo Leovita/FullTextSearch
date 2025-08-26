@@ -33,10 +33,10 @@ namespace org {
           class HnswGraph$NodesIterator : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_consume_99e50d7a0326d5c8,
-              mid_getSortedNodes_051e725fbc89d8b8,
-              mid_size_20fbf7565993c3d7,
+              mid_init$_8226bd0b0fc13dba,
+              mid_consume_ce3442f6684197de,
+              mid_getSortedNodes_37e485686b918f2e,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

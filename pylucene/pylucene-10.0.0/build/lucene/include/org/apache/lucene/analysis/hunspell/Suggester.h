@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Runnable;
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
         namespace hunspell {
-          class Dictionary;
-          class FragmentChecker;
-          class SuggestionTimeoutException;
           class Suggester;
+          class FragmentChecker;
+          class Dictionary;
+          class SuggestionTimeoutException;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Runnable;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -38,12 +38,12 @@ namespace org {
           class Suggester : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_25851638115dd159,
-              mid_proceedPastRep_8805778296c3ebbc,
-              mid_suggestNoTimeout_2a97fb83df696e60,
-              mid_suggestWithTimeout_c1e6c632eb82c7e5,
-              mid_withFragmentChecker_97da237e590a51ab,
-              mid_withSuggestibleEntryCache_8805778296c3ebbc,
+              mid_init$_081d976eaef7e2bb,
+              mid_proceedPastRep_ef0a04995077523c,
+              mid_suggestNoTimeout_5d97058074f9c965,
+              mid_suggestWithTimeout_82eb3cc11d917cf7,
+              mid_withFragmentChecker_4a319c966268ce68,
+              mid_withSuggestibleEntryCache_ef0a04995077523c,
               max_mid
             };
 

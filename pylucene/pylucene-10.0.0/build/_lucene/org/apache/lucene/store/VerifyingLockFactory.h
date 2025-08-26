@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/store/LockFactory.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class Lock;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class InputStream;
@@ -12,16 +22,6 @@ namespace java {
   namespace lang {
     class Class;
     class String;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class Lock;
-        class Directory;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -34,8 +34,8 @@ namespace org {
         class VerifyingLockFactory : public ::org::apache::lucene::store::LockFactory {
          public:
           enum {
-            mid_init$_24369f0de2e77980,
-            mid_obtainLock_4348646d24d7b2f6,
+            mid_init$_920d3eda1dae6f99,
+            mid_obtainLock_b179764a098b8915,
             max_mid
           };
 

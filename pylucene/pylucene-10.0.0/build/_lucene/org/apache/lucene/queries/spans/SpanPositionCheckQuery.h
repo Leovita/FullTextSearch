@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class ScoreMode;
         class Query;
         class QueryVisitor;
-        class ScoreMode;
         class IndexSearcher;
       }
       namespace queries {
@@ -22,10 +22,10 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class Class;
-    class String;
     class Cloneable;
     class Object;
+    class Class;
+    class String;
   }
   namespace io {
     class IOException;
@@ -42,15 +42,15 @@ namespace org {
           class SpanPositionCheckQuery : public ::org::apache::lucene::queries::spans::SpanQuery {
            public:
             enum {
-              mid_init$_aacf3cc85530a8ec,
-              mid_createWeight_d7dfaaf9476f49d4,
-              mid_equals_570b5248a6da3ef6,
-              mid_getField_09a7afff1868fc5e,
-              mid_getMatch_ccd29998bab337f9,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_visit_1b22ec612b613eea,
-              mid_acceptPosition_b59c8c4cfb25644b,
+              mid_init$_11f014ab1950e71b,
+              mid_createWeight_b33c2c90db0d1d7e,
+              mid_equals_00d17418847797d4,
+              mid_getField_e7df854526d67fa3,
+              mid_getMatch_181254ec704aaed2,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rewrite_25984111320dbe39,
+              mid_visit_85475af8e8904ab4,
+              mid_acceptPosition_ded8f9d8e47cc29a,
               max_mid
             };
 

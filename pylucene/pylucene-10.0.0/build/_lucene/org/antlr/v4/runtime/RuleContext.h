@@ -7,8 +7,8 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class Parser;
         class Recognizer;
+        class Parser;
         class RuleContext;
       }
     }
@@ -33,27 +33,27 @@ namespace org {
         class RuleContext : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_18e6ea53c0e2e256,
-            mid_depth_20fbf7565993c3d7,
-            mid_getAltNumber_20fbf7565993c3d7,
-            mid_getChildCount_20fbf7565993c3d7,
-            mid_getParent_f6417995d6af4905,
-            mid_getPayload_f6417995d6af4905,
-            mid_getRuleContext_f6417995d6af4905,
-            mid_getRuleIndex_20fbf7565993c3d7,
-            mid_getText_09a7afff1868fc5e,
-            mid_isEmpty_947277eca0748c4e,
-            mid_setAltNumber_540b2b23d51b1efd,
-            mid_setParent_a326b46395b688bc,
-            mid_toString_09a7afff1868fc5e,
-            mid_toString_27d32a9d9f7020a0,
-            mid_toString_df3233aa43e74519,
-            mid_toString_3cff27882a5456c4,
-            mid_toString_9f559045e1ec72e5,
-            mid_toStringTree_09a7afff1868fc5e,
-            mid_toStringTree_c4224bf0e7356c60,
-            mid_toStringTree_df3233aa43e74519,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_8ddad557c20384c8,
+            mid_depth_bd89ce15dad49192,
+            mid_getAltNumber_bd89ce15dad49192,
+            mid_getChildCount_bd89ce15dad49192,
+            mid_getParent_5527f90c6ec01d1c,
+            mid_getPayload_5527f90c6ec01d1c,
+            mid_getRuleContext_5527f90c6ec01d1c,
+            mid_getRuleIndex_bd89ce15dad49192,
+            mid_getText_e7df854526d67fa3,
+            mid_isEmpty_9aa4f33e82ea333f,
+            mid_setAltNumber_8226bd0b0fc13dba,
+            mid_setParent_6a1d338ff70fc4fc,
+            mid_toString_e7df854526d67fa3,
+            mid_toString_cfa77efb606b3992,
+            mid_toString_e4dc3c0083901688,
+            mid_toString_536b0b0cd0a2c8f3,
+            mid_toString_28222f1e81764da2,
+            mid_toStringTree_e7df854526d67fa3,
+            mid_toStringTree_60bb3b0ffd4d3fdf,
+            mid_toStringTree_e4dc3c0083901688,
             max_mid
           };
 

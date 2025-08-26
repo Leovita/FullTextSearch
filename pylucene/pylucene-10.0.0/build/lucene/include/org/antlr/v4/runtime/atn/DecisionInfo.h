@@ -17,11 +17,11 @@ namespace org {
     namespace v4 {
       namespace runtime {
         namespace atn {
+          class ContextSensitivityInfo;
           class AmbiguityInfo;
-          class ErrorInfo;
           class LookaheadEventInfo;
           class PredicateEvalInfo;
-          class ContextSensitivityInfo;
+          class ErrorInfo;
         }
       }
     }
@@ -38,8 +38,8 @@ namespace org {
           class DecisionInfo : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_8226bd0b0fc13dba,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

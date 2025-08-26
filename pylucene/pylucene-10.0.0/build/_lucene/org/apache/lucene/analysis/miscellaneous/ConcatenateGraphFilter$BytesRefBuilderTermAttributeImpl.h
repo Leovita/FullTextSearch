@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/util/AttributeImpl.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        namespace miscellaneous {
-          class ConcatenateGraphFilter$BytesRefBuilderTermAttribute;
-        }
-        namespace tokenattributes {
-          class TermToBytesRefAttribute;
-        }
-      }
-      namespace util {
-        class BytesRef;
-        class AttributeReflector;
-        class BytesRefBuilder;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
     class CharSequence;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class BytesRef;
+        class BytesRefBuilder;
+        class AttributeReflector;
+      }
+      namespace analysis {
+        namespace tokenattributes {
+          class TermToBytesRefAttribute;
+        }
+        namespace miscellaneous {
+          class ConcatenateGraphFilter$BytesRefBuilderTermAttribute;
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -39,14 +39,14 @@ namespace org {
           class ConcatenateGraphFilter$BytesRefBuilderTermAttributeImpl : public ::org::apache::lucene::util::AttributeImpl {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_builder_dc06164013e8378f,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_c9b39303c053ec9a,
-              mid_copyTo_9be83c6b2aff7007,
-              mid_getBytesRef_9740fddd1c7df148,
-              mid_reflectWith_454217ab6e97f729,
-              mid_toUTF16_373f0038978f926b,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_builder_af123c7728e8b455,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_2f6651241a7e46cf,
+              mid_copyTo_b194e41b568bc1bc,
+              mid_getBytesRef_adbedbc1fa61c358,
+              mid_reflectWith_ac049850cfa29e37,
+              mid_toUTF16_f2e5418fe0d66c69,
               max_mid
             };
 

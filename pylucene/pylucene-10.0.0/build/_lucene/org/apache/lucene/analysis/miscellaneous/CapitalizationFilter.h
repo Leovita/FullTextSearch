@@ -7,19 +7,19 @@ namespace java {
   namespace io {
     class IOException;
   }
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
+  }
+  namespace util {
+    class Collection;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class CharArraySet;
         class TokenStream;
+        class CharArraySet;
       }
     }
   }
@@ -35,9 +35,9 @@ namespace org {
           class CapitalizationFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_init$_3c8be275a2e7b69b,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_4fe096967a533954,
+              mid_init$_0e5b94434a678871,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

@@ -8,10 +8,10 @@ namespace org {
     namespace lucene {
       namespace index {
         class SortedSetDocValues;
-        class SortedNumericDocValues;
-        class SortedDocValues;
         class IndexReader;
         class NumericDocValues;
+        class SortedDocValues;
+        class SortedNumericDocValues;
         class BinaryDocValues;
       }
     }
@@ -36,12 +36,12 @@ namespace org {
         class MultiDocValues : public ::java::lang::Object {
          public:
           enum {
-            mid_getBinaryValues_4dbf7345d8176895,
-            mid_getNormValues_e540b435c19b8aa2,
-            mid_getNumericValues_e540b435c19b8aa2,
-            mid_getSortedNumericValues_7a60d1c2d2961a84,
-            mid_getSortedSetValues_25237c5b54e0c3ac,
-            mid_getSortedValues_2b8663911ab7d6fd,
+            mid_getBinaryValues_74c5c789aaa8385b,
+            mid_getNormValues_26b1a6fdea255e90,
+            mid_getNumericValues_26b1a6fdea255e90,
+            mid_getSortedNumericValues_8aaf09ff0c4b847a,
+            mid_getSortedSetValues_fb61d22494ce9961,
+            mid_getSortedValues_4fc72620e843f15d,
             max_mid
           };
 

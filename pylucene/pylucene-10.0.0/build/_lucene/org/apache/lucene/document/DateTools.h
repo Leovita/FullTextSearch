@@ -31,12 +31,12 @@ namespace org {
         class DateTools : public ::java::lang::Object {
          public:
           enum {
-            mid_dateToString_e3722d8cf1d9a137,
-            mid_round_bad42e2e65876863,
-            mid_round_86f666a7567ee196,
-            mid_stringToDate_4c0075e034f5faf2,
-            mid_stringToTime_e942a6f864c95ca0,
-            mid_timeToString_a924ecc1e32c699f,
+            mid_dateToString_9d14fee845232024,
+            mid_round_e7d9fb8a34a52989,
+            mid_round_f39bf20e186400ef,
+            mid_stringToDate_89d3a451a60180c0,
+            mid_stringToTime_490f1686ea1cfda6,
+            mid_timeToString_570cb673633c86eb,
             max_mid
           };
 

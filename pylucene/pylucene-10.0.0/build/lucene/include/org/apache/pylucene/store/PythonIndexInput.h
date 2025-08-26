@@ -14,14 +14,14 @@ namespace java {
 }
 namespace org {
   namespace apache {
-    namespace pylucene {
-      namespace store {
-        class PythonIndexInput;
-      }
-    }
     namespace lucene {
       namespace store {
         class IOContext;
+      }
+    }
+    namespace pylucene {
+      namespace store {
+        class PythonIndexInput;
       }
     }
   }
@@ -36,17 +36,17 @@ namespace org {
         class PythonIndexInput : public ::org::apache::lucene::store::BufferedIndexInput {
          public:
           enum {
-            mid_init$_0d82408c6e55bc30,
-            mid_init$_e41903e0c61b1b8d,
-            mid_init$_a5140b013bba694a,
-            mid_clone_2f76af282c33a944,
-            mid_close_3720c61b0679eb3e,
-            mid_length_16939d9d0a9a9721,
-            mid_pythonExtension_16939d9d0a9a9721,
-            mid_pythonExtension_8b3d46852b435a94,
-            mid_readInternal_e122a5d980794eb4,
-            mid_seekInternal_8b3d46852b435a94,
-            mid_readInternal_2edbab4eb1690b47,
+            mid_init$_ee46a189998009d6,
+            mid_init$_1aa676c7c47306c5,
+            mid_init$_49e27e98009acf15,
+            mid_clone_e7e934f8b638fd5e,
+            mid_close_e7bdbe105ce1bafb,
+            mid_length_0f176418e3e16541,
+            mid_pythonExtension_0f176418e3e16541,
+            mid_pythonExtension_1d3149fac12f2af3,
+            mid_readInternal_42543874f68841be,
+            mid_seekInternal_1d3149fac12f2af3,
+            mid_readInternal_bbc658db99820977,
             max_mid
           };
 

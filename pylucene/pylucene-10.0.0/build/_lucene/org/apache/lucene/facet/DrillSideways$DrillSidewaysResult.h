@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
-        class FacetsCollector;
         class Facets;
+        class FacetsCollector;
       }
       namespace search {
         class TopDocs;
@@ -32,7 +32,7 @@ namespace org {
         class DrillSideways$DrillSidewaysResult : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_9cb7b021fb6b3acb,
+            mid_init$_573174568a27ecbf,
             max_mid
           };
 

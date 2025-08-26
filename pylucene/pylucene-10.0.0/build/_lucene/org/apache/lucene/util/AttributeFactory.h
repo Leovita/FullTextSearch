@@ -29,9 +29,9 @@ namespace org {
         class AttributeFactory : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_createAttributeInstance_14e9e8ac896476c4,
-            mid_getStaticImplementation_bb1699cfaad28544,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_createAttributeInstance_25f583d4b4312c3b,
+            mid_getStaticImplementation_e60408e243010438,
             max_mid
           };
 

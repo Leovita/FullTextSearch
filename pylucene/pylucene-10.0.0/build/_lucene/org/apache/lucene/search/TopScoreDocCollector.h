@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class ScoreDoc;
         class ScoreMode;
+        class ScoreDoc;
       }
     }
   }
@@ -28,10 +28,10 @@ namespace org {
         class TopScoreDocCollector : public ::org::apache::lucene::search::TopDocsCollector {
          public:
           enum {
-            mid_scoreMode_45dfdcf7e901559d,
-            mid_updateGlobalMinCompetitiveScore_dd42dde4c0a7db1e,
-            mid_updateMinCompetitiveScore_dd42dde4c0a7db1e,
-            mid_newTopDocs_f6010540414086f3,
+            mid_scoreMode_23e7061dcdc84768,
+            mid_updateGlobalMinCompetitiveScore_c06bdf7d53c6460a,
+            mid_updateMinCompetitiveScore_c06bdf7d53c6460a,
+            mid_newTopDocs_d4fc5c39fd7326b6,
             max_mid
           };
 

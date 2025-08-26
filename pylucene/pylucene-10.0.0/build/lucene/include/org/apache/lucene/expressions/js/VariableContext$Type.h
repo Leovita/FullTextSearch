@@ -31,8 +31,8 @@ namespace org {
           class VariableContext$Type : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_c803f74976b3ae52,
-              mid_values_97d133db7158a73b,
+              mid_valueOf_b20d5d4905641f71,
+              mid_values_70404d7c54741e55,
               max_mid
             };
 

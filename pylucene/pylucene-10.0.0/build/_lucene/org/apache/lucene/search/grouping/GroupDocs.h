@@ -15,9 +15,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -31,16 +31,16 @@ namespace org {
           class GroupDocs : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_1a9e86d88854d3fe,
-              mid_equals_570b5248a6da3ef6,
-              mid_groupSortValues_e6b839682a4610a6,
-              mid_groupValue_5655ed8670534604,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_maxScore_9b6c3480dac00edf,
-              mid_score_9b6c3480dac00edf,
-              mid_scoreDocs_320acf0038616c03,
-              mid_toString_09a7afff1868fc5e,
-              mid_totalHits_9c820a557945e5d3,
+              mid_init$_f588404699bb24a9,
+              mid_equals_00d17418847797d4,
+              mid_groupSortValues_1e688954528bc160,
+              mid_groupValue_4819806f62f1360a,
+              mid_hashCode_bd89ce15dad49192,
+              mid_maxScore_8b62236f0e4d0dbc,
+              mid_score_8b62236f0e4d0dbc,
+              mid_scoreDocs_5d8e89df11fa3e90,
+              mid_toString_e7df854526d67fa3,
+              mid_totalHits_efd5458a8db43710,
               max_mid
             };
 

@@ -4,15 +4,15 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
   namespace util {
-    class Set;
     namespace function {
       class Predicate;
     }
+    class Set;
+  }
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 namespace org {
@@ -20,9 +20,9 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace matchhighlight {
+          class PassageFormatter;
           class MatchHighlighter$FieldValueHighlighter;
           class PassageSelector;
-          class PassageFormatter;
         }
       }
     }
@@ -39,11 +39,11 @@ namespace org {
           class FieldValueHighlighters : public ::java::lang::Object {
            public:
             enum {
-              mid_defaultPassageSelector_e708d3d2654adcd6,
-              mid_highlighted_e3cad40d42e01769,
-              mid_maxLeadingCharacters_3cd52ab6f73d912e,
-              mid_skipRemaining_c6a6cd618173b2de,
-              mid_verbatimValue_62de9f2dfbbb0041,
+              mid_defaultPassageSelector_1b7dcd5fd3ca3c2e,
+              mid_highlighted_7400de7e153e5d2c,
+              mid_maxLeadingCharacters_68d0686d1a438ce1,
+              mid_skipRemaining_bdad1913c8377fe7,
+              mid_verbatimValue_a4142c191d256ccc,
               max_mid
             };
 

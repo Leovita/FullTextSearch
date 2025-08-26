@@ -28,7 +28,7 @@ namespace org {
           class ConcurrentMergeSchedulerAccess : public ::java::lang::Object {
            public:
             enum {
-              mid_setSuppressExceptions_f67e24271968232e,
+              mid_setSuppressExceptions_39e3b82762c60fa8,
               max_mid
             };
 

@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/analysis/TokenFilterFactory.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class Map;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
+        class TokenStream;
         namespace miscellaneous {
           class DelimitedTermFrequencyTokenFilter;
         }
-        class TokenStream;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace util {
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
           class DelimitedTermFrequencyTokenFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_7b9d408a20310745,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_73fdb87b48d2a52d,
               max_mid
             };
 

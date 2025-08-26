@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class IndexOutput;
+      }
       namespace backward_codecs {
         namespace packed {
           class LegacyDirectMonotonicWriter;
         }
-      }
-      namespace store {
-        class IndexOutput;
       }
     }
   }
@@ -36,9 +36,9 @@ namespace org {
           class LegacyDirectMonotonicWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_add_8b3d46852b435a94,
-              mid_finish_3720c61b0679eb3e,
-              mid_getInstance_ee3f4c3f5f6f974a,
+              mid_add_1d3149fac12f2af3,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_getInstance_6f7a4a9d4a9f5c78,
               max_mid
             };
 

@@ -13,8 +13,8 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class TokenSource;
         class CharStream;
+        class TokenSource;
       }
     }
   }
@@ -29,16 +29,16 @@ namespace org {
         class Token : public ::java::lang::Object {
          public:
           enum {
-            mid_getChannel_20fbf7565993c3d7,
-            mid_getCharPositionInLine_20fbf7565993c3d7,
-            mid_getInputStream_b461eccf8f9c2fcc,
-            mid_getLine_20fbf7565993c3d7,
-            mid_getStartIndex_20fbf7565993c3d7,
-            mid_getStopIndex_20fbf7565993c3d7,
-            mid_getText_09a7afff1868fc5e,
-            mid_getTokenIndex_20fbf7565993c3d7,
-            mid_getTokenSource_26fade9117c08d4e,
-            mid_getType_20fbf7565993c3d7,
+            mid_getChannel_bd89ce15dad49192,
+            mid_getCharPositionInLine_bd89ce15dad49192,
+            mid_getInputStream_ecdf4d21c837fa97,
+            mid_getLine_bd89ce15dad49192,
+            mid_getStartIndex_bd89ce15dad49192,
+            mid_getStopIndex_bd89ce15dad49192,
+            mid_getText_e7df854526d67fa3,
+            mid_getTokenIndex_bd89ce15dad49192,
+            mid_getTokenSource_3061543fdfcef5c8,
+            mid_getType_bd89ce15dad49192,
             max_mid
           };
 

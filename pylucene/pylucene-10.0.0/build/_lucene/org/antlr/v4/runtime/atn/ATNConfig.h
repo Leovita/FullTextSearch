@@ -7,13 +7,13 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
+        class Recognizer;
         namespace atn {
-          class ATNState;
-          class PredictionContext;
           class SemanticContext;
           class ATNConfig;
+          class PredictionContext;
+          class ATNState;
         }
-        class Recognizer;
       }
     }
   }
@@ -35,21 +35,21 @@ namespace org {
           class ATNConfig : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_50678efd7e3803cd,
-              mid_init$_686ae8b83905c858,
-              mid_init$_586f509098d2d7fe,
-              mid_init$_3774101deb35c039,
-              mid_init$_536323d430b07cdd,
-              mid_init$_231e02e246366492,
-              mid_init$_d23064292c4bc36c,
-              mid_equals_1274b529738a1c30,
-              mid_equals_570b5248a6da3ef6,
-              mid_getOuterContextDepth_20fbf7565993c3d7,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isPrecedenceFilterSuppressed_947277eca0748c4e,
-              mid_setPrecedenceFilterSuppressed_b110fc3a58c081ab,
-              mid_toString_09a7afff1868fc5e,
-              mid_toString_d7f7f3fa5f7c5519,
+              mid_init$_a050e2a059da6004,
+              mid_init$_61f699da64111239,
+              mid_init$_9bcc7b611f363dda,
+              mid_init$_e33f00e1f60ccd83,
+              mid_init$_a10dd91c1219b512,
+              mid_init$_c04f01fc1c742db3,
+              mid_init$_d69deeb9f7c486d1,
+              mid_equals_4291e6f193a35bdb,
+              mid_equals_00d17418847797d4,
+              mid_getOuterContextDepth_bd89ce15dad49192,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isPrecedenceFilterSuppressed_9aa4f33e82ea333f,
+              mid_setPrecedenceFilterSuppressed_f5dd97eebf6a215a,
+              mid_toString_e7df854526d67fa3,
+              mid_toString_0583c0ff243e88f5,
               max_mid
             };
 

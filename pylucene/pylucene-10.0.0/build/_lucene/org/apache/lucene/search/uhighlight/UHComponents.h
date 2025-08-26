@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         namespace uhighlight {
-          class UnifiedHighlighter$HighlightFlag;
-          class PhraseHelper;
           class LabelledCharArrayMatcher;
+          class PhraseHelper;
+          class UnifiedHighlighter$HighlightFlag;
         }
+        class Query;
       }
       namespace util {
         class BytesRef;
@@ -21,16 +21,16 @@ namespace org {
   }
 }
 namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
   namespace util {
-    class Set;
     namespace function {
       class Predicate;
     }
+    class Set;
+  }
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -44,18 +44,18 @@ namespace org {
           class UHComponents : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_18ce87d56e972ef6,
-              mid_automata_15797600af750aec,
-              mid_equals_570b5248a6da3ef6,
-              mid_field_09a7afff1868fc5e,
-              mid_fieldMatcher_318ca0ecdce1a7dd,
-              mid_hasUnrecognizedQueryPart_947277eca0748c4e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_highlightFlags_4df174295554d7bd,
-              mid_phraseHelper_4a796bf0685937b1,
-              mid_query_a3eacfacada795d4,
-              mid_terms_15e86a23d022d444,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_0afd4287dbfedf7e,
+              mid_automata_022999537836f214,
+              mid_equals_00d17418847797d4,
+              mid_field_e7df854526d67fa3,
+              mid_fieldMatcher_e9ff27faf5d76fa6,
+              mid_hasUnrecognizedQueryPart_9aa4f33e82ea333f,
+              mid_hashCode_bd89ce15dad49192,
+              mid_highlightFlags_79131c6bbcf08916,
+              mid_phraseHelper_a43c769312b3a412,
+              mid_query_ffa7bd087b2a75aa,
+              mid_terms_cb1c5650e8bc510b,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

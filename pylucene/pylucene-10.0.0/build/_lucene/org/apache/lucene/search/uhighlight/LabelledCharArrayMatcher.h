@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/search/uhighlight/CharArrayMatcher.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        namespace automaton {
-          class ByteRunAutomaton;
-        }
-      }
       namespace search {
         namespace uhighlight {
           class LabelledCharArrayMatcher;
         }
       }
+      namespace util {
+        namespace automaton {
+          class ByteRunAutomaton;
+        }
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -36,9 +36,9 @@ namespace org {
           class LabelledCharArrayMatcher : public ::org::apache::lucene::search::uhighlight::CharArrayMatcher {
            public:
             enum {
-              mid_getLabel_09a7afff1868fc5e,
-              mid_wrap_f5294e001303e67a,
-              mid_wrap_24e293e0f00eb4cf,
+              mid_getLabel_e7df854526d67fa3,
+              mid_wrap_2f17c1354bd7ca6e,
+              mid_wrap_f8b2913cd4285d63,
               max_mid
             };
 

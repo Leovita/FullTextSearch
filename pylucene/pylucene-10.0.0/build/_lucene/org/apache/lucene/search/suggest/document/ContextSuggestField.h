@@ -22,10 +22,10 @@ namespace org {
             class ContextSuggestField : public ::org::apache::lucene::search::suggest::document::SuggestField {
              public:
               enum {
-                mid_init$_0bc50b473778df02,
-                mid_wrapTokenStream_c911767a3d77e14c,
-                mid_type_847674f430f49e4c,
-                mid_contexts_11d5156a64e3246d,
+                mid_init$_27485f5ad5e975d7,
+                mid_wrapTokenStream_108465ffdab65656,
+                mid_type_1456044a01a5c9bf,
+                mid_contexts_85e1732aaf0b83f3,
                 max_mid
               };
 

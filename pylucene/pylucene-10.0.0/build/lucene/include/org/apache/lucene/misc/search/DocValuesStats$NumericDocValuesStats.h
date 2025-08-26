@@ -20,12 +20,12 @@ namespace org {
           class DocValuesStats$NumericDocValuesStats : public ::org::apache::lucene::misc::search::DocValuesStats {
            public:
             enum {
-              mid_mean_32caabaad86c508b,
-              mid_stdev_32caabaad86c508b,
-              mid_sum_1b3282bb4db06655,
-              mid_variance_32caabaad86c508b,
-              mid_init_03101e9518c66be0,
-              mid_hasValue_ae22d3a856ad56f1,
+              mid_mean_6fb37e123fed7a1f,
+              mid_stdev_6fb37e123fed7a1f,
+              mid_sum_b9665294ea488d3c,
+              mid_variance_6fb37e123fed7a1f,
+              mid_init_8e9f6225f14d0ebe,
+              mid_hasValue_a8281eb3b9d9672d,
               max_mid
             };
 

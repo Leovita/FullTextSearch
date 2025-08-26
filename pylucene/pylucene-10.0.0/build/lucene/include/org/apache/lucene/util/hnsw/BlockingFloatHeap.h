@@ -19,12 +19,12 @@ namespace org {
           class BlockingFloatHeap : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_offer_8fa359a2bc20a127,
-              mid_offer_c503d06cdea3e910,
-              mid_peek_9b6c3480dac00edf,
-              mid_poll_9b6c3480dac00edf,
-              mid_size_20fbf7565993c3d7,
+              mid_init$_8226bd0b0fc13dba,
+              mid_offer_760c23641efab431,
+              mid_offer_f91cd2115bbc249e,
+              mid_peek_8b62236f0e4d0dbc,
+              mid_poll_8b62236f0e4d0dbc,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

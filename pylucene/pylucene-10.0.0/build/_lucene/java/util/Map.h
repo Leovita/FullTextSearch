@@ -5,15 +5,15 @@
 
 namespace java {
   namespace util {
-    class Collection;
-    class Map$Entry;
-    class Set;
     namespace function {
       class BiFunction;
-      class BiConsumer;
       class Function;
+      class BiConsumer;
     }
+    class Map$Entry;
     class Map;
+    class Collection;
+    class Set;
   }
   namespace lang {
     class Class;
@@ -27,45 +27,45 @@ namespace java {
     class Map : public ::java::lang::Object {
      public:
       enum {
-        mid_clear_3720c61b0679eb3e,
-        mid_compute_222cc87f320503e9,
-        mid_computeIfAbsent_54da8c192341bae7,
-        mid_computeIfPresent_222cc87f320503e9,
-        mid_containsKey_570b5248a6da3ef6,
-        mid_containsValue_570b5248a6da3ef6,
-        mid_copyOf_471da175fe5991f0,
-        mid_entry_f8b8773a66357a4c,
-        mid_entrySet_4df174295554d7bd,
-        mid_equals_570b5248a6da3ef6,
-        mid_forEach_b72e978f1e58c9c6,
-        mid_get_5fd81664d2d475e1,
-        mid_getOrDefault_243089e4ee289db6,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isEmpty_947277eca0748c4e,
-        mid_keySet_4df174295554d7bd,
-        mid_merge_18f34770301774a8,
-        mid_of_f125f26c07a7bec8,
-        mid_of_66bed768f20b3608,
-        mid_of_c9cb6cd8f80c1702,
-        mid_of_c3d90717b31542fb,
-        mid_of_05f505ee45dd5457,
-        mid_of_979c3b619aad47eb,
-        mid_of_926c861d3e04374b,
-        mid_of_c9f3233dfe1badf0,
-        mid_of_c8c0087dbcb08948,
-        mid_of_cde12f98dea8a373,
-        mid_of_b8131e11005a5316,
-        mid_ofEntries_fd6ab768522bce47,
-        mid_put_243089e4ee289db6,
-        mid_putAll_79ba0f5a7d05e623,
-        mid_putIfAbsent_243089e4ee289db6,
-        mid_remove_5fd81664d2d475e1,
-        mid_remove_6810d3c479f60a43,
-        mid_replace_243089e4ee289db6,
-        mid_replace_681a33cfaf020676,
-        mid_replaceAll_e62f673264196dae,
-        mid_size_20fbf7565993c3d7,
-        mid_values_aa58b3beec16cbbd,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_compute_d2596364fffa973e,
+        mid_computeIfAbsent_9ed5cc5abc5e630e,
+        mid_computeIfPresent_d2596364fffa973e,
+        mid_containsKey_00d17418847797d4,
+        mid_containsValue_00d17418847797d4,
+        mid_copyOf_6a21740c97b0d8b2,
+        mid_entry_79b21f00920ea454,
+        mid_entrySet_79131c6bbcf08916,
+        mid_equals_00d17418847797d4,
+        mid_forEach_309feadaabdabe33,
+        mid_get_e2c45b124c12f4ec,
+        mid_getOrDefault_b3b175dfe26d2c44,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_keySet_79131c6bbcf08916,
+        mid_merge_9071885bacc97265,
+        mid_of_5004bdf19ed33453,
+        mid_of_ab088a5e141f6309,
+        mid_of_a5a1dede7181d592,
+        mid_of_decfe7795fe74283,
+        mid_of_7a7b23c91f49edfe,
+        mid_of_ce23c65ac7dcbe6f,
+        mid_of_258b51437c202115,
+        mid_of_661921b5c7969493,
+        mid_of_ed22c20dcd7cce7a,
+        mid_of_0452d6e99d0c5c2a,
+        mid_of_d54bca9c3251d9ab,
+        mid_ofEntries_ecf7ae05b16ab4ab,
+        mid_put_b3b175dfe26d2c44,
+        mid_putAll_6a7e23584beb7c0f,
+        mid_putIfAbsent_b3b175dfe26d2c44,
+        mid_remove_e2c45b124c12f4ec,
+        mid_remove_0596e01f2cdb5588,
+        mid_replace_b3b175dfe26d2c44,
+        mid_replace_dda5dc55054f9d64,
+        mid_replaceAll_ec29d14cf1227d89,
+        mid_size_bd89ce15dad49192,
+        mid_values_4a269b968b3a511f,
         max_mid
       };
 

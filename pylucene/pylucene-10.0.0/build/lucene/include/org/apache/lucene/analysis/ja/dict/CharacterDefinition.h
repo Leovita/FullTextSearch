@@ -34,9 +34,9 @@ namespace org {
             class CharacterDefinition : public ::org::apache::lucene::analysis::morph::CharacterDefinition {
              public:
               enum {
-                mid_getInstance_689c6cd4ba1baa32,
-                mid_isKanji_4e84a8c37896b7c5,
-                mid_lookupCharacterClass_0048728f9019731d,
+                mid_getInstance_a7344a5617c268a2,
+                mid_isKanji_96a1e5bdb33dde4e,
+                mid_lookupCharacterClass_3c48362581bf518f,
                 max_mid
               };
 

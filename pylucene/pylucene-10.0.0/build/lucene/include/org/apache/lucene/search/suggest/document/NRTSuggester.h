@@ -7,15 +7,15 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class Accountable;
         class Bits;
+        class Accountable;
       }
       namespace search {
         namespace suggest {
           namespace document {
+            class NRTSuggester;
             class TopSuggestDocsCollector;
             class CompletionPostingsFormat$FSTLoadMode;
-            class NRTSuggester;
             class CompletionScorer;
           }
         }
@@ -27,14 +27,14 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -49,10 +49,10 @@ namespace org {
             class NRTSuggester : public ::java::lang::Object {
              public:
               enum {
-                mid_getChildResources_aa58b3beec16cbbd,
-                mid_load_26885a6ef2151b6e,
-                mid_lookup_6b28c0196990c974,
-                mid_ramBytesUsed_16939d9d0a9a9721,
+                mid_getChildResources_4a269b968b3a511f,
+                mid_load_a95918ec385d84ca,
+                mid_lookup_37b424df2a0f9066,
+                mid_ramBytesUsed_0f176418e3e16541,
                 max_mid
               };
 

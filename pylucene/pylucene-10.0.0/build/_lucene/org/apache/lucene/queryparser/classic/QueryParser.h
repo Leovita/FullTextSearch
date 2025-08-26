@@ -6,16 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        class BooleanClause;
-      }
       namespace queryparser {
         namespace classic {
           class QueryParserTokenManager;
           class Token;
-          class ParseException;
           class QueryParserConstants;
+          class ParseException;
         }
         namespace charstream {
           class CharStream;
@@ -24,13 +20,17 @@ namespace org {
       namespace analysis {
         class Analyzer;
       }
+      namespace search {
+        class Query;
+        class BooleanClause;
+      }
     }
   }
 }
 namespace java {
   namespace lang {
-    class String;
     class Class;
+    class String;
   }
   namespace util {
     class List;
@@ -47,25 +47,25 @@ namespace org {
           class QueryParser : public ::org::apache::lucene::queryparser::classic::QueryParserBase {
            public:
             enum {
-              mid_init$_c50f2f6f1d850d13,
-              mid_Clause_171433ef85015467,
-              mid_Conjunction_20fbf7565993c3d7,
-              mid_Modifiers_20fbf7565993c3d7,
-              mid_MultiTerm_bf5ba6d900a4b737,
-              mid_Query_171433ef85015467,
-              mid_ReInit_64fef73005020508,
-              mid_ReInit_c2b02911839614e6,
-              mid_Term_171433ef85015467,
-              mid_TopLevelQuery_171433ef85015467,
-              mid_disable_tracing_3720c61b0679eb3e,
-              mid_enable_tracing_3720c61b0679eb3e,
-              mid_generateParseException_5a407c36fd55cbed,
-              mid_getNextToken_36bb192b62e97f0a,
-              mid_getSplitOnWhitespace_947277eca0748c4e,
-              mid_getToken_2195c86fd240eed6,
-              mid_setAutoGeneratePhraseQueries_b110fc3a58c081ab,
-              mid_setSplitOnWhitespace_b110fc3a58c081ab,
-              mid_trace_enabled_947277eca0748c4e,
+              mid_init$_cc97c286759ef3b4,
+              mid_Clause_9b1de8e0d58e515c,
+              mid_Conjunction_bd89ce15dad49192,
+              mid_Modifiers_bd89ce15dad49192,
+              mid_MultiTerm_c6c6901016af6c97,
+              mid_Query_9b1de8e0d58e515c,
+              mid_ReInit_fb1b66554e243e38,
+              mid_ReInit_e62548278c2da79e,
+              mid_Term_9b1de8e0d58e515c,
+              mid_TopLevelQuery_9b1de8e0d58e515c,
+              mid_disable_tracing_e7bdbe105ce1bafb,
+              mid_enable_tracing_e7bdbe105ce1bafb,
+              mid_generateParseException_c102428f997fab17,
+              mid_getNextToken_8878d7ea08e37e5f,
+              mid_getSplitOnWhitespace_9aa4f33e82ea333f,
+              mid_getToken_369067b6f425bfb5,
+              mid_setAutoGeneratePhraseQueries_f5dd97eebf6a215a,
+              mid_setSplitOnWhitespace_f5dd97eebf6a215a,
+              mid_trace_enabled_9aa4f33e82ea333f,
               max_mid
             };
 

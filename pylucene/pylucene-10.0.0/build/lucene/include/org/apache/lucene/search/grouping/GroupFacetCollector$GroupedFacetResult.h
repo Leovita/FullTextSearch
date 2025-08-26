@@ -3,26 +3,26 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
+      namespace search {
+        namespace grouping {
+          class GroupFacetCollector$FacetEntry;
+        }
+      }
+    }
+  }
+}
 namespace java {
   namespace util {
     class List;
   }
   namespace lang {
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        namespace grouping {
-          class GroupFacetCollector$FacetEntry;
-        }
-      }
-      namespace util {
-        class BytesRef;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -36,11 +36,11 @@ namespace org {
           class GroupFacetCollector$GroupedFacetResult : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_de592cdc9570ed96,
-              mid_addFacetCount_be93bdc4fbbb5027,
-              mid_getFacetEntries_3690552717f6ec88,
-              mid_getTotalCount_20fbf7565993c3d7,
-              mid_getTotalMissingCount_20fbf7565993c3d7,
+              mid_init$_5cb57eedc2d09d09,
+              mid_addFacetCount_86aec93bf51df65e,
+              mid_getFacetEntries_6d7644d6c0697519,
+              mid_getTotalCount_bd89ce15dad49192,
+              mid_getTotalMissingCount_bd89ce15dad49192,
               max_mid
             };
 

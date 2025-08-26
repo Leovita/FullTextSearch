@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,14 +20,6 @@ namespace org {
         class ScoreDoc;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
         class TopScoreDocCollector$ScorerLeafCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_setScorer_dd42dde4c0a7db1e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_setScorer_c06bdf7d53c6460a,
             max_mid
           };
 

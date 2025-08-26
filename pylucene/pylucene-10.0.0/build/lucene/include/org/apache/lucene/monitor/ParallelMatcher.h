@@ -3,32 +3,32 @@
 
 #include "org/apache/lucene/monitor/CandidateMatcher.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Query;
-      }
-      namespace monitor {
-        class MatcherFactory;
-        class QueryMatch;
-      }
-    }
-  }
-}
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
+    class Map;
     namespace concurrent {
       class ExecutorService;
     }
-    class Map;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace monitor {
+        class MatcherFactory;
+        class QueryMatch;
+      }
+      namespace search {
+        class Query;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -41,11 +41,11 @@ namespace org {
         class ParallelMatcher : public ::org::apache::lucene::monitor::CandidateMatcher {
          public:
           enum {
-            mid_factory_7aff88c772c205b4,
-            mid_factory_e535dfce16e7081e,
-            mid_matchQuery_5f33980d0e5d47c7,
-            mid_resolve_bdef7bbdb2bb527e,
-            mid_doFinish_3720c61b0679eb3e,
+            mid_factory_63c4d920a2841813,
+            mid_factory_acc023ed98d742ac,
+            mid_matchQuery_ae573456fdb2ff0e,
+            mid_resolve_32842a30f5e442d8,
+            mid_doFinish_e7bdbe105ce1bafb,
             max_mid
           };
 

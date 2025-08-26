@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/index/PointValues.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -13,14 +21,6 @@ namespace org {
         class IndexInput;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,15 +34,15 @@ namespace org {
           class BKDReader : public ::org::apache::lucene::index::PointValues {
            public:
             enum {
-              mid_init$_49a6bee61c8bb138,
-              mid_getBytesPerDimension_20fbf7565993c3d7,
-              mid_getDocCount_20fbf7565993c3d7,
-              mid_getMaxPackedValue_5560da88fc44aa82,
-              mid_getMinPackedValue_5560da88fc44aa82,
-              mid_getNumDimensions_20fbf7565993c3d7,
-              mid_getNumIndexDimensions_20fbf7565993c3d7,
-              mid_getPointTree_f845dee012b447f9,
-              mid_size_16939d9d0a9a9721,
+              mid_init$_1931affd87519978,
+              mid_getBytesPerDimension_bd89ce15dad49192,
+              mid_getDocCount_bd89ce15dad49192,
+              mid_getMaxPackedValue_44e916dc40fc04cb,
+              mid_getMinPackedValue_44e916dc40fc04cb,
+              mid_getNumDimensions_bd89ce15dad49192,
+              mid_getNumIndexDimensions_bd89ce15dad49192,
+              mid_getPointTree_105acb8614b902b9,
+              mid_size_0f176418e3e16541,
               max_mid
             };
 

@@ -28,8 +28,8 @@ namespace org {
         class IndexReader$CacheHelper : public ::java::lang::Object {
          public:
           enum {
-            mid_addClosedListener_3f3140edfbed0c25,
-            mid_getKey_c43f4beeca3c339f,
+            mid_addClosedListener_6b60c9d251afa6e2,
+            mid_getKey_f984eed3d0f6e23f,
             max_mid
           };
 

@@ -7,20 +7,20 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class DirectoryReader;
-        class IndexWriter;
         class SegmentCommitInfo;
+        class IndexWriter;
+        class DirectoryReader;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -34,13 +34,13 @@ namespace org {
           class IndexWriterAccess : public ::java::lang::Object {
            public:
             enum {
-              mid_getDocWriterThreadPoolSize_29d7dfe06072c1c6,
-              mid_getReader_836a6a2e86e11b63,
-              mid_getSegmentCount_29d7dfe06072c1c6,
-              mid_isClosed_ed59825dab8fb2b7,
-              mid_isDeleterClosed_ed59825dab8fb2b7,
-              mid_newestSegment_f7791b93056cbe7e,
-              mid_segString_b91bb55549ad0efa,
+              mid_getDocWriterThreadPoolSize_67333cdd79d90591,
+              mid_getReader_01c8c62be8953d9f,
+              mid_getSegmentCount_67333cdd79d90591,
+              mid_isClosed_c2c6b245a7772d3a,
+              mid_isDeleterClosed_c2c6b245a7772d3a,
+              mid_newestSegment_1145dfd5673dd7d3,
+              mid_segString_787a63c2fc508eff,
               max_mid
             };
 

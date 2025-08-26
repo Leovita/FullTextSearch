@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class IndexSearcher;
-      }
       namespace monitor {
         class CandidateMatcher;
+      }
+      namespace search {
+        class IndexSearcher;
       }
     }
   }
@@ -30,7 +30,7 @@ namespace org {
         class MatcherFactory : public ::java::lang::Object {
          public:
           enum {
-            mid_createMatcher_3670d5647d6eb334,
+            mid_createMatcher_ea1b148e4905129b,
             max_mid
           };
 

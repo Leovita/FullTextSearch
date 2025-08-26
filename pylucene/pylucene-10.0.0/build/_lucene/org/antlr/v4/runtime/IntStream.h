@@ -19,14 +19,14 @@ namespace org {
         class IntStream : public ::java::lang::Object {
          public:
           enum {
-            mid_LA_3c9bba330f083871,
-            mid_consume_3720c61b0679eb3e,
-            mid_getSourceName_09a7afff1868fc5e,
-            mid_index_20fbf7565993c3d7,
-            mid_mark_20fbf7565993c3d7,
-            mid_release_540b2b23d51b1efd,
-            mid_seek_540b2b23d51b1efd,
-            mid_size_20fbf7565993c3d7,
+            mid_LA_a3904e10f5bb9437,
+            mid_consume_e7bdbe105ce1bafb,
+            mid_getSourceName_e7df854526d67fa3,
+            mid_index_bd89ce15dad49192,
+            mid_mark_bd89ce15dad49192,
+            mid_release_8226bd0b0fc13dba,
+            mid_seek_8226bd0b0fc13dba,
+            mid_size_bd89ce15dad49192,
             max_mid
           };
 

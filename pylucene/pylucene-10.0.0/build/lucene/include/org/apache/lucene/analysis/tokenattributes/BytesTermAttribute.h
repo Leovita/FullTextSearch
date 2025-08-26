@@ -28,7 +28,7 @@ namespace org {
           class BytesTermAttribute : public ::org::apache::lucene::analysis::tokenattributes::TermToBytesRefAttribute {
            public:
             enum {
-              mid_setBytesRef_ac0de3ee0e03786d,
+              mid_setBytesRef_920ce0cdf4259cc9,
               max_mid
             };
 

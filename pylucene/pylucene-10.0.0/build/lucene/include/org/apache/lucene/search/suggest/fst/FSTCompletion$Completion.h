@@ -5,23 +5,23 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
     class Class;
     class String;
+    class Comparable;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
       namespace search {
         namespace suggest {
           namespace fst {
             class FSTCompletion$Completion;
           }
         }
-      }
-      namespace util {
-        class BytesRef;
       }
     }
   }
@@ -38,8 +38,8 @@ namespace org {
             class FSTCompletion$Completion : public ::java::lang::Object {
              public:
               enum {
-                mid_compareTo_7e33d82fe93bc1b9,
-                mid_toString_09a7afff1868fc5e,
+                mid_compareTo_ad417b2fd480201c,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

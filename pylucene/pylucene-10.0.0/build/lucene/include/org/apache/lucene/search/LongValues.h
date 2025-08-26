@@ -21,9 +21,9 @@ namespace org {
         class LongValues : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_advanceExact_ae22d3a856ad56f1,
-            mid_longValue_16939d9d0a9a9721,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_advanceExact_a8281eb3b9d9672d,
+            mid_longValue_0f176418e3e16541,
             max_mid
           };
 

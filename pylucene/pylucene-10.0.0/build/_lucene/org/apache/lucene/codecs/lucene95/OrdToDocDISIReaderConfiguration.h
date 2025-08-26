@@ -6,11 +6,6 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        namespace packed {
-          class DirectMonotonicReader;
-        }
-      }
       namespace codecs {
         namespace lucene90 {
           class IndexedDISI;
@@ -19,22 +14,27 @@ namespace org {
           class OrdToDocDISIReaderConfiguration;
         }
       }
-      namespace index {
-        class DocsWithFieldSet;
-      }
       namespace store {
         class IndexOutput;
         class IndexInput;
+      }
+      namespace index {
+        class DocsWithFieldSet;
+      }
+      namespace util {
+        namespace packed {
+          class DirectMonotonicReader;
+        }
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -48,12 +48,12 @@ namespace org {
           class OrdToDocDISIReaderConfiguration : public ::java::lang::Object {
            public:
             enum {
-              mid_fromStoredMeta_1e2203a451440805,
-              mid_getDirectMonotonicReader_18a6f4123b0e5d93,
-              mid_getIndexedDISI_b94b99c665c18a87,
-              mid_isDense_947277eca0748c4e,
-              mid_isEmpty_947277eca0748c4e,
-              mid_writeStoredMeta_36e3900eb69a52ef,
+              mid_fromStoredMeta_690f87c1aa83ec97,
+              mid_getDirectMonotonicReader_16e0312eb072209e,
+              mid_getIndexedDISI_bd710eeaf86b24a7,
+              mid_isDense_9aa4f33e82ea333f,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_writeStoredMeta_0efddd0312aa37e3,
               max_mid
             };
 

@@ -7,37 +7,37 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class SortedNumericDocValues;
+        class TermVectors;
         class FloatVectorValues;
-        class FieldInfos;
+        class DocValuesSkipper;
+        class SortedNumericDocValues;
         class BinaryDocValues;
-        class SortedSetDocValues;
         class ByteVectorValues;
         class SortedDocValues;
-        class LeafMetaData;
         class NumericDocValues;
-        class PointValues;
-        class TermVectors;
-        class Terms;
         class StoredFields;
-        class DocValuesSkipper;
-      }
-      namespace search {
-        class KnnCollector;
+        class PointValues;
+        class FieldInfos;
+        class SortedSetDocValues;
+        class Terms;
+        class LeafMetaData;
       }
       namespace util {
         class Bits;
+      }
+      namespace search {
+        class KnnCollector;
       }
     }
   }
 }
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class Class;
     class String;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -50,31 +50,31 @@ namespace org {
         class FilterLeafReader : public ::org::apache::lucene::index::LeafReader {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_getBinaryDocValues_930cc2268218a3e3,
-            mid_getByteVectorValues_b6d55ee35cf0a7cd,
-            mid_getDelegate_21695b7cef24a344,
-            mid_getDocValuesSkipper_6385669244954201,
-            mid_getFieldInfos_2d5786d39aaa5f0b,
-            mid_getFloatVectorValues_d99d2b92faec6895,
-            mid_getLiveDocs_959b4f7101dd7f4b,
-            mid_getMetaData_e29b13e9e9af4206,
-            mid_getNormValues_0c282caddf2d7938,
-            mid_getNumericDocValues_0c282caddf2d7938,
-            mid_getPointValues_9d784340b5464260,
-            mid_getSortedDocValues_e1c83af81f671c5d,
-            mid_getSortedNumericDocValues_5b5cc59b31747b26,
-            mid_getSortedSetDocValues_9473e7f34fd540a9,
-            mid_maxDoc_20fbf7565993c3d7,
-            mid_numDocs_20fbf7565993c3d7,
-            mid_searchNearestVectors_e7c7b5d865f31eb3,
-            mid_searchNearestVectors_210bbfb50a2f4ef9,
-            mid_storedFields_71d351a09c9e3356,
-            mid_termVectors_dfcb317601b52c60,
-            mid_terms_734b49c46dc30275,
-            mid_toString_09a7afff1868fc5e,
-            mid_unwrap_5c5d9aed327bf3e1,
-            mid_doClose_3720c61b0679eb3e,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_getBinaryDocValues_7dcd5a29ca65e591,
+            mid_getByteVectorValues_7ab2f26af1d93897,
+            mid_getDelegate_de30c7b0a9df694f,
+            mid_getDocValuesSkipper_8b019ebe020b6965,
+            mid_getFieldInfos_09577c1068fdaec4,
+            mid_getFloatVectorValues_0c0ae22a56670782,
+            mid_getLiveDocs_92a4f567193c49d1,
+            mid_getMetaData_983410cc4aac3ed3,
+            mid_getNormValues_c8230d99abf988ec,
+            mid_getNumericDocValues_c8230d99abf988ec,
+            mid_getPointValues_db6b2fb22b12e7e1,
+            mid_getSortedDocValues_946c886dd7165459,
+            mid_getSortedNumericDocValues_d833735942a4e997,
+            mid_getSortedSetDocValues_a25ba477f918d8fc,
+            mid_maxDoc_bd89ce15dad49192,
+            mid_numDocs_bd89ce15dad49192,
+            mid_searchNearestVectors_41e6931fdbdb5ba0,
+            mid_searchNearestVectors_61a952903eb61416,
+            mid_storedFields_1a4fab20a75bd3d4,
+            mid_termVectors_6473260da883e913,
+            mid_terms_b30320f056ffba8d,
+            mid_toString_e7df854526d67fa3,
+            mid_unwrap_427792a09c74b11a,
+            mid_doClose_e7bdbe105ce1bafb,
             max_mid
           };
 

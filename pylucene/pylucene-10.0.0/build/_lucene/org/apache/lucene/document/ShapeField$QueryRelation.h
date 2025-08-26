@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class ShapeField$QueryRelation;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class ShapeField$QueryRelation : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_52e25b67f61f5ef8,
-            mid_values_e1b5913cba13297c,
+            mid_valueOf_9b810472b9d901f1,
+            mid_values_a2f86f3a95b2a2d6,
             max_mid
           };
 

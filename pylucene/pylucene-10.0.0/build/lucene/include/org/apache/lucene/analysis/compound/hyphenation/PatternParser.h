@@ -37,17 +37,17 @@ namespace org {
             class PatternParser : public ::org::xml::sax::helpers::DefaultHandler {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_514a0bd5a1cce575,
-                mid_characters_fc9be2ded8ee801f,
-                mid_endElement_f8f56bd17402e3b3,
-                mid_parse_0d82408c6e55bc30,
-                mid_setConsumer_514a0bd5a1cce575,
-                mid_getPattern_cb0eb1432185fc94,
-                mid_normalizeException_037aacef20e2cb19,
-                mid_getExceptionWord_79d9ae034dbd6514,
-                mid_getInterletterValues_cb0eb1432185fc94,
-                mid_readToken_35de3c3b776dec53,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_8e6e947beb2506b3,
+                mid_characters_186bb5d1c1aec30c,
+                mid_endElement_f29246d136b6952d,
+                mid_parse_ee46a189998009d6,
+                mid_setConsumer_8e6e947beb2506b3,
+                mid_normalizeException_50a2a2ff631c2653,
+                mid_getExceptionWord_bdd1f1b242125b2d,
+                mid_getInterletterValues_fef9c036acf290a9,
+                mid_readToken_92c5980bea128f1d,
+                mid_getPattern_fef9c036acf290a9,
                 max_mid
               };
 

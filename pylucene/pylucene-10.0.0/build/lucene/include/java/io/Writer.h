@@ -4,17 +4,17 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace io {
+    class Closeable;
+    class Writer;
+    class IOException;
+    class Flushable;
+  }
   namespace lang {
     class Appendable;
     class Class;
-    class CharSequence;
     class String;
-  }
-  namespace io {
-    class IOException;
-    class Writer;
-    class Closeable;
-    class Flushable;
+    class CharSequence;
   }
 }
 template<class T> class JArray;
@@ -25,17 +25,17 @@ namespace java {
     class Writer : public ::java::lang::Object {
      public:
       enum {
-        mid_append_da172486ea8d705f,
-        mid_append_ae79dc05365818ba,
-        mid_append_a6389a95232834c1,
-        mid_close_3720c61b0679eb3e,
-        mid_flush_3720c61b0679eb3e,
-        mid_nullWriter_ef08653588135d1c,
-        mid_write_cc40ee25f19f0868,
-        mid_write_0d82408c6e55bc30,
-        mid_write_540b2b23d51b1efd,
-        mid_write_fc9be2ded8ee801f,
-        mid_write_54573ef49c0daa22,
+        mid_append_b5803bd78a4cc818,
+        mid_append_735b3f44170a77d0,
+        mid_append_c85b7088d88928e4,
+        mid_close_e7bdbe105ce1bafb,
+        mid_flush_e7bdbe105ce1bafb,
+        mid_nullWriter_116d7ccc74f07b81,
+        mid_write_ae4452529cb9c0dd,
+        mid_write_ee46a189998009d6,
+        mid_write_8226bd0b0fc13dba,
+        mid_write_186bb5d1c1aec30c,
+        mid_write_ae8275bdfad592e6,
         max_mid
       };
 

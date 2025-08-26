@@ -6,15 +6,15 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-      }
       namespace search {
         namespace suggest {
           namespace document {
             class NRTSuggester;
           }
         }
+      }
+      namespace util {
+        class Accountable;
       }
     }
   }
@@ -23,11 +23,11 @@ namespace java {
   namespace io {
     class IOException;
   }
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -42,9 +42,9 @@ namespace org {
             class CompletionsTermsReader : public ::java::lang::Object {
              public:
               enum {
-                mid_getChildResources_aa58b3beec16cbbd,
-                mid_ramBytesUsed_16939d9d0a9a9721,
-                mid_suggester_7910fd32139a8cb1,
+                mid_getChildResources_4a269b968b3a511f,
+                mid_ramBytesUsed_0f176418e3e16541,
+                mid_suggester_dc1b3f347138af08,
                 max_mid
               };
 

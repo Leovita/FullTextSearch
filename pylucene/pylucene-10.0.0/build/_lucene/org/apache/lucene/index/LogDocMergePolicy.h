@@ -18,10 +18,10 @@ namespace org {
         class LogDocMergePolicy : public ::org::apache::lucene::index::LogMergePolicy {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getMinMergeDocs_20fbf7565993c3d7,
-            mid_setMinMergeDocs_540b2b23d51b1efd,
-            mid_size_df03ba0154b74836,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getMinMergeDocs_bd89ce15dad49192,
+            mid_setMinMergeDocs_8226bd0b0fc13dba,
+            mid_size_4bcc685415af8b2d,
             max_mid
           };
 

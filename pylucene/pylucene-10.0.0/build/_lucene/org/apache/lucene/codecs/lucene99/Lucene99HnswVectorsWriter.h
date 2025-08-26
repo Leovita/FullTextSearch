@@ -8,26 +8,26 @@ namespace org {
     namespace lucene {
       namespace index {
         class MergeState;
-        class FieldInfo;
         class Sorter$DocMap;
         class SegmentWriteState;
-      }
-      namespace search {
-        class TaskExecutor;
+        class FieldInfo;
       }
       namespace codecs {
-        class KnnFieldVectorsWriter;
         namespace hnsw {
           class FlatVectorsWriter;
         }
+        class KnnFieldVectorsWriter;
+      }
+      namespace search {
+        class TaskExecutor;
       }
     }
   }
 }
 namespace java {
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
   namespace io {
     class IOException;
@@ -44,13 +44,13 @@ namespace org {
           class Lucene99HnswVectorsWriter : public ::org::apache::lucene::codecs::KnnVectorsWriter {
            public:
             enum {
-              mid_init$_13936318a8eda841,
-              mid_addField_be5be518afaa3c4d,
-              mid_close_3720c61b0679eb3e,
-              mid_finish_3720c61b0679eb3e,
-              mid_flush_43b4ee6199cecfbf,
-              mid_mergeOneField_12bd7baeb6b4bf04,
-              mid_ramBytesUsed_16939d9d0a9a9721,
+              mid_init$_4ae36a7a5c71ebd1,
+              mid_addField_745312302c5f11e8,
+              mid_close_e7bdbe105ce1bafb,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_flush_fc9730fbac8271d5,
+              mid_mergeOneField_6efd9d341cba2a34,
+              mid_ramBytesUsed_0f176418e3e16541,
               max_mid
             };
 

@@ -30,8 +30,8 @@ namespace org {
         class KnnFieldVectorsWriter : public ::java::lang::Object {
          public:
           enum {
-            mid_addValue_45daa0687d5df9b5,
-            mid_copyValue_5fd81664d2d475e1,
+            mid_addValue_09375f3fd0a3af05,
+            mid_copyValue_e2c45b124c12f4ec,
             max_mid
           };
 

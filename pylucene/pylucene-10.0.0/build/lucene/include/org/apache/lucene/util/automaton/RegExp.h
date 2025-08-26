@@ -3,21 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        namespace automaton {
-          class AutomatonProvider;
-          class RegExp$Kind;
-          class RegExp;
-          class TooComplexToDeterminizeException;
-          class Automaton;
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class IllegalArgumentException;
@@ -25,8 +10,23 @@ namespace java {
     class String;
   }
   namespace util {
-    class Set;
     class Map;
+    class Set;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        namespace automaton {
+          class AutomatonProvider;
+          class RegExp;
+          class TooComplexToDeterminizeException;
+          class Automaton;
+          class RegExp$Kind;
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -40,16 +40,16 @@ namespace org {
           class RegExp : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_init$_a5140b013bba694a,
-              mid_init$_54573ef49c0daa22,
-              mid_getIdentifiers_4df174295554d7bd,
-              mid_getOriginalString_09a7afff1868fc5e,
-              mid_toAutomaton_275570da72a90658,
-              mid_toAutomaton_1dcc204af01eeecb,
-              mid_toAutomaton_3bf83877f8840494,
-              mid_toString_09a7afff1868fc5e,
-              mid_toStringTree_09a7afff1868fc5e,
+              mid_init$_ee46a189998009d6,
+              mid_init$_49e27e98009acf15,
+              mid_init$_ae8275bdfad592e6,
+              mid_getIdentifiers_79131c6bbcf08916,
+              mid_getOriginalString_e7df854526d67fa3,
+              mid_toAutomaton_d4cfa49a0a7bdead,
+              mid_toAutomaton_3b592332473f6d87,
+              mid_toAutomaton_62b2bfe1f5e547bb,
+              mid_toString_e7df854526d67fa3,
+              mid_toStringTree_e7df854526d67fa3,
               max_mid
             };
 

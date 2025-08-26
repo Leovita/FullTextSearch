@@ -5,12 +5,12 @@
 
 namespace java {
   namespace lang {
-    class Thread$UncaughtExceptionHandler;
-    class Class;
-    class String;
-    class Throwable;
-    class Thread;
     class ThreadGroup;
+    class Thread$UncaughtExceptionHandler;
+    class Thread;
+    class Class;
+    class Throwable;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -21,31 +21,28 @@ namespace java {
     class ThreadGroup : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_a4fe61fd51fefd67,
-        mid_activeCount_20fbf7565993c3d7,
-        mid_activeGroupCount_20fbf7565993c3d7,
-        mid_checkAccess_3720c61b0679eb3e,
-        mid_destroy_3720c61b0679eb3e,
-        mid_enumerate_6bd42c14de27270b,
-        mid_enumerate_63a496101055c72d,
-        mid_enumerate_8e9f6f0327398533,
-        mid_enumerate_4f0315a19616dfd5,
-        mid_getMaxPriority_20fbf7565993c3d7,
-        mid_getName_09a7afff1868fc5e,
-        mid_getParent_1409ca4f99a5e054,
-        mid_interrupt_3720c61b0679eb3e,
-        mid_isDaemon_947277eca0748c4e,
-        mid_isDestroyed_947277eca0748c4e,
-        mid_list_3720c61b0679eb3e,
-        mid_parentOf_586b9ac6806e31a4,
-        mid_resume_3720c61b0679eb3e,
-        mid_setDaemon_b110fc3a58c081ab,
-        mid_setMaxPriority_540b2b23d51b1efd,
-        mid_stop_3720c61b0679eb3e,
-        mid_suspend_3720c61b0679eb3e,
-        mid_toString_09a7afff1868fc5e,
-        mid_uncaughtException_337f9378fa50bcb6,
+        mid_init$_ee46a189998009d6,
+        mid_init$_19803cbc17b92361,
+        mid_activeCount_bd89ce15dad49192,
+        mid_activeGroupCount_bd89ce15dad49192,
+        mid_checkAccess_e7bdbe105ce1bafb,
+        mid_destroy_e7bdbe105ce1bafb,
+        mid_enumerate_93ba06f711cebdb5,
+        mid_enumerate_5faa944a9db6e4a5,
+        mid_enumerate_0fd4efdc10e2a9eb,
+        mid_enumerate_544db9e90775ffd5,
+        mid_getMaxPriority_bd89ce15dad49192,
+        mid_getName_e7df854526d67fa3,
+        mid_getParent_183cb1483640e28b,
+        mid_interrupt_e7bdbe105ce1bafb,
+        mid_isDaemon_9aa4f33e82ea333f,
+        mid_isDestroyed_9aa4f33e82ea333f,
+        mid_list_e7bdbe105ce1bafb,
+        mid_parentOf_ddb337abfe429af6,
+        mid_setDaemon_f5dd97eebf6a215a,
+        mid_setMaxPriority_8226bd0b0fc13dba,
+        mid_toString_e7df854526d67fa3,
+        mid_uncaughtException_d15744a81f85b58c,
         max_mid
       };
 
@@ -79,11 +76,8 @@ namespace java {
       jboolean isDestroyed() const;
       void list() const;
       jboolean parentOf(const ThreadGroup &) const;
-      void resume() const;
       void setDaemon(jboolean) const;
       void setMaxPriority(jint) const;
-      void stop() const;
-      void suspend() const;
       ::java::lang::String toString() const;
       void uncaughtException(const ::java::lang::Thread &, const ::java::lang::Throwable &) const;
     };

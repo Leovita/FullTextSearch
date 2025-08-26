@@ -3,32 +3,32 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
       namespace util {
         class Accountable;
       }
       namespace index {
-        class TermState;
         class FieldInfo;
-      }
-      namespace store {
-        class DataInput;
-        class DataOutput;
+        class TermState;
       }
       namespace codecs {
         class BlockTermState;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -42,16 +42,16 @@ namespace org {
           class DeltaBaseTermStateSerializer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_getBaseDocStartFP_16939d9d0a9a9721,
-              mid_getBasePayStartFP_16939d9d0a9a9721,
-              mid_getBasePosStartFP_16939d9d0a9a9721,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_ramBytesUsed_89b2407edf6c4fd8,
-              mid_readTermState_dbe608aa9c50c48f,
-              mid_resetBaseStartFP_3720c61b0679eb3e,
-              mid_writeTermState_b9c977a1912a404c,
-              mid_reset_9b728fb628220bb9,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_getBaseDocStartFP_0f176418e3e16541,
+              mid_getBasePayStartFP_0f176418e3e16541,
+              mid_getBasePosStartFP_0f176418e3e16541,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_ramBytesUsed_066d3aa6477974b9,
+              mid_readTermState_7bf3ff41a062be7d,
+              mid_resetBaseStartFP_e7bdbe105ce1bafb,
+              mid_writeTermState_25adc0c8ca555fb7,
+              mid_reset_b032a835b852af14,
               max_mid
             };
 

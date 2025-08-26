@@ -31,11 +31,11 @@ namespace org {
           class EdgeNGramTokenFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_040618eef88cc819,
-              mid_init$_56aed4637f8f1e44,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_40ae3e19a9468a36,
+              mid_init$_a5a9f45da9cd84ef,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

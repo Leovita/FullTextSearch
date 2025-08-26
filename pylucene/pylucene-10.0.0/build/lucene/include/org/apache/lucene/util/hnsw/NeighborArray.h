@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace io {
-    class IOException;
   }
 }
 namespace org {
@@ -34,15 +34,15 @@ namespace org {
           class NeighborArray : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_2936d2706a18a684,
-              mid_addAndEnsureDiversity_aeeff243a8e3815e,
-              mid_addInOrder_06e0b8d4c1d7906b,
-              mid_addOutOfOrder_06e0b8d4c1d7906b,
-              mid_clear_3720c61b0679eb3e,
-              mid_nodes_623cd4a044ba647a,
-              mid_scores_808165844ea67079,
-              mid_size_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_a0fed0a2cd38e7b1,
+              mid_addAndEnsureDiversity_7a8146e28f6eea21,
+              mid_addInOrder_a18b0cdf76a9509e,
+              mid_addOutOfOrder_a18b0cdf76a9509e,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_nodes_4b72a28a860ae838,
+              mid_scores_67d89dc3894661ff,
+              mid_size_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

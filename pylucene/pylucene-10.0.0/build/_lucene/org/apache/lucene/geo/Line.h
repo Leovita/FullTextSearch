@@ -20,17 +20,17 @@ namespace org {
         class Line : public ::org::apache::lucene::geo::LatLonGeometry {
          public:
           enum {
-            mid_init$_ad2d0338280f2fc5,
-            mid_equals_570b5248a6da3ef6,
-            mid_getLat_788f636887bfcb79,
-            mid_getLats_165feea9de2d0727,
-            mid_getLon_788f636887bfcb79,
-            mid_getLons_165feea9de2d0727,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_numPoints_20fbf7565993c3d7,
-            mid_toGeoJSON_09a7afff1868fc5e,
-            mid_toString_09a7afff1868fc5e,
-            mid_toComponent2D_2671ab2559e4bc09,
+            mid_init$_2ab7019da1ed085a,
+            mid_equals_00d17418847797d4,
+            mid_getLat_3bb466f769ef1c7f,
+            mid_getLats_1d737fde75f82f40,
+            mid_getLon_3bb466f769ef1c7f,
+            mid_getLons_1d737fde75f82f40,
+            mid_hashCode_bd89ce15dad49192,
+            mid_numPoints_bd89ce15dad49192,
+            mid_toGeoJSON_e7df854526d67fa3,
+            mid_toString_e7df854526d67fa3,
+            mid_toComponent2D_826bc66e4432f11e,
             max_mid
           };
 

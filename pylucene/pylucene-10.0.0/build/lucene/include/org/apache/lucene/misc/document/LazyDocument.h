@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace index {
         class IndexableField;
-        class IndexReader;
         class FieldInfo;
+        class IndexReader;
       }
     }
   }
@@ -30,8 +30,8 @@ namespace org {
           class LazyDocument : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b6bd9d0f612ee94b,
-              mid_getField_6716fa951f326d8f,
+              mid_init$_80cf64f87a30d001,
+              mid_getField_df69c9938d2a264f,
               max_mid
             };
 

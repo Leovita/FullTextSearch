@@ -34,11 +34,11 @@ namespace org {
           class FlatFieldVectorsWriter : public ::org::apache::lucene::codecs::KnnFieldVectorsWriter {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_finish_3720c61b0679eb3e,
-              mid_getDocsWithFieldSet_d114228d8da60e8b,
-              mid_getVectors_36830460e10839eb,
-              mid_isFinished_947277eca0748c4e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_getDocsWithFieldSet_3484fcca01236627,
+              mid_getVectors_1387e1e2702ac173,
+              mid_isFinished_9aa4f33e82ea333f,
               max_mid
             };
 

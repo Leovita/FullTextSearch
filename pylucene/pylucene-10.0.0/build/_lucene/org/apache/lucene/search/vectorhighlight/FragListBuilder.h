@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace vectorhighlight {
-          class FieldPhraseList;
           class FieldFragList;
+          class FieldPhraseList;
         }
       }
     }
@@ -31,7 +31,7 @@ namespace org {
           class FragListBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_createFieldFragList_a32628d4e7bb72d2,
+              mid_createFieldFragList_3443c6eb81eeadeb,
               max_mid
             };
 

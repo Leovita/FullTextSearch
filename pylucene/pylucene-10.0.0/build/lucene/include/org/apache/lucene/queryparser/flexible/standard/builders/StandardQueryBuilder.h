@@ -3,6 +3,11 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/builders/QueryBuilder.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,19 +17,14 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
+            class QueryNodeException;
             namespace nodes {
               class QueryNode;
             }
-            class QueryNodeException;
           }
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -40,7 +40,7 @@ namespace org {
               class StandardQueryBuilder : public ::org::apache::lucene::queryparser::flexible::core::builders::QueryBuilder {
                public:
                 enum {
-                  mid_build_636e329e1785ccb4,
+                  mid_build_050a652615652adb,
                   max_mid
                 };
 

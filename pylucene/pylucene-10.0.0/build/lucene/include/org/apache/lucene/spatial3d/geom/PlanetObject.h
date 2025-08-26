@@ -30,7 +30,7 @@ namespace org {
           class PlanetObject : public ::org::apache::lucene::spatial3d::geom::SerializableObject {
            public:
             enum {
-              mid_getPlanetModel_34d67eb8d4783247,
+              mid_getPlanetModel_43dd43afc5796af5,
               max_mid
             };
 

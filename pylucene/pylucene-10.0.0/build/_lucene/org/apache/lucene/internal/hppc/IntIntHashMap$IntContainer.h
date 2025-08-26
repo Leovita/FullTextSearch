@@ -32,9 +32,9 @@ namespace org {
           class IntIntHashMap$IntContainer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_e64000e07a51e58e,
-              mid_size_20fbf7565993c3d7,
-              mid_toArray_623cd4a044ba647a,
+              mid_init$_0c20f8e915fe8507,
+              mid_size_bd89ce15dad49192,
+              mid_toArray_4b72a28a860ae838,
               max_mid
             };
 

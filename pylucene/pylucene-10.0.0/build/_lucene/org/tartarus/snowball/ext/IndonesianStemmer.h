@@ -19,15 +19,15 @@ namespace org {
         class IndonesianStemmer : public ::org::tartarus::snowball::SnowballStemmer {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_r_KER_947277eca0748c4e,
-            mid_r_SUFFIX_AN_OK_947277eca0748c4e,
-            mid_r_SUFFIX_I_OK_947277eca0748c4e,
-            mid_r_SUFFIX_KAN_OK_947277eca0748c4e,
-            mid_r_VOWEL_947277eca0748c4e,
-            mid_stem_947277eca0748c4e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_r_KER_9aa4f33e82ea333f,
+            mid_r_SUFFIX_AN_OK_9aa4f33e82ea333f,
+            mid_r_SUFFIX_I_OK_9aa4f33e82ea333f,
+            mid_r_SUFFIX_KAN_OK_9aa4f33e82ea333f,
+            mid_r_VOWEL_9aa4f33e82ea333f,
+            mid_stem_9aa4f33e82ea333f,
             max_mid
           };
 

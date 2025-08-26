@@ -5,11 +5,11 @@
 
 namespace java {
   namespace lang {
-    class Class;
-    class String;
-    class Number;
     class Object;
+    class Class;
+    class Number;
     class StringBuffer;
+    class String;
   }
   namespace util {
     class Currency;
@@ -23,42 +23,45 @@ namespace java {
     class DecimalFormat : public ::java::text::NumberFormat {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_0d82408c6e55bc30,
-        mid_applyLocalizedPattern_0d82408c6e55bc30,
-        mid_applyPattern_0d82408c6e55bc30,
-        mid_clone_5655ed8670534604,
-        mid_equals_570b5248a6da3ef6,
-        mid_getCurrency_a3e058b826a2a60f,
-        mid_getGroupingSize_20fbf7565993c3d7,
-        mid_getMaximumFractionDigits_20fbf7565993c3d7,
-        mid_getMaximumIntegerDigits_20fbf7565993c3d7,
-        mid_getMinimumFractionDigits_20fbf7565993c3d7,
-        mid_getMinimumIntegerDigits_20fbf7565993c3d7,
-        mid_getMultiplier_20fbf7565993c3d7,
-        mid_getNegativePrefix_09a7afff1868fc5e,
-        mid_getNegativeSuffix_09a7afff1868fc5e,
-        mid_getPositivePrefix_09a7afff1868fc5e,
-        mid_getPositiveSuffix_09a7afff1868fc5e,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isDecimalSeparatorAlwaysShown_947277eca0748c4e,
-        mid_isParseBigDecimal_947277eca0748c4e,
-        mid_setCurrency_21045b2434fa5a39,
-        mid_setDecimalSeparatorAlwaysShown_b110fc3a58c081ab,
-        mid_setGroupingSize_540b2b23d51b1efd,
-        mid_setGroupingUsed_b110fc3a58c081ab,
-        mid_setMaximumFractionDigits_540b2b23d51b1efd,
-        mid_setMaximumIntegerDigits_540b2b23d51b1efd,
-        mid_setMinimumFractionDigits_540b2b23d51b1efd,
-        mid_setMinimumIntegerDigits_540b2b23d51b1efd,
-        mid_setMultiplier_540b2b23d51b1efd,
-        mid_setNegativePrefix_0d82408c6e55bc30,
-        mid_setNegativeSuffix_0d82408c6e55bc30,
-        mid_setParseBigDecimal_b110fc3a58c081ab,
-        mid_setPositivePrefix_0d82408c6e55bc30,
-        mid_setPositiveSuffix_0d82408c6e55bc30,
-        mid_toLocalizedPattern_09a7afff1868fc5e,
-        mid_toPattern_09a7afff1868fc5e,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_ee46a189998009d6,
+        mid_applyLocalizedPattern_ee46a189998009d6,
+        mid_applyPattern_ee46a189998009d6,
+        mid_clone_4819806f62f1360a,
+        mid_equals_00d17418847797d4,
+        mid_getCurrency_ac0abfec5849b895,
+        mid_getGroupingSize_bd89ce15dad49192,
+        mid_getMaximumFractionDigits_bd89ce15dad49192,
+        mid_getMaximumIntegerDigits_bd89ce15dad49192,
+        mid_getMinimumFractionDigits_bd89ce15dad49192,
+        mid_getMinimumIntegerDigits_bd89ce15dad49192,
+        mid_getMultiplier_bd89ce15dad49192,
+        mid_getNegativePrefix_e7df854526d67fa3,
+        mid_getNegativeSuffix_e7df854526d67fa3,
+        mid_getPositivePrefix_e7df854526d67fa3,
+        mid_getPositiveSuffix_e7df854526d67fa3,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isDecimalSeparatorAlwaysShown_9aa4f33e82ea333f,
+        mid_isParseBigDecimal_9aa4f33e82ea333f,
+        mid_isStrict_9aa4f33e82ea333f,
+        mid_setCurrency_9d1207d1a857fe11,
+        mid_setDecimalSeparatorAlwaysShown_f5dd97eebf6a215a,
+        mid_setGroupingSize_8226bd0b0fc13dba,
+        mid_setGroupingUsed_f5dd97eebf6a215a,
+        mid_setMaximumFractionDigits_8226bd0b0fc13dba,
+        mid_setMaximumIntegerDigits_8226bd0b0fc13dba,
+        mid_setMinimumFractionDigits_8226bd0b0fc13dba,
+        mid_setMinimumIntegerDigits_8226bd0b0fc13dba,
+        mid_setMultiplier_8226bd0b0fc13dba,
+        mid_setNegativePrefix_ee46a189998009d6,
+        mid_setNegativeSuffix_ee46a189998009d6,
+        mid_setParseBigDecimal_f5dd97eebf6a215a,
+        mid_setPositivePrefix_ee46a189998009d6,
+        mid_setPositiveSuffix_ee46a189998009d6,
+        mid_setStrict_f5dd97eebf6a215a,
+        mid_toLocalizedPattern_e7df854526d67fa3,
+        mid_toPattern_e7df854526d67fa3,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 
@@ -94,6 +97,7 @@ namespace java {
       jint hashCode() const;
       jboolean isDecimalSeparatorAlwaysShown() const;
       jboolean isParseBigDecimal() const;
+      jboolean isStrict() const;
       void setCurrency(const ::java::util::Currency &) const;
       void setDecimalSeparatorAlwaysShown(jboolean) const;
       void setGroupingSize(jint) const;
@@ -108,8 +112,10 @@ namespace java {
       void setParseBigDecimal(jboolean) const;
       void setPositivePrefix(const ::java::lang::String &) const;
       void setPositiveSuffix(const ::java::lang::String &) const;
+      void setStrict(jboolean) const;
       ::java::lang::String toLocalizedPattern() const;
       ::java::lang::String toPattern() const;
+      ::java::lang::String toString() const;
     };
   }
 }

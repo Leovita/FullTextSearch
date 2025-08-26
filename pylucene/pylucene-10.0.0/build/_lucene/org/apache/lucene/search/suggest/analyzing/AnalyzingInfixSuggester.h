@@ -6,42 +6,42 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace store {
-        class DataInput;
-        class DataOutput;
-        class Directory;
-      }
       namespace search {
-        class BooleanQuery$Builder;
+        class BooleanClause$Occur;
         namespace suggest {
           class InputIterator;
           class Lookup$LookupResult;
         }
         class BooleanQuery;
-        class BooleanClause$Occur;
+        class BooleanQuery$Builder;
+      }
+      namespace store {
+        class Directory;
+        class DataInput;
+        class DataOutput;
       }
       namespace analysis {
         class Analyzer;
+      }
+      namespace util {
+        class BytesRef;
       }
     }
   }
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
     class CharSequence;
   }
   namespace util {
-    class List;
-    class Set;
     class Map;
+    class Set;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -56,36 +56,36 @@ namespace org {
             class AnalyzingInfixSuggester : public ::org::apache::lucene::search::suggest::Lookup {
              public:
               enum {
-                mid_init$_a23cdc2340ed50ac,
-                mid_init$_6047fb825f6e9454,
-                mid_init$_f58a9b9e2e0799bf,
-                mid_init$_3968546b677d35ae,
-                mid_add_93f3207828da4b58,
-                mid_addContextToQuery_667494fe54425f41,
-                mid_build_ccfc0be4d7c5ce8c,
-                mid_close_3720c61b0679eb3e,
-                mid_commit_3720c61b0679eb3e,
-                mid_getCount_16939d9d0a9a9721,
-                mid_load_cc655a2984ac0be1,
-                mid_lookup_ffaa661bc9480cb8,
-                mid_lookup_51465de8e2d90cbd,
-                mid_lookup_2fb7a4da1831fc59,
-                mid_lookup_fc4b9325750abfb8,
-                mid_lookup_21dea9664d0b635d,
-                mid_ramBytesUsed_16939d9d0a9a9721,
-                mid_refresh_3720c61b0679eb3e,
-                mid_store_0269cfd2080fde14,
-                mid_update_93f3207828da4b58,
-                mid_highlight_8760f097ca642dcf,
-                mid_getTextFieldType_2c48559fc9452bd5,
-                mid_getLastTokenQuery_171433ef85015467,
-                mid_finishQuery_91c2e2c451acdb5f,
-                mid_createResults_6e2cd9fbefb52e3d,
-                mid_addNonMatch_b8f794889a4eed26,
-                mid_addWholeMatch_074ce4651b8e3989,
-                mid_addPrefixMatch_890242b398d71df4,
-                mid_getDirectory_8c6770f58fa6abf8,
-                mid_getIndexWriterConfig_b669c78b963b2423,
+                mid_init$_0d5e41ccc32bd900,
+                mid_init$_f4f2ccc6f95929fb,
+                mid_init$_c31d14a57b9f1b2c,
+                mid_init$_e40ad15b2dd1127f,
+                mid_add_a2b33be47f58b7be,
+                mid_addContextToQuery_80207fc039cc7b04,
+                mid_build_3b81cca33403847f,
+                mid_close_e7bdbe105ce1bafb,
+                mid_commit_e7bdbe105ce1bafb,
+                mid_getCount_0f176418e3e16541,
+                mid_load_bcc888246f25b924,
+                mid_lookup_9870600db152a8e4,
+                mid_lookup_0b5d66b5da4a3286,
+                mid_lookup_69499ac9ec5cc8d4,
+                mid_lookup_6fbcdb5c4a619b49,
+                mid_lookup_3d6ae8859315914b,
+                mid_ramBytesUsed_0f176418e3e16541,
+                mid_refresh_e7bdbe105ce1bafb,
+                mid_store_9bc74ef63311a7a4,
+                mid_update_a2b33be47f58b7be,
+                mid_getIndexWriterConfig_8506e478aa870a95,
+                mid_getTextFieldType_1856aa2ed33f6865,
+                mid_getLastTokenQuery_9b1de8e0d58e515c,
+                mid_finishQuery_d5a8402cca43f073,
+                mid_createResults_33e0f096e9c09495,
+                mid_addNonMatch_7620fb3ac97e2c09,
+                mid_addWholeMatch_faf1671838846da2,
+                mid_addPrefixMatch_7ba8b433e9611fec,
+                mid_highlight_e1f01d2a7e9615f5,
+                mid_getDirectory_ab9ca0aec1f0fb15,
                 max_mid
               };
 

@@ -28,8 +28,8 @@ namespace org {
         class Field$Store : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_156deacc9cea87ed,
-            mid_values_15f7ddece94bd206,
+            mid_valueOf_243e3bfbb1802e12,
+            mid_values_6e01311068c007a6,
             max_mid
           };
 

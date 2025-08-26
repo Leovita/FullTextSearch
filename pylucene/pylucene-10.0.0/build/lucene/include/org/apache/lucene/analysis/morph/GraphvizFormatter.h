@@ -8,10 +8,10 @@ namespace org {
     namespace lucene {
       namespace analysis {
         namespace morph {
-          class Viterbi$WrappedPositionArray;
-          class GraphvizFormatter$DictionaryProvider;
           class Viterbi$Position;
+          class GraphvizFormatter$DictionaryProvider;
           class ConnectionCosts;
+          class Viterbi$WrappedPositionArray;
         }
       }
     }
@@ -34,9 +34,9 @@ namespace org {
           class GraphvizFormatter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_5cd0096a3b46e885,
-              mid_finish_09a7afff1868fc5e,
-              mid_onBacktrace_f898ba81bcce9cf5,
+              mid_init$_8476a9a051f2989d,
+              mid_finish_e7df854526d67fa3,
+              mid_onBacktrace_9039961e8dc969f1,
               max_mid
             };
 

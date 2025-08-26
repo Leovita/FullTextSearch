@@ -31,8 +31,8 @@ namespace org {
           class TopGroups$ScoreMergeMode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_bbb233864592215b,
-              mid_values_d2b09d0b64e2e87d,
+              mid_valueOf_cc5a179d01dc93bc,
+              mid_values_3ff320e09ebcf57f,
               max_mid
             };
 

@@ -31,7 +31,7 @@ namespace org {
           class IndexDictionary$Browser : public ::java::lang::Object {
            public:
             enum {
-              mid_seekBlock_7595cb5441b08443,
+              mid_seekBlock_8c6e1447894d7a38,
               max_mid
             };
 

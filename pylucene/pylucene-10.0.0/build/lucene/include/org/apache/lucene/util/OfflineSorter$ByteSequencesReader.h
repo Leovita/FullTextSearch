@@ -3,6 +3,16 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class Closeable;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,16 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -36,9 +36,9 @@ namespace org {
         class OfflineSorter$ByteSequencesReader : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_e70df86dc12d6f38,
-            mid_close_3720c61b0679eb3e,
-            mid_next_9740fddd1c7df148,
+            mid_init$_5d2d252bb0721e01,
+            mid_close_e7bdbe105ce1bafb,
+            mid_next_adbedbc1fa61c358,
             max_mid
           };
 

@@ -8,14 +8,14 @@ namespace org {
     namespace lucene {
       namespace sandbox {
         namespace facet {
+          namespace recorders {
+            class FacetRecorder;
+          }
           namespace labels {
             class LabelToOrd;
           }
           namespace iterators {
             class OrdinalIterator;
-          }
-          namespace recorders {
-            class FacetRecorder;
           }
         }
       }
@@ -28,11 +28,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -47,8 +47,8 @@ namespace org {
             class CandidateSetOrdinalIterator : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_b6eb707d4512fd12,
-                mid_nextOrd_20fbf7565993c3d7,
+                mid_init$_a38e358865ab15fe,
+                mid_nextOrd_bd89ce15dad49192,
                 max_mid
               };
 

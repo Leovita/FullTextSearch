@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/queries/spans/SpanContainQuery.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -28,6 +19,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -39,9 +39,9 @@ namespace org {
           class SpanWithinQuery : public ::org::apache::lucene::queries::spans::SpanContainQuery {
            public:
             enum {
-              mid_init$_1a11072446ea80b0,
-              mid_createWeight_d7dfaaf9476f49d4,
-              mid_toString_cb0eb1432185fc94,
+              mid_init$_e1ad395c4cae76d2,
+              mid_createWeight_b33c2c90db0d1d7e,
+              mid_toString_fef9c036acf290a9,
               max_mid
             };
 

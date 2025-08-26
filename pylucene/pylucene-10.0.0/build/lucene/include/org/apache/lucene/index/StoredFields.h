@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class StoredFieldVisitor;
+      }
+      namespace document {
+        class Document;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
     class Set;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace document {
-        class Document;
-      }
-      namespace index {
-        class StoredFieldVisitor;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
         class StoredFields : public ::java::lang::Object {
          public:
           enum {
-            mid_document_8c1712391a08c567,
-            mid_document_94ed5009dd10cb1f,
-            mid_document_514d263b59fa481e,
-            mid_prefetch_540b2b23d51b1efd,
+            mid_document_9aa9737cef56c986,
+            mid_document_78d5bbf2e2144955,
+            mid_document_22bc9f12f0b49d38,
+            mid_prefetch_8226bd0b0fc13dba,
             max_mid
           };
 

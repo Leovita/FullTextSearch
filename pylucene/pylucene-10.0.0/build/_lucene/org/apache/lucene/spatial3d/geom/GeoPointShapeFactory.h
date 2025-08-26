@@ -31,7 +31,7 @@ namespace org {
           class GeoPointShapeFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_makeGeoPointShape_8a20692267b8221a,
+              mid_makeGeoPointShape_296f861a2db372af,
               max_mid
             };
 

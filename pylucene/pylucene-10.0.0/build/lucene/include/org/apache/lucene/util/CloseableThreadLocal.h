@@ -21,11 +21,11 @@ namespace org {
         class CloseableThreadLocal : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_get_5655ed8670534604,
-            mid_set_eb61ef4d1db15d08,
-            mid_initialValue_5655ed8670534604,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_get_4819806f62f1360a,
+            mid_set_501c3eb890ff6d79,
+            mid_initialValue_4819806f62f1360a,
             max_mid
           };
 

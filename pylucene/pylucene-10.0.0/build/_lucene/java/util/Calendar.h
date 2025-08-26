@@ -5,22 +5,22 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
-    class Integer;
+    class Cloneable;
     class Class;
     class String;
-    class Cloneable;
+    class Integer;
+    class Comparable;
+  }
+  namespace util {
+    class Calendar;
+    class TimeZone;
+    class Set;
+    class Map;
+    class Date;
+    class Locale;
   }
   namespace io {
     class Serializable;
-  }
-  namespace util {
-    class Set;
-    class Calendar;
-    class Date;
-    class TimeZone;
-    class Locale;
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -31,59 +31,59 @@ namespace java {
     class Calendar : public ::java::lang::Object {
      public:
       enum {
-        mid_add_e13cff512ebda969,
-        mid_after_570b5248a6da3ef6,
-        mid_before_570b5248a6da3ef6,
-        mid_clear_3720c61b0679eb3e,
-        mid_clear_540b2b23d51b1efd,
-        mid_clone_5655ed8670534604,
-        mid_compareTo_fc1015d9a72fb3f2,
-        mid_equals_570b5248a6da3ef6,
-        mid_get_3c9bba330f083871,
-        mid_getActualMaximum_3c9bba330f083871,
-        mid_getActualMinimum_3c9bba330f083871,
-        mid_getAvailableCalendarTypes_4df174295554d7bd,
-        mid_getAvailableLocales_3d06acbf6689fb6c,
-        mid_getCalendarType_09a7afff1868fc5e,
-        mid_getDisplayName_71dfc9f9246f2143,
-        mid_getDisplayNames_12694bf4b31d620e,
-        mid_getFirstDayOfWeek_20fbf7565993c3d7,
-        mid_getGreatestMinimum_3c9bba330f083871,
-        mid_getInstance_68b1de69c25d64fe,
-        mid_getInstance_cad38beac82a8daf,
-        mid_getInstance_3e6930141b1ce596,
-        mid_getInstance_6875b19ce2231950,
-        mid_getLeastMaximum_3c9bba330f083871,
-        mid_getMaximum_3c9bba330f083871,
-        mid_getMinimalDaysInFirstWeek_20fbf7565993c3d7,
-        mid_getMinimum_3c9bba330f083871,
-        mid_getTime_b1a29ae88bce8845,
-        mid_getTimeInMillis_16939d9d0a9a9721,
-        mid_getTimeZone_1559a29f5a26b141,
-        mid_getWeekYear_20fbf7565993c3d7,
-        mid_getWeeksInWeekYear_20fbf7565993c3d7,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isLenient_947277eca0748c4e,
-        mid_isSet_ae22d3a856ad56f1,
-        mid_isWeekDateSupported_947277eca0748c4e,
-        mid_roll_2936d2706a18a684,
-        mid_roll_e13cff512ebda969,
-        mid_set_e13cff512ebda969,
-        mid_set_20022b6d5e83c732,
-        mid_set_72ee9ac0ab46178d,
-        mid_set_17f4c98262ae0176,
-        mid_setFirstDayOfWeek_540b2b23d51b1efd,
-        mid_setLenient_b110fc3a58c081ab,
-        mid_setMinimalDaysInFirstWeek_540b2b23d51b1efd,
-        mid_setTime_73ec58a0e10908e8,
-        mid_setTimeInMillis_8b3d46852b435a94,
-        mid_setTimeZone_1bdebe6495070eda,
-        mid_setWeekDate_20022b6d5e83c732,
-        mid_toString_09a7afff1868fc5e,
-        mid_computeFields_3720c61b0679eb3e,
-        mid_complete_3720c61b0679eb3e,
-        mid_internalGet_3c9bba330f083871,
-        mid_computeTime_3720c61b0679eb3e,
+        mid_add_645c25455f5b9b1c,
+        mid_after_00d17418847797d4,
+        mid_before_00d17418847797d4,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_clear_8226bd0b0fc13dba,
+        mid_clone_4819806f62f1360a,
+        mid_compareTo_57091670b677b572,
+        mid_equals_00d17418847797d4,
+        mid_get_a3904e10f5bb9437,
+        mid_getActualMaximum_a3904e10f5bb9437,
+        mid_getActualMinimum_a3904e10f5bb9437,
+        mid_getAvailableCalendarTypes_79131c6bbcf08916,
+        mid_getAvailableLocales_0daa090ed7228b3c,
+        mid_getCalendarType_e7df854526d67fa3,
+        mid_getDisplayName_78024c093619088e,
+        mid_getDisplayNames_bb83de3fc948cac8,
+        mid_getFirstDayOfWeek_bd89ce15dad49192,
+        mid_getGreatestMinimum_a3904e10f5bb9437,
+        mid_getInstance_8ef7c49dee6fc64b,
+        mid_getInstance_0f4853a7903feae4,
+        mid_getInstance_ea67d832889969e2,
+        mid_getInstance_f9f44e279c723795,
+        mid_getLeastMaximum_a3904e10f5bb9437,
+        mid_getMaximum_a3904e10f5bb9437,
+        mid_getMinimalDaysInFirstWeek_bd89ce15dad49192,
+        mid_getMinimum_a3904e10f5bb9437,
+        mid_getTime_249cf4b57f672fa8,
+        mid_getTimeInMillis_0f176418e3e16541,
+        mid_getTimeZone_f0ab2fb84439b1af,
+        mid_getWeekYear_bd89ce15dad49192,
+        mid_getWeeksInWeekYear_bd89ce15dad49192,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isLenient_9aa4f33e82ea333f,
+        mid_isSet_a8281eb3b9d9672d,
+        mid_isWeekDateSupported_9aa4f33e82ea333f,
+        mid_roll_a0fed0a2cd38e7b1,
+        mid_roll_645c25455f5b9b1c,
+        mid_set_645c25455f5b9b1c,
+        mid_set_eee637a6cebc299b,
+        mid_set_5c6dd1f9c6fe9da0,
+        mid_set_59bee586f916c4bf,
+        mid_setFirstDayOfWeek_8226bd0b0fc13dba,
+        mid_setLenient_f5dd97eebf6a215a,
+        mid_setMinimalDaysInFirstWeek_8226bd0b0fc13dba,
+        mid_setTime_f2e9215b4fe15a2c,
+        mid_setTimeInMillis_1d3149fac12f2af3,
+        mid_setTimeZone_6bae4ff1843f5310,
+        mid_setWeekDate_eee637a6cebc299b,
+        mid_toString_e7df854526d67fa3,
+        mid_computeFields_e7bdbe105ce1bafb,
+        mid_complete_e7bdbe105ce1bafb,
+        mid_internalGet_a3904e10f5bb9437,
+        mid_computeTime_e7bdbe105ce1bafb,
         max_mid
       };
 

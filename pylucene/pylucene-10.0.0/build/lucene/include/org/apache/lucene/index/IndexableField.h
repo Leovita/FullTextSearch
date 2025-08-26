@@ -3,35 +3,35 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+    class CharSequence;
+  }
+  namespace io {
+    class Reader;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
+      namespace analysis {
+        class TokenStream;
+        class Analyzer;
       }
       namespace document {
-        class InvertableType;
         class StoredValue;
+        class InvertableType;
+      }
+      namespace util {
+        class BytesRef;
       }
       namespace index {
         class IndexableFieldType;
       }
-      namespace analysis {
-        class Analyzer;
-        class TokenStream;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class Number;
-  }
-  namespace io {
-    class Reader;
   }
 }
 template<class T> class JArray;
@@ -44,16 +44,16 @@ namespace org {
         class IndexableField : public ::java::lang::Object {
          public:
           enum {
-            mid_binaryValue_9740fddd1c7df148,
-            mid_fieldType_231a8407c689c49d,
-            mid_getCharSequenceValue_373f0038978f926b,
-            mid_invertableType_72515c0beb0174e7,
-            mid_name_09a7afff1868fc5e,
-            mid_numericValue_1b3282bb4db06655,
-            mid_readerValue_2493c69d5db06811,
-            mid_storedValue_c117239a18be2fcb,
-            mid_stringValue_09a7afff1868fc5e,
-            mid_tokenStream_675528819f96fe99,
+            mid_binaryValue_adbedbc1fa61c358,
+            mid_fieldType_fa2f4688e330515c,
+            mid_getCharSequenceValue_f2e5418fe0d66c69,
+            mid_invertableType_6d1985fbf4a5f74d,
+            mid_name_e7df854526d67fa3,
+            mid_numericValue_b9665294ea488d3c,
+            mid_readerValue_58cfbaca8545e054,
+            mid_storedValue_71ce58210dba1993,
+            mid_stringValue_e7df854526d67fa3,
+            mid_tokenStream_c33c4c82a743c93e,
             max_mid
           };
 

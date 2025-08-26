@@ -7,17 +7,17 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class LeafCollector;
         class ScoreMode;
+        class LeafCollector;
         class Collector;
       }
       namespace sandbox {
         namespace facet {
-          namespace cutters {
-            class FacetCutter;
-          }
           namespace recorders {
             class FacetRecorder;
+          }
+          namespace cutters {
+            class FacetCutter;
           }
         }
       }
@@ -46,9 +46,9 @@ namespace org {
           class FacetFieldCollector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_a8d99d9e353cf73d,
-              mid_getLeafCollector_aca3f888603431e1,
-              mid_scoreMode_45dfdcf7e901559d,
+              mid_init$_91412e55a40ffdf1,
+              mid_getLeafCollector_0a34433e6da38be9,
+              mid_scoreMode_23e7061dcdc84768,
               max_mid
             };
 

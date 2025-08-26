@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/search/uhighlight/FieldOffsetStrategy.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,15 +28,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -39,8 +39,8 @@ namespace org {
           class NoOpOffsetStrategy : public ::org::apache::lucene::search::uhighlight::FieldOffsetStrategy {
            public:
             enum {
-              mid_getOffsetSource_77a619b338f9ed68,
-              mid_getOffsetsEnum_717b49b3028aff18,
+              mid_getOffsetSource_e52a710f16ce6a53,
+              mid_getOffsetsEnum_5610a28ef32aa7b7,
               max_mid
             };
 

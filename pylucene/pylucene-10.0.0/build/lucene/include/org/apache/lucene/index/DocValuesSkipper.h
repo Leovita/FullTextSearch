@@ -21,18 +21,18 @@ namespace org {
         class DocValuesSkipper : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_advance_540b2b23d51b1efd,
-            mid_advance_c3501637982a28bc,
-            mid_docCount_20fbf7565993c3d7,
-            mid_docCount_3c9bba330f083871,
-            mid_maxDocID_3c9bba330f083871,
-            mid_maxValue_16939d9d0a9a9721,
-            mid_maxValue_7b22650fccb5d574,
-            mid_minDocID_3c9bba330f083871,
-            mid_minValue_16939d9d0a9a9721,
-            mid_minValue_7b22650fccb5d574,
-            mid_numLevels_20fbf7565993c3d7,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_advance_8226bd0b0fc13dba,
+            mid_advance_9ebf8c93de5f0fe1,
+            mid_docCount_bd89ce15dad49192,
+            mid_docCount_a3904e10f5bb9437,
+            mid_maxDocID_a3904e10f5bb9437,
+            mid_maxValue_0f176418e3e16541,
+            mid_maxValue_49af390f180d8ee7,
+            mid_minDocID_a3904e10f5bb9437,
+            mid_minValue_0f176418e3e16541,
+            mid_minValue_49af390f180d8ee7,
+            mid_numLevels_bd89ce15dad49192,
             max_mid
           };
 

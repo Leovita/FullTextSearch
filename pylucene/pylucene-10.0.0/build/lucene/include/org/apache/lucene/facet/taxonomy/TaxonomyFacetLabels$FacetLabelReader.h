@@ -6,25 +6,25 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class SortedNumericDocValues;
-      }
       namespace facet {
         namespace taxonomy {
-          class FacetLabel;
           class TaxonomyFacetLabels;
+          class FacetLabel;
         }
+      }
+      namespace index {
+        class SortedNumericDocValues;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,9 +38,9 @@ namespace org {
           class TaxonomyFacetLabels$FacetLabelReader : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_c6208f70e3a126ce,
-              mid_nextFacetLabel_c21e0250a0465b0f,
-              mid_nextFacetLabel_f45d07490348b379,
+              mid_init$_bcc4796ab12bc201,
+              mid_nextFacetLabel_6c732e2e2e10e82a,
+              mid_nextFacetLabel_35435fb6afc8ab40,
               max_mid
             };
 

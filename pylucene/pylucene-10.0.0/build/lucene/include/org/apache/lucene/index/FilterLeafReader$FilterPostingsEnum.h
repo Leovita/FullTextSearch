@@ -31,16 +31,16 @@ namespace org {
         class FilterLeafReader$FilterPostingsEnum : public ::org::apache::lucene::index::PostingsEnum {
          public:
           enum {
-            mid_advance_3c9bba330f083871,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_endOffset_20fbf7565993c3d7,
-            mid_freq_20fbf7565993c3d7,
-            mid_getPayload_9740fddd1c7df148,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_nextPosition_20fbf7565993c3d7,
-            mid_startOffset_20fbf7565993c3d7,
-            mid_unwrap_4e8e845e02728bdc,
+            mid_advance_a3904e10f5bb9437,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_endOffset_bd89ce15dad49192,
+            mid_freq_bd89ce15dad49192,
+            mid_getPayload_adbedbc1fa61c358,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_nextPosition_bd89ce15dad49192,
+            mid_startOffset_bd89ce15dad49192,
+            mid_unwrap_b1e913e16fa764af,
             max_mid
           };
 

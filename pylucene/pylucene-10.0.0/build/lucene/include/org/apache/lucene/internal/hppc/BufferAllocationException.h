@@ -6,8 +6,8 @@
 namespace java {
   namespace lang {
     class String;
-    class Object;
     class Throwable;
+    class Object;
     class Class;
   }
 }
@@ -22,9 +22,9 @@ namespace org {
           class BufferAllocationException : public ::java::lang::RuntimeException {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_init$_65857bc096222f13,
-              mid_init$_2b921e30982ab392,
+              mid_init$_ee46a189998009d6,
+              mid_init$_450414b70aae8f27,
+              mid_init$_dcb5edd4091d62c3,
               max_mid
             };
 

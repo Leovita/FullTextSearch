@@ -3,6 +3,20 @@
 
 #include "org/apache/lucene/analysis/morph/BinaryDictionary.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace nio {
+    namespace file {
+      class Path;
+    }
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,20 +32,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace nio {
-    namespace file {
-      class Path;
-    }
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -44,10 +44,10 @@ namespace org {
             class TokenInfoDictionary : public ::org::apache::lucene::analysis::morph::BinaryDictionary {
              public:
               enum {
-                mid_init$_926988d72e858c1a,
-                mid_getFST_446b49327b460db0,
-                mid_getInstance_faaf1cbba29fbddf,
-                mid_getMorphAttributes_9bc5c1e5cb0b5a77,
+                mid_init$_b5d3a37b25c6d7fc,
+                mid_getFST_8b8ed7bf7601ac1c,
+                mid_getInstance_2b74a127ccd58a47,
+                mid_getMorphAttributes_eda9302ed29db3a7,
                 max_mid
               };
 

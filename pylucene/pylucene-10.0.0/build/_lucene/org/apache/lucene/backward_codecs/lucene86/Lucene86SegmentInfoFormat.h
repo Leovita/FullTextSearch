@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/codecs/SegmentInfoFormat.h"
 
-namespace java {
-  namespace io {
-    class IOException;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
+      namespace index {
+        class SegmentInfo;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class SegmentInfo;
-      }
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
-    }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -36,9 +36,9 @@ namespace org {
           class Lucene86SegmentInfoFormat : public ::org::apache::lucene::codecs::SegmentInfoFormat {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_read_dbeaadcd3794a0db,
-              mid_write_a9ba310ae9ac5967,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_read_8cc58b2bec0a3e10,
+              mid_write_0915fb04c93214b0,
               max_mid
             };
 

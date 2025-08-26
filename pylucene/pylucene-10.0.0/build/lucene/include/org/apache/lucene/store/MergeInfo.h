@@ -20,14 +20,14 @@ namespace org {
         class MergeInfo : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_97af632bcea28c55,
-            mid_equals_570b5248a6da3ef6,
-            mid_estimatedMergeBytes_16939d9d0a9a9721,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isExternal_947277eca0748c4e,
-            mid_mergeMaxNumSegments_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_totalMaxDoc_20fbf7565993c3d7,
+            mid_init$_9ac21abeca443e95,
+            mid_equals_00d17418847797d4,
+            mid_estimatedMergeBytes_0f176418e3e16541,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isExternal_9aa4f33e82ea333f,
+            mid_mergeMaxNumSegments_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_totalMaxDoc_bd89ce15dad49192,
             max_mid
           };
 

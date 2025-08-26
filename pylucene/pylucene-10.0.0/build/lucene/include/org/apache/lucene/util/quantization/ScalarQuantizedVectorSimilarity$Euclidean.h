@@ -30,8 +30,8 @@ namespace org {
           class ScalarQuantizedVectorSimilarity$Euclidean : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_c771a95b0227fb6a,
-              mid_score_ce358dca2a169081,
+              mid_init$_675f4cb9a2529ee0,
+              mid_score_c247ce6006875fda,
               max_mid
             };
 

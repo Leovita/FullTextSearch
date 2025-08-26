@@ -3,28 +3,28 @@
 
 #include "org/apache/lucene/search/Query.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class TermsEnum;
         class Terms;
+        class TermsEnum;
       }
       namespace search {
         class MultiTermQuery$RewriteMethod;
         class IndexSearcher;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -37,15 +37,15 @@ namespace org {
         class MultiTermQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_init$_93b454caa66da7ff,
-            mid_equals_570b5248a6da3ef6,
-            mid_getField_09a7afff1868fc5e,
-            mid_getRewriteMethod_69f9b567563cc3af,
-            mid_getTermsCount_16939d9d0a9a9721,
-            mid_getTermsEnum_2c853141fa689f1e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_getTermsEnum_b346bdb4749db660,
+            mid_init$_4d710c70561a9b13,
+            mid_equals_00d17418847797d4,
+            mid_getField_e7df854526d67fa3,
+            mid_getRewriteMethod_cdae28086b3bbe9c,
+            mid_getTermsCount_0f176418e3e16541,
+            mid_getTermsEnum_46ef391d247cbb49,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_getTermsEnum_05b4875ff8d0c914,
             max_mid
           };
 

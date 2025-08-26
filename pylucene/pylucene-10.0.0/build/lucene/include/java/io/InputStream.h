@@ -5,10 +5,10 @@
 
 namespace java {
   namespace io {
-    class InputStream;
-    class IOException;
     class Closeable;
+    class IOException;
     class OutputStream;
+    class InputStream;
   }
   namespace lang {
     class Class;
@@ -22,22 +22,22 @@ namespace java {
     class InputStream : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_available_20fbf7565993c3d7,
-        mid_close_3720c61b0679eb3e,
-        mid_mark_540b2b23d51b1efd,
-        mid_markSupported_947277eca0748c4e,
-        mid_nullInputStream_13f722253d099a7c,
-        mid_read_20fbf7565993c3d7,
-        mid_read_05c267a0584e092f,
-        mid_read_a8eecdc69feea090,
-        mid_readAllBytes_5560da88fc44aa82,
-        mid_readNBytes_81e4ab9dd381561f,
-        mid_readNBytes_a8eecdc69feea090,
-        mid_reset_3720c61b0679eb3e,
-        mid_skip_91d66fa3ea476cea,
-        mid_skipNBytes_8b3d46852b435a94,
-        mid_transferTo_6f2b60168d414826,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_available_bd89ce15dad49192,
+        mid_close_e7bdbe105ce1bafb,
+        mid_mark_8226bd0b0fc13dba,
+        mid_markSupported_9aa4f33e82ea333f,
+        mid_nullInputStream_e6d5d6822aa2b5dc,
+        mid_read_bd89ce15dad49192,
+        mid_read_9878f7b1ab77aa6c,
+        mid_read_b3f10f03d40a20cf,
+        mid_readAllBytes_44e916dc40fc04cb,
+        mid_readNBytes_d94c1f1d0c66928c,
+        mid_readNBytes_b3f10f03d40a20cf,
+        mid_reset_e7bdbe105ce1bafb,
+        mid_skip_3dc1c6e3a5a0baf0,
+        mid_skipNBytes_1d3149fac12f2af3,
+        mid_transferTo_11a5caab2844bf35,
         max_mid
       };
 

@@ -6,15 +6,15 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace monitor {
-        class QueryTree;
         class TermWeightor;
+        class QueryTree;
       }
       namespace analysis {
         class TokenStream;
+      }
+      namespace search {
+        class Query;
       }
     }
   }
@@ -35,8 +35,8 @@ namespace org {
         class CustomQueryHandler : public ::java::lang::Object {
          public:
           enum {
-            mid_handleQuery_e682ce95e117582d,
-            mid_wrapTermStream_9793d650e44fa07f,
+            mid_handleQuery_798e2ee4f365e1eb,
+            mid_wrapTermStream_6c106c857ee0afd1,
             max_mid
           };
 

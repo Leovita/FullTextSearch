@@ -7,23 +7,23 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class BitSet;
         namespace hnsw {
           class OnHeapHnswGraph;
+          class RandomVectorScorerSupplier;
           class HnswGraph;
           class InitializedHnswGraphBuilder;
-          class RandomVectorScorerSupplier;
         }
-        class BitSet;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
           class InitializedHnswGraphBuilder : public ::org::apache::lucene::util::hnsw::HnswGraphBuilder {
            public:
             enum {
-              mid_init$_c46a229a813805ac,
-              mid_addGraphNode_540b2b23d51b1efd,
-              mid_fromGraph_b7207c3a907fa958,
-              mid_initGraph_95e82c5e5a1c7503,
+              mid_init$_49ba60e531ae095d,
+              mid_addGraphNode_8226bd0b0fc13dba,
+              mid_fromGraph_1012d2673f3d16a9,
+              mid_initGraph_2bfd0770fb2e2ae4,
               max_mid
             };
 

@@ -3,20 +3,20 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class Accountable;
         class BytesRef;
+        class Accountable;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,11 +29,11 @@ namespace org {
         class PagedBytes$Reader : public ::java::lang::Object {
          public:
           enum {
-            mid_fill_dbb330f97b1490f4,
-            mid_fillSlice_9b3f662e0e38c3a3,
-            mid_getByte_2a9a6e154cb14e58,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_toString_09a7afff1868fc5e,
+            mid_fill_0ad076b578ea277f,
+            mid_fillSlice_4c954529bc7bbe03,
+            mid_getByte_cb04f80b25dc941d,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

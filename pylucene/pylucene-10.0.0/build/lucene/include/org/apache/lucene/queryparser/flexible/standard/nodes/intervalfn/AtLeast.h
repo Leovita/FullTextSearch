@@ -15,13 +15,13 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
       namespace queries {
         namespace intervals {
           class IntervalsSource;
         }
-      }
-      namespace analysis {
-        class Analyzer;
       }
     }
   }
@@ -40,9 +40,9 @@ namespace org {
                 class AtLeast : public ::org::apache::lucene::queryparser::flexible::standard::nodes::intervalfn::IntervalFunction {
                  public:
                   enum {
-                    mid_init$_1cdaeeb63d3a981a,
-                    mid_toIntervalSource_9a07cc0e621ef81d,
-                    mid_toString_09a7afff1868fc5e,
+                    mid_init$_6895c3cd0410b684,
+                    mid_toIntervalSource_1a0ac8e6b7e7e56f,
+                    mid_toString_e7df854526d67fa3,
                     max_mid
                   };
 

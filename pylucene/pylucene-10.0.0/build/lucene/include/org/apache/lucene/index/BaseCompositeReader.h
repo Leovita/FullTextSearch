@@ -7,20 +7,20 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class TermVectors;
         class StoredFields;
+        class Term;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -33,18 +33,18 @@ namespace org {
         class BaseCompositeReader : public ::org::apache::lucene::index::CompositeReader {
          public:
           enum {
-            mid_docFreq_a72eb531d55acb0c,
-            mid_getDocCount_3f230d713d7fd2b0,
-            mid_getSumDocFreq_e942a6f864c95ca0,
-            mid_getSumTotalTermFreq_e942a6f864c95ca0,
-            mid_maxDoc_20fbf7565993c3d7,
-            mid_numDocs_20fbf7565993c3d7,
-            mid_storedFields_71d351a09c9e3356,
-            mid_termVectors_dfcb317601b52c60,
-            mid_totalTermFreq_e7e426c2707b0b8a,
-            mid_readerBase_3c9bba330f083871,
-            mid_getSequentialSubReaders_36830460e10839eb,
-            mid_readerIndex_3c9bba330f083871,
+            mid_docFreq_c8503de727553d83,
+            mid_getDocCount_fa2a6f298bd618ab,
+            mid_getSumDocFreq_490f1686ea1cfda6,
+            mid_getSumTotalTermFreq_490f1686ea1cfda6,
+            mid_maxDoc_bd89ce15dad49192,
+            mid_numDocs_bd89ce15dad49192,
+            mid_storedFields_1a4fab20a75bd3d4,
+            mid_termVectors_6473260da883e913,
+            mid_totalTermFreq_3566c61061b446e6,
+            mid_readerIndex_a3904e10f5bb9437,
+            mid_readerBase_a3904e10f5bb9437,
+            mid_getSequentialSubReaders_1387e1e2702ac173,
             max_mid
           };
 

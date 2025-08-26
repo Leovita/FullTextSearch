@@ -18,7 +18,7 @@ namespace org {
         class GeoEncodingUtils$Component2DPredicate : public ::org::apache::lucene::geo::GeoEncodingUtils$Grid {
          public:
           enum {
-            mid_test_3f91d6e63b0427e9,
+            mid_test_5dd9e64338fe1611,
             max_mid
           };
 

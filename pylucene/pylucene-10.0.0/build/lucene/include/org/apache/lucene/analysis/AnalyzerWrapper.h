@@ -4,12 +4,12 @@
 #include "org/apache/lucene/analysis/Analyzer.h"
 
 namespace java {
-  namespace io {
-    class Reader;
-  }
   namespace lang {
     class String;
     class Class;
+  }
+  namespace io {
+    class Reader;
   }
 }
 template<class T> class JArray;
@@ -22,18 +22,18 @@ namespace org {
         class AnalyzerWrapper : public ::org::apache::lucene::analysis::Analyzer {
          public:
           enum {
-            mid_getOffsetGap_3f230d713d7fd2b0,
-            mid_getPositionIncrementGap_3f230d713d7fd2b0,
-            mid_initReader_f755529383524495,
-            mid_getWrappedAnalyzer_a1f5809ec41164b8,
-            mid_wrapComponents_3176534f1faba3ea,
-            mid_wrapReader_f755529383524495,
-            mid_wrapReaderForNormalization_f755529383524495,
-            mid_wrapTokenStreamForNormalization_9793d650e44fa07f,
-            mid_createComponents_f774fffda992519d,
-            mid_initReaderForNormalization_f755529383524495,
-            mid_attributeFactory_32e9e9f90ba9887a,
-            mid_normalize_9793d650e44fa07f,
+            mid_getOffsetGap_fa2a6f298bd618ab,
+            mid_getPositionIncrementGap_fa2a6f298bd618ab,
+            mid_initReader_9b0aaf55e5811bc6,
+            mid_getWrappedAnalyzer_422029012b3df2c8,
+            mid_wrapComponents_c424eb4df905e9cf,
+            mid_wrapTokenStreamForNormalization_6c106c857ee0afd1,
+            mid_wrapReader_9b0aaf55e5811bc6,
+            mid_wrapReaderForNormalization_9b0aaf55e5811bc6,
+            mid_createComponents_b734244e69a6c631,
+            mid_initReaderForNormalization_9b0aaf55e5811bc6,
+            mid_attributeFactory_5f32c7c12dae06ab,
+            mid_normalize_6c106c857ee0afd1,
             max_mid
           };
 

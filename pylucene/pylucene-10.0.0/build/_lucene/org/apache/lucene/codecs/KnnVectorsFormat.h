@@ -6,29 +6,29 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class KnnVectorsFormat;
-        class KnnVectorsReader;
-        class KnnVectorsWriter;
+      namespace index {
+        class SegmentReadState;
+        class SegmentWriteState;
       }
       namespace util {
         class NamedSPILoader$NamedSPI;
       }
-      namespace index {
-        class SegmentReadState;
-        class SegmentWriteState;
+      namespace codecs {
+        class KnnVectorsWriter;
+        class KnnVectorsFormat;
+        class KnnVectorsReader;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
     class ClassLoader;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Set;
@@ -44,13 +44,13 @@ namespace org {
         class KnnVectorsFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_availableKnnVectorsFormats_4df174295554d7bd,
-            mid_fieldsReader_804fb3f7a48fdbd5,
-            mid_fieldsWriter_9d6535131b264391,
-            mid_forName_e43dc95f99c292bf,
-            mid_getMaxDimensions_3f230d713d7fd2b0,
-            mid_getName_09a7afff1868fc5e,
-            mid_reloadKnnVectorsFormat_7e882e12061eaf38,
+            mid_availableKnnVectorsFormats_79131c6bbcf08916,
+            mid_fieldsReader_e6e9752d6bb75a3c,
+            mid_fieldsWriter_cb1e4b426784850b,
+            mid_forName_a99403b582f28782,
+            mid_getMaxDimensions_fa2a6f298bd618ab,
+            mid_getName_e7df854526d67fa3,
+            mid_reloadKnnVectorsFormat_d603563f542d31ba,
             max_mid
           };
 

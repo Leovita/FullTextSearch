@@ -16,8 +16,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class CharArraySet;
         class TokenStream;
+        class CharArraySet;
       }
     }
   }
@@ -33,12 +33,12 @@ namespace org {
           class WordDelimiterGraphFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_5d7fa0d7b5076e38,
-              mid_init$_ec42cfe8da6047da,
-              mid_flagsToString_cd8436557ab831f9,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_c5bf2c3ebc208931,
+              mid_init$_bae2e69ce1861b01,
+              mid_flagsToString_0da8f0b89b1e9a22,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

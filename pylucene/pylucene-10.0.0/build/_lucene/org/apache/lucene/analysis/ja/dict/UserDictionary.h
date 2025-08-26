@@ -3,25 +3,15 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-    class Reader;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
         namespace ja {
           namespace dict {
-            class TokenInfoFST;
-            class UserDictionary;
             class UserMorphData;
+            class UserDictionary;
+            class TokenInfoFST;
           }
         }
         namespace morph {
@@ -29,6 +19,16 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+    class Reader;
   }
 }
 template<class T> class JArray;
@@ -43,11 +43,11 @@ namespace org {
             class UserDictionary : public ::java::lang::Object {
              public:
               enum {
-                mid_getFST_cbe3fd00f3f3655e,
-                mid_getMorphAttributes_f578d5a3462983cb,
-                mid_lookup_1f8a37f51ae07630,
-                mid_lookupSegmentation_4b72dfe8c9c7216f,
-                mid_open_f5b262eebfcc923d,
+                mid_getFST_0930ded321e6609a,
+                mid_getMorphAttributes_1e88647c205afb44,
+                mid_lookup_a2653222349ac1ee,
+                mid_lookupSegmentation_499069f8a790ab95,
+                mid_open_acf3a16ca3074689,
                 max_mid
               };
 

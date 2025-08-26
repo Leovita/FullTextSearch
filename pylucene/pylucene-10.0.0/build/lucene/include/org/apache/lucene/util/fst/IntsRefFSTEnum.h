@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/util/fst/FSTEnum.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -24,6 +16,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -35,16 +35,16 @@ namespace org {
           class IntsRefFSTEnum : public ::org::apache::lucene::util::fst::FSTEnum {
            public:
             enum {
-              mid_init$_d80c376272ec8dd6,
-              mid_current_4eda887409a38c6e,
-              mid_next_4eda887409a38c6e,
-              mid_seekCeil_c1682b0368229960,
-              mid_seekExact_c1682b0368229960,
-              mid_seekFloor_c1682b0368229960,
-              mid_getTargetLabel_20fbf7565993c3d7,
-              mid_getCurrentLabel_20fbf7565993c3d7,
-              mid_setCurrentLabel_540b2b23d51b1efd,
-              mid_grow_3720c61b0679eb3e,
+              mid_init$_f8c761ef13f9ac4a,
+              mid_current_d0241ad486883852,
+              mid_next_d0241ad486883852,
+              mid_seekCeil_ba64bb664afee8c2,
+              mid_seekExact_ba64bb664afee8c2,
+              mid_seekFloor_ba64bb664afee8c2,
+              mid_getTargetLabel_bd89ce15dad49192,
+              mid_getCurrentLabel_bd89ce15dad49192,
+              mid_setCurrentLabel_8226bd0b0fc13dba,
+              mid_grow_e7bdbe105ce1bafb,
               max_mid
             };
 

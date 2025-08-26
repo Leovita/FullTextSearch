@@ -4,16 +4,16 @@
 #include "org/apache/lucene/queries/function/valuesource/MultiFunction.h"
 
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
   namespace io {
     class IOException;
   }
-  namespace lang {
-    class Class;
-    class Object;
-  }
   namespace util {
-    class List;
     class Map;
+    class List;
   }
 }
 namespace org {
@@ -21,8 +21,8 @@ namespace org {
     namespace lucene {
       namespace queries {
         namespace function {
-          class ValueSource;
           class FunctionValues;
+          class ValueSource;
         }
       }
       namespace index {
@@ -43,9 +43,9 @@ namespace org {
             class DefFunction : public ::org::apache::lucene::queries::function::valuesource::MultiFunction {
              public:
               enum {
-                mid_init$_9425cd4f62c94bce,
-                mid_getValues_a7d46b98c691aeac,
-                mid_name_09a7afff1868fc5e,
+                mid_init$_acbb405b60a30822,
+                mid_getValues_9f85153ef1e32cca,
+                mid_name_e7df854526d67fa3,
                 max_mid
               };
 

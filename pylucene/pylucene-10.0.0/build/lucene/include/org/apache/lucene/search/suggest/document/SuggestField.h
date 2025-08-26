@@ -3,23 +3,23 @@
 
 #include "org/apache/lucene/document/Field.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace document {
-        class FieldType;
-      }
-      namespace analysis {
-        class Analyzer;
-        class TokenStream;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
     class String;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class TokenStream;
+        class Analyzer;
+      }
+      namespace document {
+        class FieldType;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -34,10 +34,10 @@ namespace org {
             class SuggestField : public ::org::apache::lucene::document::Field {
              public:
               enum {
-                mid_init$_76870e05c4ee22b4,
-                mid_tokenStream_675528819f96fe99,
-                mid_wrapTokenStream_c911767a3d77e14c,
-                mid_type_847674f430f49e4c,
+                mid_init$_07e7ca25e157e1c2,
+                mid_tokenStream_c33c4c82a743c93e,
+                mid_wrapTokenStream_108465ffdab65656,
+                mid_type_1456044a01a5c9bf,
                 max_mid
               };
 

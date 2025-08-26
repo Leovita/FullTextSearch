@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 namespace org {
@@ -34,14 +34,14 @@ namespace org {
             class FSTUtil$Path : public ::java::lang::Record {
              public:
               enum {
-                mid_init$_b1ad2ddae99a093b,
-                mid_equals_570b5248a6da3ef6,
-                mid_fstNode_2281313d53c6dd58,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_input_b1b07ef2097936e2,
-                mid_output_5655ed8670534604,
-                mid_state_20fbf7565993c3d7,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_3efd91c6e4c94b3a,
+                mid_equals_00d17418847797d4,
+                mid_fstNode_d032de09d3ecd7dc,
+                mid_hashCode_bd89ce15dad49192,
+                mid_input_216087962cbd58d3,
+                mid_output_4819806f62f1360a,
+                mid_state_bd89ce15dad49192,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

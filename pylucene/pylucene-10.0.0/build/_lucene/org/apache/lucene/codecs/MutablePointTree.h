@@ -6,12 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
       namespace index {
         class PointValues$IntersectVisitor;
         class PointValues$PointTree;
-      }
-      namespace util {
-        class BytesRef;
       }
     }
   }
@@ -31,19 +31,19 @@ namespace org {
         class MutablePointTree : public ::java::lang::Object {
          public:
           enum {
-            mid_clone_f845dee012b447f9,
-            mid_getByteAt_a15e7beee7faa484,
-            mid_getDocID_3c9bba330f083871,
-            mid_getMaxPackedValue_5560da88fc44aa82,
-            mid_getMinPackedValue_5560da88fc44aa82,
-            mid_getValue_061520fed31c6147,
-            mid_moveToChild_947277eca0748c4e,
-            mid_moveToParent_947277eca0748c4e,
-            mid_moveToSibling_947277eca0748c4e,
-            mid_restore_e13cff512ebda969,
-            mid_save_e13cff512ebda969,
-            mid_swap_e13cff512ebda969,
-            mid_visitDocIDs_639354b6b3c6f802,
+            mid_clone_105acb8614b902b9,
+            mid_getByteAt_b72ccf1dee00699b,
+            mid_getDocID_a3904e10f5bb9437,
+            mid_getMaxPackedValue_44e916dc40fc04cb,
+            mid_getMinPackedValue_44e916dc40fc04cb,
+            mid_getValue_0f6353e25adc470a,
+            mid_moveToChild_9aa4f33e82ea333f,
+            mid_moveToParent_9aa4f33e82ea333f,
+            mid_moveToSibling_9aa4f33e82ea333f,
+            mid_restore_645c25455f5b9b1c,
+            mid_save_645c25455f5b9b1c,
+            mid_swap_645c25455f5b9b1c,
+            mid_visitDocIDs_0ccbfe2d8ea647b2,
             max_mid
           };
 

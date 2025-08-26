@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexReader;
+      }
       namespace search {
         namespace vectorhighlight {
           class FieldQuery;
           class FieldTermStack$TermInfo;
         }
-      }
-      namespace index {
-        class IndexReader;
       }
     }
   }
@@ -38,11 +38,11 @@ namespace org {
           class FieldTermStack : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_cfc1ee9259d0a549,
-              mid_getFieldName_09a7afff1868fc5e,
-              mid_isEmpty_947277eca0748c4e,
-              mid_pop_d2f66dfc6a2e75b1,
-              mid_push_0f6ebafe3493bc66,
+              mid_init$_7d865576261d5b01,
+              mid_getFieldName_e7df854526d67fa3,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_pop_926e508f246bbf88,
+              mid_push_bcef14a59b0470f2,
               max_mid
             };
 

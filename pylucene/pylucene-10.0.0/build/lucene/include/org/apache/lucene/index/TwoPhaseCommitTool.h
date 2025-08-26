@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class TwoPhaseCommitTool$PrepareCommitFailException;
-        class TwoPhaseCommitTool$CommitFailException;
         class TwoPhaseCommit;
+        class TwoPhaseCommitTool$CommitFailException;
+        class TwoPhaseCommitTool$PrepareCommitFailException;
       }
     }
   }
@@ -29,7 +29,7 @@ namespace org {
         class TwoPhaseCommitTool : public ::java::lang::Object {
          public:
           enum {
-            mid_execute_7fc76459df820c20,
+            mid_execute_f51934e2d712b34d,
             max_mid
           };
 

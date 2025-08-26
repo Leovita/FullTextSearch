@@ -6,9 +6,9 @@
 namespace java {
   namespace lang {
     class Appendable;
-    class CharSequence;
-    class String;
     class Class;
+    class String;
+    class CharSequence;
   }
 }
 namespace org {
@@ -33,36 +33,36 @@ namespace org {
           class OpenStringBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_e06ffef1ed339658,
-              mid_append_9ff310b2398f3345,
-              mid_append_109384249f8287db,
-              mid_append_6ba965e1dc9fe6af,
-              mid_capacity_20fbf7565993c3d7,
-              mid_charAt_92a13ce4196a7e69,
-              mid_flush_3720c61b0679eb3e,
-              mid_getArray_77d52ded526199de,
-              mid_length_20fbf7565993c3d7,
-              mid_reserve_540b2b23d51b1efd,
-              mid_reset_3720c61b0679eb3e,
-              mid_set_e06ffef1ed339658,
-              mid_setCharAt_931c9794de74ba08,
-              mid_setLength_540b2b23d51b1efd,
-              mid_size_20fbf7565993c3d7,
-              mid_subSequence_3202de35bfd622a0,
-              mid_toCharArray_77d52ded526199de,
-              mid_toString_09a7afff1868fc5e,
-              mid_unsafeWrite_97f8668422006638,
-              mid_unsafeWrite_540b2b23d51b1efd,
-              mid_unsafeWrite_fc9be2ded8ee801f,
-              mid_write_cc40ee25f19f0868,
-              mid_write_0d82408c6e55bc30,
-              mid_write_d6820932352c1d0e,
-              mid_write_97f8668422006638,
-              mid_write_540b2b23d51b1efd,
-              mid_write_fc9be2ded8ee801f,
-              mid_resize_540b2b23d51b1efd,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_495b1505e3aef671,
+              mid_append_c04071c345c46825,
+              mid_append_21a2a7764878a531,
+              mid_append_4086204bf865c300,
+              mid_capacity_bd89ce15dad49192,
+              mid_charAt_bc94dd98365f92fb,
+              mid_flush_e7bdbe105ce1bafb,
+              mid_getArray_e5926045e1917c62,
+              mid_length_bd89ce15dad49192,
+              mid_reserve_8226bd0b0fc13dba,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_set_495b1505e3aef671,
+              mid_setCharAt_53f645c50443c1f0,
+              mid_setLength_8226bd0b0fc13dba,
+              mid_size_bd89ce15dad49192,
+              mid_subSequence_e78c175a32c9e667,
+              mid_toCharArray_e5926045e1917c62,
+              mid_toString_e7df854526d67fa3,
+              mid_unsafeWrite_121fb0d25559975f,
+              mid_unsafeWrite_8226bd0b0fc13dba,
+              mid_unsafeWrite_186bb5d1c1aec30c,
+              mid_write_ae4452529cb9c0dd,
+              mid_write_ee46a189998009d6,
+              mid_write_900a2bfa63b2ba9b,
+              mid_write_121fb0d25559975f,
+              mid_write_8226bd0b0fc13dba,
+              mid_write_186bb5d1c1aec30c,
+              mid_resize_8226bd0b0fc13dba,
               max_mid
             };
 

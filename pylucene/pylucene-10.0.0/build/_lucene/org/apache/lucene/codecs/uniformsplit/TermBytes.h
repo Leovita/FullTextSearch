@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class Accountable;
         class BytesRef;
+        class Accountable;
       }
       namespace codecs {
         namespace uniformsplit {
@@ -34,14 +34,14 @@ namespace org {
           class TermBytes : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_061520fed31c6147,
-              mid_computeMdpLength_c605ddf1ef691f34,
-              mid_getMdpLength_20fbf7565993c3d7,
-              mid_getSuffixLength_20fbf7565993c3d7,
-              mid_getSuffixOffset_20fbf7565993c3d7,
-              mid_getTerm_9740fddd1c7df148,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_reset_3e94f01cf6bc730c,
+              mid_init$_0f6353e25adc470a,
+              mid_computeMdpLength_a0fa18546e6b17ce,
+              mid_getMdpLength_bd89ce15dad49192,
+              mid_getSuffixLength_bd89ce15dad49192,
+              mid_getSuffixOffset_bd89ce15dad49192,
+              mid_getTerm_adbedbc1fa61c358,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_reset_c406a6aa399b53c5,
               max_mid
             };
 

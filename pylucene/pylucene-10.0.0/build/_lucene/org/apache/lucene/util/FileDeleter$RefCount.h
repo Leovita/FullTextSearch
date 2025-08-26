@@ -18,8 +18,8 @@ namespace org {
         class FileDeleter$RefCount : public ::java::lang::Object {
          public:
           enum {
-            mid_decRef_20fbf7565993c3d7,
-            mid_incRef_20fbf7565993c3d7,
+            mid_decRef_bd89ce15dad49192,
+            mid_incRef_bd89ce15dad49192,
             max_mid
           };
 

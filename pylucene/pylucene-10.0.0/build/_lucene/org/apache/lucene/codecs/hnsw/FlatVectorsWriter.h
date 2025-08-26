@@ -10,27 +10,27 @@ namespace org {
         class MergeState;
         class FieldInfo;
       }
-      namespace util {
-        namespace hnsw {
-          class CloseableRandomVectorScorerSupplier;
-        }
-      }
       namespace codecs {
         namespace hnsw {
           class FlatFieldVectorsWriter;
           class FlatVectorsScorer;
         }
       }
+      namespace util {
+        namespace hnsw {
+          class CloseableRandomVectorScorerSupplier;
+        }
+      }
     }
   }
 }
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
   namespace io {
     class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -44,9 +44,9 @@ namespace org {
           class FlatVectorsWriter : public ::org::apache::lucene::codecs::KnnVectorsWriter {
            public:
             enum {
-              mid_addField_44964e60d390bc8a,
-              mid_getFlatVectorScorer_7e681abd40bf9d07,
-              mid_mergeOneFieldToIndex_217133d77eed44a7,
+              mid_addField_76c4339cdaf520e5,
+              mid_getFlatVectorScorer_0a520ed2ec7fc582,
+              mid_mergeOneFieldToIndex_5c4f6ff4c6255bd4,
               max_mid
             };
 

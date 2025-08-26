@@ -37,11 +37,11 @@ namespace org {
           class StopAnalyzer : public ::org::apache::lucene::analysis::StopwordAnalyzerBase {
            public:
             enum {
-              mid_init$_dabfba64ef3a59b5,
-              mid_init$_fa55492f0f5d7f31,
-              mid_init$_8a3244428bfc77b8,
-              mid_createComponents_f774fffda992519d,
-              mid_normalize_9793d650e44fa07f,
+              mid_init$_e214f28c42bbd933,
+              mid_init$_89ab2bee9aa84b00,
+              mid_init$_e7b3ede3efacc86d,
+              mid_createComponents_b734244e69a6c631,
+              mid_normalize_6c106c857ee0afd1,
               max_mid
             };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class PhraseQuery$PostingsAndFreq;
         class ScoreMode;
+        class PhraseQuery$PostingsAndFreq;
         namespace similarities {
           class Similarity$SimScorer;
         }
@@ -34,13 +34,13 @@ namespace org {
         class SloppyPhraseMatcher : public ::org::apache::lucene::search::PhraseMatcher {
          public:
           enum {
-            mid_init$_3c585883175897d1,
-            mid_endOffset_20fbf7565993c3d7,
-            mid_endPosition_20fbf7565993c3d7,
-            mid_nextMatch_947277eca0748c4e,
-            mid_reset_3720c61b0679eb3e,
-            mid_startOffset_20fbf7565993c3d7,
-            mid_startPosition_20fbf7565993c3d7,
+            mid_init$_9c51c7e2c01d8524,
+            mid_endOffset_bd89ce15dad49192,
+            mid_endPosition_bd89ce15dad49192,
+            mid_nextMatch_9aa4f33e82ea333f,
+            mid_reset_e7bdbe105ce1bafb,
+            mid_startOffset_bd89ce15dad49192,
+            mid_startPosition_bd89ce15dad49192,
             max_mid
           };
 

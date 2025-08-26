@@ -4,15 +4,15 @@
 #include "java/util/Set.h"
 
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
   namespace util {
     class SortedSet;
-    class SequencedSet;
     class Spliterator;
     class Comparator;
-  }
-  namespace lang {
-    class Class;
-    class Object;
+    class SequencedSet;
   }
 }
 template<class T> class JArray;
@@ -23,20 +23,20 @@ namespace java {
     class SortedSet : public ::java::util::Set {
      public:
       enum {
-        mid_addFirst_eb61ef4d1db15d08,
-        mid_addLast_eb61ef4d1db15d08,
-        mid_comparator_39238840448c1807,
-        mid_first_5655ed8670534604,
-        mid_getFirst_5655ed8670534604,
-        mid_getLast_5655ed8670534604,
-        mid_headSet_1516bad7f6fb1290,
-        mid_last_5655ed8670534604,
-        mid_removeFirst_5655ed8670534604,
-        mid_removeLast_5655ed8670534604,
-        mid_reversed_8a890a5a6ace5427,
-        mid_spliterator_eebbc9cffa204672,
-        mid_subSet_1d475f20354e842e,
-        mid_tailSet_1516bad7f6fb1290,
+        mid_addFirst_501c3eb890ff6d79,
+        mid_addLast_501c3eb890ff6d79,
+        mid_comparator_5cc89c689cd941fe,
+        mid_first_4819806f62f1360a,
+        mid_getFirst_4819806f62f1360a,
+        mid_getLast_4819806f62f1360a,
+        mid_headSet_f231c428223f5b8c,
+        mid_last_4819806f62f1360a,
+        mid_removeFirst_4819806f62f1360a,
+        mid_removeLast_4819806f62f1360a,
+        mid_reversed_fac2c6c26339d168,
+        mid_spliterator_fd118e26a3de79e6,
+        mid_subSet_1f99b28c25ad8a5b,
+        mid_tailSet_f231c428223f5b8c,
         max_mid
       };
 

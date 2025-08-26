@@ -16,11 +16,11 @@ namespace org {
     namespace lucene {
       namespace sandbox {
         namespace facet {
-          namespace iterators {
-            class OrdinalIterator;
-          }
           namespace cutters {
             class LeafFacetCutter;
+          }
+          namespace iterators {
+            class OrdinalIterator;
           }
         }
       }
@@ -42,9 +42,9 @@ namespace org {
             class FacetCutter : public ::java::lang::Object {
              public:
               enum {
-                mid_createLeafCutter_54e08d9616e9005a,
-                mid_getChildrenOrds_1985361a9773a98f,
-                mid_getOrdinalsToRollup_57cddf93ba106e9f,
+                mid_createLeafCutter_3722fb0d3a7d3776,
+                mid_getChildrenOrds_e78e488c1d146775,
+                mid_getOrdinalsToRollup_8b96a93b5acb34cf,
                 max_mid
               };
 

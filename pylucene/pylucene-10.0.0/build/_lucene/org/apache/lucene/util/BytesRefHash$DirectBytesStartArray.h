@@ -27,12 +27,12 @@ namespace org {
         class BytesRefHash$DirectBytesStartArray : public ::org::apache::lucene::util::BytesRefHash$BytesStartArray {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_e56ec7e576fdba66,
-            mid_bytesUsed_993628ed46aa1aa4,
-            mid_clear_623cd4a044ba647a,
-            mid_grow_623cd4a044ba647a,
-            mid_init_623cd4a044ba647a,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_3f16b8628c08efc6,
+            mid_bytesUsed_614d0d06bc777eee,
+            mid_clear_4b72a28a860ae838,
+            mid_grow_4b72a28a860ae838,
+            mid_init_4b72a28a860ae838,
             max_mid
           };
 

@@ -20,8 +20,8 @@ namespace org {
           class BoundaryScanner : public ::java::lang::Object {
            public:
             enum {
-              mid_findEndOffset_2b824368d48f30fc,
-              mid_findStartOffset_2b824368d48f30fc,
+              mid_findEndOffset_e514c7a94058a30d,
+              mid_findStartOffset_e514c7a94058a30d,
               max_mid
             };
 

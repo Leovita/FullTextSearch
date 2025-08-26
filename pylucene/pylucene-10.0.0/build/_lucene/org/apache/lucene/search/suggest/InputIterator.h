@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/util/BytesRefIterator.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace search {
-        namespace suggest {
-          class InputIterator;
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
   }
   namespace util {
     class Set;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        namespace suggest {
+          class InputIterator;
+        }
+      }
+      namespace util {
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,11 +36,11 @@ namespace org {
           class InputIterator : public ::org::apache::lucene::util::BytesRefIterator {
            public:
             enum {
-              mid_contexts_4df174295554d7bd,
-              mid_hasContexts_947277eca0748c4e,
-              mid_hasPayloads_947277eca0748c4e,
-              mid_payload_9740fddd1c7df148,
-              mid_weight_16939d9d0a9a9721,
+              mid_contexts_79131c6bbcf08916,
+              mid_hasContexts_9aa4f33e82ea333f,
+              mid_hasPayloads_9aa4f33e82ea333f,
+              mid_payload_adbedbc1fa61c358,
+              mid_weight_0f176418e3e16541,
               max_mid
             };
 

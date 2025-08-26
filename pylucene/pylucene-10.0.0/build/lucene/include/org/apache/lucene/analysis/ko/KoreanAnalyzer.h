@@ -37,10 +37,10 @@ namespace org {
           class KoreanAnalyzer : public ::org::apache::lucene::analysis::Analyzer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_a0f49ccda5ab2ac1,
-              mid_createComponents_f774fffda992519d,
-              mid_normalize_9793d650e44fa07f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_1c1127af96f63995,
+              mid_createComponents_b734244e69a6c631,
+              mid_normalize_6c106c857ee0afd1,
               max_mid
             };
 

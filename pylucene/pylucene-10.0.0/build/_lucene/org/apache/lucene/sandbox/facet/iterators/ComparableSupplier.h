@@ -21,8 +21,8 @@ namespace org {
             class ComparableSupplier : public ::java::lang::Object {
              public:
               enum {
-                mid_createComparable_7c74687162c1a027,
-                mid_reuseComparable_ebb39a9bdc747444,
+                mid_createComparable_4ec2126f39b1749d,
+                mid_reuseComparable_ff51b862bb39d102,
                 max_mid
               };
 

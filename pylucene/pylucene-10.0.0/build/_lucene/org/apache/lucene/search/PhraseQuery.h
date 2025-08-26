@@ -6,27 +6,27 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class ScoreMode;
+        class Weight;
+        class QueryVisitor;
+        class IndexSearcher;
+      }
       namespace index {
-        class TermsEnum;
         class Term;
+        class TermsEnum;
       }
       namespace util {
         class BytesRef;
-      }
-      namespace search {
-        class QueryVisitor;
-        class ScoreMode;
-        class Weight;
-        class IndexSearcher;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -42,21 +42,21 @@ namespace org {
         class PhraseQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_init$_c16980b675f9738f,
-            mid_init$_91fb4805033eaf87,
-            mid_init$_771dcbf8f22dfb08,
-            mid_init$_349fcd4eea9b1239,
-            mid_createWeight_77fe52950093e704,
-            mid_equals_570b5248a6da3ef6,
-            mid_getField_09a7afff1868fc5e,
-            mid_getPositions_623cd4a044ba647a,
-            mid_getSlop_20fbf7565993c3d7,
-            mid_getTerms_3d8a8db60207da00,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_termPositionsCost_98742afaded99d0f,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
+            mid_init$_4c0d457b1588985f,
+            mid_init$_d90c6db0e69d64bf,
+            mid_init$_12e51b49211516c8,
+            mid_init$_0d30a49ec38981a5,
+            mid_createWeight_dc54d493278607e4,
+            mid_equals_00d17418847797d4,
+            mid_getField_e7df854526d67fa3,
+            mid_getPositions_4b72a28a860ae838,
+            mid_getSlop_bd89ce15dad49192,
+            mid_getTerms_4213a6ccf77ca299,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_termPositionsCost_2707a5e2c4ba5178,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
             max_mid
           };
 

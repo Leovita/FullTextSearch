@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/index/FilterLeafReader$FilterTerms.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -14,14 +22,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -36,10 +36,10 @@ namespace org {
             class CompletionTerms : public ::org::apache::lucene::index::FilterLeafReader$FilterTerms {
              public:
               enum {
-                mid_getMaxWeight_16939d9d0a9a9721,
-                mid_getMinWeight_16939d9d0a9a9721,
-                mid_getType_847674f430f49e4c,
-                mid_suggester_7910fd32139a8cb1,
+                mid_getMaxWeight_0f176418e3e16541,
+                mid_getMinWeight_0f176418e3e16541,
+                mid_getType_1456044a01a5c9bf,
+                mid_suggester_dc1b3f347138af08,
                 max_mid
               };
 

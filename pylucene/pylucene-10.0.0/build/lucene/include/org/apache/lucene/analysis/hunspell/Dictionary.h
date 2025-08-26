@@ -3,32 +3,32 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace analysis {
         namespace hunspell {
           class SortingStrategy;
           class DictEntries;
         }
       }
-      namespace store {
-        class Directory;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+    class InputStream;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -42,14 +42,14 @@ namespace org {
           class Dictionary : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_a9915dcc2fe1a28b,
-              mid_init$_b3778941b5e12241,
-              mid_init$_74d439ad66cd4b4a,
-              mid_getIgnoreCase_947277eca0748c4e,
-              mid_lookupEntries_614ff2276cf14f22,
-              mid_tolerateAffixRuleCountMismatches_947277eca0748c4e,
-              mid_tolerateDuplicateConversionMappings_947277eca0748c4e,
-              mid_hashFactor_32caabaad86c508b,
+              mid_init$_c90886ef46d1d74a,
+              mid_init$_674c2939cf88bc07,
+              mid_init$_93cad9060a8c4106,
+              mid_getIgnoreCase_9aa4f33e82ea333f,
+              mid_lookupEntries_ebcc83aa84cb38b9,
+              mid_tolerateAffixRuleCountMismatches_9aa4f33e82ea333f,
+              mid_tolerateDuplicateConversionMappings_9aa4f33e82ea333f,
+              mid_hashFactor_6fb37e123fed7a1f,
               max_mid
             };
 

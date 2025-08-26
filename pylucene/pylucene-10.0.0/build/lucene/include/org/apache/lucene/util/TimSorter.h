@@ -18,11 +18,11 @@ namespace org {
         class TimSorter : public ::org::apache::lucene::util::Sorter {
          public:
           enum {
-            mid_sort_e13cff512ebda969,
-            mid_restore_e13cff512ebda969,
-            mid_compareSaved_7f733b5d08bb5ec4,
-            mid_save_e13cff512ebda969,
-            mid_copy_e13cff512ebda969,
+            mid_sort_645c25455f5b9b1c,
+            mid_restore_645c25455f5b9b1c,
+            mid_compareSaved_7f27cf81a85a97e9,
+            mid_copy_645c25455f5b9b1c,
+            mid_save_645c25455f5b9b1c,
             max_mid
           };
 

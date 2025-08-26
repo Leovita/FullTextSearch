@@ -6,16 +6,16 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace facet {
-        namespace taxonomy {
-          class ParallelTaxonomyArrays$IntArray;
-        }
-      }
       namespace sandbox {
         namespace facet {
           namespace iterators {
             class OrdinalIterator;
           }
+        }
+      }
+      namespace facet {
+        namespace taxonomy {
+          class ParallelTaxonomyArrays$IntArray;
         }
       }
     }
@@ -41,8 +41,8 @@ namespace org {
             class TaxonomyChildrenOrdinalIterator : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_c8f2e367b5b39dfa,
-                mid_nextOrd_20fbf7565993c3d7,
+                mid_init$_6e24df39cac488f4,
+                mid_nextOrd_bd89ce15dad49192,
                 max_mid
               };
 

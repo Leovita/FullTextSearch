@@ -21,13 +21,13 @@ namespace org {
         class FilteredDocIdSetIterator : public ::org::apache::lucene::search::DocIdSetIterator {
          public:
           enum {
-            mid_init$_ed30298d46fa551b,
-            mid_advance_3c9bba330f083871,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_getDelegate_fc644a826c65d236,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_match_ae22d3a856ad56f1,
+            mid_init$_3bae9c6463463f0d,
+            mid_advance_a3904e10f5bb9437,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_getDelegate_b78969502cbf4939,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_match_a8281eb3b9d9672d,
             max_mid
           };
 

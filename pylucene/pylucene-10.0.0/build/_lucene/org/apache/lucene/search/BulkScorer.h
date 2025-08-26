@@ -3,24 +3,24 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class LeafCollector;
+      }
+      namespace util {
+        class Bits;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class Bits;
-      }
-      namespace search {
-        class LeafCollector;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -33,9 +33,9 @@ namespace org {
         class BulkScorer : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_cost_16939d9d0a9a9721,
-            mid_score_16b5d2b9d21d8859,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_cost_0f176418e3e16541,
+            mid_score_15251593bde60840,
             max_mid
           };
 

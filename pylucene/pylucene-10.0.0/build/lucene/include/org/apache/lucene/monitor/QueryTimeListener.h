@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,6 +11,12 @@ namespace org {
         class QueryTimeListener;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,8 +29,8 @@ namespace org {
         class QueryTimeListener : public ::java::lang::Object {
          public:
           enum {
-            mid_logQueryTime_97897a260b413071,
-            mid_timingMatcher_69ae734397862a13,
+            mid_logQueryTime_eff9bbbaf264de7f,
+            mid_timingMatcher_efad7818742525a2,
             max_mid
           };
 

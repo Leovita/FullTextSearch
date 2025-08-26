@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class Closeable;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,15 +20,6 @@ namespace org {
         class BytesRefIterator;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,8 +34,8 @@ namespace org {
             class ExternalRefSorter$ByteSequenceIterator : public ::java::lang::Object {
              public:
               enum {
-                mid_close_3720c61b0679eb3e,
-                mid_next_9740fddd1c7df148,
+                mid_close_e7bdbe105ce1bafb,
+                mid_next_adbedbc1fa61c358,
                 max_mid
               };
 

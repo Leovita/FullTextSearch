@@ -31,8 +31,8 @@ namespace org {
           class RegExp$Kind : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_a4c0bf1f17867820,
-              mid_values_dcc87d91a9c97f71,
+              mid_valueOf_267b3128423a553c,
+              mid_values_3975da7db440d7a5,
               max_mid
             };
 

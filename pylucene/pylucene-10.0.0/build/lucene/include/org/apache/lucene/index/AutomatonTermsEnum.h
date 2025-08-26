@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class TermsEnum;
-      }
       namespace util {
         namespace automaton {
           class CompiledAutomaton;
         }
+      }
+      namespace index {
+        class TermsEnum;
       }
     }
   }
@@ -32,9 +32,9 @@ namespace org {
         class AutomatonTermsEnum : public ::org::apache::lucene::index::FilteredTermsEnum {
          public:
           enum {
-            mid_init$_0dfb591ff4ff1f7c,
-            mid_nextSeekTerm_7ee20c47a981dd44,
-            mid_accept_5259ad97f7ee0cbd,
+            mid_init$_9e2dc8cfa2e0a8c4,
+            mid_nextSeekTerm_2aeffe698cc65689,
+            mid_accept_da290bd6151f1a3d,
             max_mid
           };
 

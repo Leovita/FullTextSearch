@@ -3,20 +3,12 @@
 
 #include "org/apache/lucene/search/Scorer.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class DocIdSetIterator;
         class TwoPhaseIterator;
+        class DocIdSetIterator;
         class LeafSimScorer;
       }
       namespace queries {
@@ -25,6 +17,14 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,15 +38,15 @@ namespace org {
           class SpanScorer : public ::org::apache::lucene::search::Scorer {
            public:
             enum {
-              mid_init$_fbe4a18beac6854d,
-              mid_docID_20fbf7565993c3d7,
-              mid_getMaxScore_29cfa01aaad92564,
-              mid_getSpans_2d3524efd956d163,
-              mid_iterator_fc644a826c65d236,
-              mid_score_9b6c3480dac00edf,
-              mid_twoPhaseIterator_28c4f2cd9e5f8da7,
-              mid_setFreqCurrentDoc_3720c61b0679eb3e,
-              mid_scoreCurrentDoc_9b6c3480dac00edf,
+              mid_init$_0e8c2871f836c208,
+              mid_docID_bd89ce15dad49192,
+              mid_getMaxScore_5873a23b935a9d49,
+              mid_getSpans_359406d18b943dd6,
+              mid_iterator_b78969502cbf4939,
+              mid_score_8b62236f0e4d0dbc,
+              mid_twoPhaseIterator_c827d3ab11221e86,
+              mid_setFreqCurrentDoc_e7bdbe105ce1bafb,
+              mid_scoreCurrentDoc_8b62236f0e4d0dbc,
               max_mid
             };
 

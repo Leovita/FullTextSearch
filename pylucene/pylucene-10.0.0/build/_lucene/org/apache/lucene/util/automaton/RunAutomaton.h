@@ -29,14 +29,14 @@ namespace org {
           class RunAutomaton : public ::java::lang::Object {
            public:
             enum {
-              mid_equals_570b5248a6da3ef6,
-              mid_getCharIntervals_623cd4a044ba647a,
-              mid_getSize_20fbf7565993c3d7,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isAccept_ae22d3a856ad56f1,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_step_7f733b5d08bb5ec4,
-              mid_toString_09a7afff1868fc5e,
+              mid_equals_00d17418847797d4,
+              mid_getCharIntervals_4b72a28a860ae838,
+              mid_getSize_bd89ce15dad49192,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isAccept_a8281eb3b9d9672d,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_step_7f27cf81a85a97e9,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

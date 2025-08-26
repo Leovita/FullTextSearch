@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/search/TermCollectingRewrite.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Query;
-        class ScoringRewrite;
-        class MultiTermQuery;
-        class MultiTermQuery$RewriteMethod;
-        class BooleanQuery$Builder;
-        class IndexSearcher;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class Query;
+        class MultiTermQuery;
+        class MultiTermQuery$RewriteMethod;
+        class ScoringRewrite;
+        class BooleanQuery$Builder;
+        class IndexSearcher;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
         class ScoringRewrite : public ::org::apache::lucene::search::TermCollectingRewrite {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_rewrite_dcf1727ad038e63a,
-            mid_checkMaxClauseCount_540b2b23d51b1efd,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_rewrite_ea36ecc6891147cc,
+            mid_checkMaxClauseCount_8226bd0b0fc13dba,
             max_mid
           };
 

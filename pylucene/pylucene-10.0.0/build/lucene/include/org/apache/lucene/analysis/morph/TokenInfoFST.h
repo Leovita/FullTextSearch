@@ -35,9 +35,9 @@ namespace org {
           class TokenInfoFST : public ::java::lang::Object {
            public:
             enum {
-              mid_findTargetArc_89c8b2568763a13e,
-              mid_getBytesReader_14e8f9e66b6f303e,
-              mid_getFirstArc_f5bb151389242a45,
+              mid_findTargetArc_42031af582c3228a,
+              mid_getBytesReader_541a60a9425cbcde,
+              mid_getFirstArc_6e3fa3026b92cf4e,
               max_mid
             };
 

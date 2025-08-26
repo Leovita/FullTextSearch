@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class IntsRef;
         namespace automaton {
           class Automaton;
         }
-        class IntsRef;
       }
     }
   }
@@ -31,9 +31,9 @@ namespace org {
           class LimitedFiniteStringsIterator : public ::org::apache::lucene::util::automaton::FiniteStringsIterator {
            public:
             enum {
-              mid_init$_c0be4f60ca27e723,
-              mid_next_11a210fd9b2b21bd,
-              mid_size_20fbf7565993c3d7,
+              mid_init$_4144d90d35e82925,
+              mid_next_467dd1d064587a13,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

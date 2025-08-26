@@ -3,19 +3,6 @@
 
 #include "org/apache/lucene/facet/FacetCountsWithFilterQuery.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +10,19 @@ namespace org {
         class FacetResult;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -36,15 +36,15 @@ namespace org {
           class RangeFacetCounts : public ::org::apache::lucene::facet::FacetCountsWithFilterQuery {
            public:
             enum {
-              mid_getAllChildren_51a67cf6dd940ebb,
-              mid_getAllDims_3e47fe599d76d583,
-              mid_getSpecificValue_7fd685ee82fd50c5,
-              mid_getTopChildren_ca1b3747bbcc4341,
-              mid_toString_09a7afff1868fc5e,
-              mid_getLongRanges_22b23276628e6c79,
-              mid_setupCounter_b2f458b9a105cda7,
-              mid_mapDocValue_91d66fa3ea476cea,
-              mid_count_3b582520f99b8484,
+              mid_getAllChildren_09e74013a1015c10,
+              mid_getAllDims_b4b9401c877452e3,
+              mid_getSpecificValue_a53782a5574e06b9,
+              mid_getTopChildren_482e0070129e7ccc,
+              mid_toString_e7df854526d67fa3,
+              mid_setupCounter_06662848e661e0d1,
+              mid_mapDocValue_3dc1c6e3a5a0baf0,
+              mid_getLongRanges_9fb6e44e84feeef2,
+              mid_count_2b1f4f2cb56352a4,
               max_mid
             };
 

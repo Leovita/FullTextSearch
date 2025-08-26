@@ -6,10 +6,10 @@
 namespace java {
   namespace lang {
     class Class;
-    class String;
-    class Module;
-    class ModuleLayer;
     class ModuleLayer$Controller;
+    class Module;
+    class String;
+    class ModuleLayer;
   }
 }
 template<class T> class JArray;
@@ -20,11 +20,11 @@ namespace java {
     class ModuleLayer$Controller : public ::java::lang::Object {
      public:
       enum {
-        mid_addExports_1d2a00fec42060e9,
-        mid_addOpens_1d2a00fec42060e9,
-        mid_addReads_e64753861280aa5f,
-        mid_enableNativeAccess_0ab4bcadc7d2532f,
-        mid_layer_e0d6a2c9ff2cc4b5,
+        mid_addExports_67305a9f4033185c,
+        mid_addOpens_67305a9f4033185c,
+        mid_addReads_7be0c3807e7efc4b,
+        mid_enableNativeAccess_d43e0de17d444158,
+        mid_layer_c5223455e367451f,
         max_mid
       };
 

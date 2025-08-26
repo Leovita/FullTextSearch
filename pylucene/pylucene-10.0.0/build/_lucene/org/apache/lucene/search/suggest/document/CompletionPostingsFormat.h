@@ -3,18 +3,17 @@
 
 #include "org/apache/lucene/codecs/PostingsFormat.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class SegmentWriteState;
+      }
+      namespace codecs {
+        class FieldsProducer;
+        class FieldsConsumer;
+      }
       namespace search {
         namespace suggest {
           namespace document {
@@ -22,15 +21,16 @@ namespace org {
           }
         }
       }
-      namespace codecs {
-        class FieldsProducer;
-        class FieldsConsumer;
-      }
-      namespace index {
-        class SegmentReadState;
-        class SegmentWriteState;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -45,11 +45,11 @@ namespace org {
             class CompletionPostingsFormat : public ::org::apache::lucene::codecs::PostingsFormat {
              public:
               enum {
-                mid_init$_0d82408c6e55bc30,
-                mid_init$_ca58276e6079b252,
-                mid_fieldsConsumer_19c1d7ed57faee5d,
-                mid_fieldsProducer_1c13fe60e408387e,
-                mid_delegatePostingsFormat_019d203d73665477,
+                mid_init$_ee46a189998009d6,
+                mid_init$_0a1a7f84ded7d50a,
+                mid_fieldsConsumer_53e79f306f41e536,
+                mid_fieldsProducer_5a3bb464060de23c,
+                mid_delegatePostingsFormat_d6a14e29d4b97c21,
                 max_mid
               };
 

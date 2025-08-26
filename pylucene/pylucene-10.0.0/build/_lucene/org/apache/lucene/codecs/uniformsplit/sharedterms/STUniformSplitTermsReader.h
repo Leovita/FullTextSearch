@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/codecs/uniformsplit/UniformSplitTermsReader.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace codecs {
+        namespace uniformsplit {
+          class BlockDecoder;
+        }
+        class PostingsReaderBase;
+      }
+      namespace index {
+        class SegmentReadState;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace codecs {
-        class PostingsReaderBase;
-        namespace uniformsplit {
-          class BlockDecoder;
-        }
-      }
-      namespace index {
-        class SegmentReadState;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -38,9 +38,9 @@ namespace org {
             class STUniformSplitTermsReader : public ::org::apache::lucene::codecs::uniformsplit::UniformSplitTermsReader {
              public:
               enum {
-                mid_init$_ace06ec179bdf651,
-                mid_fillFieldMap_ac913bf5286710be,
-                mid_createUnionFieldMetadata_c5ee3f51320fb561,
+                mid_init$_4be21c2165b0a85c,
+                mid_fillFieldMap_db2609761a52d9ae,
+                mid_createUnionFieldMetadata_70e3781188c2ffb7,
                 max_mid
               };
 

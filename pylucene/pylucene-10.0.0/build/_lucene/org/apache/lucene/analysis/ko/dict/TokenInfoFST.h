@@ -35,7 +35,7 @@ namespace org {
             class TokenInfoFST : public ::org::apache::lucene::analysis::morph::TokenInfoFST {
              public:
               enum {
-                mid_init$_d80c376272ec8dd6,
+                mid_init$_f8c761ef13f9ac4a,
                 max_mid
               };
 

@@ -3,6 +3,12 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,12 +23,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -34,29 +34,29 @@ namespace org {
           class Automaton : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_e13cff512ebda969,
-              mid_addEpsilon_e13cff512ebda969,
-              mid_addTransition_20022b6d5e83c732,
-              mid_addTransition_94688dd632556392,
-              mid_copy_71373fad5757dc3c,
-              mid_createState_20fbf7565993c3d7,
-              mid_finishState_3720c61b0679eb3e,
-              mid_getNextTransition_4f84c15bb57a2203,
-              mid_getNumStates_20fbf7565993c3d7,
-              mid_getNumTransitions_20fbf7565993c3d7,
-              mid_getNumTransitions_3c9bba330f083871,
-              mid_getSortedTransitions_6d7bb2a22c1e859d,
-              mid_getStartPoints_623cd4a044ba647a,
-              mid_getTransition_f6e319e1e7df0a84,
-              mid_initTransition_699bf4b5b73db6d6,
-              mid_isAccept_ae22d3a856ad56f1,
-              mid_isDeterministic_947277eca0748c4e,
-              mid_next_21f280e28db6d299,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_setAccept_2936d2706a18a684,
-              mid_step_7f733b5d08bb5ec4,
-              mid_toDot_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_645c25455f5b9b1c,
+              mid_addEpsilon_645c25455f5b9b1c,
+              mid_addTransition_eee637a6cebc299b,
+              mid_addTransition_126b4efb1bebbe4a,
+              mid_copy_7350cbdcd883df0a,
+              mid_createState_bd89ce15dad49192,
+              mid_finishState_e7bdbe105ce1bafb,
+              mid_getNextTransition_6c54ca7f042c9484,
+              mid_getNumStates_bd89ce15dad49192,
+              mid_getNumTransitions_bd89ce15dad49192,
+              mid_getNumTransitions_a3904e10f5bb9437,
+              mid_getSortedTransitions_6578d66d8b7fb65e,
+              mid_getStartPoints_4b72a28a860ae838,
+              mid_getTransition_092e1865fab21c72,
+              mid_initTransition_4be620059fef20d2,
+              mid_isAccept_a8281eb3b9d9672d,
+              mid_isDeterministic_9aa4f33e82ea333f,
+              mid_next_a7345cd29c87023e,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_setAccept_a0fed0a2cd38e7b1,
+              mid_step_7f27cf81a85a97e9,
+              mid_toDot_e7df854526d67fa3,
               max_mid
             };
 

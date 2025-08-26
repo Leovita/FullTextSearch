@@ -3,6 +3,13 @@
 
 #include "org/apache/lucene/search/ScoreDoc.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Long;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,13 +19,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Long;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
           class DiversifiedTopDocsCollector$ScoreDocKey : public ::org::apache::lucene::search::ScoreDoc {
            public:
             enum {
-              mid_getKey_34383b55cea8435b,
-              mid_toString_09a7afff1868fc5e,
+              mid_getKey_c4ac57d488686cc8,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

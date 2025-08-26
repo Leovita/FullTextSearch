@@ -3,34 +3,34 @@
 
 #include "org/apache/lucene/codecs/TermVectorsFormat.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
       namespace codecs {
-        class TermVectorsReader;
+        class TermVectorsWriter;
         namespace compressing {
           class CompressionMode;
         }
-        class TermVectorsWriter;
-      }
-      namespace store {
-        class IOContext;
-        class Directory;
+        class TermVectorsReader;
       }
       namespace index {
         class SegmentInfo;
         class FieldInfos;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -45,10 +45,10 @@ namespace org {
             class Lucene90CompressingTermVectorsFormat : public ::org::apache::lucene::codecs::TermVectorsFormat {
              public:
               enum {
-                mid_init$_28460f543dcf8bac,
-                mid_toString_09a7afff1868fc5e,
-                mid_vectorsReader_1964f2596a25f5d6,
-                mid_vectorsWriter_1818d8841252adb6,
+                mid_init$_f896f82228335569,
+                mid_toString_e7df854526d67fa3,
+                mid_vectorsReader_7d1a6a780d28332f,
+                mid_vectorsWriter_b2b9759be25f6183,
                 max_mid
               };
 

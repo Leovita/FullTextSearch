@@ -8,20 +8,20 @@ namespace java {
     class Iterator;
   }
   namespace lang {
-    class Class;
     class String;
+    class Class;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class AttributeImpl;
+        class AttributeSource$State;
         class AttributeSource;
+        class Attribute;
         class AttributeFactory;
         class AttributeReflector;
-        class AttributeSource$State;
-        class AttributeImpl;
-        class Attribute;
       }
     }
   }
@@ -36,28 +36,28 @@ namespace org {
         class AttributeSource : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_d7660885ec4170d8,
-            mid_addAttribute_4df7022a14a40d66,
-            mid_addAttributeImpl_9be83c6b2aff7007,
-            mid_captureState_46416bfcbf8ea97a,
-            mid_clearAttributes_3720c61b0679eb3e,
-            mid_cloneAttributes_ee6fc324885c7c07,
-            mid_copyTo_e43da807a17f8046,
-            mid_endAttributes_3720c61b0679eb3e,
-            mid_equals_570b5248a6da3ef6,
-            mid_getAttribute_4df7022a14a40d66,
-            mid_getAttributeClassesIterator_0db4c76ff7ee995b,
-            mid_getAttributeFactory_0ecd53bbe620b868,
-            mid_getAttributeImplsIterator_0db4c76ff7ee995b,
-            mid_hasAttribute_0be35c16891dfd3c,
-            mid_hasAttributes_947277eca0748c4e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_reflectAsString_648fb915d73c5399,
-            mid_reflectWith_454217ab6e97f729,
-            mid_removeAllAttributes_3720c61b0679eb3e,
-            mid_restoreState_b2ca70a28e5364ba,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_cf56ef8c7a468300,
+            mid_addAttribute_ca2cf950a73ea359,
+            mid_addAttributeImpl_b194e41b568bc1bc,
+            mid_captureState_6013ba014c68ee64,
+            mid_clearAttributes_e7bdbe105ce1bafb,
+            mid_cloneAttributes_cdef0e51a2510793,
+            mid_copyTo_5a0c9cb9a8a5e53a,
+            mid_endAttributes_e7bdbe105ce1bafb,
+            mid_equals_00d17418847797d4,
+            mid_getAttribute_ca2cf950a73ea359,
+            mid_getAttributeClassesIterator_c7985fafdcf40e83,
+            mid_getAttributeFactory_faaa73753bdc19b4,
+            mid_getAttributeImplsIterator_c7985fafdcf40e83,
+            mid_hasAttribute_4c29bd646fc74404,
+            mid_hasAttributes_9aa4f33e82ea333f,
+            mid_hashCode_bd89ce15dad49192,
+            mid_reflectAsString_e446331928d0b1c5,
+            mid_reflectWith_ac049850cfa29e37,
+            mid_removeAllAttributes_e7bdbe105ce1bafb,
+            mid_restoreState_1e554ad3c50fec98,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

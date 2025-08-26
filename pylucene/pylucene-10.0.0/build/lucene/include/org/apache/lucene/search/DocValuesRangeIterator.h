@@ -30,9 +30,9 @@ namespace org {
         class DocValuesRangeIterator : public ::org::apache::lucene::search::TwoPhaseIterator {
          public:
           enum {
-            mid_init$_040c781e13f1487f,
-            mid_matchCost_9b6c3480dac00edf,
-            mid_matches_947277eca0748c4e,
+            mid_init$_d6f4af173c4b49ec,
+            mid_matchCost_8b62236f0e4d0dbc,
+            mid_matches_9aa4f33e82ea333f,
             max_mid
           };
 

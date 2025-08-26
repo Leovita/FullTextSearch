@@ -31,9 +31,9 @@ namespace org {
           class SimpleHTMLEncoder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_encodeText_cb0eb1432185fc94,
-              mid_htmlEncode_cb0eb1432185fc94,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_encodeText_fef9c036acf290a9,
+              mid_htmlEncode_fef9c036acf290a9,
               max_mid
             };
 

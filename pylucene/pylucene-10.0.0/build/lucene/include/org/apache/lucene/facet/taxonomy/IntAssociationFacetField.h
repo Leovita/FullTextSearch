@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/facet/taxonomy/AssociationFacetField.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class BytesRef;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,10 +29,10 @@ namespace org {
           class IntAssociationFacetField : public ::org::apache::lucene::facet::taxonomy::AssociationFacetField {
            public:
             enum {
-              mid_init$_771dcbf8f22dfb08,
-              mid_bytesRefToInt_5cda243a0bd46c4d,
-              mid_intToBytesRef_29bb531a30fe8369,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_12e51b49211516c8,
+              mid_bytesRefToInt_59a6eaf88a8be404,
+              mid_intToBytesRef_1e79f110a34c4312,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

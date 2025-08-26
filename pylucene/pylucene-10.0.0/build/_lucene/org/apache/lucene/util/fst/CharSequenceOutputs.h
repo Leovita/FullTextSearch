@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/util/fst/Outputs.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace store {
-        class DataInput;
-        class DataOutput;
-      }
       namespace util {
         class CharsRef;
         namespace fst {
           class CharSequenceOutputs;
         }
       }
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -39,16 +39,16 @@ namespace org {
           class CharSequenceOutputs : public ::org::apache::lucene::util::fst::Outputs {
            public:
             enum {
-              mid_add_a0859d4aaf2e2420,
-              mid_common_a0859d4aaf2e2420,
-              mid_getNoOutput_94b51711598dd26a,
-              mid_getSingleton_fbc206da1ba31354,
-              mid_outputToString_543dde407a4bae22,
-              mid_ramBytesUsed_3056679d6a5924d6,
-              mid_read_9d5faa143dcf40e8,
-              mid_skipOutput_fc75c9d195bdd885,
-              mid_subtract_a0859d4aaf2e2420,
-              mid_write_43c487ea26be4a91,
+              mid_add_543c2b778744dfa0,
+              mid_common_543c2b778744dfa0,
+              mid_getNoOutput_669503bbeca09860,
+              mid_getSingleton_e61253286a66ead1,
+              mid_outputToString_d1153ab530cfde60,
+              mid_ramBytesUsed_60394045b49cdac2,
+              mid_read_9a4f959bbe9b586f,
+              mid_skipOutput_b57ffc017de24fe4,
+              mid_subtract_543c2b778744dfa0,
+              mid_write_21d8b459be7c56ec,
               max_mid
             };
 

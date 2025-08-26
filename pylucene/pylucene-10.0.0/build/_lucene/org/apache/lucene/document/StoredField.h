@@ -3,23 +3,23 @@
 
 #include "org/apache/lucene/document/Field.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace document {
-        class FieldType;
-      }
-      namespace util {
-        class BytesRef;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
     class String;
     class CharSequence;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
+      namespace document {
+        class FieldType;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -32,17 +32,17 @@ namespace org {
         class StoredField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_385c741f3858c842,
-            mid_init$_3d104da0b5c75e64,
-            mid_init$_45ab94acb6ed83e4,
-            mid_init$_8c2de08a6e50677a,
-            mid_init$_6dcb8454f5b3a033,
-            mid_init$_a5140b013bba694a,
-            mid_init$_97897a260b413071,
-            mid_init$_3d80e49c849e130d,
-            mid_init$_c6efcf6eeead5d14,
-            mid_init$_9533b3433dece9c3,
-            mid_init$_524c03444ef7868a,
+            mid_init$_fab4d66163274131,
+            mid_init$_0dd012a11c3f389b,
+            mid_init$_a9a308f8485c52c9,
+            mid_init$_dbeaa7d1faf6f28f,
+            mid_init$_de2cd726ee164772,
+            mid_init$_49e27e98009acf15,
+            mid_init$_eff9bbbaf264de7f,
+            mid_init$_babb726437518956,
+            mid_init$_da5bb9d63a7ae89c,
+            mid_init$_8b9d08c3ef034572,
+            mid_init$_2adea7b4f952819b,
             max_mid
           };
 

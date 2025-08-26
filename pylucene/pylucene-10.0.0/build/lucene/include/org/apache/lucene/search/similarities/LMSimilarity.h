@@ -31,14 +31,14 @@ namespace org {
           class LMSimilarity : public ::org::apache::lucene::search::similarities::SimilarityBase {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_43e3c7356b0f7a3f,
-              mid_init$_8d24c154f302c7d8,
-              mid_getName_09a7afff1868fc5e,
-              mid_toString_09a7afff1868fc5e,
-              mid_fillBasicStats_1a0c84f82cdc2914,
-              mid_newStats_5a081c6c899495a8,
-              mid_explain_6fdabb12cf56abb7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_9b2dcc6d140f3718,
+              mid_init$_0f80458321b28ae0,
+              mid_getName_e7df854526d67fa3,
+              mid_toString_e7df854526d67fa3,
+              mid_newStats_358043c9fa641a0b,
+              mid_fillBasicStats_ec1d687160c8fb27,
+              mid_explain_d24b72d1a2a90408,
               max_mid
             };
 

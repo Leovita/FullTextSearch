@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/analysis/StopwordAnalyzerBase.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class CharArraySet;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,12 +29,12 @@ namespace org {
           class TurkishAnalyzer : public ::org::apache::lucene::analysis::StopwordAnalyzerBase {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_dabfba64ef3a59b5,
-              mid_init$_a7858b97563895e9,
-              mid_getDefaultStopSet_7a52625961f2f88e,
-              mid_createComponents_f774fffda992519d,
-              mid_normalize_9793d650e44fa07f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_e214f28c42bbd933,
+              mid_init$_0cbff95d319fe030,
+              mid_getDefaultStopSet_0a8f3a685855aa4f,
+              mid_createComponents_b734244e69a6c631,
+              mid_normalize_6c106c857ee0afd1,
               max_mid
             };
 

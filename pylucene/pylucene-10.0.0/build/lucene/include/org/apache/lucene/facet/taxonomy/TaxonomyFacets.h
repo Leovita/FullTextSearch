@@ -3,19 +3,6 @@
 
 #include "org/apache/lucene/facet/Facets.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +10,19 @@ namespace org {
         class FacetResult;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -36,25 +36,25 @@ namespace org {
           class TaxonomyFacets : public ::org::apache::lucene::facet::Facets {
            public:
             enum {
-              mid_childrenLoaded_947277eca0748c4e,
-              mid_getAllChildren_51a67cf6dd940ebb,
-              mid_getAllDims_3e47fe599d76d583,
-              mid_getSpecificValue_7fd685ee82fd50c5,
-              mid_getTopChildren_ca1b3747bbcc4341,
-              mid_getTopDims_3690552717f6ec88,
-              mid_siblingsLoaded_947277eca0748c4e,
-              mid_initializeValueCounters_3720c61b0679eb3e,
-              mid_aggregate_a685481dd64af72c,
-              mid_updateValueFromRollup_e13cff512ebda969,
-              mid_getAggregationValue_13adcd87371d50e0,
-              mid_makeTopOrdAndNumberQueue_eec4003abf81cdc5,
-              mid_missingAggregationValue_1b3282bb4db06655,
-              mid_setIncomingValue_bb7eb638460d3d2b,
-              mid_newAggregatedValue_35b168b2ea0a0ab9,
-              mid_setCount_e13cff512ebda969,
-              mid_insertIntoQueue_eee3a8b6f6e6cdc1,
-              mid_getTopChildrenForPath_4bcbbe397d3e9010,
-              mid_getCount_3c9bba330f083871,
+              mid_childrenLoaded_9aa4f33e82ea333f,
+              mid_getAllChildren_09e74013a1015c10,
+              mid_getAllDims_b4b9401c877452e3,
+              mid_getSpecificValue_a53782a5574e06b9,
+              mid_getTopChildren_482e0070129e7ccc,
+              mid_getTopDims_6d7644d6c0697519,
+              mid_siblingsLoaded_9aa4f33e82ea333f,
+              mid_aggregate_49932d4e2173766c,
+              mid_getTopChildrenForPath_4ed8006dd60ef26d,
+              mid_setCount_645c25455f5b9b1c,
+              mid_initializeValueCounters_e7bdbe105ce1bafb,
+              mid_updateValueFromRollup_645c25455f5b9b1c,
+              mid_getAggregationValue_fe1a54672f48742c,
+              mid_makeTopOrdAndNumberQueue_16acc16a07b97b58,
+              mid_missingAggregationValue_b9665294ea488d3c,
+              mid_setIncomingValue_6b82b4638c014b45,
+              mid_newAggregatedValue_f1d9a76ae0906ed6,
+              mid_insertIntoQueue_ec7198876d19b11c,
+              mid_getCount_a3904e10f5bb9437,
               max_mid
             };
 

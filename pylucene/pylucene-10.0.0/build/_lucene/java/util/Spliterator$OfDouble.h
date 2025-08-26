@@ -6,15 +6,15 @@
 namespace java {
   namespace util {
     namespace function {
-      class Consumer;
       class DoubleConsumer;
+      class Consumer;
     }
     class Spliterator$OfDouble;
   }
   namespace lang {
+    class Object;
     class Class;
     class Double;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -25,11 +25,11 @@ namespace java {
     class Spliterator$OfDouble : public ::java::util::Spliterator$OfPrimitive {
      public:
       enum {
-        mid_forEachRemaining_9460fa31d6623bfb,
-        mid_forEachRemaining_43492fe12aca9a25,
-        mid_tryAdvance_6d1c2840cf2a57a7,
-        mid_tryAdvance_5b1f374234e23f40,
-        mid_trySplit_0c9672e91b152074,
+        mid_forEachRemaining_b4f64d55664646ca,
+        mid_forEachRemaining_3968ed29c1cbc083,
+        mid_tryAdvance_a04103c7b2de0755,
+        mid_tryAdvance_c12cd96765c1524f,
+        mid_trySplit_3df02e3ab0a46bee,
         max_mid
       };
 

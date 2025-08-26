@@ -3,6 +3,12 @@
 
 #include "org/apache/lucene/search/AutomatonQuery.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,12 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -36,12 +36,12 @@ namespace org {
         class WildcardQuery : public ::org::apache::lucene::search::AutomatonQuery {
          public:
           enum {
-            mid_init$_3b0982cb6e1bfb9d,
-            mid_init$_52d849eb23739642,
-            mid_init$_80b7b22ee96eb2f5,
-            mid_getTerm_8b5614d1be154430,
-            mid_toAutomaton_43e110ca125f42b7,
-            mid_toString_cb0eb1432185fc94,
+            mid_init$_ed33f9e055f7213d,
+            mid_init$_2d74cc249afcbb53,
+            mid_init$_898f5cb3576ece00,
+            mid_getTerm_b549eaec39b02d52,
+            mid_toAutomaton_f2e8c783e32bdcab,
+            mid_toString_fef9c036acf290a9,
             max_mid
           };
 

@@ -6,27 +6,27 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-        class IndexReader;
-      }
       namespace search {
         namespace spell {
-          class SuggestMode;
-          class SuggestWord;
-          class CombineSuggestion;
           class WordBreakSpellChecker$BreakSuggestionSortMethod;
+          class SuggestMode;
+          class CombineSuggestion;
+          class SuggestWord;
         }
+      }
+      namespace index {
+        class IndexReader;
+        class Term;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,19 +40,19 @@ namespace org {
           class WordBreakSpellChecker : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_getMaxChanges_20fbf7565993c3d7,
-              mid_getMaxCombineWordLength_20fbf7565993c3d7,
-              mid_getMaxEvaluations_20fbf7565993c3d7,
-              mid_getMinBreakWordLength_20fbf7565993c3d7,
-              mid_getMinSuggestionFrequency_20fbf7565993c3d7,
-              mid_setMaxChanges_540b2b23d51b1efd,
-              mid_setMaxCombineWordLength_540b2b23d51b1efd,
-              mid_setMaxEvaluations_540b2b23d51b1efd,
-              mid_setMinBreakWordLength_540b2b23d51b1efd,
-              mid_setMinSuggestionFrequency_540b2b23d51b1efd,
-              mid_suggestWordBreaks_579ef5c4885fb539,
-              mid_suggestWordCombinations_4c6d02d8dbd986ab,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_getMaxChanges_bd89ce15dad49192,
+              mid_getMaxCombineWordLength_bd89ce15dad49192,
+              mid_getMaxEvaluations_bd89ce15dad49192,
+              mid_getMinBreakWordLength_bd89ce15dad49192,
+              mid_getMinSuggestionFrequency_bd89ce15dad49192,
+              mid_setMaxChanges_8226bd0b0fc13dba,
+              mid_setMaxCombineWordLength_8226bd0b0fc13dba,
+              mid_setMaxEvaluations_8226bd0b0fc13dba,
+              mid_setMinBreakWordLength_8226bd0b0fc13dba,
+              mid_setMinSuggestionFrequency_8226bd0b0fc13dba,
+              mid_suggestWordBreaks_0f4623278cb9f51c,
+              mid_suggestWordCombinations_e887807c01f59e74,
               max_mid
             };
 

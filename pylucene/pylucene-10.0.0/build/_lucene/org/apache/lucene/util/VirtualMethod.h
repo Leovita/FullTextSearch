@@ -28,10 +28,10 @@ namespace org {
         class VirtualMethod : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_57414f892f888975,
-            mid_compareImplementationDistance_a83d421ace47eebf,
-            mid_getImplementationDistance_5688bec4e938a5a9,
-            mid_isOverriddenAsOf_0be35c16891dfd3c,
+            mid_init$_5bb0ec19ceb18a6a,
+            mid_compareImplementationDistance_2e8599652c2242f3,
+            mid_getImplementationDistance_409765ede347fbe4,
+            mid_isOverriddenAsOf_4c29bd646fc74404,
             max_mid
           };
 

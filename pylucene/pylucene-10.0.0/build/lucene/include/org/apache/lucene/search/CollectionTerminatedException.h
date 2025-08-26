@@ -19,8 +19,8 @@ namespace org {
         class CollectionTerminatedException : public ::java::lang::RuntimeException {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_fillInStackTrace_d175b950df78251e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_fillInStackTrace_76f90963e923fefa,
             max_mid
           };
 

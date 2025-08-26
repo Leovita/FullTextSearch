@@ -29,14 +29,14 @@ namespace org {
         class FloatVectorSimilarityQuery : public ::org::apache::lucene::search::AbstractVectorSimilarityQuery {
          public:
           enum {
-            mid_init$_af0976d36d789d28,
-            mid_init$_1ffd91a65df74965,
-            mid_init$_ae600c2a68a12f7c,
-            mid_init$_6315980074f7a283,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_cb0eb1432185fc94,
-            mid_approximateSearch_2820dd1f2ca7baa6,
+            mid_init$_731fbfd51f8f6f5b,
+            mid_init$_e3acae440b976bfc,
+            mid_init$_b9e6ba2b269fd1a8,
+            mid_init$_6f9d86e08bdd7054,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_fef9c036acf290a9,
+            mid_approximateSearch_91ef996fb5702f76,
             max_mid
           };
 

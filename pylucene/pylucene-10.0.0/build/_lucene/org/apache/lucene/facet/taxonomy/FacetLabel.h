@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
     class Class;
     class String;
+    class Comparable;
   }
 }
 namespace org {
@@ -32,15 +32,15 @@ namespace org {
           class FacetLabel : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_ce41e621b30e91b1,
-              mid_init$_c16980b675f9738f,
-              mid_compareTo_b886af148d2e9c5a,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_lastComponent_09a7afff1868fc5e,
-              mid_longHashCode_16939d9d0a9a9721,
-              mid_subpath_c21e0250a0465b0f,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_1f90f2fcbe43e50d,
+              mid_init$_4c0d457b1588985f,
+              mid_compareTo_36dd33e0173c4244,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_lastComponent_e7df854526d67fa3,
+              mid_longHashCode_0f176418e3e16541,
+              mid_subpath_6c732e2e2e10e82a,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -21,8 +21,8 @@ namespace org {
         class ReferenceManager$RefreshListener : public ::java::lang::Object {
          public:
           enum {
-            mid_afterRefresh_b110fc3a58c081ab,
-            mid_beforeRefresh_3720c61b0679eb3e,
+            mid_afterRefresh_f5dd97eebf6a215a,
+            mid_beforeRefresh_e7bdbe105ce1bafb,
             max_mid
           };
 

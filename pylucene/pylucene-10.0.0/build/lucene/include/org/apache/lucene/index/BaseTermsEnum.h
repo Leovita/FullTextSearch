@@ -18,11 +18,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,11 +35,11 @@ namespace org {
         class BaseTermsEnum : public ::org::apache::lucene::index::TermsEnum {
          public:
           enum {
-            mid_attributes_ee6fc324885c7c07,
-            mid_prepareSeekExact_a6006c0d7e0ec315,
-            mid_seekExact_f460ee421aade2fd,
-            mid_seekExact_5c001dd449c905b9,
-            mid_termState_0f33111124ab1b09,
+            mid_attributes_cdef0e51a2510793,
+            mid_prepareSeekExact_0a02c02826151691,
+            mid_seekExact_08ac7a49de309824,
+            mid_seekExact_68ebcc8117fd12a5,
+            mid_termState_7f3f2ee4b8db95a4,
             max_mid
           };
 

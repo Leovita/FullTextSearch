@@ -4,13 +4,13 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class Cloneable;
+    class String;
+    class Class;
+  }
   namespace util {
     class BitSet;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Cloneable;
   }
   namespace io {
     class Serializable;
@@ -24,40 +24,40 @@ namespace java {
     class BitSet : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_540b2b23d51b1efd,
-        mid_and_4b9c7037c604a033,
-        mid_andNot_4b9c7037c604a033,
-        mid_cardinality_20fbf7565993c3d7,
-        mid_clear_3720c61b0679eb3e,
-        mid_clear_540b2b23d51b1efd,
-        mid_clear_e13cff512ebda969,
-        mid_clone_5655ed8670534604,
-        mid_equals_570b5248a6da3ef6,
-        mid_flip_540b2b23d51b1efd,
-        mid_flip_e13cff512ebda969,
-        mid_get_ae22d3a856ad56f1,
-        mid_get_d2cccd27611c67e7,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_intersects_d4f5302b74f8b8df,
-        mid_isEmpty_947277eca0748c4e,
-        mid_length_20fbf7565993c3d7,
-        mid_nextClearBit_3c9bba330f083871,
-        mid_nextSetBit_3c9bba330f083871,
-        mid_or_4b9c7037c604a033,
-        mid_previousClearBit_3c9bba330f083871,
-        mid_previousSetBit_3c9bba330f083871,
-        mid_set_540b2b23d51b1efd,
-        mid_set_2936d2706a18a684,
-        mid_set_e13cff512ebda969,
-        mid_set_6cd795a7c7bc8e48,
-        mid_size_20fbf7565993c3d7,
-        mid_toByteArray_5560da88fc44aa82,
-        mid_toLongArray_a057bd1a0d2826b3,
-        mid_toString_09a7afff1868fc5e,
-        mid_valueOf_15b4f290d0ad3044,
-        mid_valueOf_87c10f27734fb2a7,
-        mid_xor_4b9c7037c604a033,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_8226bd0b0fc13dba,
+        mid_and_bd291583a67dfd7c,
+        mid_andNot_bd291583a67dfd7c,
+        mid_cardinality_bd89ce15dad49192,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_clear_8226bd0b0fc13dba,
+        mid_clear_645c25455f5b9b1c,
+        mid_clone_4819806f62f1360a,
+        mid_equals_00d17418847797d4,
+        mid_flip_8226bd0b0fc13dba,
+        mid_flip_645c25455f5b9b1c,
+        mid_get_a8281eb3b9d9672d,
+        mid_get_14c317bb0f594142,
+        mid_hashCode_bd89ce15dad49192,
+        mid_intersects_43a34f027a56c9b8,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_length_bd89ce15dad49192,
+        mid_nextClearBit_a3904e10f5bb9437,
+        mid_nextSetBit_a3904e10f5bb9437,
+        mid_or_bd291583a67dfd7c,
+        mid_previousClearBit_a3904e10f5bb9437,
+        mid_previousSetBit_a3904e10f5bb9437,
+        mid_set_8226bd0b0fc13dba,
+        mid_set_a0fed0a2cd38e7b1,
+        mid_set_645c25455f5b9b1c,
+        mid_set_c3d84033adf0309d,
+        mid_size_bd89ce15dad49192,
+        mid_toByteArray_44e916dc40fc04cb,
+        mid_toLongArray_1aab5293a9d94cd3,
+        mid_toString_e7df854526d67fa3,
+        mid_valueOf_d6191dfdb2d8672b,
+        mid_valueOf_dbab09d1cb1d3afc,
+        mid_xor_bd291583a67dfd7c,
         max_mid
       };
 

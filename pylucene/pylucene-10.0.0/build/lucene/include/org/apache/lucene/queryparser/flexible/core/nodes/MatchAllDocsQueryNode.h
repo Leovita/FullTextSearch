@@ -9,11 +9,11 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
-            namespace parser {
-              class EscapeQuerySyntax;
-            }
             namespace nodes {
               class MatchAllDocsQueryNode;
+            }
+            namespace parser {
+              class EscapeQuerySyntax;
             }
           }
         }
@@ -24,8 +24,8 @@ namespace org {
 namespace java {
   namespace lang {
     class Class;
-    class CharSequence;
     class String;
+    class CharSequence;
     class CloneNotSupportedException;
   }
 }
@@ -42,10 +42,10 @@ namespace org {
               class MatchAllDocsQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_cloneTree_11b521d560d5008f,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_cloneTree_31692797905857ee,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

@@ -27,11 +27,11 @@ namespace org {
         class MultiTermQuery$TopTermsBoostOnlyBooleanQueryRewrite : public ::org::apache::lucene::search::TopTermsRewrite {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_getMaxSize_20fbf7565993c3d7,
-            mid_getTopLevelBuilder_3cf10685dab365aa,
-            mid_addClause_e4742c13c30c5129,
-            mid_build_a086a7aa307a6ca0,
+            mid_init$_8226bd0b0fc13dba,
+            mid_getTopLevelBuilder_5d4fe1bba074f5ec,
+            mid_getMaxSize_bd89ce15dad49192,
+            mid_addClause_5f594b73c6e23fd8,
+            mid_build_0c4b96022e6846be,
             max_mid
           };
 

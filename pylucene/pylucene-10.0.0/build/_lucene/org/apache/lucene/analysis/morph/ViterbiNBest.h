@@ -19,13 +19,13 @@ namespace org {
           class ViterbiNBest : public ::org::apache::lucene::analysis::morph::Viterbi {
            public:
             enum {
-              mid_getLatticeRootBase_20fbf7565993c3d7,
-              mid_probeDelta_7f733b5d08bb5ec4,
-              mid_registerNode_1fa292cafad34d61,
-              mid_setNBestCost_540b2b23d51b1efd,
-              mid_getNBestCost_20fbf7565993c3d7,
-              mid_backtraceNBest_5408f3a21e1fd37c,
-              mid_fixupPendingList_3720c61b0679eb3e,
+              mid_getLatticeRootBase_bd89ce15dad49192,
+              mid_probeDelta_7f27cf81a85a97e9,
+              mid_getNBestCost_bd89ce15dad49192,
+              mid_setNBestCost_8226bd0b0fc13dba,
+              mid_backtraceNBest_b3c2dd675eb0765f,
+              mid_fixupPendingList_e7bdbe105ce1bafb,
+              mid_registerNode_2e9665167dfbf95f,
               max_mid
             };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRefBuilder;
         class BytesRef;
+        class BytesRefBuilder;
       }
       namespace index {
         class TermState;
@@ -32,14 +32,14 @@ namespace org {
           class RamUsageUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_ramBytesUsed_89b2407edf6c4fd8,
-              mid_ramBytesUsed_7595cb5441b08443,
-              mid_ramBytesUsed_bdef42a5899b6c72,
-              mid_ramBytesUsedByByteArrayOfLength_7b22650fccb5d574,
-              mid_ramBytesUsedByHashMapOfSize_7b22650fccb5d574,
-              mid_ramBytesUsedByObjectArrayOfLength_7b22650fccb5d574,
-              mid_ramBytesUsedByUnmodifiableArrayListOfSize_7b22650fccb5d574,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_ramBytesUsed_066d3aa6477974b9,
+              mid_ramBytesUsed_8c6e1447894d7a38,
+              mid_ramBytesUsed_4b50e177bd7bdb41,
+              mid_ramBytesUsedByByteArrayOfLength_49af390f180d8ee7,
+              mid_ramBytesUsedByHashMapOfSize_49af390f180d8ee7,
+              mid_ramBytesUsedByObjectArrayOfLength_49af390f180d8ee7,
+              mid_ramBytesUsedByUnmodifiableArrayListOfSize_49af390f180d8ee7,
               max_mid
             };
 

@@ -34,8 +34,8 @@ namespace org {
         class PositiveScoresOnlyCollector : public ::org::apache::lucene::search::FilterCollector {
          public:
           enum {
-            mid_init$_91ebd1d75c9c0390,
-            mid_getLeafCollector_aca3f888603431e1,
+            mid_init$_01adb891a2ac56dc,
+            mid_getLeafCollector_0a34433e6da38be9,
             max_mid
           };
 

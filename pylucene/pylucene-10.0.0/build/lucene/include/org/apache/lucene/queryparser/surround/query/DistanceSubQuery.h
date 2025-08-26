@@ -37,8 +37,8 @@ namespace org {
             class DistanceSubQuery : public ::java::lang::Object {
              public:
               enum {
-                mid_addSpanQueries_aa9cfb8c7bb6240d,
-                mid_distanceSubQueryNotAllowed_09a7afff1868fc5e,
+                mid_addSpanQueries_56afd90c8c16ea0c,
+                mid_distanceSubQueryNotAllowed_e7df854526d67fa3,
                 max_mid
               };
 

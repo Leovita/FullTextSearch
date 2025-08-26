@@ -19,7 +19,7 @@ namespace org {
           class Tools : public ::java::lang::Object {
            public:
             enum {
-              mid_safeAcos_8fff3d7dcb9fddc5,
+              mid_safeAcos_8493a5edcb36d651,
               max_mid
             };
 

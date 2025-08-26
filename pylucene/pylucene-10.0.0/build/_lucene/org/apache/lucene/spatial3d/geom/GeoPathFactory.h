@@ -32,7 +32,7 @@ namespace org {
           class GeoPathFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_makeGeoPath_803699d8dad141b8,
+              mid_makeGeoPath_9785189eb96c2b0c,
               max_mid
             };
 

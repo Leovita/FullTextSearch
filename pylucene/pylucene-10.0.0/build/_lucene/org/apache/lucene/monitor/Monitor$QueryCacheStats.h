@@ -20,13 +20,13 @@ namespace org {
         class Monitor$QueryCacheStats : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_d02046eceb4997f8,
-            mid_cachedQueries_20fbf7565993c3d7,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_lastPurged_16939d9d0a9a9721,
-            mid_queries_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_ee45698dad8106c5,
+            mid_cachedQueries_bd89ce15dad49192,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_lastPurged_0f176418e3e16541,
+            mid_queries_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

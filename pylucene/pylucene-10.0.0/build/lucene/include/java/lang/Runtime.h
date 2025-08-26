@@ -4,17 +4,17 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class Process;
+    class Thread;
+    class Class;
+    class Runtime$Version;
+    class String;
+    class Runtime;
+  }
   namespace io {
     class File;
     class IOException;
-  }
-  namespace lang {
-    class Runtime$Version;
-    class String;
-    class Class;
-    class Process;
-    class Thread;
-    class Runtime;
   }
 }
 template<class T> class JArray;
@@ -25,26 +25,26 @@ namespace java {
     class Runtime : public ::java::lang::Object {
      public:
       enum {
-        mid_addShutdownHook_534abaa36b51a25f,
-        mid_availableProcessors_20fbf7565993c3d7,
-        mid_exec_422b2cc53e57a094,
-        mid_exec_fa50eb9748e0349c,
-        mid_exec_80a483e425357ac9,
-        mid_exec_a1617078be022a52,
-        mid_exec_fb0f284afa9f6e57,
-        mid_exec_1ec39417159450c0,
-        mid_exit_540b2b23d51b1efd,
-        mid_freeMemory_16939d9d0a9a9721,
-        mid_gc_3720c61b0679eb3e,
-        mid_getRuntime_3f200c274df20dbf,
-        mid_halt_540b2b23d51b1efd,
-        mid_load_0d82408c6e55bc30,
-        mid_loadLibrary_0d82408c6e55bc30,
-        mid_maxMemory_16939d9d0a9a9721,
-        mid_removeShutdownHook_f7a2c21b41d55d61,
-        mid_runFinalization_3720c61b0679eb3e,
-        mid_totalMemory_16939d9d0a9a9721,
-        mid_version_a33ae38793af884f,
+        mid_addShutdownHook_982838d333d00132,
+        mid_availableProcessors_bd89ce15dad49192,
+        mid_exec_9880cede18e0e16b,
+        mid_exec_b05261c1f7b1333d,
+        mid_exec_66ca3249bc124e5b,
+        mid_exec_933a23171837c6eb,
+        mid_exec_aa9f679a93795003,
+        mid_exec_fa809e7ff9d3649a,
+        mid_exit_8226bd0b0fc13dba,
+        mid_freeMemory_0f176418e3e16541,
+        mid_gc_e7bdbe105ce1bafb,
+        mid_getRuntime_34a3551f215c82bd,
+        mid_halt_8226bd0b0fc13dba,
+        mid_load_ee46a189998009d6,
+        mid_loadLibrary_ee46a189998009d6,
+        mid_maxMemory_0f176418e3e16541,
+        mid_removeShutdownHook_95518f7afafffd5d,
+        mid_runFinalization_e7bdbe105ce1bafb,
+        mid_totalMemory_0f176418e3e16541,
+        mid_version_be6a0fcc89a47927,
         max_mid
       };
 

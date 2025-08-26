@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/analysis/TokenFilterFactory.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Map;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class ResourceLoader;
         class ResourceLoaderAware;
+        class ResourceLoader;
       }
       namespace analysis {
         class CharArraySet;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
   }
 }
 template<class T> class JArray;
@@ -39,13 +39,13 @@ namespace org {
           class AbstractWordsFileFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_79ba0f5a7d05e623,
-              mid_getFormat_09a7afff1868fc5e,
-              mid_getWordFiles_09a7afff1868fc5e,
-              mid_getWords_7a52625961f2f88e,
-              mid_inform_6addbf380886844e,
-              mid_isIgnoreCase_947277eca0748c4e,
-              mid_createDefaultWords_7a52625961f2f88e,
+              mid_init$_6a7e23584beb7c0f,
+              mid_getFormat_e7df854526d67fa3,
+              mid_getWordFiles_e7df854526d67fa3,
+              mid_getWords_0a8f3a685855aa4f,
+              mid_inform_4ba602df53b96765,
+              mid_isIgnoreCase_9aa4f33e82ea333f,
+              mid_createDefaultWords_0a8f3a685855aa4f,
               max_mid
             };
 

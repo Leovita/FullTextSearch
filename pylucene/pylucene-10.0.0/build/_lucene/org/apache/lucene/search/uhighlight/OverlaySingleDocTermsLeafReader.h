@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/index/FilterLeafReader.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
         class Terms;
-        class LeafReader;
         class IndexReader$CacheHelper;
+        class LeafReader;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -34,10 +34,10 @@ namespace org {
           class OverlaySingleDocTermsLeafReader : public ::org::apache::lucene::index::FilterLeafReader {
            public:
             enum {
-              mid_init$_bcf45b1a0177e906,
-              mid_getCoreCacheHelper_3117e2e82cc46163,
-              mid_getReaderCacheHelper_3117e2e82cc46163,
-              mid_terms_734b49c46dc30275,
+              mid_init$_0d5b62a14a46c465,
+              mid_getCoreCacheHelper_bcf8e7a3b3f2dbe2,
+              mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+              mid_terms_b30320f056ffba8d,
               max_mid
             };
 

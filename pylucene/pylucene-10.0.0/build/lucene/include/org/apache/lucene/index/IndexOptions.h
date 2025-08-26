@@ -28,8 +28,8 @@ namespace org {
         class IndexOptions : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_6eb74cfacfa9e0b5,
-            mid_values_4d258c917a7aabcb,
+            mid_valueOf_1be0121b9831f902,
+            mid_values_0976942a8c274ff6,
             max_mid
           };
 

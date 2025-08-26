@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
-        class MultiDoubleValuesSource;
         namespace range {
           class DoubleRange;
         }
+        class MultiDoubleValuesSource;
       }
       namespace sandbox {
         namespace facet {
@@ -27,11 +27,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -47,8 +47,8 @@ namespace org {
               class DoubleRangeFacetCutter : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_24da8a292fe712d8,
-                  mid_createLeafCutter_54e08d9616e9005a,
+                  mid_init$_0b38806e29f8790b,
+                  mid_createLeafCutter_3722fb0d3a7d3776,
                   max_mid
                 };
 

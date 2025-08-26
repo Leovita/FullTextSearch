@@ -29,9 +29,9 @@ namespace org {
           class DictionaryCompoundWordTokenFilter : public ::org::apache::lucene::analysis::compound::CompoundWordTokenFilterBase {
            public:
             enum {
-              mid_init$_92e7098bbfc6f3de,
-              mid_init$_464fe98160e05d0d,
-              mid_decompose_3720c61b0679eb3e,
+              mid_init$_c584271ff3a78226,
+              mid_init$_d8518dcd30193ba8,
+              mid_decompose_e7bdbe105ce1bafb,
               max_mid
             };
 

@@ -3,22 +3,22 @@
 
 #include "org/apache/lucene/search/similarities/Lambda.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class Explanation;
         namespace similarities {
           class BasicStats;
         }
-        class Explanation;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
           class LambdaDF : public ::org::apache::lucene::search::similarities::Lambda {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_explain_87674e29fe14aeb4,
-              mid_lambda_8af00279baef6166,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_explain_1418f34b854d5724,
+              mid_lambda_8ac6e6e669b9f7bc,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

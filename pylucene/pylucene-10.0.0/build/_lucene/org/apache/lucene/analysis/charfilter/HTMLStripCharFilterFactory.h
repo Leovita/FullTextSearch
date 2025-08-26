@@ -3,17 +3,6 @@
 
 #include "org/apache/lucene/analysis/CharFilterFactory.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        namespace charfilter {
-          class HTMLStripCharFilter;
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -24,6 +13,17 @@ namespace java {
   }
   namespace util {
     class Map;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        namespace charfilter {
+          class HTMLStripCharFilter;
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -37,9 +37,9 @@ namespace org {
           class HTMLStripCharFilterFactory : public ::org::apache::lucene::analysis::CharFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_ac8407d31e5ddfa3,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_c540a049fbc22a82,
               max_mid
             };
 

@@ -28,10 +28,10 @@ namespace org {
         class BlendedTermQuery$DisjunctionMaxRewrite : public ::org::apache::lucene::search::BlendedTermQuery$RewriteMethod {
          public:
           enum {
-            mid_init$_c771a95b0227fb6a,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_92d28ee00f63f6c9,
+            mid_init$_675f4cb9a2529ee0,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_5a10a6b812ca3566,
             max_mid
           };
 

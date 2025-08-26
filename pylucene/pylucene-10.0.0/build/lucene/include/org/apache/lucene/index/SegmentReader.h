@@ -6,26 +6,26 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class KnnVectorsReader;
-        class PointsReader;
-        class StoredFieldsReader;
-        class NormsProducer;
-        class TermVectorsReader;
-        class FieldsProducer;
-        class DocValuesProducer;
-      }
-      namespace index {
-        class LeafMetaData;
-        class SegmentCommitInfo;
-        class FieldInfos;
-        class IndexReader$CacheHelper;
+      namespace store {
+        class Directory;
       }
       namespace util {
         class Bits;
       }
-      namespace store {
-        class Directory;
+      namespace index {
+        class SegmentCommitInfo;
+        class LeafMetaData;
+        class IndexReader$CacheHelper;
+        class FieldInfos;
+      }
+      namespace codecs {
+        class PointsReader;
+        class StoredFieldsReader;
+        class FieldsProducer;
+        class NormsProducer;
+        class DocValuesProducer;
+        class KnnVectorsReader;
+        class TermVectorsReader;
       }
     }
   }
@@ -49,28 +49,28 @@ namespace org {
         class SegmentReader : public ::org::apache::lucene::index::CodecReader {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_directory_0d3b52699e153434,
-            mid_getCoreCacheHelper_3117e2e82cc46163,
-            mid_getDocValuesReader_41ee33e34dc1b4f3,
-            mid_getFieldInfos_2d5786d39aaa5f0b,
-            mid_getFieldsReader_4e066a6f20734e17,
-            mid_getHardLiveDocs_959b4f7101dd7f4b,
-            mid_getLiveDocs_959b4f7101dd7f4b,
-            mid_getMetaData_e29b13e9e9af4206,
-            mid_getNormsReader_86a2ee031b1b0d77,
-            mid_getPointsReader_7cecd0a8b5d53414,
-            mid_getPostingsReader_47d662857d04070e,
-            mid_getReaderCacheHelper_3117e2e82cc46163,
-            mid_getSegmentInfo_6f5c2e9d37fb2f83,
-            mid_getSegmentName_09a7afff1868fc5e,
-            mid_getTermVectorsReader_0b9ae2ecfa80c759,
-            mid_getVectorReader_e70fe5e71b23e71f,
-            mid_maxDoc_20fbf7565993c3d7,
-            mid_numDocs_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_doClose_3720c61b0679eb3e,
-            mid_notifyReaderClosedListeners_3720c61b0679eb3e,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_directory_0b8988a9a36f43ec,
+            mid_getCoreCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_getDocValuesReader_c522cf75f2048ee9,
+            mid_getFieldInfos_09577c1068fdaec4,
+            mid_getFieldsReader_a7e1c9cc255e1e90,
+            mid_getHardLiveDocs_92a4f567193c49d1,
+            mid_getLiveDocs_92a4f567193c49d1,
+            mid_getMetaData_983410cc4aac3ed3,
+            mid_getNormsReader_bcb16c0940285072,
+            mid_getPointsReader_01e0d9afb4f515b4,
+            mid_getPostingsReader_181d74dce6e339fd,
+            mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_getSegmentInfo_5666aee396fcdc2a,
+            mid_getSegmentName_e7df854526d67fa3,
+            mid_getTermVectorsReader_7a10ef35062ba8d1,
+            mid_getVectorReader_9001a1821793c4d1,
+            mid_maxDoc_bd89ce15dad49192,
+            mid_numDocs_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_doClose_e7bdbe105ce1bafb,
+            mid_notifyReaderClosedListeners_e7bdbe105ce1bafb,
             max_mid
           };
 

@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/search/AutomatonQuery.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        namespace automaton {
-          class AutomatonProvider;
-        }
-      }
       namespace index {
         class Term;
       }
       namespace search {
         class MultiTermQuery$RewriteMethod;
       }
+      namespace util {
+        namespace automaton {
+          class AutomatonProvider;
+        }
+      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -36,15 +36,15 @@ namespace org {
         class RegexpQuery : public ::org::apache::lucene::search::AutomatonQuery {
          public:
           enum {
-            mid_init$_3b0982cb6e1bfb9d,
-            mid_init$_52d849eb23739642,
-            mid_init$_25675dcc7619f110,
-            mid_init$_a541e5f4e8b31a2c,
-            mid_init$_c90214f5dfb015b1,
-            mid_init$_99828a7194a1982d,
-            mid_init$_a9dcf2f3c4e759e5,
-            mid_getRegexp_8b5614d1be154430,
-            mid_toString_cb0eb1432185fc94,
+            mid_init$_ed33f9e055f7213d,
+            mid_init$_2d74cc249afcbb53,
+            mid_init$_1b09428e23ab13c1,
+            mid_init$_3b87bea0b63695d2,
+            mid_init$_589d67666d650304,
+            mid_init$_ff621831bae03309,
+            mid_init$_0d9ffe1f0d392a72,
+            mid_getRegexp_b549eaec39b02d52,
+            mid_toString_fef9c036acf290a9,
             max_mid
           };
 

@@ -30,10 +30,10 @@ namespace org {
           class ParallelTaxonomyArrays : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_children_5e9db91514fbff5c,
-              mid_parents_5e9db91514fbff5c,
-              mid_siblings_5e9db91514fbff5c,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_children_906f31954104150e,
+              mid_parents_906f31954104150e,
+              mid_siblings_906f31954104150e,
               max_mid
             };
 

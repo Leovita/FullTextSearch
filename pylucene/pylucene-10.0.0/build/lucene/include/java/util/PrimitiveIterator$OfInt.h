@@ -4,16 +4,16 @@
 #include "java/util/PrimitiveIterator.h"
 
 namespace java {
+  namespace lang {
+    class Integer;
+    class Object;
+    class Class;
+  }
   namespace util {
     namespace function {
       class IntConsumer;
       class Consumer;
     }
-  }
-  namespace lang {
-    class Integer;
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -24,10 +24,10 @@ namespace java {
     class PrimitiveIterator$OfInt : public ::java::util::PrimitiveIterator {
      public:
       enum {
-        mid_forEachRemaining_9460fa31d6623bfb,
-        mid_forEachRemaining_eeaf579fab05dbe8,
-        mid_next_0babf078bb41693e,
-        mid_nextInt_20fbf7565993c3d7,
+        mid_forEachRemaining_b4f64d55664646ca,
+        mid_forEachRemaining_ba60f3799f8c83fa,
+        mid_next_078821faeee94f65,
+        mid_nextInt_bd89ce15dad49192,
         max_mid
       };
 

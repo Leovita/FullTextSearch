@@ -4,17 +4,17 @@
 #include "org/apache/lucene/queries/function/ValueSource.h"
 
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
   namespace io {
     class IOException;
   }
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
   namespace util {
-    class List;
     class Map;
+    class List;
   }
 }
 namespace org {
@@ -25,11 +25,11 @@ namespace org {
           class FunctionValues;
         }
       }
-      namespace index {
-        class LeafReaderContext;
-      }
       namespace search {
         class IndexSearcher;
+      }
+      namespace index {
+        class LeafReaderContext;
       }
     }
   }
@@ -46,19 +46,19 @@ namespace org {
             class MultiFunction : public ::org::apache::lucene::queries::function::ValueSource {
              public:
               enum {
-                mid_init$_9425cd4f62c94bce,
-                mid_allExists_50589dd14c9a9f13,
-                mid_allExists_d1f27551e09cd238,
-                mid_anyExists_50589dd14c9a9f13,
-                mid_anyExists_d1f27551e09cd238,
-                mid_createWeight_ed456f113984b95a,
-                mid_description_09a7afff1868fc5e,
-                mid_description_7ec3d131ad2bcd25,
-                mid_equals_570b5248a6da3ef6,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_toString_5ea3043317137a6e,
-                mid_valsArr_9915285ae941b572,
-                mid_name_09a7afff1868fc5e,
+                mid_init$_acbb405b60a30822,
+                mid_allExists_da9008e0fa57cbd0,
+                mid_allExists_09cea75812180629,
+                mid_anyExists_da9008e0fa57cbd0,
+                mid_anyExists_09cea75812180629,
+                mid_createWeight_61f11467fc4f893b,
+                mid_description_e7df854526d67fa3,
+                mid_description_121cad1a14786755,
+                mid_equals_00d17418847797d4,
+                mid_hashCode_bd89ce15dad49192,
+                mid_toString_67763e5325090981,
+                mid_valsArr_f10723d225d2efb4,
+                mid_name_e7df854526d67fa3,
                 max_mid
               };
 

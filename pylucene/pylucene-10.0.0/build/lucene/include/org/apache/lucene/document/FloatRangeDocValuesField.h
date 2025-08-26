@@ -28,10 +28,10 @@ namespace org {
         class FloatRangeDocValuesField : public ::org::apache::lucene::document::BinaryRangeDocValuesField {
          public:
           enum {
-            mid_init$_67bb8b7222825576,
-            mid_getMax_29cfa01aaad92564,
-            mid_getMin_29cfa01aaad92564,
-            mid_newSlowIntersectsQuery_297c8e38e6ab41fe,
+            mid_init$_a3ebd753b84960c4,
+            mid_getMax_5873a23b935a9d49,
+            mid_getMin_5873a23b935a9d49,
+            mid_newSlowIntersectsQuery_28530d9f4b68fa70,
             max_mid
           };
 

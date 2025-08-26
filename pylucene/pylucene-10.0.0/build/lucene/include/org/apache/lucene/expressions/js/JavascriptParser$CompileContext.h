@@ -3,17 +3,13 @@
 
 #include "org/antlr/v4/runtime/ParserRuleContext.h"
 
-namespace org {
-  namespace antlr {
-    namespace v4 {
-      namespace runtime {
-        namespace atn {
-          class ParserATNSimulator;
-        }
-        class Token;
-      }
-    }
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
   }
+}
+namespace org {
   namespace apache {
     namespace lucene {
       namespace expressions {
@@ -23,11 +19,15 @@ namespace org {
       }
     }
   }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Object;
+  namespace antlr {
+    namespace v4 {
+      namespace runtime {
+        namespace atn {
+          class ParserATNSimulator;
+        }
+        class Token;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -41,9 +41,9 @@ namespace org {
           class JavascriptParser$CompileContext : public ::org::antlr::v4::runtime::ParserRuleContext {
            public:
             enum {
-              mid_init$_edeb232e399334f6,
-              mid_expression_52234aeb75d5371e,
-              mid_getRuleIndex_20fbf7565993c3d7,
+              mid_init$_f840f8abb19811a0,
+              mid_expression_839d5e323b63a18b,
+              mid_getRuleIndex_bd89ce15dad49192,
               max_mid
             };
 

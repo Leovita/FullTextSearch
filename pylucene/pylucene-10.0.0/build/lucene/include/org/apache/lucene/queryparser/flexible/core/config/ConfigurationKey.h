@@ -36,7 +36,7 @@ namespace org {
               class ConfigurationKey : public ::java::lang::Object {
                public:
                 enum {
-                  mid_newInstance_8a54e6df628ff3e4,
+                  mid_newInstance_0a863f469b6d1757,
                   max_mid
                 };
 

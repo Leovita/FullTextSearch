@@ -8,27 +8,27 @@ namespace org {
     namespace lucene {
       namespace index {
         class SortedSetDocValues;
-        class TermsEnum;
-        class SortedDocValues;
         class IndexReader$CacheKey;
+        class SortedDocValues;
         class OrdinalMap;
+        class TermsEnum;
       }
       namespace util {
-        class Accountable;
         class LongValues;
+        class Accountable;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -41,15 +41,15 @@ namespace org {
         class OrdinalMap : public ::java::lang::Object {
          public:
           enum {
-            mid_build_f1ec56fabebfcf9d,
-            mid_build_5a89cd953a250eab,
-            mid_build_3a4cc78012e53a0c,
-            mid_getChildResources_aa58b3beec16cbbd,
-            mid_getFirstSegmentNumber_35c872f03f347c10,
-            mid_getFirstSegmentOrd_91d66fa3ea476cea,
-            mid_getGlobalOrds_fa199d6af0992bd4,
-            mid_getValueCount_16939d9d0a9a9721,
-            mid_ramBytesUsed_16939d9d0a9a9721,
+            mid_build_0d1e64442fb6d898,
+            mid_build_f4c9d109c856692a,
+            mid_build_87e4f7dadf7e3753,
+            mid_getChildResources_4a269b968b3a511f,
+            mid_getFirstSegmentNumber_7af44747c1921bd4,
+            mid_getFirstSegmentOrd_3dc1c6e3a5a0baf0,
+            mid_getGlobalOrds_af3c88be26191202,
+            mid_getValueCount_0f176418e3e16541,
+            mid_ramBytesUsed_0f176418e3e16541,
             max_mid
           };
 

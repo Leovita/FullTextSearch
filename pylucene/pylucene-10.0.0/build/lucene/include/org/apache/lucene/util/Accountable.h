@@ -30,8 +30,8 @@ namespace org {
         class Accountable : public ::java::lang::Object {
          public:
           enum {
-            mid_getChildResources_aa58b3beec16cbbd,
-            mid_ramBytesUsed_16939d9d0a9a9721,
+            mid_getChildResources_4a269b968b3a511f,
+            mid_ramBytesUsed_0f176418e3e16541,
             max_mid
           };
 

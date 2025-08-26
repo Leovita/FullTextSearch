@@ -5,16 +5,16 @@
 
 namespace java {
   namespace lang {
-    class Class;
+    class ProcessHandle$Info;
     class ProcessHandle;
     class Object;
-    class ProcessHandle$Info;
+    class Class;
   }
   namespace util {
-    class Optional;
     namespace concurrent {
       class CompletableFuture;
     }
+    class Optional;
   }
 }
 template<class T> class JArray;
@@ -25,19 +25,19 @@ namespace java {
     class ProcessHandle : public ::java::lang::Comparable {
      public:
       enum {
-        mid_compareTo_2ccf30f16b73da25,
-        mid_current_6392027f213f9afe,
-        mid_destroy_947277eca0748c4e,
-        mid_destroyForcibly_947277eca0748c4e,
-        mid_equals_570b5248a6da3ef6,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_info_202f9764d68b3a24,
-        mid_isAlive_947277eca0748c4e,
-        mid_of_f7641d7016f63c0f,
-        mid_onExit_67c044688e7780df,
-        mid_parent_d95173840d09a723,
-        mid_pid_16939d9d0a9a9721,
-        mid_supportsNormalTermination_947277eca0748c4e,
+        mid_compareTo_f8f144388bbe2bb9,
+        mid_current_ffbc9b3892cf9762,
+        mid_destroy_9aa4f33e82ea333f,
+        mid_destroyForcibly_9aa4f33e82ea333f,
+        mid_equals_00d17418847797d4,
+        mid_hashCode_bd89ce15dad49192,
+        mid_info_d06aa60b02975843,
+        mid_isAlive_9aa4f33e82ea333f,
+        mid_of_9ef163310f71fbd3,
+        mid_onExit_645e0257444d1f5e,
+        mid_parent_9a972c66ccbfd657,
+        mid_pid_0f176418e3e16541,
+        mid_supportsNormalTermination_9aa4f33e82ea333f,
         max_mid
       };
 

@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class SidedPlane;
           class Vector;
+          class SidedPlane;
           class Membership;
           class PlanetModel;
         }
@@ -19,9 +19,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -35,26 +35,26 @@ namespace org {
           class SidedPlane : public ::org::apache::lucene::spatial3d::geom::Plane {
            public:
             enum {
-              mid_init$_4e6f5223a38e955e,
-              mid_init$_909cc085c0ff5373,
-              mid_init$_7655b9b54c546625,
-              mid_init$_048abc0ee5f5b16f,
-              mid_init$_936f91b4d4860536,
-              mid_init$_94f55fda0fdcc156,
-              mid_init$_81baefb1f38a6c3c,
-              mid_init$_671b05993acfb2c5,
-              mid_init$_d65a60daae1ea27c,
-              mid_init$_5f5dc7669369f74d,
-              mid_constructNormalizedPerpendicularSidedPlane_d630b97ee76c8cf9,
-              mid_constructNormalizedThreePointSidedPlane_d630b97ee76c8cf9,
-              mid_constructSidedPlaneFromOnePoint_90104cdac895afea,
-              mid_constructSidedPlaneFromTwoPoints_1f7f6743dab0c6f4,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isWithin_5f47c01c69ca9460,
-              mid_strictlyWithin_d2545ca8f40aaba4,
-              mid_strictlyWithin_5f47c01c69ca9460,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_b1edd451bf29f524,
+              mid_init$_f2ac4859e4940723,
+              mid_init$_a6dd507b8ffe1fb8,
+              mid_init$_e5657c79236390c7,
+              mid_init$_ca13ab03e6f1ace6,
+              mid_init$_7d67a7c71c3bc95d,
+              mid_init$_80feec4677023f2a,
+              mid_init$_46cbe7fec55ec89b,
+              mid_init$_f7eeb33db981fd47,
+              mid_init$_339dca06cd3a5b03,
+              mid_constructNormalizedPerpendicularSidedPlane_cd53e8e6be7509ee,
+              mid_constructNormalizedThreePointSidedPlane_cd53e8e6be7509ee,
+              mid_constructSidedPlaneFromOnePoint_d832cef8e0a5e282,
+              mid_constructSidedPlaneFromTwoPoints_6bac049656052e80,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isWithin_7ff1eb501b1de7c2,
+              mid_strictlyWithin_f78acf28287584e8,
+              mid_strictlyWithin_7ff1eb501b1de7c2,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

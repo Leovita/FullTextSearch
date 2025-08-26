@@ -23,7 +23,7 @@ namespace org {
             class LeafFacetCutter : public ::org::apache::lucene::sandbox::facet::iterators::OrdinalIterator {
              public:
               enum {
-                mid_advanceExact_ae22d3a856ad56f1,
+                mid_advanceExact_a8281eb3b9d9672d,
                 max_mid
               };
 

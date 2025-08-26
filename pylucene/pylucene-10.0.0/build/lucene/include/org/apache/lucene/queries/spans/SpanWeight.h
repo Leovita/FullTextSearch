@@ -6,9 +6,16 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class Explanation;
+        class ScorerSupplier;
+        class Matches;
+        class LeafSimScorer;
+        class IndexSearcher;
+      }
       namespace index {
-        class Term;
         class TermStates;
+        class Term;
         class LeafReaderContext;
       }
       namespace queries {
@@ -18,22 +25,15 @@ namespace org {
           class SpanQuery;
         }
       }
-      namespace search {
-        class LeafSimScorer;
-        class Matches;
-        class Explanation;
-        class ScorerSupplier;
-        class IndexSearcher;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -50,13 +50,13 @@ namespace org {
           class SpanWeight : public ::org::apache::lucene::search::Weight {
            public:
             enum {
-              mid_init$_e451e564edd238f0,
-              mid_explain_478bccbc961eab03,
-              mid_extractTermStates_79ba0f5a7d05e623,
-              mid_getSimScorer_3051e917bd433c98,
-              mid_getSpans_20bbb107c42cef31,
-              mid_matches_8b48216623017f2b,
-              mid_scorerSupplier_45b7d9496c5acc93,
+              mid_init$_2c7273b1b372ef04,
+              mid_explain_b1310cbadc240f44,
+              mid_extractTermStates_6a7e23584beb7c0f,
+              mid_getSimScorer_9774955b65847467,
+              mid_getSpans_03932f6f031979e9,
+              mid_matches_868b3421ec3687f4,
+              mid_scorerSupplier_613b85087b5065ab,
               max_mid
             };
 

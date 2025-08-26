@@ -28,10 +28,10 @@ namespace org {
           class PackedInts$Reader : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_get_7b22650fccb5d574,
-              mid_get_be281815fcc98213,
-              mid_size_20fbf7565993c3d7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_get_49af390f180d8ee7,
+              mid_get_bee5a5809f1f577a,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

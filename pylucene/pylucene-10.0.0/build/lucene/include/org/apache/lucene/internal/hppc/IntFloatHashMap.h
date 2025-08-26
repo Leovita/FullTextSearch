@@ -8,25 +8,25 @@ namespace java {
     class Iterator;
   }
   namespace lang {
+    class Cloneable;
     class Class;
     class String;
     class Iterable;
-    class Cloneable;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-      }
       namespace internal {
         namespace hppc {
-          class IntFloatHashMap$ValuesContainer;
           class IntFloatHashMap$IntFloatCursor;
           class IntFloatHashMap$KeysContainer;
+          class IntFloatHashMap$ValuesContainer;
           class IntFloatHashMap;
         }
+      }
+      namespace util {
+        class Accountable;
       }
     }
   }
@@ -42,46 +42,46 @@ namespace org {
           class IntFloatHashMap : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_bfec175f942874e6,
-              mid_addTo_38a8f22d32ce6b74,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_212f7154726e2a12,
-              mid_containsKey_ae22d3a856ad56f1,
-              mid_ensureCapacity_540b2b23d51b1efd,
-              mid_equals_570b5248a6da3ef6,
-              mid_from_964ef805906a8906,
-              mid_get_29cfa01aaad92564,
-              mid_getOrDefault_38a8f22d32ce6b74,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_indexExists_ae22d3a856ad56f1,
-              mid_indexGet_29cfa01aaad92564,
-              mid_indexInsert_c891bbfbb935732a,
-              mid_indexOf_3c9bba330f083871,
-              mid_indexRemove_29cfa01aaad92564,
-              mid_indexReplace_38a8f22d32ce6b74,
-              mid_isEmpty_947277eca0748c4e,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_keys_af3279cdd9b3158e,
-              mid_put_38a8f22d32ce6b74,
-              mid_putAll_96d1463b11b9fbe9,
-              mid_putIfAbsent_c1497fee57980602,
-              mid_putOrAdd_602f3a95a5ee3d97,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_release_3720c61b0679eb3e,
-              mid_remove_29cfa01aaad92564,
-              mid_size_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
-              mid_values_8f89e25580411c15,
-              mid_verifyLoadFactor_8fff3d7dcb9fddc5,
-              mid_hashKey_3c9bba330f083871,
-              mid_allocateThenInsertThenRehash_c891bbfbb935732a,
-              mid_nextIterationSeed_20fbf7565993c3d7,
-              mid_shiftConflictingKeys_540b2b23d51b1efd,
-              mid_allocateBuffers_540b2b23d51b1efd,
-              mid_equalElements_324233422c9daccd,
-              mid_rehash_8b00fb56154e5f28,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_21c15812094aeb13,
+              mid_addTo_cb697677f8bf71f1,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_d6383db87a41fb8f,
+              mid_containsKey_a8281eb3b9d9672d,
+              mid_ensureCapacity_8226bd0b0fc13dba,
+              mid_equals_00d17418847797d4,
+              mid_from_4dde175a0db27d09,
+              mid_get_5873a23b935a9d49,
+              mid_getOrDefault_cb697677f8bf71f1,
+              mid_hashCode_bd89ce15dad49192,
+              mid_indexExists_a8281eb3b9d9672d,
+              mid_indexGet_5873a23b935a9d49,
+              mid_indexInsert_637d040f0f81bc84,
+              mid_indexOf_a3904e10f5bb9437,
+              mid_indexRemove_5873a23b935a9d49,
+              mid_indexReplace_cb697677f8bf71f1,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_iterator_c7985fafdcf40e83,
+              mid_keys_1242f4789f8edad4,
+              mid_put_cb697677f8bf71f1,
+              mid_putAll_29d327a2ef457411,
+              mid_putIfAbsent_0ebe0f1167a31953,
+              mid_putOrAdd_55a95d007ef77f20,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_release_e7bdbe105ce1bafb,
+              mid_remove_5873a23b935a9d49,
+              mid_size_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
+              mid_values_63b729c4815ca36f,
+              mid_nextIterationSeed_bd89ce15dad49192,
+              mid_allocateThenInsertThenRehash_637d040f0f81bc84,
+              mid_verifyLoadFactor_8493a5edcb36d651,
+              mid_hashKey_a3904e10f5bb9437,
+              mid_shiftConflictingKeys_8226bd0b0fc13dba,
+              mid_equalElements_6e8b8e77587b3e05,
+              mid_allocateBuffers_8226bd0b0fc13dba,
+              mid_rehash_6ff10d42c938a921,
               max_mid
             };
 

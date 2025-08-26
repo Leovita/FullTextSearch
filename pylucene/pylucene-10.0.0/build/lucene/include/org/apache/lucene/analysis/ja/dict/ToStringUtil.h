@@ -4,14 +4,14 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class Appendable;
     class Class;
     class String;
     class CharSequence;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -26,12 +26,12 @@ namespace org {
             class ToStringUtil : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_getInflectedFormTranslation_cb0eb1432185fc94,
-                mid_getInflectionTypeTranslation_cb0eb1432185fc94,
-                mid_getPOSTranslation_cb0eb1432185fc94,
-                mid_getRomanization_cb0eb1432185fc94,
-                mid_getRomanization_5e6c924fa6723197,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_getInflectedFormTranslation_fef9c036acf290a9,
+                mid_getInflectionTypeTranslation_fef9c036acf290a9,
+                mid_getPOSTranslation_fef9c036acf290a9,
+                mid_getRomanization_fef9c036acf290a9,
+                mid_getRomanization_97f95d1197a208e0,
                 max_mid
               };
 

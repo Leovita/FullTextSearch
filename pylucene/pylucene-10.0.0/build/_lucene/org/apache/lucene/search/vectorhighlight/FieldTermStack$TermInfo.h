@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
     class Class;
     class String;
+    class Comparable;
   }
 }
 namespace org {
@@ -32,16 +32,16 @@ namespace org {
           class FieldTermStack$TermInfo : public ::java::lang::Object {
            public:
             enum {
-              mid_compareTo_3048a5a284eadfd7,
-              mid_equals_570b5248a6da3ef6,
-              mid_getEndOffset_20fbf7565993c3d7,
-              mid_getNext_d2f66dfc6a2e75b1,
-              mid_getPosition_20fbf7565993c3d7,
-              mid_getStartOffset_20fbf7565993c3d7,
-              mid_getText_09a7afff1868fc5e,
-              mid_getWeight_9b6c3480dac00edf,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_compareTo_8154b2a2eb020a8d,
+              mid_equals_00d17418847797d4,
+              mid_getEndOffset_bd89ce15dad49192,
+              mid_getNext_926e508f246bbf88,
+              mid_getPosition_bd89ce15dad49192,
+              mid_getStartOffset_bd89ce15dad49192,
+              mid_getText_e7df854526d67fa3,
+              mid_getWeight_8b62236f0e4d0dbc,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

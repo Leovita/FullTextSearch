@@ -33,8 +33,8 @@ namespace org {
           class PointReader : public ::java::io::Closeable {
            public:
             enum {
-              mid_next_947277eca0748c4e,
-              mid_pointValue_4371b70c8fbfafd8,
+              mid_next_9aa4f33e82ea333f,
+              mid_pointValue_89aa7308258929e8,
               max_mid
             };
 

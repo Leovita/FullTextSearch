@@ -4,14 +4,14 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
   namespace nio {
     namespace file {
       class Path;
     }
+  }
+  namespace lang {
+    class String;
+    class Class;
   }
   namespace io {
     class IOException;
@@ -28,11 +28,11 @@ namespace org {
           class BinaryDictionaryWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_put_1dd4f416112757eb,
-              mid_write_8a3244428bfc77b8,
-              mid_getBaseFileName_09a7afff1868fc5e,
-              mid_addMapping_e13cff512ebda969,
-              mid_write_3bcf8561749d9c49,
+              mid_put_bee55f3c003b8000,
+              mid_write_e7b3ede3efacc86d,
+              mid_getBaseFileName_e7df854526d67fa3,
+              mid_addMapping_645c25455f5b9b1c,
+              mid_write_bc9f7ff300bbac14,
               max_mid
             };
 

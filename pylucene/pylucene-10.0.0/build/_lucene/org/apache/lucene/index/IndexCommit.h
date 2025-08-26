@@ -3,30 +3,30 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace index {
+        class IndexCommit;
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
-    class Comparable;
     class Class;
     class String;
-  }
-  namespace util {
-    class Collection;
-    class Map;
+    class Comparable;
   }
   namespace io {
     class IOException;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class IndexCommit;
-      }
-      namespace store {
-        class Directory;
-      }
-    }
+  namespace util {
+    class Map;
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -39,17 +39,17 @@ namespace org {
         class IndexCommit : public ::java::lang::Object {
          public:
           enum {
-            mid_compareTo_40bb340b0b4a6dd2,
-            mid_delete_3720c61b0679eb3e,
-            mid_equals_570b5248a6da3ef6,
-            mid_getDirectory_0d3b52699e153434,
-            mid_getFileNames_aa58b3beec16cbbd,
-            mid_getGeneration_16939d9d0a9a9721,
-            mid_getSegmentCount_20fbf7565993c3d7,
-            mid_getSegmentsFileName_09a7afff1868fc5e,
-            mid_getUserData_f125f26c07a7bec8,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isDeleted_947277eca0748c4e,
+            mid_compareTo_6b24a169bddc674d,
+            mid_delete_e7bdbe105ce1bafb,
+            mid_equals_00d17418847797d4,
+            mid_getDirectory_0b8988a9a36f43ec,
+            mid_getFileNames_4a269b968b3a511f,
+            mid_getGeneration_0f176418e3e16541,
+            mid_getSegmentCount_bd89ce15dad49192,
+            mid_getSegmentsFileName_e7df854526d67fa3,
+            mid_getUserData_5004bdf19ed33453,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isDeleted_9aa4f33e82ea333f,
             max_mid
           };
 

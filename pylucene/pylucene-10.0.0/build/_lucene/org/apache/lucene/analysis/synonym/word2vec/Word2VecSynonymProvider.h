@@ -6,29 +6,29 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
       namespace analysis {
         namespace synonym {
           namespace word2vec {
-            class TermAndBoost;
             class Word2VecModel;
+            class TermAndBoost;
           }
         }
+      }
+      namespace util {
+        class BytesRef;
       }
     }
   }
 }
 namespace java {
+  namespace lang {
+    class Class;
+  }
   namespace io {
     class IOException;
   }
   namespace util {
     class List;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -43,8 +43,8 @@ namespace org {
             class Word2VecSynonymProvider : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_f16003de6c1d8d7a,
-                mid_getSynonyms_590f737caf8ffd5c,
+                mid_init$_22abf4d85a329396,
+                mid_getSynonyms_621a21d721d6661f,
                 max_mid
               };
 

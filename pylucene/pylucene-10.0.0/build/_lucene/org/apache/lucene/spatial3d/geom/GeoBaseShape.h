@@ -31,7 +31,7 @@ namespace org {
           class GeoBaseShape : public ::org::apache::lucene::spatial3d::geom::GeoBaseBounds {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
+              mid_init$_ed6d55ea06962af0,
               max_mid
             };
 

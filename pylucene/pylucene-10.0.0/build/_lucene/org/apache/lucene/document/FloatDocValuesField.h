@@ -19,9 +19,9 @@ namespace org {
         class FloatDocValuesField : public ::org::apache::lucene::document::NumericDocValuesField {
          public:
           enum {
-            mid_init$_6dcb8454f5b3a033,
-            mid_setFloatValue_c771a95b0227fb6a,
-            mid_setLongValue_8b3d46852b435a94,
+            mid_init$_de2cd726ee164772,
+            mid_setFloatValue_675f4cb9a2529ee0,
+            mid_setLongValue_1d3149fac12f2af3,
             max_mid
           };
 

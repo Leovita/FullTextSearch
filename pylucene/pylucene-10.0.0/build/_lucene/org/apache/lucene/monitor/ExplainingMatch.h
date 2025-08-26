@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/monitor/QueryMatch.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class Object;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -22,6 +16,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -32,9 +32,9 @@ namespace org {
         class ExplainingMatch : public ::org::apache::lucene::monitor::QueryMatch {
          public:
           enum {
-            mid_equals_570b5248a6da3ef6,
-            mid_getExplanation_67cc671c60da22f3,
-            mid_hashCode_20fbf7565993c3d7,
+            mid_equals_00d17418847797d4,
+            mid_getExplanation_5cd29865fc3d9e1c,
+            mid_hashCode_bd89ce15dad49192,
             max_mid
           };
 

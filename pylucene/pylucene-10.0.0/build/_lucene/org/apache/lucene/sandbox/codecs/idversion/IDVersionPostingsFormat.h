@@ -6,6 +6,10 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class SegmentWriteState;
+      }
       namespace util {
         class BytesRef;
       }
@@ -13,19 +17,15 @@ namespace org {
         class FieldsProducer;
         class FieldsConsumer;
       }
-      namespace index {
-        class SegmentReadState;
-        class SegmentWriteState;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,12 +40,12 @@ namespace org {
             class IDVersionPostingsFormat : public ::org::apache::lucene::codecs::PostingsFormat {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_e13cff512ebda969,
-                mid_bytesToLong_7595cb5441b08443,
-                mid_fieldsConsumer_19c1d7ed57faee5d,
-                mid_fieldsProducer_1c13fe60e408387e,
-                mid_longToBytes_12939dceb12c3d57,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_645c25455f5b9b1c,
+                mid_bytesToLong_8c6e1447894d7a38,
+                mid_fieldsConsumer_53e79f306f41e536,
+                mid_fieldsProducer_5a3bb464060de23c,
+                mid_longToBytes_b204cd666ad770ec,
                 max_mid
               };
 

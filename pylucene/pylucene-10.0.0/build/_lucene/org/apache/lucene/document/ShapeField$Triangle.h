@@ -18,7 +18,7 @@ namespace org {
         class ShapeField$Triangle : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_setTriangleValue_e173cfb41df648d9,
+            mid_setTriangleValue_aa60a36f06e4343f,
             max_mid
           };
 

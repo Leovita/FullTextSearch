@@ -6,28 +6,28 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace monitor {
+        class MonitorQuery;
+        class MonitorQuerySerializer;
+      }
       namespace search {
         class Query;
       }
       namespace util {
         class BytesRef;
       }
-      namespace monitor {
-        class MonitorQuery;
-        class MonitorQuerySerializer;
-      }
     }
   }
 }
 namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
   namespace util {
     namespace function {
       class Function;
     }
+  }
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -40,9 +40,9 @@ namespace org {
         class MonitorQuerySerializer : public ::java::lang::Object {
          public:
           enum {
-            mid_deserialize_7cd403c61c10d0ec,
-            mid_fromParser_34e81447294c7f42,
-            mid_serialize_28eb3b82dece866f,
+            mid_deserialize_89b4fa7be4d6d554,
+            mid_fromParser_243279dcbb930874,
+            mid_serialize_20db1976d720ca4e,
             max_mid
           };
 

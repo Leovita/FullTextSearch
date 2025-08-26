@@ -36,8 +36,8 @@ namespace org {
               class ProximityQueryNode$ProximityType : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_196859b404fa5422,
-                  mid_init$_243791e3daa0da21,
+                  mid_init$_d9a4d565d84a5632,
+                  mid_init$_c56f67ccb9508ec2,
                   max_mid
                 };
 

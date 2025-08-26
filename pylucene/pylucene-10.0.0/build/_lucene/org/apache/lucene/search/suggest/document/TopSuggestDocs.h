@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class TotalHits;
         namespace suggest {
           namespace document {
-            class TopSuggestDocs;
             class TopSuggestDocs$SuggestScoreDoc;
+            class TopSuggestDocs;
           }
         }
+        class TotalHits;
       }
     }
   }
@@ -35,9 +35,9 @@ namespace org {
             class TopSuggestDocs : public ::org::apache::lucene::search::TopDocs {
              public:
               enum {
-                mid_init$_b4f9741e32f617e4,
-                mid_merge_1069a9adac919db5,
-                mid_scoreLookupDocs_57dee33d55159055,
+                mid_init$_2753d2aeabb4ecb9,
+                mid_merge_249633fab7d4e2e4,
+                mid_scoreLookupDocs_fafe531f6071d2af,
                 max_mid
               };
 

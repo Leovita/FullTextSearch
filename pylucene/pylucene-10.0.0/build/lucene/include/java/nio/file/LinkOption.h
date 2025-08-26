@@ -4,16 +4,16 @@
 #include "java/lang/Enum.h"
 
 namespace java {
+  namespace nio {
+    namespace file {
+      class LinkOption;
+      class OpenOption;
+      class CopyOption;
+    }
+  }
   namespace lang {
     class Class;
     class String;
-  }
-  namespace nio {
-    namespace file {
-      class CopyOption;
-      class OpenOption;
-      class LinkOption;
-    }
   }
 }
 template<class T> class JArray;
@@ -25,8 +25,8 @@ namespace java {
       class LinkOption : public ::java::lang::Enum {
        public:
         enum {
-          mid_valueOf_80c72bb2b9a66775,
-          mid_values_7efa77d1505a2db9,
+          mid_valueOf_1301ebbcbc735e98,
+          mid_values_18cf9e66307308f1,
           max_mid
         };
 

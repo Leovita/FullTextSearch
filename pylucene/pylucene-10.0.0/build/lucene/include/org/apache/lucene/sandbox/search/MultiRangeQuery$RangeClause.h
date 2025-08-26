@@ -19,9 +19,9 @@ namespace org {
           class MultiRangeQuery$RangeClause : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_2cb2893631d74ced,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
+              mid_init$_bbca59a729b944b0,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
               max_mid
             };
 

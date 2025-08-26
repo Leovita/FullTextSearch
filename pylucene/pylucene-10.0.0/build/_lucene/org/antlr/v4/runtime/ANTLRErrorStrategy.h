@@ -8,8 +8,8 @@ namespace org {
     namespace v4 {
       namespace runtime {
         class RecognitionException;
-        class Parser;
         class Token;
+        class Parser;
       }
     }
   }
@@ -29,13 +29,13 @@ namespace org {
         class ANTLRErrorStrategy : public ::java::lang::Object {
          public:
           enum {
-            mid_inErrorRecoveryMode_cf0b39e0f7793ba2,
-            mid_recover_3824c5b5e4b1dc08,
-            mid_recoverInline_24fb275dd096ba04,
-            mid_reportError_3824c5b5e4b1dc08,
-            mid_reportMatch_c54371d1025687ef,
-            mid_reset_c54371d1025687ef,
-            mid_sync_c54371d1025687ef,
+            mid_inErrorRecoveryMode_c380942e4426b48b,
+            mid_recover_b5099f452a284cdc,
+            mid_recoverInline_3538550711c29f05,
+            mid_reportError_b5099f452a284cdc,
+            mid_reportMatch_e8c82ba13b1236ed,
+            mid_reset_e8c82ba13b1236ed,
+            mid_sync_e8c82ba13b1236ed,
             max_mid
           };
 

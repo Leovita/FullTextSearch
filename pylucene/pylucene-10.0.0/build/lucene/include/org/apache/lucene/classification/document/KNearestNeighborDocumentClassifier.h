@@ -6,44 +6,44 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexReader;
+      }
       namespace search {
-        class Query;
         namespace similarities {
           class Similarity;
         }
-      }
-      namespace util {
-        class BytesRef;
+        class Query;
       }
       namespace classification {
-        class ClassificationResult;
         namespace document {
           class DocumentClassifier;
         }
+        class ClassificationResult;
       }
-      namespace index {
-        class IndexReader;
+      namespace analysis {
+        class Analyzer;
       }
       namespace document {
         class Document;
       }
-      namespace analysis {
-        class Analyzer;
+      namespace util {
+        class BytesRef;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
-    class List;
     class Map;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -57,10 +57,10 @@ namespace org {
           class KNearestNeighborDocumentClassifier : public ::org::apache::lucene::classification::KNearestNeighborClassifier {
            public:
             enum {
-              mid_init$_8d21c1cddcb1efe6,
-              mid_assignClass_e9d448768a8cb51a,
-              mid_getClasses_d828968791cef3d9,
-              mid_getClasses_cd00ee8af1e542bb,
+              mid_init$_c42061c264f62b98,
+              mid_assignClass_dfa6ad443c74742e,
+              mid_getClasses_0fc9fb2d5c6e9925,
+              mid_getClasses_0b358d24f3316d10,
               max_mid
             };
 

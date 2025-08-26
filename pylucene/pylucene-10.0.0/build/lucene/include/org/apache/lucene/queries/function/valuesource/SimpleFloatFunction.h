@@ -4,12 +4,12 @@
 #include "org/apache/lucene/queries/function/valuesource/SingleFunction.h"
 
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
   namespace io {
     class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Object;
   }
   namespace util {
     class Map;
@@ -20,8 +20,8 @@ namespace org {
     namespace lucene {
       namespace queries {
         namespace function {
-          class ValueSource;
           class FunctionValues;
+          class ValueSource;
         }
       }
       namespace index {
@@ -42,9 +42,9 @@ namespace org {
             class SimpleFloatFunction : public ::org::apache::lucene::queries::function::valuesource::SingleFunction {
              public:
               enum {
-                mid_init$_db3a6d89b0568e70,
-                mid_getValues_a7d46b98c691aeac,
-                mid_func_2a7dde111948b529,
+                mid_init$_59499d05e6417711,
+                mid_getValues_9f85153ef1e32cca,
+                mid_func_3feb7071772c0817,
                 max_mid
               };
 

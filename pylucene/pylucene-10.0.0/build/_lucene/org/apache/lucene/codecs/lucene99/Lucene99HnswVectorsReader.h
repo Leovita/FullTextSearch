@@ -6,35 +6,35 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
+      namespace util {
+        namespace quantization {
+          class QuantizedVectorsReader;
+          class ScalarQuantizer;
+          class QuantizedByteVectorValues;
+        }
+        class Bits;
         namespace hnsw {
-          class HnswGraphProvider;
-          class FlatVectorsReader;
+          class HnswGraph;
         }
       }
-      namespace search {
-        class KnnCollector;
+      namespace index {
+        class ByteVectorValues;
+        class SegmentReadState;
+        class VectorEncoding;
+        class FloatVectorValues;
+        class VectorSimilarityFunction;
       }
       namespace store {
         class DataInput;
       }
-      namespace util {
-        namespace hnsw {
-          class HnswGraph;
-        }
-        namespace quantization {
-          class ScalarQuantizer;
-          class QuantizedByteVectorValues;
-          class QuantizedVectorsReader;
-        }
-        class Bits;
+      namespace search {
+        class KnnCollector;
       }
-      namespace index {
-        class ByteVectorValues;
-        class VectorSimilarityFunction;
-        class VectorEncoding;
-        class SegmentReadState;
-        class FloatVectorValues;
+      namespace codecs {
+        namespace hnsw {
+          class FlatVectorsReader;
+          class HnswGraphProvider;
+        }
       }
     }
   }
@@ -44,11 +44,11 @@ namespace java {
     class Class;
     class String;
   }
-  namespace util {
-    class List;
-  }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -62,19 +62,19 @@ namespace org {
           class Lucene99HnswVectorsReader : public ::org::apache::lucene::codecs::KnnVectorsReader {
            public:
             enum {
-              mid_init$_74291ab88447b481,
-              mid_checkIntegrity_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_getByteVectorValues_b6d55ee35cf0a7cd,
-              mid_getFloatVectorValues_d99d2b92faec6895,
-              mid_getGraph_f4c199e0f26ff1bf,
-              mid_getQuantizationState_ab0992f9e171f8d4,
-              mid_getQuantizedVectorValues_20e6d465a58a6183,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_readSimilarityFunction_5608de40e4faaf2b,
-              mid_readVectorEncoding_e3011cd1d83f5b79,
-              mid_search_e7c7b5d865f31eb3,
-              mid_search_210bbfb50a2f4ef9,
+              mid_init$_791a6e99c54bb435,
+              mid_checkIntegrity_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_getByteVectorValues_7ab2f26af1d93897,
+              mid_getFloatVectorValues_0c0ae22a56670782,
+              mid_getGraph_c1c25d370e8eb101,
+              mid_getQuantizationState_79cb6c90083c7390,
+              mid_getQuantizedVectorValues_a165ba1a19df4b04,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_readSimilarityFunction_da88640f57c1e777,
+              mid_readVectorEncoding_527ffeefc8784e47,
+              mid_search_41e6931fdbdb5ba0,
+              mid_search_61a952903eb61416,
               max_mid
             };
 

@@ -28,15 +28,15 @@ namespace org {
         class IntRange : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_5ae04353bd4ad6a7,
-            mid_getMax_3c9bba330f083871,
-            mid_getMin_3c9bba330f083871,
-            mid_newContainsQuery_c107d1b8f0b8d4e3,
-            mid_newCrossesQuery_c107d1b8f0b8d4e3,
-            mid_newIntersectsQuery_c107d1b8f0b8d4e3,
-            mid_newWithinQuery_c107d1b8f0b8d4e3,
-            mid_setRangeValues_09cea1ab2441144f,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_98e734b572e8500a,
+            mid_getMax_a3904e10f5bb9437,
+            mid_getMin_a3904e10f5bb9437,
+            mid_newContainsQuery_2c4c5245b1d1e81f,
+            mid_newCrossesQuery_2c4c5245b1d1e81f,
+            mid_newIntersectsQuery_2c4c5245b1d1e81f,
+            mid_newWithinQuery_2c4c5245b1d1e81f,
+            mid_setRangeValues_788e8c3eb977c890,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

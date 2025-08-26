@@ -21,11 +21,11 @@ namespace org {
         class RateLimiter : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getMBPerSec_32caabaad86c508b,
-            mid_getMinPauseCheckBytes_16939d9d0a9a9721,
-            mid_pause_91d66fa3ea476cea,
-            mid_setMBPerSec_b5bc1a2fb9ff9e90,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getMBPerSec_6fb37e123fed7a1f,
+            mid_getMinPauseCheckBytes_0f176418e3e16541,
+            mid_pause_3dc1c6e3a5a0baf0,
+            mid_setMBPerSec_a03f734ddaeb69b4,
             max_mid
           };
 

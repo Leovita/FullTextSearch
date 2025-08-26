@@ -4,19 +4,19 @@
 #include "org/apache/lucene/store/FSDirectory.h"
 
 namespace java {
-  namespace io {
-    class IOException;
+  namespace util {
+    namespace function {
+      class BiPredicate;
+      class Function;
+    }
+    class Optional;
   }
   namespace lang {
     class Class;
     class String;
   }
-  namespace util {
-    class Optional;
-    namespace function {
-      class BiPredicate;
-      class Function;
-    }
+  namespace io {
+    class IOException;
   }
   namespace nio {
     namespace file {
@@ -28,9 +28,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class LockFactory;
         class IndexInput;
         class IOContext;
+        class LockFactory;
       }
     }
   }
@@ -45,15 +45,15 @@ namespace org {
         class MMapDirectory : public ::org::apache::lucene::store::FSDirectory {
          public:
           enum {
-            mid_init$_8a3244428bfc77b8,
-            mid_init$_84a94904a0b471b0,
-            mid_init$_1b06ef0210ba0aee,
-            mid_init$_c4f45029e61d8d9d,
-            mid_getMaxChunkSize_16939d9d0a9a9721,
-            mid_openInput_f1f6511a018f52d0,
-            mid_setGroupingFunction_01074abdfd8c2995,
-            mid_setPreload_a062a4bba2294518,
-            mid_supportsMadvise_947277eca0748c4e,
+            mid_init$_e7b3ede3efacc86d,
+            mid_init$_c55c15f13c4780a5,
+            mid_init$_0cb049450e7c06bc,
+            mid_init$_3aa9e8dc21a6e8e9,
+            mid_getMaxChunkSize_0f176418e3e16541,
+            mid_openInput_fc1a53ef559ae62a,
+            mid_setGroupingFunction_7cb1cb7bc817902e,
+            mid_setPreload_1480775e5bf81c67,
+            mid_supportsMadvise_9aa4f33e82ea333f,
             max_mid
           };
 

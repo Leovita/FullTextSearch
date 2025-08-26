@@ -3,27 +3,27 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        namespace compress {
-          class LZ4$HashTable;
-        }
-      }
-      namespace store {
-        class DataInput;
-        class DataOutput;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
+      namespace util {
+        namespace compress {
+          class LZ4$HashTable;
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -37,9 +37,9 @@ namespace org {
           class LZ4 : public ::java::lang::Object {
            public:
             enum {
-              mid_compress_e66685188274e6ff,
-              mid_compressWithDictionary_037be7cc0e62ea96,
-              mid_decompress_aaa347bab91d0e23,
+              mid_compress_342f5debe3d8a36e,
+              mid_compressWithDictionary_780ee22e9305094a,
+              mid_decompress_e34bfad8b1c27baf,
               max_mid
             };
 

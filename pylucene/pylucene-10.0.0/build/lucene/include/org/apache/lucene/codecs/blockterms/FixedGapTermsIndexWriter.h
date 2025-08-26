@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/codecs/blockterms/TermsIndexWriterBase.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace codecs {
+        namespace blockterms {
+          class TermsIndexWriterBase$FieldWriter;
+        }
+      }
+      namespace index {
+        class SegmentWriteState;
+        class FieldInfo;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class FieldInfo;
-        class SegmentWriteState;
-      }
-      namespace codecs {
-        namespace blockterms {
-          class TermsIndexWriterBase$FieldWriter;
-        }
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -37,11 +37,11 @@ namespace org {
           class FixedGapTermsIndexWriter : public ::org::apache::lucene::codecs::blockterms::TermsIndexWriterBase {
            public:
             enum {
-              mid_init$_45b2848804214eb5,
-              mid_init$_316587a344b2d456,
-              mid_addField_efa906cc1416a50c,
-              mid_close_3720c61b0679eb3e,
-              mid_indexedTermPrefixLength_c605ddf1ef691f34,
+              mid_init$_5f1496262e5a9f7c,
+              mid_init$_2a52307cf79c4e67,
+              mid_addField_3966a263f8503a36,
+              mid_close_e7bdbe105ce1bafb,
+              mid_indexedTermPrefixLength_a0fa18546e6b17ce,
               max_mid
             };
 

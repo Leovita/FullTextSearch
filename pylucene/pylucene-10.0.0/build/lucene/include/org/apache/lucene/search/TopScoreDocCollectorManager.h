@@ -4,24 +4,24 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
   }
+  namespace util {
+    class Collection;
+  }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class ScoreDoc;
-        class CollectorManager;
         class TopScoreDocCollector;
+        class ScoreDoc;
         class TopDocs;
+        class CollectorManager;
       }
     }
   }
@@ -36,11 +36,11 @@ namespace org {
         class TopScoreDocCollectorManager : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_e13cff512ebda969,
-            mid_init$_f4f81009269d954b,
-            mid_init$_d8b936de4a06097b,
-            mid_newCollector_8611ba457725a51a,
-            mid_reduce_02c434fdf2333ad4,
+            mid_init$_645c25455f5b9b1c,
+            mid_init$_c558e2569f3b3ef7,
+            mid_init$_37d6425003531219,
+            mid_newCollector_648ac62947751f48,
+            mid_reduce_39d2b1ecb79da5df,
             max_mid
           };
 

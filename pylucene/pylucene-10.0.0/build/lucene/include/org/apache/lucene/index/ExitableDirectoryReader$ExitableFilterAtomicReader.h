@@ -8,23 +8,23 @@ namespace org {
     namespace lucene {
       namespace index {
         class SortedSetDocValues;
-        class SortedNumericDocValues;
-        class PointValues;
-        class FloatVectorValues;
-        class ByteVectorValues;
-        class SortedDocValues;
         class QueryTimeout;
-        class NumericDocValues;
+        class ByteVectorValues;
         class Terms;
-        class LeafReader;
+        class FloatVectorValues;
+        class NumericDocValues;
+        class SortedDocValues;
+        class SortedNumericDocValues;
         class IndexReader$CacheHelper;
         class BinaryDocValues;
-      }
-      namespace search {
-        class KnnCollector;
+        class PointValues;
+        class LeafReader;
       }
       namespace util {
         class Bits;
+      }
+      namespace search {
+        class KnnCollector;
       }
     }
   }
@@ -48,20 +48,20 @@ namespace org {
         class ExitableDirectoryReader$ExitableFilterAtomicReader : public ::org::apache::lucene::index::FilterLeafReader {
          public:
           enum {
-            mid_init$_4ed7e7310a4752b5,
-            mid_getBinaryDocValues_930cc2268218a3e3,
-            mid_getByteVectorValues_b6d55ee35cf0a7cd,
-            mid_getCoreCacheHelper_3117e2e82cc46163,
-            mid_getFloatVectorValues_d99d2b92faec6895,
-            mid_getNumericDocValues_0c282caddf2d7938,
-            mid_getPointValues_9d784340b5464260,
-            mid_getReaderCacheHelper_3117e2e82cc46163,
-            mid_getSortedDocValues_e1c83af81f671c5d,
-            mid_getSortedNumericDocValues_5b5cc59b31747b26,
-            mid_getSortedSetDocValues_9473e7f34fd540a9,
-            mid_searchNearestVectors_e7c7b5d865f31eb3,
-            mid_searchNearestVectors_210bbfb50a2f4ef9,
-            mid_terms_734b49c46dc30275,
+            mid_init$_55c65a043d3d04ab,
+            mid_getBinaryDocValues_7dcd5a29ca65e591,
+            mid_getByteVectorValues_7ab2f26af1d93897,
+            mid_getCoreCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_getFloatVectorValues_0c0ae22a56670782,
+            mid_getNumericDocValues_c8230d99abf988ec,
+            mid_getPointValues_db6b2fb22b12e7e1,
+            mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_getSortedDocValues_946c886dd7165459,
+            mid_getSortedNumericDocValues_d833735942a4e997,
+            mid_getSortedSetDocValues_a25ba477f918d8fc,
+            mid_searchNearestVectors_41e6931fdbdb5ba0,
+            mid_searchNearestVectors_61a952903eb61416,
+            mid_terms_b30320f056ffba8d,
             max_mid
           };
 

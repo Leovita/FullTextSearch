@@ -3,13 +3,25 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace util {
+        class FileDeleter$MsgType;
+      }
+    }
+  }
+}
 namespace java {
   namespace util {
-    class Collection;
-    class Set;
     namespace function {
       class BiConsumer;
     }
+    class Collection;
+    class Set;
   }
   namespace lang {
     class Class;
@@ -17,18 +29,6 @@ namespace java {
   }
   namespace io {
     class IOException;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class FileDeleter$MsgType;
-      }
-      namespace store {
-        class Directory;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -41,18 +41,18 @@ namespace org {
         class FileDeleter : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_a6326fe1fbf1b206,
-            mid_decRef_40eba2cff967cc45,
-            mid_deleteFileIfNoRef_0d82408c6e55bc30,
-            mid_deleteFilesIfNoRef_40eba2cff967cc45,
-            mid_exists_4a13a663b5c11133,
-            mid_forceDelete_0d82408c6e55bc30,
-            mid_getAllFiles_4df174295554d7bd,
-            mid_getRefCount_3f230d713d7fd2b0,
-            mid_getUnrefedFiles_4df174295554d7bd,
-            mid_incRef_0d82408c6e55bc30,
-            mid_incRef_40eba2cff967cc45,
-            mid_initRefCount_0d82408c6e55bc30,
+            mid_init$_282057b63cb7a319,
+            mid_decRef_b5398b431eb321fb,
+            mid_deleteFileIfNoRef_ee46a189998009d6,
+            mid_deleteFilesIfNoRef_b5398b431eb321fb,
+            mid_exists_94f7e759d94961b0,
+            mid_forceDelete_ee46a189998009d6,
+            mid_getAllFiles_79131c6bbcf08916,
+            mid_getRefCount_fa2a6f298bd618ab,
+            mid_getUnrefedFiles_79131c6bbcf08916,
+            mid_incRef_ee46a189998009d6,
+            mid_incRef_b5398b431eb321fb,
+            mid_initRefCount_ee46a189998009d6,
             max_mid
           };
 

@@ -31,7 +31,7 @@ namespace org {
           class PostingDecodingUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_splitLongs_a84fd328216c1672,
+              mid_splitLongs_d1a73c6116f8302a,
               max_mid
             };
 

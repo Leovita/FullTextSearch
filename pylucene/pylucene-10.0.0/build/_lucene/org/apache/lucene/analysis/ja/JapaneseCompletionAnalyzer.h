@@ -33,11 +33,11 @@ namespace org {
           class JapaneseCompletionAnalyzer : public ::org::apache::lucene::analysis::Analyzer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_27d3a41bc4dd4732,
-              mid_createComponents_f774fffda992519d,
-              mid_initReader_f755529383524495,
-              mid_initReaderForNormalization_f755529383524495,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_e154c2ccc36b3bb2,
+              mid_createComponents_b734244e69a6c631,
+              mid_initReader_9b0aaf55e5811bc6,
+              mid_initReaderForNormalization_9b0aaf55e5811bc6,
               max_mid
             };
 

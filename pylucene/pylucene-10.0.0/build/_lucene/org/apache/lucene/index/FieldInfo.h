@@ -3,19 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class DocValuesSkipIndexType;
-        class DocValuesType;
-        class VectorSimilarityFunction;
-        class VectorEncoding;
-        class IndexOptions;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -23,6 +10,19 @@ namespace java {
   }
   namespace util {
     class Map;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class VectorEncoding;
+        class VectorSimilarityFunction;
+        class IndexOptions;
+        class DocValuesType;
+        class DocValuesSkipIndexType;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,33 +35,33 @@ namespace org {
         class FieldInfo : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_aff8f8348a69cfb8,
-            mid_attributes_f125f26c07a7bec8,
-            mid_checkConsistency_3720c61b0679eb3e,
-            mid_docValuesSkipIndexType_105258e940575563,
-            mid_getAttribute_cb0eb1432185fc94,
-            mid_getDocValuesGen_16939d9d0a9a9721,
-            mid_getDocValuesType_0ce8ab755e2afd1f,
-            mid_getFieldNumber_20fbf7565993c3d7,
-            mid_getIndexOptions_0d9f22852de1dba6,
-            mid_getName_09a7afff1868fc5e,
-            mid_getPointDimensionCount_20fbf7565993c3d7,
-            mid_getPointIndexDimensionCount_20fbf7565993c3d7,
-            mid_getPointNumBytes_20fbf7565993c3d7,
-            mid_getVectorDimension_20fbf7565993c3d7,
-            mid_getVectorEncoding_89ee194538cd6149,
-            mid_getVectorSimilarityFunction_ab08f5c5789ece7c,
-            mid_hasNorms_947277eca0748c4e,
-            mid_hasPayloads_947277eca0748c4e,
-            mid_hasTermVectors_947277eca0748c4e,
-            mid_hasVectorValues_947277eca0748c4e,
-            mid_isParentField_947277eca0748c4e,
-            mid_isSoftDeletesField_947277eca0748c4e,
-            mid_omitsNorms_947277eca0748c4e,
-            mid_putAttribute_6829292399b85216,
-            mid_setDocValuesType_55494b517509e0e2,
-            mid_setOmitsNorms_3720c61b0679eb3e,
-            mid_setPointDimensions_20022b6d5e83c732,
+            mid_init$_a10b728b025dcd04,
+            mid_attributes_5004bdf19ed33453,
+            mid_checkConsistency_e7bdbe105ce1bafb,
+            mid_docValuesSkipIndexType_97cc35d5a06c6328,
+            mid_getAttribute_fef9c036acf290a9,
+            mid_getDocValuesGen_0f176418e3e16541,
+            mid_getDocValuesType_632981fa09914ed1,
+            mid_getFieldNumber_bd89ce15dad49192,
+            mid_getIndexOptions_898aff4631b0024a,
+            mid_getName_e7df854526d67fa3,
+            mid_getPointDimensionCount_bd89ce15dad49192,
+            mid_getPointIndexDimensionCount_bd89ce15dad49192,
+            mid_getPointNumBytes_bd89ce15dad49192,
+            mid_getVectorDimension_bd89ce15dad49192,
+            mid_getVectorEncoding_667892793043e3ed,
+            mid_getVectorSimilarityFunction_0f05516cfc8fbfdc,
+            mid_hasNorms_9aa4f33e82ea333f,
+            mid_hasPayloads_9aa4f33e82ea333f,
+            mid_hasTermVectors_9aa4f33e82ea333f,
+            mid_hasVectorValues_9aa4f33e82ea333f,
+            mid_isParentField_9aa4f33e82ea333f,
+            mid_isSoftDeletesField_9aa4f33e82ea333f,
+            mid_omitsNorms_9aa4f33e82ea333f,
+            mid_putAttribute_3bdb499546f6bd60,
+            mid_setDocValuesType_e61a48e17304d135,
+            mid_setOmitsNorms_e7bdbe105ce1bafb,
+            mid_setPointDimensions_eee637a6cebc299b,
             max_mid
           };
 

@@ -3,31 +3,31 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Exception;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace monitor {
+        class MultiMatchingQueries;
+        class QueryMatch;
+      }
       namespace search {
         class Query;
         class IndexSearcher;
       }
-      namespace monitor {
-        class QueryMatch;
-        class MultiMatchingQueries;
-      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Exception;
-  }
-  namespace util {
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -40,14 +40,14 @@ namespace org {
         class CandidateMatcher : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_64fdfedb3d23d646,
-            mid_finish_df23a7f7fd4fb166,
-            mid_matchQuery_5f33980d0e5d47c7,
-            mid_reportError_f96e8aa748869c8b,
-            mid_resolve_bdef7bbdb2bb527e,
-            mid_addMatch_faefe5b40c669f40,
-            mid_doFinish_3720c61b0679eb3e,
-            mid_copyMatches_720bfaa93343d7fc,
+            mid_init$_ca121b0bc447f41f,
+            mid_finish_a8c9845d4bceb8dd,
+            mid_matchQuery_ae573456fdb2ff0e,
+            mid_reportError_a76f7f52784b7edf,
+            mid_resolve_32842a30f5e442d8,
+            mid_doFinish_e7bdbe105ce1bafb,
+            mid_copyMatches_447bf246291c51d0,
+            mid_addMatch_c08c85baa324da33,
             max_mid
           };
 

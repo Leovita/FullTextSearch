@@ -7,14 +7,14 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
-        class Sort;
         namespace grouping {
-          class GroupingSearch;
           class GroupSelector;
           class TopGroups;
+          class GroupingSearch;
         }
         class IndexSearcher;
+        class Query;
+        class Sort;
       }
       namespace util {
         class Bits;
@@ -28,16 +28,16 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class Map;
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Map;
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -51,25 +51,25 @@ namespace org {
           class GroupingSearch : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_init$_d7278af460a7b96a,
-              mid_init$_665eebd6bb04e638,
-              mid_init$_18272dfd6f608e97,
-              mid_disableCaching_8b3a5dc395b036be,
-              mid_getAllGroupHeads_959b4f7101dd7f4b,
-              mid_getAllMatchingGroups_aa58b3beec16cbbd,
-              mid_search_05faad07f2abb954,
-              mid_setAllGroupHeads_3b9f2608e509ed64,
-              mid_setAllGroups_3b9f2608e509ed64,
-              mid_setCaching_611246f7e167c777,
-              mid_setCachingInMB_d5e101a3f32d1e82,
-              mid_setGroupDocsLimit_2a59a8dd6f55f7fa,
-              mid_setGroupDocsOffset_2a59a8dd6f55f7fa,
-              mid_setGroupSort_6993ad4f0d1c1f25,
-              mid_setIncludeMaxScore_3b9f2608e509ed64,
-              mid_setSortWithinGroup_6993ad4f0d1c1f25,
-              mid_groupByFieldOrFunction_05faad07f2abb954,
-              mid_groupByDocBlock_05faad07f2abb954,
+              mid_init$_ee46a189998009d6,
+              mid_init$_a28ff1cdbaf0bf6c,
+              mid_init$_dddaabc7d6744e95,
+              mid_init$_835d86704283a594,
+              mid_disableCaching_9b9a57e90572c24c,
+              mid_getAllGroupHeads_92a4f567193c49d1,
+              mid_getAllMatchingGroups_4a269b968b3a511f,
+              mid_search_c494f2bd8ce48a18,
+              mid_setAllGroupHeads_9517ecc32dbb504e,
+              mid_setAllGroups_9517ecc32dbb504e,
+              mid_setCaching_197581ac964946a6,
+              mid_setCachingInMB_c4dc0d47350ed166,
+              mid_setGroupDocsLimit_231b32cf3aefed68,
+              mid_setGroupDocsOffset_231b32cf3aefed68,
+              mid_setGroupSort_a6aacd1411a7c087,
+              mid_setIncludeMaxScore_9517ecc32dbb504e,
+              mid_setSortWithinGroup_a6aacd1411a7c087,
+              mid_groupByFieldOrFunction_c494f2bd8ce48a18,
+              mid_groupByDocBlock_c494f2bd8ce48a18,
               max_mid
             };
 

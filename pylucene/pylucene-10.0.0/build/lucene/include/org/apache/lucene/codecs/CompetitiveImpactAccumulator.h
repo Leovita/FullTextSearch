@@ -34,13 +34,13 @@ namespace org {
         class CompetitiveImpactAccumulator : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_52c53d6e59b40db2,
-            mid_addAll_288d25bbc1d31eba,
-            mid_clear_3720c61b0679eb3e,
-            mid_copy_288d25bbc1d31eba,
-            mid_getCompetitiveFreqNormPairs_36830460e10839eb,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_1d43622e571bd043,
+            mid_addAll_33754bb92d0f3662,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_copy_33754bb92d0f3662,
+            mid_getCompetitiveFreqNormPairs_1387e1e2702ac173,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

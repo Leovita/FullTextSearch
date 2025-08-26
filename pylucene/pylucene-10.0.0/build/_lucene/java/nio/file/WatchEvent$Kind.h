@@ -18,8 +18,8 @@ namespace java {
       class WatchEvent$Kind : public ::java::lang::Object {
        public:
         enum {
-          mid_name_09a7afff1868fc5e,
-          mid_type_8b9fee113c1a0b81,
+          mid_name_e7df854526d67fa3,
+          mid_type_99e3ace59a9dfdb9,
           max_mid
         };
 

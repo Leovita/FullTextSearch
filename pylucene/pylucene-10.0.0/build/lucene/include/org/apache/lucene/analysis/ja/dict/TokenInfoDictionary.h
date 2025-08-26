@@ -4,12 +4,12 @@
 #include "org/apache/lucene/analysis/morph/BinaryDictionary.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace nio {
     namespace file {
@@ -23,9 +23,9 @@ namespace org {
       namespace analysis {
         namespace ja {
           namespace dict {
-            class TokenInfoFST;
-            class TokenInfoMorphData;
             class TokenInfoDictionary;
+            class TokenInfoMorphData;
+            class TokenInfoFST;
           }
         }
       }
@@ -44,10 +44,10 @@ namespace org {
             class TokenInfoDictionary : public ::org::apache::lucene::analysis::morph::BinaryDictionary {
              public:
               enum {
-                mid_init$_926988d72e858c1a,
-                mid_getFST_cbe3fd00f3f3655e,
-                mid_getInstance_a031b4521748089b,
-                mid_getMorphAttributes_ae9e1b3b14274f50,
+                mid_init$_b5d3a37b25c6d7fc,
+                mid_getFST_0930ded321e6609a,
+                mid_getInstance_afd79d86ed373e1b,
+                mid_getMorphAttributes_d44a61981b9daf7c,
                 max_mid
               };
 

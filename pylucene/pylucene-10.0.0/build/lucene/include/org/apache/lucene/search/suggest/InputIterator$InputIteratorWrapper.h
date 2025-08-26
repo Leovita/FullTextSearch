@@ -3,30 +3,30 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Set;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-        class BytesRefIterator;
-      }
       namespace search {
         namespace suggest {
           class InputIterator;
         }
       }
+      namespace util {
+        class BytesRef;
+        class BytesRefIterator;
+      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class Set;
   }
 }
 template<class T> class JArray;
@@ -40,13 +40,13 @@ namespace org {
           class InputIterator$InputIteratorWrapper : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_23ee0d4ff5a62e64,
-              mid_contexts_4df174295554d7bd,
-              mid_hasContexts_947277eca0748c4e,
-              mid_hasPayloads_947277eca0748c4e,
-              mid_next_9740fddd1c7df148,
-              mid_payload_9740fddd1c7df148,
-              mid_weight_16939d9d0a9a9721,
+              mid_init$_41ebb2a5a47209ee,
+              mid_contexts_79131c6bbcf08916,
+              mid_hasContexts_9aa4f33e82ea333f,
+              mid_hasPayloads_9aa4f33e82ea333f,
+              mid_next_adbedbc1fa61c358,
+              mid_payload_adbedbc1fa61c358,
+              mid_weight_0f176418e3e16541,
               max_mid
             };
 

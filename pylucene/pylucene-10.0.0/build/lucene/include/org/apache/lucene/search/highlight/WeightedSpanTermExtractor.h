@@ -6,28 +6,28 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        namespace highlight {
-          class WeightedSpanTerm;
-        }
-      }
       namespace index {
         class IndexReader;
       }
       namespace analysis {
         class TokenStream;
       }
+      namespace search {
+        class Query;
+        namespace highlight {
+          class WeightedSpanTerm;
+        }
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -44,28 +44,28 @@ namespace org {
           class WeightedSpanTermExtractor : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_0d82408c6e55bc30,
-              mid_getExpandMultiTermQuery_947277eca0748c4e,
-              mid_getTokenStream_707aa2a89bdef693,
-              mid_getWeightedSpanTerms_ea47597dd488f452,
-              mid_getWeightedSpanTerms_0414b7828e9db36b,
-              mid_getWeightedSpanTermsWithScores_aa2d157e8bbb5fd6,
-              mid_isCachedTokenStream_947277eca0748c4e,
-              mid_isUsePayloads_947277eca0748c4e,
-              mid_setExpandMultiTermQuery_b110fc3a58c081ab,
-              mid_setUsePayloads_b110fc3a58c081ab,
-              mid_setWrapIfNotCachingTokenFilter_b110fc3a58c081ab,
-              mid_fieldNameComparator_4a13a663b5c11133,
-              mid_collectSpanQueryFields_a8c011bc2a6e1e25,
-              mid_mustRewriteQuery_7138aef954ed6314,
-              mid_isQueryUnsupported_0be35c16891dfd3c,
-              mid_extractWeightedTerms_4e3fb54ec2659807,
-              mid_extractWeightedSpanTerms_3db00dfb3f81ce15,
-              mid_getLeafContext_73a30448bd05c3e2,
-              mid_extractUnknownQuery_4440002e948cd3d6,
-              mid_setMaxDocCharsToAnalyze_540b2b23d51b1efd,
-              mid_extract_deb5aaa35534728c,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_ee46a189998009d6,
+              mid_getExpandMultiTermQuery_9aa4f33e82ea333f,
+              mid_getTokenStream_6d4d6f6f288807ef,
+              mid_getWeightedSpanTerms_ed9f0d6014f9f0bf,
+              mid_getWeightedSpanTerms_75a3dcff8157f4dc,
+              mid_getWeightedSpanTermsWithScores_fabfc027942616c5,
+              mid_isCachedTokenStream_9aa4f33e82ea333f,
+              mid_isUsePayloads_9aa4f33e82ea333f,
+              mid_setExpandMultiTermQuery_f5dd97eebf6a215a,
+              mid_setUsePayloads_f5dd97eebf6a215a,
+              mid_setWrapIfNotCachingTokenFilter_f5dd97eebf6a215a,
+              mid_extractWeightedTerms_ee73026b057db43a,
+              mid_collectSpanQueryFields_1da2d10b16df7230,
+              mid_mustRewriteQuery_d38f98a1e41250ee,
+              mid_isQueryUnsupported_4c29bd646fc74404,
+              mid_extractWeightedSpanTerms_a63219da3c5e339d,
+              mid_fieldNameComparator_94f7e759d94961b0,
+              mid_getLeafContext_a465a075d20c01e1,
+              mid_extractUnknownQuery_d917c39398821679,
+              mid_setMaxDocCharsToAnalyze_8226bd0b0fc13dba,
+              mid_extract_e95b039a24b2ac82,
               max_mid
             };
 

@@ -18,7 +18,7 @@ namespace org {
       class Among : public ::java::lang::Object {
        public:
         enum {
-          mid_init$_54573ef49c0daa22,
+          mid_init$_ae8275bdfad592e6,
           max_mid
         };
 

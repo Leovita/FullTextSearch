@@ -3,9 +3,18 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace geo {
+        class Polygon;
+      }
       namespace document {
         class FieldType;
       }
@@ -15,19 +24,10 @@ namespace org {
           class GeoPoint;
         }
       }
-      namespace geo {
-        class Polygon;
-      }
       namespace search {
         class SortField;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -40,18 +40,18 @@ namespace org {
         class Geo3DDocValuesField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_cef1fbb8b9b4d67b,
-            mid_init$_e3884dedde411988,
-            mid_newDistanceSort_c4f7a16defeeb7e6,
-            mid_newOutsideBoxSort_0d6f31a7d31090ed,
-            mid_newOutsideDistanceSort_c4f7a16defeeb7e6,
-            mid_newOutsideLargePolygonSort_c3780ee241b4069b,
-            mid_newOutsidePathSort_e429ec08cd071ca5,
-            mid_newOutsidePolygonSort_c3780ee241b4069b,
-            mid_newPathSort_e429ec08cd071ca5,
-            mid_setLocationValue_1d9d47141dae496a,
-            mid_setLocationValue_4d2b38be0e1337a3,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_a9ef6e79d1c2143b,
+            mid_init$_794a089583fd8058,
+            mid_newDistanceSort_ace7752a68e86f31,
+            mid_newOutsideBoxSort_ff860b1a9851a5d9,
+            mid_newOutsideDistanceSort_ace7752a68e86f31,
+            mid_newOutsideLargePolygonSort_44970f0f3fa30a6b,
+            mid_newOutsidePathSort_cc5d7f650c000ff9,
+            mid_newOutsidePolygonSort_44970f0f3fa30a6b,
+            mid_newPathSort_cc5d7f650c000ff9,
+            mid_setLocationValue_ee35f58793f14ff8,
+            mid_setLocationValue_643492163a564694,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

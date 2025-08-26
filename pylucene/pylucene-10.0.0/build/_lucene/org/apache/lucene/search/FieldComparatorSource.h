@@ -3,6 +3,12 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,12 +17,6 @@ namespace org {
         class FieldComparator;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -29,8 +29,8 @@ namespace org {
         class FieldComparatorSource : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_newComparator_96693b48afd2cdfc,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_newComparator_b5deb9756771a3ce,
             max_mid
           };
 

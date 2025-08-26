@@ -27,15 +27,15 @@ namespace org {
         class RecyclingIntBlockAllocator : public ::org::apache::lucene::util::IntBlockPool$Allocator {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_e13cff512ebda969,
-            mid_init$_1592eea16ceb49c5,
-            mid_bytesUsed_16939d9d0a9a9721,
-            mid_freeBlocks_3c9bba330f083871,
-            mid_getIntBlock_623cd4a044ba647a,
-            mid_maxBufferedBlocks_20fbf7565993c3d7,
-            mid_numBufferedBlocks_20fbf7565993c3d7,
-            mid_recycleIntBlocks_db6edd5aae13a5bb,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_645c25455f5b9b1c,
+            mid_init$_abe21a6a1d9a9266,
+            mid_bytesUsed_0f176418e3e16541,
+            mid_freeBlocks_a3904e10f5bb9437,
+            mid_getIntBlock_4b72a28a860ae838,
+            mid_maxBufferedBlocks_bd89ce15dad49192,
+            mid_numBufferedBlocks_bd89ce15dad49192,
+            mid_recycleIntBlocks_4bb8f555233a8d15,
             max_mid
           };
 

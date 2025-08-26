@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/QueryNodeParseException.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -27,6 +21,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -40,9 +40,9 @@ namespace org {
               class ParseException : public ::org::apache::lucene::queryparser::flexible::core::QueryNodeParseException {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_init$_4c499563a04682ba,
-                  mid_init$_8000bcc4f12e48bf,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_init$_18a3d90549745ece,
+                  mid_init$_abc6055f532a7002,
                   max_mid
                 };
 

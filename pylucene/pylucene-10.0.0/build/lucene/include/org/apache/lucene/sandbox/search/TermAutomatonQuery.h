@@ -6,24 +6,24 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class ScoreMode;
+        class Weight;
+        class QueryVisitor;
+        class IndexSearcher;
+      }
       namespace util {
         class Accountable;
         class BytesRef;
-      }
-      namespace search {
-        class QueryVisitor;
-        class ScoreMode;
-        class Weight;
-        class IndexSearcher;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -40,22 +40,22 @@ namespace org {
           class TermAutomatonQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_addAnyTransition_e13cff512ebda969,
-              mid_addTransition_3acebe7b78cbedf7,
-              mid_addTransition_1733516daba0e385,
-              mid_createState_20fbf7565993c3d7,
-              mid_createWeight_77fe52950093e704,
-              mid_equals_570b5248a6da3ef6,
-              mid_finish_3720c61b0679eb3e,
-              mid_finish_540b2b23d51b1efd,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_setAccept_2936d2706a18a684,
-              mid_toDot_09a7afff1868fc5e,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_ee46a189998009d6,
+              mid_addAnyTransition_645c25455f5b9b1c,
+              mid_addTransition_64820dbac5b8ad33,
+              mid_addTransition_41fd4505c63b4c9e,
+              mid_createState_bd89ce15dad49192,
+              mid_createWeight_dc54d493278607e4,
+              mid_equals_00d17418847797d4,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_finish_8226bd0b0fc13dba,
+              mid_hashCode_bd89ce15dad49192,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_rewrite_25984111320dbe39,
+              mid_setAccept_a0fed0a2cd38e7b1,
+              mid_toDot_e7df854526d67fa3,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

@@ -23,10 +23,10 @@ namespace org {
           class PersianCharFilter : public ::org::apache::lucene::analysis::CharFilter {
            public:
             enum {
-              mid_init$_fa55492f0f5d7f31,
-              mid_read_20fbf7565993c3d7,
-              mid_read_db543c1e894f3140,
-              mid_correct_3c9bba330f083871,
+              mid_init$_89ab2bee9aa84b00,
+              mid_read_bd89ce15dad49192,
+              mid_read_872baf22ed11fbaa,
+              mid_correct_a3904e10f5bb9437,
               max_mid
             };
 

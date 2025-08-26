@@ -3,6 +3,22 @@
 
 #include "org/apache/lucene/analysis/TokenFilterFactory.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class ResourceLoaderAware;
+        class ResourceLoader;
+      }
+      namespace analysis {
+        class TokenStream;
+        namespace payloads {
+          class DelimitedPayloadTokenFilter;
+        }
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
     class Class;
@@ -10,22 +26,6 @@ namespace java {
   }
   namespace util {
     class Map;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class ResourceLoader;
-        class ResourceLoaderAware;
-      }
-      namespace analysis {
-        namespace payloads {
-          class DelimitedPayloadTokenFilter;
-        }
-        class TokenStream;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -39,10 +39,10 @@ namespace org {
           class DelimitedPayloadTokenFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_c5c5aeb428b210d1,
-              mid_inform_6addbf380886844e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_36e3da7a822124d7,
+              mid_inform_4ba602df53b96765,
               max_mid
             };
 

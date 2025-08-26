@@ -17,8 +17,8 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace vectorhighlight {
-          class FieldFragList$WeightedFragInfo;
           class BoundaryScanner;
+          class FieldFragList$WeightedFragInfo;
         }
       }
     }
@@ -35,11 +35,11 @@ namespace org {
           class SimpleFragmentsBuilder : public ::org::apache::lucene::search::vectorhighlight::BaseFragmentsBuilder {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_d02f6a95bffc041a,
-              mid_init$_520d54259d3a0572,
-              mid_init$_9d55354f1fe7740b,
-              mid_getWeightedFragInfoList_52060c8532319091,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f97d1b3ab08c80d7,
+              mid_init$_89787153eea80902,
+              mid_init$_6b5cdc602a1130c4,
+              mid_getWeightedFragInfoList_be19c667f3dea389,
               max_mid
             };
 

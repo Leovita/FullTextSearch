@@ -19,10 +19,10 @@ namespace org {
           class IntFacetSet : public ::org::apache::lucene::facet::facetset::FacetSet {
            public:
             enum {
-              mid_init$_143c0cd4e297ef70,
-              mid_getComparableValues_a057bd1a0d2826b3,
-              mid_packValues_ed6f790242489170,
-              mid_sizePackedBytes_20fbf7565993c3d7,
+              mid_init$_5434f4e6ff59bff9,
+              mid_getComparableValues_1aab5293a9d94cd3,
+              mid_packValues_ae2551807aeb85ef,
+              mid_sizePackedBytes_bd89ce15dad49192,
               max_mid
             };
 

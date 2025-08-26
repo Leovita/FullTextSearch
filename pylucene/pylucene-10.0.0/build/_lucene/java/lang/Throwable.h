@@ -5,15 +5,15 @@
 
 namespace java {
   namespace lang {
-    class StackTraceElement;
-    class Class;
     class String;
+    class Class;
+    class StackTraceElement;
     class Throwable;
   }
   namespace io {
-    class Serializable;
     class PrintWriter;
     class PrintStream;
+    class Serializable;
   }
 }
 template<class T> class JArray;
@@ -24,22 +24,22 @@ namespace java {
     class Throwable : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_ea9871c48698171a,
-        mid_addSuppressed_4b71a6d99b73f7d1,
-        mid_fillInStackTrace_d175b950df78251e,
-        mid_getCause_d175b950df78251e,
-        mid_getLocalizedMessage_09a7afff1868fc5e,
-        mid_getMessage_09a7afff1868fc5e,
-        mid_getStackTrace_2ecac95d7eda48b5,
-        mid_getSuppressed_d9caef4db4355df6,
-        mid_initCause_632199cdbd8cc1eb,
-        mid_printStackTrace_3720c61b0679eb3e,
-        mid_printStackTrace_f19a9aaf837ad692,
-        mid_printStackTrace_f7c1942f5b4484ef,
-        mid_setStackTrace_f98d58aaf2e18580,
-        mid_toString_09a7afff1868fc5e,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_ee46a189998009d6,
+        mid_init$_95082f1abe6d9712,
+        mid_addSuppressed_9b649326a1df01c3,
+        mid_fillInStackTrace_76f90963e923fefa,
+        mid_getCause_76f90963e923fefa,
+        mid_getLocalizedMessage_e7df854526d67fa3,
+        mid_getMessage_e7df854526d67fa3,
+        mid_getStackTrace_28d41e156fd049ea,
+        mid_getSuppressed_17c7c6271ae66a45,
+        mid_initCause_a3db0285dd44a2ae,
+        mid_printStackTrace_e7bdbe105ce1bafb,
+        mid_printStackTrace_922e82480ddcbcc4,
+        mid_printStackTrace_f393b52595696eb1,
+        mid_setStackTrace_e0200d9fc36c421a,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

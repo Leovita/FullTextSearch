@@ -33,7 +33,7 @@ namespace org {
             class NLSException : public ::java::lang::Object {
              public:
               enum {
-                mid_getMessageObject_458c0a6b6c4bb652,
+                mid_getMessageObject_8445ed3c267746a4,
                 max_mid
               };
 

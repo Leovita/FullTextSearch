@@ -18,9 +18,9 @@ namespace org {
         class RadixSelector : public ::org::apache::lucene::util::Selector {
          public:
           enum {
-            mid_select_20022b6d5e83c732,
-            mid_byteAt_7f733b5d08bb5ec4,
-            mid_getFallbackSelector_43aff7330515111b,
+            mid_select_eee637a6cebc299b,
+            mid_getFallbackSelector_a4248c77b2e4ceb0,
+            mid_byteAt_7f27cf81a85a97e9,
             max_mid
           };
 

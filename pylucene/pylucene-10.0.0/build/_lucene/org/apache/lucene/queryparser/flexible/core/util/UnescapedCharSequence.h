@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class CharSequence;
     class String;
+    class CharSequence;
     class Class;
   }
   namespace util {
@@ -26,17 +26,17 @@ namespace org {
               class UnescapedCharSequence : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_5ed8eb2e3024c663,
-                  mid_init$_f1e319c606cef0b3,
-                  mid_charAt_92a13ce4196a7e69,
-                  mid_length_20fbf7565993c3d7,
-                  mid_subSequence_3202de35bfd622a0,
-                  mid_toLowerCase_5de7dc0b79690ca9,
-                  mid_toString_09a7afff1868fc5e,
-                  mid_toStringEscaped_09a7afff1868fc5e,
-                  mid_toStringEscaped_27d93aaabc4fd510,
-                  mid_wasEscaped_ae22d3a856ad56f1,
-                  mid_wasEscaped_6dd3d6e03c4a7594,
+                  mid_init$_fe2ab7d27aa3fe1a,
+                  mid_init$_9fc844307c305638,
+                  mid_charAt_bc94dd98365f92fb,
+                  mid_length_bd89ce15dad49192,
+                  mid_subSequence_e78c175a32c9e667,
+                  mid_toLowerCase_58d5a9003f0496da,
+                  mid_toString_e7df854526d67fa3,
+                  mid_toStringEscaped_e7df854526d67fa3,
+                  mid_toStringEscaped_73a8d57a48f9dd63,
+                  mid_wasEscaped_a8281eb3b9d9672d,
+                  mid_wasEscaped_cea37bd25a41f732,
                   max_mid
                 };
 

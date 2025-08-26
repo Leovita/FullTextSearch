@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class CheckedIntConsumer;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,8 +30,8 @@ namespace org {
         class DocIdStream : public ::java::lang::Object {
          public:
           enum {
-            mid_count_20fbf7565993c3d7,
-            mid_forEach_91b42f36087d1010,
+            mid_count_bd89ce15dad49192,
+            mid_forEach_4fc563c1345970d1,
             max_mid
           };
 

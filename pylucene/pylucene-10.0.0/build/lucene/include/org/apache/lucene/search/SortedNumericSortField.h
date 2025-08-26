@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/search/SortField.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Pruning;
-        class SortedNumericSelector$Type;
-        class SortField$Type;
-        class FieldComparator;
-      }
       namespace index {
         class IndexSorter;
       }
+      namespace search {
+        class SortField$Type;
+        class SortedNumericSelector$Type;
+        class Pruning;
+        class FieldComparator;
+      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -35,17 +35,17 @@ namespace org {
         class SortedNumericSortField : public ::org::apache::lucene::search::SortField {
          public:
           enum {
-            mid_init$_1f41d5a77c16274f,
-            mid_init$_09e168080411589e,
-            mid_init$_4ee4f23d2282dba1,
-            mid_equals_570b5248a6da3ef6,
-            mid_getComparator_602f5765ec13a452,
-            mid_getIndexSorter_381453b87424c4d9,
-            mid_getNumericType_810eac8b83c5f8b1,
-            mid_getSelector_a2f0adc22adb697c,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_setMissingValue_eb61ef4d1db15d08,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_972830eff8bbf0ce,
+            mid_init$_4f14e65d9a0d947f,
+            mid_init$_bb4d5aeca00f9f5d,
+            mid_equals_00d17418847797d4,
+            mid_getComparator_4f2ccf90fa477e37,
+            mid_getIndexSorter_f1f08a72a6d09a31,
+            mid_getNumericType_96395ddc8b3795c3,
+            mid_getSelector_2eb6fe6e4189cb6e,
+            mid_hashCode_bd89ce15dad49192,
+            mid_setMissingValue_501c3eb890ff6d79,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

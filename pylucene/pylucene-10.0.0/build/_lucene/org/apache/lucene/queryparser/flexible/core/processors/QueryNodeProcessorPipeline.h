@@ -6,9 +6,9 @@
 namespace java {
   namespace util {
     class Iterator;
+    class ListIterator;
     class Collection;
     class List;
-    class ListIterator;
   }
   namespace lang {
     class Class;
@@ -23,12 +23,12 @@ namespace org {
             namespace config {
               class QueryConfigHandler;
             }
-            namespace nodes {
-              class QueryNode;
-            }
-            class QueryNodeException;
             namespace processors {
               class QueryNodeProcessor;
+            }
+            class QueryNodeException;
+            namespace nodes {
+              class QueryNode;
             }
           }
         }
@@ -49,34 +49,34 @@ namespace org {
               class QueryNodeProcessorPipeline : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_init$_0fc7dbcdbf111f0f,
-                  mid_add_beb2e06d3c15110a,
-                  mid_add_8a126ae55218bc0e,
-                  mid_addAll_f2a1f31c5865e20d,
-                  mid_addAll_30cee388a7b048af,
-                  mid_clear_3720c61b0679eb3e,
-                  mid_contains_570b5248a6da3ef6,
-                  mid_containsAll_f2a1f31c5865e20d,
-                  mid_get_d53b7e48e3271a14,
-                  mid_getQueryConfigHandler_30bdf25ce42207ac,
-                  mid_indexOf_657656e6a597f732,
-                  mid_isEmpty_947277eca0748c4e,
-                  mid_iterator_0db4c76ff7ee995b,
-                  mid_lastIndexOf_657656e6a597f732,
-                  mid_listIterator_0f4ac4d253da0dce,
-                  mid_listIterator_c5b65026385ab4af,
-                  mid_process_8ca6e32fcbac6a62,
-                  mid_remove_d53b7e48e3271a14,
-                  mid_remove_570b5248a6da3ef6,
-                  mid_removeAll_f2a1f31c5865e20d,
-                  mid_retainAll_f2a1f31c5865e20d,
-                  mid_set_7646b9b2faff9f01,
-                  mid_setQueryConfigHandler_0fc7dbcdbf111f0f,
-                  mid_size_20fbf7565993c3d7,
-                  mid_subList_3690552717f6ec88,
-                  mid_toArray_e6b839682a4610a6,
-                  mid_toArray_1794d6b866766560,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_init$_f8d3957fd2e3377b,
+                  mid_add_f79db5877eb974d3,
+                  mid_add_d592f8e657c98163,
+                  mid_addAll_155d0ed876869448,
+                  mid_addAll_6a33d3084931e945,
+                  mid_clear_e7bdbe105ce1bafb,
+                  mid_contains_00d17418847797d4,
+                  mid_containsAll_155d0ed876869448,
+                  mid_get_b007bf603176e693,
+                  mid_getQueryConfigHandler_2a2d77f833f4beaf,
+                  mid_indexOf_3b738b91667a06c2,
+                  mid_isEmpty_9aa4f33e82ea333f,
+                  mid_iterator_c7985fafdcf40e83,
+                  mid_lastIndexOf_3b738b91667a06c2,
+                  mid_listIterator_f5b10a8957c7e8ce,
+                  mid_listIterator_a1b8e40853ea22b0,
+                  mid_process_4b838b17650067cf,
+                  mid_remove_b007bf603176e693,
+                  mid_remove_00d17418847797d4,
+                  mid_removeAll_155d0ed876869448,
+                  mid_retainAll_155d0ed876869448,
+                  mid_set_9ad945cff4f2d2d4,
+                  mid_setQueryConfigHandler_f8d3957fd2e3377b,
+                  mid_size_bd89ce15dad49192,
+                  mid_subList_6d7644d6c0697519,
+                  mid_toArray_1e688954528bc160,
+                  mid_toArray_0b4a993b49b6d8e8,
                   max_mid
                 };
 

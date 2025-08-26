@@ -34,15 +34,15 @@ namespace org {
             class UserMorphData : public ::java::lang::Object {
              public:
               enum {
-                mid_getBaseForm_8050a2644734b4d8,
-                mid_getInflectionForm_cd8436557ab831f9,
-                mid_getInflectionType_cd8436557ab831f9,
-                mid_getLeftId_3c9bba330f083871,
-                mid_getPartOfSpeech_cd8436557ab831f9,
-                mid_getPronunciation_8050a2644734b4d8,
-                mid_getReading_8050a2644734b4d8,
-                mid_getRightId_3c9bba330f083871,
-                mid_getWordCost_3c9bba330f083871,
+                mid_getBaseForm_6ceb45848be0c90e,
+                mid_getInflectionForm_0da8f0b89b1e9a22,
+                mid_getInflectionType_0da8f0b89b1e9a22,
+                mid_getLeftId_a3904e10f5bb9437,
+                mid_getPartOfSpeech_0da8f0b89b1e9a22,
+                mid_getPronunciation_6ceb45848be0c90e,
+                mid_getReading_6ceb45848be0c90e,
+                mid_getRightId_a3904e10f5bb9437,
+                mid_getWordCost_a3904e10f5bb9437,
                 max_mid
               };
 

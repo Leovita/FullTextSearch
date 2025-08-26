@@ -17,12 +17,12 @@ namespace org {
             namespace config {
               class QueryConfigHandler;
             }
-            namespace nodes {
-              class QueryNode;
-            }
-            class QueryNodeException;
             namespace processors {
               class QueryNodeProcessor;
+            }
+            class QueryNodeException;
+            namespace nodes {
+              class QueryNode;
             }
           }
         }
@@ -43,15 +43,15 @@ namespace org {
               class QueryNodeProcessorImpl : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_init$_0fc7dbcdbf111f0f,
-                  mid_getQueryConfigHandler_30bdf25ce42207ac,
-                  mid_process_8ca6e32fcbac6a62,
-                  mid_setQueryConfigHandler_0fc7dbcdbf111f0f,
-                  mid_preProcessNode_8ca6e32fcbac6a62,
-                  mid_postProcessNode_8ca6e32fcbac6a62,
-                  mid_setChildrenOrder_52060c8532319091,
-                  mid_processChildren_7b62f837facd6562,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_init$_f8d3957fd2e3377b,
+                  mid_getQueryConfigHandler_2a2d77f833f4beaf,
+                  mid_process_4b838b17650067cf,
+                  mid_setQueryConfigHandler_f8d3957fd2e3377b,
+                  mid_processChildren_7bd9517de8cc5b9b,
+                  mid_preProcessNode_4b838b17650067cf,
+                  mid_postProcessNode_4b838b17650067cf,
+                  mid_setChildrenOrder_be19c667f3dea389,
                   max_mid
                 };
 

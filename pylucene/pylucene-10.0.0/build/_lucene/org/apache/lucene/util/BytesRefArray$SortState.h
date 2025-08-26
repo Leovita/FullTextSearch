@@ -27,7 +27,7 @@ namespace org {
         class BytesRefArray$SortState : public ::java::lang::Object {
          public:
           enum {
-            mid_ramBytesUsed_16939d9d0a9a9721,
+            mid_ramBytesUsed_0f176418e3e16541,
             max_mid
           };
 

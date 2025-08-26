@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/util/fst/FSTEnum.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-        namespace fst {
-          class BytesRefFSTEnum$InputOutput;
-          class FST;
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        namespace fst {
+          class FST;
+          class BytesRefFSTEnum$InputOutput;
+        }
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,16 +35,16 @@ namespace org {
           class BytesRefFSTEnum : public ::org::apache::lucene::util::fst::FSTEnum {
            public:
             enum {
-              mid_init$_d80c376272ec8dd6,
-              mid_current_bf90c3c6cb129506,
-              mid_next_bf90c3c6cb129506,
-              mid_seekCeil_d26856094b0041d9,
-              mid_seekExact_d26856094b0041d9,
-              mid_seekFloor_d26856094b0041d9,
-              mid_getTargetLabel_20fbf7565993c3d7,
-              mid_getCurrentLabel_20fbf7565993c3d7,
-              mid_setCurrentLabel_540b2b23d51b1efd,
-              mid_grow_3720c61b0679eb3e,
+              mid_init$_f8c761ef13f9ac4a,
+              mid_current_e30bd5f4c54638c4,
+              mid_next_e30bd5f4c54638c4,
+              mid_seekCeil_0c969eec0cd00e02,
+              mid_seekExact_0c969eec0cd00e02,
+              mid_seekFloor_0c969eec0cd00e02,
+              mid_getTargetLabel_bd89ce15dad49192,
+              mid_getCurrentLabel_bd89ce15dad49192,
+              mid_setCurrentLabel_8226bd0b0fc13dba,
+              mid_grow_e7bdbe105ce1bafb,
               max_mid
             };
 

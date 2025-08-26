@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,15 +20,6 @@ namespace org {
         class LeafCollector;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,11 +32,11 @@ namespace org {
         class FilterLeafCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_e9ba8d169ee31d75,
-            mid_collect_540b2b23d51b1efd,
-            mid_finish_3720c61b0679eb3e,
-            mid_setScorer_dd42dde4c0a7db1e,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_687d9d1ce59ed6e0,
+            mid_collect_8226bd0b0fc13dba,
+            mid_finish_e7bdbe105ce1bafb,
+            mid_setScorer_c06bdf7d53c6460a,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

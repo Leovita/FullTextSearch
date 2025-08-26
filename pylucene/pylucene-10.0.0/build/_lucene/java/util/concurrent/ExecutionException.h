@@ -19,8 +19,8 @@ namespace java {
       class ExecutionException : public ::java::lang::Exception {
        public:
         enum {
-          mid_init$_4b71a6d99b73f7d1,
-          mid_init$_ea9871c48698171a,
+          mid_init$_9b649326a1df01c3,
+          mid_init$_95082f1abe6d9712,
           max_mid
         };
 

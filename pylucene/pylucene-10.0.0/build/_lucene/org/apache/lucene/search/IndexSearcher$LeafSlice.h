@@ -30,8 +30,8 @@ namespace org {
         class IndexSearcher$LeafSlice : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_9425cd4f62c94bce,
-            mid_getMaxDocs_20fbf7565993c3d7,
+            mid_init$_acbb405b60a30822,
+            mid_getMaxDocs_bd89ce15dad49192,
             max_mid
           };
 

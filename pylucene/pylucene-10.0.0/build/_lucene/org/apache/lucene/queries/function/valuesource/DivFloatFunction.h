@@ -31,9 +31,9 @@ namespace org {
             class DivFloatFunction : public ::org::apache::lucene::queries::function::valuesource::DualFloatFunction {
              public:
               enum {
-                mid_init$_ca10284f8d9891d5,
-                mid_name_09a7afff1868fc5e,
-                mid_func_8726746481c3aed8,
+                mid_init$_3f3b5e8e4949ddb4,
+                mid_name_e7df854526d67fa3,
+                mid_func_1c1d3073930107dc,
                 max_mid
               };
 

@@ -20,8 +20,8 @@ namespace org {
           class NGramFragmentChecker$NGramConsumer : public ::java::lang::Object {
            public:
             enum {
-              mid_processNGram_17dee08b301eed95,
-              mid_processNGrams_a735cba5ad6f984f,
+              mid_processNGram_1e5b55d602c23ab6,
+              mid_processNGrams_ffbe10ba4d4b9bbc,
               max_mid
             };
 

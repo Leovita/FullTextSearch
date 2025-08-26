@@ -28,15 +28,15 @@ namespace org {
         class FloatRange : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_67bb8b7222825576,
-            mid_getMax_29cfa01aaad92564,
-            mid_getMin_29cfa01aaad92564,
-            mid_newContainsQuery_297c8e38e6ab41fe,
-            mid_newCrossesQuery_297c8e38e6ab41fe,
-            mid_newIntersectsQuery_297c8e38e6ab41fe,
-            mid_newWithinQuery_297c8e38e6ab41fe,
-            mid_setRangeValues_6bacb6e220725ab1,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_a3ebd753b84960c4,
+            mid_getMax_5873a23b935a9d49,
+            mid_getMin_5873a23b935a9d49,
+            mid_newContainsQuery_28530d9f4b68fa70,
+            mid_newCrossesQuery_28530d9f4b68fa70,
+            mid_newIntersectsQuery_28530d9f4b68fa70,
+            mid_newWithinQuery_28530d9f4b68fa70,
+            mid_setRangeValues_d0e5c7ca8f69d543,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

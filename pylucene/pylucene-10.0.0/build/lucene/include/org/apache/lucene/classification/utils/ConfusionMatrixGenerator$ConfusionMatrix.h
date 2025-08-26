@@ -24,17 +24,17 @@ namespace org {
           class ConfusionMatrixGenerator$ConfusionMatrix : public ::java::lang::Object {
            public:
             enum {
-              mid_getAccuracy_32caabaad86c508b,
-              mid_getAvgClassificationTime_32caabaad86c508b,
-              mid_getF1Measure_32caabaad86c508b,
-              mid_getF1Measure_571a8151e18df9b7,
-              mid_getLinearizedMatrix_f125f26c07a7bec8,
-              mid_getNumberOfEvaluatedDocs_20fbf7565993c3d7,
-              mid_getPrecision_32caabaad86c508b,
-              mid_getPrecision_571a8151e18df9b7,
-              mid_getRecall_32caabaad86c508b,
-              mid_getRecall_571a8151e18df9b7,
-              mid_toString_09a7afff1868fc5e,
+              mid_getAccuracy_6fb37e123fed7a1f,
+              mid_getAvgClassificationTime_6fb37e123fed7a1f,
+              mid_getF1Measure_6fb37e123fed7a1f,
+              mid_getF1Measure_168823f4bbdbe3fd,
+              mid_getLinearizedMatrix_5004bdf19ed33453,
+              mid_getNumberOfEvaluatedDocs_bd89ce15dad49192,
+              mid_getPrecision_6fb37e123fed7a1f,
+              mid_getPrecision_168823f4bbdbe3fd,
+              mid_getRecall_6fb37e123fed7a1f,
+              mid_getRecall_168823f4bbdbe3fd,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

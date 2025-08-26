@@ -10,8 +10,8 @@ namespace java {
     class Collection;
   }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -22,13 +22,13 @@ namespace java {
     class AbstractSequentialList : public ::java::util::AbstractList {
      public:
       enum {
-        mid_add_45daa0687d5df9b5,
-        mid_addAll_30cee388a7b048af,
-        mid_get_eb7eace67c4a21fd,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_listIterator_c5b65026385ab4af,
-        mid_remove_eb7eace67c4a21fd,
-        mid_set_b84ce9d3b2137b5e,
+        mid_add_09375f3fd0a3af05,
+        mid_addAll_6a33d3084931e945,
+        mid_get_2a2d7d7b9153274c,
+        mid_iterator_c7985fafdcf40e83,
+        mid_listIterator_a1b8e40853ea22b0,
+        mid_remove_2a2d7d7b9153274c,
+        mid_set_c8f65d2ef44d5c7c,
         max_mid
       };
 

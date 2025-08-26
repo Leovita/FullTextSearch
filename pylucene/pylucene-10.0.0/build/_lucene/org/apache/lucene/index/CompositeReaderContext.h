@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class UnsupportedOperationException;
     class Class;
+    class UnsupportedOperationException;
   }
   namespace util {
     class List;
@@ -32,9 +32,9 @@ namespace org {
         class CompositeReaderContext : public ::org::apache::lucene::index::IndexReaderContext {
          public:
           enum {
-            mid_children_36830460e10839eb,
-            mid_leaves_36830460e10839eb,
-            mid_reader_4d9e451c9c788537,
+            mid_children_1387e1e2702ac173,
+            mid_leaves_1387e1e2702ac173,
+            mid_reader_783a5cd74e990114,
             max_mid
           };
 

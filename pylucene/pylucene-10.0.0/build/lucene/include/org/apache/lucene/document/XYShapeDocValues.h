@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace geo {
-        class XYRectangle;
         class XYPoint;
+        class XYRectangle;
       }
     }
   }
@@ -28,11 +28,11 @@ namespace org {
         class XYShapeDocValues : public ::org::apache::lucene::document::ShapeDocValues {
          public:
           enum {
-            mid_getBoundingBox_fbe4b6db47628467,
-            mid_getCentroid_cb5630cc429dbfc7,
-            mid_getEncoder_ebb8e14a479901b7,
-            mid_computeBoundingBox_fbe4b6db47628467,
-            mid_computeCentroid_cb5630cc429dbfc7,
+            mid_getBoundingBox_038281ff2c2671c0,
+            mid_getCentroid_8218aee6f5234e0a,
+            mid_computeCentroid_8218aee6f5234e0a,
+            mid_computeBoundingBox_038281ff2c2671c0,
+            mid_getEncoder_914ecc1b33d6ab21,
             max_mid
           };
 

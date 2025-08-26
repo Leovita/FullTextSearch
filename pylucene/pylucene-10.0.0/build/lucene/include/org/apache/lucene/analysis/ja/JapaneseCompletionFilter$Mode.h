@@ -3,6 +3,12 @@
 
 #include "java/lang/Enum.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,12 +18,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class JapaneseCompletionFilter$Mode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_1246fe9def71a403,
-              mid_values_40061517d6a4264c,
+              mid_valueOf_f80b25ef22f49c16,
+              mid_values_f2aeaed20ef21d84,
               max_mid
             };
 

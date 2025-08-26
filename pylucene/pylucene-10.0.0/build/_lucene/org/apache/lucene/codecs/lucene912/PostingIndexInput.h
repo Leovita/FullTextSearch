@@ -14,14 +14,14 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class IndexInput;
+      }
       namespace codecs {
         namespace lucene912 {
           class ForUtil;
           class ForDeltaUtil;
         }
-      }
-      namespace store {
-        class IndexInput;
       }
     }
   }
@@ -37,9 +37,9 @@ namespace org {
           class PostingIndexInput : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_940c2f9a73c0996f,
-              mid_decode_12f9eb393fed87f6,
-              mid_decodeAndPrefixSum_caa0fa24de5f9edc,
+              mid_init$_72a00e25ec5af187,
+              mid_decode_80fd146058a1e556,
+              mid_decodeAndPrefixSum_8ab503a3cf9d3e17,
               max_mid
             };
 

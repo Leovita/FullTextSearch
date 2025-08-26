@@ -8,14 +8,14 @@ namespace java {
     class Iterator;
     class SortedSet;
     class Collection;
-    class NavigableSet;
     class Spliterator;
     class Comparator;
+    class NavigableSet;
   }
   namespace lang {
-    class Class;
     class Cloneable;
     class Object;
+    class Class;
   }
   namespace io {
     class Serializable;
@@ -29,39 +29,39 @@ namespace java {
     class TreeSet : public ::java::util::AbstractSet {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_40eba2cff967cc45,
-        mid_init$_480edaf434ebe52f,
-        mid_init$_5f8b1342c457e8aa,
-        mid_add_570b5248a6da3ef6,
-        mid_addAll_f2a1f31c5865e20d,
-        mid_addFirst_eb61ef4d1db15d08,
-        mid_addLast_eb61ef4d1db15d08,
-        mid_ceiling_5fd81664d2d475e1,
-        mid_clear_3720c61b0679eb3e,
-        mid_clone_5655ed8670534604,
-        mid_comparator_39238840448c1807,
-        mid_contains_570b5248a6da3ef6,
-        mid_descendingIterator_0db4c76ff7ee995b,
-        mid_descendingSet_556010bda6404a08,
-        mid_first_5655ed8670534604,
-        mid_floor_5fd81664d2d475e1,
-        mid_headSet_1516bad7f6fb1290,
-        mid_headSet_6a24b70872af969c,
-        mid_higher_5fd81664d2d475e1,
-        mid_isEmpty_947277eca0748c4e,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_last_5655ed8670534604,
-        mid_lower_5fd81664d2d475e1,
-        mid_pollFirst_5655ed8670534604,
-        mid_pollLast_5655ed8670534604,
-        mid_remove_570b5248a6da3ef6,
-        mid_size_20fbf7565993c3d7,
-        mid_spliterator_eebbc9cffa204672,
-        mid_subSet_1d475f20354e842e,
-        mid_subSet_bfd493acadefcd46,
-        mid_tailSet_1516bad7f6fb1290,
-        mid_tailSet_6a24b70872af969c,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_b5398b431eb321fb,
+        mid_init$_236c903ae32a3610,
+        mid_init$_01c2cf3ced136338,
+        mid_add_00d17418847797d4,
+        mid_addAll_155d0ed876869448,
+        mid_addFirst_501c3eb890ff6d79,
+        mid_addLast_501c3eb890ff6d79,
+        mid_ceiling_e2c45b124c12f4ec,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_clone_4819806f62f1360a,
+        mid_comparator_5cc89c689cd941fe,
+        mid_contains_00d17418847797d4,
+        mid_descendingIterator_c7985fafdcf40e83,
+        mid_descendingSet_14f8c5e2b19c135d,
+        mid_first_4819806f62f1360a,
+        mid_floor_e2c45b124c12f4ec,
+        mid_headSet_f231c428223f5b8c,
+        mid_headSet_daee4ccd29b8e6cb,
+        mid_higher_e2c45b124c12f4ec,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_iterator_c7985fafdcf40e83,
+        mid_last_4819806f62f1360a,
+        mid_lower_e2c45b124c12f4ec,
+        mid_pollFirst_4819806f62f1360a,
+        mid_pollLast_4819806f62f1360a,
+        mid_remove_00d17418847797d4,
+        mid_size_bd89ce15dad49192,
+        mid_spliterator_fd118e26a3de79e6,
+        mid_subSet_1f99b28c25ad8a5b,
+        mid_subSet_e821c18950b968ec,
+        mid_tailSet_f231c428223f5b8c,
+        mid_tailSet_daee4ccd29b8e6cb,
         max_mid
       };
 

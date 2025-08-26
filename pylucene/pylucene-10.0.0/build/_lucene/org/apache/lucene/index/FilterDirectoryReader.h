@@ -3,23 +3,23 @@
 
 #include "org/apache/lucene/index/DirectoryReader.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class FilterDirectoryReader$SubReaderWrapper;
         class IndexCommit;
         class LeafReader;
+        class FilterDirectoryReader$SubReaderWrapper;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -32,17 +32,17 @@ namespace org {
         class FilterDirectoryReader : public ::org::apache::lucene::index::DirectoryReader {
          public:
           enum {
-            mid_init$_b2e81a5862d8e947,
-            mid_getDelegate_f7fded1703ce6ca1,
-            mid_getIndexCommit_271a09cc45c80524,
-            mid_getVersion_16939d9d0a9a9721,
-            mid_isCurrent_947277eca0748c4e,
-            mid_unwrap_c0f2d1165a6dcc7c,
-            mid_doClose_3720c61b0679eb3e,
-            mid_doOpenIfChanged_774a8b4c09b28fb4,
-            mid_doOpenIfChanged_f7fded1703ce6ca1,
-            mid_doOpenIfChanged_398ab3433e6a540a,
-            mid_doWrapDirectoryReader_c0f2d1165a6dcc7c,
+            mid_init$_345a24660967548d,
+            mid_getDelegate_a8b6bb613ad0bc66,
+            mid_getIndexCommit_3f5d748efdffe9e0,
+            mid_getVersion_0f176418e3e16541,
+            mid_isCurrent_9aa4f33e82ea333f,
+            mid_unwrap_f4693940cb629eaf,
+            mid_doWrapDirectoryReader_f4693940cb629eaf,
+            mid_doOpenIfChanged_f3cbd71bf1d7f0c6,
+            mid_doOpenIfChanged_a8b6bb613ad0bc66,
+            mid_doOpenIfChanged_9a09931027467e73,
+            mid_doClose_e7bdbe105ce1bafb,
             max_mid
           };
 

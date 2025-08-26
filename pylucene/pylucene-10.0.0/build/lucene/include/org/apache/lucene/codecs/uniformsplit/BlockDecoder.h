@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace store {
-        class DataInput;
-      }
       namespace util {
         class BytesRef;
+      }
+      namespace store {
+        class DataInput;
       }
     }
   }
@@ -34,7 +34,7 @@ namespace org {
           class BlockDecoder : public ::java::lang::Object {
            public:
             enum {
-              mid_decode_3a59c8a73f464a15,
+              mid_decode_16502750ab924736,
               max_mid
             };
 

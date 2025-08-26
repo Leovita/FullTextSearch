@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -15,12 +15,12 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class NumericDocValues;
+        class FieldInfo;
+      }
       namespace codecs {
         class NormsProducer;
-      }
-      namespace index {
-        class FieldInfo;
-        class NumericDocValues;
       }
     }
   }
@@ -35,9 +35,9 @@ namespace org {
         class NormsProducer : public ::java::lang::Object {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_getMergeInstance_86a2ee031b1b0d77,
-            mid_getNorms_e5ef0d0afbac0df8,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_getMergeInstance_bcb16c0940285072,
+            mid_getNorms_cbb872df2173ef24,
             max_mid
           };
 

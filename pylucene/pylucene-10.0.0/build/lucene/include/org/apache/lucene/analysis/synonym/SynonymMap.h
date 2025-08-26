@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRefHash;
         class BytesRef;
         namespace fst {
           class FST;
         }
+        class BytesRefHash;
       }
     }
   }
@@ -32,7 +32,7 @@ namespace org {
           class SynonymMap : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_10ae0b9830e9295d,
+              mid_init$_c9d255b8bd83982b,
               max_mid
             };
 

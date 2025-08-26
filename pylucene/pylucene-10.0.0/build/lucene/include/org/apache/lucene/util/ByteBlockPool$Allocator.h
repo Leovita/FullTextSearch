@@ -18,8 +18,8 @@ namespace org {
         class ByteBlockPool$Allocator : public ::java::lang::Object {
          public:
           enum {
-            mid_getByteBlock_5560da88fc44aa82,
-            mid_recycleByteBlocks_540f60124d959184,
+            mid_getByteBlock_44e916dc40fc04cb,
+            mid_recycleByteBlocks_12d456106f915218,
             max_mid
           };
 

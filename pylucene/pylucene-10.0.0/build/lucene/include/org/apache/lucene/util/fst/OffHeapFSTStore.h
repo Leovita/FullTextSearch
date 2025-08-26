@@ -21,11 +21,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,11 +39,11 @@ namespace org {
           class OffHeapFSTStore : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_4e4c52c2c21b1347,
-              mid_getReverseBytesReader_14e8f9e66b6f303e,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_size_16939d9d0a9a9721,
-              mid_writeTo_3a071e25ad99bd99,
+              mid_init$_8103d4cb225ef6c4,
+              mid_getReverseBytesReader_541a60a9425cbcde,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_size_0f176418e3e16541,
+              mid_writeTo_949eccaa2018a6dc,
               max_mid
             };
 

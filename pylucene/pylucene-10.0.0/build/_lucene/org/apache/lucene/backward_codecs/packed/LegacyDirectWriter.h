@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace store {
-        class DataOutput;
-      }
       namespace backward_codecs {
         namespace packed {
           class LegacyDirectWriter;
         }
+      }
+      namespace store {
+        class DataOutput;
       }
     }
   }
@@ -36,11 +36,11 @@ namespace org {
           class LegacyDirectWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_add_8b3d46852b435a94,
-              mid_bitsRequired_35c872f03f347c10,
-              mid_finish_3720c61b0679eb3e,
-              mid_getInstance_70859bc695bac55f,
-              mid_unsignedBitsRequired_35c872f03f347c10,
+              mid_add_1d3149fac12f2af3,
+              mid_bitsRequired_7af44747c1921bd4,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_getInstance_8ece4237b72f4e73,
+              mid_unsignedBitsRequired_7af44747c1921bd4,
               max_mid
             };
 

@@ -28,9 +28,9 @@ namespace org {
           class FacetSetDecoder : public ::java::lang::Object {
            public:
             enum {
-              mid_decode_6a8e1537cae8a904,
-              mid_decodeInts_6a8e1537cae8a904,
-              mid_decodeLongs_6a8e1537cae8a904,
+              mid_decode_913846e4d48c88a9,
+              mid_decodeInts_913846e4d48c88a9,
+              mid_decodeLongs_913846e4d48c88a9,
               max_mid
             };
 

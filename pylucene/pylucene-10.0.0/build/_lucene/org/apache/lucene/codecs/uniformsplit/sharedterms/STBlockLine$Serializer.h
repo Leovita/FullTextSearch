@@ -3,6 +3,18 @@
 
 #include "org/apache/lucene/codecs/uniformsplit/BlockLine$Serializer.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,11 +24,11 @@ namespace org {
       }
       namespace codecs {
         namespace uniformsplit {
+          class DeltaBaseTermStateSerializer;
+          class BlockHeader;
           namespace sharedterms {
             class STBlockLine;
           }
-          class BlockHeader;
-          class DeltaBaseTermStateSerializer;
         }
         class BlockTermState;
       }
@@ -24,18 +36,6 @@ namespace org {
         class FieldInfos;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -50,11 +50,11 @@ namespace org {
             class STBlockLine$Serializer : public ::org::apache::lucene::codecs::uniformsplit::BlockLine$Serializer {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_readFieldIds_00e479089d9a5ccf,
-                mid_readFieldTermStatesMap_963cb9a68721ee01,
-                mid_readTermStateForField_577f272fb0efd8bd,
-                mid_writeLineTermStates_07b26a0724fa59d5,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_readFieldIds_49842b902d9d0c48,
+                mid_readFieldTermStatesMap_0a4187847b7f833e,
+                mid_readTermStateForField_501c6ffe124a9e70,
+                mid_writeLineTermStates_116e50177c34c1d6,
                 max_mid
               };
 

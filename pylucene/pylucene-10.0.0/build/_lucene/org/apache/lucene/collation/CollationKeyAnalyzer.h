@@ -21,9 +21,9 @@ namespace org {
         class CollationKeyAnalyzer : public ::org::apache::lucene::analysis::Analyzer {
          public:
           enum {
-            mid_init$_df4e91f4589aa589,
-            mid_createComponents_f774fffda992519d,
-            mid_attributeFactory_32e9e9f90ba9887a,
+            mid_init$_b2f0a3261bb25874,
+            mid_createComponents_b734244e69a6c631,
+            mid_attributeFactory_5f32c7c12dae06ab,
             max_mid
           };
 

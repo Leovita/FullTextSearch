@@ -3,35 +3,35 @@
 
 #include "org/apache/lucene/index/FloatVectorValues.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace codecs {
-        namespace hnsw {
-          class FlatVectorsScorer;
-        }
-        namespace lucene95 {
-          class HasIndexSlice;
-          class OrdToDocDISIReaderConfiguration;
-          class OffHeapFloatVectorValues;
-        }
-      }
-      namespace index {
-        class VectorSimilarityFunction;
-        class VectorEncoding;
-      }
-      namespace store {
-        class IndexInput;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class VectorEncoding;
+        class VectorSimilarityFunction;
+      }
+      namespace codecs {
+        namespace lucene95 {
+          class OffHeapFloatVectorValues;
+          class HasIndexSlice;
+          class OrdToDocDISIReaderConfiguration;
+        }
+        namespace hnsw {
+          class FlatVectorsScorer;
+        }
+      }
+      namespace store {
+        class IndexInput;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -45,11 +45,11 @@ namespace org {
           class OffHeapFloatVectorValues : public ::org::apache::lucene::index::FloatVectorValues {
            public:
             enum {
-              mid_dimension_20fbf7565993c3d7,
-              mid_getSlice_69ff96f993716366,
-              mid_load_f66d7ff0a03bc1fe,
-              mid_size_20fbf7565993c3d7,
-              mid_vectorValue_837967dda86e7ad8,
+              mid_dimension_bd89ce15dad49192,
+              mid_getSlice_1107977def75ee66,
+              mid_load_a1d901b23d438d01,
+              mid_size_bd89ce15dad49192,
+              mid_vectorValue_4392f4b0f19a3288,
               max_mid
             };
 

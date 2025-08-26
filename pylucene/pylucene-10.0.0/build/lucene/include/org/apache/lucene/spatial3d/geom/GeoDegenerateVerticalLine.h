@@ -8,28 +8,28 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
+          class GeoShape;
+          class GeoBBox;
           class Plane;
           class Membership;
-          class GeoShape;
+          class Bounds;
           class PlanetModel;
           class GeoPoint;
-          class GeoBBox;
-          class Bounds;
         }
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-    class OutputStream;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
+    class OutputStream;
+    class InputStream;
   }
 }
 template<class T> class JArray;
@@ -43,22 +43,22 @@ namespace org {
           class GeoDegenerateVerticalLine : public ::org::apache::lucene::spatial3d::geom::GeoBaseBBox {
            public:
             enum {
-              mid_init$_0ce6bc2f42b874f2,
-              mid_init$_0d995a30fc6ae903,
-              mid_equals_570b5248a6da3ef6,
-              mid_expand_618c6b01c5366197,
-              mid_getBounds_d23bdea549cf3849,
-              mid_getCenter_d361626f39bd8d0c,
-              mid_getEdgePoints_05087e5d605ddc41,
-              mid_getRadius_32caabaad86c508b,
-              mid_getRelationship_8f22277e6d81944f,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_intersects_9d5b040d556fdb23,
-              mid_intersects_2e010e50159965c2,
-              mid_isWithin_5f47c01c69ca9460,
-              mid_toString_09a7afff1868fc5e,
-              mid_write_84831c9725b47eae,
-              mid_outsideDistance_843fc02405cdd09d,
+              mid_init$_2684d3cfbf647435,
+              mid_init$_680cb48169defb63,
+              mid_equals_00d17418847797d4,
+              mid_expand_fc16670221639d8c,
+              mid_getBounds_92d81e4ba71a8653,
+              mid_getCenter_a531918020d448c7,
+              mid_getEdgePoints_95d1cb3266b24052,
+              mid_getRadius_6fb37e123fed7a1f,
+              mid_getRelationship_45c244038f50cef7,
+              mid_hashCode_bd89ce15dad49192,
+              mid_intersects_f6f461ab5889e14d,
+              mid_intersects_3db773112fd2ab99,
+              mid_isWithin_7ff1eb501b1de7c2,
+              mid_toString_e7df854526d67fa3,
+              mid_write_fbdd420d6e3d48b2,
+              mid_outsideDistance_79a34b4fe77da1ae,
               max_mid
             };
 

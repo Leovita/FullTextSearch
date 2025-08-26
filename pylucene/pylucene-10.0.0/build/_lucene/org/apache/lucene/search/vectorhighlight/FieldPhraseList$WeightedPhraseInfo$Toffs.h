@@ -3,13 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Comparable;
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +12,13 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class Comparable;
   }
 }
 template<class T> class JArray;
@@ -32,14 +32,14 @@ namespace org {
           class FieldPhraseList$WeightedPhraseInfo$Toffs : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_e13cff512ebda969,
-              mid_compareTo_dae20ada3512dcec,
-              mid_equals_570b5248a6da3ef6,
-              mid_getEndOffset_20fbf7565993c3d7,
-              mid_getStartOffset_20fbf7565993c3d7,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_setEndOffset_540b2b23d51b1efd,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_645c25455f5b9b1c,
+              mid_compareTo_a522533210428456,
+              mid_equals_00d17418847797d4,
+              mid_getEndOffset_bd89ce15dad49192,
+              mid_getStartOffset_bd89ce15dad49192,
+              mid_hashCode_bd89ce15dad49192,
+              mid_setEndOffset_8226bd0b0fc13dba,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

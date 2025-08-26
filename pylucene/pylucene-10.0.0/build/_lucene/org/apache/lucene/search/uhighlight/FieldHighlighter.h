@@ -3,37 +3,37 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace text {
-    class BreakIterator;
-  }
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Comparator;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
         namespace uhighlight {
+          class PassageFormatter;
+          class FieldOffsetStrategy;
           class Passage;
           class UnifiedHighlighter$OffsetSource;
           class PassageScorer;
-          class PassageFormatter;
-          class FieldOffsetStrategy;
         }
       }
       namespace index {
         class LeafReader;
       }
     }
+  }
+}
+namespace java {
+  namespace text {
+    class BreakIterator;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Comparator;
   }
 }
 template<class T> class JArray;
@@ -47,12 +47,12 @@ namespace org {
           class FieldHighlighter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_07ea6da215316ed0,
-              mid_getField_09a7afff1868fc5e,
-              mid_getOffsetSource_77a619b338f9ed68,
-              mid_highlightFieldForDoc_1956f2a1b3086ba6,
-              mid_getSummaryPassagesNoHighlight_24797079a183ffd8,
-              mid_highlightOffsetsEnums_fb24d5029f28bf10,
+              mid_init$_3ccd6c72929864f8,
+              mid_getField_e7df854526d67fa3,
+              mid_getOffsetSource_e52a710f16ce6a53,
+              mid_highlightFieldForDoc_be8b3992a2f785c6,
+              mid_highlightOffsetsEnums_94f4d3cb24112e40,
+              mid_getSummaryPassagesNoHighlight_5c9a2802b7b8b4e8,
               max_mid
             };
 

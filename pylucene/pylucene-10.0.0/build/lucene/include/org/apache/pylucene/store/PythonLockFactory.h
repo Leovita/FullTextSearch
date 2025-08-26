@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/store/LockFactory.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class Lock;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
@@ -10,16 +20,6 @@ namespace java {
   namespace lang {
     class Class;
     class String;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class Lock;
-        class Directory;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
         class PythonLockFactory : public ::org::apache::lucene::store::LockFactory {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_obtainLock_4348646d24d7b2f6,
-            mid_pythonExtension_16939d9d0a9a9721,
-            mid_pythonExtension_8b3d46852b435a94,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_obtainLock_b179764a098b8915,
+            mid_pythonExtension_0f176418e3e16541,
+            mid_pythonExtension_1d3149fac12f2af3,
             max_mid
           };
 

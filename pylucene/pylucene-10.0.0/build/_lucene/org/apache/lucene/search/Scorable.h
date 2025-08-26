@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Scorable$ChildScorable;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
@@ -21,6 +12,15 @@ namespace java {
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class Scorable$ChildScorable;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -33,11 +33,11 @@ namespace org {
         class Scorable : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getChildren_aa58b3beec16cbbd,
-            mid_score_9b6c3480dac00edf,
-            mid_setMinCompetitiveScore_c771a95b0227fb6a,
-            mid_smoothingScore_29cfa01aaad92564,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getChildren_4a269b968b3a511f,
+            mid_score_8b62236f0e4d0dbc,
+            mid_setMinCompetitiveScore_675f4cb9a2529ee0,
+            mid_smoothingScore_5873a23b935a9d49,
             max_mid
           };
 

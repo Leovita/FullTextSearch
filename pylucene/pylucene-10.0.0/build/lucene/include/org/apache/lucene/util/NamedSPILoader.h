@@ -4,15 +4,15 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class Iterable;
+    class Class;
+    class String;
+    class ClassLoader;
+  }
   namespace util {
     class Iterator;
     class Set;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Iterable;
-    class ClassLoader;
   }
 }
 namespace org {
@@ -34,13 +34,13 @@ namespace org {
         class NamedSPILoader : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_880cf094c8c20ccb,
-            mid_init$_098cf6324232ea4b,
-            mid_availableServices_4df174295554d7bd,
-            mid_checkServiceName_0d82408c6e55bc30,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_lookup_636df325f364a7e4,
-            mid_reload_7e882e12061eaf38,
+            mid_init$_fbe53aa5d2a68b3e,
+            mid_init$_592d593345ffec2a,
+            mid_availableServices_79131c6bbcf08916,
+            mid_checkServiceName_ee46a189998009d6,
+            mid_iterator_c7985fafdcf40e83,
+            mid_lookup_5ff7d2b14b7b7f79,
+            mid_reload_d603563f542d31ba,
             max_mid
           };
 

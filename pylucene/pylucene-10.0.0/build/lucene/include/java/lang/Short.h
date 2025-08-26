@@ -5,15 +5,12 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
     class Short;
+    class NumberFormatException;
+    class Object;
     class Class;
     class String;
-    class Object;
-    namespace constant {
-      class DynamicConstantDesc;
-    }
-    class NumberFormatException;
+    class Comparable;
   }
   namespace util {
     class Optional;
@@ -27,32 +24,31 @@ namespace java {
     class Short : public ::java::lang::Number {
      public:
       enum {
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_13ddeb599c553531,
-        mid_byteValue_847674f430f49e4c,
-        mid_compare_c1c9c6cb484aa7e5,
-        mid_compareTo_d2966e38cfdf2e34,
-        mid_compareUnsigned_c1c9c6cb484aa7e5,
-        mid_decode_eee2b2fedfbe22a5,
-        mid_describeConstable_d95173840d09a723,
-        mid_doubleValue_32caabaad86c508b,
-        mid_equals_570b5248a6da3ef6,
-        mid_floatValue_9b6c3480dac00edf,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_hashCode_5b696a917598fdf2,
-        mid_intValue_20fbf7565993c3d7,
-        mid_longValue_16939d9d0a9a9721,
-        mid_parseShort_1d0271f6d1254c2b,
-        mid_parseShort_b19e670cf8ffb1f4,
-        mid_reverseBytes_822b9dafbb44b130,
-        mid_shortValue_21ad82099ac5d56c,
-        mid_toString_09a7afff1868fc5e,
-        mid_toString_c8a51730b11810b6,
-        mid_toUnsignedInt_5b696a917598fdf2,
-        mid_toUnsignedLong_d90ea18fc211d222,
-        mid_valueOf_eee2b2fedfbe22a5,
-        mid_valueOf_4f210688d50ec548,
-        mid_valueOf_8397c71106e6b0dd,
+        mid_init$_ee46a189998009d6,
+        mid_init$_19904c0bd37f0d7f,
+        mid_byteValue_1456044a01a5c9bf,
+        mid_compare_83efd00970ee3237,
+        mid_compareTo_ff484cbfc836eaa9,
+        mid_compareUnsigned_83efd00970ee3237,
+        mid_decode_8b327c5fb2733493,
+        mid_doubleValue_6fb37e123fed7a1f,
+        mid_equals_00d17418847797d4,
+        mid_floatValue_8b62236f0e4d0dbc,
+        mid_hashCode_bd89ce15dad49192,
+        mid_hashCode_2220ba279dc28466,
+        mid_intValue_bd89ce15dad49192,
+        mid_longValue_0f176418e3e16541,
+        mid_parseShort_8a56447c199387ef,
+        mid_parseShort_4846d3e73550033c,
+        mid_reverseBytes_ada1dbb0fa925c4f,
+        mid_shortValue_ae7a5bcb127748fd,
+        mid_toString_e7df854526d67fa3,
+        mid_toString_0e171acd5da9ea7e,
+        mid_toUnsignedInt_2220ba279dc28466,
+        mid_toUnsignedLong_bca0b6753df14736,
+        mid_valueOf_8b327c5fb2733493,
+        mid_valueOf_0a3e08c1d6bd93d1,
+        mid_valueOf_4d34f38be5d3f448,
         max_mid
       };
 
@@ -81,7 +77,6 @@ namespace java {
       jint compareTo(const Short &) const;
       static jint compareUnsigned(jshort, jshort);
       static Short decode(const ::java::lang::String &);
-      ::java::util::Optional describeConstable() const;
       jdouble doubleValue() const;
       jboolean equals(const ::java::lang::Object &) const;
       jfloat floatValue() const;

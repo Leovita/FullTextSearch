@@ -6,24 +6,24 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace index {
         class MergeScheduler$MergeSource;
         class MergePolicy$OneMerge;
         class MergeTrigger;
       }
-      namespace store {
-        class Directory;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     namespace concurrent {
@@ -41,31 +41,31 @@ namespace org {
         class ConcurrentMergeScheduler : public ::org::apache::lucene::index::MergeScheduler {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_disableAutoIOThrottle_3720c61b0679eb3e,
-            mid_enableAutoIOThrottle_3720c61b0679eb3e,
-            mid_getAutoIOThrottle_947277eca0748c4e,
-            mid_getForceMergeMBPerSec_32caabaad86c508b,
-            mid_getIORateLimitMBPerSec_32caabaad86c508b,
-            mid_getIntraMergeExecutor_0678b9dde6ccd395,
-            mid_getMaxMergeCount_20fbf7565993c3d7,
-            mid_getMaxThreadCount_20fbf7565993c3d7,
-            mid_merge_d9d4a2a45897a889,
-            mid_mergeThreadCount_20fbf7565993c3d7,
-            mid_setDefaultMaxMergesAndThreads_b110fc3a58c081ab,
-            mid_setForceMergeMBPerSec_b5bc1a2fb9ff9e90,
-            mid_setMaxMergesAndThreads_e13cff512ebda969,
-            mid_sync_3720c61b0679eb3e,
-            mid_toString_09a7afff1868fc5e,
-            mid_wrapForMerge_8bef5abc6563f83d,
-            mid_updateMergeThreads_3720c61b0679eb3e,
-            mid_maybeStall_5ca3a880b314dce9,
-            mid_getMergeThread_2f391a4e461e058c,
-            mid_doStall_3720c61b0679eb3e,
-            mid_targetMBPerSecChanged_3720c61b0679eb3e,
-            mid_doMerge_c30235496316397e,
-            mid_handleMergeException_4b71a6d99b73f7d1,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_disableAutoIOThrottle_e7bdbe105ce1bafb,
+            mid_enableAutoIOThrottle_e7bdbe105ce1bafb,
+            mid_getAutoIOThrottle_9aa4f33e82ea333f,
+            mid_getForceMergeMBPerSec_6fb37e123fed7a1f,
+            mid_getIORateLimitMBPerSec_6fb37e123fed7a1f,
+            mid_getIntraMergeExecutor_194c3f7bd1dfc463,
+            mid_getMaxMergeCount_bd89ce15dad49192,
+            mid_getMaxThreadCount_bd89ce15dad49192,
+            mid_merge_256e955b9cf4fc16,
+            mid_mergeThreadCount_bd89ce15dad49192,
+            mid_setDefaultMaxMergesAndThreads_f5dd97eebf6a215a,
+            mid_setForceMergeMBPerSec_a03f734ddaeb69b4,
+            mid_setMaxMergesAndThreads_645c25455f5b9b1c,
+            mid_sync_e7bdbe105ce1bafb,
+            mid_toString_e7df854526d67fa3,
+            mid_wrapForMerge_a59e5ec3e050adb9,
+            mid_updateMergeThreads_e7bdbe105ce1bafb,
+            mid_maybeStall_13640fa3faac8fe9,
+            mid_getMergeThread_34b2ab3bde04acd1,
+            mid_doStall_e7bdbe105ce1bafb,
+            mid_targetMBPerSecChanged_e7bdbe105ce1bafb,
+            mid_doMerge_4b4860aa588caba7,
+            mid_handleMergeException_9b649326a1df01c3,
             max_mid
           };
 

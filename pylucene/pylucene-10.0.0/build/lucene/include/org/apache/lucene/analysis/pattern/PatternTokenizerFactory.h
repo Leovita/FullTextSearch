@@ -3,20 +3,6 @@
 
 #include "org/apache/lucene/analysis/TokenizerFactory.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class AttributeFactory;
-      }
-      namespace analysis {
-        namespace pattern {
-          class PatternTokenizer;
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -24,6 +10,20 @@ namespace java {
   }
   namespace util {
     class Map;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        namespace pattern {
+          class PatternTokenizer;
+        }
+      }
+      namespace util {
+        class AttributeFactory;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -37,9 +37,9 @@ namespace org {
           class PatternTokenizerFactory : public ::org::apache::lucene::analysis::TokenizerFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_df3d52bf7c3649f9,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_3fd0cce2a836de06,
               max_mid
             };
 

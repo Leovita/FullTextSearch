@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/synonym/SynonymMap$Parser.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        class Analyzer;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class Reader;
@@ -19,6 +10,15 @@ namespace java {
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
           class SolrSynonymParser : public ::org::apache::lucene::analysis::synonym::SynonymMap$Parser {
            public:
             enum {
-              mid_init$_2643bfddf2dfaf9e,
-              mid_parse_fa55492f0f5d7f31,
+              mid_init$_e0908713edc41d21,
+              mid_parse_89ab2bee9aa84b00,
               max_mid
             };
 

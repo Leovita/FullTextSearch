@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/search/TermCollectingRewrite.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,15 +21,6 @@ namespace org {
         class IndexSearcher;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -33,12 +33,12 @@ namespace org {
         class TopTermsRewrite : public ::org::apache::lucene::search::TermCollectingRewrite {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_equals_570b5248a6da3ef6,
-            mid_getSize_20fbf7565993c3d7,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_dcf1727ad038e63a,
-            mid_getMaxSize_20fbf7565993c3d7,
+            mid_init$_8226bd0b0fc13dba,
+            mid_equals_00d17418847797d4,
+            mid_getSize_bd89ce15dad49192,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_ea36ecc6891147cc,
+            mid_getMaxSize_bd89ce15dad49192,
             max_mid
           };
 

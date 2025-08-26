@@ -18,10 +18,10 @@ namespace org {
         class XYEncodingUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_decode_29cfa01aaad92564,
-            mid_decode_36f1bada9977eb97,
-            mid_encode_739cf609cad4f3fa,
-            mid_floatArrayToDoubleArray_156a77d5f27ed382,
+            mid_decode_5873a23b935a9d49,
+            mid_decode_5a5c564d6d4c0b92,
+            mid_encode_96b611d51a3ba940,
+            mid_floatArrayToDoubleArray_0314bbc4746ff32b,
             max_mid
           };
 

@@ -4,13 +4,13 @@
 #include "org/apache/lucene/index/TermVectors.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
   namespace lang {
-    class Class;
     class Cloneable;
+    class Class;
+  }
+  namespace io {
+    class Closeable;
+    class IOException;
   }
 }
 namespace org {
@@ -32,9 +32,9 @@ namespace org {
         class TermVectorsReader : public ::org::apache::lucene::index::TermVectors {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_clone_0b9ae2ecfa80c759,
-            mid_getMergeInstance_0b9ae2ecfa80c759,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_clone_7a10ef35062ba8d1,
+            mid_getMergeInstance_7a10ef35062ba8d1,
             max_mid
           };
 

@@ -5,22 +5,22 @@
 
 namespace java {
   namespace util {
-    class SequencedCollection;
-    class Collection;
-    class Map$Entry;
-    class Set;
-    class SequencedSet;
-    class SequencedMap;
     namespace function {
       class BiFunction;
       class BiConsumer;
     }
+    class Set;
+    class SequencedCollection;
+    class Map$Entry;
     class Map;
+    class Collection;
+    class SequencedMap;
+    class SequencedSet;
     class LinkedHashMap;
   }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,28 +31,28 @@ namespace java {
     class LinkedHashMap : public ::java::util::HashMap {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_540b2b23d51b1efd,
-        mid_init$_79ba0f5a7d05e623,
-        mid_init$_06e0b8d4c1d7906b,
-        mid_init$_7c71f5a9e5f2b3ea,
-        mid_clear_3720c61b0679eb3e,
-        mid_containsValue_570b5248a6da3ef6,
-        mid_entrySet_4df174295554d7bd,
-        mid_forEach_b72e978f1e58c9c6,
-        mid_get_5fd81664d2d475e1,
-        mid_getOrDefault_243089e4ee289db6,
-        mid_keySet_4df174295554d7bd,
-        mid_newLinkedHashMap_38b91c6b9d035b7e,
-        mid_putFirst_243089e4ee289db6,
-        mid_putLast_243089e4ee289db6,
-        mid_replaceAll_e62f673264196dae,
-        mid_reversed_686e758b75295fc8,
-        mid_sequencedEntrySet_eefb2067dd30b451,
-        mid_sequencedKeySet_eefb2067dd30b451,
-        mid_sequencedValues_4fed86e29a000aaa,
-        mid_values_aa58b3beec16cbbd,
-        mid_removeEldestEntry_b87cc2a77fb3efd1,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_8226bd0b0fc13dba,
+        mid_init$_6a7e23584beb7c0f,
+        mid_init$_a18b0cdf76a9509e,
+        mid_init$_835f28898e888a2b,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_containsValue_00d17418847797d4,
+        mid_entrySet_79131c6bbcf08916,
+        mid_forEach_309feadaabdabe33,
+        mid_get_e2c45b124c12f4ec,
+        mid_getOrDefault_b3b175dfe26d2c44,
+        mid_keySet_79131c6bbcf08916,
+        mid_newLinkedHashMap_2b09dbdfd9d06a24,
+        mid_putFirst_b3b175dfe26d2c44,
+        mid_putLast_b3b175dfe26d2c44,
+        mid_replaceAll_ec29d14cf1227d89,
+        mid_reversed_fa24e04ef91f9194,
+        mid_sequencedEntrySet_f1d1e2ce27214ec3,
+        mid_sequencedKeySet_f1d1e2ce27214ec3,
+        mid_sequencedValues_f20e1cbf97be816c,
+        mid_values_4a269b968b3a511f,
+        mid_removeEldestEntry_51ce039b19365325,
         max_mid
       };
 

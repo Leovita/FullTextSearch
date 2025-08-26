@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
       namespace codecs {
         namespace uniformsplit {
           class IndexDictionary;
         }
-      }
-      namespace util {
-        class BytesRef;
       }
     }
   }
@@ -36,8 +36,8 @@ namespace org {
           class IndexDictionary$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_add_dbb330f97b1490f4,
-              mid_build_b9e5bd2139c2a9da,
+              mid_add_0ad076b578ea277f,
+              mid_build_c71d216bb01cfdc5,
               max_mid
             };
 

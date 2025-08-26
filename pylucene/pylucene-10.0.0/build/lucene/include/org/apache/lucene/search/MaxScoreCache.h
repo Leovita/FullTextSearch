@@ -3,14 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -25,6 +17,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -35,9 +35,9 @@ namespace org {
         class MaxScoreCache : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_f1bdcccb87cbc172,
-            mid_advanceShallow_3c9bba330f083871,
-            mid_getMaxScore_29cfa01aaad92564,
+            mid_init$_bfa369ad4d2edf28,
+            mid_advanceShallow_a3904e10f5bb9437,
+            mid_getMaxScore_5873a23b935a9d49,
             max_mid
           };
 

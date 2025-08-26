@@ -27,15 +27,15 @@ namespace org {
         class GeoUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_checkLatitude_b5bc1a2fb9ff9e90,
-            mid_checkLongitude_b5bc1a2fb9ff9e90,
-            mid_distanceQuerySortKey_8fff3d7dcb9fddc5,
-            mid_lineCrossesLine_aa991ddb006b2e24,
-            mid_lineCrossesLineWithBoundary_aa991ddb006b2e24,
-            mid_lineOverlapLine_aa991ddb006b2e24,
-            mid_orient_ee49eb2d2eb1c769,
-            mid_relate_424027c33ad00b95,
-            mid_sloppySin_8fff3d7dcb9fddc5,
+            mid_checkLatitude_a03f734ddaeb69b4,
+            mid_checkLongitude_a03f734ddaeb69b4,
+            mid_distanceQuerySortKey_8493a5edcb36d651,
+            mid_lineCrossesLine_c19892fdf37e3374,
+            mid_lineCrossesLineWithBoundary_c19892fdf37e3374,
+            mid_lineOverlapLine_c19892fdf37e3374,
+            mid_orient_1cb2fbe710cdb5e6,
+            mid_relate_356ecc3ac9f24757,
+            mid_sloppySin_8493a5edcb36d651,
             max_mid
           };
 

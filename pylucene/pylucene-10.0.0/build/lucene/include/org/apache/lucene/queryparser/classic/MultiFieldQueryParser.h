@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class BooleanClause$Occur;
+        class Query;
       }
       namespace analysis {
         class Analyzer;
@@ -42,19 +42,19 @@ namespace org {
           class MultiFieldQueryParser : public ::org::apache::lucene::queryparser::classic::QueryParser {
            public:
             enum {
-              mid_init$_de044ff3d28f5668,
-              mid_init$_62ba45a111748a97,
-              mid_parse_251be478ca716343,
-              mid_parse_ad8cdb64c707bce6,
-              mid_parse_84ab5382023ec362,
-              mid_getFieldQuery_bf6a5f4bf27919ae,
-              mid_getFieldQuery_0904a80daeba8529,
-              mid_getFuzzyQuery_afdd0007c4927190,
-              mid_getPrefixQuery_9c67907ed0ac8b67,
-              mid_getRangeQuery_5d2f96a769d522a4,
-              mid_getWildcardQuery_9c67907ed0ac8b67,
-              mid_getMultiFieldQuery_cfa763d4712e8bc9,
-              mid_getRegexpQuery_9c67907ed0ac8b67,
+              mid_init$_afdc600c68811682,
+              mid_init$_a23880a4d26ae13f,
+              mid_parse_f09b03d871c55c8e,
+              mid_parse_a485e2ab44d5b88a,
+              mid_parse_fba9d889e8196901,
+              mid_getFieldQuery_964b0b3626756a89,
+              mid_getFieldQuery_a525af63bfcd652e,
+              mid_getMultiFieldQuery_997498abbdceb67f,
+              mid_getFuzzyQuery_5aabae9afa99de9b,
+              mid_getPrefixQuery_550dcf54034665c0,
+              mid_getWildcardQuery_550dcf54034665c0,
+              mid_getRangeQuery_3a6923cec6886def,
+              mid_getRegexpQuery_550dcf54034665c0,
               max_mid
             };
 

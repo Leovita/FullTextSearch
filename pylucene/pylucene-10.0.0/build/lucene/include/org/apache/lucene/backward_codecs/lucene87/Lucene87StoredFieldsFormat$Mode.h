@@ -31,8 +31,8 @@ namespace org {
           class Lucene87StoredFieldsFormat$Mode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_1d7fda927754c04d,
-              mid_values_058281a826e09fb5,
+              mid_valueOf_75ea908bf7d45a36,
+              mid_values_e7cd45c9776c32e8,
               max_mid
             };
 

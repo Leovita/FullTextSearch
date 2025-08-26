@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class InfoStream;
-      }
       namespace store {
         class Directory;
+      }
+      namespace util {
+        class InfoStream;
       }
       namespace index {
         class IndexWriterConfig;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,11 +37,11 @@ namespace org {
         class IndexUpgrader : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3c151c130d7f3176,
-            mid_init$_527ba76716c519b6,
-            mid_init$_0f2763c96829bc29,
-            mid_main_ce41e621b30e91b1,
-            mid_upgrade_3720c61b0679eb3e,
+            mid_init$_0bf39a7351552ef4,
+            mid_init$_bf6b8553692a37c7,
+            mid_init$_04463ea4ede3110e,
+            mid_main_1f90f2fcbe43e50d,
+            mid_upgrade_e7bdbe105ce1bafb,
             max_mid
           };
 

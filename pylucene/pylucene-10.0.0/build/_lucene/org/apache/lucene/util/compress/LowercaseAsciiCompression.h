@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class DataOutput;
         class DataInput;
+        class DataOutput;
       }
     }
   }
@@ -32,8 +32,8 @@ namespace org {
           class LowercaseAsciiCompression : public ::java::lang::Object {
            public:
             enum {
-              mid_compress_b8965a2d298e9e1f,
-              mid_decompress_cb57165d1ef4da9e,
+              mid_compress_03eb1f2e14c6af90,
+              mid_decompress_317fd8c7796896e2,
               max_mid
             };
 

@@ -6,28 +6,28 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class DocValuesSkipIndexType;
-        class DocValuesType;
-        class VectorSimilarityFunction;
-        class VectorEncoding;
-        class SegmentInfo;
-        class FieldInfos;
-      }
       namespace store {
-        class IOContext;
         class Directory;
+        class IOContext;
+      }
+      namespace index {
+        class SegmentInfo;
+        class VectorEncoding;
+        class VectorSimilarityFunction;
+        class DocValuesType;
+        class DocValuesSkipIndexType;
+        class FieldInfos;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,13 +41,13 @@ namespace org {
           class SimpleTextFieldInfosFormat : public ::org::apache::lucene::codecs::FieldInfosFormat {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_distanceFunction_2eec03616ed6cd3d,
-              mid_docValuesSkipIndexType_55a30a3f992d8d8b,
-              mid_docValuesType_aa9a66b13da43589,
-              mid_read_c653153ad3f09a4d,
-              mid_vectorEncoding_4e5706df6ceba2c0,
-              mid_write_1a554da1e48bfb17,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_distanceFunction_f12622aba416cce6,
+              mid_docValuesSkipIndexType_e231ff75c3449a04,
+              mid_docValuesType_ab3345a5f86f4edf,
+              mid_read_c2ab35f59080fc68,
+              mid_vectorEncoding_a337932c1627b52d,
+              mid_write_c65ff8c436a36221,
               max_mid
             };
 

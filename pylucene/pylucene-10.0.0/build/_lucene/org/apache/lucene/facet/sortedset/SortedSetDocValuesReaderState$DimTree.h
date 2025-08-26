@@ -10,8 +10,8 @@ namespace java {
     class Class;
   }
   namespace util {
-    class List;
     class PrimitiveIterator$OfInt;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -25,9 +25,9 @@ namespace org {
           class SortedSetDocValuesReaderState$DimTree : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_f40ff503a8ea5682,
-              mid_iterator_4e2efb333bca91a5,
-              mid_iterator_cdf49fddfa6478a8,
+              mid_init$_98d7c16965ce9d16,
+              mid_iterator_455faf74d08510a3,
+              mid_iterator_182bf216583afbe3,
               max_mid
             };
 

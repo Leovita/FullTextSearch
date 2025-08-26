@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
-    class Cloneable;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -27,6 +18,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Cloneable;
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -40,12 +40,12 @@ namespace org {
               class PathQueryNode$QueryText : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_17dee08b301eed95,
-                  mid_clone_be2fa484ffe4ea6b,
-                  mid_getBegin_20fbf7565993c3d7,
-                  mid_getEnd_20fbf7565993c3d7,
-                  mid_getValue_373f0038978f926b,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_1e5b55d602c23ab6,
+                  mid_clone_17aed98591ab3db7,
+                  mid_getBegin_bd89ce15dad49192,
+                  mid_getEnd_bd89ce15dad49192,
+                  mid_getValue_f2e5418fe0d66c69,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

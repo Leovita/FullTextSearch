@@ -3,30 +3,30 @@
 
 #include "org/apache/lucene/index/KnnVectorValues.h"
 
-namespace java {
-  namespace io {
-    class IOException;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class VectorEncoding;
+        class FloatVectorValues;
+        class LeafReader;
+      }
+      namespace search {
+        class VectorScorer;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
     class List;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class VectorScorer;
-      }
-      namespace index {
-        class VectorEncoding;
-        class LeafReader;
-        class FloatVectorValues;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -39,12 +39,12 @@ namespace org {
         class FloatVectorValues : public ::org::apache::lucene::index::KnnVectorValues {
          public:
           enum {
-            mid_checkField_7b24c4e074e0f103,
-            mid_copy_f06cbfc19b53100d,
-            mid_fromFloats_609e7210a674fa9f,
-            mid_getEncoding_89ee194538cd6149,
-            mid_scorer_a8fe418e8b9bfd3a,
-            mid_vectorValue_837967dda86e7ad8,
+            mid_checkField_2153b78f8e8344e7,
+            mid_copy_04d6751cd1004caf,
+            mid_fromFloats_75e2caac2dd6a7b1,
+            mid_getEncoding_667892793043e3ed,
+            mid_scorer_08ba7b0e97b17679,
+            mid_vectorValue_4392f4b0f19a3288,
             max_mid
           };
 

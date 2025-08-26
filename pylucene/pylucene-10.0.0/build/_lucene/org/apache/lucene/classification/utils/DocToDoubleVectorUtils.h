@@ -32,8 +32,8 @@ namespace org {
           class DocToDoubleVectorUtils : public ::java::lang::Object {
            public:
             enum {
-              mid_toDenseLocalFreqDoubleArray_dac8cefcab76f3d4,
-              mid_toSparseLocalFreqDoubleArray_d734c81b2f1dc7f8,
+              mid_toDenseLocalFreqDoubleArray_0aa231179e092577,
+              mid_toSparseLocalFreqDoubleArray_63b8e0a699a6ad7a,
               max_mid
             };
 

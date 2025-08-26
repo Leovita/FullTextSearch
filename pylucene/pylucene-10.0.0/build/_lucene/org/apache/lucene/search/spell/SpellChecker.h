@@ -6,28 +6,28 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        namespace spell {
-          class Dictionary;
-          class SuggestMode;
-          class SuggestWord;
-          class StringDistance;
-        }
+      namespace store {
+        class Directory;
       }
       namespace index {
         class IndexReader;
         class IndexWriterConfig;
       }
-      namespace store {
-        class Directory;
+      namespace search {
+        namespace spell {
+          class SuggestMode;
+          class Dictionary;
+          class StringDistance;
+          class SuggestWord;
+        }
       }
     }
   }
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -48,24 +48,24 @@ namespace org {
           class SpellChecker : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3c151c130d7f3176,
-              mid_init$_6bff77269c19952f,
-              mid_init$_0115af500ef4c1c6,
-              mid_clearIndex_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_exist_4a13a663b5c11133,
-              mid_getAccuracy_9b6c3480dac00edf,
-              mid_getComparator_39238840448c1807,
-              mid_getStringDistance_478505d6ee0aee8d,
-              mid_indexDictionary_4435f80ff99b3050,
-              mid_setAccuracy_c771a95b0227fb6a,
-              mid_setComparator_480edaf434ebe52f,
-              mid_setSpellIndex_3c151c130d7f3176,
-              mid_setStringDistance_c1f993af6d9506f9,
-              mid_suggestSimilar_4d63ef154ee63a81,
-              mid_suggestSimilar_ea382154efe983a3,
-              mid_suggestSimilar_e4611c7a22b54a1b,
-              mid_suggestSimilar_bee0c8b15b5c4cd6,
+              mid_init$_0bf39a7351552ef4,
+              mid_init$_e7de300db758bc54,
+              mid_init$_abbfae6b0d3c926a,
+              mid_clearIndex_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_exist_94f7e759d94961b0,
+              mid_getAccuracy_8b62236f0e4d0dbc,
+              mid_getComparator_5cc89c689cd941fe,
+              mid_getStringDistance_21d3be2e55fe7f08,
+              mid_indexDictionary_e777b0d9d33ebc81,
+              mid_setAccuracy_675f4cb9a2529ee0,
+              mid_setComparator_236c903ae32a3610,
+              mid_setSpellIndex_0bf39a7351552ef4,
+              mid_setStringDistance_79704ae345a0bc97,
+              mid_suggestSimilar_9ecbefcf978f48ac,
+              mid_suggestSimilar_96bdf97568941cf4,
+              mid_suggestSimilar_ac974a73314f7239,
+              mid_suggestSimilar_8efd403320b108ae,
               max_mid
             };
 

@@ -33,14 +33,14 @@ namespace org {
         class FieldComparator : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_compare_7f733b5d08bb5ec4,
-            mid_compareValues_40855b2159b37f04,
-            mid_disableSkipping_3720c61b0679eb3e,
-            mid_getLeafComparator_d019da77a226431f,
-            mid_setSingleSort_3720c61b0679eb3e,
-            mid_setTopValue_eb61ef4d1db15d08,
-            mid_value_eb7eace67c4a21fd,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_compare_7f27cf81a85a97e9,
+            mid_compareValues_69b7b8451ec9257c,
+            mid_disableSkipping_e7bdbe105ce1bafb,
+            mid_getLeafComparator_84b03b9ed9bc3019,
+            mid_setSingleSort_e7bdbe105ce1bafb,
+            mid_setTopValue_501c3eb890ff6d79,
+            mid_value_2a2d7d7b9153274c,
             max_mid
           };
 

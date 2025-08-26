@@ -20,8 +20,8 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class String;
     class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -35,13 +35,13 @@ namespace org {
           class QueryParserTokenManager : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_c2b02911839614e6,
-              mid_init$_876a1399cff1cc40,
-              mid_ReInit_c2b02911839614e6,
-              mid_ReInit_876a1399cff1cc40,
-              mid_SwitchTo_540b2b23d51b1efd,
-              mid_getNextToken_36bb192b62e97f0a,
-              mid_jjFillToken_36bb192b62e97f0a,
+              mid_init$_e62548278c2da79e,
+              mid_init$_41ba174bb093a9c8,
+              mid_ReInit_e62548278c2da79e,
+              mid_ReInit_41ba174bb093a9c8,
+              mid_SwitchTo_8226bd0b0fc13dba,
+              mid_getNextToken_8878d7ea08e37e5f,
+              mid_jjFillToken_8878d7ea08e37e5f,
               max_mid
             };
 

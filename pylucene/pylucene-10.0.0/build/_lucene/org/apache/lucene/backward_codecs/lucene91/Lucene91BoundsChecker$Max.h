@@ -19,8 +19,8 @@ namespace org {
           class Lucene91BoundsChecker$Max : public ::org::apache::lucene::backward_codecs::lucene91::Lucene91BoundsChecker {
            public:
             enum {
-              mid_check_ed8290af1db6b7df,
-              mid_update_c771a95b0227fb6a,
+              mid_check_bf47f881a09da8d2,
+              mid_update_675f4cb9a2529ee0,
               max_mid
             };
 

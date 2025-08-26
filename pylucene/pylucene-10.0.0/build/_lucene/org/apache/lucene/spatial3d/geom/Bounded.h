@@ -30,7 +30,7 @@ namespace org {
           class Bounded : public ::java::lang::Object {
            public:
             enum {
-              mid_getBounds_d23bdea549cf3849,
+              mid_getBounds_92d81e4ba71a8653,
               max_mid
             };
 

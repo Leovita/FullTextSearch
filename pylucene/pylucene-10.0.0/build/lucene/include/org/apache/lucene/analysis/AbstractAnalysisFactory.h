@@ -4,14 +4,14 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    class Collection;
-    class Set;
-    class Map;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace util {
+    class Map;
+    class Collection;
+    class Set;
   }
 }
 namespace org {
@@ -33,35 +33,35 @@ namespace org {
         class AbstractAnalysisFactory : public ::java::lang::Object {
          public:
           enum {
-            mid_get_fdb4de21497aa8f2,
-            mid_get_4352542d9b5a4fee,
-            mid_get_7b130275ab486b81,
-            mid_get_9f884d509857227f,
-            mid_get_86228c91ea8fbd9c,
-            mid_getChar_2f7bae9c14416b42,
-            mid_getClassArg_09a7afff1868fc5e,
-            mid_getLuceneMatchVersion_f03381109b44c46a,
-            mid_getOriginalArgs_f125f26c07a7bec8,
-            mid_getSet_98cc1328995e1a91,
-            mid_isExplicitLuceneMatchVersion_947277eca0748c4e,
-            mid_require_fdb4de21497aa8f2,
-            mid_require_7b130275ab486b81,
-            mid_require_d36d41c2931b8c36,
-            mid_requireChar_23ba1550b2dc97b7,
-            mid_setExplicitLuceneMatchVersion_b110fc3a58c081ab,
-            mid_defaultCtorException_1bcba9450a5e7093,
-            mid_splitFileNames_8eaa545bb5a79de3,
-            mid_splitAt_8fa5826244c60eb9,
-            mid_requireInt_3e09bd3cedeb0e6d,
-            mid_requireBoolean_9ade08fa98e7a30d,
-            mid_requireFloat_fcf82085ba9171a2,
-            mid_getPattern_9512c3e35be4ff66,
-            mid_getWordSet_926ad1e72660294d,
-            mid_getSnowballWordSet_926ad1e72660294d,
-            mid_getLines_f9cbff32ceb33fb6,
-            mid_getBoolean_b26648999f7b14b8,
-            mid_getInt_42804bc9b1df6d42,
-            mid_getFloat_5b2abd1e2abadbec,
+            mid_get_50a4de80725429ea,
+            mid_get_cebc26e8c3987f43,
+            mid_get_ce1747da88a022d3,
+            mid_get_6f9515a3a31264ed,
+            mid_get_e9020617e26ec0a2,
+            mid_getChar_a125cc629a8edb9c,
+            mid_getClassArg_e7df854526d67fa3,
+            mid_getLuceneMatchVersion_098638c0dde6da21,
+            mid_getOriginalArgs_5004bdf19ed33453,
+            mid_getSet_b2847b6fc1cb4fbd,
+            mid_isExplicitLuceneMatchVersion_9aa4f33e82ea333f,
+            mid_require_50a4de80725429ea,
+            mid_require_ce1747da88a022d3,
+            mid_require_0eaa6cdab5cbbcba,
+            mid_requireChar_28e2b11fb5ab282c,
+            mid_setExplicitLuceneMatchVersion_f5dd97eebf6a215a,
+            mid_defaultCtorException_f31696f7f5cdc481,
+            mid_splitFileNames_49920ced44282529,
+            mid_getLines_5d5edbdcf69ca866,
+            mid_getSnowballWordSet_217561848cf06c5c,
+            mid_splitAt_bc101e669f6246ba,
+            mid_requireInt_fb5590135dc85728,
+            mid_requireBoolean_5c6a59c9f13154e0,
+            mid_requireFloat_9264a4c3c634b4c6,
+            mid_getPattern_a25b3986085d9dd0,
+            mid_getWordSet_217561848cf06c5c,
+            mid_getBoolean_409ed0b09d0cc231,
+            mid_getInt_1ac5bf052aeb6f67,
+            mid_getFloat_761821ef6c91f9f9,
             max_mid
           };
 

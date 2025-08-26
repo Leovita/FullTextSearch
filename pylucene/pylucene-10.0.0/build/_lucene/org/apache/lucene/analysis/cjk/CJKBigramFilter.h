@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/TokenFilter.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -32,11 +32,11 @@ namespace org {
           class CJKBigramFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_init$_040618eef88cc819,
-              mid_init$_f2751701704e4b00,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_4fe096967a533954,
+              mid_init$_40ae3e19a9468a36,
+              mid_init$_24b79fcaeb21db67,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

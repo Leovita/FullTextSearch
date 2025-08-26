@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,21 +31,21 @@ namespace org {
           class FST$Arc : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_arcIdx_20fbf7565993c3d7,
-              mid_bytesPerArc_20fbf7565993c3d7,
-              mid_copyFrom_f5bb151389242a45,
-              mid_flags_847674f430f49e4c,
-              mid_isFinal_947277eca0748c4e,
-              mid_isLast_947277eca0748c4e,
-              mid_label_20fbf7565993c3d7,
-              mid_nextFinalOutput_5655ed8670534604,
-              mid_nodeFlags_847674f430f49e4c,
-              mid_numArcs_20fbf7565993c3d7,
-              mid_output_5655ed8670534604,
-              mid_posArcsStart_16939d9d0a9a9721,
-              mid_target_16939d9d0a9a9721,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_arcIdx_bd89ce15dad49192,
+              mid_bytesPerArc_bd89ce15dad49192,
+              mid_copyFrom_6e3fa3026b92cf4e,
+              mid_flags_1456044a01a5c9bf,
+              mid_isFinal_9aa4f33e82ea333f,
+              mid_isLast_9aa4f33e82ea333f,
+              mid_label_bd89ce15dad49192,
+              mid_nextFinalOutput_4819806f62f1360a,
+              mid_nodeFlags_1456044a01a5c9bf,
+              mid_numArcs_bd89ce15dad49192,
+              mid_output_4819806f62f1360a,
+              mid_posArcsStart_0f176418e3e16541,
+              mid_target_0f176418e3e16541,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

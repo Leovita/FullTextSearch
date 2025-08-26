@@ -3,6 +3,12 @@
 
 #include "org/apache/lucene/util/automaton/RunAutomaton.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,12 +18,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
           class CharacterRunAutomaton : public ::org::apache::lucene::util::automaton::RunAutomaton {
            public:
             enum {
-              mid_init$_71373fad5757dc3c,
-              mid_run_4a13a663b5c11133,
-              mid_run_bab09355a5cf0732,
+              mid_init$_7350cbdcd883df0a,
+              mid_run_94f7e759d94961b0,
+              mid_run_355feee9125d4fb1,
               max_mid
             };
 

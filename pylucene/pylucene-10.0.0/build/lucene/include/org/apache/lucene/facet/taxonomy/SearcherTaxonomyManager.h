@@ -6,8 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class SearcherFactory;
+      namespace store {
+        class Directory;
+      }
+      namespace index {
+        class IndexReader;
+        class IndexWriter;
       }
       namespace facet {
         namespace taxonomy {
@@ -18,12 +22,8 @@ namespace org {
           class SearcherTaxonomyManager$SearcherAndTaxonomy;
         }
       }
-      namespace index {
-        class IndexReader;
-        class IndexWriter;
-      }
-      namespace store {
-        class Directory;
+      namespace search {
+        class SearcherFactory;
       }
     }
   }
@@ -47,14 +47,14 @@ namespace org {
           class SearcherTaxonomyManager : public ::org::apache::lucene::search::ReferenceManager {
            public:
             enum {
-              mid_init$_722e1abe365b9755,
-              mid_init$_a8d7f320e95810a2,
-              mid_init$_c942bc03612af819,
-              mid_init$_4f187f56d42fe8de,
-              mid_decRef_878cc3480eea901e,
-              mid_tryIncRef_36b1475935357cae,
-              mid_getRefCount_b916bf9ea4278f9b,
-              mid_refreshIfNeeded_858a53acbad70429,
+              mid_init$_7f21cbfcc1761fed,
+              mid_init$_f2c09ffe975689d6,
+              mid_init$_7655a0e5fd31c6a6,
+              mid_init$_33d1543f115e8c7e,
+              mid_decRef_35a50672b8f713c4,
+              mid_getRefCount_e0f4b34ca0760def,
+              mid_refreshIfNeeded_217288b9d982495a,
+              mid_tryIncRef_a58ddaed906613e0,
               max_mid
             };
 

@@ -12,11 +12,11 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace index {
         class IndexableFieldType;
+      }
+      namespace search {
+        class Query;
       }
     }
   }
@@ -31,12 +31,12 @@ namespace org {
         class BinaryPoint : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_94cb5fdf8a5255b9,
-            mid_init$_a3febbf6875c2424,
-            mid_newExactQuery_f340ad58a84b1399,
-            mid_newRangeQuery_7c1af2ae4a99ab09,
-            mid_newRangeQuery_1af301f5fafd5c7b,
-            mid_newSetQuery_5b20425057963f07,
+            mid_init$_e88b77b557e3b4ce,
+            mid_init$_923373ca1c892e07,
+            mid_newExactQuery_080dc72afdd03681,
+            mid_newRangeQuery_dc63e52097e2ec70,
+            mid_newRangeQuery_86e0503aeb0931ac,
+            mid_newSetQuery_5dc6e114228d6288,
             max_mid
           };
 

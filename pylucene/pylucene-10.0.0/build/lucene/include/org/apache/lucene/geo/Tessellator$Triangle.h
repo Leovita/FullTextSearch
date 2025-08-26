@@ -19,13 +19,13 @@ namespace org {
         class Tessellator$Triangle : public ::java::lang::Object {
          public:
           enum {
-            mid_getEncodedX_3c9bba330f083871,
-            mid_getEncodedY_3c9bba330f083871,
-            mid_getX_788f636887bfcb79,
-            mid_getY_788f636887bfcb79,
-            mid_isEdgefromPolygon_ae22d3a856ad56f1,
-            mid_toString_09a7afff1868fc5e,
-            mid_containsPoint_342fb7117d75ad7c,
+            mid_getEncodedX_a3904e10f5bb9437,
+            mid_getEncodedY_a3904e10f5bb9437,
+            mid_getX_3bb466f769ef1c7f,
+            mid_getY_3bb466f769ef1c7f,
+            mid_isEdgefromPolygon_a8281eb3b9d9672d,
+            mid_toString_e7df854526d67fa3,
+            mid_containsPoint_ca47176ba6c35fb2,
             max_mid
           };
 

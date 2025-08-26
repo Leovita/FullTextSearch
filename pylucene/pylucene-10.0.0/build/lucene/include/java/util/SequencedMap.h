@@ -4,15 +4,15 @@
 #include "java/util/Map.h"
 
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
   namespace util {
     class SequencedCollection;
     class Map$Entry;
-    class SequencedSet;
     class SequencedMap;
-  }
-  namespace lang {
-    class Class;
-    class Object;
+    class SequencedSet;
   }
 }
 template<class T> class JArray;
@@ -23,16 +23,16 @@ namespace java {
     class SequencedMap : public ::java::util::Map {
      public:
       enum {
-        mid_firstEntry_158df3d9a50522a0,
-        mid_lastEntry_158df3d9a50522a0,
-        mid_pollFirstEntry_158df3d9a50522a0,
-        mid_pollLastEntry_158df3d9a50522a0,
-        mid_putFirst_243089e4ee289db6,
-        mid_putLast_243089e4ee289db6,
-        mid_reversed_686e758b75295fc8,
-        mid_sequencedEntrySet_eefb2067dd30b451,
-        mid_sequencedKeySet_eefb2067dd30b451,
-        mid_sequencedValues_4fed86e29a000aaa,
+        mid_firstEntry_74fc562d8145a290,
+        mid_lastEntry_74fc562d8145a290,
+        mid_pollFirstEntry_74fc562d8145a290,
+        mid_pollLastEntry_74fc562d8145a290,
+        mid_putFirst_b3b175dfe26d2c44,
+        mid_putLast_b3b175dfe26d2c44,
+        mid_reversed_fa24e04ef91f9194,
+        mid_sequencedEntrySet_f1d1e2ce27214ec3,
+        mid_sequencedKeySet_f1d1e2ce27214ec3,
+        mid_sequencedValues_f20e1cbf97be816c,
         max_mid
       };
 

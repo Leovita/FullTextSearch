@@ -18,10 +18,10 @@ namespace org {
         class DelegatingAnalyzerWrapper : public ::org::apache::lucene::analysis::AnalyzerWrapper {
          public:
           enum {
-            mid_wrapComponents_3176534f1faba3ea,
-            mid_wrapReader_f755529383524495,
-            mid_wrapReaderForNormalization_f755529383524495,
-            mid_wrapTokenStreamForNormalization_9793d650e44fa07f,
+            mid_wrapComponents_c424eb4df905e9cf,
+            mid_wrapTokenStreamForNormalization_6c106c857ee0afd1,
+            mid_wrapReader_9b0aaf55e5811bc6,
+            mid_wrapReaderForNormalization_9b0aaf55e5811bc6,
             max_mid
           };
 

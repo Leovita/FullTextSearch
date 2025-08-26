@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class PagedBytes$Reader;
         class Accountable;
         class BytesRef;
         class PagedBytes$PagedBytesDataOutput;
-        class PagedBytes$Reader;
         class PagedBytes$PagedBytesDataInput;
       }
       namespace store {
@@ -20,11 +20,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,15 +37,15 @@ namespace org {
         class PagedBytes : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_copy_3c1c8b9777cb436a,
-            mid_copy_e141c9ec2d8e5d0f,
-            mid_copyUsingLengthPrefix_7595cb5441b08443,
-            mid_freeze_2bc8a199a4377e3b,
-            mid_getDataInput_18c2b2e0cc045a79,
-            mid_getDataOutput_b1f623af872b5c6b,
-            mid_getPointer_16939d9d0a9a9721,
-            mid_ramBytesUsed_16939d9d0a9a9721,
+            mid_init$_8226bd0b0fc13dba,
+            mid_copy_4d1d9ae190b172b3,
+            mid_copy_a99b2b9f447793b8,
+            mid_copyUsingLengthPrefix_8c6e1447894d7a38,
+            mid_freeze_f21667137b5babe1,
+            mid_getDataInput_516bd0eaa8217a13,
+            mid_getDataOutput_14e5421f7dd9f25b,
+            mid_getPointer_0f176418e3e16541,
+            mid_ramBytesUsed_0f176418e3e16541,
             max_mid
           };
 

@@ -20,15 +20,15 @@ namespace java {
     class StringReader : public ::java::io::Reader {
      public:
       enum {
-        mid_init$_0d82408c6e55bc30,
-        mid_close_3720c61b0679eb3e,
-        mid_mark_540b2b23d51b1efd,
-        mid_markSupported_947277eca0748c4e,
-        mid_read_20fbf7565993c3d7,
-        mid_read_db543c1e894f3140,
-        mid_ready_947277eca0748c4e,
-        mid_reset_3720c61b0679eb3e,
-        mid_skip_91d66fa3ea476cea,
+        mid_init$_ee46a189998009d6,
+        mid_close_e7bdbe105ce1bafb,
+        mid_mark_8226bd0b0fc13dba,
+        mid_markSupported_9aa4f33e82ea333f,
+        mid_read_bd89ce15dad49192,
+        mid_read_872baf22ed11fbaa,
+        mid_ready_9aa4f33e82ea333f,
+        mid_reset_e7bdbe105ce1bafb,
+        mid_skip_3dc1c6e3a5a0baf0,
         max_mid
       };
 

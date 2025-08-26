@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/index/FilterLeafReader.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
         class SortedNumericDocValues;
-        class LeafReader;
         class IndexReader$CacheHelper;
+        class LeafReader;
       }
       namespace facet {
         class FacetsConfig;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
           class OrdinalMappingLeafReader : public ::org::apache::lucene::index::FilterLeafReader {
            public:
             enum {
-              mid_init$_70f6e17e40e22749,
-              mid_getCoreCacheHelper_3117e2e82cc46163,
-              mid_getReaderCacheHelper_3117e2e82cc46163,
-              mid_getSortedNumericDocValues_5b5cc59b31747b26,
+              mid_init$_91f588c0e6eba6ce,
+              mid_getCoreCacheHelper_bcf8e7a3b3f2dbe2,
+              mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+              mid_getSortedNumericDocValues_d833735942a4e997,
               max_mid
             };
 

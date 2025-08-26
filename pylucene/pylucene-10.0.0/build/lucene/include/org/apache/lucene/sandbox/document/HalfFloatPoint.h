@@ -3,6 +3,17 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Float;
+    class Class;
+    class Number;
+    class String;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -13,17 +24,6 @@ namespace org {
         class BytesRef;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Float;
-    class String;
-    class Class;
-    class Number;
-  }
-  namespace util {
-    class Collection;
   }
 }
 template<class T> class JArray;
@@ -37,23 +37,23 @@ namespace org {
           class HalfFloatPoint : public ::org::apache::lucene::document::Field {
            public:
             enum {
-              mid_init$_9f83491e7d10ff68,
-              mid_decodeDimension_36f1bada9977eb97,
-              mid_encodeDimension_c76b280dd4a5e2c5,
-              mid_halfFloatToSortableShort_6bdf05613323e5cd,
-              mid_newExactQuery_bcda6f27d927f58d,
-              mid_newRangeQuery_297c8e38e6ab41fe,
-              mid_newRangeQuery_e6e7dae2179dd4df,
-              mid_newSetQuery_6614d99324241fad,
-              mid_newSetQuery_9484176e9ce4ba1f,
-              mid_nextDown_8fa359a2bc20a127,
-              mid_nextUp_8fa359a2bc20a127,
-              mid_numericValue_1b3282bb4db06655,
-              mid_setBytesValue_ac0de3ee0e03786d,
-              mid_setFloatValue_c771a95b0227fb6a,
-              mid_setFloatValues_354df523028ef700,
-              mid_sortableShortToHalfFloat_b676884bea1176d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_833042f82a09f518,
+              mid_decodeDimension_5a5c564d6d4c0b92,
+              mid_encodeDimension_d6fabc6de258f7a6,
+              mid_halfFloatToSortableShort_597bbb88fa9d7b92,
+              mid_newExactQuery_bde45c78fff9161d,
+              mid_newRangeQuery_28530d9f4b68fa70,
+              mid_newRangeQuery_d4cf9dd160b804b6,
+              mid_newSetQuery_65301ded65c7e90a,
+              mid_newSetQuery_525d6c1fce01d552,
+              mid_nextDown_760c23641efab431,
+              mid_nextUp_760c23641efab431,
+              mid_numericValue_b9665294ea488d3c,
+              mid_setBytesValue_920ce0cdf4259cc9,
+              mid_setFloatValue_675f4cb9a2529ee0,
+              mid_setFloatValues_d2e2fadde4bf8d25,
+              mid_sortableShortToHalfFloat_3671622f8b147461,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

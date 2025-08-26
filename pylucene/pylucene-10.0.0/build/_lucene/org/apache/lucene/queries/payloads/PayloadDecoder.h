@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
       namespace queries {
         namespace payloads {
           class PayloadDecoder;
         }
-      }
-      namespace util {
-        class BytesRef;
       }
     }
   }
@@ -33,7 +33,7 @@ namespace org {
           class PayloadDecoder : public ::java::lang::Object {
            public:
             enum {
-              mid_computePayloadFactor_0d8a56a9394916d5,
+              mid_computePayloadFactor_fb4a9f4d68308127,
               max_mid
             };
 

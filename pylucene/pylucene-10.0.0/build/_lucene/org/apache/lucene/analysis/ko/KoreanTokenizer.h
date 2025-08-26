@@ -10,9 +10,9 @@ namespace org {
         namespace ko {
           namespace dict {
             class UnknownDictionary;
-            class ConnectionCosts;
-            class TokenInfoDictionary;
             class UserDictionary;
+            class TokenInfoDictionary;
+            class ConnectionCosts;
             class KoMorphData;
           }
           class KoreanTokenizer$DecompoundMode;
@@ -46,15 +46,15 @@ namespace org {
           class KoreanTokenizer : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_848b4807843e33db,
-              mid_init$_40f791d27608fd77,
-              mid_init$_0eb1e6efae55bec9,
-              mid_close_3720c61b0679eb3e,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_setGraphvizFormatter_b59415f24de77e37,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_045878a3adc43ef6,
+              mid_init$_e7213d018110dc87,
+              mid_init$_81717881b5baffb1,
+              mid_close_e7bdbe105ce1bafb,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setGraphvizFormatter_faba969b4b03547a,
               max_mid
             };
 

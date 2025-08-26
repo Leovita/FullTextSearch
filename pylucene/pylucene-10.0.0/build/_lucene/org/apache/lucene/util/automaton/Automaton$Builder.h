@@ -30,18 +30,18 @@ namespace org {
           class Automaton$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_e13cff512ebda969,
-              mid_addEpsilon_e13cff512ebda969,
-              mid_addTransition_20022b6d5e83c732,
-              mid_addTransition_94688dd632556392,
-              mid_copy_71373fad5757dc3c,
-              mid_copyStates_71373fad5757dc3c,
-              mid_createState_20fbf7565993c3d7,
-              mid_finish_275570da72a90658,
-              mid_getNumStates_20fbf7565993c3d7,
-              mid_isAccept_ae22d3a856ad56f1,
-              mid_setAccept_2936d2706a18a684,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_645c25455f5b9b1c,
+              mid_addEpsilon_645c25455f5b9b1c,
+              mid_addTransition_eee637a6cebc299b,
+              mid_addTransition_126b4efb1bebbe4a,
+              mid_copy_7350cbdcd883df0a,
+              mid_copyStates_7350cbdcd883df0a,
+              mid_createState_bd89ce15dad49192,
+              mid_finish_d4cfa49a0a7bdead,
+              mid_getNumStates_bd89ce15dad49192,
+              mid_isAccept_a8281eb3b9d9672d,
+              mid_setAccept_a0fed0a2cd38e7b1,
               max_mid
             };
 

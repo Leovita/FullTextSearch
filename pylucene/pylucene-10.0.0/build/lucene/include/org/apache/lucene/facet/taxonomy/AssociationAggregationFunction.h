@@ -30,8 +30,8 @@ namespace org {
           class AssociationAggregationFunction : public ::java::lang::Object {
            public:
             enum {
-              mid_aggregate_b249dbf8c9984535,
-              mid_aggregate_7f733b5d08bb5ec4,
+              mid_aggregate_ab52dff7447e3c87,
+              mid_aggregate_7f27cf81a85a97e9,
               max_mid
             };
 

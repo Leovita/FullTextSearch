@@ -3,6 +3,19 @@
 
 #include "org/apache/lucene/analysis/compound/hyphenation/TernaryTree.h"
 
+namespace java {
+  namespace util {
+    class ArrayList;
+  }
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class PrintStream;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,19 +30,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace util {
-    class ArrayList;
-  }
-  namespace io {
-    class PrintStream;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -42,19 +42,19 @@ namespace org {
             class HyphenationTree : public ::org::apache::lucene::analysis::compound::hyphenation::TernaryTree {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_addClass_0d82408c6e55bc30,
-                mid_addException_b54ed4e18591173a,
-                mid_addPattern_3d104da0b5c75e64,
-                mid_findPattern_cb0eb1432185fc94,
-                mid_hyphenate_8a3f2a2a3e629f38,
-                mid_hyphenate_32e54eaf10e77051,
-                mid_printStats_f19a9aaf837ad692,
-                mid_packValues_3f230d713d7fd2b0,
-                mid_unpackValues_cd8436557ab831f9,
-                mid_hstrcmp_29624e033af61e73,
-                mid_searchPatterns_bc88d8f78c7b8f19,
-                mid_getValues_81e4ab9dd381561f,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_addClass_ee46a189998009d6,
+                mid_addException_63b99db3d97c5637,
+                mid_addPattern_0dd012a11c3f389b,
+                mid_findPattern_fef9c036acf290a9,
+                mid_hyphenate_6852c56e513f889b,
+                mid_hyphenate_ead9dea7d7f09268,
+                mid_printStats_922e82480ddcbcc4,
+                mid_unpackValues_0da8f0b89b1e9a22,
+                mid_hstrcmp_826b6903e83315ea,
+                mid_searchPatterns_81a4ed1ec3101fd8,
+                mid_packValues_fa2a6f298bd618ab,
+                mid_getValues_d94c1f1d0c66928c,
                 max_mid
               };
 

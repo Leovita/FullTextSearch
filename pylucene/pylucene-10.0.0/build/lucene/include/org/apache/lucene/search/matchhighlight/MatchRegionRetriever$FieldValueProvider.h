@@ -4,12 +4,12 @@
 #include "java/lang/Iterable.h"
 
 namespace java {
+  namespace util {
+    class List;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -23,7 +23,7 @@ namespace org {
           class MatchRegionRetriever$FieldValueProvider : public ::java::lang::Iterable {
            public:
             enum {
-              mid_getValues_8eaa545bb5a79de3,
+              mid_getValues_49920ced44282529,
               max_mid
             };
 

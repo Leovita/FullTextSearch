@@ -3,31 +3,31 @@
 
 #include "java/io/Closeable.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Iterable;
-    class String;
-  }
-  namespace util {
-    class Map$Entry;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class TwoPhaseCommit;
+      }
       namespace facet {
         namespace taxonomy {
           class FacetLabel;
         }
       }
-      namespace index {
-        class TwoPhaseCommit;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class Iterable;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map$Entry;
   }
 }
 template<class T> class JArray;
@@ -41,11 +41,11 @@ namespace org {
           class TaxonomyWriter : public ::java::io::Closeable {
            public:
             enum {
-              mid_addCategory_b886af148d2e9c5a,
-              mid_getLiveCommitData_11d5156a64e3246d,
-              mid_getParent_3c9bba330f083871,
-              mid_getSize_20fbf7565993c3d7,
-              mid_setLiveCommitData_eb4b05d4345caaf0,
+              mid_addCategory_36dd33e0173c4244,
+              mid_getLiveCommitData_85e1732aaf0b83f3,
+              mid_getParent_a3904e10f5bb9437,
+              mid_getSize_bd89ce15dad49192,
+              mid_setLiveCommitData_e14ca79f217d88d0,
               max_mid
             };
 

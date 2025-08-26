@@ -32,8 +32,8 @@ namespace org {
           class SpanCollector : public ::java::lang::Object {
            public:
             enum {
-              mid_collectLeaf_3aa52d8f240f6edc,
-              mid_reset_3720c61b0679eb3e,
+              mid_collectLeaf_49f63465c86055a2,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

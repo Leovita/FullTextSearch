@@ -27,13 +27,13 @@ namespace org {
         class RollingBuffer : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_freeBefore_540b2b23d51b1efd,
-            mid_get_24c4e6cded21a534,
-            mid_getBufferSize_20fbf7565993c3d7,
-            mid_getMaxPos_20fbf7565993c3d7,
-            mid_reset_3720c61b0679eb3e,
-            mid_newInstance_3eb6551c1179ba7a,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_freeBefore_8226bd0b0fc13dba,
+            mid_get_eb0f4424c02510a1,
+            mid_getBufferSize_bd89ce15dad49192,
+            mid_getMaxPos_bd89ce15dad49192,
+            mid_reset_e7bdbe105ce1bafb,
+            mid_newInstance_c655a37341f1375e,
             max_mid
           };
 

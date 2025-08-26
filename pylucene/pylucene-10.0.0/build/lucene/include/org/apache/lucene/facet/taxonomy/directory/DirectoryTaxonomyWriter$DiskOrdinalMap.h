@@ -41,11 +41,11 @@ namespace org {
             class DirectoryTaxonomyWriter$DiskOrdinalMap : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_8a3244428bfc77b8,
-                mid_addDone_3720c61b0679eb3e,
-                mid_addMapping_e13cff512ebda969,
-                mid_getMap_623cd4a044ba647a,
-                mid_setSize_540b2b23d51b1efd,
+                mid_init$_e7b3ede3efacc86d,
+                mid_addDone_e7bdbe105ce1bafb,
+                mid_addMapping_645c25455f5b9b1c,
+                mid_getMap_4b72a28a860ae838,
+                mid_setSize_8226bd0b0fc13dba,
                 max_mid
               };
 

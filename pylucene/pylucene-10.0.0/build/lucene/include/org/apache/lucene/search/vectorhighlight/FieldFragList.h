@@ -3,24 +3,24 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        namespace vectorhighlight {
+          class FieldPhraseList$WeightedPhraseInfo;
+          class FieldFragList$WeightedFragInfo;
+        }
+      }
+    }
+  }
+}
 namespace java {
   namespace util {
     class List;
   }
   namespace lang {
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        namespace vectorhighlight {
-          class FieldFragList$WeightedFragInfo;
-          class FieldPhraseList$WeightedPhraseInfo;
-        }
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -34,9 +34,9 @@ namespace org {
           class FieldFragList : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_add_387f5fca04f5a3f6,
-              mid_getFragInfos_36830460e10839eb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_add_c144670d3f0e91dd,
+              mid_getFragInfos_1387e1e2702ac173,
               max_mid
             };
 

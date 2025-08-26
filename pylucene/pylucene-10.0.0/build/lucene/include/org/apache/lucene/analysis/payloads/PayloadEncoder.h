@@ -28,8 +28,8 @@ namespace org {
           class PayloadEncoder : public ::java::lang::Object {
            public:
             enum {
-              mid_encode_676bcb64d5ba9de8,
-              mid_encode_39b6f094532ed45a,
+              mid_encode_32c300f33ebb640c,
+              mid_encode_913ab79e1d259c84,
               max_mid
             };
 

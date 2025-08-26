@@ -3,17 +3,25 @@
 
 #include "org/apache/lucene/search/suggest/Lookup.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+    class CharSequence;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Collection;
+    class Set;
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-        class BytesRef;
-      }
-      namespace store {
-        class DataInput;
-        class DataOutput;
-      }
       namespace search {
         namespace suggest {
           class InputIterator;
@@ -23,23 +31,15 @@ namespace org {
       namespace analysis {
         class Analyzer;
       }
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
+      namespace util {
+        class Accountable;
+        class BytesRef;
+      }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Collection;
-    class List;
-    class Set;
-  }
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class Object;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -54,22 +54,22 @@ namespace org {
             class FreeTextSuggester : public ::org::apache::lucene::search::suggest::Lookup {
              public:
               enum {
-                mid_init$_07cd0f76cabcf75a,
-                mid_init$_bfcdc5314bc06cf6,
-                mid_init$_af1fc8c24187a780,
-                mid_init$_5374d072c8e59396,
-                mid_build_ccfc0be4d7c5ce8c,
-                mid_build_eb86792665ba9375,
-                mid_get_84780732a28a9438,
-                mid_getChildResources_aa58b3beec16cbbd,
-                mid_getCount_16939d9d0a9a9721,
-                mid_load_cc655a2984ac0be1,
-                mid_lookup_6e3326279ac0811d,
-                mid_lookup_04c4840b274727cb,
-                mid_lookup_ce209eb598d17434,
-                mid_lookup_51465de8e2d90cbd,
-                mid_ramBytesUsed_16939d9d0a9a9721,
-                mid_store_0269cfd2080fde14,
+                mid_init$_1aaca852402a5069,
+                mid_init$_cd4d6e4fe954a7e9,
+                mid_init$_168800d34aed380e,
+                mid_init$_b14276e739cafe33,
+                mid_build_3b81cca33403847f,
+                mid_build_ddb53fd1e6b4cd3b,
+                mid_get_53a8d172a6f84f78,
+                mid_getChildResources_4a269b968b3a511f,
+                mid_getCount_0f176418e3e16541,
+                mid_load_bcc888246f25b924,
+                mid_lookup_e55ddf73b9430193,
+                mid_lookup_ab31e1c71e0586f4,
+                mid_lookup_64beff863a92f242,
+                mid_lookup_0b5d66b5da4a3286,
+                mid_ramBytesUsed_0f176418e3e16541,
+                mid_store_9bc74ef63311a7a4,
                 max_mid
               };
 

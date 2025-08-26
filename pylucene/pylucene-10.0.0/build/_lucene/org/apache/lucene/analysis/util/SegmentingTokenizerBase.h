@@ -34,14 +34,14 @@ namespace org {
           class SegmentingTokenizerBase : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_81f559c8594973b6,
-              mid_init$_1c2ff2efa575951f,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_setNextSentence_e13cff512ebda969,
-              mid_incrementWord_947277eca0748c4e,
-              mid_isSafeEnd_4e84a8c37896b7c5,
+              mid_init$_e4e1cc72d4503bfa,
+              mid_init$_b68301fb63cc607b,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setNextSentence_645c25455f5b9b1c,
+              mid_incrementWord_9aa4f33e82ea333f,
+              mid_isSafeEnd_96a1e5bdb33dde4e,
               max_mid
             };
 

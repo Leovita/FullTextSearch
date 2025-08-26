@@ -7,32 +7,32 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class Bits;
         namespace hnsw {
-          class OnHeapHnswGraph;
           class IncrementalHnswGraphMerger;
-          class RandomVectorScorerSupplier;
+          class OnHeapHnswGraph;
           class HnswGraphMerger;
+          class RandomVectorScorerSupplier;
         }
         class InfoStream;
-        class Bits;
+      }
+      namespace index {
+        class MergeState$DocMap;
+        class FieldInfo;
+        class KnnVectorValues;
       }
       namespace codecs {
         class KnnVectorsReader;
-      }
-      namespace index {
-        class FieldInfo;
-        class KnnVectorValues;
-        class MergeState$DocMap;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -46,11 +46,11 @@ namespace org {
           class IncrementalHnswGraphMerger : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_ba2b898fefeb37d1,
-              mid_addReader_16b63f3e080f5a21,
-              mid_merge_dbc21f636ebb70b4,
-              mid_getNewOrdMapping_a0f3c6f7d50a854b,
-              mid_createBuilder_b4645ff1a19dbd6f,
+              mid_init$_461c72541a01271d,
+              mid_addReader_be272604bb86c873,
+              mid_merge_d2f6a310bdcdcefd,
+              mid_getNewOrdMapping_1b227365ad370c65,
+              mid_createBuilder_c1dcc3edd0f9d63b,
               max_mid
             };
 

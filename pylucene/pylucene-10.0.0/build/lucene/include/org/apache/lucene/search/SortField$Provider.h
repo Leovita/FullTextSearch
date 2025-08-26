@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/index/SortFieldProvider.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,15 +25,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -35,9 +35,9 @@ namespace org {
         class SortField$Provider : public ::org::apache::lucene::index::SortFieldProvider {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_readSortField_54cf7e36f33e748d,
-            mid_writeSortField_8d2516256489aa49,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_readSortField_73b746c7467b3297,
+            mid_writeSortField_50bc26c3f21276b3,
             max_mid
           };
 

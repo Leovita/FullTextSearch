@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/util/AttributeImpl.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        namespace tokenattributes {
+          class BytesTermAttribute;
+          class TermToBytesRefAttribute;
+        }
+      }
       namespace util {
         class BytesRef;
         class AttributeReflector;
       }
-      namespace analysis {
-        namespace tokenattributes {
-          class TermToBytesRefAttribute;
-          class BytesTermAttribute;
-        }
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -36,15 +36,15 @@ namespace org {
           class BytesTermAttributeImpl : public ::org::apache::lucene::util::AttributeImpl {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_c9b39303c053ec9a,
-              mid_copyTo_9be83c6b2aff7007,
-              mid_equals_570b5248a6da3ef6,
-              mid_getBytesRef_9740fddd1c7df148,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_reflectWith_454217ab6e97f729,
-              mid_setBytesRef_ac0de3ee0e03786d,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_2f6651241a7e46cf,
+              mid_copyTo_b194e41b568bc1bc,
+              mid_equals_00d17418847797d4,
+              mid_getBytesRef_adbedbc1fa61c358,
+              mid_hashCode_bd89ce15dad49192,
+              mid_reflectWith_ac049850cfa29e37,
+              mid_setBytesRef_920ce0cdf4259cc9,
               max_mid
             };
 

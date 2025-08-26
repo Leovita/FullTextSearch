@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace index {
         class MergeScheduler$MergeSource;
         class MergePolicy$OneMerge;
         class MergeTrigger;
-      }
-      namespace store {
-        class Directory;
       }
     }
   }
@@ -37,11 +37,11 @@ namespace org {
         class NoMergeScheduler : public ::org::apache::lucene::index::MergeScheduler {
          public:
           enum {
-            mid_clone_1c97911758295bcf,
-            mid_close_3720c61b0679eb3e,
-            mid_getIntraMergeExecutor_0678b9dde6ccd395,
-            mid_merge_d9d4a2a45897a889,
-            mid_wrapForMerge_8bef5abc6563f83d,
+            mid_clone_e16de0686cacdfc2,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getIntraMergeExecutor_194c3f7bd1dfc463,
+            mid_merge_256e955b9cf4fc16,
+            mid_wrapForMerge_a59e5ec3e050adb9,
             max_mid
           };
 

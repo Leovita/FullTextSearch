@@ -8,10 +8,10 @@ namespace java {
     class Iterator;
   }
   namespace lang {
+    class Cloneable;
     class Class;
     class String;
     class Iterable;
-    class Cloneable;
   }
 }
 namespace org {
@@ -19,9 +19,9 @@ namespace org {
     namespace lucene {
       namespace internal {
         namespace hppc {
+          class IntObjectHashMap;
           class IntObjectHashMap$IntObjectCursor;
           class IntObjectHashMap$KeysContainer;
-          class IntObjectHashMap;
           class IntObjectHashMap$ValuesContainer;
         }
       }
@@ -42,44 +42,44 @@ namespace org {
           class IntObjectHashMap : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_bfec175f942874e6,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_49f1ef04c5e7d846,
-              mid_containsKey_ae22d3a856ad56f1,
-              mid_ensureCapacity_540b2b23d51b1efd,
-              mid_equals_570b5248a6da3ef6,
-              mid_from_5462850f2ea6c377,
-              mid_get_eb7eace67c4a21fd,
-              mid_getOrDefault_b84ce9d3b2137b5e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_indexExists_ae22d3a856ad56f1,
-              mid_indexGet_eb7eace67c4a21fd,
-              mid_indexInsert_0ed0b39bd6dbadc2,
-              mid_indexOf_3c9bba330f083871,
-              mid_indexRemove_eb7eace67c4a21fd,
-              mid_indexReplace_b84ce9d3b2137b5e,
-              mid_isEmpty_947277eca0748c4e,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_keys_50aeb910fb3b0fc7,
-              mid_put_b84ce9d3b2137b5e,
-              mid_putAll_96d1463b11b9fbe9,
-              mid_putIfAbsent_438b00f73739706e,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_release_3720c61b0679eb3e,
-              mid_remove_eb7eace67c4a21fd,
-              mid_size_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
-              mid_values_9f87bd7ac493e1cb,
-              mid_verifyLoadFactor_8fff3d7dcb9fddc5,
-              mid_hashKey_3c9bba330f083871,
-              mid_allocateThenInsertThenRehash_0ed0b39bd6dbadc2,
-              mid_nextIterationSeed_20fbf7565993c3d7,
-              mid_shiftConflictingKeys_540b2b23d51b1efd,
-              mid_allocateBuffers_540b2b23d51b1efd,
-              mid_equalElements_31ce863bc3e6dbb4,
-              mid_rehash_003733dbfa0cfc0c,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_21c15812094aeb13,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_eb3dadad96d0ab86,
+              mid_containsKey_a8281eb3b9d9672d,
+              mid_ensureCapacity_8226bd0b0fc13dba,
+              mid_equals_00d17418847797d4,
+              mid_from_eb41cad2d21d6040,
+              mid_get_2a2d7d7b9153274c,
+              mid_getOrDefault_c8f65d2ef44d5c7c,
+              mid_hashCode_bd89ce15dad49192,
+              mid_indexExists_a8281eb3b9d9672d,
+              mid_indexGet_2a2d7d7b9153274c,
+              mid_indexInsert_f450d7c560dd4ebc,
+              mid_indexOf_a3904e10f5bb9437,
+              mid_indexRemove_2a2d7d7b9153274c,
+              mid_indexReplace_c8f65d2ef44d5c7c,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_iterator_c7985fafdcf40e83,
+              mid_keys_83a5a1a6d85fd482,
+              mid_put_c8f65d2ef44d5c7c,
+              mid_putAll_29d327a2ef457411,
+              mid_putIfAbsent_e6ee105d6d45dd74,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_release_e7bdbe105ce1bafb,
+              mid_remove_2a2d7d7b9153274c,
+              mid_size_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
+              mid_values_e80be5c2fe60a5a2,
+              mid_nextIterationSeed_bd89ce15dad49192,
+              mid_allocateThenInsertThenRehash_f450d7c560dd4ebc,
+              mid_verifyLoadFactor_8493a5edcb36d651,
+              mid_hashKey_a3904e10f5bb9437,
+              mid_shiftConflictingKeys_8226bd0b0fc13dba,
+              mid_equalElements_0a87b209843aea2d,
+              mid_allocateBuffers_8226bd0b0fc13dba,
+              mid_rehash_d71aa83fa07059f8,
               max_mid
             };
 

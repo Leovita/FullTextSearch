@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/store/FilterDirectory.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class FSDirectory;
-        class IndexOutput;
-        class IndexInput;
-        class IOContext;
-      }
-    }
-  }
-}
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+  }
   namespace nio {
     namespace file {
       class Path;
+    }
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class IndexOutput;
+        class IndexInput;
+        class FSDirectory;
+        class IOContext;
+      }
     }
   }
 }
@@ -40,14 +40,14 @@ namespace org {
           class DirectIODirectory : public ::org::apache::lucene::store::FilterDirectory {
            public:
             enum {
-              mid_init$_6c5fbd978679df2b,
-              mid_init$_224aa31bc62bc34a,
-              mid_close_3720c61b0679eb3e,
-              mid_createOutput_08efc12d1beeafa9,
-              mid_getDirectory_d21fdf719406f66d,
-              mid_openInput_f1f6511a018f52d0,
-              mid_useDirectIO_e9586dc254576374,
-              mid_ensureOpen_3720c61b0679eb3e,
+              mid_init$_ed1aa5e821596927,
+              mid_init$_6bb43f488ec2f23f,
+              mid_close_e7bdbe105ce1bafb,
+              mid_createOutput_5ee859a77f556d05,
+              mid_getDirectory_da490036461fb4f2,
+              mid_openInput_fc1a53ef559ae62a,
+              mid_useDirectIO_90fe3d14452059b1,
+              mid_ensureOpen_e7bdbe105ce1bafb,
               max_mid
             };
 

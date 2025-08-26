@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/search/BulkScorer.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class LeafCollector;
+      }
+      namespace util {
+        class Bits;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class Bits;
-      }
-      namespace search {
-        class LeafCollector;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -35,10 +35,10 @@ namespace org {
             class CompletionScorer : public ::org::apache::lucene::search::BulkScorer {
              public:
               enum {
-                mid_accept_51de97d47f531804,
-                mid_cost_16939d9d0a9a9721,
-                mid_score_b249dbf8c9984535,
-                mid_score_16b5d2b9d21d8859,
+                mid_accept_0d3010515ab7915f,
+                mid_cost_0f176418e3e16541,
+                mid_score_ab52dff7447e3c87,
+                mid_score_15251593bde60840,
                 max_mid
               };
 

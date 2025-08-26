@@ -3,23 +3,23 @@
 
 #include "org/apache/lucene/search/similarities/SimilarityBase.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
         namespace similarities {
           class Distribution;
-          class Normalization;
           class Lambda;
+          class Normalization;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -33,15 +33,15 @@ namespace org {
           class IBSimilarity : public ::org::apache::lucene::search::similarities::SimilarityBase {
            public:
             enum {
-              mid_init$_24d0301cd8467330,
-              mid_init$_10509b079786eaeb,
-              mid_getDistribution_1c5a287c2628eff0,
-              mid_getLambda_ed5c1cdd08c5df2e,
-              mid_getNormalization_07b38a3f3e70ebe0,
-              mid_toString_09a7afff1868fc5e,
-              mid_score_4520853cec1acecd,
-              mid_explain_6430f3113e3b0626,
-              mid_explain_6fdabb12cf56abb7,
+              mid_init$_b3bdb8565f5b3eb0,
+              mid_init$_f89315c2be978839,
+              mid_getDistribution_d31aee6381202fb0,
+              mid_getLambda_49d81afe9bf36149,
+              mid_getNormalization_ca18619fc3dbc413,
+              mid_toString_e7df854526d67fa3,
+              mid_explain_3a0f0db458486fc7,
+              mid_explain_d24b72d1a2a90408,
+              mid_score_45900529809cd3f1,
               max_mid
             };
 

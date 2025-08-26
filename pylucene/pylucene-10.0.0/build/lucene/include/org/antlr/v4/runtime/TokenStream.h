@@ -3,21 +3,21 @@
 
 #include "org/antlr/v4/runtime/IntStream.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
         class TokenSource;
-        class Token;
         class RuleContext;
+        class Token;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,12 +30,12 @@ namespace org {
         class TokenStream : public ::org::antlr::v4::runtime::IntStream {
          public:
           enum {
-            mid_LT_8e1bc8e51e721825,
-            mid_get_8e1bc8e51e721825,
-            mid_getText_09a7afff1868fc5e,
-            mid_getText_b8d8044f3ffe20a5,
-            mid_getText_0782b1f76a116cf4,
-            mid_getTokenSource_26fade9117c08d4e,
+            mid_LT_125d20322cd73b79,
+            mid_get_125d20322cd73b79,
+            mid_getText_e7df854526d67fa3,
+            mid_getText_d394d7da15d3d218,
+            mid_getText_6e1769a4ec5bc758,
+            mid_getTokenSource_3061543fdfcef5c8,
             max_mid
           };
 

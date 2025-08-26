@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace util {
+    class List;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -23,13 +23,13 @@ namespace org {
           class DictEntry : public ::java::lang::Object {
            public:
             enum {
-              mid_equals_570b5248a6da3ef6,
-              mid_getFlags_09a7afff1868fc5e,
-              mid_getMorphologicalData_09a7afff1868fc5e,
-              mid_getMorphologicalValues_8eaa545bb5a79de3,
-              mid_getStem_09a7afff1868fc5e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_equals_00d17418847797d4,
+              mid_getFlags_e7df854526d67fa3,
+              mid_getMorphologicalData_e7df854526d67fa3,
+              mid_getMorphologicalValues_49920ced44282529,
+              mid_getStem_e7df854526d67fa3,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

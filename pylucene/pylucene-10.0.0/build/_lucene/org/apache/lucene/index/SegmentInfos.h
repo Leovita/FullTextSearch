@@ -6,15 +6,15 @@
 namespace java {
   namespace util {
     class Iterator;
+    class Map;
     class Collection;
     class List;
-    class Map;
   }
   namespace lang {
+    class Cloneable;
     class Class;
     class String;
     class Iterable;
-    class Cloneable;
   }
   namespace io {
     class IOException;
@@ -24,14 +24,14 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class SegmentInfos;
-        class SegmentCommitInfo;
-      }
       namespace store {
-        class IndexOutput;
         class Directory;
+        class IndexOutput;
         class ChecksumIndexInput;
+      }
+      namespace index {
+        class SegmentCommitInfo;
+        class SegmentInfos;
       }
       namespace util {
         class Version;
@@ -49,45 +49,45 @@ namespace org {
         class SegmentInfos : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_add_3bfd7bf5d987134c,
-            mid_addAll_eb4b05d4345caaf0,
-            mid_asList_36830460e10839eb,
-            mid_changed_3720c61b0679eb3e,
-            mid_clear_3720c61b0679eb3e,
-            mid_clone_8795f542c9448b69,
-            mid_commit_3c151c130d7f3176,
-            mid_files_e8440e59f7f7df15,
-            mid_generationFromSegmentsFileName_e942a6f864c95ca0,
-            mid_getCommitLuceneVersion_f03381109b44c46a,
-            mid_getGeneration_16939d9d0a9a9721,
-            mid_getId_5560da88fc44aa82,
-            mid_getIndexCreatedVersionMajor_20fbf7565993c3d7,
-            mid_getInfoStream_947dd8f8699f49bf,
-            mid_getLastCommitGeneration_e745ec38bd0adeb1,
-            mid_getLastCommitGeneration_11b970fc8cc466b5,
-            mid_getLastCommitSegmentsFileName_a51b33ee713386d2,
-            mid_getLastCommitSegmentsFileName_69d2ffd848815eb8,
-            mid_getLastGeneration_16939d9d0a9a9721,
-            mid_getMinSegmentLuceneVersion_f03381109b44c46a,
-            mid_getSegmentsFileName_09a7afff1868fc5e,
-            mid_getUserData_f125f26c07a7bec8,
-            mid_getVersion_16939d9d0a9a9721,
-            mid_info_9eb603804510021c,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_readCommit_f6d813b5cc058b9c,
-            mid_readCommit_3eb85ba3615df3ef,
-            mid_readLatestCommit_4cece451fc25f8aa,
-            mid_readLatestCommit_4dc9b424ff9e578f,
-            mid_remove_b56e3f80943571da,
-            mid_setInfoStream_f19a9aaf837ad692,
-            mid_setNextWriteGeneration_8b3d46852b435a94,
-            mid_setUserData_c878b6f1e980b1c9,
-            mid_size_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_totalMaxDoc_20fbf7565993c3d7,
-            mid_updateGeneration_e774f28e2e3cb793,
-            mid_write_c39b7a857991d9b7,
+            mid_init$_8226bd0b0fc13dba,
+            mid_add_848ab87634d8a590,
+            mid_addAll_e14ca79f217d88d0,
+            mid_asList_1387e1e2702ac173,
+            mid_changed_e7bdbe105ce1bafb,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_clone_64f3216f596670dd,
+            mid_commit_0bf39a7351552ef4,
+            mid_files_fba1b70cd82d472e,
+            mid_generationFromSegmentsFileName_490f1686ea1cfda6,
+            mid_getCommitLuceneVersion_098638c0dde6da21,
+            mid_getGeneration_0f176418e3e16541,
+            mid_getId_44e916dc40fc04cb,
+            mid_getIndexCreatedVersionMajor_bd89ce15dad49192,
+            mid_getInfoStream_79862c7eebad3ab7,
+            mid_getLastCommitGeneration_2fd4d01b6225c364,
+            mid_getLastCommitGeneration_331e973e04e50972,
+            mid_getLastCommitSegmentsFileName_6cc09e85e5e7973a,
+            mid_getLastCommitSegmentsFileName_3a658f37b37d9d9b,
+            mid_getLastGeneration_0f176418e3e16541,
+            mid_getMinSegmentLuceneVersion_098638c0dde6da21,
+            mid_getSegmentsFileName_e7df854526d67fa3,
+            mid_getUserData_5004bdf19ed33453,
+            mid_getVersion_0f176418e3e16541,
+            mid_info_dcd709cd8e54250a,
+            mid_iterator_c7985fafdcf40e83,
+            mid_readCommit_5cbd73587b703646,
+            mid_readCommit_dc12fdd5e8f4e8dd,
+            mid_readLatestCommit_d1a9361d4c0e20c9,
+            mid_readLatestCommit_7f375ae1df5f240c,
+            mid_remove_c9718ef738158846,
+            mid_setInfoStream_922e82480ddcbcc4,
+            mid_setNextWriteGeneration_1d3149fac12f2af3,
+            mid_setUserData_0d106768c19cbb43,
+            mid_size_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_totalMaxDoc_bd89ce15dad49192,
+            mid_updateGeneration_4c4f4bfe6cd27c73,
+            mid_write_9713fe0a5c49ff9f,
             max_mid
           };
 

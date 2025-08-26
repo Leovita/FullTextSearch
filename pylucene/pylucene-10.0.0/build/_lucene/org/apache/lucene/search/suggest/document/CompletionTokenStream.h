@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class BytesRef;
         namespace automaton {
           class Automaton;
         }
-        class BytesRef;
       }
     }
   }
@@ -35,10 +35,10 @@ namespace org {
             class CompletionTokenStream : public ::org::apache::lucene::analysis::TokenFilter {
              public:
               enum {
-                mid_incrementToken_947277eca0748c4e,
-                mid_setPayload_ac0de3ee0e03786d,
-                mid_toAutomaton_275570da72a90658,
-                mid_toAutomaton_f9843d3734d16009,
+                mid_incrementToken_9aa4f33e82ea333f,
+                mid_setPayload_920ce0cdf4259cc9,
+                mid_toAutomaton_d4cfa49a0a7bdead,
+                mid_toAutomaton_8ef8e6f282a9227f,
                 max_mid
               };
 

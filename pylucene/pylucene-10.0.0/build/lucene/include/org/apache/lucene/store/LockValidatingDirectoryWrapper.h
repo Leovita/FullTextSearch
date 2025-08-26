@@ -3,10 +3,19 @@
 
 #include "org/apache/lucene/store/FilterDirectory.h"
 
-namespace java {
-  namespace util {
-    class Collection;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class Lock;
+        class IndexOutput;
+        class IOContext;
+      }
+    }
   }
+}
+namespace java {
   namespace lang {
     class Class;
     class String;
@@ -14,17 +23,8 @@ namespace java {
   namespace io {
     class IOException;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class IndexOutput;
-        class Lock;
-        class IOContext;
-        class Directory;
-      }
-    }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -37,13 +37,13 @@ namespace org {
         class LockValidatingDirectoryWrapper : public ::org::apache::lucene::store::FilterDirectory {
          public:
           enum {
-            mid_init$_cae07b79643917d5,
-            mid_copyFrom_23ba349b04fb6402,
-            mid_createOutput_08efc12d1beeafa9,
-            mid_deleteFile_0d82408c6e55bc30,
-            mid_rename_3d104da0b5c75e64,
-            mid_sync_40eba2cff967cc45,
-            mid_syncMetaData_3720c61b0679eb3e,
+            mid_init$_e5eb72afddfc42d7,
+            mid_copyFrom_690af4af74b7d11b,
+            mid_createOutput_5ee859a77f556d05,
+            mid_deleteFile_ee46a189998009d6,
+            mid_rename_0dd012a11c3f389b,
+            mid_sync_b5398b431eb321fb,
+            mid_syncMetaData_e7bdbe105ce1bafb,
             max_mid
           };
 

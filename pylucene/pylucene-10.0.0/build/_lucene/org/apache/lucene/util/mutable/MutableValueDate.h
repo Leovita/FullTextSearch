@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/util/mutable/MutableValueLong.h"
 
-namespace java {
-  namespace lang {
-    class Object;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
           class MutableValueDate : public ::org::apache::lucene::util::mutable$::MutableValueLong {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_duplicate_28c3cf024c0e87ef,
-              mid_toObject_5655ed8670534604,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_duplicate_ab99a02747ee80a6,
+              mid_toObject_4819806f62f1360a,
               max_mid
             };
 

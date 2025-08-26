@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class GeoPolygon;
           class PlanetModel;
+          class GeoPolygon;
           class GeoPoint;
         }
       }
@@ -32,7 +32,7 @@ namespace org {
           class GeoS2ShapeFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_makeGeoS2Shape_e9a4fdbae4ad240f,
+              mid_makeGeoS2Shape_a4626beebeaff3a3,
               max_mid
             };
 

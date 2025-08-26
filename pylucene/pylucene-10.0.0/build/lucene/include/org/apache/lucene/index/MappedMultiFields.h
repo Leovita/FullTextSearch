@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class MergeState;
         class MultiFields;
+        class MergeState;
         class Terms;
       }
     }
@@ -33,8 +33,8 @@ namespace org {
         class MappedMultiFields : public ::org::apache::lucene::index::FilterLeafReader$FilterFields {
          public:
           enum {
-            mid_init$_67a00a7957af14a2,
-            mid_terms_734b49c46dc30275,
+            mid_init$_9fb4de35cd0dbc26,
+            mid_terms_b30320f056ffba8d,
             max_mid
           };
 

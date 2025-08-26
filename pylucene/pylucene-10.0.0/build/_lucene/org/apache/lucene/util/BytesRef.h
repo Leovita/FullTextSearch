@@ -6,10 +6,10 @@
 namespace java {
   namespace lang {
     class Comparable;
-    class Class;
-    class CharSequence;
-    class String;
     class Cloneable;
+    class Class;
+    class String;
+    class CharSequence;
   }
 }
 namespace org {
@@ -31,20 +31,20 @@ namespace org {
         class BytesRef : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_3ce1e597fb62ac79,
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_5ed8eb2e3024c663,
-            mid_init$_5fdd5da9426708e6,
-            mid_bytesEquals_f460ee421aade2fd,
-            mid_clone_9740fddd1c7df148,
-            mid_compareTo_5cda243a0bd46c4d,
-            mid_deepCopyOf_7ee20c47a981dd44,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isValid_947277eca0748c4e,
-            mid_toString_09a7afff1868fc5e,
-            mid_utf8ToString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_a4d4f283481182e8,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_fe2ab7d27aa3fe1a,
+            mid_init$_116f7fcb5bff0f39,
+            mid_bytesEquals_08ac7a49de309824,
+            mid_clone_adbedbc1fa61c358,
+            mid_compareTo_59a6eaf88a8be404,
+            mid_deepCopyOf_2aeffe698cc65689,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isValid_9aa4f33e82ea333f,
+            mid_toString_e7df854526d67fa3,
+            mid_utf8ToString_e7df854526d67fa3,
             max_mid
           };
 

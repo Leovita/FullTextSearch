@@ -3,31 +3,31 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Runnable;
+    class Class;
+    class String;
+  }
+  namespace util {
+    namespace function {
+      class Consumer;
+    }
+    class Set;
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
         namespace hunspell {
-          class Dictionary;
           class AffixedWord;
           class EntrySuggestion;
+          class Dictionary;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace util {
-    namespace function {
-      class Consumer;
-    }
-    class List;
-    class Set;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Runnable;
   }
 }
 template<class T> class JArray;
@@ -41,12 +41,12 @@ namespace org {
           class WordFormGenerator : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_25851638115dd159,
-              mid_compress_9d74e01734ad6f93,
-              mid_generateAllSimpleWords_682b0f0c58da8db3,
-              mid_getAllWordForms_2a97fb83df696e60,
-              mid_getAllWordForms_29fad1d9cdcec56b,
-              mid_canStemToOriginal_05c45b0647f3c731,
+              mid_init$_081d976eaef7e2bb,
+              mid_compress_2c0e3e016933b160,
+              mid_generateAllSimpleWords_477a46962c7a43aa,
+              mid_getAllWordForms_5d97058074f9c965,
+              mid_getAllWordForms_736d0365d80f38a6,
+              mid_canStemToOriginal_0fa7a1dd667c6b48,
               max_mid
             };
 

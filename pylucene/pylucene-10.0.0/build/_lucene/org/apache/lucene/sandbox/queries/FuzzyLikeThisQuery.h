@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/search/Query.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
       namespace search {
         class QueryVisitor;
         class IndexSearcher;
       }
-      namespace analysis {
-        class Analyzer;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,15 +37,15 @@ namespace org {
           class FuzzyLikeThisQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_init$_6a9ad2be34fa4e73,
-              mid_addTerms_bdd6673dfb1039a7,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isIgnoreTF_947277eca0748c4e,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_setIgnoreTF_b110fc3a58c081ab,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_146afad05c543f3b,
+              mid_addTerms_94f81bf67e896239,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isIgnoreTF_9aa4f33e82ea333f,
+              mid_rewrite_25984111320dbe39,
+              mid_setIgnoreTF_f5dd97eebf6a215a,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

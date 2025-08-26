@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Fields;
         class MergeState;
+        class Fields;
       }
       namespace codecs {
         class NormsProducer;
@@ -18,8 +18,8 @@ namespace org {
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -35,9 +35,9 @@ namespace org {
         class FieldsConsumer : public ::java::lang::Object {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_merge_df989bc2b7fce8f8,
-            mid_write_664e5b1e2ee1912b,
+            mid_close_e7bdbe105ce1bafb,
+            mid_merge_929f03e0512be607,
+            mid_write_77e46eb449cb8d9e,
             max_mid
           };
 

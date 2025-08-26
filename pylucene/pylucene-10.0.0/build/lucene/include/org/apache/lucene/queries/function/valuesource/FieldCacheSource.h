@@ -22,11 +22,11 @@ namespace org {
             class FieldCacheSource : public ::org::apache::lucene::queries::function::ValueSource {
              public:
               enum {
-                mid_init$_0d82408c6e55bc30,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_getField_09a7afff1868fc5e,
-                mid_hashCode_20fbf7565993c3d7,
+                mid_init$_ee46a189998009d6,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_getField_e7df854526d67fa3,
+                mid_hashCode_bd89ce15dad49192,
                 max_mid
               };
 

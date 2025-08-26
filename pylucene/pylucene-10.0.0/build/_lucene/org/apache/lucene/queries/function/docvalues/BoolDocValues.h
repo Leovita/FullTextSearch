@@ -4,13 +4,13 @@
 #include "org/apache/lucene/queries/function/FunctionValues.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -37,18 +37,18 @@ namespace org {
             class BoolDocValues : public ::org::apache::lucene::queries::function::FunctionValues {
              public:
               enum {
-                mid_init$_db3a6d89b0568e70,
-                mid_boolVal_ae22d3a856ad56f1,
-                mid_byteVal_3b30672d0bff9ebb,
-                mid_doubleVal_788f636887bfcb79,
-                mid_floatVal_29cfa01aaad92564,
-                mid_getValueFiller_fad7fc73a89d9be3,
-                mid_intVal_3c9bba330f083871,
-                mid_longVal_7b22650fccb5d574,
-                mid_objectVal_eb7eace67c4a21fd,
-                mid_shortVal_5e7313b7c028d5e0,
-                mid_strVal_cd8436557ab831f9,
-                mid_toString_cd8436557ab831f9,
+                mid_init$_59499d05e6417711,
+                mid_boolVal_a8281eb3b9d9672d,
+                mid_byteVal_9e902c8fd52d5208,
+                mid_doubleVal_3bb466f769ef1c7f,
+                mid_floatVal_5873a23b935a9d49,
+                mid_getValueFiller_32f41a37c2710e92,
+                mid_intVal_a3904e10f5bb9437,
+                mid_longVal_49af390f180d8ee7,
+                mid_objectVal_2a2d7d7b9153274c,
+                mid_shortVal_03c4a11d0633d4d1,
+                mid_strVal_0da8f0b89b1e9a22,
+                mid_toString_0da8f0b89b1e9a22,
                 max_mid
               };
 

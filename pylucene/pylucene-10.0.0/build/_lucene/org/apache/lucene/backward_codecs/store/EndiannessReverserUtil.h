@@ -7,24 +7,24 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class DataInput;
-        class IndexOutput;
-        class IndexInput;
-        class DataOutput;
-        class IOContext;
         class Directory;
+        class IndexOutput;
+        class DataInput;
+        class IndexInput;
         class ChecksumIndexInput;
+        class IOContext;
+        class DataOutput;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,12 +38,12 @@ namespace org {
           class EndiannessReverserUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_createOutput_a3a39b9c39e18754,
-              mid_createTempOutput_20371629c8d34928,
-              mid_openChecksumInput_3c80e844d1c629df,
-              mid_openInput_b6428d1fdfc8d1b2,
-              mid_wrapDataInput_31d49302ee9a8dbf,
-              mid_wrapDataOutput_cdd29163c84f4078,
+              mid_createOutput_19eb0a7cb9aa2e24,
+              mid_createTempOutput_a7d50b2d289e6dd7,
+              mid_openChecksumInput_945de9735a5f3fe2,
+              mid_openInput_0375e31cd6ff8370,
+              mid_wrapDataInput_2fdb7520ebc4a398,
+              mid_wrapDataOutput_36fee542b46eca25,
               max_mid
             };
 

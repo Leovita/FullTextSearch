@@ -3,36 +3,36 @@
 
 #include "org/apache/lucene/store/DataOutput.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class Accountable;
-      }
-      namespace store {
-        class DataInput;
-        class ByteBuffersDataInput;
-        class ByteBuffersDataOutput;
-      }
-    }
-  }
-}
 namespace java {
   namespace util {
-    namespace function {
-      class Consumer;
-      class IntFunction;
-    }
-    class Set;
     class ArrayList;
     class Map;
-  }
-  namespace io {
-    class IOException;
+    class Set;
+    namespace function {
+      class IntFunction;
+      class Consumer;
+    }
   }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class DataInput;
+        class ByteBuffersDataOutput;
+        class ByteBuffersDataInput;
+      }
+      namespace util {
+        class Accountable;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -45,27 +45,27 @@ namespace org {
         class ByteBuffersDataOutput : public ::org::apache::lucene::store::DataOutput {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_8b3d46852b435a94,
-            mid_copyBytes_3386f81b45981517,
-            mid_copyTo_3a071e25ad99bd99,
-            mid_newResettableInstance_08c204fb5ce1051a,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_reset_3720c61b0679eb3e,
-            mid_size_16939d9d0a9a9721,
-            mid_toArrayCopy_5560da88fc44aa82,
-            mid_toDataInput_297fd38a574af1dd,
-            mid_toString_09a7afff1868fc5e,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_3ce1e597fb62ac79,
-            mid_writeBytes_3f6ea74fc0096aaa,
-            mid_writeBytes_5fdd5da9426708e6,
-            mid_writeInt_540b2b23d51b1efd,
-            mid_writeLong_8b3d46852b435a94,
-            mid_writeMapOfStrings_79ba0f5a7d05e623,
-            mid_writeSetOfStrings_1d5d4c6f11d1b2ab,
-            mid_writeShort_13ddeb599c553531,
-            mid_writeString_0d82408c6e55bc30,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_1d3149fac12f2af3,
+            mid_copyBytes_56e1353970db77c0,
+            mid_copyTo_949eccaa2018a6dc,
+            mid_newResettableInstance_8768f3d466deaf75,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_reset_e7bdbe105ce1bafb,
+            mid_size_0f176418e3e16541,
+            mid_toArrayCopy_44e916dc40fc04cb,
+            mid_toDataInput_9a42e03ccabe871b,
+            mid_toString_e7df854526d67fa3,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_a4d4f283481182e8,
+            mid_writeBytes_31e2e931f3bb1000,
+            mid_writeBytes_116f7fcb5bff0f39,
+            mid_writeInt_8226bd0b0fc13dba,
+            mid_writeLong_1d3149fac12f2af3,
+            mid_writeMapOfStrings_6a7e23584beb7c0f,
+            mid_writeSetOfStrings_478519f7d4301fc7,
+            mid_writeShort_19904c0bd37f0d7f,
+            mid_writeString_ee46a189998009d6,
             max_mid
           };
 

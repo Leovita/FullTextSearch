@@ -3,23 +3,23 @@
 
 #include "org/egothor/stemmer/MultiTrie.h"
 
-namespace org {
-  namespace egothor {
-    namespace stemmer {
-      class Trie;
-      class Reduce;
-    }
-  }
-}
 namespace java {
   namespace io {
-    class IOException;
     class DataInput;
     class DataOutput;
+    class IOException;
   }
   namespace lang {
     class Class;
     class CharSequence;
+  }
+}
+namespace org {
+  namespace egothor {
+    namespace stemmer {
+      class Reduce;
+      class Trie;
+    }
   }
 }
 template<class T> class JArray;
@@ -31,14 +31,14 @@ namespace org {
       class MultiTrie2 : public ::org::egothor::stemmer::MultiTrie {
        public:
         enum {
-          mid_init$_b110fc3a58c081ab,
-          mid_init$_8ffc0b64a085f7b2,
-          mid_add_25d608db26253320,
-          mid_decompose_743dedb8290689b3,
-          mid_getFully_58dc6165804a9474,
-          mid_getLastOnPath_58dc6165804a9474,
-          mid_reduce_750bf77c4c36b3b2,
-          mid_store_fe9bf8370403deab,
+          mid_init$_f5dd97eebf6a215a,
+          mid_init$_97ec23eaea7e6222,
+          mid_add_8603315685815f47,
+          mid_decompose_881843cf2b0e8f23,
+          mid_getFully_aa1c9702f9e97de9,
+          mid_getLastOnPath_aa1c9702f9e97de9,
+          mid_reduce_3fcb27227235a388,
+          mid_store_5ebb39b7772e6a1c,
           max_mid
         };
 

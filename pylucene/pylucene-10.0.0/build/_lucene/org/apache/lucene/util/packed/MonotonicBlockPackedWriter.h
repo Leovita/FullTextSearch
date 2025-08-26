@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/util/packed/AbstractBlockPackedWriter.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class DataOutput;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
           class MonotonicBlockPackedWriter : public ::org::apache::lucene::util::packed::AbstractBlockPackedWriter {
            public:
             enum {
-              mid_init$_26deaf282101d9e7,
-              mid_add_8b3d46852b435a94,
-              mid_flush_3720c61b0679eb3e,
+              mid_init$_176e48709974b4ec,
+              mid_add_1d3149fac12f2af3,
+              mid_flush_e7bdbe105ce1bafb,
               max_mid
             };
 

@@ -19,9 +19,9 @@ namespace org {
           class SimpleAnalyzer : public ::org::apache::lucene::analysis::Analyzer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_createComponents_f774fffda992519d,
-              mid_normalize_9793d650e44fa07f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_createComponents_b734244e69a6c631,
+              mid_normalize_6c106c857ee0afd1,
               max_mid
             };
 

@@ -8,15 +8,15 @@ namespace org {
     namespace lucene {
       namespace analysis {
         namespace ko {
+          namespace dict {
+            class KoMorphData$Morpheme;
+          }
           class POS$Tag;
+          class Token;
           class POS$Type;
           namespace tokenattributes {
             class PartOfSpeechAttribute;
           }
-          namespace dict {
-            class KoMorphData$Morpheme;
-          }
-          class Token;
         }
       }
       namespace util {
@@ -42,15 +42,15 @@ namespace org {
             class PartOfSpeechAttributeImpl : public ::org::apache::lucene::util::AttributeImpl {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_clear_3720c61b0679eb3e,
-                mid_copyTo_9be83c6b2aff7007,
-                mid_getLeftPOS_8319649eebaf05cc,
-                mid_getMorphemes_da3226d9a4bd4f43,
-                mid_getPOSType_ee544d89d14021b5,
-                mid_getRightPOS_8319649eebaf05cc,
-                mid_reflectWith_454217ab6e97f729,
-                mid_setToken_cff4f6c452786eb5,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_clear_e7bdbe105ce1bafb,
+                mid_copyTo_b194e41b568bc1bc,
+                mid_getLeftPOS_2a8a370cf50ce28f,
+                mid_getMorphemes_26d08ca9e8789c10,
+                mid_getPOSType_86949d14aaadbcf7,
+                mid_getRightPOS_2a8a370cf50ce28f,
+                mid_reflectWith_ac049850cfa29e37,
+                mid_setToken_3352cfaa0db5996d,
                 max_mid
               };
 

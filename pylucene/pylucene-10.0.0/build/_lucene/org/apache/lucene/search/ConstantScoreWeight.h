@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class LeafReaderContext;
-      }
       namespace search {
         class Explanation;
+      }
+      namespace index {
+        class LeafReaderContext;
       }
     }
   }
@@ -33,8 +33,8 @@ namespace org {
         class ConstantScoreWeight : public ::org::apache::lucene::search::Weight {
          public:
           enum {
-            mid_explain_478bccbc961eab03,
-            mid_score_9b6c3480dac00edf,
+            mid_explain_b1310cbadc240f44,
+            mid_score_8b62236f0e4d0dbc,
             max_mid
           };
 

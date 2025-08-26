@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         namespace uhighlight {
           class PassageFormatter;
-          class UnifiedHighlighter$Builder;
           class PassageScorer;
+          class UnifiedHighlighter$Builder;
         }
+        class Query;
         class TopDocs;
         class IndexSearcher;
       }
@@ -23,22 +23,22 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    namespace function {
-      class Supplier;
-      class Predicate;
-    }
-    class Map;
-  }
   namespace text {
     class BreakIterator;
   }
-  namespace io {
-    class IOException;
+  namespace util {
+    namespace function {
+      class Predicate;
+      class Supplier;
+    }
+    class Map;
   }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -52,62 +52,62 @@ namespace org {
           class UnifiedHighlighter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_209069f29d1c2313,
-              mid_init$_c61163c22195f70b,
-              mid_builder_815ded13baa87c27,
-              mid_builderWithoutSearcher_eebccca0562bc867,
-              mid_getCacheFieldValCharsThreshold_20fbf7565993c3d7,
-              mid_getIndexAnalyzer_6755ba003d984513,
-              mid_getIndexSearcher_8c9a1e527c2e5a94,
-              mid_getMaxLength_20fbf7565993c3d7,
-              mid_highlight_d3745e84f808a7da,
-              mid_highlight_9402a6da3262b696,
-              mid_highlightFields_8b2cf577156b87d8,
-              mid_highlightFields_264e877039988ab2,
-              mid_highlightFields_f5c2081e0fbf9d6f,
-              mid_highlightWithoutSearcher_d5488a107905c4de,
-              mid_setBreakIterator_477e4cf08f2cd161,
-              mid_setCacheFieldValCharsThreshold_540b2b23d51b1efd,
-              mid_setFieldMatcher_b2cba0f53cd5f915,
-              mid_setFormatter_9e2a49e732a98917,
-              mid_setHandleMultiTermQuery_b110fc3a58c081ab,
-              mid_setHighlightPhrasesStrictly_b110fc3a58c081ab,
-              mid_setMaxLength_540b2b23d51b1efd,
-              mid_setMaxNoHighlightPassages_540b2b23d51b1efd,
-              mid_setPassageRelevancyOverSpeed_b110fc3a58c081ab,
-              mid_setScorer_c9f1c2306f3a9664,
-              mid_setWeightMatches_b110fc3a58c081ab,
-              mid_getAutomata_8c0c8ff748b69c44,
-              mid_getOffsetSource_4203fdc61bf1f9ff,
-              mid_hasUnrecognizedQuery_aae07e407daaa4bb,
-              mid_evaluateFlags_24536ee7b5138a74,
-              mid_evaluateFlags_512d77162db59637,
-              mid_evaluateFlags_53ae88d4aa4402c8,
-              mid_highlightFieldsAsObjects_264e877039988ab2,
-              mid_extractTerms_fa57c664c3602578,
-              mid_getFieldHighlighter_d8e29b835bb89745,
-              mid_loadFieldValues_39e0df1b12198303,
-              mid_getMaskedFields_b20ad7d3613ab95e,
-              mid_getHighlightComponents_ea8ce79b147e7103,
-              mid_getOptimizedOffsetSource_7d1fde6086af9961,
-              mid_getOffsetStrategy_9fb820bd3c3cdf99,
-              mid_getBreakIterator_5eda0b3486dcbe1b,
-              mid_getMaxNoHighlightPassages_3f230d713d7fd2b0,
-              mid_getPassageSortComparator_3ad489d36ca1826b,
-              mid_newFieldHighlighter_8cca9adb27fdd451,
-              mid_getFieldMatcher_e7f4dd6a51ec0293,
-              mid_getPhraseHelper_dffb890c1668a635,
-              mid_filterExtractedTerms_091e032253f26aaf,
-              mid_newLimitedStoredFieldsVisitor_6151a59526115bce,
-              mid_shouldHandleMultiTermQuery_4a13a663b5c11133,
-              mid_shouldHighlightPhrasesStrictly_4a13a663b5c11133,
-              mid_shouldPreferPassageRelevancyOverSpeed_4a13a663b5c11133,
-              mid_requiresRewrite_c4755b0f3fea43dd,
-              mid_preSpanQueryRewrite_9e9c91d3b35c0b6e,
-              mid_getScorer_804f0070bc53d9d1,
-              mid_getFieldInfo_a0a445f355d9f4d7,
-              mid_getFormatter_afb750e45cfaeb63,
-              mid_getFlags_b20ad7d3613ab95e,
+              mid_init$_8d11426fbb6ddfd0,
+              mid_init$_2911da2a708e97e5,
+              mid_builder_4ff2b1e65e18c85f,
+              mid_builderWithoutSearcher_ae741cf992b1c1e2,
+              mid_getCacheFieldValCharsThreshold_bd89ce15dad49192,
+              mid_getIndexAnalyzer_7bc9b23f56937752,
+              mid_getIndexSearcher_b5872e6ced4699df,
+              mid_getMaxLength_bd89ce15dad49192,
+              mid_highlight_fed50d31b36c4601,
+              mid_highlight_898de2859c7cf596,
+              mid_highlightFields_24eea558aea2ea88,
+              mid_highlightFields_8bd577f1efe47387,
+              mid_highlightFields_a1fec942a21c2a30,
+              mid_highlightWithoutSearcher_a7216a8bfaab9c1e,
+              mid_setBreakIterator_acdcd59a9c6420a3,
+              mid_setCacheFieldValCharsThreshold_8226bd0b0fc13dba,
+              mid_setFieldMatcher_f46c7e2e342ee5db,
+              mid_setFormatter_b301603a3975493b,
+              mid_setHandleMultiTermQuery_f5dd97eebf6a215a,
+              mid_setHighlightPhrasesStrictly_f5dd97eebf6a215a,
+              mid_setMaxLength_8226bd0b0fc13dba,
+              mid_setMaxNoHighlightPassages_8226bd0b0fc13dba,
+              mid_setPassageRelevancyOverSpeed_f5dd97eebf6a215a,
+              mid_setScorer_a279013e5e6515ae,
+              mid_setWeightMatches_f5dd97eebf6a215a,
+              mid_evaluateFlags_c8051b7a7c87c6db,
+              mid_evaluateFlags_53ddb0074f2dc41d,
+              mid_evaluateFlags_4e69e4b78d80fb5e,
+              mid_getFieldInfo_e0f86c1ef7db94db,
+              mid_highlightFieldsAsObjects_8bd577f1efe47387,
+              mid_extractTerms_ca9fd20ba851b2a9,
+              mid_getFieldHighlighter_4ed492047aca1f3e,
+              mid_getOffsetSource_185f2d2301da7355,
+              mid_loadFieldValues_d946dc7d93dc2381,
+              mid_getMaskedFields_570080d504bfa9b3,
+              mid_getHighlightComponents_43cbdb4465050681,
+              mid_getOptimizedOffsetSource_ef25251b226c7a6c,
+              mid_getOffsetStrategy_82ec2ddd75395000,
+              mid_getBreakIterator_5d2caa5ff34b9bf9,
+              mid_getScorer_bcce0eb48b91c167,
+              mid_getMaxNoHighlightPassages_fa2a6f298bd618ab,
+              mid_getPassageSortComparator_7eb5ff095815146c,
+              mid_newFieldHighlighter_c6b3aca949c2a69e,
+              mid_getFieldMatcher_5a0a6c817ea1842d,
+              mid_getPhraseHelper_7713750b19c3b26b,
+              mid_hasUnrecognizedQuery_e171d5cbc39a632c,
+              mid_filterExtractedTerms_cbe5373195954643,
+              mid_getAutomata_a186ec76ada99665,
+              mid_newLimitedStoredFieldsVisitor_53508f4ff55acab4,
+              mid_shouldHandleMultiTermQuery_94f7e759d94961b0,
+              mid_shouldHighlightPhrasesStrictly_94f7e759d94961b0,
+              mid_shouldPreferPassageRelevancyOverSpeed_94f7e759d94961b0,
+              mid_requiresRewrite_2d2d67a98377ab75,
+              mid_preSpanQueryRewrite_5ad843c16fca232c,
+              mid_getFormatter_1575cfd1cd757ad8,
+              mid_getFlags_570080d504bfa9b3,
               max_mid
             };
 

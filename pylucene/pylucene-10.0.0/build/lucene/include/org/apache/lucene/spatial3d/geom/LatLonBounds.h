@@ -3,26 +3,26 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Double;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Plane;
           class Membership;
+          class Bounds;
           class GeoPoint;
           class PlanetModel;
-          class Bounds;
+          class Plane;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Double;
   }
 }
 template<class T> class JArray;
@@ -36,28 +36,28 @@ namespace org {
           class LatLonBounds : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_addHorizontalPlane_a7e4b546e597b400,
-              mid_addIntersection_35219b12859162fe,
-              mid_addPlane_15a21c9a9d113d9d,
-              mid_addPoint_7d64811057c15b25,
-              mid_addVerticalPlane_a7e4b546e597b400,
-              mid_addXValue_7d64811057c15b25,
-              mid_addYValue_7d64811057c15b25,
-              mid_addZValue_7d64811057c15b25,
-              mid_checkNoBottomLatitudeBound_947277eca0748c4e,
-              mid_checkNoLongitudeBound_947277eca0748c4e,
-              mid_checkNoTopLatitudeBound_947277eca0748c4e,
-              mid_getLeftLongitude_3427789f502c230e,
-              mid_getMaxLatitude_3427789f502c230e,
-              mid_getMinLatitude_3427789f502c230e,
-              mid_getRightLongitude_3427789f502c230e,
-              mid_isWide_9df9bcb078900198,
-              mid_noBottomLatitudeBound_9df9bcb078900198,
-              mid_noBound_44b667a391f02bb2,
-              mid_noLongitudeBound_9df9bcb078900198,
-              mid_noTopLatitudeBound_9df9bcb078900198,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_addHorizontalPlane_745d4f480071b0dc,
+              mid_addIntersection_b47fb6a0917837bb,
+              mid_addPlane_2d8ce33354f55c61,
+              mid_addPoint_0b65f1ac399500f3,
+              mid_addVerticalPlane_745d4f480071b0dc,
+              mid_addXValue_0b65f1ac399500f3,
+              mid_addYValue_0b65f1ac399500f3,
+              mid_addZValue_0b65f1ac399500f3,
+              mid_checkNoBottomLatitudeBound_9aa4f33e82ea333f,
+              mid_checkNoLongitudeBound_9aa4f33e82ea333f,
+              mid_checkNoTopLatitudeBound_9aa4f33e82ea333f,
+              mid_getLeftLongitude_4708af7d5ba009e9,
+              mid_getMaxLatitude_4708af7d5ba009e9,
+              mid_getMinLatitude_4708af7d5ba009e9,
+              mid_getRightLongitude_4708af7d5ba009e9,
+              mid_isWide_57bc77a77a7927f9,
+              mid_noBottomLatitudeBound_57bc77a77a7927f9,
+              mid_noBound_2b87fb506197c30d,
+              mid_noLongitudeBound_57bc77a77a7927f9,
+              mid_noTopLatitudeBound_57bc77a77a7927f9,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

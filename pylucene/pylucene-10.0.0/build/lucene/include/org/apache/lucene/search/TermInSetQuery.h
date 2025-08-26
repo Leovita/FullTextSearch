@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/search/MultiTermQuery.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class QueryVisitor;
+        class MultiTermQuery$RewriteMethod;
+      }
       namespace util {
         class Accountable;
         class BytesRef;
         class BytesRefIterator;
       }
-      namespace search {
-        class MultiTermQuery$RewriteMethod;
-        class QueryVisitor;
-      }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -38,17 +38,17 @@ namespace org {
         class TermInSetQuery : public ::org::apache::lucene::search::MultiTermQuery {
          public:
           enum {
-            mid_init$_d7fabad76bfcc751,
-            mid_init$_fc5fcde8b486569a,
-            mid_equals_570b5248a6da3ef6,
-            mid_getBytesRefIterator_bf0613f85af6401c,
-            mid_getChildResources_aa58b3beec16cbbd,
-            mid_getTermsCount_16939d9d0a9a9721,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
-            mid_getTermsEnum_b346bdb4749db660,
+            mid_init$_34d6f70ae7d5f6ad,
+            mid_init$_dd09338d93a88a23,
+            mid_equals_00d17418847797d4,
+            mid_getBytesRefIterator_456b4b9059047e2a,
+            mid_getChildResources_4a269b968b3a511f,
+            mid_getTermsCount_0f176418e3e16541,
+            mid_hashCode_bd89ce15dad49192,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
+            mid_getTermsEnum_05b4875ff8d0c914,
             max_mid
           };
 

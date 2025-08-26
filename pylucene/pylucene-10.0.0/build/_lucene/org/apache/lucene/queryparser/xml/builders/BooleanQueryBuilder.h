@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace queryparser {
         namespace xml {
           class QueryBuilder;
         }
+      }
+      namespace search {
+        class Query;
       }
     }
   }
@@ -34,7 +34,7 @@ namespace org {
             class BooleanQueryBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_643a4019f96e9e19,
+                mid_init$_7c77c90313faba92,
                 max_mid
               };
 

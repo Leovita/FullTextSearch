@@ -3,18 +3,6 @@
 
 #include "org/antlr/v4/runtime/RuleContext.h"
 
-namespace org {
-  namespace antlr {
-    namespace v4 {
-      namespace runtime {
-        class Parser;
-        class ParserRuleContext;
-        class RecognitionException;
-        class Token;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -22,6 +10,18 @@ namespace java {
   }
   namespace util {
     class List;
+  }
+}
+namespace org {
+  namespace antlr {
+    namespace v4 {
+      namespace runtime {
+        class Parser;
+        class RecognitionException;
+        class ParserRuleContext;
+        class Token;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -34,18 +34,18 @@ namespace org {
         class ParserRuleContext : public ::org::antlr::v4::runtime::RuleContext {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_edeb232e399334f6,
-            mid_addChild_03e1ac07ee008923,
-            mid_copyFrom_b66b11bc03bfbb06,
-            mid_getChildCount_20fbf7565993c3d7,
-            mid_getParent_34f9e24cfd279b36,
-            mid_getRuleContext_4b5b9259948a32aa,
-            mid_getRuleContexts_181a2d12d2889453,
-            mid_getStart_9ddaacaf798f5cf6,
-            mid_getStop_9ddaacaf798f5cf6,
-            mid_removeLastChild_3720c61b0679eb3e,
-            mid_toInfoString_c4224bf0e7356c60,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_f840f8abb19811a0,
+            mid_addChild_a7acc939bb384fb7,
+            mid_copyFrom_d06f00f6bac2ff6a,
+            mid_getChildCount_bd89ce15dad49192,
+            mid_getParent_66f2a0a97f4f532a,
+            mid_getRuleContext_b2ee1e45bfce989b,
+            mid_getRuleContexts_e76a1deb9b5b5da2,
+            mid_getStart_91a9980574ecdd91,
+            mid_getStop_91a9980574ecdd91,
+            mid_removeLastChild_e7bdbe105ce1bafb,
+            mid_toInfoString_60bb3b0ffd4d3fdf,
             max_mid
           };
 

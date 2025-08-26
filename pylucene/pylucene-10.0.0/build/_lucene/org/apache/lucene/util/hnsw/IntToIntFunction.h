@@ -19,7 +19,7 @@ namespace org {
           class IntToIntFunction : public ::java::lang::Object {
            public:
             enum {
-              mid_apply_3c9bba330f083871,
+              mid_apply_a3904e10f5bb9437,
               max_mid
             };
 

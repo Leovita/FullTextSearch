@@ -4,20 +4,20 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    class Collection;
-    class List;
-    namespace concurrent {
-      class Executor;
-      class Callable;
-    }
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
+    class List;
+    namespace concurrent {
+      class Callable;
+      class Executor;
+    }
   }
 }
 template<class T> class JArray;
@@ -30,9 +30,9 @@ namespace org {
         class TaskExecutor : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_4c5f70bd027afb51,
-            mid_invokeAll_93d4f44cee5de8eb,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_285b215785016c8a,
+            mid_invokeAll_edc76bb8b84c2b2b,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

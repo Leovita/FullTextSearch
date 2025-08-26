@@ -3,14 +3,23 @@
 
 #include "org/apache/lucene/util/AttributeImpl.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+    class StringBuilder;
+    class CharSequence;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
         namespace tokenattributes {
           class CharTermAttribute;
-          class CharTermAttributeImpl;
           class TermToBytesRefAttribute;
+          class CharTermAttributeImpl;
         }
       }
       namespace util {
@@ -18,15 +27,6 @@ namespace org {
         class AttributeReflector;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class CharSequence;
-    class Object;
-    class StringBuilder;
   }
 }
 template<class T> class JArray;
@@ -40,29 +40,29 @@ namespace org {
           class CharTermAttributeImpl : public ::org::apache::lucene::util::AttributeImpl {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_append_93c3e51ee367b727,
-              mid_append_6ded55a46c89e9ea,
-              mid_append_8fd290207a88902a,
-              mid_append_fdef7fd064209339,
-              mid_append_107fc9eadd9a04d0,
-              mid_append_c0e9d633af448f1d,
-              mid_buffer_77d52ded526199de,
-              mid_charAt_92a13ce4196a7e69,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_c8a3bfc4ae68ec06,
-              mid_copyBuffer_fc9be2ded8ee801f,
-              mid_copyTo_9be83c6b2aff7007,
-              mid_equals_570b5248a6da3ef6,
-              mid_getBytesRef_9740fddd1c7df148,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_length_20fbf7565993c3d7,
-              mid_reflectWith_454217ab6e97f729,
-              mid_resizeBuffer_b99eaae8e7f3ab85,
-              mid_setEmpty_6c99065d62f8e710,
-              mid_setLength_4565eb3469a6f0b6,
-              mid_subSequence_3202de35bfd622a0,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_append_9b92f6e313a4d773,
+              mid_append_016de536220d6cf7,
+              mid_append_bf52ddc416077be8,
+              mid_append_f1020fd319425e9f,
+              mid_append_5222518cf8139859,
+              mid_append_9b607feb724e19ec,
+              mid_buffer_e5926045e1917c62,
+              mid_charAt_bc94dd98365f92fb,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_8ffe4edce95cfddd,
+              mid_copyBuffer_186bb5d1c1aec30c,
+              mid_copyTo_b194e41b568bc1bc,
+              mid_equals_00d17418847797d4,
+              mid_getBytesRef_adbedbc1fa61c358,
+              mid_hashCode_bd89ce15dad49192,
+              mid_length_bd89ce15dad49192,
+              mid_reflectWith_ac049850cfa29e37,
+              mid_resizeBuffer_25bf44068950f64b,
+              mid_setEmpty_fd305bd0e2b05b3a,
+              mid_setLength_5e7ff32332c44cee,
+              mid_subSequence_e78c175a32c9e667,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

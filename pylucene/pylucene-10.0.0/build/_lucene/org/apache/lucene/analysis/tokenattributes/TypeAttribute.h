@@ -20,8 +20,8 @@ namespace org {
           class TypeAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_setType_0d82408c6e55bc30,
-              mid_type_09a7afff1868fc5e,
+              mid_setType_ee46a189998009d6,
+              mid_type_e7df854526d67fa3,
               max_mid
             };
 

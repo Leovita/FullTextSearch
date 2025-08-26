@@ -33,10 +33,10 @@ namespace org {
             class Reducer : public ::java::lang::Object {
              public:
               enum {
-                mid_reduce_351e9c3c9f2fa814,
-                mid_reduce_b249dbf8c9984535,
-                mid_reduce_7f733b5d08bb5ec4,
-                mid_reduce_bcea5161e8951fae,
+                mid_reduce_9314817161e40a7e,
+                mid_reduce_ab52dff7447e3c87,
+                mid_reduce_7f27cf81a85a97e9,
+                mid_reduce_5804bd1c01b59205,
                 max_mid
               };
 

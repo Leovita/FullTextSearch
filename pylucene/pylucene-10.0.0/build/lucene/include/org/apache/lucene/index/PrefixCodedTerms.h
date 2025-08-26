@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class PrefixCodedTerms$TermIterator;
-      }
       namespace util {
         class Accountable;
+      }
+      namespace index {
+        class PrefixCodedTerms$TermIterator;
       }
     }
   }
@@ -30,12 +30,12 @@ namespace org {
         class PrefixCodedTerms : public ::java::lang::Object {
          public:
           enum {
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_iterator_a0561dc2bd9791f7,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_setDelGen_8b3d46852b435a94,
-            mid_size_16939d9d0a9a9721,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_iterator_1c620bf81b9e50d7,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_setDelGen_1d3149fac12f2af3,
+            mid_size_0f176418e3e16541,
             max_mid
           };
 

@@ -28,10 +28,10 @@ namespace org {
         class SimpleWKTShapeParser$ShapeType : public ::java::lang::Enum {
          public:
           enum {
-            mid_forName_212e92109c6d2319,
-            mid_valueOf_212e92109c6d2319,
-            mid_values_135807f6a3cafa7e,
-            mid_wktName_09a7afff1868fc5e,
+            mid_forName_9d9bce06ec87409b,
+            mid_valueOf_9d9bce06ec87409b,
+            mid_values_71b5c904e2394ea9,
+            mid_wktName_e7df854526d67fa3,
             max_mid
           };
 

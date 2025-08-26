@@ -3,32 +3,32 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class Lock;
+        class IndexOutput;
+        class IndexInput;
+        class ChecksumIndexInput;
+        class IOContext;
+      }
+    }
+  }
+}
 namespace java {
-  namespace util {
-    class Collection;
-    class Set;
+  namespace io {
+    class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
     class String;
   }
-  namespace io {
-    class Closeable;
-    class IOException;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class IndexOutput;
-        class IndexInput;
-        class Lock;
-        class IOContext;
-        class Directory;
-        class ChecksumIndexInput;
-      }
-    }
+  namespace util {
+    class Collection;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -41,24 +41,24 @@ namespace org {
         class Directory : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_copyFrom_23ba349b04fb6402,
-            mid_createOutput_08efc12d1beeafa9,
-            mid_createTempOutput_767e9bfea4c09d00,
-            mid_deleteFile_0d82408c6e55bc30,
-            mid_fileLength_e942a6f864c95ca0,
-            mid_getPendingDeletions_4df174295554d7bd,
-            mid_listAll_6da8f3ea65e22733,
-            mid_obtainLock_cc83df755c1d5fef,
-            mid_openChecksumInput_8dfb877f49038497,
-            mid_openInput_f1f6511a018f52d0,
-            mid_rename_3d104da0b5c75e64,
-            mid_sync_40eba2cff967cc45,
-            mid_syncMetaData_3720c61b0679eb3e,
-            mid_toString_09a7afff1868fc5e,
-            mid_getTempFileName_c883a2eae0fc5f6e,
-            mid_ensureOpen_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_copyFrom_690af4af74b7d11b,
+            mid_createOutput_5ee859a77f556d05,
+            mid_createTempOutput_c416e7b8f77d8569,
+            mid_deleteFile_ee46a189998009d6,
+            mid_fileLength_490f1686ea1cfda6,
+            mid_getPendingDeletions_79131c6bbcf08916,
+            mid_listAll_970db9a2a49d840f,
+            mid_obtainLock_3ede4234fbb2098d,
+            mid_openChecksumInput_13cc9a1f37ae366e,
+            mid_openInput_fc1a53ef559ae62a,
+            mid_rename_0dd012a11c3f389b,
+            mid_sync_b5398b431eb321fb,
+            mid_syncMetaData_e7bdbe105ce1bafb,
+            mid_toString_e7df854526d67fa3,
+            mid_getTempFileName_0bbe29ee43d0d63a,
+            mid_ensureOpen_e7bdbe105ce1bafb,
             max_mid
           };
 

@@ -3,9 +3,23 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class StoredValue;
+        class Field$Store;
+        class InvertableType;
+      }
       namespace search {
         class Query;
         class SortedSetSelector$Type;
@@ -14,21 +28,7 @@ namespace org {
       namespace util {
         class BytesRef;
       }
-      namespace document {
-        class InvertableType;
-        class StoredValue;
-        class Field$Store;
-      }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -41,17 +41,17 @@ namespace org {
         class KeywordField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_4668a15176c0aebf,
-            mid_init$_660b532f87158510,
-            mid_binaryValue_9740fddd1c7df148,
-            mid_invertableType_72515c0beb0174e7,
-            mid_newExactQuery_9c67907ed0ac8b67,
-            mid_newExactQuery_1d6b931a26bb0724,
-            mid_newSetQuery_9484176e9ce4ba1f,
-            mid_newSortField_0ef22962f380ac1f,
-            mid_setBytesValue_ac0de3ee0e03786d,
-            mid_setStringValue_0d82408c6e55bc30,
-            mid_storedValue_c117239a18be2fcb,
+            mid_init$_208c8c03d7588cd3,
+            mid_init$_6d201cd5adc8c8a8,
+            mid_binaryValue_adbedbc1fa61c358,
+            mid_invertableType_6d1985fbf4a5f74d,
+            mid_newExactQuery_550dcf54034665c0,
+            mid_newExactQuery_d00347c545665303,
+            mid_newSetQuery_525d6c1fce01d552,
+            mid_newSortField_3a0a2bd2be182cfd,
+            mid_setBytesValue_920ce0cdf4259cc9,
+            mid_setStringValue_ee46a189998009d6,
+            mid_storedValue_71ce58210dba1993,
             max_mid
           };
 

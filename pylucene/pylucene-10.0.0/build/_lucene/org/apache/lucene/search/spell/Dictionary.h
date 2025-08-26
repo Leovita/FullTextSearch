@@ -33,7 +33,7 @@ namespace org {
           class Dictionary : public ::java::lang::Object {
            public:
             enum {
-              mid_getEntryIterator_72e405f8eeb139f8,
+              mid_getEntryIterator_b233487188876d36,
               max_mid
             };
 

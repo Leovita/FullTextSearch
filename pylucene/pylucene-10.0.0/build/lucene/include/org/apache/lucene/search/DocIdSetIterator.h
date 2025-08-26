@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class DocIdSetIterator;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,15 +30,15 @@ namespace org {
         class DocIdSetIterator : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_advance_3c9bba330f083871,
-            mid_all_4f54e07ba226fe4e,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_empty_fc644a826c65d236,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_range_59f04b0b519ccaa0,
-            mid_slowAdvance_3c9bba330f083871,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_advance_a3904e10f5bb9437,
+            mid_all_fb0dbed973801393,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_empty_b78969502cbf4939,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_range_3ca9a74c97b33e04,
+            mid_slowAdvance_a3904e10f5bb9437,
             max_mid
           };
 

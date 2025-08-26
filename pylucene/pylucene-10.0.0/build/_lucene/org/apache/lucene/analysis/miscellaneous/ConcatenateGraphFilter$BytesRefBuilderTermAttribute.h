@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/analysis/tokenattributes/TermToBytesRefAttribute.h"
 
-namespace java {
-  namespace lang {
-    class CharSequence;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class BytesRefBuilder;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class CharSequence;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,8 +29,8 @@ namespace org {
           class ConcatenateGraphFilter$BytesRefBuilderTermAttribute : public ::org::apache::lucene::analysis::tokenattributes::TermToBytesRefAttribute {
            public:
             enum {
-              mid_builder_dc06164013e8378f,
-              mid_toUTF16_373f0038978f926b,
+              mid_builder_af123c7728e8b455,
+              mid_toUTF16_f2e5418fe0d66c69,
               max_mid
             };
 

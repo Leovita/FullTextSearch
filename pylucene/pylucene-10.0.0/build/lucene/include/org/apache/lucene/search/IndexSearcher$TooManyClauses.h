@@ -19,9 +19,9 @@ namespace org {
         class IndexSearcher$TooManyClauses : public ::java::lang::RuntimeException {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_0d82408c6e55bc30,
-            mid_getMaxClauseCount_20fbf7565993c3d7,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_ee46a189998009d6,
+            mid_getMaxClauseCount_bd89ce15dad49192,
             max_mid
           };
 

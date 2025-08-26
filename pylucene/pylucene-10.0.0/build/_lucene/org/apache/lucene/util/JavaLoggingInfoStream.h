@@ -4,14 +4,14 @@
 #include "org/apache/lucene/util/InfoStream.h"
 
 namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
   namespace util {
     namespace function {
       class Function;
     }
-  }
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -24,9 +24,9 @@ namespace org {
         class JavaLoggingInfoStream : public ::org::apache::lucene::util::InfoStream {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_isEnabled_4a13a663b5c11133,
-            mid_message_3d104da0b5c75e64,
+            mid_close_e7bdbe105ce1bafb,
+            mid_isEnabled_94f7e759d94961b0,
+            mid_message_0dd012a11c3f389b,
             max_mid
           };
 

@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         namespace highlight {
           class WeightedTerm;
         }
+        class Query;
       }
       namespace index {
         class IndexReader;
@@ -35,11 +35,11 @@ namespace org {
           class QueryTermExtractor : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_getIdfWeightedTerms_01b594dc84e5a7d8,
-              mid_getTerms_94bd16a432998cda,
-              mid_getTerms_325ccf83f2d3ce07,
-              mid_getTerms_9e61b4b9ba18769b,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_getIdfWeightedTerms_eba57fddcfccd198,
+              mid_getTerms_5f3ee6e4152ae934,
+              mid_getTerms_81373adb6b370cbc,
+              mid_getTerms_7277033faf7eb295,
               max_mid
             };
 

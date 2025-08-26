@@ -31,12 +31,12 @@ namespace org {
           class KeywordTokenizer : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_init$_5b7a424424431350,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_init$_3183b52194c9e763,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/spatial3d/geom/GeoBaseCompositeMembershipShape.h"
 
-namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
           class GeoShape;
-          class PlanetModel;
           class GeoAreaShape;
+          class PlanetModel;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+    class InputStream;
   }
 }
 template<class T> class JArray;
@@ -36,12 +36,12 @@ namespace org {
           class GeoBaseCompositeAreaShape : public ::org::apache::lucene::spatial3d::geom::GeoBaseCompositeMembershipShape {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
-              mid_init$_05079111a134d0e5,
-              mid_getRelationship_8f22277e6d81944f,
-              mid_intersects_9d5b040d556fdb23,
-              mid_isShapeInsideGeoAreaShape_8f22277e6d81944f,
-              mid_isGeoAreaShapeInsideShape_8f22277e6d81944f,
+              mid_init$_ed6d55ea06962af0,
+              mid_init$_f0c441081bfdcfd8,
+              mid_getRelationship_45c244038f50cef7,
+              mid_intersects_f6f461ab5889e14d,
+              mid_isShapeInsideGeoAreaShape_45c244038f50cef7,
+              mid_isGeoAreaShapeInsideShape_45c244038f50cef7,
               max_mid
             };
 

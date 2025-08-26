@@ -28,8 +28,8 @@ namespace org {
           class IdentityEncoder : public ::org::apache::lucene::analysis::payloads::AbstractEncoder {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_encode_39b6f094532ed45a,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_encode_913ab79e1d259c84,
               max_mid
             };
 

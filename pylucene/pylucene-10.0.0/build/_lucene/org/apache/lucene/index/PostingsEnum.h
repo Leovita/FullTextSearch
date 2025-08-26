@@ -30,12 +30,12 @@ namespace org {
         class PostingsEnum : public ::org::apache::lucene::search::DocIdSetIterator {
          public:
           enum {
-            mid_endOffset_20fbf7565993c3d7,
-            mid_featureRequested_dbf8f425d5899404,
-            mid_freq_20fbf7565993c3d7,
-            mid_getPayload_9740fddd1c7df148,
-            mid_nextPosition_20fbf7565993c3d7,
-            mid_startOffset_20fbf7565993c3d7,
+            mid_endOffset_bd89ce15dad49192,
+            mid_featureRequested_58fd88b6b32138d5,
+            mid_freq_bd89ce15dad49192,
+            mid_getPayload_adbedbc1fa61c358,
+            mid_nextPosition_bd89ce15dad49192,
+            mid_startOffset_bd89ce15dad49192,
             max_mid
           };
 

@@ -3,34 +3,34 @@
 
 #include "org/apache/lucene/queries/function/valuesource/DocFreqValueSource.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
       namespace queries {
         namespace function {
           class FunctionValues;
         }
       }
+      namespace util {
+        class BytesRef;
+      }
       namespace index {
         class LeafReaderContext;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace util {
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -45,9 +45,9 @@ namespace org {
             class TermFreqValueSource : public ::org::apache::lucene::queries::function::valuesource::DocFreqValueSource {
              public:
               enum {
-                mid_init$_c88530b6e1748625,
-                mid_getValues_a7d46b98c691aeac,
-                mid_name_09a7afff1868fc5e,
+                mid_init$_74d6ef28c7b92fe2,
+                mid_getValues_9f85153ef1e32cca,
+                mid_name_e7df854526d67fa3,
                 max_mid
               };
 

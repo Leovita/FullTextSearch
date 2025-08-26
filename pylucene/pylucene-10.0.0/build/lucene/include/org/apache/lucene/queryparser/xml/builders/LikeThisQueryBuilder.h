@@ -3,9 +3,18 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
       namespace search {
         class Query;
       }
@@ -14,16 +23,7 @@ namespace org {
           class QueryBuilder;
         }
       }
-      namespace analysis {
-        class Analyzer;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -38,7 +38,7 @@ namespace org {
             class LikeThisQueryBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_aafc7c2b55072f30,
+                mid_init$_289968fd7d7c09bb,
                 max_mid
               };
 

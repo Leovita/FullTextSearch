@@ -21,7 +21,7 @@ namespace org {
         class NumericDocValues : public ::org::apache::lucene::index::DocValuesIterator {
          public:
           enum {
-            mid_longValue_16939d9d0a9a9721,
+            mid_longValue_0f176418e3e16541,
             max_mid
           };
 

@@ -35,17 +35,17 @@ namespace org {
           class FastCharStream : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_fa55492f0f5d7f31,
-              mid_BeginToken_6c956faefc706166,
-              mid_Done_3720c61b0679eb3e,
-              mid_GetImage_09a7afff1868fc5e,
-              mid_GetSuffix_b99eaae8e7f3ab85,
-              mid_backup_540b2b23d51b1efd,
-              mid_getBeginColumn_20fbf7565993c3d7,
-              mid_getBeginLine_20fbf7565993c3d7,
-              mid_getEndColumn_20fbf7565993c3d7,
-              mid_getEndLine_20fbf7565993c3d7,
-              mid_readChar_6c956faefc706166,
+              mid_init$_89ab2bee9aa84b00,
+              mid_BeginToken_15a06771db8cb866,
+              mid_Done_e7bdbe105ce1bafb,
+              mid_GetImage_e7df854526d67fa3,
+              mid_GetSuffix_25bf44068950f64b,
+              mid_backup_8226bd0b0fc13dba,
+              mid_getBeginColumn_bd89ce15dad49192,
+              mid_getBeginLine_bd89ce15dad49192,
+              mid_getEndColumn_bd89ce15dad49192,
+              mid_getEndLine_bd89ce15dad49192,
+              mid_readChar_15a06771db8cb866,
               max_mid
             };
 

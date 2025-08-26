@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,6 +14,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,8 +34,8 @@ namespace org {
             class KMeans$KmeansInitializationMethod : public ::java::lang::Enum {
              public:
               enum {
-                mid_valueOf_091d3c7289f093ae,
-                mid_values_821f50b2f124f456,
+                mid_valueOf_f6825705ad8720e8,
+                mid_values_602ccef8134d6674,
                 max_mid
               };
 

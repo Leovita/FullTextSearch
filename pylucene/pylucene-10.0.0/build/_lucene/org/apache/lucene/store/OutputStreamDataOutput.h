@@ -5,9 +5,9 @@
 
 namespace java {
   namespace io {
+    class IOException;
     class OutputStream;
     class Closeable;
-    class IOException;
   }
   namespace lang {
     class Class;
@@ -23,10 +23,10 @@ namespace org {
         class OutputStreamDataOutput : public ::org::apache::lucene::store::DataOutput {
          public:
           enum {
-            mid_init$_84831c9725b47eae,
-            mid_close_3720c61b0679eb3e,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_5fdd5da9426708e6,
+            mid_init$_fbdd420d6e3d48b2,
+            mid_close_e7bdbe105ce1bafb,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_116f7fcb5bff0f39,
             max_mid
           };
 

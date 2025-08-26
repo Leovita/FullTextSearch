@@ -3,13 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Long;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,6 +10,13 @@ namespace org {
         class QueryTimeout;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Long;
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,11 +29,11 @@ namespace org {
         class QueryTimeoutImpl : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_8b3d46852b435a94,
-            mid_getTimeoutAt_34383b55cea8435b,
-            mid_reset_3720c61b0679eb3e,
-            mid_shouldExit_947277eca0748c4e,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_1d3149fac12f2af3,
+            mid_getTimeoutAt_c4ac57d488686cc8,
+            mid_reset_e7bdbe105ce1bafb,
+            mid_shouldExit_9aa4f33e82ea333f,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

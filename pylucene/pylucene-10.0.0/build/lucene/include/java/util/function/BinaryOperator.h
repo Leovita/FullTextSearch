@@ -5,14 +5,14 @@
 
 namespace java {
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
   namespace util {
-    class Comparator;
     namespace function {
       class BinaryOperator;
     }
+    class Comparator;
   }
 }
 template<class T> class JArray;
@@ -24,8 +24,8 @@ namespace java {
       class BinaryOperator : public ::java::util::function::BiFunction {
        public:
         enum {
-          mid_maxBy_c2f0d8f8e2f3acb6,
-          mid_minBy_c2f0d8f8e2f3acb6,
+          mid_maxBy_91559caaeee3fc0c,
+          mid_minBy_91559caaeee3fc0c,
           max_mid
         };
 

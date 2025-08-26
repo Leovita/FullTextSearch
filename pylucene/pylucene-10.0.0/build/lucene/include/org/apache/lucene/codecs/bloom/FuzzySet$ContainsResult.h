@@ -31,8 +31,8 @@ namespace org {
           class FuzzySet$ContainsResult : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_ae26de68d29eb34f,
-              mid_values_f3082a1f0ebf8b6c,
+              mid_valueOf_7b0aff2194b7bfa2,
+              mid_values_8bdb1fa55b73d8ea,
               max_mid
             };
 

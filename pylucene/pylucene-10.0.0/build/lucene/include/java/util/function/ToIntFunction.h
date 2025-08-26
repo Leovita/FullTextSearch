@@ -17,7 +17,7 @@ namespace java {
       class ToIntFunction : public ::java::lang::Object {
        public:
         enum {
-          mid_applyAsInt_657656e6a597f732,
+          mid_applyAsInt_3b738b91667a06c2,
           max_mid
         };
 

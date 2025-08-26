@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace queries {
         namespace intervals {
-          class IntervalIterator;
           class IntervalMatchesIterator;
+          class IntervalIterator;
           class IntervalsSource;
         }
       }
@@ -23,15 +23,15 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -45,15 +45,15 @@ namespace org {
           class IntervalsSource : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_intervals_1bd3f71593e381ee,
-              mid_matches_088afda15bab86d5,
-              mid_minExtent_20fbf7565993c3d7,
-              mid_pullUpDisjunctions_aa58b3beec16cbbd,
-              mid_toString_09a7afff1868fc5e,
-              mid_visit_c97c62e73c4b5880,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_intervals_ace1dbcddaadc96d,
+              mid_matches_10d72833c4e0c293,
+              mid_minExtent_bd89ce15dad49192,
+              mid_pullUpDisjunctions_4a269b968b3a511f,
+              mid_toString_e7df854526d67fa3,
+              mid_visit_5f02824c31e51cfd,
               max_mid
             };
 

@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/document/Field.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +13,12 @@ namespace org {
         class FieldType;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
           class AssociationFacetField : public ::org::apache::lucene::document::Field {
            public:
             enum {
-              mid_init$_61a70a8a0318e426,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_2e6749649bc0abac,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

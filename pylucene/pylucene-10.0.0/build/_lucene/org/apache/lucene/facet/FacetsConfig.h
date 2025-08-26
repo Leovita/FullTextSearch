@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -18,15 +18,15 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class Document;
+      }
       namespace facet {
         class FacetsConfig$DimConfig;
         namespace taxonomy {
           class TaxonomyWriter;
         }
         class FacetsConfig$DrillDownTermsIndexing;
-      }
-      namespace document {
-        class Document;
       }
     }
   }
@@ -41,22 +41,22 @@ namespace org {
         class FacetsConfig : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_build_d6863227acb1d171,
-            mid_build_6b2f87a99de0768e,
-            mid_getDimConfig_8aef2bae47589795,
-            mid_getDimConfigs_f125f26c07a7bec8,
-            mid_isDimConfigured_4a13a663b5c11133,
-            mid_pathToString_a51b33ee713386d2,
-            mid_pathToString_27d74d799dbfd34b,
-            mid_pathToString_1b44bc32a26f1c02,
-            mid_setDrillDownTermsIndexing_37c5f07a96a80ed9,
-            mid_setHierarchical_855d5fa744141d54,
-            mid_setIndexFieldName_3d104da0b5c75e64,
-            mid_setMultiValued_855d5fa744141d54,
-            mid_setRequireDimCount_855d5fa744141d54,
-            mid_stringToPath_a06e92f371939b0b,
-            mid_getDefaultDimConfig_8d216690030321d2,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_build_ce9b987dee2c5535,
+            mid_build_94226cc79b83435a,
+            mid_getDimConfig_1fb9e08918338a8e,
+            mid_getDimConfigs_5004bdf19ed33453,
+            mid_isDimConfigured_94f7e759d94961b0,
+            mid_pathToString_6cc09e85e5e7973a,
+            mid_pathToString_eea56c09aec4eb58,
+            mid_pathToString_15f0b39e938e3224,
+            mid_setDrillDownTermsIndexing_1ccc7c070c2163b2,
+            mid_setHierarchical_0c3fb5e97dae8b90,
+            mid_setIndexFieldName_0dd012a11c3f389b,
+            mid_setMultiValued_0c3fb5e97dae8b90,
+            mid_setRequireDimCount_0c3fb5e97dae8b90,
+            mid_stringToPath_7b34cb521ce5d8ff,
+            mid_getDefaultDimConfig_ae50604e908ef61c,
             max_mid
           };
 

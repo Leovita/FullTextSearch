@@ -19,8 +19,8 @@ namespace org {
           class LZ4$FastCompressionHashTable : public ::org::apache::lucene::util::compress::LZ4$HashTable {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_previous_3c9bba330f083871,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_previous_a3904e10f5bb9437,
               max_mid
             };
 

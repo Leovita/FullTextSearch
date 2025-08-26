@@ -3,26 +3,26 @@
 
 #include "java/io/Closeable.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class Accountable;
         namespace quantization {
           class ScalarQuantizer;
           class QuantizedByteVectorValues;
         }
+        class Accountable;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -36,8 +36,8 @@ namespace org {
           class QuantizedVectorsReader : public ::java::io::Closeable {
            public:
             enum {
-              mid_getQuantizationState_ab0992f9e171f8d4,
-              mid_getQuantizedVectorValues_20e6d465a58a6183,
+              mid_getQuantizationState_79cb6c90083c7390,
+              mid_getQuantizedVectorValues_a165ba1a19df4b04,
               max_mid
             };
 

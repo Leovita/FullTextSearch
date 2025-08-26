@@ -3,17 +3,6 @@
 
 #include "org/apache/lucene/search/Scorable.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,6 +10,17 @@ namespace org {
         class Scorable$ChildScorable;
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -33,9 +33,9 @@ namespace org {
         class FilterScorable : public ::org::apache::lucene::search::Scorable {
          public:
           enum {
-            mid_init$_dd42dde4c0a7db1e,
-            mid_getChildren_aa58b3beec16cbbd,
-            mid_score_9b6c3480dac00edf,
+            mid_init$_c06bdf7d53c6460a,
+            mid_getChildren_4a269b968b3a511f,
+            mid_score_8b62236f0e4d0dbc,
             max_mid
           };
 

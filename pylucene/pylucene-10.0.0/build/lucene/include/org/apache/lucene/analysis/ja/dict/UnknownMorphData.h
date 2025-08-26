@@ -21,9 +21,9 @@ namespace org {
             class UnknownMorphData : public ::org::apache::lucene::analysis::ja::dict::TokenInfoMorphData {
              public:
               enum {
-                mid_getInflectionForm_cd8436557ab831f9,
-                mid_getInflectionType_cd8436557ab831f9,
-                mid_getReading_8050a2644734b4d8,
+                mid_getInflectionForm_0da8f0b89b1e9a22,
+                mid_getInflectionType_0da8f0b89b1e9a22,
+                mid_getReading_6ceb45848be0c90e,
                 max_mid
               };
 

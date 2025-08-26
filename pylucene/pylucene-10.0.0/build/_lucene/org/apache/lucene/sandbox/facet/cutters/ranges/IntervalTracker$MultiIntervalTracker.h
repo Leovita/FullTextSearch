@@ -24,11 +24,11 @@ namespace org {
               class IntervalTracker$MultiIntervalTracker : public ::java::lang::Object {
                public:
                 enum {
-                  mid_clear_3720c61b0679eb3e,
-                  mid_freeze_3720c61b0679eb3e,
-                  mid_get_ae22d3a856ad56f1,
-                  mid_nextOrd_20fbf7565993c3d7,
-                  mid_set_540b2b23d51b1efd,
+                  mid_clear_e7bdbe105ce1bafb,
+                  mid_freeze_e7bdbe105ce1bafb,
+                  mid_get_a8281eb3b9d9672d,
+                  mid_nextOrd_bd89ce15dad49192,
+                  mid_set_8226bd0b0fc13dba,
                   max_mid
                 };
 

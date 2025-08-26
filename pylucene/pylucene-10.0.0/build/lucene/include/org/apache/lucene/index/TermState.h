@@ -3,13 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Cloneable;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,6 +10,13 @@ namespace org {
         class TermState;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Cloneable;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,9 +29,9 @@ namespace org {
         class TermState : public ::java::lang::Object {
          public:
           enum {
-            mid_clone_0f33111124ab1b09,
-            mid_copyFrom_b61d12af4f67df0d,
-            mid_toString_09a7afff1868fc5e,
+            mid_clone_7f3f2ee4b8db95a4,
+            mid_copyFrom_dcdf58576ff767de,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

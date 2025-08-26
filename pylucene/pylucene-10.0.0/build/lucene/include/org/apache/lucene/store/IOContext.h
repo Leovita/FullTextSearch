@@ -3,24 +3,24 @@
 
 #include "java/lang/Record.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class MergeInfo;
-        class IOContext$Context;
-        class FlushInfo;
         class ReadAdvice;
+        class MergeInfo;
         class IOContext;
+        class FlushInfo;
+        class IOContext$Context;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -33,17 +33,17 @@ namespace org {
         class IOContext : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_2b57326223d159ff,
-            mid_init$_3f06ed6c0d86c7af,
-            mid_init$_8a0849030a8180e4,
-            mid_context_bdee817adbfe7670,
-            mid_equals_570b5248a6da3ef6,
-            mid_flushInfo_d1a3f55e0f77a7eb,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_mergeInfo_6033acd37091ac6a,
-            mid_readAdvice_ea938220c07e85c6,
-            mid_toString_09a7afff1868fc5e,
-            mid_withReadAdvice_4c97f01dceb6b123,
+            mid_init$_dce4b71fddbf0ad9,
+            mid_init$_96da0ce470a2ad8f,
+            mid_init$_9129b580f13852fc,
+            mid_context_7a361c0fe5856bc6,
+            mid_equals_00d17418847797d4,
+            mid_flushInfo_bfeb58881b2fbf6e,
+            mid_hashCode_bd89ce15dad49192,
+            mid_mergeInfo_9a0328045cee16c5,
+            mid_readAdvice_633707cd18f1593f,
+            mid_toString_e7df854526d67fa3,
+            mid_withReadAdvice_b0459f1892726ffd,
             max_mid
           };
 

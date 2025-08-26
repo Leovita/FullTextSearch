@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace codecs {
         namespace uniformsplit {
-          class IndexDictionary$Browser;
           class BlockDecoder;
           class IndexDictionary$BrowserSupplier;
+          class IndexDictionary$Browser;
         }
       }
       namespace store {
         class IndexInput;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,8 +38,8 @@ namespace org {
           class FSTDictionary$BrowserSupplier : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_97a90ba64f6d2239,
-              mid_get_a1250803d9fc677a,
+              mid_init$_4b03d04327520492,
+              mid_get_9e34968c5df117e5,
               max_mid
             };
 

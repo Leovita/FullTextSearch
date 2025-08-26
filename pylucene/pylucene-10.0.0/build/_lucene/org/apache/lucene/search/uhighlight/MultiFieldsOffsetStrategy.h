@@ -3,6 +3,18 @@
 
 #include "org/apache/lucene/search/uhighlight/FieldOffsetStrategy.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,18 +30,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -41,10 +41,10 @@ namespace org {
           class MultiFieldsOffsetStrategy : public ::org::apache::lucene::search::uhighlight::FieldOffsetStrategy {
            public:
             enum {
-              mid_init$_9425cd4f62c94bce,
-              mid_getField_09a7afff1868fc5e,
-              mid_getOffsetSource_77a619b338f9ed68,
-              mid_getOffsetsEnum_717b49b3028aff18,
+              mid_init$_acbb405b60a30822,
+              mid_getField_e7df854526d67fa3,
+              mid_getOffsetSource_e52a710f16ce6a53,
+              mid_getOffsetsEnum_5610a28ef32aa7b7,
               max_mid
             };
 

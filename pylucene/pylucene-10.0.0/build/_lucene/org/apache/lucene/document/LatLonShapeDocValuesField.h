@@ -28,10 +28,10 @@ namespace org {
         class LatLonShapeDocValuesField : public ::org::apache::lucene::document::ShapeDocValuesField {
          public:
           enum {
-            mid_getBoundingBox_2bbbcbaa4373fc64,
-            mid_getCentroid_f6aecef04297a8f2,
-            mid_decodeY_788f636887bfcb79,
-            mid_decodeX_788f636887bfcb79,
+            mid_getBoundingBox_16338c961577e186,
+            mid_getCentroid_56c40e2b0069120c,
+            mid_decodeX_3bb466f769ef1c7f,
+            mid_decodeY_3bb466f769ef1c7f,
             max_mid
           };
 

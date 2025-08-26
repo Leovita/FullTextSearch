@@ -31,8 +31,8 @@ namespace org {
           class PassageFormatter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_format_70b8a6c246696c4b,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_format_76df303db1c63bc3,
               max_mid
             };
 

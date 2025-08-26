@@ -19,9 +19,9 @@ namespace org {
           class FST$BytesReader : public ::org::apache::lucene::store::DataInput {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_getPosition_16939d9d0a9a9721,
-              mid_setPosition_8b3d46852b435a94,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_getPosition_0f176418e3e16541,
+              mid_setPosition_1d3149fac12f2af3,
               max_mid
             };
 

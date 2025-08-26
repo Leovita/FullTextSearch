@@ -3,51 +3,7 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Query;
-      }
-      namespace util {
-        class Accountable;
-        class InfoStream;
-        class BytesRef;
-      }
-      namespace index {
-        class DirectoryReader;
-        class SegmentCommitInfo;
-        class IndexWriter$DocStats;
-        class SegmentInfos;
-        class MergePolicy$OneMerge;
-        class LiveIndexWriterConfig;
-        class Term;
-        class IndexReader;
-        class MergePolicy$MergeContext;
-        class CodecReader;
-        class IndexableField;
-        class TwoPhaseCommit;
-        class IndexWriterConfig;
-      }
-      namespace store {
-        class Directory;
-      }
-      namespace document {
-        class Field;
-      }
-      namespace analysis {
-        class Analyzer;
-      }
-    }
-  }
-}
 namespace java {
-  namespace lang {
-    class Throwable;
-    class Class;
-    class String;
-    class Iterable;
-  }
   namespace io {
     class IOException;
     class Closeable;
@@ -55,6 +11,50 @@ namespace java {
   namespace util {
     class Map$Entry;
     class Set;
+  }
+  namespace lang {
+    class Throwable;
+    class Class;
+    class String;
+    class Iterable;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class BytesRef;
+        class InfoStream;
+        class Accountable;
+      }
+      namespace index {
+        class SegmentInfos;
+        class CodecReader;
+        class MergePolicy$MergeContext;
+        class DirectoryReader;
+        class IndexWriterConfig;
+        class MergePolicy$OneMerge;
+        class TwoPhaseCommit;
+        class SegmentCommitInfo;
+        class Term;
+        class LiveIndexWriterConfig;
+        class IndexReader;
+        class IndexWriter$DocStats;
+        class IndexableField;
+      }
+      namespace search {
+        class Query;
+      }
+      namespace document {
+        class Field;
+      }
+      namespace analysis {
+        class Analyzer;
+      }
+      namespace store {
+        class Directory;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -67,71 +67,71 @@ namespace org {
         class IndexWriter : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_6566f4eebe7eba94,
-            mid_addDocument_fbdd70aa1af912b4,
-            mid_addDocuments_fbdd70aa1af912b4,
-            mid_addIndexes_5472d2a449384bf3,
-            mid_addIndexes_7096fb4369f4b056,
-            mid_addIndexesReaderMerge_e1e55891bbba68fb,
-            mid_advanceSegmentInfosVersion_8b3d46852b435a94,
-            mid_close_3720c61b0679eb3e,
-            mid_commit_16939d9d0a9a9721,
-            mid_decRefDeleter_e774f28e2e3cb793,
-            mid_deleteAll_16939d9d0a9a9721,
-            mid_deleteDocuments_8df2cd0462a32d48,
-            mid_deleteDocuments_8c0ddf2d1fe03069,
-            mid_deleteUnusedFiles_3720c61b0679eb3e,
-            mid_flush_3720c61b0679eb3e,
-            mid_flushNextBuffer_947277eca0748c4e,
-            mid_forceMerge_540b2b23d51b1efd,
-            mid_forceMerge_2936d2706a18a684,
-            mid_forceMergeDeletes_3720c61b0679eb3e,
-            mid_forceMergeDeletes_b110fc3a58c081ab,
-            mid_getAnalyzer_6755ba003d984513,
-            mid_getConfig_3a601247ac382221,
-            mid_getDirectory_0d3b52699e153434,
-            mid_getDocStats_31e03c743e96f829,
-            mid_getFieldNames_4df174295554d7bd,
-            mid_getFlushingBytes_16939d9d0a9a9721,
-            mid_getInfoStream_d67a60a40c235833,
-            mid_getLiveCommitData_11d5156a64e3246d,
-            mid_getMaxCompletedSequenceNumber_16939d9d0a9a9721,
-            mid_getMergingSegments_4df174295554d7bd,
-            mid_getPendingNumDocs_16939d9d0a9a9721,
-            mid_getReader_c3ab326fa894a6c1,
-            mid_getTragicException_d175b950df78251e,
-            mid_hasDeletions_947277eca0748c4e,
-            mid_hasPendingMerges_947277eca0748c4e,
-            mid_hasUncommittedChanges_947277eca0748c4e,
-            mid_incRefDeleter_e774f28e2e3cb793,
-            mid_isOpen_947277eca0748c4e,
-            mid_maybeMerge_3720c61b0679eb3e,
-            mid_numDeletedDocs_f2b27fe465afdaf9,
-            mid_numDeletesToMerge_f2b27fe465afdaf9,
-            mid_numRamDocs_20fbf7565993c3d7,
-            mid_onTragicEvent_76617a9037afdbc9,
-            mid_prepareCommit_16939d9d0a9a9721,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_rollback_3720c61b0679eb3e,
-            mid_setLiveCommitData_eb4b05d4345caaf0,
-            mid_setLiveCommitData_d704b7fc833e196a,
-            mid_softUpdateDocument_f6c96eaf88516ada,
-            mid_softUpdateDocuments_f6c96eaf88516ada,
-            mid_tryDeleteDocument_b6c7698f4d26d654,
-            mid_tryUpdateDocValue_064a1629c93b2ecd,
-            mid_updateBinaryDocValue_c4da23d518f555f5,
-            mid_updateDocValues_8753b5f271cb466c,
-            mid_updateDocument_1d5fea03bfaf0c0f,
-            mid_updateDocuments_1d5fea03bfaf0c0f,
-            mid_updateDocuments_125292d74ab36207,
-            mid_updateNumericDocValue_6ac6a40c21b907c6,
-            mid_doBeforeFlush_3720c61b0679eb3e,
-            mid_doAfterFlush_3720c61b0679eb3e,
-            mid_isEnableTestPoints_947277eca0748c4e,
-            mid_mergeSuccess_e1e55891bbba68fb,
-            mid_merge_e1e55891bbba68fb,
-            mid_ensureOpen_b110fc3a58c081ab,
-            mid_ensureOpen_3720c61b0679eb3e,
+            mid_init$_1a847c0d96c9a375,
+            mid_addDocument_7afd55b940a7f0bd,
+            mid_addDocuments_7afd55b940a7f0bd,
+            mid_addIndexes_c807aa9a455ce3ce,
+            mid_addIndexes_2bb2f8836642e1b0,
+            mid_addIndexesReaderMerge_43e5fc07fd56a753,
+            mid_advanceSegmentInfosVersion_1d3149fac12f2af3,
+            mid_close_e7bdbe105ce1bafb,
+            mid_commit_0f176418e3e16541,
+            mid_decRefDeleter_4c4f4bfe6cd27c73,
+            mid_deleteAll_0f176418e3e16541,
+            mid_deleteDocuments_5acd20fbbd1b66f0,
+            mid_deleteDocuments_df6fc4e5ad548c69,
+            mid_deleteUnusedFiles_e7bdbe105ce1bafb,
+            mid_flush_e7bdbe105ce1bafb,
+            mid_flushNextBuffer_9aa4f33e82ea333f,
+            mid_forceMerge_8226bd0b0fc13dba,
+            mid_forceMerge_a0fed0a2cd38e7b1,
+            mid_forceMergeDeletes_e7bdbe105ce1bafb,
+            mid_forceMergeDeletes_f5dd97eebf6a215a,
+            mid_getAnalyzer_7bc9b23f56937752,
+            mid_getConfig_1170a5e87b407121,
+            mid_getDirectory_0b8988a9a36f43ec,
+            mid_getDocStats_21bdec0966f7aadb,
+            mid_getFieldNames_79131c6bbcf08916,
+            mid_getFlushingBytes_0f176418e3e16541,
+            mid_getInfoStream_7dc634bffa4290e2,
+            mid_getLiveCommitData_85e1732aaf0b83f3,
+            mid_getMaxCompletedSequenceNumber_0f176418e3e16541,
+            mid_getMergingSegments_79131c6bbcf08916,
+            mid_getPendingNumDocs_0f176418e3e16541,
+            mid_getReader_3b3a6460cd1fbdea,
+            mid_getTragicException_76f90963e923fefa,
+            mid_hasDeletions_9aa4f33e82ea333f,
+            mid_hasPendingMerges_9aa4f33e82ea333f,
+            mid_hasUncommittedChanges_9aa4f33e82ea333f,
+            mid_incRefDeleter_4c4f4bfe6cd27c73,
+            mid_isOpen_9aa4f33e82ea333f,
+            mid_maybeMerge_e7bdbe105ce1bafb,
+            mid_numDeletedDocs_a0105afcf7393ca2,
+            mid_numDeletesToMerge_a0105afcf7393ca2,
+            mid_numRamDocs_bd89ce15dad49192,
+            mid_onTragicEvent_d1a99ccef994914c,
+            mid_prepareCommit_0f176418e3e16541,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_rollback_e7bdbe105ce1bafb,
+            mid_setLiveCommitData_e14ca79f217d88d0,
+            mid_setLiveCommitData_ca42c75f8961eb05,
+            mid_softUpdateDocument_67bb297d9619c804,
+            mid_softUpdateDocuments_67bb297d9619c804,
+            mid_tryDeleteDocument_d03acb11e9548d6a,
+            mid_tryUpdateDocValue_78c1d6fef921a0b2,
+            mid_updateBinaryDocValue_ed93fb2cb2035928,
+            mid_updateDocValues_0864f728e6453158,
+            mid_updateDocument_fc70ce6ebe152aab,
+            mid_updateDocuments_fc70ce6ebe152aab,
+            mid_updateDocuments_4158460fdd2d072e,
+            mid_updateNumericDocValue_85d9135411a4885b,
+            mid_doBeforeFlush_e7bdbe105ce1bafb,
+            mid_doAfterFlush_e7bdbe105ce1bafb,
+            mid_isEnableTestPoints_9aa4f33e82ea333f,
+            mid_mergeSuccess_43e5fc07fd56a753,
+            mid_merge_43e5fc07fd56a753,
+            mid_ensureOpen_f5dd97eebf6a215a,
+            mid_ensureOpen_e7bdbe105ce1bafb,
             max_mid
           };
 

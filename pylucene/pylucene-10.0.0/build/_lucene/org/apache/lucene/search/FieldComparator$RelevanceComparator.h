@@ -3,19 +3,6 @@
 
 #include "org/apache/lucene/search/FieldComparator.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Scorable;
-        class LeafFieldComparator;
-      }
-      namespace index {
-        class LeafReaderContext;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Float;
@@ -23,6 +10,19 @@ namespace java {
   }
   namespace io {
     class IOException;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class LeafFieldComparator;
+        class Scorable;
+      }
+      namespace index {
+        class LeafReaderContext;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -35,17 +35,17 @@ namespace org {
         class FieldComparator$RelevanceComparator : public ::org::apache::lucene::search::FieldComparator {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_compare_7f733b5d08bb5ec4,
-            mid_compareBottom_3c9bba330f083871,
-            mid_compareTop_3c9bba330f083871,
-            mid_compareValues_d9b80a249b891431,
-            mid_copy_e13cff512ebda969,
-            mid_getLeafComparator_d019da77a226431f,
-            mid_setBottom_540b2b23d51b1efd,
-            mid_setScorer_dd42dde4c0a7db1e,
-            mid_setTopValue_0b97bf2afe6e3ce4,
-            mid_value_375542890b644be2,
+            mid_init$_8226bd0b0fc13dba,
+            mid_compare_7f27cf81a85a97e9,
+            mid_compareBottom_a3904e10f5bb9437,
+            mid_compareTop_a3904e10f5bb9437,
+            mid_compareValues_4752b9408f1a260d,
+            mid_copy_645c25455f5b9b1c,
+            mid_getLeafComparator_84b03b9ed9bc3019,
+            mid_setBottom_8226bd0b0fc13dba,
+            mid_setScorer_c06bdf7d53c6460a,
+            mid_setTopValue_2938af09589bdd21,
+            mid_value_180f9825b2d0a3dd,
             max_mid
           };
 

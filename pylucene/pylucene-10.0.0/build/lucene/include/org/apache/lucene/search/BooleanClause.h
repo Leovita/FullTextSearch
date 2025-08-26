@@ -7,17 +7,17 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class BooleanClause$Occur;
+        class Query;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -30,15 +30,15 @@ namespace org {
         class BooleanClause : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_cda4a4dd75c5ba3a,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isProhibited_947277eca0748c4e,
-            mid_isRequired_947277eca0748c4e,
-            mid_isScoring_947277eca0748c4e,
-            mid_occur_75abc2b8d272b588,
-            mid_query_a3eacfacada795d4,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_74bfcb3967db7c38,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isProhibited_9aa4f33e82ea333f,
+            mid_isRequired_9aa4f33e82ea333f,
+            mid_isScoring_9aa4f33e82ea333f,
+            mid_occur_285e02dfd9c0e1d9,
+            mid_query_ffa7bd087b2a75aa,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -1,120 +1,172 @@
-from time import time  
-from PyLuceneSearchEngine import PyLuceneSearchEngine
-import datetime
+#!/usr/bin/env python3
+"""
+Script principale unificato per il benchmark PyLucene.
+Confronta BM25 vs Classic (TF-IDF) ranking.
+"""
+
 import os
+import sys
+import time
+import datetime
+from PyLuceneUnifiedInterface import PyLuceneUnifiedInterface
 
-def log_to_file(log_filename, message):
-    with open(log_filename, 'a', encoding='utf-8') as f:
-        f.write(message + "\n")
 
-def print_and_log_results(query, results, model_name, elapsed_time, log_filename):
-    log_to_file(log_filename, f"\nQUERY: '{query}' (Tempo: {elapsed_time:.4f}s)")
-    log_to_file(log_filename, "-" * 40)
+def print_results(results, query_text, ranking_name):
+    """Stampa i risultati della ricerca."""
+    if not results or results['total_results'] == 0:
+        print(f"[{ranking_name}] Nessun risultato trovato")
+        return
     
-    if results:
-        for rank, result in enumerate(results, start=1):
-            log_to_file(log_filename, f"Rank {rank}: {result[0][:50]}...")
-            log_to_file(log_filename, f"      Contenuto: {result[1][:80]}...")
-            log_to_file(log_filename, f"      Categoria: {result[2]}")
-            log_to_file(log_filename, f"      SNIPPET: {result[4]}")
-    else:
-        log_to_file(log_filename, "Nessun risultato trovato")
+    print(f"\n[{ranking_name}] Query: '{query_text}'")
+    print(f"[{ranking_name}] Risultati trovati: {results['total_results']}")
     
-def test_model(search_engine, query_list, model_name, log_filename):
-    total_time = 0
-    num_queries = len(query_list)
+    for i, result in enumerate(results['results'], 1):
+        print(f"[{ranking_name}] {i}. {result['title']} (Score: {result['score']:.4f})")
+        print(f"     Categoria: {result['category']}")
+        print(f"     Snippet: {result['snippet'][:80]}...")
+
+
+def run_benchmark(interface, query_list):
+    """Esegue il benchmark completo confrontando BM25 vs Classic."""
+    print("=" * 80)
+    print("BENCHMARK PYLUCENE - BM25 vs CLASSIC RANKING")
+    print("=" * 80)
+    print(f"Data/Ora: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Query da testare: {len(query_list)}")
+    print("=" * 80)
     
-    print(f"Esecuzione ricerca con modello {model_name}...")
-    log_to_file(log_filename, f"\n" + "=" * 50)
-    log_to_file(log_filename, f"RISULTATI RICERCA {model_name}")
-    log_to_file(log_filename, "=" * 50)
+    total_bm25_time = 0
+    total_classic_time = 0
+    query_count = 0
     
-    for query in query_list:
-        start_time = time()
-        results = search_engine.search_documents(query, top_n=5, ranking_model=model_name.lower())
-        elapsed_time = time() - start_time
-        total_time += elapsed_time
+    for i, query_info in enumerate(query_list, 1):
+        query_text = query_info['query']
+        query_id = query_info.get('id', i)
+        query_category = query_info.get('category', 'N/A')
         
-        print_and_log_results(query, results, model_name, elapsed_time, log_filename)
+        print(f"\n[QUERY {i}/{len(query_list)}] ID: {query_id}, Categoria: {query_category}")
+        print(f"[RICERCA] Query: {query_text}")
+        
+        print("[BM25] Eseguendo ricerca...")
+        start_time = time.time()
+        results_bm25 = interface.search(query_text, limit=5)
+        bm25_time = (time.time() - start_time) * 1000
+        
+        #classic
+        print("[CONFIG] Cambiando ranking da BM25 a Classic...")
+        interface.similarity = "classic"
+        interface._init_searcher()
+        
+        print("[CLASSIC] Eseguendo ricerca...")
+        start_time = time.time()
+        results_classic = interface.search(query_text, limit=5)
+        classic_time = (time.time() - start_time) * 1000
+        
+        # Ripristina BM25 per le prossime query
+        print("[CONFIG] Ripristinando ranking BM25...")
+        interface.similarity = "bm25"
+        interface._init_searcher()
+        
+        # Stampa risultati
+        print(f"\n[RISULTATI BM25] Tempo: {bm25_time:.2f}ms")
+        print_results(results_bm25, query_text, "BM25")
+        
+        print(f"\n[RISULTATI CLASSIC] Tempo: {classic_time:.2f}ms")
+        print_results(results_classic, query_text, "CLASSIC")
+        
+        print(f"\n[ANALISI] Confronto ranking per query: '{query_text}'")
+        
+        if results_bm25['total_results'] > 0 and results_classic['total_results'] > 0:
+            print("\n[TOP 3 CONFRONTO]")
+            for j in range(min(3, len(results_bm25['results']), len(results_classic['results']))):
+                bm25_result = results_bm25['results'][j]
+                classic_result = results_classic['results'][j]
+                
+                print(f"\nPosizione {j+1}:")
+                print(f"  BM25:    {bm25_result['title']} (Score: {bm25_result['score']:.4f})")
+                print(f"  Classic:  {classic_result['title']} (Score: {classic_result['score']:.4f})")
+                
+                if bm25_result['title'] == classic_result['title']:
+                    print(f"  [OK] Stesso documento in posizione {j+1}")
+                else:
+                    print(f"  [DIFF] Documenti diversi in posizione {j+1}")
+        
+        time_diff = abs(bm25_time - classic_time)
+        if bm25_time < classic_time:
+            print(f"\n[PERFORMANCE] BM25 e {time_diff:.2f}ms piu veloce")
+        elif classic_time < bm25_time:
+            print(f"\n[PERFORMANCE] Classic e {time_diff:.2f}ms piu veloce")
+        else:
+            print(f"\n[PERFORMANCE] Stessa velocita")
+        
+        total_bm25_time += bm25_time
+        total_classic_time += classic_time
+        query_count += 1
+        
+        print("-" * 80)
     
-    avg_time = total_time / num_queries
-    log_to_file(log_filename, f"\nTEMPO MEDIO {model_name}: {avg_time:.4f} secondi")
+    print(f"\n" + "=" * 80)
+    print("STATISTICHE FINALI")
+    print("=" * 80)
     
-    return avg_time
+    avg_bm25 = total_bm25_time / query_count if query_count > 0 else 0
+    avg_classic = total_classic_time / query_count if query_count > 0 else 0
+    
+    print(f"[BM25] Tempo totale: {total_bm25_time:.2f}ms, Media: {avg_bm25:.2f}ms")
+    print(f"[CLASSIC] Tempo totale: {total_classic_time:.2f}ms, Media: {avg_classic:.2f}ms")
+    
+    if avg_bm25 < avg_classic:
+        improvement = ((avg_classic - avg_bm25) / avg_classic) * 100
+        print(f"\n[VINCITORE] BM25 e {improvement:.1f}% piu veloce!")
+    elif avg_classic < avg_bm25:
+        improvement = ((avg_bm25 - avg_classic) / avg_bm25) * 100
+        print(f"\n[VINCITORE] Classic e {improvement:.1f}% piu veloce!")
+    else:
+        print(f"\n[PAREGGIO] Stessa performance!")
+    
+    print("=" * 80)
+    
+    return {
+        'bm25_total': total_bm25_time,
+        'classic_total': total_classic_time,
+        'bm25_avg': avg_bm25,
+        'classic_avg': avg_classic,
+        'query_count': query_count
+    }
+
+
+def main():
+    print("AVVIO BENCHMARK PYLUCENE UNIFICATO")
+    print("=" * 50)
+    
+    ds = "../../../docs/dataset.csv"
+    
+    if not os.path.exists(ds):
+        print(f"[ERRORE] File dataset non trovato: {ds}")
+        return
+    
+    print("\n[INIZIALIZZAZIONE] Creando interfaccia con BM25...")
+    with PyLuceneUnifiedInterface(ds, "indexdir_unified", "bm25") as interface:
+        print(f"[VERIFICA] Ranking iniziale: {interface.similarity}")
+        #carico query con funzione dell'interfaccia
+        query_list = interface._load_queries_from_file("../../../benchmark_queries_config.json")
+        
+        if not query_list:
+            print("[ERRORE] Nessuna query caricata per il benchmark")
+            return
+        
+        print(f"[INFO] Query caricate: {len(query_list)}")
+        
+        results = run_benchmark(interface, query_list)
+        
+        if results:
+            print(f"\n[COMPLETATO] Benchmark terminato con successo!")
+            print(f"[RISULTATO] {results['query_count']} query testate")
+        else:
+            print("\n[ERRORE] Benchmark fallito")
+    
+    print("\n[FINE] Script terminato")
+
 
 if __name__ == "__main__":
-    index_dir = "/Users/leovita/uni/unidev/GestioneInfo/pylucene/pylucene-10.0.0/full-text-search/indexing"  
-    csv_file = "../docs/dataset.csv"  
-    
-    search_engine = PyLuceneSearchEngine(index_dir, csv_file)
-    search_engine.index_documents()
-    
-    query_list = [
-        "Gordon Brown Budget election",
-        "Liverpool football Hillsborough", 
-        "Microsoft Google internet",
-        "Army Scotland regiments decision",
-        "Smoking ban Scotland public",
-        "Wayne Rooney football transfer",
-        "Tony Blair trust voters",
-        "Stamp duty property prices",
-        "Hollywood Oscar ceremony",
-        "EU European Union rules",
-        "Climate change environment",
-        "University students tuition"
-    ]
-    
-    # Query per test avanzati
-    misspelled_queries = [
-        "Gorden Brown Budjet", "Liverpol footbal", "Microsft Googl",
-        "Scootland armie", "Toni Blare polotics"
-    ]
-    
-
-
-    # Setup logging
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_filename = f"search_results_{timestamp}.log"
-    
-    # Header log
-    log_to_file(log_filename, "=" * 80)
-    log_to_file(log_filename, f"RICERCA PYLUCENE - {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    log_to_file(log_filename, "=" * 80)
-    log_to_file(log_filename, f"File CSV: {csv_file}")
-    log_to_file(log_filename, f"Directory indice: {index_dir}")
-    log_to_file(log_filename, f"Query testate: {len(query_list)}")
-    log_to_file(log_filename, "=" * 80)
-
-    # Test modelli
-    avg_time_bm25 = test_model(search_engine, query_list, "BM25", log_filename)
-    avg_time_tfidf = test_model(search_engine, query_list, "TFIDF", log_filename)
-
-    # Risultato finale
-    if avg_time_bm25 > avg_time_tfidf:
-        winner_msg = f"Modello TFIDF vince con tempo di esecuzione medio pari a {avg_time_tfidf}s vs {avg_time_bm25}s"
-    else:
-        winner_msg = f"Modello BM25 vince con tempo di esecuzione medio pari a {avg_time_bm25}s vs {avg_time_tfidf}s"
-    
-    print(f"\n{winner_msg}")
-    
-    # Test funzionalità avanzate
-    log_to_file(log_filename, "\n" + "=" * 80)
-    log_to_file(log_filename, "TEST FUNZIONALITÀ AVANZATE")
-    log_to_file(log_filename, "=" * 80)
-    
-    # Spell Checking
-    log_to_file(log_filename, "\n--- SPELL CHECKING ---")
-    for misspelled in misspelled_queries:
-        corrected = search_engine.spell_check_query(misspelled)
-        if corrected != misspelled:
-            log_to_file(log_filename, f"Corretto: '{misspelled}' → '{corrected}'")
-    
-
-    
-    # Footer log
-    log_to_file(log_filename, "\n" + "=" * 80)
-    log_to_file(log_filename, "RISULTATO FINALE")
-    log_to_file(log_filename, "=" * 80)
-    log_to_file(log_filename, winner_msg)
-    log_to_file(log_filename, f"File log salvato: {log_filename}")
-    log_to_file(log_filename, "=" * 80)
+    main()

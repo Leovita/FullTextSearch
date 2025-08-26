@@ -28,8 +28,8 @@ namespace org {
           class HashFunction : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_hash_7595cb5441b08443,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_hash_8c6e1447894d7a38,
               max_mid
             };
 

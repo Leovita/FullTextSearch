@@ -3,20 +3,6 @@
 
 #include "org/apache/lucene/search/suggest/BufferedInputIterator.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace search {
-        namespace suggest {
-          class InputIterator;
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
@@ -26,6 +12,20 @@ namespace java {
   }
   namespace util {
     class Set;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        namespace suggest {
+          class InputIterator;
+        }
+      }
+      namespace util {
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -39,11 +39,11 @@ namespace org {
           class UnsortedInputIterator : public ::org::apache::lucene::search::suggest::BufferedInputIterator {
            public:
             enum {
-              mid_init$_ccfc0be4d7c5ce8c,
-              mid_contexts_4df174295554d7bd,
-              mid_next_9740fddd1c7df148,
-              mid_payload_9740fddd1c7df148,
-              mid_weight_16939d9d0a9a9721,
+              mid_init$_3b81cca33403847f,
+              mid_contexts_79131c6bbcf08916,
+              mid_next_adbedbc1fa61c358,
+              mid_payload_adbedbc1fa61c358,
+              mid_weight_0f176418e3e16541,
               max_mid
             };
 

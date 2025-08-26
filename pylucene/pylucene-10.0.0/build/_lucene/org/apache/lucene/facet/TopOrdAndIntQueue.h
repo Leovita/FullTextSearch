@@ -27,8 +27,8 @@ namespace org {
         class TopOrdAndIntQueue : public ::org::apache::lucene::facet::TopOrdAndNumberQueue {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_newOrdAndValue_b0a5a9c6421d7f7b,
+            mid_init$_8226bd0b0fc13dba,
+            mid_newOrdAndValue_8454d5ca47f5be85,
             max_mid
           };
 

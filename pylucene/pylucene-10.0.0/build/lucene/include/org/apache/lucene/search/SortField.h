@@ -3,36 +3,36 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Comparator;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexSorter;
+      }
       namespace search {
+        class FieldComparator;
         class FieldComparatorSource;
         class Pruning;
         class SortField$Type;
         class SortField;
-        class FieldComparator;
         class IndexSearcher;
       }
       namespace util {
         class BytesRef;
       }
-      namespace index {
-        class IndexSorter;
-      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Comparator;
   }
 }
 template<class T> class JArray;
@@ -45,30 +45,30 @@ namespace org {
         class SortField : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_1f41d5a77c16274f,
-            mid_init$_a27665ec78eae27c,
-            mid_init$_09e168080411589e,
-            mid_init$_da9e90b7dafd1cca,
-            mid_equals_570b5248a6da3ef6,
-            mid_getBytesComparator_39238840448c1807,
-            mid_getComparator_602f5765ec13a452,
-            mid_getComparatorSource_6d04b1a070bcf1fd,
-            mid_getField_09a7afff1868fc5e,
-            mid_getIndexSorter_381453b87424c4d9,
-            mid_getMissingValue_5655ed8670534604,
-            mid_getOptimizeSortWithIndexedData_947277eca0748c4e,
-            mid_getOptimizeSortWithPoints_947277eca0748c4e,
-            mid_getReverse_947277eca0748c4e,
-            mid_getType_810eac8b83c5f8b1,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_needsScores_947277eca0748c4e,
-            mid_rewrite_a0617e7c52fcb300,
-            mid_setBytesComparator_480edaf434ebe52f,
-            mid_setMissingValue_eb61ef4d1db15d08,
-            mid_setOptimizeSortWithIndexedData_b110fc3a58c081ab,
-            mid_setOptimizeSortWithPoints_b110fc3a58c081ab,
-            mid_toString_09a7afff1868fc5e,
-            mid_readType_d2a7811f28ef58ae,
+            mid_init$_972830eff8bbf0ce,
+            mid_init$_861cdda103b0f319,
+            mid_init$_4f14e65d9a0d947f,
+            mid_init$_f28a3305895350fb,
+            mid_equals_00d17418847797d4,
+            mid_getBytesComparator_5cc89c689cd941fe,
+            mid_getComparator_4f2ccf90fa477e37,
+            mid_getComparatorSource_8831f02fe854d06e,
+            mid_getField_e7df854526d67fa3,
+            mid_getIndexSorter_f1f08a72a6d09a31,
+            mid_getMissingValue_4819806f62f1360a,
+            mid_getOptimizeSortWithIndexedData_9aa4f33e82ea333f,
+            mid_getOptimizeSortWithPoints_9aa4f33e82ea333f,
+            mid_getReverse_9aa4f33e82ea333f,
+            mid_getType_96395ddc8b3795c3,
+            mid_hashCode_bd89ce15dad49192,
+            mid_needsScores_9aa4f33e82ea333f,
+            mid_rewrite_c62116462e9f6544,
+            mid_setBytesComparator_236c903ae32a3610,
+            mid_setMissingValue_501c3eb890ff6d79,
+            mid_setOptimizeSortWithIndexedData_f5dd97eebf6a215a,
+            mid_setOptimizeSortWithPoints_f5dd97eebf6a215a,
+            mid_toString_e7df854526d67fa3,
+            mid_readType_0829a8d83a4e5b4f,
             max_mid
           };
 

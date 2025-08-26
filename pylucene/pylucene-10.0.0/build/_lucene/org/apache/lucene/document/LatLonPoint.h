@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class TopFieldDocs;
+        class Query;
         class IndexSearcher;
       }
       namespace document {
@@ -23,12 +23,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,15 +41,15 @@ namespace org {
         class LatLonPoint : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_2095eaca19a2819d,
-            mid_nearest_0ba98da3e65d1255,
-            mid_newBoxQuery_e637eb4fbb66cd45,
-            mid_newDistanceFeatureQuery_a269370a13b47888,
-            mid_newDistanceQuery_d21aad6385d42f8d,
-            mid_newGeometryQuery_cb622dfcc773fe50,
-            mid_newPolygonQuery_59d6d1af2cb8e8f8,
-            mid_setLocationValue_e57e4ffd06f0f841,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_21693830df0f9110,
+            mid_nearest_5d53a92befd27ab6,
+            mid_newBoxQuery_4b9e2246d9254f26,
+            mid_newDistanceFeatureQuery_d7529a91b008a28b,
+            mid_newDistanceQuery_0c73b5e361524dd7,
+            mid_newGeometryQuery_011f4a02e303334b,
+            mid_newPolygonQuery_88e3f68b51f65edb,
+            mid_setLocationValue_fa06324555fd7858,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

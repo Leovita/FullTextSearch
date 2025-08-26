@@ -6,24 +6,24 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class ScoreMode;
+        class IndexSearcher;
+        class QueryVisitor;
+        class Weight;
+      }
       namespace util {
         class Accountable;
-      }
-      namespace search {
-        class QueryVisitor;
-        class ScoreMode;
-        class Weight;
-        class IndexSearcher;
       }
     }
   }
 }
 namespace java {
   namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
     class Object;
+    class Class;
+    class String;
+    class CharSequence;
   }
   namespace io {
     class IOException;
@@ -41,17 +41,17 @@ namespace org {
             class ContextQuery : public ::org::apache::lucene::search::suggest::document::CompletionQuery {
              public:
               enum {
-                mid_init$_179ac467f71e30b8,
-                mid_addAllContexts_3720c61b0679eb3e,
-                mid_addContext_5ed8eb2e3024c663,
-                mid_addContext_26544a2b8fbbde36,
-                mid_addContext_f0a71b75a386c9f6,
-                mid_createWeight_77fe52950093e704,
-                mid_equals_570b5248a6da3ef6,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_ramBytesUsed_16939d9d0a9a9721,
-                mid_toString_cb0eb1432185fc94,
-                mid_visit_1b22ec612b613eea,
+                mid_init$_7783dc8f11449a99,
+                mid_addAllContexts_e7bdbe105ce1bafb,
+                mid_addContext_fe2ab7d27aa3fe1a,
+                mid_addContext_35e700a65ac0ba8e,
+                mid_addContext_c4a287c533454ade,
+                mid_createWeight_dc54d493278607e4,
+                mid_equals_00d17418847797d4,
+                mid_hashCode_bd89ce15dad49192,
+                mid_ramBytesUsed_0f176418e3e16541,
+                mid_toString_fef9c036acf290a9,
+                mid_visit_85475af8e8904ab4,
                 max_mid
               };
 

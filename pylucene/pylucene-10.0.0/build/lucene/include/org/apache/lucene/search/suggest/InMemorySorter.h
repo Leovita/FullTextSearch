@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace util {
+    class Comparator;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,14 +28,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class Comparator;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -39,10 +39,10 @@ namespace org {
           class InMemorySorter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_480edaf434ebe52f,
-              mid_add_ac0de3ee0e03786d,
-              mid_getComparator_39238840448c1807,
-              mid_iterator_bf0613f85af6401c,
+              mid_init$_236c903ae32a3610,
+              mid_add_920ce0cdf4259cc9,
+              mid_getComparator_5cc89c689cd941fe,
+              mid_iterator_456b4b9059047e2a,
               max_mid
             };
 

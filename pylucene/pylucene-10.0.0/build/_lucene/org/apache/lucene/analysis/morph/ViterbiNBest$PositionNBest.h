@@ -30,14 +30,14 @@ namespace org {
           class ViterbiNBest$PositionNBest : public ::org::apache::lucene::analysis::morph::Viterbi$Position {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_addForward_efff196aa6a9e564,
-              mid_getForwardCount_20fbf7565993c3d7,
-              mid_getForwardID_3c9bba330f083871,
-              mid_getForwardPos_3c9bba330f083871,
-              mid_getForwardType_f076e1862997cd4f,
-              mid_reset_3720c61b0679eb3e,
-              mid_setForwardCount_540b2b23d51b1efd,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_addForward_b89aaecd675e2d09,
+              mid_getForwardCount_bd89ce15dad49192,
+              mid_getForwardID_a3904e10f5bb9437,
+              mid_getForwardPos_a3904e10f5bb9437,
+              mid_getForwardType_1c29ddaecdd4938b,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setForwardCount_8226bd0b0fc13dba,
               max_mid
             };
 

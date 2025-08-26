@@ -16,10 +16,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
+        class TokenStream;
         namespace payloads {
           class TypeAsPayloadTokenFilter;
         }
-        class TokenStream;
       }
     }
   }
@@ -35,9 +35,9 @@ namespace org {
           class TypeAsPayloadTokenFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_4cde6325dfafb91c,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_fd166d4e83650e13,
               max_mid
             };
 

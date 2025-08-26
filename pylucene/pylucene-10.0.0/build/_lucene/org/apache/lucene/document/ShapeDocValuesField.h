@@ -3,34 +3,34 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class ShapeField$DecodedTriangle$TYPE;
+        class ShapeField$QueryRelation;
+      }
+      namespace analysis {
+        class TokenStream;
+        class Analyzer;
+      }
       namespace search {
         class Query;
       }
-      namespace document {
-        class ShapeField$QueryRelation;
-        class ShapeField$DecodedTriangle$TYPE;
-      }
       namespace index {
         class IndexableFieldType;
-      }
-      namespace analysis {
-        class Analyzer;
-        class TokenStream;
       }
       namespace geo {
         class Geometry;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -43,17 +43,17 @@ namespace org {
         class ShapeDocValuesField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_fieldType_231a8407c689c49d,
-            mid_getBoundingBox_29c6d8aa930fea8d,
-            mid_getCentroid_29c6d8aa930fea8d,
-            mid_getHighestDimensionType_51afc60d7bb54a69,
-            mid_name_09a7afff1868fc5e,
-            mid_newGeometryQuery_ae807bfca69d7107,
-            mid_numberOfTerms_20fbf7565993c3d7,
-            mid_stringValue_09a7afff1868fc5e,
-            mid_tokenStream_675528819f96fe99,
-            mid_decodeY_788f636887bfcb79,
-            mid_decodeX_788f636887bfcb79,
+            mid_fieldType_fa2f4688e330515c,
+            mid_getBoundingBox_76f13cb944295f5f,
+            mid_getCentroid_76f13cb944295f5f,
+            mid_getHighestDimensionType_b3356d9fb10d4eb7,
+            mid_name_e7df854526d67fa3,
+            mid_newGeometryQuery_87a659bded1931ca,
+            mid_numberOfTerms_bd89ce15dad49192,
+            mid_stringValue_e7df854526d67fa3,
+            mid_tokenStream_c33c4c82a743c93e,
+            mid_decodeX_3bb466f769ef1c7f,
+            mid_decodeY_3bb466f769ef1c7f,
             max_mid
           };
 

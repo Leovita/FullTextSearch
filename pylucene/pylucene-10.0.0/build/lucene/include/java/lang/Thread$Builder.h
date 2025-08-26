@@ -5,12 +5,12 @@
 
 namespace java {
   namespace lang {
-    class Thread$UncaughtExceptionHandler;
-    class Class;
-    class Runnable;
-    class String;
     class Thread$Builder;
+    class Runnable;
+    class Thread$UncaughtExceptionHandler;
     class Thread;
+    class Class;
+    class String;
   }
   namespace util {
     namespace concurrent {
@@ -26,13 +26,13 @@ namespace java {
     class Thread$Builder : public ::java::lang::Object {
      public:
       enum {
-        mid_factory_e2e07c8857a89752,
-        mid_inheritInheritableThreadLocals_fd3de143e68b964a,
-        mid_name_8582a89b940fc82f,
-        mid_name_26cafa8e7ba84458,
-        mid_start_b7c94fccf120862d,
-        mid_uncaughtExceptionHandler_5b34ab9d13c5b8a7,
-        mid_unstarted_b7c94fccf120862d,
+        mid_factory_5a599cf6c7f00f1e,
+        mid_inheritInheritableThreadLocals_b5cc4b9ebf95db91,
+        mid_name_acdade7b0866f06b,
+        mid_name_ebb3883df7d5d378,
+        mid_start_f5e519c688d87f98,
+        mid_uncaughtExceptionHandler_c63330e50c8a3081,
+        mid_unstarted_f5e519c688d87f98,
         max_mid
       };
 

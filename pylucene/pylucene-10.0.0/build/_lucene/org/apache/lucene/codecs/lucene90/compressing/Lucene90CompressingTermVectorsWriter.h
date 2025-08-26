@@ -10,25 +10,25 @@ namespace org {
         class MergeState;
         class FieldInfo;
       }
+      namespace store {
+        class DataInput;
+      }
       namespace util {
         class Accountable;
         class BytesRef;
-      }
-      namespace store {
-        class DataInput;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -43,18 +43,18 @@ namespace org {
             class Lucene90CompressingTermVectorsWriter : public ::org::apache::lucene::codecs::TermVectorsWriter {
              public:
               enum {
-                mid_addPosition_54dd3593ad2b559e,
-                mid_addProx_f7a100bced2e63eb,
-                mid_close_3720c61b0679eb3e,
-                mid_finish_540b2b23d51b1efd,
-                mid_finishDocument_3720c61b0679eb3e,
-                mid_finishField_3720c61b0679eb3e,
-                mid_getChildResources_aa58b3beec16cbbd,
-                mid_merge_1b76b11a0c4e302d,
-                mid_ramBytesUsed_16939d9d0a9a9721,
-                mid_startDocument_540b2b23d51b1efd,
-                mid_startField_109b6acc549dbc3d,
-                mid_startTerm_be93bdc4fbbb5027,
+                mid_addPosition_e467e9221c0680cd,
+                mid_addProx_2cde14b7c27ff05b,
+                mid_close_e7bdbe105ce1bafb,
+                mid_finish_8226bd0b0fc13dba,
+                mid_finishDocument_e7bdbe105ce1bafb,
+                mid_finishField_e7bdbe105ce1bafb,
+                mid_getChildResources_4a269b968b3a511f,
+                mid_merge_0730403f334ab9cc,
+                mid_ramBytesUsed_0f176418e3e16541,
+                mid_startDocument_8226bd0b0fc13dba,
+                mid_startField_fa294ef516f109e2,
+                mid_startTerm_86aec93bf51df65e,
                 max_mid
               };
 

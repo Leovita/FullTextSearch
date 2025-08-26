@@ -19,9 +19,9 @@ namespace org {
           class DictionaryEntryWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_currentPosition_20fbf7565993c3d7,
-              mid_putEntry_1dd4f416112757eb,
-              mid_writePosDict_0fede8919e0a13fe,
+              mid_currentPosition_bd89ce15dad49192,
+              mid_putEntry_bee55f3c003b8000,
+              mid_writePosDict_2f2391f9dc855928,
               max_mid
             };
 

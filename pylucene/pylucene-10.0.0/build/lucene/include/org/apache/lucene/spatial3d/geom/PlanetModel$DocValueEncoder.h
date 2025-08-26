@@ -30,18 +30,18 @@ namespace org {
           class PlanetModel$DocValueEncoder : public ::java::lang::Object {
            public:
             enum {
-              mid_decodePoint_628323f7e8574ffb,
-              mid_decodeXValue_212c665780cd8e77,
-              mid_decodeYValue_212c665780cd8e77,
-              mid_decodeZValue_212c665780cd8e77,
-              mid_encodePoint_f23eb152510199f0,
-              mid_encodePoint_5c245e4f4cfe0bb5,
-              mid_roundDownX_8fff3d7dcb9fddc5,
-              mid_roundDownY_8fff3d7dcb9fddc5,
-              mid_roundDownZ_8fff3d7dcb9fddc5,
-              mid_roundUpX_8fff3d7dcb9fddc5,
-              mid_roundUpY_8fff3d7dcb9fddc5,
-              mid_roundUpZ_8fff3d7dcb9fddc5,
+              mid_decodePoint_d3209e9ffe415ce2,
+              mid_decodeXValue_1f153cac77223155,
+              mid_decodeYValue_1f153cac77223155,
+              mid_decodeZValue_1f153cac77223155,
+              mid_encodePoint_5b4a2ff160afee9a,
+              mid_encodePoint_5d9048d54f1deb89,
+              mid_roundDownX_8493a5edcb36d651,
+              mid_roundDownY_8493a5edcb36d651,
+              mid_roundDownZ_8493a5edcb36d651,
+              mid_roundUpX_8493a5edcb36d651,
+              mid_roundUpY_8493a5edcb36d651,
+              mid_roundUpZ_8493a5edcb36d651,
               max_mid
             };
 

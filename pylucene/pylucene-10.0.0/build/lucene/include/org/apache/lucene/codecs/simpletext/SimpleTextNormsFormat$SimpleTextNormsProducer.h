@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/codecs/NormsProducer.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class FieldInfo;
-        class NumericDocValues;
         class SegmentReadState;
+        class NumericDocValues;
+        class FieldInfo;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -34,11 +34,11 @@ namespace org {
           class SimpleTextNormsFormat$SimpleTextNormsProducer : public ::org::apache::lucene::codecs::NormsProducer {
            public:
             enum {
-              mid_init$_3a0f0d76cb59d83b,
-              mid_checkIntegrity_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_getNorms_e5ef0d0afbac0df8,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_7865ebfeefbeb536,
+              mid_checkIntegrity_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_getNorms_cbb872df2173ef24,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -37,13 +37,13 @@ namespace org {
             class MessageImpl : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_0d82408c6e55bc30,
-                mid_init$_65857bc096222f13,
-                mid_getArguments_e6b839682a4610a6,
-                mid_getKey_09a7afff1868fc5e,
-                mid_getLocalizedMessage_09a7afff1868fc5e,
-                mid_getLocalizedMessage_d2a6991e8d2aa45a,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_ee46a189998009d6,
+                mid_init$_450414b70aae8f27,
+                mid_getArguments_1e688954528bc160,
+                mid_getKey_e7df854526d67fa3,
+                mid_getLocalizedMessage_e7df854526d67fa3,
+                mid_getLocalizedMessage_dce821ed97c0e930,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

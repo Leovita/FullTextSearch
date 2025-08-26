@@ -31,8 +31,8 @@ namespace org {
         class SimpleWKTShapeParser : public ::java::lang::Object {
          public:
           enum {
-            mid_parse_e5cf973b773e2999,
-            mid_parseExpectedType_41b8b1f632e25e6a,
+            mid_parse_a78a91e32cc37c7c,
+            mid_parseExpectedType_a69ce883ca2cb1b9,
             max_mid
           };
 

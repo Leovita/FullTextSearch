@@ -3,6 +3,12 @@
 
 #include "org/apache/lucene/search/MultiTermQuery$RewriteMethod.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,12 +18,6 @@ namespace org {
         class IndexSearcher;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -30,10 +30,10 @@ namespace org {
         class DocValuesRewriteMethod : public ::org::apache::lucene::search::MultiTermQuery$RewriteMethod {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_dcf1727ad038e63a,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_ea36ecc6891147cc,
             max_mid
           };
 

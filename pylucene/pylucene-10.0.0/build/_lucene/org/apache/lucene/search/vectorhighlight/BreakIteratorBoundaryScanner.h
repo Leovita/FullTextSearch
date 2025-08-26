@@ -4,12 +4,12 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace text {
+    class BreakIterator;
+  }
   namespace lang {
     class StringBuilder;
     class Class;
-  }
-  namespace text {
-    class BreakIterator;
   }
 }
 namespace org {
@@ -34,9 +34,9 @@ namespace org {
           class BreakIteratorBoundaryScanner : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_81f559c8594973b6,
-              mid_findEndOffset_2b824368d48f30fc,
-              mid_findStartOffset_2b824368d48f30fc,
+              mid_init$_e4e1cc72d4503bfa,
+              mid_findEndOffset_e514c7a94058a30d,
+              mid_findStartOffset_e514c7a94058a30d,
               max_mid
             };
 

@@ -4,25 +4,25 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class FloatVectorValues;
+        class VectorSimilarityFunction;
+      }
       namespace util {
         namespace quantization {
           class ScalarQuantizer;
         }
-      }
-      namespace index {
-        class VectorSimilarityFunction;
-        class FloatVectorValues;
       }
     }
   }
@@ -38,16 +38,16 @@ namespace org {
           class ScalarQuantizer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_23c54bef03d1f59d,
-              mid_fromVectors_9f3ac4b4fd60645b,
-              mid_fromVectorsAutoInterval_ea77a862cccf00d5,
-              mid_getBits_847674f430f49e4c,
-              mid_getConstantMultiplier_9b6c3480dac00edf,
-              mid_getLowerQuantile_9b6c3480dac00edf,
-              mid_getUpperQuantile_9b6c3480dac00edf,
-              mid_quantize_30821b217fbc2178,
-              mid_recalculateCorrectiveOffset_b4b69bba84425180,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_993ae40fcfe24a3f,
+              mid_fromVectors_1912e0ec418e6419,
+              mid_fromVectorsAutoInterval_d184c24d8d5da081,
+              mid_getBits_1456044a01a5c9bf,
+              mid_getConstantMultiplier_8b62236f0e4d0dbc,
+              mid_getLowerQuantile_8b62236f0e4d0dbc,
+              mid_getUpperQuantile_8b62236f0e4d0dbc,
+              mid_quantize_fb4b22adf3ef2a16,
+              mid_recalculateCorrectiveOffset_4134804891da10a3,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

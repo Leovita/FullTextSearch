@@ -3,6 +3,12 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
@@ -10,12 +16,6 @@ namespace org {
         class Token;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,7 +28,7 @@ namespace org {
         class TokenFactory : public ::java::lang::Object {
          public:
           enum {
-            mid_create_343ce57170fc55ff,
+            mid_create_56f226ff3b53e334,
             max_mid
           };
 

@@ -31,8 +31,8 @@ namespace org {
           class ScalarQuantizedVectorSimilarity$DotProduct : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_fc755f783bf06a79,
-              mid_score_ce358dca2a169081,
+              mid_init$_078c7d36b61392b2,
+              mid_score_c247ce6006875fda,
               max_mid
             };
 

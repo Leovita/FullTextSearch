@@ -4,22 +4,22 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class Iterable;
+    class Class;
+    class RuntimeException;
+    class Throwable;
+    class Error;
+    class String;
+  }
   namespace io {
-    class InputStream;
     class Closeable;
     class IOException;
     class Reader;
+    class InputStream;
   }
   namespace util {
     class Collection;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Iterable;
-    class Throwable;
-    class Error;
-    class RuntimeException;
   }
   namespace nio {
     namespace file {
@@ -30,11 +30,11 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class IOConsumer;
-      }
       namespace store {
         class Directory;
+      }
+      namespace util {
+        class IOConsumer;
       }
     }
   }
@@ -49,23 +49,23 @@ namespace org {
         class IOUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_applyToAll_6553f788222015f3,
-            mid_close_5db13a2ed8cf27df,
-            mid_close_eb4b05d4345caaf0,
-            mid_closeWhileHandlingException_5db13a2ed8cf27df,
-            mid_closeWhileHandlingException_eb4b05d4345caaf0,
-            mid_deleteFiles_8b7f5f5deb12b943,
-            mid_deleteFilesIfExist_ec660a8af742899b,
-            mid_deleteFilesIfExist_40eba2cff967cc45,
-            mid_deleteFilesIgnoringExceptions_ec660a8af742899b,
-            mid_deleteFilesIgnoringExceptions_40eba2cff967cc45,
-            mid_deleteFilesIgnoringExceptions_2f8040b7fa1ab771,
-            mid_deleteFilesIgnoringExceptions_8b7f5f5deb12b943,
-            mid_fsync_1b46774831f6db5e,
-            mid_requireResourceNonNull_b9a30901c306b6b7,
-            mid_rethrowAlways_94c36751a9ef2468,
-            mid_rm_ec660a8af742899b,
-            mid_useOrSuppress_5e3ad5d886ed3bdd,
+            mid_applyToAll_53e5dd8cdc998d82,
+            mid_close_a6db3f1539fbc9ee,
+            mid_close_e14ca79f217d88d0,
+            mid_closeWhileHandlingException_a6db3f1539fbc9ee,
+            mid_closeWhileHandlingException_e14ca79f217d88d0,
+            mid_deleteFiles_4c17800276fc3885,
+            mid_deleteFilesIfExist_eb073c773e62448a,
+            mid_deleteFilesIfExist_b5398b431eb321fb,
+            mid_deleteFilesIgnoringExceptions_eb073c773e62448a,
+            mid_deleteFilesIgnoringExceptions_b5398b431eb321fb,
+            mid_deleteFilesIgnoringExceptions_f6ec8cefaa1ead8e,
+            mid_deleteFilesIgnoringExceptions_4c17800276fc3885,
+            mid_fsync_150aa43f67c22088,
+            mid_requireResourceNonNull_a0ff83d2ec55a8fc,
+            mid_rethrowAlways_d69c7ec9b5fc4dcd,
+            mid_rm_eb073c773e62448a,
+            mid_useOrSuppress_0a89ae3466ad1349,
             max_mid
           };
 

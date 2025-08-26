@@ -28,8 +28,8 @@ namespace org {
         class DocValuesType : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_aa9a66b13da43589,
-            mid_values_b74d616a11fe4e9b,
+            mid_valueOf_ab3345a5f86f4edf,
+            mid_values_39864d84ffc46a66,
             max_mid
           };
 

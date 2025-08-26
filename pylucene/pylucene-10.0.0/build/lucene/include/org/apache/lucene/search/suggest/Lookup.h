@@ -4,41 +4,41 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class InputStream;
-    class OutputStream;
-    class IOException;
-  }
   namespace lang {
     class Class;
     class CharSequence;
   }
+  namespace io {
+    class IOException;
+    class OutputStream;
+    class InputStream;
+  }
   namespace util {
-    class List;
-    class Set;
     class Comparator;
+    class Set;
+    class List;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-        class BytesRef;
-      }
-      namespace store {
-        class DataInput;
-        class DataOutput;
-      }
       namespace search {
-        namespace spell {
-          class Dictionary;
-        }
         namespace suggest {
           class InputIterator;
           class Lookup$LookupResult;
         }
         class BooleanQuery;
+        namespace spell {
+          class Dictionary;
+        }
+      }
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
+      namespace util {
+        class Accountable;
+        class BytesRef;
       }
     }
   }
@@ -54,17 +54,17 @@ namespace org {
           class Lookup : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_build_03bbb0c598eef533,
-              mid_build_ccfc0be4d7c5ce8c,
-              mid_getCount_16939d9d0a9a9721,
-              mid_load_77871f5299d2fb29,
-              mid_load_cc655a2984ac0be1,
-              mid_lookup_04c4840b274727cb,
-              mid_lookup_51465de8e2d90cbd,
-              mid_lookup_2fb7a4da1831fc59,
-              mid_store_85515b48a3b9c57f,
-              mid_store_0269cfd2080fde14,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_build_410748db1e584408,
+              mid_build_3b81cca33403847f,
+              mid_getCount_0f176418e3e16541,
+              mid_load_5150f36f2bb2fad6,
+              mid_load_bcc888246f25b924,
+              mid_lookup_ab31e1c71e0586f4,
+              mid_lookup_0b5d66b5da4a3286,
+              mid_lookup_69499ac9ec5cc8d4,
+              mid_store_357970b8ac2f8d68,
+              mid_store_9bc74ef63311a7a4,
               max_mid
             };
 

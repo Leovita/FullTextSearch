@@ -31,8 +31,8 @@ namespace org {
           class SuggestMode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_5b7807753b0f5d53,
-              mid_values_c6a842255b659129,
+              mid_valueOf_08438ee540daf955,
+              mid_values_94468c0bf72f64b6,
               max_mid
             };
 

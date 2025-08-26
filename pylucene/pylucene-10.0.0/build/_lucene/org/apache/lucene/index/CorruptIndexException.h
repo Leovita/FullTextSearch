@@ -3,6 +3,13 @@
 
 #include "java/io/IOException.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Throwable;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,13 +18,6 @@ namespace org {
         class DataOutput;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Throwable;
   }
 }
 template<class T> class JArray;
@@ -30,14 +30,14 @@ namespace org {
         class CorruptIndexException : public ::java::io::IOException {
          public:
           enum {
-            mid_init$_3d104da0b5c75e64,
-            mid_init$_7de099611a8931b0,
-            mid_init$_2fda85cee6c18713,
-            mid_init$_4435ae0f3e6e306d,
-            mid_init$_0c57df0fed7edf7d,
-            mid_init$_c5240b8335f823b4,
-            mid_getOriginalMessage_09a7afff1868fc5e,
-            mid_getResourceDescription_09a7afff1868fc5e,
+            mid_init$_0dd012a11c3f389b,
+            mid_init$_89ce054d2c211e01,
+            mid_init$_fac111ec535882c4,
+            mid_init$_ad3350eb10c5221d,
+            mid_init$_ba8b544f4017d23a,
+            mid_init$_a9b94f618f14e780,
+            mid_getOriginalMessage_e7df854526d67fa3,
+            mid_getResourceDescription_e7df854526d67fa3,
             max_mid
           };
 

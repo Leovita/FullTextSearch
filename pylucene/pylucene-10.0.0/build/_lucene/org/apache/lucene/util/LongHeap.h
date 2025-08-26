@@ -27,16 +27,16 @@ namespace org {
         class LongHeap : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_clear_3720c61b0679eb3e,
-            mid_get_7b22650fccb5d574,
-            mid_insertWithOverflow_d8a0ab12857291e0,
-            mid_pop_16939d9d0a9a9721,
-            mid_push_91d66fa3ea476cea,
-            mid_pushAll_574551283b21d132,
-            mid_size_20fbf7565993c3d7,
-            mid_top_16939d9d0a9a9721,
-            mid_updateTop_91d66fa3ea476cea,
+            mid_init$_8226bd0b0fc13dba,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_get_49af390f180d8ee7,
+            mid_insertWithOverflow_eae0b285d107fcb0,
+            mid_pop_0f176418e3e16541,
+            mid_push_3dc1c6e3a5a0baf0,
+            mid_pushAll_51807f32ec6113ec,
+            mid_size_bd89ce15dad49192,
+            mid_top_0f176418e3e16541,
+            mid_updateTop_3dc1c6e3a5a0baf0,
             max_mid
           };
 

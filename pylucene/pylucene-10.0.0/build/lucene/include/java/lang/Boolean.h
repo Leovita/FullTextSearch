@@ -5,19 +5,16 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
-    class Boolean;
     class String;
+    class Boolean;
     class Class;
-    namespace constant {
-      class DynamicConstantDesc;
-    }
-  }
-  namespace io {
-    class Serializable;
+    class Comparable;
   }
   namespace util {
     class Optional;
+  }
+  namespace io {
+    class Serializable;
   }
 }
 template<class T> class JArray;
@@ -28,24 +25,23 @@ namespace java {
     class Boolean : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_b110fc3a58c081ab,
-        mid_booleanValue_947277eca0748c4e,
-        mid_compare_5c219f5c80ae3eeb,
-        mid_compareTo_f952748139b47208,
-        mid_describeConstable_d95173840d09a723,
-        mid_equals_570b5248a6da3ef6,
-        mid_getBoolean_4a13a663b5c11133,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_hashCode_42933a2c511fc642,
-        mid_logicalAnd_8d00a228c911b713,
-        mid_logicalOr_8d00a228c911b713,
-        mid_logicalXor_8d00a228c911b713,
-        mid_parseBoolean_4a13a663b5c11133,
-        mid_toString_09a7afff1868fc5e,
-        mid_toString_648fb915d73c5399,
-        mid_valueOf_d02358e115a99e63,
-        mid_valueOf_e662d6014a6ae232,
+        mid_init$_ee46a189998009d6,
+        mid_init$_f5dd97eebf6a215a,
+        mid_booleanValue_9aa4f33e82ea333f,
+        mid_compare_8e9b75d9404e2d90,
+        mid_compareTo_ca4e4f1c0d685206,
+        mid_equals_00d17418847797d4,
+        mid_getBoolean_94f7e759d94961b0,
+        mid_hashCode_bd89ce15dad49192,
+        mid_hashCode_34394399396c7e21,
+        mid_logicalAnd_a2a97ad651c8c02f,
+        mid_logicalOr_a2a97ad651c8c02f,
+        mid_logicalXor_a2a97ad651c8c02f,
+        mid_parseBoolean_94f7e759d94961b0,
+        mid_toString_e7df854526d67fa3,
+        mid_toString_e446331928d0b1c5,
+        mid_valueOf_89085fe4f63f0599,
+        mid_valueOf_0c647b67e9ae0738,
         max_mid
       };
 
@@ -70,7 +66,6 @@ namespace java {
       jboolean booleanValue() const;
       static jint compare(jboolean, jboolean);
       jint compareTo(const Boolean &) const;
-      ::java::util::Optional describeConstable() const;
       jboolean equals(const ::java::lang::Object &) const;
       static jboolean getBoolean(const ::java::lang::String &);
       jint hashCode() const;

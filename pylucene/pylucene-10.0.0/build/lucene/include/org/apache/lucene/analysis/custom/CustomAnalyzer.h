@@ -3,27 +3,7 @@
 
 #include "org/apache/lucene/analysis/Analyzer.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        class TokenizerFactory;
-        class CharFilterFactory;
-        class TokenFilterFactory;
-        namespace custom {
-          class CustomAnalyzer$Builder;
-        }
-      }
-      namespace util {
-        class ResourceLoader;
-      }
-    }
-  }
-}
 namespace java {
-  namespace util {
-    class List;
-  }
   namespace lang {
     class Class;
     class String;
@@ -31,6 +11,26 @@ namespace java {
   namespace nio {
     namespace file {
       class Path;
+    }
+  }
+  namespace util {
+    class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class TokenFilterFactory;
+        class CharFilterFactory;
+        namespace custom {
+          class CustomAnalyzer$Builder;
+        }
+        class TokenizerFactory;
+      }
+      namespace util {
+        class ResourceLoader;
+      }
     }
   }
 }
@@ -45,19 +45,19 @@ namespace org {
           class CustomAnalyzer : public ::org::apache::lucene::analysis::Analyzer {
            public:
             enum {
-              mid_builder_2ec25e4994287f08,
-              mid_builder_471d39035f979c6a,
-              mid_builder_30e52e28e0f89030,
-              mid_getCharFilterFactories_36830460e10839eb,
-              mid_getOffsetGap_3f230d713d7fd2b0,
-              mid_getPositionIncrementGap_3f230d713d7fd2b0,
-              mid_getTokenFilterFactories_36830460e10839eb,
-              mid_getTokenizerFactory_7f99b2e0ff43b678,
-              mid_toString_09a7afff1868fc5e,
-              mid_createComponents_f774fffda992519d,
-              mid_initReader_f755529383524495,
-              mid_initReaderForNormalization_f755529383524495,
-              mid_normalize_9793d650e44fa07f,
+              mid_builder_05785b09dcf57625,
+              mid_builder_fe907a1be78692e0,
+              mid_builder_fc82171caa3b0086,
+              mid_getCharFilterFactories_1387e1e2702ac173,
+              mid_getOffsetGap_fa2a6f298bd618ab,
+              mid_getPositionIncrementGap_fa2a6f298bd618ab,
+              mid_getTokenFilterFactories_1387e1e2702ac173,
+              mid_getTokenizerFactory_d024c9efebe41887,
+              mid_toString_e7df854526d67fa3,
+              mid_createComponents_b734244e69a6c631,
+              mid_initReader_9b0aaf55e5811bc6,
+              mid_initReaderForNormalization_9b0aaf55e5811bc6,
+              mid_normalize_6c106c857ee0afd1,
               max_mid
             };
 

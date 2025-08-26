@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/search/MultiTermQuery$RewriteMethod.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,14 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -37,8 +37,8 @@ namespace org {
           class SpanMultiTermQueryWrapper$SpanRewriteMethod : public ::org::apache::lucene::search::MultiTermQuery$RewriteMethod {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_rewrite_0424510fe17059ea,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_rewrite_aaec0b2f503b1e20,
               max_mid
             };
 

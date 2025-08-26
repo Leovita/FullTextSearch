@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace geo {
+        class GeoEncodingUtils$Component2DPredicate;
         class GeoEncodingUtils$DistancePredicate;
         class Component2D;
-        class GeoEncodingUtils$Component2DPredicate;
       }
     }
   }
@@ -29,16 +29,16 @@ namespace org {
         class GeoEncodingUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_createComponentPredicate_4ca613ba3346f3a8,
-            mid_createDistancePredicate_5f773fe12a2510ff,
-            mid_decodeLatitude_788f636887bfcb79,
-            mid_decodeLatitude_e3202a91a6cc1d13,
-            mid_decodeLongitude_788f636887bfcb79,
-            mid_decodeLongitude_e3202a91a6cc1d13,
-            mid_encodeLatitude_03c0863338a48004,
-            mid_encodeLatitudeCeil_03c0863338a48004,
-            mid_encodeLongitude_03c0863338a48004,
-            mid_encodeLongitudeCeil_03c0863338a48004,
+            mid_createComponentPredicate_bb614b14a0adb2b5,
+            mid_createDistancePredicate_bd8729afd059fa62,
+            mid_decodeLatitude_3bb466f769ef1c7f,
+            mid_decodeLatitude_c2e0de33baae7063,
+            mid_decodeLongitude_3bb466f769ef1c7f,
+            mid_decodeLongitude_c2e0de33baae7063,
+            mid_encodeLatitude_3f0c00a187968ea1,
+            mid_encodeLatitudeCeil_3f0c00a187968ea1,
+            mid_encodeLongitude_3f0c00a187968ea1,
+            mid_encodeLongitudeCeil_3f0c00a187968ea1,
             max_mid
           };
 

@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-    class Reader;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class CharArraySet;
         class CharArrayMap;
+        class CharArraySet;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+    class Reader;
+    class InputStream;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -37,16 +37,16 @@ namespace org {
         class WordlistLoader : public ::java::lang::Object {
          public:
           enum {
-            mid_getSnowballWordSet_ac01ec8d7618f056,
-            mid_getSnowballWordSet_791e05356dccb21f,
-            mid_getSnowballWordSet_fe0266973cfc45d7,
-            mid_getStemDict_48475821588243fc,
-            mid_getWordSet_ac01ec8d7618f056,
-            mid_getWordSet_791e05356dccb21f,
-            mid_getWordSet_fe0266973cfc45d7,
-            mid_getWordSet_df7c71e979b5eec1,
-            mid_getWordSet_286b6f7756febddf,
-            mid_getWordSet_7489af18c3ca37b4,
+            mid_getSnowballWordSet_3ea682a48da060e6,
+            mid_getSnowballWordSet_6f2709c2f236664c,
+            mid_getSnowballWordSet_8c114cc1c8860adb,
+            mid_getStemDict_cd294b6e045cc9ef,
+            mid_getWordSet_3ea682a48da060e6,
+            mid_getWordSet_6f2709c2f236664c,
+            mid_getWordSet_8c114cc1c8860adb,
+            mid_getWordSet_532c23f76551be0d,
+            mid_getWordSet_97a2c425676457d3,
+            mid_getWordSet_858aa1f5dceefe9e,
             max_mid
           };
 

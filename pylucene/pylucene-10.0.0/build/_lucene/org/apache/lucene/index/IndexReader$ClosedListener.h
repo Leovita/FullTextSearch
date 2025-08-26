@@ -30,7 +30,7 @@ namespace org {
         class IndexReader$ClosedListener : public ::java::lang::Object {
          public:
           enum {
-            mid_onClose_e52bbc3bc2235d2f,
+            mid_onClose_879556e826fcd07f,
             max_mid
           };
 

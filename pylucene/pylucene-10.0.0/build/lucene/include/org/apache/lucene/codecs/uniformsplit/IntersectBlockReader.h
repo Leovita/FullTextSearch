@@ -6,12 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
       namespace index {
         class TermsEnum$SeekStatus;
         class TermState;
+      }
+      namespace util {
+        class BytesRef;
       }
     }
   }
@@ -35,16 +35,16 @@ namespace org {
           class IntersectBlockReader : public ::org::apache::lucene::codecs::uniformsplit::BlockReader {
            public:
             enum {
-              mid_next_9740fddd1c7df148,
-              mid_seekCeil_69261b500ab5d3e8,
-              mid_seekExact_f460ee421aade2fd,
-              mid_seekExact_8b3d46852b435a94,
-              mid_seekExact_5c001dd449c905b9,
-              mid_getMinTermLength_20fbf7565993c3d7,
-              mid_seekFirstBlock_947277eca0748c4e,
-              mid_nextTermInBlockMatching_9740fddd1c7df148,
-              mid_endsWithCommonSuffix_468dd27a44f7c451,
-              mid_nextBlock_947277eca0748c4e,
+              mid_next_adbedbc1fa61c358,
+              mid_seekCeil_3c5e68bf2fc0b5b1,
+              mid_seekExact_08ac7a49de309824,
+              mid_seekExact_1d3149fac12f2af3,
+              mid_seekExact_68ebcc8117fd12a5,
+              mid_getMinTermLength_bd89ce15dad49192,
+              mid_seekFirstBlock_9aa4f33e82ea333f,
+              mid_nextTermInBlockMatching_adbedbc1fa61c358,
+              mid_endsWithCommonSuffix_62d838c6d69cbd91,
+              mid_nextBlock_9aa4f33e82ea333f,
               max_mid
             };
 

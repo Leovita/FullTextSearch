@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class Term;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,7 +32,7 @@ namespace org {
             class SimpleTerm$MatchingTermVisitor : public ::java::lang::Object {
              public:
               enum {
-                mid_visitMatchingTerm_3b0982cb6e1bfb9d,
+                mid_visitMatchingTerm_ed33f9e055f7213d,
                 max_mid
               };
 

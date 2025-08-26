@@ -23,7 +23,7 @@ namespace java {
       class UnaryOperator : public ::java::util::function::Function {
        public:
         enum {
-          mid_identity_70a455ee6ba582e3,
+          mid_identity_7f696c6ce7dc2f5a,
           max_mid
         };
 

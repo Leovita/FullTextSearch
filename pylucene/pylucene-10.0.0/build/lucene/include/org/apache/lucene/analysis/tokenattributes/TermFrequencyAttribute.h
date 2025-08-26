@@ -19,8 +19,8 @@ namespace org {
           class TermFrequencyAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_getTermFrequency_20fbf7565993c3d7,
-              mid_setTermFrequency_540b2b23d51b1efd,
+              mid_getTermFrequency_bd89ce15dad49192,
+              mid_setTermFrequency_8226bd0b0fc13dba,
               max_mid
             };
 

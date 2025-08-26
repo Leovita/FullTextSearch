@@ -21,20 +21,20 @@ namespace java {
     class AbstractCollection : public ::java::lang::Object {
      public:
       enum {
-        mid_add_570b5248a6da3ef6,
-        mid_addAll_f2a1f31c5865e20d,
-        mid_clear_3720c61b0679eb3e,
-        mid_contains_570b5248a6da3ef6,
-        mid_containsAll_f2a1f31c5865e20d,
-        mid_isEmpty_947277eca0748c4e,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_remove_570b5248a6da3ef6,
-        mid_removeAll_f2a1f31c5865e20d,
-        mid_retainAll_f2a1f31c5865e20d,
-        mid_size_20fbf7565993c3d7,
-        mid_toArray_e6b839682a4610a6,
-        mid_toArray_1794d6b866766560,
-        mid_toString_09a7afff1868fc5e,
+        mid_add_00d17418847797d4,
+        mid_addAll_155d0ed876869448,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_contains_00d17418847797d4,
+        mid_containsAll_155d0ed876869448,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_iterator_c7985fafdcf40e83,
+        mid_remove_00d17418847797d4,
+        mid_removeAll_155d0ed876869448,
+        mid_retainAll_155d0ed876869448,
+        mid_size_bd89ce15dad49192,
+        mid_toArray_1e688954528bc160,
+        mid_toArray_0b4a993b49b6d8e8,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

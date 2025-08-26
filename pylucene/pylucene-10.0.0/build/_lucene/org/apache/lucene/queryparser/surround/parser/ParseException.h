@@ -34,9 +34,9 @@ namespace org {
             class ParseException : public ::java::lang::Exception {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_0d82408c6e55bc30,
-                mid_init$_05b30ae865412ce5,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_ee46a189998009d6,
+                mid_init$_6d8cb5e8d6029905,
                 max_mid
               };
 

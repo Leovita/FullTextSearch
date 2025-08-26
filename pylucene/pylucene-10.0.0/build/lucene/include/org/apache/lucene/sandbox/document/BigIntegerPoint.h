@@ -3,6 +3,13 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -13,13 +20,6 @@ namespace org {
         class BytesRef;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
   }
 }
 template<class T> class JArray;
@@ -33,9 +33,9 @@ namespace org {
           class BigIntegerPoint : public ::org::apache::lucene::document::Field {
            public:
             enum {
-              mid_numericValue_1b3282bb4db06655,
-              mid_setBytesValue_ac0de3ee0e03786d,
-              mid_toString_09a7afff1868fc5e,
+              mid_numericValue_b9665294ea488d3c,
+              mid_setBytesValue_920ce0cdf4259cc9,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

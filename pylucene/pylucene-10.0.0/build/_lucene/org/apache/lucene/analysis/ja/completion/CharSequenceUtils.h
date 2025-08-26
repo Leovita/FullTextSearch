@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class CharSequence;
     class String;
+    class CharSequence;
     class Class;
   }
 }
@@ -22,11 +22,11 @@ namespace org {
             class CharSequenceUtils : public ::java::lang::Object {
              public:
               enum {
-                mid_isFullWidthLowercaseAlphabet_4e84a8c37896b7c5,
-                mid_isKana_7fa88c8af67956ed,
-                mid_isKatakanaOrHWAlphabets_7fa88c8af67956ed,
-                mid_isLowercaseAlphabets_7fa88c8af67956ed,
-                mid_toKatakana_6a539e37dce707b2,
+                mid_isFullWidthLowercaseAlphabet_96a1e5bdb33dde4e,
+                mid_isKana_966cbeda474fd26b,
+                mid_isKatakanaOrHWAlphabets_966cbeda474fd26b,
+                mid_isLowercaseAlphabets_966cbeda474fd26b,
+                mid_toKatakana_0576c4725b7087da,
                 max_mid
               };
 

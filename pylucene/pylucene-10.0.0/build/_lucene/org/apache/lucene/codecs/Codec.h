@@ -7,18 +7,18 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace codecs {
-        class PointsFormat;
-        class KnnVectorsFormat;
-        class FieldInfosFormat;
-        class PostingsFormat;
         class DocValuesFormat;
-        class CompoundFormat;
-        class Codec;
-        class TermVectorsFormat;
         class LiveDocsFormat;
-        class NormsFormat;
+        class PointsFormat;
+        class PostingsFormat;
         class SegmentInfoFormat;
         class StoredFieldsFormat;
+        class Codec;
+        class TermVectorsFormat;
+        class CompoundFormat;
+        class KnnVectorsFormat;
+        class FieldInfosFormat;
+        class NormsFormat;
       }
       namespace util {
         class NamedSPILoader$NamedSPI;
@@ -46,24 +46,24 @@ namespace org {
         class Codec : public ::java::lang::Object {
          public:
           enum {
-            mid_availableCodecs_4df174295554d7bd,
-            mid_compoundFormat_6844789daef630cb,
-            mid_docValuesFormat_06c1ab6be6539da4,
-            mid_fieldInfosFormat_3cf8b5a331e8768e,
-            mid_forName_b9fc148eb4ab37f2,
-            mid_getDefault_39da0291d4509749,
-            mid_getName_09a7afff1868fc5e,
-            mid_knnVectorsFormat_9f07a770763426f0,
-            mid_liveDocsFormat_739fbeb532ce34a5,
-            mid_normsFormat_3022cec2c411efb0,
-            mid_pointsFormat_b32c61a9161d0f11,
-            mid_postingsFormat_019d203d73665477,
-            mid_reloadCodecs_7e882e12061eaf38,
-            mid_segmentInfoFormat_63cfb57cea7dab8a,
-            mid_setDefault_97e34c08d1ad9d65,
-            mid_storedFieldsFormat_516d3e968c6386e2,
-            mid_termVectorsFormat_f9a872e2edb74504,
-            mid_toString_09a7afff1868fc5e,
+            mid_availableCodecs_79131c6bbcf08916,
+            mid_compoundFormat_5ccf17d12737e472,
+            mid_docValuesFormat_8bc23da4b70aa111,
+            mid_fieldInfosFormat_432de80d6afc329d,
+            mid_forName_06f5fbe600d54c76,
+            mid_getDefault_820c7dce26df28db,
+            mid_getName_e7df854526d67fa3,
+            mid_knnVectorsFormat_7fac28f68239bf9f,
+            mid_liveDocsFormat_a14df1a2ec4b52a0,
+            mid_normsFormat_119c76c8e09b0ea4,
+            mid_pointsFormat_64e9dcd452234bc9,
+            mid_postingsFormat_d6a14e29d4b97c21,
+            mid_reloadCodecs_d603563f542d31ba,
+            mid_segmentInfoFormat_b7e39676955b97da,
+            mid_setDefault_c295922ff311d3f8,
+            mid_storedFieldsFormat_8cf5ac770f75a8f2,
+            mid_termVectorsFormat_4ef406c4238ea10b,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

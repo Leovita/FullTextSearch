@@ -22,11 +22,11 @@ namespace org {
         class Tokenizer : public ::org::apache::lucene::analysis::TokenStream {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_reset_3720c61b0679eb3e,
-            mid_setReader_fa55492f0f5d7f31,
-            mid_correctOffset_3c9bba330f083871,
-            mid_setReaderTestPoint_3720c61b0679eb3e,
+            mid_close_e7bdbe105ce1bafb,
+            mid_reset_e7bdbe105ce1bafb,
+            mid_setReader_89ab2bee9aa84b00,
+            mid_correctOffset_a3904e10f5bb9437,
+            mid_setReaderTestPoint_e7bdbe105ce1bafb,
             max_mid
           };
 

@@ -8,8 +8,8 @@ namespace java {
     class IOException;
   }
   namespace lang {
-    class String;
     class Class;
+    class String;
   }
   namespace util {
     class Set;
@@ -35,13 +35,13 @@ namespace org {
           class WikipediaTokenizer : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_0f58f229782f5805,
-              mid_init$_c761901f15168b69,
-              mid_close_3720c61b0679eb3e,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8f327b118d75eccc,
+              mid_init$_09c0fe4e6bbaf32b,
+              mid_close_e7bdbe105ce1bafb,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

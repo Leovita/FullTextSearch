@@ -3,20 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class DocValuesSkipIndexType;
-        class DocValuesType;
-        class VectorSimilarityFunction;
-        class VectorEncoding;
-        class IndexOptions;
-        class IndexableFieldType;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -24,6 +10,20 @@ namespace java {
   }
   namespace util {
     class Map;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class VectorEncoding;
+        class VectorSimilarityFunction;
+        class IndexOptions;
+        class DocValuesType;
+        class DocValuesSkipIndexType;
+        class IndexableFieldType;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,44 +36,44 @@ namespace org {
         class FieldType : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_7ce3b4ded8e60180,
-            mid_docValuesSkipIndexType_105258e940575563,
-            mid_docValuesType_0ce8ab755e2afd1f,
-            mid_equals_570b5248a6da3ef6,
-            mid_freeze_3720c61b0679eb3e,
-            mid_getAttributes_f125f26c07a7bec8,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_indexOptions_0d9f22852de1dba6,
-            mid_omitNorms_947277eca0748c4e,
-            mid_pointDimensionCount_20fbf7565993c3d7,
-            mid_pointIndexDimensionCount_20fbf7565993c3d7,
-            mid_pointNumBytes_20fbf7565993c3d7,
-            mid_putAttribute_6829292399b85216,
-            mid_setDimensions_e13cff512ebda969,
-            mid_setDimensions_20022b6d5e83c732,
-            mid_setDocValuesSkipIndexType_6da6475cf967a0ba,
-            mid_setDocValuesType_55494b517509e0e2,
-            mid_setIndexOptions_9f58bcf4414b6d8e,
-            mid_setOmitNorms_b110fc3a58c081ab,
-            mid_setStoreTermVectorOffsets_b110fc3a58c081ab,
-            mid_setStoreTermVectorPayloads_b110fc3a58c081ab,
-            mid_setStoreTermVectorPositions_b110fc3a58c081ab,
-            mid_setStoreTermVectors_b110fc3a58c081ab,
-            mid_setStored_b110fc3a58c081ab,
-            mid_setTokenized_b110fc3a58c081ab,
-            mid_setVectorAttributes_6d6cd28169bf0ad2,
-            mid_storeTermVectorOffsets_947277eca0748c4e,
-            mid_storeTermVectorPayloads_947277eca0748c4e,
-            mid_storeTermVectorPositions_947277eca0748c4e,
-            mid_storeTermVectors_947277eca0748c4e,
-            mid_stored_947277eca0748c4e,
-            mid_toString_09a7afff1868fc5e,
-            mid_tokenized_947277eca0748c4e,
-            mid_vectorDimension_20fbf7565993c3d7,
-            mid_vectorEncoding_89ee194538cd6149,
-            mid_vectorSimilarityFunction_ab08f5c5789ece7c,
-            mid_checkIfFrozen_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_e51ea12399bd1491,
+            mid_docValuesSkipIndexType_97cc35d5a06c6328,
+            mid_docValuesType_632981fa09914ed1,
+            mid_equals_00d17418847797d4,
+            mid_freeze_e7bdbe105ce1bafb,
+            mid_getAttributes_5004bdf19ed33453,
+            mid_hashCode_bd89ce15dad49192,
+            mid_indexOptions_898aff4631b0024a,
+            mid_omitNorms_9aa4f33e82ea333f,
+            mid_pointDimensionCount_bd89ce15dad49192,
+            mid_pointIndexDimensionCount_bd89ce15dad49192,
+            mid_pointNumBytes_bd89ce15dad49192,
+            mid_putAttribute_3bdb499546f6bd60,
+            mid_setDimensions_645c25455f5b9b1c,
+            mid_setDimensions_eee637a6cebc299b,
+            mid_setDocValuesSkipIndexType_93ca4e40aa92693f,
+            mid_setDocValuesType_e61a48e17304d135,
+            mid_setIndexOptions_9963edb5d3f3ba8a,
+            mid_setOmitNorms_f5dd97eebf6a215a,
+            mid_setStoreTermVectorOffsets_f5dd97eebf6a215a,
+            mid_setStoreTermVectorPayloads_f5dd97eebf6a215a,
+            mid_setStoreTermVectorPositions_f5dd97eebf6a215a,
+            mid_setStoreTermVectors_f5dd97eebf6a215a,
+            mid_setStored_f5dd97eebf6a215a,
+            mid_setTokenized_f5dd97eebf6a215a,
+            mid_setVectorAttributes_6e114979f9883564,
+            mid_storeTermVectorOffsets_9aa4f33e82ea333f,
+            mid_storeTermVectorPayloads_9aa4f33e82ea333f,
+            mid_storeTermVectorPositions_9aa4f33e82ea333f,
+            mid_storeTermVectors_9aa4f33e82ea333f,
+            mid_stored_9aa4f33e82ea333f,
+            mid_toString_e7df854526d67fa3,
+            mid_tokenized_9aa4f33e82ea333f,
+            mid_vectorDimension_bd89ce15dad49192,
+            mid_vectorEncoding_667892793043e3ed,
+            mid_vectorSimilarityFunction_0f05516cfc8fbfdc,
+            mid_checkIfFrozen_e7bdbe105ce1bafb,
             max_mid
           };
 

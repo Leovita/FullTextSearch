@@ -3,25 +3,25 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class DataInput;
-        class DataOutput;
-      }
-      namespace util {
-        class GroupVIntUtil$IntReader;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class GroupVIntUtil$IntReader;
+      }
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -34,11 +34,11 @@ namespace org {
         class GroupVIntUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_readGroupVInt_48865982d1e1d4a0,
-            mid_readGroupVInt_2775316fcbec5fbf,
-            mid_readGroupVInts_48865982d1e1d4a0,
-            mid_writeGroupVInts_0c776a931de867fe,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_readGroupVInt_c94dcf8d5ed61430,
+            mid_readGroupVInt_b0a9cb19a0433bb2,
+            mid_readGroupVInts_c94dcf8d5ed61430,
+            mid_writeGroupVInts_76d494c135499a9f,
             max_mid
           };
 

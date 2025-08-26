@@ -3,23 +3,23 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Query;
-        class BooleanQuery;
-        class BoostQuery;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
   }
   namespace util {
     class Set;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class BoostQuery;
+        class Query;
+        class BooleanQuery;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
         class QueryDecomposer : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_decompose_fa57c664c3602578,
-            mid_decomposeBoolean_d978dfecad4ac5ed,
-            mid_decomposeBoostQuery_27ad7103ce3dfe1d,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_decompose_ca9fd20ba851b2a9,
+            mid_decomposeBoolean_77a2b729f26c8c2d,
+            mid_decomposeBoostQuery_9ad3c2c6cb778fe4,
             max_mid
           };
 

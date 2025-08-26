@@ -31,8 +31,8 @@ namespace org {
           class GeoAreaFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_makeGeoArea_843837890d8ad834,
-              mid_makeGeoArea_bac2e411e9a0dbd2,
+              mid_makeGeoArea_4251c64a6520c4e2,
+              mid_makeGeoArea_46895a82af0e5a3b,
               max_mid
             };
 

@@ -27,9 +27,9 @@ namespace org {
         class TopOrdAndNumberQueue : public ::org::apache::lucene::util::PriorityQueue {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_lessThan_c193e5215bc60cd4,
-            mid_newOrdAndValue_b0a5a9c6421d7f7b,
+            mid_init$_8226bd0b0fc13dba,
+            mid_lessThan_798318c0b9506425,
+            mid_newOrdAndValue_8454d5ca47f5be85,
             max_mid
           };
 

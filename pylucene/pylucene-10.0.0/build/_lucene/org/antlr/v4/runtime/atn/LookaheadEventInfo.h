@@ -31,7 +31,7 @@ namespace org {
           class LookaheadEventInfo : public ::org::antlr::v4::runtime::atn::DecisionEventInfo {
            public:
             enum {
-              mid_init$_64036c46646bca10,
+              mid_init$_6b0a410991f28f07,
               max_mid
             };
 

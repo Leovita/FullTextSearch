@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/TokenFilter.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -32,20 +32,20 @@ namespace org {
           class ShingleFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_init$_d99a6a0dc69b5152,
-              mid_init$_040618eef88cc819,
-              mid_init$_e05e82644d70e02c,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_setFillerToken_0d82408c6e55bc30,
-              mid_setMaxShingleSize_540b2b23d51b1efd,
-              mid_setMinShingleSize_540b2b23d51b1efd,
-              mid_setOutputUnigrams_b110fc3a58c081ab,
-              mid_setOutputUnigramsIfNoShingles_b110fc3a58c081ab,
-              mid_setTokenSeparator_0d82408c6e55bc30,
-              mid_setTokenType_0d82408c6e55bc30,
+              mid_init$_4fe096967a533954,
+              mid_init$_8418fe9e89083363,
+              mid_init$_40ae3e19a9468a36,
+              mid_init$_2184c5b3e9ae83b3,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setFillerToken_ee46a189998009d6,
+              mid_setMaxShingleSize_8226bd0b0fc13dba,
+              mid_setMinShingleSize_8226bd0b0fc13dba,
+              mid_setOutputUnigrams_f5dd97eebf6a215a,
+              mid_setOutputUnigramsIfNoShingles_f5dd97eebf6a215a,
+              mid_setTokenSeparator_ee46a189998009d6,
+              mid_setTokenType_ee46a189998009d6,
               max_mid
             };
 

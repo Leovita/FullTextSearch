@@ -19,7 +19,7 @@ namespace org {
         class CheckedIntConsumer : public ::java::lang::Object {
          public:
           enum {
-            mid_accept_540b2b23d51b1efd,
+            mid_accept_8226bd0b0fc13dba,
             max_mid
           };
 

@@ -15,8 +15,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class DocIdSetIterator;
         class TwoPhaseIterator;
+        class DocIdSetIterator;
       }
     }
   }
@@ -32,13 +32,13 @@ namespace org {
           class ValueSourceScorer : public ::org::apache::lucene::search::Scorer {
            public:
             enum {
-              mid_docID_20fbf7565993c3d7,
-              mid_getMaxScore_29cfa01aaad92564,
-              mid_iterator_fc644a826c65d236,
-              mid_matches_ae22d3a856ad56f1,
-              mid_score_9b6c3480dac00edf,
-              mid_twoPhaseIterator_28c4f2cd9e5f8da7,
-              mid_matchCost_9b6c3480dac00edf,
+              mid_docID_bd89ce15dad49192,
+              mid_getMaxScore_5873a23b935a9d49,
+              mid_iterator_b78969502cbf4939,
+              mid_matches_a8281eb3b9d9672d,
+              mid_score_8b62236f0e4d0dbc,
+              mid_twoPhaseIterator_c827d3ab11221e86,
+              mid_matchCost_8b62236f0e4d0dbc,
               max_mid
             };
 

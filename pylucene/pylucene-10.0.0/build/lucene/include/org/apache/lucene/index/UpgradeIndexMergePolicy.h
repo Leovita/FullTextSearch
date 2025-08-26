@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
+        class SegmentCommitInfo;
+        class MergePolicy;
         class MergePolicy$MergeSpecification;
         class SegmentInfos;
-        class SegmentCommitInfo;
         class MergePolicy$MergeContext;
-        class MergePolicy;
         class MergeTrigger;
       }
     }
@@ -39,10 +39,10 @@ namespace org {
         class UpgradeIndexMergePolicy : public ::org::apache::lucene::index::FilterMergePolicy {
          public:
           enum {
-            mid_init$_da6a0a436510179f,
-            mid_findForcedMerges_d4963384c8456639,
-            mid_findMerges_0275979aa5326fa2,
-            mid_shouldUpgradeSegment_b56e3f80943571da,
+            mid_init$_ca149660d3a98b53,
+            mid_findForcedMerges_b54ded85c2bde575,
+            mid_findMerges_6813602a04f57061,
+            mid_shouldUpgradeSegment_c9718ef738158846,
             max_mid
           };
 

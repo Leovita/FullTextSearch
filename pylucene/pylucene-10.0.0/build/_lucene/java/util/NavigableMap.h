@@ -4,14 +4,14 @@
 #include "java/util/SortedMap.h"
 
 namespace java {
-  namespace lang {
-    class Class;
-    class Object;
-  }
   namespace util {
+    class NavigableMap;
     class Map$Entry;
     class NavigableSet;
-    class NavigableMap;
+  }
+  namespace lang {
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -22,28 +22,28 @@ namespace java {
     class NavigableMap : public ::java::util::SortedMap {
      public:
       enum {
-        mid_ceilingEntry_686dc5cf32c6071b,
-        mid_ceilingKey_5fd81664d2d475e1,
-        mid_descendingKeySet_556010bda6404a08,
-        mid_descendingMap_511c5e4893227999,
-        mid_firstEntry_158df3d9a50522a0,
-        mid_floorEntry_686dc5cf32c6071b,
-        mid_floorKey_5fd81664d2d475e1,
-        mid_headMap_6286144843a4831e,
-        mid_headMap_f9e7f4150d560996,
-        mid_higherEntry_686dc5cf32c6071b,
-        mid_higherKey_5fd81664d2d475e1,
-        mid_lastEntry_158df3d9a50522a0,
-        mid_lowerEntry_686dc5cf32c6071b,
-        mid_lowerKey_5fd81664d2d475e1,
-        mid_navigableKeySet_556010bda6404a08,
-        mid_pollFirstEntry_158df3d9a50522a0,
-        mid_pollLastEntry_158df3d9a50522a0,
-        mid_reversed_511c5e4893227999,
-        mid_subMap_e4438454b46669df,
-        mid_subMap_4ffc6bc94844fffa,
-        mid_tailMap_6286144843a4831e,
-        mid_tailMap_f9e7f4150d560996,
+        mid_ceilingEntry_0ab1b684fe0b3ffd,
+        mid_ceilingKey_e2c45b124c12f4ec,
+        mid_descendingKeySet_14f8c5e2b19c135d,
+        mid_descendingMap_d500931568b47f59,
+        mid_firstEntry_74fc562d8145a290,
+        mid_floorEntry_0ab1b684fe0b3ffd,
+        mid_floorKey_e2c45b124c12f4ec,
+        mid_headMap_dbc886c56c0dce27,
+        mid_headMap_fbd78e8469b4b395,
+        mid_higherEntry_0ab1b684fe0b3ffd,
+        mid_higherKey_e2c45b124c12f4ec,
+        mid_lastEntry_74fc562d8145a290,
+        mid_lowerEntry_0ab1b684fe0b3ffd,
+        mid_lowerKey_e2c45b124c12f4ec,
+        mid_navigableKeySet_14f8c5e2b19c135d,
+        mid_pollFirstEntry_74fc562d8145a290,
+        mid_pollLastEntry_74fc562d8145a290,
+        mid_reversed_d500931568b47f59,
+        mid_subMap_5243e52c9d1e1c58,
+        mid_subMap_94aca455709c7eb0,
+        mid_tailMap_dbc886c56c0dce27,
+        mid_tailMap_fbd78e8469b4b395,
         max_mid
       };
 

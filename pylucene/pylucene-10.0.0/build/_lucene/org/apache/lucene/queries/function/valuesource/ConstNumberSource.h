@@ -21,13 +21,13 @@ namespace org {
             class ConstNumberSource : public ::org::apache::lucene::queries::function::ValueSource {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_getBool_947277eca0748c4e,
-                mid_getDouble_32caabaad86c508b,
-                mid_getFloat_9b6c3480dac00edf,
-                mid_getInt_20fbf7565993c3d7,
-                mid_getLong_16939d9d0a9a9721,
-                mid_getNumber_1b3282bb4db06655,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_getBool_9aa4f33e82ea333f,
+                mid_getDouble_6fb37e123fed7a1f,
+                mid_getFloat_8b62236f0e4d0dbc,
+                mid_getInt_bd89ce15dad49192,
+                mid_getLong_0f176418e3e16541,
+                mid_getNumber_b9665294ea488d3c,
                 max_mid
               };
 

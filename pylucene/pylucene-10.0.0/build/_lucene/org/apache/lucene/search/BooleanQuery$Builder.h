@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
-        class BooleanQuery$Builder;
-        class BooleanQuery;
-        class BooleanClause;
         class BooleanClause$Occur;
+        class Query;
+        class BooleanQuery;
+        class BooleanQuery$Builder;
+        class BooleanClause;
       }
     }
   }
@@ -31,11 +31,11 @@ namespace org {
         class BooleanQuery$Builder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_2b4730fea7115eb2,
-            mid_add_810c2b3ea4c420f9,
-            mid_build_3eae9b713ba41739,
-            mid_setMinimumNumberShouldMatch_aa5bbea7a2e9bcc2,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_4a430887988f973c,
+            mid_add_12ce464fac13e364,
+            mid_build_57af5ee936a9bf96,
+            mid_setMinimumNumberShouldMatch_7d773f77d52b4f8a,
             max_mid
           };
 

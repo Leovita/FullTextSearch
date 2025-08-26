@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace hnsw {
-          class HnswBuilder;
-          class OnHeapHnswGraph;
           class HnswGraphBuilder;
+          class OnHeapHnswGraph;
+          class HnswBuilder;
           class RandomVectorScorerSupplier;
         }
         class InfoStream;
@@ -19,12 +19,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,14 +38,14 @@ namespace org {
           class HnswGraphBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_addGraphNode_540b2b23d51b1efd,
-              mid_build_9fd6d69296ace9c0,
-              mid_create_a492410c4cda9ca6,
-              mid_create_396ee732edd24843,
-              mid_getCompletedGraph_7f2a628e64b61b56,
-              mid_getGraph_7f2a628e64b61b56,
-              mid_setInfoStream_3b3e574f321bdf38,
-              mid_addVectors_e13cff512ebda969,
+              mid_addGraphNode_8226bd0b0fc13dba,
+              mid_build_890c1737c7309e31,
+              mid_create_c2c83cdf311aaa5e,
+              mid_create_3d6266191837d513,
+              mid_getCompletedGraph_c6522999a4810969,
+              mid_getGraph_c6522999a4810969,
+              mid_setInfoStream_f10e797612112ab1,
+              mid_addVectors_645c25455f5b9b1c,
               max_mid
             };
 

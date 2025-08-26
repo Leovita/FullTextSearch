@@ -4,13 +4,13 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace nio {
     namespace file {
       class FileVisitResult;
     }
-  }
-  namespace io {
-    class IOException;
   }
   namespace lang {
     class Class;
@@ -25,8 +25,8 @@ namespace java {
       class FileVisitor : public ::java::lang::Object {
        public:
         enum {
-          mid_postVisitDirectory_2720566c7a66aa00,
-          mid_visitFileFailed_2720566c7a66aa00,
+          mid_postVisitDirectory_69e0b5e988d2efb8,
+          mid_visitFileFailed_69e0b5e988d2efb8,
           max_mid
         };
 

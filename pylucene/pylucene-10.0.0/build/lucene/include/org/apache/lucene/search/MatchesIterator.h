@@ -3,22 +3,22 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Query;
-        class MatchesIterator;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class MatchesIterator;
+        class Query;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -31,13 +31,13 @@ namespace org {
         class MatchesIterator : public ::java::lang::Object {
          public:
           enum {
-            mid_endOffset_20fbf7565993c3d7,
-            mid_endPosition_20fbf7565993c3d7,
-            mid_getQuery_a3eacfacada795d4,
-            mid_getSubMatches_3f11969203dc36b5,
-            mid_next_947277eca0748c4e,
-            mid_startOffset_20fbf7565993c3d7,
-            mid_startPosition_20fbf7565993c3d7,
+            mid_endOffset_bd89ce15dad49192,
+            mid_endPosition_bd89ce15dad49192,
+            mid_getQuery_ffa7bd087b2a75aa,
+            mid_getSubMatches_c52001fbf5524745,
+            mid_next_9aa4f33e82ea333f,
+            mid_startOffset_bd89ce15dad49192,
+            mid_startPosition_bd89ce15dad49192,
             max_mid
           };
 

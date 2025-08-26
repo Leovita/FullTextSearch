@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorer;
-        class DocIdSetIterator;
         class TwoPhaseIterator;
+        class DocIdSetIterator;
         class DisiWrapper;
+        class Scorer;
       }
     }
   }
@@ -30,7 +30,7 @@ namespace org {
         class DisiWrapper : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_53f26636e24b2902,
+            mid_init$_c609d371cee67844,
             max_mid
           };
 

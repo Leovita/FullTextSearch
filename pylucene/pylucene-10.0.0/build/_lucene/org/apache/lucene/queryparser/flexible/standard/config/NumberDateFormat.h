@@ -8,11 +8,11 @@ namespace java {
     class DateFormat;
   }
   namespace lang {
-    class Class;
-    class String;
-    class Number;
     class Object;
+    class Class;
+    class Number;
     class StringBuffer;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -28,7 +28,7 @@ namespace org {
               class NumberDateFormat : public ::java::text::NumberFormat {
                public:
                 enum {
-                  mid_init$_be5ecf0a8d09a802,
+                  mid_init$_f7ec05250faa6e38,
                   max_mid
                 };
 

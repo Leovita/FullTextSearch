@@ -3,21 +3,19 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class TermQuery;
+      }
       namespace queryparser {
         namespace flexible {
           namespace core {
+            class QueryNodeException;
             namespace nodes {
               class QueryNode;
             }
-            class QueryNodeException;
           }
           namespace standard {
             namespace builders {
@@ -26,10 +24,12 @@ namespace org {
           }
         }
       }
-      namespace search {
-        class TermQuery;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -45,8 +45,8 @@ namespace org {
               class DummyQueryNodeBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_build_e82074c9c73a95c7,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_build_a77623cc3a80bc20,
                   max_mid
                 };
 

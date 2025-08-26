@@ -18,10 +18,10 @@ namespace org {
         class TermCollectingRewrite : public ::org::apache::lucene::search::MultiTermQuery$RewriteMethod {
          public:
           enum {
-            mid_getTopLevelBuilder_5655ed8670534604,
-            mid_addClause_2fdcff0f1bf80e3a,
-            mid_addClause_681a75e12629dc23,
-            mid_build_80fe84d59ec98a34,
+            mid_getTopLevelBuilder_4819806f62f1360a,
+            mid_addClause_cec8bec8b987d074,
+            mid_addClause_bd866db54389b1be,
+            mid_build_ed45877c7a10d1ee,
             max_mid
           };
 

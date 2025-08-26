@@ -11,13 +11,16 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class MultiPhraseQuery;
+      }
       namespace queryparser {
         namespace flexible {
           namespace core {
+            class QueryNodeException;
             namespace nodes {
               class QueryNode;
             }
-            class QueryNodeException;
           }
           namespace standard {
             namespace builders {
@@ -25,9 +28,6 @@ namespace org {
             }
           }
         }
-      }
-      namespace search {
-        class MultiPhraseQuery;
       }
     }
   }
@@ -45,8 +45,8 @@ namespace org {
               class MultiPhraseQueryNodeBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_build_6fc6c227854e56a5,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_build_ff78336c0a42e4fb,
                   max_mid
                 };
 

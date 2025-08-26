@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class KnnVectorValues;
+      }
       namespace util {
+        class Bits;
         namespace hnsw {
           class RandomVectorScorer;
         }
-        class Bits;
-      }
-      namespace index {
-        class KnnVectorValues;
       }
     }
   }
@@ -34,10 +34,10 @@ namespace org {
           class RandomVectorScorer$AbstractRandomVectorScorer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_f2404756915b7747,
-              mid_getAcceptOrds_372c76d90ab3ad4a,
-              mid_maxOrd_20fbf7565993c3d7,
-              mid_ordToDoc_3c9bba330f083871,
+              mid_init$_010a652a5689fe1b,
+              mid_getAcceptOrds_952ad757d5b0c3b2,
+              mid_maxOrd_bd89ce15dad49192,
+              mid_ordToDoc_a3904e10f5bb9437,
               max_mid
             };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
         class ScoreMode;
+        class Scorable;
         namespace grouping {
           class GroupFacetCollector$GroupedFacetResult;
         }
@@ -35,11 +35,11 @@ namespace org {
           class GroupFacetCollector : public ::org::apache::lucene::search::SimpleCollector {
            public:
             enum {
-              mid_finish_3720c61b0679eb3e,
-              mid_mergeSegmentResults_b185eb54f7bc18da,
-              mid_scoreMode_45dfdcf7e901559d,
-              mid_setScorer_dd42dde4c0a7db1e,
-              mid_createSegmentResult_126c98737b968deb,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_mergeSegmentResults_37faa82ffe359e88,
+              mid_scoreMode_23e7061dcdc84768,
+              mid_setScorer_c06bdf7d53c6460a,
+              mid_createSegmentResult_6e7ad3ef5181863a,
               max_mid
             };
 

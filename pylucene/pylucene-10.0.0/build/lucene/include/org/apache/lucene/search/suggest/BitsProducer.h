@@ -34,7 +34,7 @@ namespace org {
           class BitsProducer : public ::java::lang::Object {
            public:
             enum {
-              mid_getBits_54a859af6c2592ba,
+              mid_getBits_dd0b1ea8b5086f8e,
               max_mid
             };
 

@@ -21,7 +21,7 @@ namespace org {
         class IORunnable : public ::java::lang::Object {
          public:
           enum {
-            mid_run_3720c61b0679eb3e,
+            mid_run_e7bdbe105ce1bafb,
             max_mid
           };
 

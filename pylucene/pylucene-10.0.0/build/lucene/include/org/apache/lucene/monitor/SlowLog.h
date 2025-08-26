@@ -8,9 +8,9 @@ namespace java {
     class Iterator;
   }
   namespace lang {
+    class Iterable;
     class Class;
     class String;
-    class Iterable;
   }
 }
 namespace org {
@@ -32,9 +32,9 @@ namespace org {
         class SlowLog : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_iterator_c7985fafdcf40e83,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

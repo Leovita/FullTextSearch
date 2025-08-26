@@ -6,12 +6,12 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-      }
       namespace search {
         class DoubleValuesSource;
         class LongValuesSource;
+      }
+      namespace index {
+        class Term;
       }
     }
   }
@@ -33,15 +33,15 @@ namespace org {
           class IndexReaderFunctions : public ::java::lang::Object {
            public:
             enum {
-              mid_docCount_fc4fee8eaa090fbd,
-              mid_docFreq_1044c1f52a13a7e3,
-              mid_maxDoc_7219b817ce6d1d1a,
-              mid_numDeletedDocs_7219b817ce6d1d1a,
-              mid_numDocs_7219b817ce6d1d1a,
-              mid_sumDocFreq_fc4fee8eaa090fbd,
-              mid_sumTotalTermFreq_a8c5a945f16e5905,
-              mid_termFreq_1044c1f52a13a7e3,
-              mid_totalTermFreq_1044c1f52a13a7e3,
+              mid_docCount_4dceecd0b9399ae8,
+              mid_docFreq_20aca14e56397da0,
+              mid_maxDoc_a04bc8c3654a6fd5,
+              mid_numDeletedDocs_a04bc8c3654a6fd5,
+              mid_numDocs_a04bc8c3654a6fd5,
+              mid_sumDocFreq_4dceecd0b9399ae8,
+              mid_sumTotalTermFreq_e96f3be9115c0ad7,
+              mid_termFreq_20aca14e56397da0,
+              mid_totalTermFreq_20aca14e56397da0,
               max_mid
             };
 

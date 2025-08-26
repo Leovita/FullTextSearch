@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Query;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -19,6 +10,15 @@ namespace java {
   }
   namespace util {
     class Map;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class Query;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -31,15 +31,15 @@ namespace org {
         class MonitorQuery : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3a7caebbff9089ff,
-            mid_init$_dc0fec6b20e6ea08,
-            mid_equals_570b5248a6da3ef6,
-            mid_getId_09a7afff1868fc5e,
-            mid_getMetadata_f125f26c07a7bec8,
-            mid_getQuery_a3eacfacada795d4,
-            mid_getQueryString_09a7afff1868fc5e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_526f2ae9dd799047,
+            mid_init$_890a6a390eb7ae17,
+            mid_equals_00d17418847797d4,
+            mid_getId_e7df854526d67fa3,
+            mid_getMetadata_5004bdf19ed33453,
+            mid_getQuery_ffa7bd087b2a75aa,
+            mid_getQueryString_e7df854526d67fa3,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

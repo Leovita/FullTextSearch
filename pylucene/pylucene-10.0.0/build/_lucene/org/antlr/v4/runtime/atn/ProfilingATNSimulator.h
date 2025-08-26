@@ -3,23 +3,23 @@
 
 #include "org/antlr/v4/runtime/atn/ParserATNSimulator.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class Parser;
         class TokenStream;
+        class Parser;
         namespace atn {
           class DecisionInfo;
         }
         class ParserRuleContext;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -33,16 +33,16 @@ namespace org {
           class ProfilingATNSimulator : public ::org::antlr::v4::runtime::atn::ParserATNSimulator {
            public:
             enum {
-              mid_init$_c54371d1025687ef,
-              mid_adaptivePredict_12b1c8e21827aa0e,
-              mid_getDecisionInfo_8363648230130448,
-              mid_reportAmbiguity_3a3363f43d42bafe,
-              mid_reportAttemptingFullContext_8de98c3c46deafdf,
-              mid_reportContextSensitivity_6d548c6057643b60,
-              mid_getExistingTargetState_921945ff8f30a545,
-              mid_computeTargetState_0c7e50815af077b9,
-              mid_computeReachSet_01b4ad33b0bec0ca,
-              mid_evalSemanticContext_ff62547a28a12d21,
+              mid_init$_e8c82ba13b1236ed,
+              mid_adaptivePredict_c6f3f1fdf2f63d84,
+              mid_getDecisionInfo_e88b3ee158b9d4f5,
+              mid_reportAmbiguity_9b55096ccb937882,
+              mid_reportAttemptingFullContext_1821499077769b79,
+              mid_reportContextSensitivity_f291e7480fb12df2,
+              mid_getExistingTargetState_52ede4f51e49b0e1,
+              mid_computeTargetState_8cb4d3154af204b2,
+              mid_computeReachSet_6b81acbb84d64672,
+              mid_evalSemanticContext_049dac9b23775d5c,
               max_mid
             };
 

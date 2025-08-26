@@ -29,8 +29,8 @@ namespace org {
             class PrecedenceQueryParser : public ::org::apache::lucene::queryparser::flexible::standard::StandardQueryParser {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_07cd0f76cabcf75a,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_1aaca852402a5069,
                 max_mid
               };
 

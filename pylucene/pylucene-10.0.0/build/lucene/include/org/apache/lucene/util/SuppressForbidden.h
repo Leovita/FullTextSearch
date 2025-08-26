@@ -19,7 +19,7 @@ namespace org {
         class SuppressForbidden : public ::java::lang::Object {
          public:
           enum {
-            mid_reason_09a7afff1868fc5e,
+            mid_reason_e7df854526d67fa3,
             max_mid
           };
 

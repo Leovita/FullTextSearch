@@ -3,50 +3,50 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Sort;
-      }
-      namespace index {
-        class CheckIndex$Status$FieldNormStatus;
-        class CheckIndex$Status$TermVectorStatus;
-        class CheckIndex$Status$StoredFieldStatus;
-        class CheckIndex$Status$LiveDocStatus;
-        class CheckIndex$Status;
-        class CheckIndex$Status$IndexSortStatus;
-        class CheckIndex$Status$VectorValuesStatus;
-        class CheckIndex$Status$FieldInfoStatus;
-        class CheckIndex$Status$TermIndexStatus;
-        class CodecReader;
-        class CheckIndex$Status$PointsStatus;
-        class CheckIndex$Status$DocValuesStatus;
-        class CheckIndex$Options;
-      }
-      namespace store {
-        class Directory;
-        class Lock;
-      }
-    }
-  }
-}
 namespace java {
-  namespace io {
-    class PrintStream;
-    class IOException;
-    class Closeable;
-  }
   namespace lang {
+    class InterruptedException;
     class Class;
     class String;
-    class InterruptedException;
+  }
+  namespace io {
+    class IOException;
+    class PrintStream;
+    class Closeable;
   }
   namespace util {
     namespace concurrent {
       class ExecutorService;
     }
     class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class CodecReader;
+        class CheckIndex$Status$StoredFieldStatus;
+        class CheckIndex$Status$DocValuesStatus;
+        class CheckIndex$Status;
+        class CheckIndex$Status$TermIndexStatus;
+        class CheckIndex$Status$TermVectorStatus;
+        class CheckIndex$Status$IndexSortStatus;
+        class CheckIndex$Status$LiveDocStatus;
+        class CheckIndex$Status$FieldInfoStatus;
+        class CheckIndex$Status$FieldNormStatus;
+        class CheckIndex$Status$VectorValuesStatus;
+        class CheckIndex$Status$PointsStatus;
+        class CheckIndex$Options;
+      }
+      namespace search {
+        class Sort;
+      }
+      namespace store {
+        class Directory;
+        class Lock;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -59,36 +59,36 @@ namespace org {
         class CheckIndex : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3c151c130d7f3176,
-            mid_init$_cae07b79643917d5,
-            mid_assertsOn_947277eca0748c4e,
-            mid_checkIndex_078b630841622750,
-            mid_checkIndex_72d9923f5baeb425,
-            mid_checkIndex_7265ce645ca034ae,
-            mid_close_3720c61b0679eb3e,
-            mid_doCheck_986dfb639b6f206c,
-            mid_exorciseIndex_aeb9341ef29350a6,
-            mid_getFailFast_947277eca0748c4e,
-            mid_getLevel_20fbf7565993c3d7,
-            mid_main_ce41e621b30e91b1,
-            mid_parseOptions_4ddc04215123e351,
-            mid_setFailFast_b110fc3a58c081ab,
-            mid_setInfoStream_f19a9aaf837ad692,
-            mid_setInfoStream_57dd4fed57669a71,
-            mid_setLevel_540b2b23d51b1efd,
-            mid_setThreadCount_540b2b23d51b1efd,
-            mid_testDocValues_c875ec7c78d218b3,
-            mid_testFieldInfos_abd26cedfeda8933,
-            mid_testFieldNorms_8e3e13f2f1ea7562,
-            mid_testLiveDocs_e1f87b4e0d56b7ab,
-            mid_testPoints_76729b666bd187cf,
-            mid_testPostings_d64f488da92c5945,
-            mid_testPostings_207d5c2d7a4247cd,
-            mid_testSort_5f4c83cbaffb3b5c,
-            mid_testStoredFields_acbd4ff08ad30eeb,
-            mid_testTermVectors_b8e0a3dbe880fde4,
-            mid_testTermVectors_afb0e02c638c392d,
-            mid_testVectors_a73e839820a79c46,
+            mid_init$_0bf39a7351552ef4,
+            mid_init$_e5eb72afddfc42d7,
+            mid_assertsOn_9aa4f33e82ea333f,
+            mid_checkIndex_eed1a95e4079d296,
+            mid_checkIndex_8e527943e4c7a9a1,
+            mid_checkIndex_b1d8989644420fef,
+            mid_close_e7bdbe105ce1bafb,
+            mid_doCheck_a5b2f2e6ab89b84d,
+            mid_exorciseIndex_dff1315845ee2507,
+            mid_getFailFast_9aa4f33e82ea333f,
+            mid_getLevel_bd89ce15dad49192,
+            mid_main_1f90f2fcbe43e50d,
+            mid_parseOptions_8867e4473ba8531f,
+            mid_setFailFast_f5dd97eebf6a215a,
+            mid_setInfoStream_922e82480ddcbcc4,
+            mid_setInfoStream_c8770a151128b575,
+            mid_setLevel_8226bd0b0fc13dba,
+            mid_setThreadCount_8226bd0b0fc13dba,
+            mid_testDocValues_2bbcd722ff490eae,
+            mid_testFieldInfos_8a60cb096958ff71,
+            mid_testFieldNorms_60ba5ecfce9a99a1,
+            mid_testLiveDocs_92c0f7da428f77ee,
+            mid_testPoints_ba3ec1ae6de079b3,
+            mid_testPostings_895714857514a4b2,
+            mid_testPostings_6682688b3bda4d39,
+            mid_testSort_117685513bccac4c,
+            mid_testStoredFields_4b3d4366ee9cb71d,
+            mid_testTermVectors_82359b7f8e5d30c0,
+            mid_testTermVectors_3c7cbbcf7fb10cff,
+            mid_testVectors_4c7315ad7047a89b,
             max_mid
           };
 

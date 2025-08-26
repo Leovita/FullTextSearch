@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/Analyzer.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace io {
-    class Reader;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class Analyzer$TokenStreamComponents;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class Reader;
   }
 }
 template<class T> class JArray;
@@ -31,11 +31,11 @@ namespace org {
         class PythonAnalyzer : public ::org::apache::lucene::analysis::Analyzer {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_createComponents_f774fffda992519d,
-            mid_initReader_f755529383524495,
-            mid_pythonExtension_16939d9d0a9a9721,
-            mid_pythonExtension_8b3d46852b435a94,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_createComponents_b734244e69a6c631,
+            mid_initReader_9b0aaf55e5811bc6,
+            mid_pythonExtension_0f176418e3e16541,
+            mid_pythonExtension_1d3149fac12f2af3,
             max_mid
           };
 

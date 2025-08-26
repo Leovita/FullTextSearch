@@ -6,13 +6,16 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class PointValues;
-        class MergeState$DocMap;
-      }
       namespace store {
-        class IndexOutput;
         class Directory;
+        class IndexOutput;
+      }
+      namespace codecs {
+        class MutablePointTree;
+      }
+      namespace index {
+        class MergeState$DocMap;
+        class PointValues;
       }
       namespace util {
         namespace bkd {
@@ -20,16 +23,13 @@ namespace org {
         }
         class IORunnable;
       }
-      namespace codecs {
-        class MutablePointTree;
-      }
     }
   }
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -50,13 +50,13 @@ namespace org {
           class BKDWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_ea7238813afc584b,
-              mid_add_3f6ea74fc0096aaa,
-              mid_close_3720c61b0679eb3e,
-              mid_finish_039144d253ab17fb,
-              mid_merge_d637142b1fb44221,
-              mid_writeField_1e4db9bdf7ccbb3c,
-              mid_split_9e5d494134e7334a,
+              mid_init$_eeadacc53950c32a,
+              mid_add_31e2e931f3bb1000,
+              mid_close_e7bdbe105ce1bafb,
+              mid_finish_d51fb924004f107e,
+              mid_merge_5f5005a2a90d056b,
+              mid_writeField_6db2302974fc75ca,
+              mid_split_9b5ff09b66312e3e,
               max_mid
             };
 

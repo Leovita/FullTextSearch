@@ -3,6 +3,12 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,12 +16,6 @@ namespace org {
         class DoubleValuesSource;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,7 +28,7 @@ namespace org {
         class Bindings : public ::java::lang::Object {
          public:
           enum {
-            mid_getDoubleValuesSource_fc4fee8eaa090fbd,
+            mid_getDoubleValuesSource_4dceecd0b9399ae8,
             max_mid
           };
 

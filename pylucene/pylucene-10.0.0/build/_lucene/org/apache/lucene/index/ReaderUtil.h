@@ -3,22 +3,22 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class IndexReaderContext;
-        class LeafReaderContext;
-      }
-    }
-  }
-}
 namespace java {
   namespace util {
     class List;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class LeafReaderContext;
+        class IndexReaderContext;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
         class ReaderUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_getTopLevelContext_4f05cb619c8a65f2,
-            mid_subIndex_e50f1ccbf7227793,
-            mid_subIndex_eb61fa38c2b3bc19,
+            mid_getTopLevelContext_0063e1d269d981a7,
+            mid_subIndex_4659423a5191eb25,
+            mid_subIndex_1a4166bce40ba922,
             max_mid
           };
 

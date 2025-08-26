@@ -3,27 +3,27 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Integer;
+    class Class;
+    class String;
+  }
+  namespace util {
+    class Map;
+    class List;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
         namespace atn {
-          class ATNState;
           class Transition;
+          class ATNState;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Integer;
-    class String;
-    class Class;
-  }
-  namespace util {
-    class List;
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -37,9 +37,9 @@ namespace org {
           class Transition : public ::java::lang::Object {
            public:
             enum {
-              mid_getSerializationType_20fbf7565993c3d7,
-              mid_isEpsilon_947277eca0748c4e,
-              mid_matches_fb87b32bf7e41aa6,
+              mid_getSerializationType_bd89ce15dad49192,
+              mid_isEpsilon_9aa4f33e82ea333f,
+              mid_matches_964913aa98f38ea1,
               max_mid
             };
 

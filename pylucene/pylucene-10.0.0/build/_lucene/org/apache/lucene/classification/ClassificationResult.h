@@ -5,10 +5,10 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
+    class Object;
     class Class;
     class String;
-    class Object;
+    class Comparable;
   }
 }
 namespace org {
@@ -30,13 +30,13 @@ namespace org {
         class ClassificationResult : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_211272ae737a1203,
-            mid_assignedClass_5655ed8670534604,
-            mid_compareTo_6c9be2345d5f5289,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_score_32caabaad86c508b,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_f15492e1b629b7a6,
+            mid_assignedClass_4819806f62f1360a,
+            mid_compareTo_1978019f1be667e7,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_score_6fb37e123fed7a1f,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

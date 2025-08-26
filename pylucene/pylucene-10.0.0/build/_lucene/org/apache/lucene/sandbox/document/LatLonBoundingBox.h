@@ -29,13 +29,13 @@ namespace org {
           class LatLonBoundingBox : public ::org::apache::lucene::document::Field {
            public:
             enum {
-              mid_init$_a581ccacec68600e,
-              mid_newContainsQuery_e637eb4fbb66cd45,
-              mid_newCrossesQuery_e637eb4fbb66cd45,
-              mid_newIntersectsQuery_e637eb4fbb66cd45,
-              mid_newWithinQuery_e637eb4fbb66cd45,
-              mid_setRangeValues_e61e485ff70a664a,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_1ec5b288c480f686,
+              mid_newContainsQuery_4b9e2246d9254f26,
+              mid_newCrossesQuery_4b9e2246d9254f26,
+              mid_newIntersectsQuery_4b9e2246d9254f26,
+              mid_newWithinQuery_4b9e2246d9254f26,
+              mid_setRangeValues_c9622524895ed2c0,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

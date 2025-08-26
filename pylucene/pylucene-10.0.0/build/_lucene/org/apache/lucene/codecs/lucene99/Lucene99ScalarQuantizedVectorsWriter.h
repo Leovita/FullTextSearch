@@ -8,19 +8,10 @@ namespace org {
     namespace lucene {
       namespace index {
         class MergeState;
-        class FieldInfo;
-        class DocsWithFieldSet;
         class Sorter$DocMap;
+        class DocsWithFieldSet;
         class SegmentWriteState;
-      }
-      namespace util {
-        namespace hnsw {
-          class CloseableRandomVectorScorerSupplier;
-        }
-        namespace quantization {
-          class ScalarQuantizer;
-          class QuantizedByteVectorValues;
-        }
+        class FieldInfo;
       }
       namespace codecs {
         namespace hnsw {
@@ -31,14 +22,23 @@ namespace org {
       namespace store {
         class IndexOutput;
       }
+      namespace util {
+        namespace quantization {
+          class ScalarQuantizer;
+          class QuantizedByteVectorValues;
+        }
+        namespace hnsw {
+          class CloseableRandomVectorScorerSupplier;
+        }
+      }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Float;
     class Class;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -55,17 +55,17 @@ namespace org {
           class Lucene99ScalarQuantizedVectorsWriter : public ::org::apache::lucene::codecs::hnsw::FlatVectorsWriter {
            public:
             enum {
-              mid_init$_1b4caa3cd92e0edf,
-              mid_init$_b431ff81a2874127,
-              mid_addField_44964e60d390bc8a,
-              mid_close_3720c61b0679eb3e,
-              mid_finish_3720c61b0679eb3e,
-              mid_flush_43b4ee6199cecfbf,
-              mid_mergeAndRecalculateQuantiles_987cbb560b4f66f3,
-              mid_mergeOneField_12bd7baeb6b4bf04,
-              mid_mergeOneFieldToIndex_217133d77eed44a7,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_writeQuantizedVectorData_f8495e13c45b58b8,
+              mid_init$_e1884bc7f0a58318,
+              mid_init$_1e447e3e05d371ae,
+              mid_addField_76c4339cdaf520e5,
+              mid_close_e7bdbe105ce1bafb,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_flush_fc9730fbac8271d5,
+              mid_mergeAndRecalculateQuantiles_a69a2b8a34f38d2f,
+              mid_mergeOneField_6efd9d341cba2a34,
+              mid_mergeOneFieldToIndex_5c4f6ff4c6255bd4,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_writeQuantizedVectorData_663c1b8565b7fe23,
               max_mid
             };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class IntsRef;
         class BytesRef;
+        class IntsRef;
       }
     }
   }
@@ -28,23 +28,23 @@ namespace org {
         class IntsRefBuilder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_append_540b2b23d51b1efd,
-            mid_clear_3720c61b0679eb3e,
-            mid_copyInts_594a6b57786882a9,
-            mid_copyInts_ad090cb6070ea6a2,
-            mid_copyUTF8Bytes_ac0de3ee0e03786d,
-            mid_equals_570b5248a6da3ef6,
-            mid_get_11a210fd9b2b21bd,
-            mid_grow_540b2b23d51b1efd,
-            mid_growNoCopy_540b2b23d51b1efd,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_intAt_3c9bba330f083871,
-            mid_ints_623cd4a044ba647a,
-            mid_length_20fbf7565993c3d7,
-            mid_setIntAt_e13cff512ebda969,
-            mid_setLength_540b2b23d51b1efd,
-            mid_toIntsRef_11a210fd9b2b21bd,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_append_8226bd0b0fc13dba,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_copyInts_9b114e5af4494a53,
+            mid_copyInts_57da58ead958e473,
+            mid_copyUTF8Bytes_920ce0cdf4259cc9,
+            mid_equals_00d17418847797d4,
+            mid_get_467dd1d064587a13,
+            mid_grow_8226bd0b0fc13dba,
+            mid_growNoCopy_8226bd0b0fc13dba,
+            mid_hashCode_bd89ce15dad49192,
+            mid_intAt_a3904e10f5bb9437,
+            mid_ints_4b72a28a860ae838,
+            mid_length_bd89ce15dad49192,
+            mid_setIntAt_645c25455f5b9b1c,
+            mid_setLength_8226bd0b0fc13dba,
+            mid_toIntsRef_467dd1d064587a13,
             max_mid
           };
 

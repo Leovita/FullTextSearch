@@ -5,15 +5,15 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
     class Integer;
+    class Class;
     class Runtime$Version;
     class String;
-    class Class;
+    class Comparable;
   }
   namespace util {
-    class List;
     class Optional;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -24,24 +24,24 @@ namespace java {
     class Runtime$Version : public ::java::lang::Object {
      public:
       enum {
-        mid_build_d95173840d09a723,
-        mid_compareTo_816407c382a9a1e5,
-        mid_compareToIgnoreOptional_816407c382a9a1e5,
-        mid_equals_570b5248a6da3ef6,
-        mid_equalsIgnoreOptional_570b5248a6da3ef6,
-        mid_feature_20fbf7565993c3d7,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_interim_20fbf7565993c3d7,
-        mid_major_20fbf7565993c3d7,
-        mid_minor_20fbf7565993c3d7,
-        mid_optional_d95173840d09a723,
-        mid_parse_98a611bb086c2a5c,
-        mid_patch_20fbf7565993c3d7,
-        mid_pre_d95173840d09a723,
-        mid_security_20fbf7565993c3d7,
-        mid_toString_09a7afff1868fc5e,
-        mid_update_20fbf7565993c3d7,
-        mid_version_36830460e10839eb,
+        mid_build_9a972c66ccbfd657,
+        mid_compareTo_758ea0f2366f2746,
+        mid_compareToIgnoreOptional_758ea0f2366f2746,
+        mid_equals_00d17418847797d4,
+        mid_equalsIgnoreOptional_00d17418847797d4,
+        mid_feature_bd89ce15dad49192,
+        mid_hashCode_bd89ce15dad49192,
+        mid_interim_bd89ce15dad49192,
+        mid_major_bd89ce15dad49192,
+        mid_minor_bd89ce15dad49192,
+        mid_optional_9a972c66ccbfd657,
+        mid_parse_0ba6d9b003e7f103,
+        mid_patch_bd89ce15dad49192,
+        mid_pre_9a972c66ccbfd657,
+        mid_security_bd89ce15dad49192,
+        mid_toString_e7df854526d67fa3,
+        mid_update_bd89ce15dad49192,
+        mid_version_1387e1e2702ac173,
         max_mid
       };
 

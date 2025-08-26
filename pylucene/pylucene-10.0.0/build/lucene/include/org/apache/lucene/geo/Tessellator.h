@@ -15,10 +15,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace geo {
-        class Tessellator$Monitor;
         class Polygon;
-        class XYPolygon;
         class Tessellator$Triangle;
+        class Tessellator$Monitor;
+        class XYPolygon;
       }
     }
   }
@@ -33,12 +33,12 @@ namespace org {
         class Tessellator : public ::java::lang::Object {
          public:
           enum {
-            mid_linesIntersect_aa991ddb006b2e24,
-            mid_pointInTriangle_aa991ddb006b2e24,
-            mid_tessellate_7b0e48283c5d8946,
-            mid_tessellate_f64582d7ce72b2c3,
-            mid_tessellate_04207a31b61dbd93,
-            mid_tessellate_8906e8be36fc6fee,
+            mid_linesIntersect_c19892fdf37e3374,
+            mid_pointInTriangle_c19892fdf37e3374,
+            mid_tessellate_7f337b5b3d6ab1fe,
+            mid_tessellate_a4cd6a3a7e2bd4ec,
+            mid_tessellate_e5463b6f3090e92a,
+            mid_tessellate_b53307d2fc28dc9c,
             max_mid
           };
 

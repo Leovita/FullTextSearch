@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class RateLimiter;
         class IndexOutput;
+        class RateLimiter;
       }
     }
   }
@@ -31,12 +31,12 @@ namespace org {
         class RateLimitedIndexOutput : public ::org::apache::lucene::store::FilterIndexOutput {
          public:
           enum {
-            mid_init$_51c8a3618cd46056,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_5fdd5da9426708e6,
-            mid_writeInt_540b2b23d51b1efd,
-            mid_writeLong_8b3d46852b435a94,
-            mid_writeShort_13ddeb599c553531,
+            mid_init$_4e0ac7ec8d26e757,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_116f7fcb5bff0f39,
+            mid_writeInt_8226bd0b0fc13dba,
+            mid_writeLong_1d3149fac12f2af3,
+            mid_writeShort_19904c0bd37f0d7f,
             max_mid
           };
 

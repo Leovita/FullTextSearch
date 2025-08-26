@@ -3,35 +3,35 @@
 
 #include "org/apache/lucene/search/Weight.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        namespace automaton {
-          class Automaton;
-        }
-      }
       namespace search {
         class Explanation;
+        class ScorerSupplier;
         namespace suggest {
           namespace document {
             class CompletionQuery;
           }
         }
-        class ScorerSupplier;
+      }
+      namespace util {
+        namespace automaton {
+          class Automaton;
+        }
       }
       namespace index {
         class LeafReaderContext;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -46,14 +46,14 @@ namespace org {
             class CompletionWeight : public ::org::apache::lucene::search::Weight {
              public:
               enum {
-                mid_init$_5301f871a7b9a4fe,
-                mid_explain_478bccbc961eab03,
-                mid_getAutomaton_275570da72a90658,
-                mid_isCacheable_03101e9518c66be0,
-                mid_scorerSupplier_45b7d9496c5acc93,
-                mid_boost_9b6c3480dac00edf,
-                mid_setNextMatch_594a6b57786882a9,
-                mid_context_373f0038978f926b,
+                mid_init$_469a0bff9121f2d7,
+                mid_explain_b1310cbadc240f44,
+                mid_getAutomaton_d4cfa49a0a7bdead,
+                mid_isCacheable_8e9f6225f14d0ebe,
+                mid_scorerSupplier_613b85087b5065ab,
+                mid_setNextMatch_9b114e5af4494a53,
+                mid_boost_8b62236f0e4d0dbc,
+                mid_context_f2e5418fe0d66c69,
                 max_mid
               };
 

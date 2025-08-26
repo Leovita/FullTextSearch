@@ -7,27 +7,27 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Fields;
         class IndexReader;
         class Terms;
+        class Fields;
+      }
+      namespace analysis {
+        class TokenStream;
+        class Analyzer;
       }
       namespace document {
         class Document;
-      }
-      namespace analysis {
-        class Analyzer;
-        class TokenStream;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,16 +41,16 @@ namespace org {
           class TokenSources : public ::java::lang::Object {
            public:
             enum {
-              mid_getAnyTokenStream_ccbdab4aeed17875,
-              mid_getAnyTokenStream_a893530d7a35b905,
-              mid_getTermVectorTokenStreamOrNull_8163bdb0e5e948ec,
-              mid_getTokenStream_6227e01fbf5e3ebf,
-              mid_getTokenStream_1a84d0ce0fbbbba3,
-              mid_getTokenStream_d57cc3f774773d6b,
-              mid_getTokenStream_59a04b9190d36900,
-              mid_getTokenStream_ccbdab4aeed17875,
-              mid_getTokenStream_7843ef9790bff03f,
-              mid_getTokenStreamWithOffsets_a04561e0125fa83d,
+              mid_getAnyTokenStream_0b579a55b8c22d86,
+              mid_getAnyTokenStream_22fdbae987b0037d,
+              mid_getTermVectorTokenStreamOrNull_5e9d5582d04eb796,
+              mid_getTokenStream_fb6be26bf985cef7,
+              mid_getTokenStream_9b0d8d652a4a5e5a,
+              mid_getTokenStream_d6a03a6a481140f7,
+              mid_getTokenStream_997fb9ab174506d5,
+              mid_getTokenStream_0b579a55b8c22d86,
+              mid_getTokenStream_e9622b7df0fa8b43,
+              mid_getTokenStreamWithOffsets_8fb96d5da7961aad,
               max_mid
             };
 

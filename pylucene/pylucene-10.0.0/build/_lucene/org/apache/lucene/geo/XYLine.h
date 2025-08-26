@@ -20,16 +20,16 @@ namespace org {
         class XYLine : public ::org::apache::lucene::geo::XYGeometry {
          public:
           enum {
-            mid_init$_6bacb6e220725ab1,
-            mid_equals_570b5248a6da3ef6,
-            mid_getX_808165844ea67079,
-            mid_getX_29cfa01aaad92564,
-            mid_getY_808165844ea67079,
-            mid_getY_29cfa01aaad92564,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_numPoints_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_toComponent2D_2671ab2559e4bc09,
+            mid_init$_d0e5c7ca8f69d543,
+            mid_equals_00d17418847797d4,
+            mid_getX_67d89dc3894661ff,
+            mid_getX_5873a23b935a9d49,
+            mid_getY_67d89dc3894661ff,
+            mid_getY_5873a23b935a9d49,
+            mid_hashCode_bd89ce15dad49192,
+            mid_numPoints_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_toComponent2D_826bc66e4432f11e,
             max_mid
           };
 

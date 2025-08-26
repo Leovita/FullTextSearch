@@ -20,10 +20,10 @@ namespace java {
     class ProcessHandle$Info : public ::java::lang::Object {
      public:
       enum {
-        mid_arguments_d95173840d09a723,
-        mid_command_d95173840d09a723,
-        mid_commandLine_d95173840d09a723,
-        mid_user_d95173840d09a723,
+        mid_arguments_9a972c66ccbfd657,
+        mid_command_9a972c66ccbfd657,
+        mid_commandLine_9a972c66ccbfd657,
+        mid_user_9a972c66ccbfd657,
         max_mid
       };
 

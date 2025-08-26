@@ -3,26 +3,32 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class CharSequence;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace queryparser {
         namespace flexible {
-          namespace core {
-            class QueryNodeParseException;
-            namespace parser {
-              class SyntaxParser;
-            }
-            namespace nodes {
-              class QueryNode;
-            }
-          }
           namespace standard {
             namespace parser {
               class StandardSyntaxParserTokenManager;
+              class Token;
               class StandardSyntaxParserConstants;
               class ParseException;
-              class Token;
+            }
+          }
+          namespace core {
+            class QueryNodeParseException;
+            namespace nodes {
+              class QueryNode;
+            }
+            namespace parser {
+              class SyntaxParser;
             }
           }
         }
@@ -31,12 +37,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
   }
 }
 template<class T> class JArray;
@@ -52,21 +52,21 @@ namespace org {
               class StandardSyntaxParser : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_init$_d0b9729d7a93fedb,
-                  mid_init$_c2b02911839614e6,
-                  mid_ReInit_d0b9729d7a93fedb,
-                  mid_ReInit_c2b02911839614e6,
-                  mid_TopLevelQuery_e5ac05b1c48f48c8,
-                  mid_disable_tracing_3720c61b0679eb3e,
-                  mid_enable_tracing_3720c61b0679eb3e,
-                  mid_generateParseException_fb5b3e6aa905630b,
-                  mid_getNextToken_8c19844f992b0880,
-                  mid_getToken_919c1fd6bacb7fca,
-                  mid_parse_47ae7defeafa3cb7,
-                  mid_parseFloat_abe0ecf86d7ddb3e,
-                  mid_parseInt_b72a753f2ca9466e,
-                  mid_trace_enabled_947277eca0748c4e,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_init$_381cc8630ca22e24,
+                  mid_init$_e62548278c2da79e,
+                  mid_ReInit_381cc8630ca22e24,
+                  mid_ReInit_e62548278c2da79e,
+                  mid_TopLevelQuery_b894e0cea78cac40,
+                  mid_disable_tracing_e7bdbe105ce1bafb,
+                  mid_enable_tracing_e7bdbe105ce1bafb,
+                  mid_generateParseException_5faaeb6ec2c3e850,
+                  mid_getNextToken_e442c4726cb124e9,
+                  mid_getToken_0a5a72a4fbab0597,
+                  mid_parse_e78d57446f1c745f,
+                  mid_parseFloat_b66efec330017718,
+                  mid_parseInt_e378eadb3a975da3,
+                  mid_trace_enabled_9aa4f33e82ea333f,
                   max_mid
                 };
 

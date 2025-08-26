@@ -4,17 +4,17 @@
 #include "org/apache/lucene/analysis/TokenFilter.h"
 
 namespace java {
+  namespace util {
+    namespace regex {
+      class Pattern;
+    }
+  }
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
     class String;
-  }
-  namespace util {
-    namespace regex {
-      class Pattern;
-    }
   }
 }
 namespace org {
@@ -37,8 +37,8 @@ namespace org {
           class PatternReplaceFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_b75904b6ebcb5d08,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_71d6254df350a0d3,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

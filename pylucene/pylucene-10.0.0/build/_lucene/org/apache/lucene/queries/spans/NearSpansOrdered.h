@@ -3,6 +3,18 @@
 
 #include "org/apache/lucene/queries/spans/ConjunctionSpans.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace queries {
+        namespace spans {
+          class Spans;
+          class SpanCollector;
+        }
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
@@ -12,18 +24,6 @@ namespace java {
   }
   namespace util {
     class List;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace queries {
-        namespace spans {
-          class SpanCollector;
-          class Spans;
-        }
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -37,12 +37,12 @@ namespace org {
           class NearSpansOrdered : public ::org::apache::lucene::queries::spans::ConjunctionSpans {
            public:
             enum {
-              mid_init$_1cdaeeb63d3a981a,
-              mid_collect_f57fa7214a0e10bb,
-              mid_endPosition_20fbf7565993c3d7,
-              mid_nextStartPosition_20fbf7565993c3d7,
-              mid_startPosition_20fbf7565993c3d7,
-              mid_width_20fbf7565993c3d7,
+              mid_init$_6895c3cd0410b684,
+              mid_collect_6a7e0ba175326672,
+              mid_endPosition_bd89ce15dad49192,
+              mid_nextStartPosition_bd89ce15dad49192,
+              mid_startPosition_bd89ce15dad49192,
+              mid_width_bd89ce15dad49192,
               max_mid
             };
 

@@ -6,16 +6,16 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexReader;
+      }
       namespace search {
-        namespace vectorhighlight {
-          class FieldFragList;
-        }
         namespace highlight {
           class Encoder;
         }
-      }
-      namespace index {
-        class IndexReader;
+        namespace vectorhighlight {
+          class FieldFragList;
+        }
       }
     }
   }
@@ -40,10 +40,10 @@ namespace org {
           class FragmentsBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_createFragment_5f1fb189aacdf032,
-              mid_createFragment_697d011a2f3d0cf0,
-              mid_createFragments_6c2dce9e15f35b36,
-              mid_createFragments_72b2a373c3c578d3,
+              mid_createFragment_a2d41f387a5b193c,
+              mid_createFragment_4dcab3d7ada6981c,
+              mid_createFragments_a26122dcd96d2912,
+              mid_createFragments_aedfd0348ce18a80,
               max_mid
             };
 

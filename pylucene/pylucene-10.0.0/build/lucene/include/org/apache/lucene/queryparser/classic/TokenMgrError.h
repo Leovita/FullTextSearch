@@ -20,12 +20,12 @@ namespace org {
           class TokenMgrError : public ::java::lang::Error {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_a5140b013bba694a,
-              mid_init$_2b1676dbd3533997,
-              mid_getMessage_09a7afff1868fc5e,
-              mid_addEscapes_cb0eb1432185fc94,
-              mid_LexicalErr_ed17c168555d2f97,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_49e27e98009acf15,
+              mid_init$_1c9bbee05d0a3e9d,
+              mid_getMessage_e7df854526d67fa3,
+              mid_LexicalErr_979e742ac9112116,
+              mid_addEscapes_fef9c036acf290a9,
               max_mid
             };
 

@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Cloneable;
     class Class;
     class String;
-    class Cloneable;
   }
   namespace util {
     class Comparator;
@@ -25,19 +25,19 @@ namespace java {
     class Collator : public ::java::lang::Object {
      public:
       enum {
-        mid_clone_5655ed8670534604,
-        mid_compare_3eac829a4fafb93c,
-        mid_compare_40855b2159b37f04,
-        mid_equals_570b5248a6da3ef6,
-        mid_equals_c0bb61902cd4a0bf,
-        mid_getAvailableLocales_3d06acbf6689fb6c,
-        mid_getDecomposition_20fbf7565993c3d7,
-        mid_getInstance_0efeb584271753a9,
-        mid_getInstance_63a52192f47873ba,
-        mid_getStrength_20fbf7565993c3d7,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_setDecomposition_540b2b23d51b1efd,
-        mid_setStrength_540b2b23d51b1efd,
+        mid_clone_4819806f62f1360a,
+        mid_compare_d543d4acd34a463f,
+        mid_compare_69b7b8451ec9257c,
+        mid_equals_00d17418847797d4,
+        mid_equals_8159c21a76bdf601,
+        mid_getAvailableLocales_0daa090ed7228b3c,
+        mid_getDecomposition_bd89ce15dad49192,
+        mid_getInstance_0c6f472392900c4f,
+        mid_getInstance_152785a46f1bab65,
+        mid_getStrength_bd89ce15dad49192,
+        mid_hashCode_bd89ce15dad49192,
+        mid_setDecomposition_8226bd0b0fc13dba,
+        mid_setStrength_8226bd0b0fc13dba,
         max_mid
       };
 

@@ -32,9 +32,9 @@ namespace org {
           class RawTFSimilarity : public ::org::apache::lucene::search::similarities::Similarity {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_b110fc3a58c081ab,
-              mid_scorer_67d67592415704df,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f5dd97eebf6a215a,
+              mid_scorer_556ce9e7c1c4eb6a,
               max_mid
             };
 

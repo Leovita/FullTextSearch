@@ -3,24 +3,24 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Plane;
           class Membership;
+          class Bounds;
           class GeoPoint;
           class PlanetModel;
-          class Bounds;
+          class Plane;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,19 +34,19 @@ namespace org {
           class Bounds : public ::java::lang::Object {
            public:
             enum {
-              mid_addHorizontalPlane_a7e4b546e597b400,
-              mid_addIntersection_35219b12859162fe,
-              mid_addPlane_15a21c9a9d113d9d,
-              mid_addPoint_7d64811057c15b25,
-              mid_addVerticalPlane_a7e4b546e597b400,
-              mid_addXValue_7d64811057c15b25,
-              mid_addYValue_7d64811057c15b25,
-              mid_addZValue_7d64811057c15b25,
-              mid_isWide_9df9bcb078900198,
-              mid_noBottomLatitudeBound_9df9bcb078900198,
-              mid_noBound_44b667a391f02bb2,
-              mid_noLongitudeBound_9df9bcb078900198,
-              mid_noTopLatitudeBound_9df9bcb078900198,
+              mid_addHorizontalPlane_745d4f480071b0dc,
+              mid_addIntersection_b47fb6a0917837bb,
+              mid_addPlane_2d8ce33354f55c61,
+              mid_addPoint_0b65f1ac399500f3,
+              mid_addVerticalPlane_745d4f480071b0dc,
+              mid_addXValue_0b65f1ac399500f3,
+              mid_addYValue_0b65f1ac399500f3,
+              mid_addZValue_0b65f1ac399500f3,
+              mid_isWide_57bc77a77a7927f9,
+              mid_noBottomLatitudeBound_57bc77a77a7927f9,
+              mid_noBound_2b87fb506197c30d,
+              mid_noLongitudeBound_57bc77a77a7927f9,
+              mid_noTopLatitudeBound_57bc77a77a7927f9,
               max_mid
             };
 

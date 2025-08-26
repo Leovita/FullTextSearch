@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 namespace org {
@@ -32,14 +32,14 @@ namespace org {
         class FacetsCollector$MatchingDocs : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_d0073cadd7472141,
-            mid_bits_a219f8c3cb9d9e57,
-            mid_context_73a30448bd05c3e2,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_scores_808165844ea67079,
-            mid_toString_09a7afff1868fc5e,
-            mid_totalHits_20fbf7565993c3d7,
+            mid_init$_8b10ee82f33dfc75,
+            mid_bits_f1c62de6d8e65454,
+            mid_context_a465a075d20c01e1,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_scores_67d89dc3894661ff,
+            mid_toString_e7df854526d67fa3,
+            mid_totalHits_bd89ce15dad49192,
             max_mid
           };
 

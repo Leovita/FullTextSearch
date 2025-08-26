@@ -8,11 +8,11 @@ namespace org {
     namespace lucene {
       namespace index {
         class SortedSetDocValues;
-        class SortedNumericDocValues;
         class SortedDocValues;
-        class FieldInfo;
-        class NumericDocValues;
         class DocValuesSkipper;
+        class NumericDocValues;
+        class SortedNumericDocValues;
+        class FieldInfo;
         class BinaryDocValues;
       }
     }
@@ -36,14 +36,14 @@ namespace org {
         class EmptyDocValuesProducer : public ::org::apache::lucene::codecs::DocValuesProducer {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_getBinary_18dc76e0d490ad24,
-            mid_getNumeric_e5ef0d0afbac0df8,
-            mid_getSkipper_fef5906801c756da,
-            mid_getSorted_6da69a2b4f5ee234,
-            mid_getSortedNumeric_0d29deeacfb1da8e,
-            mid_getSortedSet_526df70ba4985d60,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getBinary_6bbbc154bef1aaa9,
+            mid_getNumeric_cbb872df2173ef24,
+            mid_getSkipper_da77f261cb8459c5,
+            mid_getSorted_c81b35e97f0d7c3a,
+            mid_getSortedNumeric_cbd3d799be63253d,
+            mid_getSortedSet_0a93b127d1085e39,
             max_mid
           };
 

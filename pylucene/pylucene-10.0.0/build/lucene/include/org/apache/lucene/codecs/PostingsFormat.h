@@ -6,6 +6,10 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class SegmentWriteState;
+      }
       namespace codecs {
         class PostingsFormat;
         class FieldsProducer;
@@ -14,21 +18,17 @@ namespace org {
       namespace util {
         class NamedSPILoader$NamedSPI;
       }
-      namespace index {
-        class SegmentReadState;
-        class SegmentWriteState;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
     class ClassLoader;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Set;
@@ -44,13 +44,13 @@ namespace org {
         class PostingsFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_availablePostingsFormats_4df174295554d7bd,
-            mid_fieldsConsumer_19c1d7ed57faee5d,
-            mid_fieldsProducer_1c13fe60e408387e,
-            mid_forName_8bba56aaf031458d,
-            mid_getName_09a7afff1868fc5e,
-            mid_reloadPostingsFormats_7e882e12061eaf38,
-            mid_toString_09a7afff1868fc5e,
+            mid_availablePostingsFormats_79131c6bbcf08916,
+            mid_fieldsConsumer_53e79f306f41e536,
+            mid_fieldsProducer_5a3bb464060de23c,
+            mid_forName_6919afeff7ce45d5,
+            mid_getName_e7df854526d67fa3,
+            mid_reloadPostingsFormats_d603563f542d31ba,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

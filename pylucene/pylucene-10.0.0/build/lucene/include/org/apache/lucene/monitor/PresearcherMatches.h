@@ -6,8 +6,8 @@
 namespace java {
   namespace lang {
     class Class;
-    class String;
     class StringBuilder;
+    class String;
   }
   namespace util {
     class Map;
@@ -33,8 +33,8 @@ namespace org {
         class PresearcherMatches : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_6bcbd4c7c84ac6e0,
-            mid_match_ab3b1a092378223f,
+            mid_init$_48f78bc01b8bbac2,
+            mid_match_b6c0d27a40e507a8,
             max_mid
           };
 

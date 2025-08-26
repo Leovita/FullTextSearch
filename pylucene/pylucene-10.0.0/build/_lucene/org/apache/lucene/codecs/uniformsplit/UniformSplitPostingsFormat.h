@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/codecs/PostingsFormat.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -30,6 +21,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -41,12 +41,12 @@ namespace org {
           class UniformSplitPostingsFormat : public ::org::apache::lucene::codecs::PostingsFormat {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_038917878eb4b914,
-              mid_fieldsConsumer_19c1d7ed57faee5d,
-              mid_fieldsProducer_1c13fe60e408387e,
-              mid_createUniformSplitTermsWriter_259ea1ff4c68429b,
-              mid_createUniformSplitTermsReader_c6e15e22b9542206,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_17eb042dd21cc0fb,
+              mid_fieldsConsumer_53e79f306f41e536,
+              mid_fieldsProducer_5a3bb464060de23c,
+              mid_createUniformSplitTermsWriter_56aa2eac16800837,
+              mid_createUniformSplitTermsReader_02ab2f453f35c141,
               max_mid
             };
 

@@ -29,13 +29,13 @@ namespace org {
         class ReaderSlice : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_20022b6d5e83c732,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_length_20fbf7565993c3d7,
-            mid_readerIndex_20fbf7565993c3d7,
-            mid_start_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_eee637a6cebc299b,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_length_bd89ce15dad49192,
+            mid_readerIndex_bd89ce15dad49192,
+            mid_start_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -5,22 +5,22 @@
 
 namespace java {
   namespace util {
-    class Collection;
-    class Map$Entry;
-    class Set;
     namespace function {
       class BiFunction;
       class BiConsumer;
       class Function;
     }
+    class Map$Entry;
     class Map;
+    class Collection;
+    class Set;
     class Enumeration;
   }
   namespace lang {
-    class Class;
-    class String;
     class Cloneable;
     class Object;
+    class String;
+    class Class;
   }
   namespace io {
     class Serializable;
@@ -34,41 +34,41 @@ namespace java {
     class Hashtable : public ::java::util::Dictionary {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_540b2b23d51b1efd,
-        mid_init$_79ba0f5a7d05e623,
-        mid_init$_06e0b8d4c1d7906b,
-        mid_clear_3720c61b0679eb3e,
-        mid_clone_5655ed8670534604,
-        mid_compute_222cc87f320503e9,
-        mid_computeIfAbsent_54da8c192341bae7,
-        mid_computeIfPresent_222cc87f320503e9,
-        mid_contains_570b5248a6da3ef6,
-        mid_containsKey_570b5248a6da3ef6,
-        mid_containsValue_570b5248a6da3ef6,
-        mid_elements_a2a5e131c5f66817,
-        mid_entrySet_4df174295554d7bd,
-        mid_equals_570b5248a6da3ef6,
-        mid_forEach_b72e978f1e58c9c6,
-        mid_get_5fd81664d2d475e1,
-        mid_getOrDefault_243089e4ee289db6,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isEmpty_947277eca0748c4e,
-        mid_keySet_4df174295554d7bd,
-        mid_keys_a2a5e131c5f66817,
-        mid_merge_18f34770301774a8,
-        mid_put_243089e4ee289db6,
-        mid_putAll_79ba0f5a7d05e623,
-        mid_putIfAbsent_243089e4ee289db6,
-        mid_remove_5fd81664d2d475e1,
-        mid_remove_6810d3c479f60a43,
-        mid_replace_243089e4ee289db6,
-        mid_replace_681a33cfaf020676,
-        mid_replaceAll_e62f673264196dae,
-        mid_size_20fbf7565993c3d7,
-        mid_toString_09a7afff1868fc5e,
-        mid_values_aa58b3beec16cbbd,
-        mid_rehash_3720c61b0679eb3e,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_8226bd0b0fc13dba,
+        mid_init$_6a7e23584beb7c0f,
+        mid_init$_a18b0cdf76a9509e,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_clone_4819806f62f1360a,
+        mid_compute_d2596364fffa973e,
+        mid_computeIfAbsent_9ed5cc5abc5e630e,
+        mid_computeIfPresent_d2596364fffa973e,
+        mid_contains_00d17418847797d4,
+        mid_containsKey_00d17418847797d4,
+        mid_containsValue_00d17418847797d4,
+        mid_elements_c0dcea0e1246b77b,
+        mid_entrySet_79131c6bbcf08916,
+        mid_equals_00d17418847797d4,
+        mid_forEach_309feadaabdabe33,
+        mid_get_e2c45b124c12f4ec,
+        mid_getOrDefault_b3b175dfe26d2c44,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_keySet_79131c6bbcf08916,
+        mid_keys_c0dcea0e1246b77b,
+        mid_merge_9071885bacc97265,
+        mid_put_b3b175dfe26d2c44,
+        mid_putAll_6a7e23584beb7c0f,
+        mid_putIfAbsent_b3b175dfe26d2c44,
+        mid_remove_e2c45b124c12f4ec,
+        mid_remove_0596e01f2cdb5588,
+        mid_replace_b3b175dfe26d2c44,
+        mid_replace_dda5dc55054f9d64,
+        mid_replaceAll_ec29d14cf1227d89,
+        mid_size_bd89ce15dad49192,
+        mid_toString_e7df854526d67fa3,
+        mid_values_4a269b968b3a511f,
+        mid_rehash_e7bdbe105ce1bafb,
         max_mid
       };
 

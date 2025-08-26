@@ -6,6 +6,10 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexReader;
+        class Term;
+      }
       namespace search {
         class Query;
       }
@@ -16,10 +20,6 @@ namespace org {
           }
         }
       }
-      namespace index {
-        class Term;
-        class IndexReader;
-      }
       namespace queries {
         namespace spans {
           class SpanQuery;
@@ -29,12 +29,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -49,16 +49,16 @@ namespace org {
             class SpanNearClauseFactory : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_748c57f1149e169e,
-                mid_addSpanQuery_d7278af460a7b96a,
-                mid_addTermWeighted_e09c19f723952c55,
-                mid_clear_3720c61b0679eb3e,
-                mid_getBasicQueryFactory_0077a13a08ea5970,
-                mid_getFieldName_09a7afff1868fc5e,
-                mid_getIndexReader_38e68c08dc5fee6f,
-                mid_makeSpanClause_ccd29998bab337f9,
-                mid_size_20fbf7565993c3d7,
-                mid_addSpanQueryWeighted_f10d20865cc3eab9,
+                mid_init$_84fb6684475d39ad,
+                mid_addSpanQuery_a28ff1cdbaf0bf6c,
+                mid_addTermWeighted_5c3f9539b4390048,
+                mid_clear_e7bdbe105ce1bafb,
+                mid_getBasicQueryFactory_d55bf8a40bb55f4a,
+                mid_getFieldName_e7df854526d67fa3,
+                mid_getIndexReader_9596617cc74c49f2,
+                mid_makeSpanClause_181254ec704aaed2,
+                mid_size_bd89ce15dad49192,
+                mid_addSpanQueryWeighted_9cf48623311f244d,
                 max_mid
               };
 

@@ -16,8 +16,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class GeoPoint;
           class GeoPolygonFactory$PolygonDescription;
+          class GeoPoint;
         }
       }
     }
@@ -34,8 +34,8 @@ namespace org {
           class GeoPolygonFactory$PolygonDescription : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_9425cd4f62c94bce,
-              mid_init$_8b013e5ac552ce33,
+              mid_init$_acbb405b60a30822,
+              mid_init$_3b2bb963cae6f63c,
               max_mid
             };
 

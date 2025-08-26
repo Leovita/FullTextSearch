@@ -28,8 +28,8 @@ namespace org {
         class DocValuesSkipIndexType : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_55a30a3f992d8d8b,
-            mid_values_e2d039d33e11b4dd,
+            mid_valueOf_e231ff75c3449a04,
+            mid_values_e54e7d03f2b27127,
             max_mid
           };
 

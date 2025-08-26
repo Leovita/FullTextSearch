@@ -6,26 +6,26 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace store {
-        class DataInput;
-        class DataOutput;
-      }
       namespace util {
         namespace fst {
           class PairOutputs$Pair;
         }
       }
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,18 +39,18 @@ namespace org {
           class PairOutputs : public ::org::apache::lucene::util::fst::Outputs {
            public:
             enum {
-              mid_init$_dcae491202edd31d,
-              mid_add_1c588690773ba942,
-              mid_common_1c588690773ba942,
-              mid_getNoOutput_0d3a618659e97ec5,
-              mid_newPair_b0a8f5631d461594,
-              mid_outputToString_e2af5290df88650f,
-              mid_ramBytesUsed_0a22c25f4514ba81,
-              mid_read_d4c25ac1702f3d9d,
-              mid_skipOutput_fc75c9d195bdd885,
-              mid_subtract_1c588690773ba942,
-              mid_toString_09a7afff1868fc5e,
-              mid_write_022d969cef5c5fc3,
+              mid_init$_4fa5e057ca3ae522,
+              mid_add_39b0c84c938b8e89,
+              mid_common_39b0c84c938b8e89,
+              mid_getNoOutput_e0eb1f840bcd1c1e,
+              mid_newPair_f0573812bb08d0f6,
+              mid_outputToString_92b96da4eaab0f84,
+              mid_ramBytesUsed_d42a1d29a6aad068,
+              mid_read_f89b978fbf6f5b67,
+              mid_skipOutput_b57ffc017de24fe4,
+              mid_subtract_39b0c84c938b8e89,
+              mid_toString_e7df854526d67fa3,
+              mid_write_7998ecc9acbf6240,
               max_mid
             };
 

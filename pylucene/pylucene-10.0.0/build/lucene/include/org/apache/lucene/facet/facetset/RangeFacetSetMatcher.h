@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/facet/facetset/FacetSetMatcher.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class RangeFacetSetMatcher : public ::org::apache::lucene::facet::facetset::FacetSetMatcher {
            public:
             enum {
-              mid_init$_5b650c954fc3d0a0,
-              mid_matches_287940c60e46342c,
+              mid_init$_5efcdcfb8f825811,
+              mid_matches_7ded1ec63264c3c1,
               max_mid
             };
 

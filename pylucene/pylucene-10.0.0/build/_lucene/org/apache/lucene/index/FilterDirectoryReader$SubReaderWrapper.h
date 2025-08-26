@@ -27,9 +27,9 @@ namespace org {
         class FilterDirectoryReader$SubReaderWrapper : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_wrap_5c5d9aed327bf3e1,
-            mid_wrap_c952cad040c5d948,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_wrap_427792a09c74b11a,
+            mid_wrap_29a03fb37c575dd4,
             max_mid
           };
 

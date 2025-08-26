@@ -20,10 +20,10 @@ namespace org {
           class AffixedWord$Affix : public ::java::lang::Object {
            public:
             enum {
-              mid_equals_570b5248a6da3ef6,
-              mid_getFlag_09a7afff1868fc5e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_equals_00d17418847797d4,
+              mid_getFlag_e7df854526d67fa3,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

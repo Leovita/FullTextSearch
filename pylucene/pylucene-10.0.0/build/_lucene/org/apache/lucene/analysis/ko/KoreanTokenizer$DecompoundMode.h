@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class KoreanTokenizer$DecompoundMode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_2cd7dfc11600ba43,
-              mid_values_7c0c4f325a1e4d95,
+              mid_valueOf_d270756e8e1bfaa6,
+              mid_values_5504d1b0720a69f6,
               max_mid
             };
 

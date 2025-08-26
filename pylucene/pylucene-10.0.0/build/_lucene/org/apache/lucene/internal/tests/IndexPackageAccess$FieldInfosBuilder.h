@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class FieldInfos;
-        class FieldInfo;
-      }
       namespace internal {
         namespace tests {
           class IndexPackageAccess$FieldInfosBuilder;
         }
+      }
+      namespace index {
+        class FieldInfo;
+        class FieldInfos;
       }
     }
   }
@@ -34,8 +34,8 @@ namespace org {
           class IndexPackageAccess$FieldInfosBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_add_44fcd01fedad70c4,
-              mid_finish_2d5786d39aaa5f0b,
+              mid_add_bf5d8fafbe65ea0a,
+              mid_finish_09577c1068fdaec4,
               max_mid
             };
 

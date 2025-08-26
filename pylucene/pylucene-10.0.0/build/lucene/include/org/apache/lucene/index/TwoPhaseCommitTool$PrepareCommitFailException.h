@@ -28,7 +28,7 @@ namespace org {
         class TwoPhaseCommitTool$PrepareCommitFailException : public ::java::io::IOException {
          public:
           enum {
-            mid_init$_3f4d0e7449ab5a0d,
+            mid_init$_d41cfb9914363d71,
             max_mid
           };
 

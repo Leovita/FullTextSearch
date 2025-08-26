@@ -18,12 +18,12 @@ namespace org {
         class SloppyMath : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_asin_8fff3d7dcb9fddc5,
-            mid_cos_8fff3d7dcb9fddc5,
-            mid_haversinMeters_8fff3d7dcb9fddc5,
-            mid_haversinMeters_d4ea21cd79dbad71,
-            mid_haversinSortKey_d4ea21cd79dbad71,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_asin_8493a5edcb36d651,
+            mid_cos_8493a5edcb36d651,
+            mid_haversinMeters_8493a5edcb36d651,
+            mid_haversinMeters_3b7e25b0c0a0582d,
+            mid_haversinSortKey_3b7e25b0c0a0582d,
             max_mid
           };
 

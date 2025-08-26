@@ -3,6 +3,13 @@
 
 #include "org/apache/lucene/search/MultiTermQuery.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,21 +18,14 @@ namespace org {
           class CompiledAutomaton;
         }
       }
-      namespace index {
-        class Term;
-      }
       namespace search {
         class QueryVisitor;
         class MultiTermQuery$RewriteMethod;
       }
+      namespace index {
+        class Term;
+      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -38,24 +38,24 @@ namespace org {
         class FuzzyQuery : public ::org::apache::lucene::search::MultiTermQuery {
          public:
           enum {
-            mid_init$_3b0982cb6e1bfb9d,
-            mid_init$_52d849eb23739642,
-            mid_init$_25675dcc7619f110,
-            mid_init$_0b17c44c3962ce96,
-            mid_init$_1805a994e9e4ba94,
-            mid_defaultRewriteMethod_c13426f2e4453b6d,
-            mid_equals_570b5248a6da3ef6,
-            mid_floatToEdits_26c03548912d2f47,
-            mid_getAutomata_667c3f67aa7a3aa5,
-            mid_getFuzzyAutomaton_991123f3daf66b45,
-            mid_getMaxEdits_20fbf7565993c3d7,
-            mid_getPrefixLength_20fbf7565993c3d7,
-            mid_getTerm_8b5614d1be154430,
-            mid_getTranspositions_947277eca0748c4e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
-            mid_getTermsEnum_b346bdb4749db660,
+            mid_init$_ed33f9e055f7213d,
+            mid_init$_2d74cc249afcbb53,
+            mid_init$_1b09428e23ab13c1,
+            mid_init$_69f31b02a0c90005,
+            mid_init$_ad1c30cd11533d44,
+            mid_defaultRewriteMethod_8625a26adbc6799d,
+            mid_equals_00d17418847797d4,
+            mid_floatToEdits_29d0898bb5fe94ba,
+            mid_getAutomata_8fd87a038bf9e303,
+            mid_getFuzzyAutomaton_a77dbdd21c9dbd01,
+            mid_getMaxEdits_bd89ce15dad49192,
+            mid_getPrefixLength_bd89ce15dad49192,
+            mid_getTerm_b549eaec39b02d52,
+            mid_getTranspositions_9aa4f33e82ea333f,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
+            mid_getTermsEnum_05b4875ff8d0c914,
             max_mid
           };
 

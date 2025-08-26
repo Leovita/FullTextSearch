@@ -27,12 +27,12 @@ namespace org {
         class PagedBytes$PagedBytesDataInput : public ::org::apache::lucene::store::DataInput {
          public:
           enum {
-            mid_clone_18c2b2e0cc045a79,
-            mid_getPosition_16939d9d0a9a9721,
-            mid_readByte_847674f430f49e4c,
-            mid_readBytes_5fdd5da9426708e6,
-            mid_setPosition_8b3d46852b435a94,
-            mid_skipBytes_8b3d46852b435a94,
+            mid_clone_516bd0eaa8217a13,
+            mid_getPosition_0f176418e3e16541,
+            mid_readByte_1456044a01a5c9bf,
+            mid_readBytes_116f7fcb5bff0f39,
+            mid_setPosition_1d3149fac12f2af3,
+            mid_skipBytes_1d3149fac12f2af3,
             max_mid
           };
 

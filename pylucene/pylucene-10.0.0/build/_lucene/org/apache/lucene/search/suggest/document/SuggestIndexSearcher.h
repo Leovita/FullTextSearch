@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/search/IndexSearcher.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,12 +13,20 @@ namespace org {
         namespace suggest {
           namespace document {
             class TopSuggestDocsCollector;
-            class TopSuggestDocs;
             class CompletionQuery;
+            class TopSuggestDocs;
           }
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,9 +41,9 @@ namespace org {
             class SuggestIndexSearcher : public ::org::apache::lucene::search::IndexSearcher {
              public:
               enum {
-                mid_init$_1980becffa418484,
-                mid_suggest_df0cb22506091cf2,
-                mid_suggest_c45fceffe309d549,
+                mid_init$_d988f6cfce8380fb,
+                mid_suggest_ea7bfc9106b4d3ad,
+                mid_suggest_73d9e8d68a4e75be,
                 max_mid
               };
 

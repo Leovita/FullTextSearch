@@ -3,20 +3,6 @@
 
 #include "org/apache/lucene/document/Field.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace document {
-        class FieldType;
-        class StoredValue;
-        class Field$Store;
-      }
-      namespace analysis {
-        class TokenStream;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -24,6 +10,20 @@ namespace java {
   }
   namespace io {
     class Reader;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        class TokenStream;
+      }
+      namespace document {
+        class StoredValue;
+        class Field$Store;
+        class FieldType;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,11 +36,11 @@ namespace org {
         class TextField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_5300007aee41849a,
-            mid_init$_4bfdd32ed02060a6,
-            mid_init$_4668a15176c0aebf,
-            mid_setStringValue_0d82408c6e55bc30,
-            mid_storedValue_c117239a18be2fcb,
+            mid_init$_695328e8af0f010c,
+            mid_init$_26d653cae6fc9deb,
+            mid_init$_208c8c03d7588cd3,
+            mid_setStringValue_ee46a189998009d6,
+            mid_storedValue_71ce58210dba1993,
             max_mid
           };
 

@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class Reader;
     class IOException;
+    class Reader;
   }
   namespace lang {
     class Class;
@@ -31,13 +31,13 @@ namespace org {
         class CharacterUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_fill_2761d1e75c6898ce,
-            mid_fill_fe0a321255b34cf5,
-            mid_newCharacterBuffer_4c063894dca6cc8b,
-            mid_toChars_f4aa982468bc2630,
-            mid_toCodePoints_1e99f40845627ea6,
-            mid_toLowerCase_fc9be2ded8ee801f,
-            mid_toUpperCase_fc9be2ded8ee801f,
+            mid_fill_b2f61d04feadcb2d,
+            mid_fill_b99c5a69006fcb09,
+            mid_newCharacterBuffer_74ef880058924f8e,
+            mid_toChars_54a33a3910606b52,
+            mid_toCodePoints_f59eaddae0f5db8c,
+            mid_toLowerCase_186bb5d1c1aec30c,
+            mid_toUpperCase_186bb5d1c1aec30c,
             max_mid
           };
 

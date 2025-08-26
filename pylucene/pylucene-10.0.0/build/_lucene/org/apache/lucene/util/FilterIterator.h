@@ -21,11 +21,11 @@ namespace org {
         class FilterIterator : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_74dc6d0bd4100e0b,
-            mid_hasNext_947277eca0748c4e,
-            mid_next_5655ed8670534604,
-            mid_remove_3720c61b0679eb3e,
-            mid_predicateFunction_570b5248a6da3ef6,
+            mid_init$_f4203c14af671d3e,
+            mid_hasNext_9aa4f33e82ea333f,
+            mid_next_4819806f62f1360a,
+            mid_remove_e7bdbe105ce1bafb,
+            mid_predicateFunction_00d17418847797d4,
             max_mid
           };
 

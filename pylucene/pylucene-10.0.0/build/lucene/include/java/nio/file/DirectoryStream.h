@@ -8,9 +8,9 @@ namespace java {
     class Iterator;
   }
   namespace lang {
+    class Object;
     class Class;
     class Iterable;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -22,7 +22,7 @@ namespace java {
       class DirectoryStream : public ::java::io::Closeable {
        public:
         enum {
-          mid_iterator_0db4c76ff7ee995b,
+          mid_iterator_c7985fafdcf40e83,
           max_mid
         };
 

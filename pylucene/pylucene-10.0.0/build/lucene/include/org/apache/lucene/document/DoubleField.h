@@ -3,9 +3,19 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class StoredValue;
+        class Field$Store;
+      }
       namespace search {
         class Query;
         class SortedNumericSelector$Type;
@@ -14,17 +24,7 @@ namespace org {
       namespace util {
         class BytesRef;
       }
-      namespace document {
-        class StoredValue;
-        class Field$Store;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -37,16 +37,16 @@ namespace org {
         class DoubleField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_a2e66b6478a3f3ad,
-            mid_binaryValue_9740fddd1c7df148,
-            mid_newExactQuery_c7a27db7697a3b7b,
-            mid_newRangeQuery_af7ead373e629f65,
-            mid_newSetQuery_d5601452d338b358,
-            mid_newSortField_5b850b28323a3ff9,
-            mid_setDoubleValue_b5bc1a2fb9ff9e90,
-            mid_setLongValue_8b3d46852b435a94,
-            mid_storedValue_c117239a18be2fcb,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_c132e8f4becf7aa6,
+            mid_binaryValue_adbedbc1fa61c358,
+            mid_newExactQuery_38d35640db112494,
+            mid_newRangeQuery_ff2ac9f72c2e19d4,
+            mid_newSetQuery_64540f129849c16a,
+            mid_newSortField_0edd70834183cd64,
+            mid_setDoubleValue_a03f734ddaeb69b4,
+            mid_setLongValue_1d3149fac12f2af3,
+            mid_storedValue_71ce58210dba1993,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Weight;
         class QueryCachingPolicy;
+        class Weight;
       }
     }
   }
@@ -28,7 +28,7 @@ namespace org {
         class QueryCache : public ::java::lang::Object {
          public:
           enum {
-            mid_doCache_5bc1183793ec7adb,
+            mid_doCache_fb979ea96c449295,
             max_mid
           };
 

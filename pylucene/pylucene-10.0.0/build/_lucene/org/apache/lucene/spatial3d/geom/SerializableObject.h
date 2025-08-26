@@ -4,19 +4,19 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-    class OutputStream;
-  }
-  namespace util {
-    class BitSet;
-    class List;
-  }
   namespace lang {
     class Class;
     class String;
     class ClassNotFoundException;
+  }
+  namespace io {
+    class IOException;
+    class OutputStream;
+    class InputStream;
+  }
+  namespace util {
+    class BitSet;
+    class List;
   }
 }
 namespace org {
@@ -24,11 +24,11 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class PlanetModel;
-          class GeoPoint;
           class PlanetObject;
-          class GeoPolygon;
           class SerializableObject;
+          class PlanetModel;
+          class GeoPolygon;
+          class GeoPoint;
         }
       }
     }
@@ -45,42 +45,42 @@ namespace org {
           class SerializableObject : public ::java::lang::Object {
            public:
             enum {
-              mid_readBitSet_02824cfdf1da55d8,
-              mid_readBoolean_77871f5299d2fb29,
-              mid_readByteArray_227c59e41fe7dddf,
-              mid_readClass_36b6ed29b76cc0b5,
-              mid_readDouble_787b611a21f19f9a,
-              mid_readHeterogeneousArray_c32025a5825274e3,
-              mid_readHomogeneousArray_c32025a5825274e3,
-              mid_readInt_ac3627efdcb64870,
-              mid_readLong_2cddc88cd0fd4e25,
-              mid_readObject_8985adbc01bf1dd0,
-              mid_readObject_73aecc20b3294f4b,
-              mid_readObject_b2f6ad324174d070,
-              mid_readObject_d92c087e77ef9369,
-              mid_readPlanetObject_81d9d3195cdef9ce,
-              mid_readPointArray_87bd1f767bd8c997,
-              mid_readPolygonArray_53cc8f3920b0a5e3,
-              mid_readString_a4bc55af411bbdfe,
-              mid_write_84831c9725b47eae,
-              mid_writeBitSet_a4eff475532b70d9,
-              mid_writeBoolean_a73ac245e9d314c5,
-              mid_writeByteArray_bfb359c3e23df006,
-              mid_writeClass_1761ff0a09565ed3,
-              mid_writeDouble_7924036a5f24b58f,
-              mid_writeHeterogeneousArray_2889b53dac23c208,
-              mid_writeHeterogeneousArray_398a55594c8c4caf,
-              mid_writeHomogeneousArray_2889b53dac23c208,
-              mid_writeHomogeneousArray_398a55594c8c4caf,
-              mid_writeInt_c6e1963ca7a79296,
-              mid_writeLong_4d9c668a0424d8b1,
-              mid_writeObject_f2161b7f95a830be,
-              mid_writePlanetObject_62ad4a2110f0edfb,
-              mid_writePointArray_74c10a346d7a5499,
-              mid_writePointArray_398a55594c8c4caf,
-              mid_writePolygonArray_be5f539ef3d828bc,
-              mid_writePolygonArray_398a55594c8c4caf,
-              mid_writeString_e799617583d72fe5,
+              mid_readBitSet_6a39a0c06eb821f0,
+              mid_readBoolean_5150f36f2bb2fad6,
+              mid_readByteArray_db5f9ccfb2d72526,
+              mid_readClass_cfb0c9a5fd2ec0fb,
+              mid_readDouble_891a5b75bec883ab,
+              mid_readHeterogeneousArray_7d6a051d4a07d190,
+              mid_readHomogeneousArray_7d6a051d4a07d190,
+              mid_readInt_52b5bea06c627486,
+              mid_readLong_b8cf0ad69a648259,
+              mid_readObject_869d1aac1f1f81f9,
+              mid_readObject_453b4eacc197aa13,
+              mid_readObject_83fe782244b142d1,
+              mid_readObject_7a0482945fdd9b13,
+              mid_readPlanetObject_294d0d6665ddf18b,
+              mid_readPointArray_f840e293506fff28,
+              mid_readPolygonArray_0abc940daa89140d,
+              mid_readString_d01a82d36e65c6a5,
+              mid_write_fbdd420d6e3d48b2,
+              mid_writeBitSet_6d9b39e14e167775,
+              mid_writeBoolean_94dfb8c9ea020262,
+              mid_writeByteArray_925e7411079e9752,
+              mid_writeClass_fb2556918c22e857,
+              mid_writeDouble_f6393d31e89d3255,
+              mid_writeHeterogeneousArray_4d4d799ef67ec238,
+              mid_writeHeterogeneousArray_20d5efdc058e4c63,
+              mid_writeHomogeneousArray_4d4d799ef67ec238,
+              mid_writeHomogeneousArray_20d5efdc058e4c63,
+              mid_writeInt_80e1afe80e1fd04c,
+              mid_writeLong_06534b6f172516be,
+              mid_writeObject_ce9d0a2d17e5c710,
+              mid_writePlanetObject_3c0f58e233dccef7,
+              mid_writePointArray_0b3a5a94bd19a99f,
+              mid_writePointArray_20d5efdc058e4c63,
+              mid_writePolygonArray_47fc5055bba8926a,
+              mid_writePolygonArray_20d5efdc058e4c63,
+              mid_writeString_dbd9e96eff9ac9b6,
               max_mid
             };
 

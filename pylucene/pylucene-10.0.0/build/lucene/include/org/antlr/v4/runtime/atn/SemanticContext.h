@@ -32,11 +32,11 @@ namespace org {
           class SemanticContext : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_and_69faa054a378ea0f,
-              mid_eval_2f6604bbbd626ce3,
-              mid_evalPrecedence_626336ee8a08c066,
-              mid_or_69faa054a378ea0f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_and_1722b64fd8c0f03e,
+              mid_eval_577846bdd15b33d8,
+              mid_evalPrecedence_320f4f475411693d,
+              mid_or_1722b64fd8c0f03e,
               max_mid
             };
 

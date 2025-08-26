@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/BooleanQueryNode.h"
 
-namespace java {
-  namespace util {
-    class List;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -26,6 +18,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace util {
+    class List;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -39,7 +39,7 @@ namespace org {
               class SynonymQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::BooleanQueryNode {
                public:
                 enum {
-                  mid_init$_9425cd4f62c94bce,
+                  mid_init$_acbb405b60a30822,
                   max_mid
                 };
 

@@ -17,10 +17,10 @@ namespace java {
     class IndexOutOfBoundsException : public ::java::lang::RuntimeException {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_540b2b23d51b1efd,
-        mid_init$_8b3d46852b435a94,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_ee46a189998009d6,
+        mid_init$_8226bd0b0fc13dba,
+        mid_init$_1d3149fac12f2af3,
         max_mid
       };
 

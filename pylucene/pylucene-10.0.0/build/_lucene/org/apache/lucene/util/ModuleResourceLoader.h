@@ -3,17 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Module;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,6 +10,17 @@ namespace org {
         class ResourceLoader;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class Module;
+    class String;
+  }
+  namespace io {
+    class IOException;
+    class InputStream;
   }
 }
 template<class T> class JArray;
@@ -33,9 +33,9 @@ namespace org {
         class ModuleResourceLoader : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_0a7a4cd5fd0d5918,
-            mid_findClass_b5a648522f034964,
-            mid_openResource_4306cf2226901a47,
+            mid_init$_63957ffa5b44d44f,
+            mid_findClass_74b6933dfade62e7,
+            mid_openResource_9bd3a7bffb83deee,
             max_mid
           };
 

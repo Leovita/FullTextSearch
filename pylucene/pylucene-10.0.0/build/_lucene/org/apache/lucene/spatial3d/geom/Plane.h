@@ -8,10 +8,10 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Plane;
           class LatLonBounds;
-          class XYZBounds;
+          class Plane;
           class Membership;
+          class XYZBounds;
           class PlanetModel;
           class GeoPoint;
         }
@@ -21,9 +21,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -37,58 +37,58 @@ namespace org {
           class Plane : public ::org::apache::lucene::spatial3d::geom::Vector {
            public:
             enum {
-              mid_init$_4936543f4a396356,
-              mid_init$_4e6f5223a38e955e,
-              mid_init$_8390149cc79b91d3,
-              mid_init$_0a1ff0a1f8665913,
-              mid_init$_e57e4ffd06f0f841,
-              mid_init$_c2145957f9ec8fcc,
-              mid_init$_e61e485ff70a664a,
-              mid_arcDistance_05e08e9d172068f6,
-              mid_arcDistance_ae710394a11f58a7,
-              mid_arePointsCoplanar_3388eeea3ab4672e,
-              mid_constructNormalizedXPlane_ef23be558671ff69,
-              mid_constructNormalizedXPlane_95146b8e82270eb4,
-              mid_constructNormalizedYPlane_ef23be558671ff69,
-              mid_constructNormalizedYPlane_95146b8e82270eb4,
-              mid_constructNormalizedZPlane_ef23be558671ff69,
-              mid_constructNormalizedZPlane_61ce9d64bfc06043,
-              mid_constructPerpendicularCenterPlaneOnePoint_31c1193191cae8c7,
-              mid_constructPerpendicularCenterPlaneTwoPoints_bf4709f4658720df,
-              mid_crosses_13aabb7ba28b382b,
-              mid_equals_570b5248a6da3ef6,
-              mid_evaluate_80a11677b239f4fb,
-              mid_evaluate_19200a6b63234ec9,
-              mid_evaluateIsZero_d2545ca8f40aaba4,
-              mid_evaluateIsZero_5f47c01c69ca9460,
-              mid_findArcDistancePoints_8a0f8e41a52a3564,
-              mid_findCrossings_70a60ebeea626d25,
-              mid_findIntersections_70a60ebeea626d25,
-              mid_getSampleIntersectionPoint_615464ab4d9f9819,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_interpolate_2c333f16c0ae648e,
-              mid_intersects_13aabb7ba28b382b,
-              mid_isFunctionallyIdentical_491e03dded74c3d7,
-              mid_isNumericallyIdentical_491e03dded74c3d7,
-              mid_linearDistance_05e08e9d172068f6,
-              mid_linearDistance_ae710394a11f58a7,
-              mid_linearDistanceSquared_05e08e9d172068f6,
-              mid_linearDistanceSquared_ae710394a11f58a7,
-              mid_normalDistance_12ad5a3c08664b79,
-              mid_normalDistance_b3d00a581e9886ea,
-              mid_normalDistanceSquared_12ad5a3c08664b79,
-              mid_normalDistanceSquared_b3d00a581e9886ea,
-              mid_normalize_60a3451ea1660c06,
-              mid_recordBounds_d5d3df84e38d9b2f,
-              mid_recordBounds_56f25fb2c8a5063c,
-              mid_recordBounds_6a788b0ddc885724,
-              mid_recordBounds_9ce2dcddd6d21fac,
-              mid_toString_09a7afff1868fc5e,
-              mid_reverseModify_0a06e6112b17aabd,
-              mid_findIntersections_beae0f3734292d01,
-              mid_modify_1fa27ccd6b06a108,
-              mid_findCrossings_beae0f3734292d01,
-              mid_findIntersectionBounds_8cf629dd9bb8dd55,
+              mid_init$_a6625e83dca6462b,
+              mid_init$_b1edd451bf29f524,
+              mid_init$_fc65cfed9a758957,
+              mid_init$_35179f8386e0356c,
+              mid_init$_fa06324555fd7858,
+              mid_init$_975cde7205bb1ed3,
+              mid_init$_c9622524895ed2c0,
+              mid_arcDistance_67b05144a727eb93,
+              mid_arcDistance_703d97178efeaccd,
+              mid_arePointsCoplanar_0c02afb4a9edcac5,
+              mid_constructNormalizedXPlane_1a4c2560cf277876,
+              mid_constructNormalizedXPlane_3b1333c27fb37be4,
+              mid_constructNormalizedYPlane_1a4c2560cf277876,
+              mid_constructNormalizedYPlane_3b1333c27fb37be4,
+              mid_constructNormalizedZPlane_1a4c2560cf277876,
+              mid_constructNormalizedZPlane_3542de7e1cd52f75,
+              mid_constructPerpendicularCenterPlaneOnePoint_f85e597bc92328be,
+              mid_constructPerpendicularCenterPlaneTwoPoints_a86787fbe8d74046,
+              mid_crosses_ea6b9b3d66754561,
+              mid_equals_00d17418847797d4,
+              mid_evaluate_f4eb7dd53b5bdffc,
+              mid_evaluate_1b083e8094adc19b,
+              mid_evaluateIsZero_f78acf28287584e8,
+              mid_evaluateIsZero_7ff1eb501b1de7c2,
+              mid_findArcDistancePoints_c8672cc26ee6e8fb,
+              mid_findCrossings_0cf25ad772fa98d5,
+              mid_findIntersections_0cf25ad772fa98d5,
+              mid_getSampleIntersectionPoint_91d9f25ab42d530d,
+              mid_hashCode_bd89ce15dad49192,
+              mid_interpolate_e083e3e49780eb2a,
+              mid_intersects_ea6b9b3d66754561,
+              mid_isFunctionallyIdentical_32e946df015b9319,
+              mid_isNumericallyIdentical_32e946df015b9319,
+              mid_linearDistance_67b05144a727eb93,
+              mid_linearDistance_703d97178efeaccd,
+              mid_linearDistanceSquared_67b05144a727eb93,
+              mid_linearDistanceSquared_703d97178efeaccd,
+              mid_normalDistance_57306f7030028fac,
+              mid_normalDistance_24f7c49a40f5b075,
+              mid_normalDistanceSquared_57306f7030028fac,
+              mid_normalDistanceSquared_24f7c49a40f5b075,
+              mid_normalize_6cc2348c5318a68b,
+              mid_recordBounds_741543009286dbf7,
+              mid_recordBounds_0b5059fe19ff3b62,
+              mid_recordBounds_26aa0aede5629f1a,
+              mid_recordBounds_3325149121961d57,
+              mid_toString_e7df854526d67fa3,
+              mid_findIntersections_b74c0c6a1d91c1c0,
+              mid_reverseModify_b849aeec7ecaac22,
+              mid_findCrossings_b74c0c6a1d91c1c0,
+              mid_findIntersectionBounds_79ba7d76ca184e59,
+              mid_modify_c6981c2798a6c248,
               max_mid
             };
 

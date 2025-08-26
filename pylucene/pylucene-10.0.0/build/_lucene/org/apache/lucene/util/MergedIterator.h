@@ -22,11 +22,11 @@ namespace org {
         class MergedIterator : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_10bdfd2779a9ab18,
-            mid_init$_53b2570b073c92f9,
-            mid_hasNext_947277eca0748c4e,
-            mid_next_68874aa6427ef5ac,
-            mid_remove_3720c61b0679eb3e,
+            mid_init$_9b18055e0eca8fca,
+            mid_init$_4b1558b687960296,
+            mid_hasNext_9aa4f33e82ea333f,
+            mid_next_d1af36984bea6c4f,
+            mid_remove_e7bdbe105ce1bafb,
             max_mid
           };
 

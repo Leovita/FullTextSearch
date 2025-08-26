@@ -6,36 +6,36 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class BytesRef;
-        class BitSet;
-      }
       namespace misc {
         namespace index {
           class IndexRearranger$DocumentSelector;
         }
       }
-      namespace index {
-        class CodecReader;
-      }
       namespace store {
         class Directory;
+      }
+      namespace util {
+        class BitSet;
+        class BytesRef;
+      }
+      namespace index {
+        class CodecReader;
       }
     }
   }
 }
 namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
   namespace io {
     class IOException;
     class Serializable;
   }
-  namespace lang {
-    class Class;
-    class String;
-  }
   namespace util {
-    class List;
     class Set;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -49,10 +49,10 @@ namespace org {
           class BinaryDocValueSelector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_848bcdb286de0107,
-              mid_createDeleteSelectorFromIndex_50d17fee39d7a855,
-              mid_createLiveSelectorsFromIndex_55a1ff879050485a,
-              mid_getFilteredDocs_8ce5ade4c3bcb480,
+              mid_init$_00da2676a23e3a62,
+              mid_createDeleteSelectorFromIndex_3cc7cde479ee8880,
+              mid_createLiveSelectorsFromIndex_62d2ac41d1c4183c,
+              mid_getFilteredDocs_e876ffa95ffa8743,
               max_mid
             };
 

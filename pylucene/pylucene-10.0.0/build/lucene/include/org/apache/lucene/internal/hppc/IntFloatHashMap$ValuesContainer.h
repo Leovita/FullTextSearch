@@ -35,10 +35,10 @@ namespace org {
           class IntFloatHashMap$ValuesContainer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_ad0b62d86f13d1d0,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_size_20fbf7565993c3d7,
-              mid_toArray_808165844ea67079,
+              mid_init$_959aa2b37b3bfdbd,
+              mid_iterator_c7985fafdcf40e83,
+              mid_size_bd89ce15dad49192,
+              mid_toArray_67d89dc3894661ff,
               max_mid
             };
 

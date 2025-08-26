@@ -18,11 +18,11 @@ namespace org {
         class StableMSBRadixSorter : public ::org::apache::lucene::util::MSBRadixSorter {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_restore_e13cff512ebda969,
-            mid_getFallbackSorter_6776c9ce0d7c2e91,
-            mid_save_e13cff512ebda969,
-            mid_reorder_c6bb55e9abb3c2db,
+            mid_init$_8226bd0b0fc13dba,
+            mid_getFallbackSorter_9395d4f5977a6e5a,
+            mid_restore_645c25455f5b9b1c,
+            mid_save_645c25455f5b9b1c,
+            mid_reorder_18a7e4c2733a091e,
             max_mid
           };
 

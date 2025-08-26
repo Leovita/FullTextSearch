@@ -32,10 +32,10 @@ namespace org {
         class LeafReaderContext : public ::org::apache::lucene::index::IndexReaderContext {
          public:
           enum {
-            mid_children_36830460e10839eb,
-            mid_leaves_36830460e10839eb,
-            mid_reader_21695b7cef24a344,
-            mid_toString_09a7afff1868fc5e,
+            mid_children_1387e1e2702ac173,
+            mid_leaves_1387e1e2702ac173,
+            mid_reader_de30c7b0a9df694f,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

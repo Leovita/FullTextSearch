@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class IndexReader;
+        class Term;
       }
       namespace analysis {
         class Analyzer;
@@ -17,15 +17,15 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -39,15 +39,15 @@ namespace org {
           class QueryAutoStopWordAnalyzer : public ::org::apache::lucene::analysis::AnalyzerWrapper {
            public:
             enum {
-              mid_init$_d007f5639c0b426f,
-              mid_init$_8b36052ccbfdf778,
-              mid_init$_779861051e2637dd,
-              mid_init$_7e7014362fcdce81,
-              mid_init$_093d872d96df09f6,
-              mid_getStopWords_3d8a8db60207da00,
-              mid_getStopWords_a06e92f371939b0b,
-              mid_getWrappedAnalyzer_a1f5809ec41164b8,
-              mid_wrapComponents_3176534f1faba3ea,
+              mid_init$_84d477b604a9119e,
+              mid_init$_93af1acedd020766,
+              mid_init$_14627bd7867431af,
+              mid_init$_81d0f0f1ba66c2a8,
+              mid_init$_5403a87dd60894c9,
+              mid_getStopWords_4213a6ccf77ca299,
+              mid_getStopWords_7b34cb521ce5d8ff,
+              mid_getWrappedAnalyzer_422029012b3df2c8,
+              mid_wrapComponents_c424eb4df905e9cf,
               max_mid
             };
 

@@ -6,6 +6,9 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace search {
         class Query;
       }
@@ -13,18 +16,15 @@ namespace org {
         class Term;
         class IndexWriterConfig;
       }
-      namespace store {
-        class Directory;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,11 +38,11 @@ namespace org {
           class PKIndexSplitter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_53175fe22bb418d2,
-              mid_init$_b6994c3c18b0cfa9,
-              mid_init$_5f5ff7ba01ef36f0,
-              mid_init$_aeda9aa0901c18b4,
-              mid_split_3720c61b0679eb3e,
+              mid_init$_49f172a8e1b3b917,
+              mid_init$_72da42028e36e497,
+              mid_init$_e94265869c1fcbf5,
+              mid_init$_05a50359e43abea0,
+              mid_split_e7bdbe105ce1bafb,
               max_mid
             };
 

@@ -34,12 +34,12 @@ namespace org {
           class FieldFragList$WeightedFragInfo : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_2a2d3377aab98069,
-              mid_getEndOffset_20fbf7565993c3d7,
-              mid_getStartOffset_20fbf7565993c3d7,
-              mid_getSubInfos_36830460e10839eb,
-              mid_getTotalBoost_9b6c3480dac00edf,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_2c93be44803e097f,
+              mid_getEndOffset_bd89ce15dad49192,
+              mid_getStartOffset_bd89ce15dad49192,
+              mid_getSubInfos_1387e1e2702ac173,
+              mid_getTotalBoost_8b62236f0e4d0dbc,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

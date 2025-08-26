@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace queries {
         namespace payloads {
-          class SpanPayloadCheckQuery$PayloadType;
-          class SpanPayloadCheckQuery$MatchOperation;
           class PayloadMatcher;
+          class SpanPayloadCheckQuery$MatchOperation;
+          class SpanPayloadCheckQuery$PayloadType;
         }
       }
     }
@@ -32,8 +32,8 @@ namespace org {
           class PayloadMatcherFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_createMatcherForOpAndType_ff21ea0cd2e352b0,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_createMatcherForOpAndType_7aa46aea43db847e,
               max_mid
             };
 

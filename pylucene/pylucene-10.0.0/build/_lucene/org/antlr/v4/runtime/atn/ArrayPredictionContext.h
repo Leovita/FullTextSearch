@@ -3,13 +3,6 @@
 
 #include "org/antlr/v4/runtime/atn/PredictionContext.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-}
 namespace org {
   namespace antlr {
     namespace v4 {
@@ -19,6 +12,13 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -32,14 +32,14 @@ namespace org {
           class ArrayPredictionContext : public ::org::antlr::v4::runtime::atn::PredictionContext {
            public:
             enum {
-              mid_init$_13b936985587ee11,
-              mid_init$_b1606c0b50bd41f2,
-              mid_equals_570b5248a6da3ef6,
-              mid_getParent_1cc09022daab7d23,
-              mid_getReturnState_3c9bba330f083871,
-              mid_isEmpty_947277eca0748c4e,
-              mid_size_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_03d8b63f496a8314,
+              mid_init$_e59ae2de09f361af,
+              mid_equals_00d17418847797d4,
+              mid_getParent_57bbbf9ce8f90af2,
+              mid_getReturnState_a3904e10f5bb9437,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_size_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

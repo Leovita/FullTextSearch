@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/search/Query.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,16 +21,6 @@ namespace org {
         class IndexSearcher;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -33,18 +33,18 @@ namespace org {
         class AbstractKnnVectorQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_init$_c77abfe775f015a8,
-            mid_equals_570b5248a6da3ef6,
-            mid_getField_09a7afff1868fc5e,
-            mid_getFilter_a3eacfacada795d4,
-            mid_getK_20fbf7565993c3d7,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_visit_1b22ec612b613eea,
-            mid_getKnnCollectorManager_1380dddf22057340,
-            mid_mergeLeafResults_5be92ee3fd30acaf,
-            mid_approximateSearch_2820dd1f2ca7baa6,
-            mid_exactSearch_ea6a22a99de35918,
+            mid_init$_72cb4a2ac814e2ea,
+            mid_equals_00d17418847797d4,
+            mid_getField_e7df854526d67fa3,
+            mid_getFilter_ffa7bd087b2a75aa,
+            mid_getK_bd89ce15dad49192,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_visit_85475af8e8904ab4,
+            mid_mergeLeafResults_52bea8d016a7563b,
+            mid_exactSearch_67b6c9b96ad81056,
+            mid_getKnnCollectorManager_f9fe5267960b0dc2,
+            mid_approximateSearch_91ef996fb5702f76,
             max_mid
           };
 

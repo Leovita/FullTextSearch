@@ -33,9 +33,9 @@ namespace org {
           class FunctionValues$ValueFiller : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_fillValue_540b2b23d51b1efd,
-              mid_getValue_28c3cf024c0e87ef,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_fillValue_8226bd0b0fc13dba,
+              mid_getValue_ab99a02747ee80a6,
               max_mid
             };
 

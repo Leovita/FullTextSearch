@@ -6,30 +6,30 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-      }
       namespace search {
-        class Weight;
         class ScoreMode;
+        class IndexSearcher;
         namespace suggest {
           class BitsProducer;
         }
-        class IndexSearcher;
+        class Weight;
       }
       namespace analysis {
         class Analyzer;
+      }
+      namespace index {
+        class Term;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -44,17 +44,17 @@ namespace org {
             class FuzzyCompletionQuery : public ::org::apache::lucene::search::suggest::document::PrefixCompletionQuery {
              public:
               enum {
-                mid_init$_ac117cbb7133c263,
-                mid_init$_c6aaa8bd6204b91d,
-                mid_init$_f61b49ff068ad612,
-                mid_createWeight_77fe52950093e704,
-                mid_getDeterminizeWorkLimit_20fbf7565993c3d7,
-                mid_getMaxEdits_20fbf7565993c3d7,
-                mid_getMinFuzzyLength_20fbf7565993c3d7,
-                mid_getNonFuzzyPrefix_20fbf7565993c3d7,
-                mid_isTranspositions_947277eca0748c4e,
-                mid_isUnicodeAware_947277eca0748c4e,
-                mid_toString_cb0eb1432185fc94,
+                mid_init$_b64ffd8a29c180ba,
+                mid_init$_71dea2287eaa102e,
+                mid_init$_24a361179c94f13e,
+                mid_createWeight_dc54d493278607e4,
+                mid_getDeterminizeWorkLimit_bd89ce15dad49192,
+                mid_getMaxEdits_bd89ce15dad49192,
+                mid_getMinFuzzyLength_bd89ce15dad49192,
+                mid_getNonFuzzyPrefix_bd89ce15dad49192,
+                mid_isTranspositions_9aa4f33e82ea333f,
+                mid_isUnicodeAware_9aa4f33e82ea333f,
+                mid_toString_fef9c036acf290a9,
                 max_mid
               };
 

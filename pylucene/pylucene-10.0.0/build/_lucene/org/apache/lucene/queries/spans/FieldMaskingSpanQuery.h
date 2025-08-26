@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
-        class IndexSearcher;
-        class QueryVisitor;
         class ScoreMode;
+        class Query;
+        class QueryVisitor;
+        class IndexSearcher;
       }
       namespace queries {
         namespace spans {
@@ -22,9 +22,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -41,15 +41,15 @@ namespace org {
           class FieldMaskingSpanQuery : public ::org::apache::lucene::queries::spans::SpanQuery {
            public:
             enum {
-              mid_init$_9da33701ec4e8e8e,
-              mid_createWeight_d7dfaaf9476f49d4,
-              mid_equals_570b5248a6da3ef6,
-              mid_getField_09a7afff1868fc5e,
-              mid_getMaskedQuery_ccd29998bab337f9,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_3aeacc00deb61ecf,
+              mid_createWeight_b33c2c90db0d1d7e,
+              mid_equals_00d17418847797d4,
+              mid_getField_e7df854526d67fa3,
+              mid_getMaskedQuery_181254ec704aaed2,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rewrite_25984111320dbe39,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

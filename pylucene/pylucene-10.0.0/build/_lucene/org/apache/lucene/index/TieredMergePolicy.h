@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class MergePolicy$MergeSpecification;
-        class SegmentInfos;
         class SegmentCommitInfo;
+        class MergePolicy$MergeSpecification;
         class TieredMergePolicy;
+        class SegmentInfos;
         class MergePolicy$MergeContext;
         class MergeTrigger;
       }
@@ -23,11 +23,11 @@ namespace java {
     class Boolean;
     class String;
   }
-  namespace util {
-    class Map;
-  }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Map;
   }
 }
 template<class T> class JArray;
@@ -40,27 +40,27 @@ namespace org {
         class TieredMergePolicy : public ::org::apache::lucene::index::MergePolicy {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_findForcedDeletesMerges_7bfc14af8b38e726,
-            mid_findForcedMerges_d4963384c8456639,
-            mid_findMerges_0275979aa5326fa2,
-            mid_getDeletesPctAllowed_32caabaad86c508b,
-            mid_getFloorSegmentMB_32caabaad86c508b,
-            mid_getForceMergeDeletesPctAllowed_32caabaad86c508b,
-            mid_getMaxMergeAtOnce_20fbf7565993c3d7,
-            mid_getMaxMergedSegmentMB_32caabaad86c508b,
-            mid_getSegmentsPerTier_32caabaad86c508b,
-            mid_getTargetSearchConcurrency_20fbf7565993c3d7,
-            mid_setDeletesPctAllowed_c3bd230df380abe9,
-            mid_setFloorSegmentMB_c3bd230df380abe9,
-            mid_setForceMergeDeletesPctAllowed_c3bd230df380abe9,
-            mid_setMaxMergeAtOnce_18409a05d16d6a8e,
-            mid_setMaxMergedSegmentMB_c3bd230df380abe9,
-            mid_setSegmentsPerTier_c3bd230df380abe9,
-            mid_setTargetSearchConcurrency_18409a05d16d6a8e,
-            mid_toString_09a7afff1868fc5e,
-            mid_score_71d541ec9bca8638,
-            mid_maxFullFlushMergeSize_16939d9d0a9a9721,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_findForcedDeletesMerges_cd4e6143b01cb9a0,
+            mid_findForcedMerges_b54ded85c2bde575,
+            mid_findMerges_6813602a04f57061,
+            mid_getDeletesPctAllowed_6fb37e123fed7a1f,
+            mid_getFloorSegmentMB_6fb37e123fed7a1f,
+            mid_getForceMergeDeletesPctAllowed_6fb37e123fed7a1f,
+            mid_getMaxMergeAtOnce_bd89ce15dad49192,
+            mid_getMaxMergedSegmentMB_6fb37e123fed7a1f,
+            mid_getSegmentsPerTier_6fb37e123fed7a1f,
+            mid_getTargetSearchConcurrency_bd89ce15dad49192,
+            mid_setDeletesPctAllowed_8f78ea8d655b804b,
+            mid_setFloorSegmentMB_8f78ea8d655b804b,
+            mid_setForceMergeDeletesPctAllowed_8f78ea8d655b804b,
+            mid_setMaxMergeAtOnce_be2b18add377122f,
+            mid_setMaxMergedSegmentMB_8f78ea8d655b804b,
+            mid_setSegmentsPerTier_8f78ea8d655b804b,
+            mid_setTargetSearchConcurrency_be2b18add377122f,
+            mid_toString_e7df854526d67fa3,
+            mid_maxFullFlushMergeSize_0f176418e3e16541,
+            mid_score_b306d6ef7021d62b,
             max_mid
           };
 

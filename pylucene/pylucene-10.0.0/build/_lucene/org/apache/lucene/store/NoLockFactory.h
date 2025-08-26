@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
+        class Directory;
         class NoLockFactory;
         class Lock;
-        class Directory;
       }
     }
   }
@@ -30,7 +30,7 @@ namespace org {
         class NoLockFactory : public ::org::apache::lucene::store::LockFactory {
          public:
           enum {
-            mid_obtainLock_4348646d24d7b2f6,
+            mid_obtainLock_b179764a098b8915,
             max_mid
           };
 

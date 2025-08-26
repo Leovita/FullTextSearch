@@ -30,8 +30,8 @@ namespace org {
           class Viterbi$WrappedPositionArray : public ::java::lang::Object {
            public:
             enum {
-              mid_freeBefore_540b2b23d51b1efd,
-              mid_get_84dd3c490264e5b8,
+              mid_freeBefore_8226bd0b0fc13dba,
+              mid_get_729e366d41888976,
               max_mid
             };
 

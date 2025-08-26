@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace geo {
-        class Component2D;
         class XYGeometry;
+        class Component2D;
       }
     }
   }
@@ -28,8 +28,8 @@ namespace org {
         class XYGeometry : public ::org::apache::lucene::geo::Geometry {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_create_8088ec2f530db546,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_create_a27213152e7a0da3,
             max_mid
           };
 

@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +13,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -32,39 +32,39 @@ namespace org {
           class Vector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_4e6f5223a38e955e,
-              mid_init$_4d2b38be0e1337a3,
-              mid_init$_c2145957f9ec8fcc,
-              mid_init$_51413c97926d5204,
-              mid_crossProductEvaluateIsZero_1d6ca20184690755,
-              mid_dotProduct_80a11677b239f4fb,
-              mid_dotProduct_19200a6b63234ec9,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isNumericallyIdentical_d2545ca8f40aaba4,
-              mid_isNumericallyIdentical_5f47c01c69ca9460,
-              mid_isParallel_d2545ca8f40aaba4,
-              mid_isParallel_5f47c01c69ca9460,
-              mid_isWithin_a2812c30ee54b64b,
-              mid_linearDistance_80a11677b239f4fb,
-              mid_linearDistance_19200a6b63234ec9,
-              mid_linearDistanceSquared_80a11677b239f4fb,
-              mid_linearDistanceSquared_19200a6b63234ec9,
-              mid_magnitude_32caabaad86c508b,
-              mid_magnitude_19200a6b63234ec9,
-              mid_normalDistance_80a11677b239f4fb,
-              mid_normalDistance_19200a6b63234ec9,
-              mid_normalDistanceSquared_80a11677b239f4fb,
-              mid_normalDistanceSquared_19200a6b63234ec9,
-              mid_normalize_9514e55ae79ad2fa,
-              mid_rotateXY_57751a161cebb400,
-              mid_rotateXY_832539ebac8497cf,
-              mid_rotateXZ_57751a161cebb400,
-              mid_rotateXZ_832539ebac8497cf,
-              mid_rotateZY_57751a161cebb400,
-              mid_rotateZY_832539ebac8497cf,
-              mid_toString_09a7afff1868fc5e,
-              mid_translate_4ed796d68b1fe651,
+              mid_init$_b1edd451bf29f524,
+              mid_init$_643492163a564694,
+              mid_init$_975cde7205bb1ed3,
+              mid_init$_1e0330d38bb81163,
+              mid_crossProductEvaluateIsZero_666cc1cddcda5946,
+              mid_dotProduct_f4eb7dd53b5bdffc,
+              mid_dotProduct_1b083e8094adc19b,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isNumericallyIdentical_f78acf28287584e8,
+              mid_isNumericallyIdentical_7ff1eb501b1de7c2,
+              mid_isParallel_f78acf28287584e8,
+              mid_isParallel_7ff1eb501b1de7c2,
+              mid_isWithin_ddda32fd7791acb7,
+              mid_linearDistance_f4eb7dd53b5bdffc,
+              mid_linearDistance_1b083e8094adc19b,
+              mid_linearDistanceSquared_f4eb7dd53b5bdffc,
+              mid_linearDistanceSquared_1b083e8094adc19b,
+              mid_magnitude_6fb37e123fed7a1f,
+              mid_magnitude_1b083e8094adc19b,
+              mid_normalDistance_f4eb7dd53b5bdffc,
+              mid_normalDistance_1b083e8094adc19b,
+              mid_normalDistanceSquared_f4eb7dd53b5bdffc,
+              mid_normalDistanceSquared_1b083e8094adc19b,
+              mid_normalize_1c1dffe79b300ffa,
+              mid_rotateXY_a08c5a77d64ef63a,
+              mid_rotateXY_96cea192d07f710d,
+              mid_rotateXZ_a08c5a77d64ef63a,
+              mid_rotateXZ_96cea192d07f710d,
+              mid_rotateZY_a08c5a77d64ef63a,
+              mid_rotateZY_96cea192d07f710d,
+              mid_toString_e7df854526d67fa3,
+              mid_translate_cfd40f7362e050cd,
               max_mid
             };
 

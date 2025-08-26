@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class MergePolicy$MergeSpecification;
-        class SegmentInfos;
         class SegmentCommitInfo;
-        class MergePolicy$MergeContext;
-        class CodecReader;
         class MergePolicy;
+        class MergePolicy$MergeSpecification;
+        class CodecReader;
+        class SegmentInfos;
+        class MergePolicy$MergeContext;
         class MergeTrigger;
       }
       namespace misc {
@@ -46,14 +46,14 @@ namespace org {
           class BPReorderingMergePolicy : public ::org::apache::lucene::index::FilterMergePolicy {
            public:
             enum {
-              mid_init$_9146737695fb1891,
-              mid_findForcedDeletesMerges_7bfc14af8b38e726,
-              mid_findForcedMerges_d4963384c8456639,
-              mid_findFullFlushMerges_0275979aa5326fa2,
-              mid_findMerges_04bf92eb95442564,
-              mid_findMerges_0275979aa5326fa2,
-              mid_setMinNaturalMergeNumDocs_540b2b23d51b1efd,
-              mid_setMinNaturalMergeRatioFromBiggestSegment_c771a95b0227fb6a,
+              mid_init$_17699524770b6353,
+              mid_findForcedDeletesMerges_cd4e6143b01cb9a0,
+              mid_findForcedMerges_b54ded85c2bde575,
+              mid_findFullFlushMerges_6813602a04f57061,
+              mid_findMerges_4fbbcd7cd7f0ba5c,
+              mid_findMerges_6813602a04f57061,
+              mid_setMinNaturalMergeNumDocs_8226bd0b0fc13dba,
+              mid_setMinNaturalMergeRatioFromBiggestSegment_675f4cb9a2529ee0,
               max_mid
             };
 

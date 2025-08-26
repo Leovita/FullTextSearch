@@ -38,7 +38,7 @@ namespace org {
             class SpanPositionRangeBuilder : public ::org::apache::lucene::queryparser::xml::builders::SpanBuilderBase {
              public:
               enum {
-                mid_init$_6edaab36c77ef039,
+                mid_init$_ec91b4cc7250141d,
                 max_mid
               };
 

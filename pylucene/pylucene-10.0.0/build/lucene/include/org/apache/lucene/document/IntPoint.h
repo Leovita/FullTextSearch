@@ -3,6 +3,17 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Integer;
+    class Class;
+    class Number;
+    class String;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -15,17 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Integer;
-    class Class;
-    class String;
-    class Number;
-  }
-  namespace util {
-    class Collection;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -36,20 +36,20 @@ namespace org {
         class IntPoint : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_60de00e27ec08a91,
-            mid_decodeDimension_ed6f790242489170,
-            mid_encodeDimension_0922bf48b8e1692d,
-            mid_newExactQuery_f6c055cd1516634d,
-            mid_newRangeQuery_c107d1b8f0b8d4e3,
-            mid_newRangeQuery_7938124443e4ab73,
-            mid_newSetQuery_abd436110bd94118,
-            mid_newSetQuery_9484176e9ce4ba1f,
-            mid_numericValue_1b3282bb4db06655,
-            mid_pack_db74a7086d375804,
-            mid_setBytesValue_ac0de3ee0e03786d,
-            mid_setIntValue_540b2b23d51b1efd,
-            mid_setIntValues_143c0cd4e297ef70,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_bc39a7bef255d2b8,
+            mid_decodeDimension_ae2551807aeb85ef,
+            mid_encodeDimension_ad0ff3d807879a2c,
+            mid_newExactQuery_5b565b82a300465b,
+            mid_newRangeQuery_2c4c5245b1d1e81f,
+            mid_newRangeQuery_68a5297c1fffb8f4,
+            mid_newSetQuery_c38bda0e634d1eef,
+            mid_newSetQuery_525d6c1fce01d552,
+            mid_numericValue_b9665294ea488d3c,
+            mid_pack_960e65328d63c8ec,
+            mid_setBytesValue_920ce0cdf4259cc9,
+            mid_setIntValue_8226bd0b0fc13dba,
+            mid_setIntValues_5434f4e6ff59bff9,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

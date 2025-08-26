@@ -4,14 +4,14 @@
 #include "org/apache/lucene/queries/function/valuesource/ConstNumberSource.h"
 
 namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class Number;
+    class String;
+  }
   namespace io {
     class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
-    class Object;
   }
   namespace util {
     class Map;
@@ -43,17 +43,17 @@ namespace org {
             class ConstValueSource : public ::org::apache::lucene::queries::function::valuesource::ConstNumberSource {
              public:
               enum {
-                mid_init$_c771a95b0227fb6a,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_getBool_947277eca0748c4e,
-                mid_getDouble_32caabaad86c508b,
-                mid_getFloat_9b6c3480dac00edf,
-                mid_getInt_20fbf7565993c3d7,
-                mid_getLong_16939d9d0a9a9721,
-                mid_getNumber_1b3282bb4db06655,
-                mid_getValues_a7d46b98c691aeac,
-                mid_hashCode_20fbf7565993c3d7,
+                mid_init$_675f4cb9a2529ee0,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_getBool_9aa4f33e82ea333f,
+                mid_getDouble_6fb37e123fed7a1f,
+                mid_getFloat_8b62236f0e4d0dbc,
+                mid_getInt_bd89ce15dad49192,
+                mid_getLong_0f176418e3e16541,
+                mid_getNumber_b9665294ea488d3c,
+                mid_getValues_9f85153ef1e32cca,
+                mid_hashCode_bd89ce15dad49192,
                 max_mid
               };
 

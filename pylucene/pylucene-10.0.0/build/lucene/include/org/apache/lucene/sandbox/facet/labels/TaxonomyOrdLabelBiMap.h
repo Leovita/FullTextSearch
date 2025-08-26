@@ -9,8 +9,8 @@ namespace org {
       namespace sandbox {
         namespace facet {
           namespace labels {
-            class LabelToOrd;
             class OrdToLabel;
+            class LabelToOrd;
           }
         }
       }
@@ -24,11 +24,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -43,11 +43,11 @@ namespace org {
             class TaxonomyOrdLabelBiMap : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_330d850bbaa233f6,
-                mid_getLabel_c21e0250a0465b0f,
-                mid_getLabels_b0d0c4216ac45539,
-                mid_getOrd_b886af148d2e9c5a,
-                mid_getOrds_7d0bc717fafc6e60,
+                mid_init$_aa1fb4865a80a44f,
+                mid_getLabel_6c732e2e2e10e82a,
+                mid_getLabels_08f83a8c8bc64590,
+                mid_getOrd_36dd33e0173c4244,
+                mid_getOrds_a339b1a8e9820a7b,
                 max_mid
               };
 

@@ -33,9 +33,9 @@ namespace org {
             class Completion50PostingsFormat : public ::org::apache::lucene::search::suggest::document::CompletionPostingsFormat {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_6b3f2f0d87f5fe55,
-                mid_delegatePostingsFormat_019d203d73665477,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_90a3ea34bc3450bf,
+                mid_delegatePostingsFormat_d6a14e29d4b97c21,
                 max_mid
               };
 

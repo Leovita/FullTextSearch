@@ -22,8 +22,8 @@ namespace java {
       class BiConsumer : public ::java::lang::Object {
        public:
         enum {
-          mid_accept_56b5f443efa9c7d8,
-          mid_andThen_9df8c5ac07e21f69,
+          mid_accept_e415f5158314b6c2,
+          mid_andThen_131a0f00363b2a01,
           max_mid
         };
 

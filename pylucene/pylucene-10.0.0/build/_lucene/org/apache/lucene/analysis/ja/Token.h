@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/analysis/morph/Token.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -25,6 +19,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -36,17 +36,17 @@ namespace org {
           class Token : public ::org::apache::lucene::analysis::morph::Token {
            public:
             enum {
-              mid_init$_673fb66fb1ee5373,
-              mid_getBaseForm_09a7afff1868fc5e,
-              mid_getInflectionForm_09a7afff1868fc5e,
-              mid_getInflectionType_09a7afff1868fc5e,
-              mid_getPartOfSpeech_09a7afff1868fc5e,
-              mid_getPronunciation_09a7afff1868fc5e,
-              mid_getReading_09a7afff1868fc5e,
-              mid_isKnown_947277eca0748c4e,
-              mid_isUnknown_947277eca0748c4e,
-              mid_isUser_947277eca0748c4e,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_825ff29bc2d13cdb,
+              mid_getBaseForm_e7df854526d67fa3,
+              mid_getInflectionForm_e7df854526d67fa3,
+              mid_getInflectionType_e7df854526d67fa3,
+              mid_getPartOfSpeech_e7df854526d67fa3,
+              mid_getPronunciation_e7df854526d67fa3,
+              mid_getReading_e7df854526d67fa3,
+              mid_isKnown_9aa4f33e82ea333f,
+              mid_isUnknown_9aa4f33e82ea333f,
+              mid_isUser_9aa4f33e82ea333f,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

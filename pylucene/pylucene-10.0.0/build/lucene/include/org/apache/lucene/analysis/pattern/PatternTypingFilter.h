@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
+        class TokenStream;
         namespace pattern {
           class PatternTypingFilter$PatternTypingRule;
         }
-        class TokenStream;
       }
     }
   }
@@ -34,8 +34,8 @@ namespace org {
           class PatternTypingFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_da96abc3d58c283b,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_96157242af2753ed,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

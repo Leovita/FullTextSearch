@@ -8,32 +8,32 @@ namespace org {
     namespace lucene {
       namespace sandbox {
         namespace facet {
-          class ComparableUtils$ByLongValueComparable;
-          class ComparableUtils$ByCountComparable;
-          namespace iterators {
-            class ComparableSupplier;
-          }
           namespace recorders {
             class LongAggregationsFacetRecorder;
             class CountFacetRecorder;
           }
-          class ComparableUtils$ByOrdinalComparable;
           namespace cutters {
             class LongValueFacetCutter;
           }
           class ComparableUtils$ByAggregatedValueComparable;
           class ComparableUtils$ByCountAndLongValueComparable;
+          namespace iterators {
+            class ComparableSupplier;
+          }
+          class ComparableUtils$ByLongValueComparable;
+          class ComparableUtils$ByCountComparable;
+          class ComparableUtils$ByOrdinalComparable;
         }
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -47,12 +47,12 @@ namespace org {
           class ComparableUtils : public ::java::lang::Object {
            public:
             enum {
-              mid_byAggregatedValue_1aa7fc12fec66855,
-              mid_byCount_162bca289818010b,
-              mid_byCount_2e6570206415d8d0,
-              mid_byLongValue_3a785fff78759797,
-              mid_byOrdinal_d360204c52e1cf6c,
-              mid_sort_8581fcdaf2d5853f,
+              mid_byAggregatedValue_8a791194bca3ba1c,
+              mid_byCount_171f431951ead18b,
+              mid_byCount_15c28fe182f249a9,
+              mid_byLongValue_674cc54eea6ad7e2,
+              mid_byOrdinal_1477aaae19ad0bf5,
+              mid_sort_86cf5758642b7283,
               max_mid
             };
 

@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         namespace vectorhighlight {
+          class FragListBuilder;
           class FieldQuery;
           class FragmentsBuilder;
-          class FragListBuilder;
         }
+        class Query;
         namespace highlight {
           class Encoder;
         }
@@ -46,20 +46,20 @@ namespace org {
           class FastVectorHighlighter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_c485d474c3ac8ca0,
-              mid_init$_85279f246dede156,
-              mid_getBestFragment_32ddffb54f37d549,
-              mid_getBestFragment_cf0e0f88c462cdfc,
-              mid_getBestFragments_aa57ac08dad61b39,
-              mid_getBestFragments_05c4936dff4d9043,
-              mid_getBestFragments_8a88a78c279e68cd,
-              mid_getFieldQuery_3559a10f988b8d1e,
-              mid_getFieldQuery_a0a3e964c6793e49,
-              mid_getPhraseLimit_20fbf7565993c3d7,
-              mid_isFieldMatch_947277eca0748c4e,
-              mid_isPhraseHighlight_947277eca0748c4e,
-              mid_setPhraseLimit_540b2b23d51b1efd,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_625f7a21e54cb1c3,
+              mid_init$_1ce72b06e2c0945d,
+              mid_getBestFragment_8dbbdecd5971bbd8,
+              mid_getBestFragment_cf35a906ec8295da,
+              mid_getBestFragments_f516d316c2f634b2,
+              mid_getBestFragments_bf4a78853641ba8e,
+              mid_getBestFragments_357f614730dcc1ed,
+              mid_getFieldQuery_db9e15bb006f10ef,
+              mid_getFieldQuery_7f187e16b1621df0,
+              mid_getPhraseLimit_bd89ce15dad49192,
+              mid_isFieldMatch_9aa4f33e82ea333f,
+              mid_isPhraseHighlight_9aa4f33e82ea333f,
+              mid_setPhraseLimit_8226bd0b0fc13dba,
               max_mid
             };
 

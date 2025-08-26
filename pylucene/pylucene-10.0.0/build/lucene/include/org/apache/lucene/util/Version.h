@@ -28,14 +28,14 @@ namespace org {
         class Version : public ::java::lang::Object {
          public:
           enum {
-            mid_equals_570b5248a6da3ef6,
-            mid_fromBits_6b040041fa0defb1,
-            mid_getPackageImplementationVersion_09a7afff1868fc5e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_onOrAfter_739b5b5fd56c053b,
-            mid_parse_c0020c250dff2963,
-            mid_parseLeniently_c0020c250dff2963,
-            mid_toString_09a7afff1868fc5e,
+            mid_equals_00d17418847797d4,
+            mid_fromBits_36360624ad35cea4,
+            mid_getPackageImplementationVersion_e7df854526d67fa3,
+            mid_hashCode_bd89ce15dad49192,
+            mid_onOrAfter_59e1c0bed3d77ed2,
+            mid_parse_26c1255584d042ee,
+            mid_parseLeniently_26c1255584d042ee,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace facet {
-        class FacetsCollector;
         namespace rangeonrange {
           class DoubleRange;
         }
+        class FacetsCollector;
+      }
+      namespace search {
+        class Query;
       }
       namespace document {
         class RangeFieldQuery$QueryType;
@@ -22,12 +22,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,8 +41,8 @@ namespace org {
           class DoubleRangeOnRangeFacetCounts : public ::org::apache::lucene::facet::rangeonrange::RangeOnRangeFacetCounts {
            public:
             enum {
-              mid_init$_012856360a46ac9a,
-              mid_init$_767c897a56e05766,
+              mid_init$_8308fdc7cd62eeda,
+              mid_init$_9d092f180040305d,
               max_mid
             };
 

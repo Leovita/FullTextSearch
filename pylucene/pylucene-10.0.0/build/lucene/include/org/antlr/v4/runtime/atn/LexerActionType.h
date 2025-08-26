@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace antlr {
     namespace v4 {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class LexerActionType : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_197c24fb67401c0c,
-              mid_values_1264a5f3fcae4898,
+              mid_valueOf_c2f4f311645899f3,
+              mid_values_9aeb4fed812e6fd1,
               max_mid
             };
 

@@ -35,9 +35,9 @@ namespace org {
           class PrintTaxonomyStats : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_main_ce41e621b30e91b1,
-              mid_printStats_d66217ff7639508f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_main_1f90f2fcbe43e50d,
+              mid_printStats_ad2d8ee0d18cd901,
               max_mid
             };
 

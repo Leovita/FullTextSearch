@@ -30,8 +30,8 @@ namespace org {
           class DoubleRangeFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_4d2b38be0e1337a3,
-              mid_getRange_81f5b556fbd6d364,
+              mid_init$_643492163a564694,
+              mid_getRange_5a59f249941796f5,
               max_mid
             };
 

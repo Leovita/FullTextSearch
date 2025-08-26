@@ -21,17 +21,17 @@ namespace org {
           class BKDConfig : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_94688dd632556392,
-              mid_bytesPerDim_20fbf7565993c3d7,
-              mid_bytesPerDoc_20fbf7565993c3d7,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_maxPointsInLeafNode_20fbf7565993c3d7,
-              mid_numDims_20fbf7565993c3d7,
-              mid_numIndexDims_20fbf7565993c3d7,
-              mid_packedBytesLength_20fbf7565993c3d7,
-              mid_packedIndexBytesLength_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_126b4efb1bebbe4a,
+              mid_bytesPerDim_bd89ce15dad49192,
+              mid_bytesPerDoc_bd89ce15dad49192,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_maxPointsInLeafNode_bd89ce15dad49192,
+              mid_numDims_bd89ce15dad49192,
+              mid_numIndexDims_bd89ce15dad49192,
+              mid_packedBytesLength_bd89ce15dad49192,
+              mid_packedIndexBytesLength_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

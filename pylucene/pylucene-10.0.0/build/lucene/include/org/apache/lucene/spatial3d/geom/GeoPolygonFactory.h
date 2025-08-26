@@ -16,10 +16,10 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class PlanetModel;
-          class GeoPoint;
           class GeoPolygonFactory$PolygonDescription;
+          class PlanetModel;
           class GeoPolygon;
+          class GeoPoint;
         }
       }
     }
@@ -36,16 +36,16 @@ namespace org {
           class GeoPolygonFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_makeGeoConcavePolygon_d93df3c12a7479c7,
-              mid_makeGeoConcavePolygon_b4675796919cad83,
-              mid_makeGeoConvexPolygon_d93df3c12a7479c7,
-              mid_makeGeoConvexPolygon_b4675796919cad83,
-              mid_makeGeoPolygon_4eb73a9dbb935adf,
-              mid_makeGeoPolygon_d93df3c12a7479c7,
-              mid_makeGeoPolygon_55b928cbd30d5428,
-              mid_makeGeoPolygon_b4675796919cad83,
-              mid_makeGeoPolygon_3f92737ed26ab22c,
-              mid_makeLargeGeoPolygon_d93df3c12a7479c7,
+              mid_makeGeoConcavePolygon_4f8d641bc3623530,
+              mid_makeGeoConcavePolygon_ac71432694a12484,
+              mid_makeGeoConvexPolygon_4f8d641bc3623530,
+              mid_makeGeoConvexPolygon_ac71432694a12484,
+              mid_makeGeoPolygon_f30a181160dcfcba,
+              mid_makeGeoPolygon_4f8d641bc3623530,
+              mid_makeGeoPolygon_407673fc40889432,
+              mid_makeGeoPolygon_ac71432694a12484,
+              mid_makeGeoPolygon_798184a5bbb6d3f3,
+              mid_makeLargeGeoPolygon_4f8d641bc3623530,
               max_mid
             };
 

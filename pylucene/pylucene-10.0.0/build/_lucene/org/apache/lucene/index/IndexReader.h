@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class IndexReaderContext;
-        class Term;
         class TermVectors;
         class IndexReader;
         class StoredFields;
+        class IndexReaderContext;
+        class Term;
         class IndexReader$CacheHelper;
         class LeafReaderContext;
       }
@@ -20,8 +20,8 @@ namespace org {
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -41,31 +41,31 @@ namespace org {
         class IndexReader : public ::java::lang::Object {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_decRef_3720c61b0679eb3e,
-            mid_docFreq_a72eb531d55acb0c,
-            mid_equals_570b5248a6da3ef6,
-            mid_getContext_e36732b57bae0675,
-            mid_getDocCount_3f230d713d7fd2b0,
-            mid_getReaderCacheHelper_3117e2e82cc46163,
-            mid_getRefCount_20fbf7565993c3d7,
-            mid_getSumDocFreq_e942a6f864c95ca0,
-            mid_getSumTotalTermFreq_e942a6f864c95ca0,
-            mid_hasDeletions_947277eca0748c4e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_incRef_3720c61b0679eb3e,
-            mid_leaves_36830460e10839eb,
-            mid_maxDoc_20fbf7565993c3d7,
-            mid_numDeletedDocs_20fbf7565993c3d7,
-            mid_numDocs_20fbf7565993c3d7,
-            mid_registerParentReader_1980becffa418484,
-            mid_storedFields_71d351a09c9e3356,
-            mid_termVectors_dfcb317601b52c60,
-            mid_totalTermFreq_e7e426c2707b0b8a,
-            mid_tryIncRef_947277eca0748c4e,
-            mid_doClose_3720c61b0679eb3e,
-            mid_notifyReaderClosedListeners_3720c61b0679eb3e,
-            mid_ensureOpen_3720c61b0679eb3e,
+            mid_close_e7bdbe105ce1bafb,
+            mid_decRef_e7bdbe105ce1bafb,
+            mid_docFreq_c8503de727553d83,
+            mid_equals_00d17418847797d4,
+            mid_getContext_bc90d2aea66a0888,
+            mid_getDocCount_fa2a6f298bd618ab,
+            mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_getRefCount_bd89ce15dad49192,
+            mid_getSumDocFreq_490f1686ea1cfda6,
+            mid_getSumTotalTermFreq_490f1686ea1cfda6,
+            mid_hasDeletions_9aa4f33e82ea333f,
+            mid_hashCode_bd89ce15dad49192,
+            mid_incRef_e7bdbe105ce1bafb,
+            mid_leaves_1387e1e2702ac173,
+            mid_maxDoc_bd89ce15dad49192,
+            mid_numDeletedDocs_bd89ce15dad49192,
+            mid_numDocs_bd89ce15dad49192,
+            mid_registerParentReader_d988f6cfce8380fb,
+            mid_storedFields_1a4fab20a75bd3d4,
+            mid_termVectors_6473260da883e913,
+            mid_totalTermFreq_3566c61061b446e6,
+            mid_tryIncRef_9aa4f33e82ea333f,
+            mid_doClose_e7bdbe105ce1bafb,
+            mid_notifyReaderClosedListeners_e7bdbe105ce1bafb,
+            mid_ensureOpen_e7bdbe105ce1bafb,
             max_mid
           };
 

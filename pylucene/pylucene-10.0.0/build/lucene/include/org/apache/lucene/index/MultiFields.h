@@ -7,12 +7,12 @@ namespace java {
   namespace util {
     class Iterator;
   }
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -35,10 +35,10 @@ namespace org {
         class MultiFields : public ::org::apache::lucene::index::Fields {
          public:
           enum {
-            mid_init$_ebc86d1acd5d20bc,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_size_20fbf7565993c3d7,
-            mid_terms_734b49c46dc30275,
+            mid_init$_285832f712575607,
+            mid_iterator_c7985fafdcf40e83,
+            mid_size_bd89ce15dad49192,
+            mid_terms_b30320f056ffba8d,
             max_mid
           };
 

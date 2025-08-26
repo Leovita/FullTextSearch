@@ -23,8 +23,8 @@ namespace java {
       class FileVisitResult : public ::java::lang::Enum {
        public:
         enum {
-          mid_valueOf_2cbc056fff3555de,
-          mid_values_040851cd8e03c746,
+          mid_valueOf_e944e325168df2a6,
+          mid_values_11e49e75d19a9958,
           max_mid
         };
 

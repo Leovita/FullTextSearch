@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/BooleanQueryNode.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,16 +31,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-  }
-  namespace util {
-    class List;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -44,9 +44,9 @@ namespace org {
               class AndQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::BooleanQueryNode {
                public:
                 enum {
-                  mid_init$_9425cd4f62c94bce,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_acbb405b60a30822,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

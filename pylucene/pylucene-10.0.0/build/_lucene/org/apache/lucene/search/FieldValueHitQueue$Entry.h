@@ -19,8 +19,8 @@ namespace org {
         class FieldValueHitQueue$Entry : public ::org::apache::lucene::search::ScoreDoc {
          public:
           enum {
-            mid_init$_e13cff512ebda969,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_645c25455f5b9b1c,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

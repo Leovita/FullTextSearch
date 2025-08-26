@@ -20,14 +20,14 @@ namespace org {
         class Circle : public ::org::apache::lucene::geo::LatLonGeometry {
          public:
           enum {
-            mid_init$_4d2b38be0e1337a3,
-            mid_equals_570b5248a6da3ef6,
-            mid_getLat_32caabaad86c508b,
-            mid_getLon_32caabaad86c508b,
-            mid_getRadius_32caabaad86c508b,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_toComponent2D_2671ab2559e4bc09,
+            mid_init$_643492163a564694,
+            mid_equals_00d17418847797d4,
+            mid_getLat_6fb37e123fed7a1f,
+            mid_getLon_6fb37e123fed7a1f,
+            mid_getRadius_6fb37e123fed7a1f,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_toComponent2D_826bc66e4432f11e,
             max_mid
           };
 

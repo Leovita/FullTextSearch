@@ -28,9 +28,9 @@ namespace org {
         class DateTools$Resolution : public ::java::lang::Enum {
          public:
           enum {
-            mid_toString_09a7afff1868fc5e,
-            mid_valueOf_92aca2d981a92351,
-            mid_values_56f48671767f2bfd,
+            mid_toString_e7df854526d67fa3,
+            mid_valueOf_9aba0b95437a4f09,
+            mid_values_eea11893cd4fd854,
             max_mid
           };
 

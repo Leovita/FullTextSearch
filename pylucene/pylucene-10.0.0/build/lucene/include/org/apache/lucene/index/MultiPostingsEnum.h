@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/index/PostingsEnum.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
         class MultiTermsEnum;
-        class MultiPostingsEnum$EnumWithSlice;
         class MultiPostingsEnum;
+        class MultiPostingsEnum$EnumWithSlice;
       }
       namespace util {
         class BytesRef;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -36,21 +36,21 @@ namespace org {
         class MultiPostingsEnum : public ::org::apache::lucene::index::PostingsEnum {
          public:
           enum {
-            mid_init$_7dd1cb9fe36eb973,
-            mid_advance_3c9bba330f083871,
-            mid_canReuse_f670b7f040a6e970,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_endOffset_20fbf7565993c3d7,
-            mid_freq_20fbf7565993c3d7,
-            mid_getNumSubs_20fbf7565993c3d7,
-            mid_getPayload_9740fddd1c7df148,
-            mid_getSubs_25cc5882f9c63ae9,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_nextPosition_20fbf7565993c3d7,
-            mid_reset_c29c788a0983cd3c,
-            mid_startOffset_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_b52bad5e89fb0eae,
+            mid_advance_a3904e10f5bb9437,
+            mid_canReuse_9530f6d12a231acd,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_endOffset_bd89ce15dad49192,
+            mid_freq_bd89ce15dad49192,
+            mid_getNumSubs_bd89ce15dad49192,
+            mid_getPayload_adbedbc1fa61c358,
+            mid_getSubs_501076265e50364b,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_nextPosition_bd89ce15dad49192,
+            mid_reset_1900567f4bf66ecc,
+            mid_startOffset_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

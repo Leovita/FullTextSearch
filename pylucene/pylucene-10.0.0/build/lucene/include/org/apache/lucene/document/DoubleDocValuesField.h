@@ -19,9 +19,9 @@ namespace org {
         class DoubleDocValuesField : public ::org::apache::lucene::document::NumericDocValuesField {
          public:
           enum {
-            mid_init$_8c2de08a6e50677a,
-            mid_setDoubleValue_b5bc1a2fb9ff9e90,
-            mid_setLongValue_8b3d46852b435a94,
+            mid_init$_dbeaa7d1faf6f28f,
+            mid_setDoubleValue_a03f734ddaeb69b4,
+            mid_setLongValue_1d3149fac12f2af3,
             max_mid
           };
 

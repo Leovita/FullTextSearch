@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class PointValues$Relation;
-      }
       namespace geo {
         class Component2D$WithinRelation;
+      }
+      namespace index {
+        class PointValues$Relation;
       }
     }
   }
@@ -30,29 +30,29 @@ namespace org {
         class Component2D : public ::java::lang::Object {
          public:
           enum {
-            mid_contains_342fb7117d75ad7c,
-            mid_containsLine_f2adb1f506660be3,
-            mid_containsLine_aa991ddb006b2e24,
-            mid_containsPoint_76b9f452c8cc4e1e,
-            mid_containsTriangle_76b9f452c8cc4e1e,
-            mid_containsTriangle_9c536bd438c08946,
-            mid_disjoint_aa991ddb006b2e24,
-            mid_getMaxX_32caabaad86c508b,
-            mid_getMaxY_32caabaad86c508b,
-            mid_getMinX_32caabaad86c508b,
-            mid_getMinY_32caabaad86c508b,
-            mid_intersectsLine_f2adb1f506660be3,
-            mid_intersectsLine_aa991ddb006b2e24,
-            mid_intersectsTriangle_76b9f452c8cc4e1e,
-            mid_intersectsTriangle_9c536bd438c08946,
-            mid_pointInTriangle_b3bef1855079e886,
-            mid_relate_b35cd1a8a08327e7,
-            mid_within_aa991ddb006b2e24,
-            mid_withinLine_6f8e031cd30b2e04,
-            mid_withinLine_ea24b0d81b88a140,
-            mid_withinPoint_fe9874a30f09254f,
-            mid_withinTriangle_a3fdd7eb90ca7744,
-            mid_withinTriangle_c551708143c12441,
+            mid_contains_ca47176ba6c35fb2,
+            mid_containsLine_bdecbaef54cee286,
+            mid_containsLine_c19892fdf37e3374,
+            mid_containsPoint_69c138b7b2573e2f,
+            mid_containsTriangle_69c138b7b2573e2f,
+            mid_containsTriangle_d162a1f8e196e635,
+            mid_disjoint_c19892fdf37e3374,
+            mid_getMaxX_6fb37e123fed7a1f,
+            mid_getMaxY_6fb37e123fed7a1f,
+            mid_getMinX_6fb37e123fed7a1f,
+            mid_getMinY_6fb37e123fed7a1f,
+            mid_intersectsLine_bdecbaef54cee286,
+            mid_intersectsLine_c19892fdf37e3374,
+            mid_intersectsTriangle_69c138b7b2573e2f,
+            mid_intersectsTriangle_d162a1f8e196e635,
+            mid_pointInTriangle_9a77746177d008b9,
+            mid_relate_592b56788fde49b0,
+            mid_within_c19892fdf37e3374,
+            mid_withinLine_47e5597f0d7f6c5f,
+            mid_withinLine_2b4b52fcbce2d2f3,
+            mid_withinPoint_95df59ea5229ab1d,
+            mid_withinTriangle_5bbd552b4e798df6,
+            mid_withinTriangle_b0d8a1887a0f3276,
             max_mid
           };
 

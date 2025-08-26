@@ -4,12 +4,12 @@
 #include "org/apache/lucene/codecs/uniformsplit/BlockLine.h"
 
 namespace java {
+  namespace lang {
+    class Class;
+  }
   namespace util {
     class Collection;
     class List;
-  }
-  namespace lang {
-    class Class;
   }
 }
 namespace org {
@@ -17,11 +17,11 @@ namespace org {
     namespace lucene {
       namespace codecs {
         namespace uniformsplit {
-          class TermBytes;
-          class FieldMetadata;
           namespace sharedterms {
             class FieldMetadataTermState;
           }
+          class FieldMetadata;
+          class TermBytes;
         }
       }
     }
@@ -39,8 +39,8 @@ namespace org {
             class STBlockLine : public ::org::apache::lucene::codecs::uniformsplit::BlockLine {
              public:
               enum {
-                mid_init$_e24aea4cd46df0b6,
-                mid_collectFields_40eba2cff967cc45,
+                mid_init$_a3c529b7a0d96dd4,
+                mid_collectFields_b5398b431eb321fb,
                 max_mid
               };
 

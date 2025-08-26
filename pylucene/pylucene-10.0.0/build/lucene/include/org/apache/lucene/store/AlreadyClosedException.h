@@ -20,8 +20,8 @@ namespace org {
         class AlreadyClosedException : public ::java::lang::IllegalStateException {
          public:
           enum {
-            mid_init$_0d82408c6e55bc30,
-            mid_init$_ea9871c48698171a,
+            mid_init$_ee46a189998009d6,
+            mid_init$_95082f1abe6d9712,
             max_mid
           };
 

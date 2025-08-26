@@ -18,15 +18,15 @@ namespace org {
         class MSBRadixSorter : public ::org::apache::lucene::util::Sorter {
          public:
           enum {
-            mid_sort_e13cff512ebda969,
-            mid_byteAt_7f733b5d08bb5ec4,
-            mid_getBucket_7f733b5d08bb5ec4,
-            mid_getFallbackSorter_6776c9ce0d7c2e91,
-            mid_shouldFallback_fb87b32bf7e41aa6,
-            mid_buildHistogram_2df1593885c152a7,
-            mid_compare_7f733b5d08bb5ec4,
-            mid_sort_94688dd632556392,
-            mid_reorder_c6bb55e9abb3c2db,
+            mid_sort_645c25455f5b9b1c,
+            mid_shouldFallback_964913aa98f38ea1,
+            mid_buildHistogram_b76d3ce74f32c735,
+            mid_getBucket_7f27cf81a85a97e9,
+            mid_getFallbackSorter_9395d4f5977a6e5a,
+            mid_byteAt_7f27cf81a85a97e9,
+            mid_sort_126b4efb1bebbe4a,
+            mid_compare_7f27cf81a85a97e9,
+            mid_reorder_18a7e4c2733a091e,
             max_mid
           };
 

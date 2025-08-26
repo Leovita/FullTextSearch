@@ -19,7 +19,7 @@ namespace org {
         class CheckIndex$Level : public ::java::lang::Object {
          public:
           enum {
-            mid_checkIfLevelInBounds_540b2b23d51b1efd,
+            mid_checkIfLevelInBounds_8226bd0b0fc13dba,
             max_mid
           };
 

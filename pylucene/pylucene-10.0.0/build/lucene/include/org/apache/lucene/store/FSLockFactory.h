@@ -7,20 +7,20 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
+        class Directory;
         class FSLockFactory;
         class Lock;
-        class Directory;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -33,10 +33,10 @@ namespace org {
         class FSLockFactory : public ::org::apache::lucene::store::LockFactory {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getDefault_41e1762ae1252d1b,
-            mid_obtainLock_4348646d24d7b2f6,
-            mid_obtainFSLock_b6bd497d9acd6af7,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getDefault_42be82a6060d607c,
+            mid_obtainLock_b179764a098b8915,
+            mid_obtainFSLock_eba31bed57dd9651,
             max_mid
           };
 

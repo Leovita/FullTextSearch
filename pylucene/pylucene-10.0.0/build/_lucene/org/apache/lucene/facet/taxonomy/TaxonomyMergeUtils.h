@@ -3,17 +3,15 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace index {
+        class IndexWriter;
+      }
       namespace facet {
         namespace taxonomy {
           namespace directory {
@@ -23,13 +21,15 @@ namespace org {
         }
         class FacetsConfig;
       }
-      namespace index {
-        class IndexWriter;
-      }
-      namespace store {
-        class Directory;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -43,7 +43,7 @@ namespace org {
           class TaxonomyMergeUtils : public ::java::lang::Object {
            public:
             enum {
-              mid_merge_a150ae42e4d71a7d,
+              mid_merge_68c2e343fe865272,
               max_mid
             };
 

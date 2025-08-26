@@ -3,29 +3,29 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
+      namespace index {
+        class SegmentInfo;
+        class SegmentWriteState;
+        class FieldInfos;
+      }
+      namespace util {
+        class FixedBitSet;
+        class InfoStream;
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
     class Class;
     class String;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class InfoStream;
-        class FixedBitSet;
-      }
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
-      namespace index {
-        class SegmentInfo;
-        class FieldInfos;
-        class SegmentWriteState;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -38,7 +38,7 @@ namespace org {
         class SegmentWriteState : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_9ede3ece2ffe83dc,
+            mid_init$_3f8c220f4c0d5788,
             max_mid
           };
 

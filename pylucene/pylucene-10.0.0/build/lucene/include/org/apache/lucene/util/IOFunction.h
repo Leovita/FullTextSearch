@@ -21,7 +21,7 @@ namespace org {
         class IOFunction : public ::java::lang::Object {
          public:
           enum {
-            mid_apply_5fd81664d2d475e1,
+            mid_apply_e2c45b124c12f4ec,
             max_mid
           };
 

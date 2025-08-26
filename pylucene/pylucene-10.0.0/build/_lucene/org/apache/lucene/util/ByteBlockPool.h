@@ -3,21 +3,21 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class ByteBlockPool;
+        class ByteBlockPool$Allocator;
         class Accountable;
         class BytesRef;
-        class ByteBlockPool$Allocator;
-        class ByteBlockPool;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,18 +30,18 @@ namespace org {
         class ByteBlockPool : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_154c85dc30e3f822,
-            mid_append_3ce1e597fb62ac79,
-            mid_append_ac0de3ee0e03786d,
-            mid_append_5fdd5da9426708e6,
-            mid_append_0179d884185c18d3,
-            mid_getBuffer_81e4ab9dd381561f,
-            mid_getPosition_16939d9d0a9a9721,
-            mid_nextBuffer_3720c61b0679eb3e,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_readByte_2a9a6e154cb14e58,
-            mid_readBytes_ded37dfd7b9f37c4,
-            mid_reset_c485d474c3ac8ca0,
+            mid_init$_8ed9c9628f9570c0,
+            mid_append_a4d4f283481182e8,
+            mid_append_920ce0cdf4259cc9,
+            mid_append_116f7fcb5bff0f39,
+            mid_append_6f42edadaef700bb,
+            mid_getBuffer_d94c1f1d0c66928c,
+            mid_getPosition_0f176418e3e16541,
+            mid_nextBuffer_e7bdbe105ce1bafb,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_readByte_cb04f80b25dc941d,
+            mid_readBytes_da091ec7fbc87f01,
+            mid_reset_625f7a21e54cb1c3,
             max_mid
           };
 

@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/search/SortField.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Pruning;
         namespace join {
           class BitSetProducer;
         }
         class SortField$Type;
+        class Pruning;
         class FieldComparator;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -35,11 +35,11 @@ namespace org {
           class ToParentBlockJoinSortField : public ::org::apache::lucene::search::SortField {
            public:
             enum {
-              mid_init$_4387663fee3ad211,
-              mid_init$_9a4bb87b7d871b95,
-              mid_equals_570b5248a6da3ef6,
-              mid_getComparator_602f5765ec13a452,
-              mid_hashCode_20fbf7565993c3d7,
+              mid_init$_5a7fa0a828ddc00d,
+              mid_init$_ca3df6bbb534a004,
+              mid_equals_00d17418847797d4,
+              mid_getComparator_4f2ccf90fa477e37,
+              mid_hashCode_bd89ce15dad49192,
               max_mid
             };
 

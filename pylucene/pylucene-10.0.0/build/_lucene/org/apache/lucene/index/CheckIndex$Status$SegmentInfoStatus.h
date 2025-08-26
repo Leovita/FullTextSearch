@@ -7,17 +7,17 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class CheckIndex$Status$VectorValuesStatus;
-        class CheckIndex$Status$FieldInfoStatus;
-        class CheckIndex$Status$FieldNormStatus;
-        class CheckIndex$Status$TermVectorStatus;
-        class CheckIndex$Status$DocValuesStatus;
-        class CheckIndex$Status$StoredFieldStatus;
-        class CheckIndex$Status$IndexSortStatus;
-        class CheckIndex$Status$TermIndexStatus;
         class CheckIndex$Status$SoftDeletesStatus;
+        class CheckIndex$Status$TermIndexStatus;
+        class CheckIndex$Status$TermVectorStatus;
+        class CheckIndex$Status$FieldNormStatus;
+        class CheckIndex$Status$VectorValuesStatus;
+        class CheckIndex$Status$IndexSortStatus;
         class CheckIndex$Status$LiveDocStatus;
         class CheckIndex$Status$PointsStatus;
+        class CheckIndex$Status$StoredFieldStatus;
+        class CheckIndex$Status$FieldInfoStatus;
+        class CheckIndex$Status$DocValuesStatus;
       }
       namespace codecs {
         class Codec;
@@ -28,8 +28,8 @@ namespace org {
 namespace java {
   namespace lang {
     class Class;
-    class String;
     class Throwable;
+    class String;
   }
   namespace util {
     class Map;

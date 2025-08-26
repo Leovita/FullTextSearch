@@ -36,10 +36,10 @@ namespace org {
               class AbstractQueryConfig : public ::java::lang::Object {
                public:
                 enum {
-                  mid_get_88382dc4809594cb,
-                  mid_has_7d06be39be315060,
-                  mid_set_838abd6a4261802d,
-                  mid_unset_7d06be39be315060,
+                  mid_get_e9f451c673332efb,
+                  mid_has_e6c1830e8c85c0c2,
+                  mid_set_3a31ae6388dfa79e,
+                  mid_unset_e6c1830e8c85c0c2,
                   max_mid
                 };
 

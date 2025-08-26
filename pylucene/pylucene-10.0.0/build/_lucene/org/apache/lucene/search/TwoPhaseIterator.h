@@ -15,8 +15,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class DocIdSetIterator;
         class TwoPhaseIterator;
+        class DocIdSetIterator;
       }
     }
   }
@@ -31,11 +31,11 @@ namespace org {
         class TwoPhaseIterator : public ::java::lang::Object {
          public:
           enum {
-            mid_approximation_fc644a826c65d236,
-            mid_asDocIdSetIterator_41b26b2cf0aa4f6f,
-            mid_matchCost_9b6c3480dac00edf,
-            mid_matches_947277eca0748c4e,
-            mid_unwrap_425d022e5dc1dcd9,
+            mid_approximation_b78969502cbf4939,
+            mid_asDocIdSetIterator_f0f0227b77499486,
+            mid_matchCost_8b62236f0e4d0dbc,
+            mid_matches_9aa4f33e82ea333f,
+            mid_unwrap_5bca9788f6665f38,
             max_mid
           };
 

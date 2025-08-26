@@ -3,28 +3,28 @@
 
 #include "org/apache/lucene/search/Weight.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class ScoreMode;
-        class IndriAndQuery;
         class Explanation;
         class ScorerSupplier;
+        class ScoreMode;
+        class IndriAndQuery;
         class IndexSearcher;
       }
       namespace index {
         class LeafReaderContext;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,10 +37,10 @@ namespace org {
         class IndriAndWeight : public ::org::apache::lucene::search::Weight {
          public:
           enum {
-            mid_init$_b67cb407f39e4f4f,
-            mid_explain_478bccbc961eab03,
-            mid_isCacheable_03101e9518c66be0,
-            mid_scorerSupplier_45b7d9496c5acc93,
+            mid_init$_2e41fb6bb6942f8f,
+            mid_explain_b1310cbadc240f44,
+            mid_isCacheable_8e9f6225f14d0ebe,
+            mid_scorerSupplier_613b85087b5065ab,
             max_mid
           };
 

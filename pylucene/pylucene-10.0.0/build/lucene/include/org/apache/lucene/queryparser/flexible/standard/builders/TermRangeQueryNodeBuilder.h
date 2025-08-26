@@ -12,10 +12,10 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
+            class QueryNodeException;
             namespace nodes {
               class QueryNode;
             }
-            class QueryNodeException;
           }
           namespace standard {
             namespace builders {
@@ -45,8 +45,8 @@ namespace org {
               class TermRangeQueryNodeBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_build_2eac9787d284ea70,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_build_670a0992dce81ff8,
                   max_mid
                 };
 

@@ -8,10 +8,10 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace vectorhighlight {
-          class FieldQuery;
-          class FieldTermStack;
-          class FieldPhraseList;
           class FieldPhraseList$WeightedPhraseInfo;
+          class FieldPhraseList;
+          class FieldTermStack;
+          class FieldQuery;
         }
       }
     }
@@ -36,11 +36,11 @@ namespace org {
           class FieldPhraseList : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3dd40ba7aa8ab31e,
-              mid_init$_00e52e08552d92c4,
-              mid_init$_3b3a6a8a0f5fba27,
-              mid_addIfNoOverlap_e383722ecadbbc3b,
-              mid_getPhraseList_36830460e10839eb,
+              mid_init$_be15bd989b8ed117,
+              mid_init$_3e7bcfe8dd77a154,
+              mid_init$_e0443996b520bc05,
+              mid_addIfNoOverlap_6eb630e1ac1a0c54,
+              mid_getPhraseList_1387e1e2702ac173,
               max_mid
             };
 

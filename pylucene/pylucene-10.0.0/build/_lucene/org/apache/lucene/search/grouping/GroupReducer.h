@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
         namespace grouping {
           class SearchGroup;
         }
+        class Scorable;
         class Collector;
       }
       namespace index {
@@ -20,14 +20,14 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -41,14 +41,14 @@ namespace org {
           class GroupReducer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_collect_a115297e4da7fe13,
-              mid_getCollector_c4abc5ff357128fa,
-              mid_needsScores_947277eca0748c4e,
-              mid_setGroups_40eba2cff967cc45,
-              mid_setNextReader_b7b06dce0a4097ed,
-              mid_setScorer_dd42dde4c0a7db1e,
-              mid_newCollector_4251c3f1d651d6d9,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_collect_115cdf0409fcf583,
+              mid_getCollector_656b42a32f1119de,
+              mid_needsScores_9aa4f33e82ea333f,
+              mid_setGroups_b5398b431eb321fb,
+              mid_setNextReader_32243afefe6b151f,
+              mid_setScorer_c06bdf7d53c6460a,
+              mid_newCollector_6c5ef8f878eeb110,
               max_mid
             };
 

@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class CharSequence;
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,6 +12,15 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class CharSequence;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,10 +34,10 @@ namespace org {
           class StemmerOverrideFilter$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_b110fc3a58c081ab,
-              mid_add_3f4f0d9b8e52a5a7,
-              mid_build_c88073f2d0a9831b,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_f5dd97eebf6a215a,
+              mid_add_3ed05d2c3e8c70ff,
+              mid_build_bc70393328910251,
               max_mid
             };
 

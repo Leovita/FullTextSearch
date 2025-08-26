@@ -9,8 +9,8 @@ namespace org {
       namespace spatial3d {
         namespace geom {
           class LatLonBounds;
-          class GeoBBox;
           class PlanetModel;
+          class GeoBBox;
         }
       }
     }
@@ -32,8 +32,8 @@ namespace org {
           class GeoBBoxFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_makeGeoBBox_48a7cc28de226c8b,
-              mid_makeGeoBBox_f8f79cd698ec5299,
+              mid_makeGeoBBox_4f00f1d9fa8fd2b0,
+              mid_makeGeoBBox_e8dc7a0722003fbf,
               max_mid
             };
 

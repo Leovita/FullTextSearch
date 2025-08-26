@@ -4,13 +4,13 @@
 #include "org/apache/lucene/index/StoredFields.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
   namespace lang {
-    class Class;
     class Cloneable;
+    class Class;
+  }
+  namespace io {
+    class Closeable;
+    class IOException;
   }
 }
 namespace org {
@@ -32,9 +32,9 @@ namespace org {
         class StoredFieldsReader : public ::org::apache::lucene::index::StoredFields {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_clone_4e066a6f20734e17,
-            mid_getMergeInstance_4e066a6f20734e17,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_clone_a7e1c9cc255e1e90,
+            mid_getMergeInstance_a7e1c9cc255e1e90,
             max_mid
           };
 

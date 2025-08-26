@@ -24,11 +24,11 @@ namespace org {
             class NLS : public ::java::lang::Object {
              public:
               enum {
-                mid_getLocalizedMessage_cb0eb1432185fc94,
-                mid_getLocalizedMessage_da2198b2b95de815,
-                mid_getLocalizedMessage_af1e5f9b8f6d70b7,
-                mid_getLocalizedMessage_7ace9cdcc5cefac1,
-                mid_initializeMessages_3d618b92f4c94bee,
+                mid_getLocalizedMessage_fef9c036acf290a9,
+                mid_getLocalizedMessage_c89cb40ab473441a,
+                mid_getLocalizedMessage_7be6f01bacdb7988,
+                mid_getLocalizedMessage_9f89cdfb426b63cb,
+                mid_initializeMessages_73372d0bdf1681dc,
                 max_mid
               };
 

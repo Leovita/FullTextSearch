@@ -3,31 +3,31 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/QueryNodeImpl.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace queryparser {
         namespace flexible {
           namespace core {
-            namespace parser {
-              class EscapeQuerySyntax;
-            }
             namespace nodes {
               class ModifierQueryNode$Modifier;
               class QueryNode;
+            }
+            namespace parser {
+              class EscapeQuerySyntax;
             }
           }
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
   }
 }
 template<class T> class JArray;
@@ -43,13 +43,13 @@ namespace org {
               class ModifierQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_c0191a272d8fbd7b,
-                  mid_cloneTree_7ba6641ec93d332a,
-                  mid_getChild_7ba6641ec93d332a,
-                  mid_getModifier_22379c33783d11ed,
-                  mid_setChild_7b62f837facd6562,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_eb9185bb27e26863,
+                  mid_cloneTree_1a37a44f7f2f5350,
+                  mid_getChild_1a37a44f7f2f5350,
+                  mid_getModifier_73d8da6bbccee9be,
+                  mid_setChild_7bd9517de8cc5b9b,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

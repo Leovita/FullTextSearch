@@ -27,8 +27,8 @@ namespace org {
         class OfflineSorter$BufferSize : public ::java::lang::Object {
          public:
           enum {
-            mid_automatic_3b427a7cfbbaf98f,
-            mid_megabytes_94378557710dbdb9,
+            mid_automatic_6a7b1df0ee78a663,
+            mid_megabytes_cd9ad774e577add5,
             max_mid
           };
 

@@ -20,14 +20,14 @@ namespace java {
     class BufferedWriter : public ::java::io::Writer {
      public:
       enum {
-        mid_init$_46e0745a29d25bc4,
-        mid_init$_e6ca7aa1d9f2bdcf,
-        mid_close_3720c61b0679eb3e,
-        mid_flush_3720c61b0679eb3e,
-        mid_newLine_3720c61b0679eb3e,
-        mid_write_540b2b23d51b1efd,
-        mid_write_fc9be2ded8ee801f,
-        mid_write_54573ef49c0daa22,
+        mid_init$_33899052a49a073c,
+        mid_init$_646991763cbb8aff,
+        mid_close_e7bdbe105ce1bafb,
+        mid_flush_e7bdbe105ce1bafb,
+        mid_newLine_e7bdbe105ce1bafb,
+        mid_write_8226bd0b0fc13dba,
+        mid_write_186bb5d1c1aec30c,
+        mid_write_ae8275bdfad592e6,
         max_mid
       };
 

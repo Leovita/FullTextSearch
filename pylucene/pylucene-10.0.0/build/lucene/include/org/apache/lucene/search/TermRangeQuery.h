@@ -6,24 +6,24 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class TermRangeQuery;
+        class MultiTermQuery$RewriteMethod;
+      }
       namespace util {
         class BytesRef;
         namespace automaton {
           class Automaton;
         }
       }
-      namespace search {
-        class TermRangeQuery;
-        class MultiTermQuery$RewriteMethod;
-      }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -36,18 +36,18 @@ namespace org {
         class TermRangeQuery : public ::org::apache::lucene::search::AutomatonQuery {
          public:
           enum {
-            mid_init$_b3e0920f2459295e,
-            mid_init$_0ba1fe1bffa6bb67,
-            mid_equals_570b5248a6da3ef6,
-            mid_getLowerTerm_9740fddd1c7df148,
-            mid_getUpperTerm_9740fddd1c7df148,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_includesLower_947277eca0748c4e,
-            mid_includesUpper_947277eca0748c4e,
-            mid_newStringRange_a1865f09993cf795,
-            mid_newStringRange_3d2ca19aca46fa96,
-            mid_toAutomaton_5dd222cdb6dee880,
-            mid_toString_cb0eb1432185fc94,
+            mid_init$_e70b959b2a39cc9b,
+            mid_init$_a07320d41df9dd03,
+            mid_equals_00d17418847797d4,
+            mid_getLowerTerm_adbedbc1fa61c358,
+            mid_getUpperTerm_adbedbc1fa61c358,
+            mid_hashCode_bd89ce15dad49192,
+            mid_includesLower_9aa4f33e82ea333f,
+            mid_includesUpper_9aa4f33e82ea333f,
+            mid_newStringRange_a1142b95c58a918c,
+            mid_newStringRange_e6764ed3149b7ddb,
+            mid_toAutomaton_2d1d678c1dde0803,
+            mid_toString_fef9c036acf290a9,
             max_mid
           };
 

@@ -6,15 +6,15 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        namespace bkd {
-          class PointReader;
-          class PointValue;
-          class BKDConfig;
-        }
-      }
       namespace store {
         class Directory;
+      }
+      namespace util {
+        namespace bkd {
+          class PointValue;
+          class BKDConfig;
+          class PointReader;
+        }
       }
     }
   }
@@ -39,10 +39,10 @@ namespace org {
           class OfflinePointReader : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_775ebeaf0289ac2d,
-              mid_close_3720c61b0679eb3e,
-              mid_next_947277eca0748c4e,
-              mid_pointValue_4371b70c8fbfafd8,
+              mid_init$_96ff642a6b05bc31,
+              mid_close_e7bdbe105ce1bafb,
+              mid_next_9aa4f33e82ea333f,
+              mid_pointValue_89aa7308258929e8,
               max_mid
             };
 

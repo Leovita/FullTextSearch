@@ -28,7 +28,7 @@ namespace org {
           class TermToBytesRefAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_getBytesRef_9740fddd1c7df148,
+              mid_getBytesRef_adbedbc1fa61c358,
               max_mid
             };
 

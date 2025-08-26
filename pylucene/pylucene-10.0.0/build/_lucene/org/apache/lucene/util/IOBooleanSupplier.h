@@ -21,7 +21,7 @@ namespace org {
         class IOBooleanSupplier : public ::java::lang::Object {
          public:
           enum {
-            mid_get_947277eca0748c4e,
+            mid_get_9aa4f33e82ea333f,
             max_mid
           };
 

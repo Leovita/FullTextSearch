@@ -6,34 +6,34 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
+      namespace util {
+        class Bits;
         namespace hnsw {
-          class HnswGraphProvider;
+          class HnswGraph;
         }
-      }
-      namespace search {
-        class KnnCollector;
       }
       namespace index {
         class ByteVectorValues;
         class FloatVectorValues;
       }
-      namespace util {
+      namespace search {
+        class KnnCollector;
+      }
+      namespace codecs {
         namespace hnsw {
-          class HnswGraph;
+          class HnswGraphProvider;
         }
-        class Bits;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -47,13 +47,13 @@ namespace org {
           class Lucene95HnswVectorsReader : public ::org::apache::lucene::codecs::KnnVectorsReader {
            public:
             enum {
-              mid_checkIntegrity_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_getByteVectorValues_b6d55ee35cf0a7cd,
-              mid_getFloatVectorValues_d99d2b92faec6895,
-              mid_getGraph_f4c199e0f26ff1bf,
-              mid_search_e7c7b5d865f31eb3,
-              mid_search_210bbfb50a2f4ef9,
+              mid_checkIntegrity_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_getByteVectorValues_7ab2f26af1d93897,
+              mid_getFloatVectorValues_0c0ae22a56670782,
+              mid_getGraph_c1c25d370e8eb101,
+              mid_search_41e6931fdbdb5ba0,
+              mid_search_61a952903eb61416,
               max_mid
             };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class TermsEnum;
         class QueryTimeout;
+        class TermsEnum;
         class LeafReader;
       }
       namespace util {
@@ -18,11 +18,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,8 +35,8 @@ namespace org {
         class ExitableDirectoryReader$ExitableTermsEnum : public ::org::apache::lucene::index::FilterLeafReader$FilterTermsEnum {
          public:
           enum {
-            mid_init$_c21f37ba5aff46ab,
-            mid_next_9740fddd1c7df148,
+            mid_init$_94730160199120d8,
+            mid_next_adbedbc1fa61c358,
             max_mid
           };
 

@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/TokenFilter.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
           class NumericPayloadTokenFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_c8d6632327cde977,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_d04f043c1c24faf3,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

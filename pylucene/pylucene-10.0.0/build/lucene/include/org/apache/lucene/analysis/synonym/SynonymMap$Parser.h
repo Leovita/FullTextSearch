@@ -4,13 +4,13 @@
 #include "org/apache/lucene/analysis/synonym/SynonymMap$Builder.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-    class Reader;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
+    class Reader;
   }
 }
 namespace org {
@@ -37,9 +37,9 @@ namespace org {
           class SynonymMap$Parser : public ::org::apache::lucene::analysis::synonym::SynonymMap$Builder {
            public:
             enum {
-              mid_init$_4784acd5889323d1,
-              mid_analyze_bad4288b17f721be,
-              mid_parse_fa55492f0f5d7f31,
+              mid_init$_5c1cfecd6df0f47e,
+              mid_analyze_c79eec25d75b04ba,
+              mid_parse_89ab2bee9aa84b00,
               max_mid
             };
 

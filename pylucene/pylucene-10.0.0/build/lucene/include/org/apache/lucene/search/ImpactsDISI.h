@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/search/DocIdSetIterator.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class MaxScoreCache;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,13 +30,13 @@ namespace org {
         class ImpactsDISI : public ::org::apache::lucene::search::DocIdSetIterator {
          public:
           enum {
-            mid_init$_6213a425ac9b3d2d,
-            mid_advance_3c9bba330f083871,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_getMaxScoreCache_8564543d38bfb6d8,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_setMinCompetitiveScore_c771a95b0227fb6a,
+            mid_init$_6e6c460a01524077,
+            mid_advance_a3904e10f5bb9437,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_getMaxScoreCache_bff537f492157e12,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_setMinCompetitiveScore_675f4cb9a2529ee0,
             max_mid
           };
 

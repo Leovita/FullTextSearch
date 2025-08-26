@@ -29,12 +29,12 @@ namespace org {
         class TotalHits : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_7457e6d5407600fc,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_relation_867cb7effec6dcb4,
-            mid_toString_09a7afff1868fc5e,
-            mid_value_16939d9d0a9a9721,
+            mid_init$_33d33d76750eb1d9,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_relation_fa458722c82c69f3,
+            mid_toString_e7df854526d67fa3,
+            mid_value_0f176418e3e16541,
             max_mid
           };
 

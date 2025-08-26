@@ -3,28 +3,28 @@
 
 #include "org/apache/lucene/search/uhighlight/OffsetsEnum.h"
 
-namespace java {
-  namespace util {
-    namespace function {
-      class Supplier;
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class MatchesIterator;
+      }
+      namespace util {
+        class BytesRef;
+      }
     }
   }
+}
+namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
   }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace search {
-        class MatchesIterator;
-      }
+  namespace util {
+    namespace function {
+      class Supplier;
     }
   }
 }
@@ -39,12 +39,12 @@ namespace org {
           class OffsetsEnum$OfMatchesIterator : public ::org::apache::lucene::search::uhighlight::OffsetsEnum {
            public:
             enum {
-              mid_init$_6152727db8b6221e,
-              mid_endOffset_20fbf7565993c3d7,
-              mid_freq_20fbf7565993c3d7,
-              mid_getTerm_9740fddd1c7df148,
-              mid_nextPosition_947277eca0748c4e,
-              mid_startOffset_20fbf7565993c3d7,
+              mid_init$_9c264d028f22a535,
+              mid_endOffset_bd89ce15dad49192,
+              mid_freq_bd89ce15dad49192,
+              mid_getTerm_adbedbc1fa61c358,
+              mid_nextPosition_9aa4f33e82ea333f,
+              mid_startOffset_bd89ce15dad49192,
               max_mid
             };
 

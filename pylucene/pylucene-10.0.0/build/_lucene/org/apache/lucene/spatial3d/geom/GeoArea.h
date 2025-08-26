@@ -30,7 +30,7 @@ namespace org {
           class GeoArea : public ::org::apache::lucene::spatial3d::geom::Membership {
            public:
             enum {
-              mid_getRelationship_8f22277e6d81944f,
+              mid_getRelationship_45c244038f50cef7,
               max_mid
             };
 

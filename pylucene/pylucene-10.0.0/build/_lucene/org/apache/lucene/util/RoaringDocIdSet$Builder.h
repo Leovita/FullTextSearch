@@ -3,25 +3,25 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class RoaringDocIdSet;
-        class RoaringDocIdSet$Builder;
-      }
-      namespace search {
-        class DocIdSetIterator;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class DocIdSetIterator;
+      }
+      namespace util {
+        class RoaringDocIdSet$Builder;
+        class RoaringDocIdSet;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -34,10 +34,10 @@ namespace org {
         class RoaringDocIdSet$Builder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_add_12cf75ecebbb39ae,
-            mid_add_6be22138b0449bf3,
-            mid_build_3b2147a63caa90c4,
+            mid_init$_8226bd0b0fc13dba,
+            mid_add_54288acc518c7bd2,
+            mid_add_ac25f7c410dfce33,
+            mid_build_b0556275f07fe95d,
             max_mid
           };
 

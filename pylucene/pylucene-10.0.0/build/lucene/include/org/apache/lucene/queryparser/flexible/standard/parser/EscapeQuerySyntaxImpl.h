@@ -8,18 +8,18 @@ namespace org {
     namespace lucene {
       namespace queryparser {
         namespace flexible {
-          namespace core {
-            namespace parser {
-              class EscapeQuerySyntax;
-              class EscapeQuerySyntax$Type;
-            }
-            namespace util {
-              class UnescapedCharSequence;
-            }
-          }
           namespace standard {
             namespace parser {
               class ParseException;
+            }
+          }
+          namespace core {
+            namespace parser {
+              class EscapeQuerySyntax$Type;
+              class EscapeQuerySyntax;
+            }
+            namespace util {
+              class UnescapedCharSequence;
             }
           }
         }
@@ -49,9 +49,9 @@ namespace org {
               class EscapeQuerySyntaxImpl : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_discardEscapeChar_3a682f3aae3e0dca,
-                  mid_escape_39fe12cf03a343eb,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_discardEscapeChar_2563a1c92ff0d5ee,
+                  mid_escape_a0fb62e43f39fc8c,
                   max_mid
                 };
 

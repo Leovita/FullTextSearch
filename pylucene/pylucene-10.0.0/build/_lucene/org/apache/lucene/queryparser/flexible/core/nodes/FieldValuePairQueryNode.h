@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/FieldableNode.h"
 
-namespace java {
-  namespace lang {
-    class Object;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -22,6 +16,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;

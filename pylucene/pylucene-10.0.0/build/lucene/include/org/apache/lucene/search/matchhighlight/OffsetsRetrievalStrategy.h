@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class MatchesIterator;
         namespace matchhighlight {
           class OffsetRange;
           class MatchRegionRetriever$FieldValueProvider;
         }
-        class MatchesIterator;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -38,7 +38,7 @@ namespace org {
           class OffsetsRetrievalStrategy : public ::java::lang::Object {
            public:
             enum {
-              mid_get_c33fe7c6bf5bf02a,
+              mid_get_aa6d5677fa56b028,
               max_mid
             };
 

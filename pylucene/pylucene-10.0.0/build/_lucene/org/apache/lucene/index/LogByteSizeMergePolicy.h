@@ -18,14 +18,14 @@ namespace org {
         class LogByteSizeMergePolicy : public ::org::apache::lucene::index::LogMergePolicy {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getMaxMergeMB_32caabaad86c508b,
-            mid_getMaxMergeMBForForcedMerge_32caabaad86c508b,
-            mid_getMinMergeMB_32caabaad86c508b,
-            mid_setMaxMergeMB_b5bc1a2fb9ff9e90,
-            mid_setMaxMergeMBForForcedMerge_b5bc1a2fb9ff9e90,
-            mid_setMinMergeMB_b5bc1a2fb9ff9e90,
-            mid_size_df03ba0154b74836,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getMaxMergeMB_6fb37e123fed7a1f,
+            mid_getMaxMergeMBForForcedMerge_6fb37e123fed7a1f,
+            mid_getMinMergeMB_6fb37e123fed7a1f,
+            mid_setMaxMergeMB_a03f734ddaeb69b4,
+            mid_setMaxMergeMBForForcedMerge_a03f734ddaeb69b4,
+            mid_setMinMergeMB_a03f734ddaeb69b4,
+            mid_size_4bcc685415af8b2d,
             max_mid
           };
 

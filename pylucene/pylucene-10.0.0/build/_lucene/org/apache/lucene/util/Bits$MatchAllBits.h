@@ -27,9 +27,9 @@ namespace org {
         class Bits$MatchAllBits : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_get_ae22d3a856ad56f1,
-            mid_length_20fbf7565993c3d7,
+            mid_init$_8226bd0b0fc13dba,
+            mid_get_a8281eb3b9d9672d,
+            mid_length_bd89ce15dad49192,
             max_mid
           };
 

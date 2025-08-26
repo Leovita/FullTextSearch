@@ -7,27 +7,27 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class ScoreMode;
+        class Query;
         class Weight;
+      }
+      namespace index {
+        class IndexReader;
       }
       namespace sandbox {
         namespace search {
           class QueryProfilerResult;
         }
       }
-      namespace index {
-        class IndexReader;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -44,11 +44,11 @@ namespace org {
           class QueryProfilerIndexSearcher : public ::org::apache::lucene::search::IndexSearcher {
            public:
             enum {
-              mid_init$_1980becffa418484,
-              mid_createWeight_c6a3f31717033e08,
-              mid_getProfileResult_36830460e10839eb,
-              mid_getRewriteTime_16939d9d0a9a9721,
-              mid_rewrite_f1d2a5e3e65d181f,
+              mid_init$_d988f6cfce8380fb,
+              mid_createWeight_783fe471e3906f40,
+              mid_getProfileResult_1387e1e2702ac173,
+              mid_getRewriteTime_0f176418e3e16541,
+              mid_rewrite_aa742476ed88ab8f,
               max_mid
             };
 

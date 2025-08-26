@@ -3,32 +3,32 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        namespace hnsw {
-          class RandomVectorScorer;
-          class RandomVectorScorerSupplier;
-        }
         namespace quantization {
           class ScalarQuantizer;
           class QuantizedByteVectorValues;
+        }
+        namespace hnsw {
+          class RandomVectorScorerSupplier;
+          class RandomVectorScorer;
         }
       }
       namespace index {
         class VectorSimilarityFunction;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -42,10 +42,10 @@ namespace org {
           class ScalarQuantizedVectorScorer$ScalarQuantizedRandomVectorScorerSupplier : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_2fb7e2438c7b0197,
-              mid_copy_32926ad3d3b913f9,
-              mid_scorer_f5561f974c4aad06,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e3c6741af431cb02,
+              mid_copy_493381e923a32bb9,
+              mid_scorer_9d51031d4ab961d5,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace antlr {
     namespace v4 {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class ATNType : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_d6689cd5d02f0888,
-              mid_values_797a4d60645cad51,
+              mid_valueOf_dfa136dbb21cb4a6,
+              mid_values_10ab0a2e1d68102c,
               max_mid
             };
 

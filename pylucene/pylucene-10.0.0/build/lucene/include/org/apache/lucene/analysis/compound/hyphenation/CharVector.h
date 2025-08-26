@@ -34,19 +34,19 @@ namespace org {
             class CharVector : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_cc40ee25f19f0868,
-                mid_init$_540b2b23d51b1efd,
-                mid_init$_e06ffef1ed339658,
-                mid_alloc_3c9bba330f083871,
-                mid_capacity_20fbf7565993c3d7,
-                mid_clear_3720c61b0679eb3e,
-                mid_clone_09d6f6341787399d,
-                mid_get_92a13ce4196a7e69,
-                mid_getArray_77d52ded526199de,
-                mid_length_20fbf7565993c3d7,
-                mid_put_931c9794de74ba08,
-                mid_trimToSize_3720c61b0679eb3e,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_ae4452529cb9c0dd,
+                mid_init$_8226bd0b0fc13dba,
+                mid_init$_495b1505e3aef671,
+                mid_alloc_a3904e10f5bb9437,
+                mid_capacity_bd89ce15dad49192,
+                mid_clear_e7bdbe105ce1bafb,
+                mid_clone_4273d209d1e48d18,
+                mid_get_bc94dd98365f92fb,
+                mid_getArray_e5926045e1917c62,
+                mid_length_bd89ce15dad49192,
+                mid_put_53f645c50443c1f0,
+                mid_trimToSize_e7bdbe105ce1bafb,
                 max_mid
               };
 

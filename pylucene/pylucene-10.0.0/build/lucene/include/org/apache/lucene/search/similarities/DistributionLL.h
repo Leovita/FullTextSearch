@@ -31,9 +31,9 @@ namespace org {
           class DistributionLL : public ::org::apache::lucene::search::similarities::Distribution {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_score_4520853cec1acecd,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_score_45900529809cd3f1,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

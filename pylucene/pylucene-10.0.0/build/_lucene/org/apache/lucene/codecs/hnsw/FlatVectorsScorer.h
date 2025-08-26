@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        namespace hnsw {
-          class RandomVectorScorer;
-          class RandomVectorScorerSupplier;
-        }
-      }
       namespace index {
         class VectorSimilarityFunction;
         class KnnVectorValues;
       }
+      namespace util {
+        namespace hnsw {
+          class RandomVectorScorerSupplier;
+          class RandomVectorScorer;
+        }
+      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -38,9 +38,9 @@ namespace org {
           class FlatVectorsScorer : public ::java::lang::Object {
            public:
             enum {
-              mid_getRandomVectorScorer_fc28bd70a9118057,
-              mid_getRandomVectorScorer_1701594e562f69f6,
-              mid_getRandomVectorScorerSupplier_2c8c5cbb3a1d58d0,
+              mid_getRandomVectorScorer_1ebe787c53ff62b6,
+              mid_getRandomVectorScorer_c110b05f7f5c1d6c,
+              mid_getRandomVectorScorerSupplier_effa0cc5d9ffc106,
               max_mid
             };
 

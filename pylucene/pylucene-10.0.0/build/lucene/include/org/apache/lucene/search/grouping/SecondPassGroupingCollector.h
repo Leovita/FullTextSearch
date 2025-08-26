@@ -8,26 +8,26 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace grouping {
-          class GroupReducer;
           class SearchGroup;
           class GroupSelector;
+          class GroupReducer;
         }
-        class Scorable;
         class ScoreMode;
+        class Scorable;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -41,12 +41,12 @@ namespace org {
           class SecondPassGroupingCollector : public ::org::apache::lucene::search::SimpleCollector {
            public:
             enum {
-              mid_init$_dcf9d1d22cc5dacf,
-              mid_collect_540b2b23d51b1efd,
-              mid_getGroupSelector_22f3218e526beab0,
-              mid_scoreMode_45dfdcf7e901559d,
-              mid_setScorer_dd42dde4c0a7db1e,
-              mid_doSetNextReader_b7b06dce0a4097ed,
+              mid_init$_1b29b6e6e054a6bd,
+              mid_collect_8226bd0b0fc13dba,
+              mid_getGroupSelector_3112688549a3c1ac,
+              mid_scoreMode_23e7061dcdc84768,
+              mid_setScorer_c06bdf7d53c6460a,
+              mid_doSetNextReader_32243afefe6b151f,
               max_mid
             };
 

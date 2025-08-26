@@ -31,8 +31,8 @@ namespace org {
           class GroupSelector$State : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_e030d98ca37d936e,
-              mid_values_19f0ed1795a42219,
+              mid_valueOf_79f314ee371a50de,
+              mid_values_882c0ea14bf53ff7,
               max_mid
             };
 

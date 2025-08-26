@@ -34,10 +34,10 @@ namespace org {
           class EntrySuggestion : public ::java::lang::Object {
            public:
             enum {
-              mid_getEntriesToAdd_36830460e10839eb,
-              mid_getEntriesToEdit_36830460e10839eb,
-              mid_getExtraGeneratedWords_36830460e10839eb,
-              mid_toString_09a7afff1868fc5e,
+              mid_getEntriesToAdd_1387e1e2702ac173,
+              mid_getEntriesToEdit_1387e1e2702ac173,
+              mid_getExtraGeneratedWords_1387e1e2702ac173,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

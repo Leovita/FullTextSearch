@@ -3,31 +3,31 @@
 
 #include "org/apache/lucene/util/LongValues.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class Accountable;
-      }
-      namespace backward_codecs {
-        namespace packed {
-          class LegacyDirectMonotonicReader$Meta;
-          class LegacyDirectMonotonicReader;
-        }
-      }
-      namespace store {
-        class IndexInput;
-        class RandomAccessInput;
-      }
-    }
-  }
-}
 namespace java {
+  namespace lang {
+    class Class;
+  }
   namespace io {
     class IOException;
   }
-  namespace lang {
-    class Class;
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace backward_codecs {
+        namespace packed {
+          class LegacyDirectMonotonicReader;
+          class LegacyDirectMonotonicReader$Meta;
+        }
+      }
+      namespace store {
+        class RandomAccessInput;
+        class IndexInput;
+      }
+      namespace util {
+        class Accountable;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -41,11 +41,11 @@ namespace org {
           class LegacyDirectMonotonicReader : public ::org::apache::lucene::util::LongValues {
            public:
             enum {
-              mid_binarySearch_e53f2b2f457f4ad3,
-              mid_get_91d66fa3ea476cea,
-              mid_getInstance_11bba6f36d681cf5,
-              mid_loadMeta_969541fd536044c9,
-              mid_ramBytesUsed_16939d9d0a9a9721,
+              mid_binarySearch_53da2e1f0169db0c,
+              mid_get_3dc1c6e3a5a0baf0,
+              mid_getInstance_2ce5ea8a3d5e33c5,
+              mid_loadMeta_7e8942f28bab26f2,
+              mid_ramBytesUsed_0f176418e3e16541,
               max_mid
             };
 

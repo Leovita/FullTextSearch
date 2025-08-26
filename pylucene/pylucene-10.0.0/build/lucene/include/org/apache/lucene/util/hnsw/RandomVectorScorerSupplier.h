@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -13,14 +21,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,8 +34,8 @@ namespace org {
           class RandomVectorScorerSupplier : public ::java::lang::Object {
            public:
             enum {
-              mid_copy_32926ad3d3b913f9,
-              mid_scorer_f5561f974c4aad06,
+              mid_copy_493381e923a32bb9,
+              mid_scorer_9d51031d4ab961d5,
               max_mid
             };
 

@@ -28,8 +28,8 @@ namespace org {
           class EdgeNGramTokenizer : public ::org::apache::lucene::analysis::ngram::NGramTokenizer {
            public:
             enum {
-              mid_init$_e13cff512ebda969,
-              mid_init$_b716f677a5f19515,
+              mid_init$_645c25455f5b9b1c,
+              mid_init$_174ba4108e704d25,
               max_mid
             };
 

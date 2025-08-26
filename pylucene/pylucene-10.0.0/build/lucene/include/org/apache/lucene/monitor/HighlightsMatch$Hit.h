@@ -3,14 +3,6 @@
 
 #include "java/lang/Record.h"
 
-namespace java {
-  namespace lang {
-    class Comparable;
-    class Class;
-    class String;
-    class Object;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +10,14 @@ namespace org {
         class HighlightsMatch$Hit;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+    class Comparable;
   }
 }
 template<class T> class JArray;
@@ -30,15 +30,15 @@ namespace org {
         class HighlightsMatch$Hit : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_94688dd632556392,
-            mid_compareTo_b760533b85656009,
-            mid_endOffset_20fbf7565993c3d7,
-            mid_endPosition_20fbf7565993c3d7,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_startOffset_20fbf7565993c3d7,
-            mid_startPosition_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_126b4efb1bebbe4a,
+            mid_compareTo_32e4a45a53424091,
+            mid_endOffset_bd89ce15dad49192,
+            mid_endPosition_bd89ce15dad49192,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_startOffset_bd89ce15dad49192,
+            mid_startPosition_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

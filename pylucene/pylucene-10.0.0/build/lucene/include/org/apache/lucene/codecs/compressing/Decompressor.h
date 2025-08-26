@@ -3,30 +3,30 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Cloneable;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace codecs {
+        namespace compressing {
+          class Decompressor;
+        }
+      }
       namespace store {
         class DataInput;
       }
       namespace util {
         class BytesRef;
       }
-      namespace codecs {
-        namespace compressing {
-          class Decompressor;
-        }
-      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class Cloneable;
   }
 }
 template<class T> class JArray;
@@ -40,8 +40,8 @@ namespace org {
           class Decompressor : public ::java::lang::Object {
            public:
             enum {
-              mid_clone_4831b2fbaf57a094,
-              mid_decompress_e602ab0fc115d035,
+              mid_clone_0a2895b8bea244f0,
+              mid_decompress_9a58a446101503f8,
               max_mid
             };
 

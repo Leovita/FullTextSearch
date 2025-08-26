@@ -3,14 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +10,14 @@ namespace org {
         class IndexCommit;
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,9 +30,9 @@ namespace org {
         class SegmentInfos$FindSegmentsFile : public ::java::lang::Object {
          public:
           enum {
-            mid_run_5655ed8670534604,
-            mid_run_544ce56bc3d5e832,
-            mid_doBody_e5cf973b773e2999,
+            mid_run_4819806f62f1360a,
+            mid_run_310cec18b8987d4a,
+            mid_doBody_a78a91e32cc37c7c,
             max_mid
           };
 

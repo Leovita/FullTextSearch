@@ -28,8 +28,8 @@ namespace org {
         class TotalHits$Relation : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_b1b99281bd2089c6,
-            mid_values_332fd85a7fb94f84,
+            mid_valueOf_c3e922ef7545e32b,
+            mid_values_6449a4b5190d75bc,
             max_mid
           };
 

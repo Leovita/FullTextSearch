@@ -6,18 +6,18 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace queryparser {
         namespace surround {
           namespace query {
-            class BasicQueryFactory;
-            class SrndQuery;
-            class DistanceSubQuery;
             class SpanNearClauseFactory;
+            class DistanceSubQuery;
+            class SrndQuery;
+            class BasicQueryFactory;
           }
         }
+      }
+      namespace search {
+        class Query;
       }
     }
   }
@@ -27,11 +27,11 @@ namespace java {
     class Class;
     class String;
   }
-  namespace util {
-    class List;
-  }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -46,10 +46,10 @@ namespace org {
             class OrQuery : public ::org::apache::lucene::queryparser::surround::query::ComposedQuery {
              public:
               enum {
-                mid_init$_4fcda0d6e43d0b71,
-                mid_addSpanQueries_aa9cfb8c7bb6240d,
-                mid_distanceSubQueryNotAllowed_09a7afff1868fc5e,
-                mid_makeLuceneQueryFieldNoBoost_c9d13380f7762023,
+                mid_init$_1ad19c832bba5d35,
+                mid_addSpanQueries_56afd90c8c16ea0c,
+                mid_distanceSubQueryNotAllowed_e7df854526d67fa3,
+                mid_makeLuceneQueryFieldNoBoost_f72be4f202dc3d74,
                 max_mid
               };
 

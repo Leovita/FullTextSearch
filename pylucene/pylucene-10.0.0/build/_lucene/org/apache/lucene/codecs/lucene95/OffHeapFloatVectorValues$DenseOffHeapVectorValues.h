@@ -3,39 +3,39 @@
 
 #include "org/apache/lucene/codecs/lucene95/OffHeapFloatVectorValues.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class VectorScorer;
+      namespace util {
+        class Bits;
       }
       namespace index {
         class VectorSimilarityFunction;
         class KnnVectorValues$DocIndexIterator;
       }
-      namespace util {
-        class Bits;
+      namespace codecs {
+        namespace lucene95 {
+          class OffHeapFloatVectorValues$DenseOffHeapVectorValues;
+        }
+        namespace hnsw {
+          class FlatVectorsScorer;
+        }
       }
       namespace store {
         class IndexInput;
       }
-      namespace codecs {
-        namespace hnsw {
-          class FlatVectorsScorer;
-        }
-        namespace lucene95 {
-          class OffHeapFloatVectorValues$DenseOffHeapVectorValues;
-        }
+      namespace search {
+        class VectorScorer;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -49,12 +49,12 @@ namespace org {
           class OffHeapFloatVectorValues$DenseOffHeapVectorValues : public ::org::apache::lucene::codecs::lucene95::OffHeapFloatVectorValues {
            public:
             enum {
-              mid_init$_9737133e65ab8c1a,
-              mid_copy_d121401f5d0999ae,
-              mid_getAcceptOrds_372c76d90ab3ad4a,
-              mid_iterator_cd2e842b8d8e9e2b,
-              mid_ordToDoc_3c9bba330f083871,
-              mid_scorer_a8fe418e8b9bfd3a,
+              mid_init$_71c440f325fa186d,
+              mid_copy_36ae912514b65e49,
+              mid_getAcceptOrds_952ad757d5b0c3b2,
+              mid_iterator_95916eac162e9a1d,
+              mid_ordToDoc_a3904e10f5bb9437,
+              mid_scorer_08ba7b0e97b17679,
               max_mid
             };
 

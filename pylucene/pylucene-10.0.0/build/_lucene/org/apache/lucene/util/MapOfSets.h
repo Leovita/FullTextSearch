@@ -4,13 +4,13 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    class Collection;
-    class Set;
-    class Map;
-  }
   namespace lang {
     class Class;
+  }
+  namespace util {
+    class Map;
+    class Collection;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -23,10 +23,10 @@ namespace org {
         class MapOfSets : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_79ba0f5a7d05e623,
-            mid_getMap_f125f26c07a7bec8,
-            mid_put_40855b2159b37f04,
-            mid_putAll_8629ff5a87421f07,
+            mid_init$_6a7e23584beb7c0f,
+            mid_getMap_5004bdf19ed33453,
+            mid_put_69b7b8451ec9257c,
+            mid_putAll_379e4f10ea507213,
             max_mid
           };
 

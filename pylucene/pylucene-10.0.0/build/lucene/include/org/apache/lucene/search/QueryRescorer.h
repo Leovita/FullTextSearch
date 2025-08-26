@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class Explanation;
+        class Query;
         class TopDocs;
         class IndexSearcher;
       }
@@ -16,11 +16,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -33,11 +33,11 @@ namespace org {
         class QueryRescorer : public ::org::apache::lucene::search::Rescorer {
          public:
           enum {
-            mid_init$_d7278af460a7b96a,
-            mid_explain_7816c2afad961dbe,
-            mid_rescore_2a267af6d7168b6c,
-            mid_rescore_bc567def57a4a563,
-            mid_combine_757202bc8b9c9a52,
+            mid_init$_a28ff1cdbaf0bf6c,
+            mid_explain_0301dd764f0b75c0,
+            mid_rescore_f836b6b8188cc050,
+            mid_rescore_6f157d51c0c36fbf,
+            mid_combine_d25cfd2f8aac4e81,
             max_mid
           };
 

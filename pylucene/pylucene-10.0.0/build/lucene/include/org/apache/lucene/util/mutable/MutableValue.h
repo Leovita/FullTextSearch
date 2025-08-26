@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
-    class String;
     class Class;
+    class String;
+    class Comparable;
   }
 }
 namespace org {
@@ -32,17 +32,17 @@ namespace org {
           class MutableValue : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_compareSameType_657656e6a597f732,
-              mid_compareTo_5e0a28593f6b0ffe,
-              mid_copy_6ff892abee0fa393,
-              mid_duplicate_28c3cf024c0e87ef,
-              mid_equals_570b5248a6da3ef6,
-              mid_equalsSameType_570b5248a6da3ef6,
-              mid_exists_947277eca0748c4e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toObject_5655ed8670534604,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_compareSameType_3b738b91667a06c2,
+              mid_compareTo_699d984ed256bedd,
+              mid_copy_c9984adaa32a6ee1,
+              mid_duplicate_ab99a02747ee80a6,
+              mid_equals_00d17418847797d4,
+              mid_equalsSameType_00d17418847797d4,
+              mid_exists_9aa4f33e82ea333f,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toObject_4819806f62f1360a,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 namespace org {
@@ -38,12 +38,12 @@ namespace org {
           class SearcherTaxonomyManager$SearcherAndTaxonomy : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_c1c88e6f134f68eb,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_searcher_8c9a1e527c2e5a94,
-              mid_taxonomyReader_f3596a1d5eba38c2,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e8502d9dd19cd76f,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_searcher_b5872e6ced4699df,
+              mid_taxonomyReader_d37a89f8c60186b4,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace uhighlight {
+          class UHComponents;
           class OffsetsEnum;
           class UnifiedHighlighter$OffsetSource;
-          class UHComponents;
         }
       }
       namespace index {
@@ -20,12 +20,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,14 +39,14 @@ namespace org {
           class FieldOffsetStrategy : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_04bb0549c47d4303,
-              mid_getField_09a7afff1868fc5e,
-              mid_getOffsetSource_77a619b338f9ed68,
-              mid_getOffsetsEnum_717b49b3028aff18,
-              mid_createOffsetsEnumsWeightMatcher_2539b220c696fe2f,
-              mid_createOffsetsEnumsForTerms_f874581b9193518d,
-              mid_createOffsetsEnumsForAutomata_babc9a6cdf4a1ccf,
-              mid_createOffsetsEnumFromReader_a38e21edf1ee8b1d,
+              mid_init$_4b4c5570af772ffe,
+              mid_getField_e7df854526d67fa3,
+              mid_getOffsetSource_e52a710f16ce6a53,
+              mid_getOffsetsEnum_5610a28ef32aa7b7,
+              mid_createOffsetsEnumsWeightMatcher_c553aa59d95722a3,
+              mid_createOffsetsEnumsForTerms_c95a4be727ee3254,
+              mid_createOffsetsEnumsForAutomata_1cead45eaa2f79aa,
+              mid_createOffsetsEnumFromReader_b3cbaeb75bddb170,
               max_mid
             };
 

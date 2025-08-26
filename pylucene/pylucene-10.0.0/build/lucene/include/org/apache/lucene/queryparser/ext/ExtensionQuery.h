@@ -16,8 +16,8 @@ namespace org {
 }
 namespace java {
   namespace lang {
-    class String;
     class Object;
+    class String;
     class Class;
   }
 }
@@ -32,13 +32,13 @@ namespace org {
           class ExtensionQuery : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_08af87ad4458c515,
-              mid_equals_570b5248a6da3ef6,
-              mid_field_09a7afff1868fc5e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rawQueryString_09a7afff1868fc5e,
-              mid_toString_09a7afff1868fc5e,
-              mid_topLevelParser_b650a0f21839a577,
+              mid_init$_96b8ce44c77b7867,
+              mid_equals_00d17418847797d4,
+              mid_field_e7df854526d67fa3,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rawQueryString_e7df854526d67fa3,
+              mid_toString_e7df854526d67fa3,
+              mid_topLevelParser_c9549ffa25fedeef,
               max_mid
             };
 

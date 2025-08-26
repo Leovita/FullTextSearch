@@ -22,10 +22,10 @@ namespace java {
       class IntPredicate : public ::java::lang::Object {
        public:
         enum {
-          mid_and_70d150fb76a2d30d,
-          mid_negate_f9c9ba9860e292e0,
-          mid_or_70d150fb76a2d30d,
-          mid_test_ae22d3a856ad56f1,
+          mid_and_3fa773dc8aa09d8e,
+          mid_negate_30f13f5a2b1d3da1,
+          mid_or_3fa773dc8aa09d8e,
+          mid_test_a8281eb3b9d9672d,
           max_mid
         };
 

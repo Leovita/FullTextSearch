@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace index {
         class MergeState;
-        class FieldInfo;
         class SegmentWriteState;
+        class FieldInfo;
       }
       namespace codecs {
         class PointsReader;
@@ -18,11 +18,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -36,12 +36,12 @@ namespace org {
           class Lucene90PointsWriter : public ::org::apache::lucene::codecs::PointsWriter {
            public:
             enum {
-              mid_init$_45b2848804214eb5,
-              mid_init$_4a3c51e774ed56a7,
-              mid_close_3720c61b0679eb3e,
-              mid_finish_3720c61b0679eb3e,
-              mid_merge_1d534d5055fd8b5a,
-              mid_writeField_47730f1914f6cee4,
+              mid_init$_5f1496262e5a9f7c,
+              mid_init$_6669e2bf8395e469,
+              mid_close_e7bdbe105ce1bafb,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_merge_b7f5b82c43646887,
+              mid_writeField_4e8caf49ce58da92,
               max_mid
             };
 

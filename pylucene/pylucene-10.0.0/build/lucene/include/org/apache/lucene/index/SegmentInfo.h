@@ -6,30 +6,30 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Sort;
-      }
-      namespace util {
-        class Version;
-      }
       namespace store {
         class Directory;
       }
       namespace codecs {
         class Codec;
       }
+      namespace util {
+        class Version;
+      }
+      namespace search {
+        class Sort;
+      }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class Set;
-    class Map;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace util {
+    class Map;
+    class Collection;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -42,29 +42,29 @@ namespace org {
         class SegmentInfo : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_52763435f08ce35f,
-            mid_addDiagnostics_79ba0f5a7d05e623,
-            mid_addFile_0d82408c6e55bc30,
-            mid_addFiles_40eba2cff967cc45,
-            mid_equals_570b5248a6da3ef6,
-            mid_files_4df174295554d7bd,
-            mid_getAttribute_cb0eb1432185fc94,
-            mid_getAttributes_f125f26c07a7bec8,
-            mid_getCodec_39da0291d4509749,
-            mid_getDiagnostics_f125f26c07a7bec8,
-            mid_getHasBlocks_947277eca0748c4e,
-            mid_getId_5560da88fc44aa82,
-            mid_getIndexSort_74d249da84538e70,
-            mid_getMinVersion_f03381109b44c46a,
-            mid_getUseCompoundFile_947277eca0748c4e,
-            mid_getVersion_f03381109b44c46a,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_maxDoc_20fbf7565993c3d7,
-            mid_putAttribute_6829292399b85216,
-            mid_setCodec_97e34c08d1ad9d65,
-            mid_setFiles_40eba2cff967cc45,
-            mid_toString_09a7afff1868fc5e,
-            mid_toString_cd8436557ab831f9,
+            mid_init$_78fc59051bd96df0,
+            mid_addDiagnostics_6a7e23584beb7c0f,
+            mid_addFile_ee46a189998009d6,
+            mid_addFiles_b5398b431eb321fb,
+            mid_equals_00d17418847797d4,
+            mid_files_79131c6bbcf08916,
+            mid_getAttribute_fef9c036acf290a9,
+            mid_getAttributes_5004bdf19ed33453,
+            mid_getCodec_820c7dce26df28db,
+            mid_getDiagnostics_5004bdf19ed33453,
+            mid_getHasBlocks_9aa4f33e82ea333f,
+            mid_getId_44e916dc40fc04cb,
+            mid_getIndexSort_9a15197f7786b173,
+            mid_getMinVersion_098638c0dde6da21,
+            mid_getUseCompoundFile_9aa4f33e82ea333f,
+            mid_getVersion_098638c0dde6da21,
+            mid_hashCode_bd89ce15dad49192,
+            mid_maxDoc_bd89ce15dad49192,
+            mid_putAttribute_3bdb499546f6bd60,
+            mid_setCodec_c295922ff311d3f8,
+            mid_setFiles_b5398b431eb321fb,
+            mid_toString_e7df854526d67fa3,
+            mid_toString_0da8f0b89b1e9a22,
             max_mid
           };
 

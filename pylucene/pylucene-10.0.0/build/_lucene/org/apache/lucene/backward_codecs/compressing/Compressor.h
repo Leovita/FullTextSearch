@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+    class Closeable;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,15 +19,6 @@ namespace org {
         class DataOutput;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class Closeable;
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,7 +32,7 @@ namespace org {
           class Compressor : public ::java::lang::Object {
            public:
             enum {
-              mid_compress_f301fc51e7ef86ad,
+              mid_compress_3b876975c7939aa7,
               max_mid
             };
 

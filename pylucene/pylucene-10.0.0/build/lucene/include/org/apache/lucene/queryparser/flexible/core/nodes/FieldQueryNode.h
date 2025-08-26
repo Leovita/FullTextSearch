@@ -3,32 +3,32 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/QueryNodeImpl.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class CloneNotSupportedException;
+    class String;
+    class CharSequence;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace queryparser {
         namespace flexible {
           namespace core {
-            namespace parser {
-              class EscapeQuerySyntax;
-            }
             namespace nodes {
               class TextableQueryNode;
-              class FieldValuePairQueryNode;
               class FieldQueryNode;
+              class FieldValuePairQueryNode;
+            }
+            namespace parser {
+              class EscapeQuerySyntax;
             }
           }
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
   }
 }
 template<class T> class JArray;
@@ -44,26 +44,26 @@ namespace org {
               class FieldQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_b974a1b06f039814,
-                  mid_cloneTree_2e4560e4486593c1,
-                  mid_getBegin_20fbf7565993c3d7,
-                  mid_getEnd_20fbf7565993c3d7,
-                  mid_getField_373f0038978f926b,
-                  mid_getFieldAsString_09a7afff1868fc5e,
-                  mid_getPositionIncrement_20fbf7565993c3d7,
-                  mid_getText_373f0038978f926b,
-                  mid_getTextAsString_09a7afff1868fc5e,
-                  mid_getValue_373f0038978f926b,
-                  mid_setBegin_540b2b23d51b1efd,
-                  mid_setEnd_540b2b23d51b1efd,
-                  mid_setField_5ed8eb2e3024c663,
-                  mid_setPositionIncrement_540b2b23d51b1efd,
-                  mid_setText_5ed8eb2e3024c663,
-                  mid_setValue_5ed8eb2e3024c663,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
-                  mid_getTermEscaped_d4d5dbebf21f5529,
-                  mid_getTermEscapeQuoted_d4d5dbebf21f5529,
+                  mid_init$_44298a318b5c73fe,
+                  mid_cloneTree_5bde42530638694a,
+                  mid_getBegin_bd89ce15dad49192,
+                  mid_getEnd_bd89ce15dad49192,
+                  mid_getField_f2e5418fe0d66c69,
+                  mid_getFieldAsString_e7df854526d67fa3,
+                  mid_getPositionIncrement_bd89ce15dad49192,
+                  mid_getText_f2e5418fe0d66c69,
+                  mid_getTextAsString_e7df854526d67fa3,
+                  mid_getValue_f2e5418fe0d66c69,
+                  mid_setBegin_8226bd0b0fc13dba,
+                  mid_setEnd_8226bd0b0fc13dba,
+                  mid_setField_fe2ab7d27aa3fe1a,
+                  mid_setPositionIncrement_8226bd0b0fc13dba,
+                  mid_setText_fe2ab7d27aa3fe1a,
+                  mid_setValue_fe2ab7d27aa3fe1a,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
+                  mid_getTermEscaped_5260f1dc7a86fc8d,
+                  mid_getTermEscapeQuoted_5260f1dc7a86fc8d,
                   max_mid
                 };
 

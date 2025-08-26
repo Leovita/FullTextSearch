@@ -37,8 +37,8 @@ namespace org {
               class StandardQueryConfigHandler$Operator : public ::java::lang::Enum {
                public:
                 enum {
-                  mid_valueOf_2770d2075e3a59a9,
-                  mid_values_867ed8a0942266ce,
+                  mid_valueOf_7f05fbebec5bc20d,
+                  mid_values_c11dce6eb96ec55d,
                   max_mid
                 };
 

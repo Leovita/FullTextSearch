@@ -19,16 +19,16 @@ namespace org {
           class BlockWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_createBlockLineSerializer_73ba64f41f1e264b,
-              mid_createBlockHeaderSerializer_6952406d1a100b4b,
-              mid_createDeltaBaseTermStateSerializer_f794edf8e4b1e37d,
-              mid_splitAndWriteBlock_d103b6face46e3b6,
-              mid_addBlockKey_c4ee280ecd25d3ab,
-              mid_writeBlockLine_968a024485a51fb6,
-              mid_updateFieldMetadata_8b3d46852b435a94,
-              mid_writeBlock_c4ee280ecd25d3ab,
-              mid_finishLastBlock_d103b6face46e3b6,
-              mid_addLine_3926eeb32cf209df,
+              mid_splitAndWriteBlock_2798b2c9e81a469e,
+              mid_createBlockLineSerializer_119d0a6549b55a52,
+              mid_writeBlockLine_03a26e2e9b3359ce,
+              mid_updateFieldMetadata_1d3149fac12f2af3,
+              mid_createBlockHeaderSerializer_079d2def0419b3f5,
+              mid_createDeltaBaseTermStateSerializer_7524b2c859b47f7f,
+              mid_addBlockKey_7f23e87d4f84d53f,
+              mid_addLine_93d1b92a22f0468f,
+              mid_finishLastBlock_2798b2c9e81a469e,
+              mid_writeBlock_7f23e87d4f84d53f,
               max_mid
             };
 

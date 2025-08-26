@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace store {
-        class DataOutput;
-      }
       namespace util {
         namespace packed {
           class DirectWriter;
         }
+      }
+      namespace store {
+        class DataOutput;
       }
     }
   }
@@ -36,11 +36,11 @@ namespace org {
           class DirectWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_add_8b3d46852b435a94,
-              mid_bitsRequired_35c872f03f347c10,
-              mid_finish_3720c61b0679eb3e,
-              mid_getInstance_deaeaff091de6ae7,
-              mid_unsignedBitsRequired_35c872f03f347c10,
+              mid_add_1d3149fac12f2af3,
+              mid_bitsRequired_7af44747c1921bd4,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_getInstance_7816b8fb24e70cd0,
+              mid_unsignedBitsRequired_7af44747c1921bd4,
               max_mid
             };
 

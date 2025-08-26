@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/config/AbstractQueryConfig.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -25,6 +19,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -38,9 +38,9 @@ namespace org {
               class QueryConfigHandler : public ::org::apache::lucene::queryparser::flexible::core::config::AbstractQueryConfig {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_addFieldConfigListener_c4242b20eb7104e9,
-                  mid_getFieldConfig_f7f2a90f766684be,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_addFieldConfigListener_66fbbdc698f3bc03,
+                  mid_getFieldConfig_32847344cc9335fd,
                   max_mid
                 };
 

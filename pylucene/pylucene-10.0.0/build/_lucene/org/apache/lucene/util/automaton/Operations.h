@@ -3,19 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-        namespace automaton {
-          class Automaton;
-        }
-        class IntsRef;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Integer;
@@ -24,8 +11,21 @@ namespace java {
   }
   namespace util {
     class Collection;
-    class List;
     class Set;
+    class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class IntsRef;
+        class BytesRef;
+        namespace automaton {
+          class Automaton;
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -39,34 +39,34 @@ namespace org {
           class Operations : public ::java::lang::Object {
            public:
             enum {
-              mid_complement_8281093bfab3d3ff,
-              mid_concatenate_07ded7ea7635a733,
-              mid_concatenate_7cd2378fe609716c,
-              mid_determinize_8281093bfab3d3ff,
-              mid_getCommonPrefix_d64d54728c0ae7ca,
-              mid_getCommonPrefixBytesRef_1af06c6b5bab3c41,
-              mid_getCommonSuffixBytesRef_1af06c6b5bab3c41,
-              mid_getSingleton_420e302665ed7696,
-              mid_hasDeadStates_2edba86d518e2f04,
-              mid_hasDeadStatesFromInitial_2edba86d518e2f04,
-              mid_hasDeadStatesToAccept_2edba86d518e2f04,
-              mid_intersection_7cd2378fe609716c,
-              mid_isEmpty_2edba86d518e2f04,
-              mid_isTotal_2edba86d518e2f04,
-              mid_isTotal_52a5af817494b220,
-              mid_minus_2fe1be51e0f28e4d,
-              mid_optional_c6f90dfe8bea6705,
-              mid_removeDeadStates_c6f90dfe8bea6705,
-              mid_repeat_c6f90dfe8bea6705,
-              mid_repeat_8281093bfab3d3ff,
-              mid_repeat_3499b28139aae66f,
-              mid_reverse_c6f90dfe8bea6705,
-              mid_reverse_68ac51471379844b,
-              mid_run_c32fb2d45be26c83,
-              mid_run_7e8edf8b8902b59c,
-              mid_topoSortStates_016b0a30515b6b22,
-              mid_union_8141f08eb89c1d9b,
-              mid_union_7cd2378fe609716c,
+              mid_complement_a5e67dd8bcc82f97,
+              mid_concatenate_bf9b166ee219ad33,
+              mid_concatenate_940b057f7b986c68,
+              mid_determinize_a5e67dd8bcc82f97,
+              mid_getCommonPrefix_9c2b286764040f7d,
+              mid_getCommonPrefixBytesRef_1c061679eeae4326,
+              mid_getCommonSuffixBytesRef_1c061679eeae4326,
+              mid_getSingleton_66641ba6a728d903,
+              mid_hasDeadStates_4f09c4a87ad07286,
+              mid_hasDeadStatesFromInitial_4f09c4a87ad07286,
+              mid_hasDeadStatesToAccept_4f09c4a87ad07286,
+              mid_intersection_940b057f7b986c68,
+              mid_isEmpty_4f09c4a87ad07286,
+              mid_isTotal_4f09c4a87ad07286,
+              mid_isTotal_3e913a5a845251fe,
+              mid_minus_f6be9f29cf00f36c,
+              mid_optional_3c5abe7c21896c57,
+              mid_removeDeadStates_3c5abe7c21896c57,
+              mid_repeat_3c5abe7c21896c57,
+              mid_repeat_a5e67dd8bcc82f97,
+              mid_repeat_b2b6a096c4efad85,
+              mid_reverse_3c5abe7c21896c57,
+              mid_reverse_06a886d63eb2616b,
+              mid_run_8e8b2b05808f66b0,
+              mid_run_3203b24a91cb19a5,
+              mid_topoSortStates_d4b9cf4b26e1ad54,
+              mid_union_4e55173ce044961b,
+              mid_union_940b057f7b986c68,
               max_mid
             };
 

@@ -20,7 +20,7 @@ namespace org {
           class Encoder : public ::java::lang::Object {
            public:
             enum {
-              mid_encodeText_cb0eb1432185fc94,
+              mid_encodeText_fef9c036acf290a9,
               max_mid
             };
 

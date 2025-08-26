@@ -18,11 +18,11 @@ namespace org {
         class IntroSorter : public ::org::apache::lucene::util::Sorter {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_sort_e13cff512ebda969,
-            mid_setPivot_540b2b23d51b1efd,
-            mid_comparePivot_3c9bba330f083871,
-            mid_compare_7f733b5d08bb5ec4,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_sort_645c25455f5b9b1c,
+            mid_setPivot_8226bd0b0fc13dba,
+            mid_comparePivot_a3904e10f5bb9437,
+            mid_compare_7f27cf81a85a97e9,
             max_mid
           };
 

@@ -28,15 +28,15 @@ namespace org {
           class BlockHeader : public ::java::lang::Object {
            public:
             enum {
-              mid_getBaseDocsFP_16939d9d0a9a9721,
-              mid_getBasePayloadsFP_16939d9d0a9a9721,
-              mid_getBasePositionsFP_16939d9d0a9a9721,
-              mid_getLinesCount_20fbf7565993c3d7,
-              mid_getMiddleLineIndex_20fbf7565993c3d7,
-              mid_getMiddleLineOffset_20fbf7565993c3d7,
-              mid_getTermStatesBaseOffset_20fbf7565993c3d7,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_reset_6a8abb0ffea5d46e,
+              mid_getBaseDocsFP_0f176418e3e16541,
+              mid_getBasePayloadsFP_0f176418e3e16541,
+              mid_getBasePositionsFP_0f176418e3e16541,
+              mid_getLinesCount_bd89ce15dad49192,
+              mid_getMiddleLineIndex_bd89ce15dad49192,
+              mid_getMiddleLineOffset_bd89ce15dad49192,
+              mid_getTermStatesBaseOffset_bd89ce15dad49192,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_reset_4ae2e25d52590ce9,
               max_mid
             };
 

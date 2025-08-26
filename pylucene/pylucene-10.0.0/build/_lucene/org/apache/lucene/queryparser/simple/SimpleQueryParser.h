@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class BooleanClause$Occur;
+        class Query;
       }
       namespace analysis {
         class Analyzer;
@@ -37,17 +37,17 @@ namespace org {
           class SimpleQueryParser : public ::org::apache::lucene::util::QueryBuilder {
            public:
             enum {
-              mid_init$_7afdd3ead5f9cb60,
-              mid_init$_7385dc08a4c2e1b0,
-              mid_init$_8a259b4dec96114e,
-              mid_getDefaultOperator_75abc2b8d272b588,
-              mid_parse_171433ef85015467,
-              mid_setDefaultOperator_7f7397e7ca59ebe1,
-              mid_newPhraseQuery_f6c055cd1516634d,
-              mid_newDefaultQuery_171433ef85015467,
-              mid_simplify_1a22d89e669e6e9a,
-              mid_newPrefixQuery_171433ef85015467,
-              mid_newFuzzyQuery_f6c055cd1516634d,
+              mid_init$_18cc808c0f0bca84,
+              mid_init$_7adc1cea6a894907,
+              mid_init$_6cdda89bcf3da8bd,
+              mid_getDefaultOperator_285e02dfd9c0e1d9,
+              mid_parse_9b1de8e0d58e515c,
+              mid_setDefaultOperator_fc73768d22ac21a5,
+              mid_simplify_5ba42f01ec05bd9c,
+              mid_newPrefixQuery_9b1de8e0d58e515c,
+              mid_newFuzzyQuery_5b565b82a300465b,
+              mid_newPhraseQuery_5b565b82a300465b,
+              mid_newDefaultQuery_9b1de8e0d58e515c,
               max_mid
             };
 

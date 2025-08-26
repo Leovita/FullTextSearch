@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class CharSequence;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +13,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class CharSequence;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
           class PassageAdjuster : public ::java::lang::Object {
            public:
             enum {
-              mid_adjust_2a42c2619ab0f0c5,
-              mid_currentValue_5ed8eb2e3024c663,
+              mid_adjust_20ee6581a15c41cf,
+              mid_currentValue_fe2ab7d27aa3fe1a,
               max_mid
             };
 

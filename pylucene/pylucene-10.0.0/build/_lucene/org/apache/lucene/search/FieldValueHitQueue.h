@@ -3,28 +3,28 @@
 
 #include "org/apache/lucene/util/PriorityQueue.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
         class FieldValueHitQueue;
+        class LeafFieldComparator;
         class SortField;
         class FieldComparator;
-        class LeafFieldComparator;
       }
       namespace index {
         class LeafReaderContext;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Object;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,11 +37,11 @@ namespace org {
         class FieldValueHitQueue : public ::org::apache::lucene::util::PriorityQueue {
          public:
           enum {
-            mid_create_f75691b85246fa8b,
-            mid_getComparators_30b0eea36825cf0e,
-            mid_getComparators_5049846f5c56088f,
-            mid_getReverseMul_623cd4a044ba647a,
-            mid_lessThan_7190367ab1c53d11,
+            mid_create_17066cba21148572,
+            mid_getComparators_67af262f9b30b905,
+            mid_getComparators_28a4ee5af9f0334f,
+            mid_getReverseMul_4b72a28a860ae838,
+            mid_lessThan_9c68142d89cb50c6,
             max_mid
           };
 

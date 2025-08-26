@@ -17,8 +17,8 @@ namespace org {
       class SnowballStemmer : public ::org::tartarus::snowball::SnowballProgram {
        public:
         enum {
-          mid_init$_3720c61b0679eb3e,
-          mid_stem_947277eca0748c4e,
+          mid_init$_e7bdbe105ce1bafb,
+          mid_stem_9aa4f33e82ea333f,
           max_mid
         };
 

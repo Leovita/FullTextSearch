@@ -22,7 +22,7 @@ namespace org {
           class DistinctValuesCollector$GroupCount : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_345fb440c5cc509b,
+              mid_init$_bac49893075f8f89,
               max_mid
             };
 

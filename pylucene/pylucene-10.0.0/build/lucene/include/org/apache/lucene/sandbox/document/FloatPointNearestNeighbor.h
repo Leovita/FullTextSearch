@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,6 +11,15 @@ namespace org {
         class IndexSearcher;
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+    class String;
   }
 }
 template<class T> class JArray;
@@ -33,8 +33,8 @@ namespace org {
           class FloatPointNearestNeighbor : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_nearest_c1c9f50a7076b94f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_nearest_b01e5d311d4c41a7,
               max_mid
             };
 

@@ -18,22 +18,22 @@ namespace org {
         class VectorUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_add_6bacb6e220725ab1,
-            mid_checkFinite_2f2336a2f4b2ecf2,
-            mid_cosine_1c5889ce893868f9,
-            mid_cosine_f618322cb97748d7,
-            mid_dotProduct_15d7e5623d88e7f9,
-            mid_dotProduct_f618322cb97748d7,
-            mid_dotProductScore_1c5889ce893868f9,
-            mid_int4DotProduct_15d7e5623d88e7f9,
-            mid_int4DotProductPacked_15d7e5623d88e7f9,
-            mid_isUnitVector_a2332b2a7b13511c,
-            mid_l2normalize_2f2336a2f4b2ecf2,
-            mid_l2normalize_50c07035de1f689c,
-            mid_scaleMaxInnerProductScore_8fa359a2bc20a127,
-            mid_squareDistance_15d7e5623d88e7f9,
-            mid_squareDistance_f618322cb97748d7,
-            mid_xorBitCount_15d7e5623d88e7f9,
+            mid_add_d0e5c7ca8f69d543,
+            mid_checkFinite_f16239f6f31bef88,
+            mid_cosine_10c0ed906c8dd379,
+            mid_cosine_8cc5908f35d75428,
+            mid_dotProduct_75b7f528788b10ee,
+            mid_dotProduct_8cc5908f35d75428,
+            mid_dotProductScore_10c0ed906c8dd379,
+            mid_int4DotProduct_75b7f528788b10ee,
+            mid_int4DotProductPacked_75b7f528788b10ee,
+            mid_isUnitVector_e4c12c65c16928ef,
+            mid_l2normalize_f16239f6f31bef88,
+            mid_l2normalize_5b83e4f4f5762511,
+            mid_scaleMaxInnerProductScore_760c23641efab431,
+            mid_squareDistance_75b7f528788b10ee,
+            mid_squareDistance_8cc5908f35d75428,
+            mid_xorBitCount_75b7f528788b10ee,
             max_mid
           };
 

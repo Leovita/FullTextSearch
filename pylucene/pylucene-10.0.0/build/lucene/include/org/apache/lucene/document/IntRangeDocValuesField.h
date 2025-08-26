@@ -28,10 +28,10 @@ namespace org {
         class IntRangeDocValuesField : public ::org::apache::lucene::document::BinaryRangeDocValuesField {
          public:
           enum {
-            mid_init$_5ae04353bd4ad6a7,
-            mid_getMax_3c9bba330f083871,
-            mid_getMin_3c9bba330f083871,
-            mid_newSlowIntersectsQuery_c107d1b8f0b8d4e3,
+            mid_init$_98e734b572e8500a,
+            mid_getMax_a3904e10f5bb9437,
+            mid_getMin_a3904e10f5bb9437,
+            mid_newSlowIntersectsQuery_2c4c5245b1d1e81f,
             max_mid
           };
 

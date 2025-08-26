@@ -3,28 +3,28 @@
 
 #include "org/apache/lucene/util/LongValues.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class RandomAccessInput;
+        class IndexInput;
+      }
       namespace util {
         namespace packed {
           class DirectMonotonicReader;
           class DirectMonotonicReader$Meta;
         }
       }
-      namespace store {
-        class IndexInput;
-        class RandomAccessInput;
-      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -38,11 +38,11 @@ namespace org {
           class DirectMonotonicReader : public ::org::apache::lucene::util::LongValues {
            public:
             enum {
-              mid_binarySearch_e53f2b2f457f4ad3,
-              mid_get_91d66fa3ea476cea,
-              mid_getInstance_ad3a89173e360c14,
-              mid_getInstance_20da537c3d157b19,
-              mid_loadMeta_10e6ce1ace237461,
+              mid_binarySearch_53da2e1f0169db0c,
+              mid_get_3dc1c6e3a5a0baf0,
+              mid_getInstance_3851f91753524a0c,
+              mid_getInstance_c2f87a0ae005973a,
+              mid_loadMeta_0158aecb25178926,
               max_mid
             };
 

@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class BitSet;
+      }
       namespace search {
         class Query;
         namespace join {
           class BitSetProducer;
         }
-      }
-      namespace util {
-        class BitSet;
       }
       namespace index {
         class LeafReaderContext;
@@ -22,12 +22,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,12 +41,12 @@ namespace org {
           class QueryBitSetProducer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_d7278af460a7b96a,
-              mid_equals_570b5248a6da3ef6,
-              mid_getBitSet_08a963d795e30c63,
-              mid_getQuery_a3eacfacada795d4,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_a28ff1cdbaf0bf6c,
+              mid_equals_00d17418847797d4,
+              mid_getBitSet_73b3b0dbc3a5df90,
+              mid_getQuery_ffa7bd087b2a75aa,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -6,28 +6,28 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class AttributeImpl;
+        class AttributeReflector;
+      }
       namespace analysis {
         namespace tokenattributes {
-          class PositionIncrementAttribute;
-          class OffsetAttribute;
-          class PositionLengthAttribute;
           class PackedTokenAttributeImpl;
-          class TypeAttribute;
+          class PositionLengthAttribute;
+          class PositionIncrementAttribute;
           class TermFrequencyAttribute;
+          class OffsetAttribute;
+          class TypeAttribute;
         }
-      }
-      namespace util {
-        class AttributeReflector;
-        class AttributeImpl;
       }
     }
   }
 }
 namespace java {
   namespace lang {
-    class Class;
     class String;
     class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -41,25 +41,25 @@ namespace org {
           class PackedTokenAttributeImpl : public ::org::apache::lucene::analysis::tokenattributes::CharTermAttributeImpl {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_clear_3720c61b0679eb3e,
-              mid_clone_cfbe4d6d0c28bf84,
-              mid_copyTo_9be83c6b2aff7007,
-              mid_end_3720c61b0679eb3e,
-              mid_endOffset_20fbf7565993c3d7,
-              mid_equals_570b5248a6da3ef6,
-              mid_getPositionIncrement_20fbf7565993c3d7,
-              mid_getPositionLength_20fbf7565993c3d7,
-              mid_getTermFrequency_20fbf7565993c3d7,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_reflectWith_454217ab6e97f729,
-              mid_setOffset_e13cff512ebda969,
-              mid_setPositionIncrement_540b2b23d51b1efd,
-              mid_setPositionLength_540b2b23d51b1efd,
-              mid_setTermFrequency_540b2b23d51b1efd,
-              mid_setType_0d82408c6e55bc30,
-              mid_startOffset_20fbf7565993c3d7,
-              mid_type_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_clone_283744a42dc9a7db,
+              mid_copyTo_b194e41b568bc1bc,
+              mid_end_e7bdbe105ce1bafb,
+              mid_endOffset_bd89ce15dad49192,
+              mid_equals_00d17418847797d4,
+              mid_getPositionIncrement_bd89ce15dad49192,
+              mid_getPositionLength_bd89ce15dad49192,
+              mid_getTermFrequency_bd89ce15dad49192,
+              mid_hashCode_bd89ce15dad49192,
+              mid_reflectWith_ac049850cfa29e37,
+              mid_setOffset_645c25455f5b9b1c,
+              mid_setPositionIncrement_8226bd0b0fc13dba,
+              mid_setPositionLength_8226bd0b0fc13dba,
+              mid_setTermFrequency_8226bd0b0fc13dba,
+              mid_setType_ee46a189998009d6,
+              mid_startOffset_bd89ce15dad49192,
+              mid_type_e7df854526d67fa3,
               max_mid
             };
 

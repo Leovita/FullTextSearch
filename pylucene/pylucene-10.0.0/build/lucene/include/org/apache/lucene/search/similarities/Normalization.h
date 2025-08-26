@@ -3,22 +3,22 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class Explanation;
         namespace similarities {
           class BasicStats;
         }
-        class Explanation;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
           class Normalization : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_explain_9818494c02db3b22,
-              mid_tfn_4520853cec1acecd,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_explain_e4c25e99aedac7d3,
+              mid_tfn_45900529809cd3f1,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

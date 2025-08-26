@@ -8,20 +8,20 @@ namespace java {
     class Iterator;
     namespace function {
       class UnaryOperator;
-      class Consumer;
       class Predicate;
+      class Consumer;
     }
-    class Collection;
-    class List;
     class ListIterator;
+    class Collection;
     class Spliterator;
-    class Comparator;
     class RandomAccess;
+    class Comparator;
+    class List;
   }
   namespace lang {
-    class Class;
     class Cloneable;
     class Object;
+    class Class;
   }
   namespace io {
     class Serializable;
@@ -35,48 +35,48 @@ namespace java {
     class ArrayList : public ::java::util::AbstractList {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_540b2b23d51b1efd,
-        mid_init$_40eba2cff967cc45,
-        mid_add_570b5248a6da3ef6,
-        mid_add_45daa0687d5df9b5,
-        mid_addAll_f2a1f31c5865e20d,
-        mid_addAll_30cee388a7b048af,
-        mid_addFirst_eb61ef4d1db15d08,
-        mid_addLast_eb61ef4d1db15d08,
-        mid_clear_3720c61b0679eb3e,
-        mid_clone_5655ed8670534604,
-        mid_contains_570b5248a6da3ef6,
-        mid_ensureCapacity_540b2b23d51b1efd,
-        mid_equals_570b5248a6da3ef6,
-        mid_forEach_9460fa31d6623bfb,
-        mid_get_eb7eace67c4a21fd,
-        mid_getFirst_5655ed8670534604,
-        mid_getLast_5655ed8670534604,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_indexOf_657656e6a597f732,
-        mid_isEmpty_947277eca0748c4e,
-        mid_iterator_0db4c76ff7ee995b,
-        mid_lastIndexOf_657656e6a597f732,
-        mid_listIterator_0f4ac4d253da0dce,
-        mid_listIterator_c5b65026385ab4af,
-        mid_remove_eb7eace67c4a21fd,
-        mid_remove_570b5248a6da3ef6,
-        mid_removeAll_f2a1f31c5865e20d,
-        mid_removeFirst_5655ed8670534604,
-        mid_removeIf_0e2be999b27321d2,
-        mid_removeLast_5655ed8670534604,
-        mid_replaceAll_b7e61e41bd5d4ce6,
-        mid_retainAll_f2a1f31c5865e20d,
-        mid_set_b84ce9d3b2137b5e,
-        mid_size_20fbf7565993c3d7,
-        mid_sort_480edaf434ebe52f,
-        mid_spliterator_eebbc9cffa204672,
-        mid_subList_3690552717f6ec88,
-        mid_toArray_e6b839682a4610a6,
-        mid_toArray_1794d6b866766560,
-        mid_trimToSize_3720c61b0679eb3e,
-        mid_removeRange_e13cff512ebda969,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_8226bd0b0fc13dba,
+        mid_init$_b5398b431eb321fb,
+        mid_add_00d17418847797d4,
+        mid_add_09375f3fd0a3af05,
+        mid_addAll_155d0ed876869448,
+        mid_addAll_6a33d3084931e945,
+        mid_addFirst_501c3eb890ff6d79,
+        mid_addLast_501c3eb890ff6d79,
+        mid_clear_e7bdbe105ce1bafb,
+        mid_clone_4819806f62f1360a,
+        mid_contains_00d17418847797d4,
+        mid_ensureCapacity_8226bd0b0fc13dba,
+        mid_equals_00d17418847797d4,
+        mid_forEach_b4f64d55664646ca,
+        mid_get_2a2d7d7b9153274c,
+        mid_getFirst_4819806f62f1360a,
+        mid_getLast_4819806f62f1360a,
+        mid_hashCode_bd89ce15dad49192,
+        mid_indexOf_3b738b91667a06c2,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_iterator_c7985fafdcf40e83,
+        mid_lastIndexOf_3b738b91667a06c2,
+        mid_listIterator_f5b10a8957c7e8ce,
+        mid_listIterator_a1b8e40853ea22b0,
+        mid_remove_2a2d7d7b9153274c,
+        mid_remove_00d17418847797d4,
+        mid_removeAll_155d0ed876869448,
+        mid_removeFirst_4819806f62f1360a,
+        mid_removeIf_8171e935ea14a99c,
+        mid_removeLast_4819806f62f1360a,
+        mid_replaceAll_fcc268ba85ee9ee5,
+        mid_retainAll_155d0ed876869448,
+        mid_set_c8f65d2ef44d5c7c,
+        mid_size_bd89ce15dad49192,
+        mid_sort_236c903ae32a3610,
+        mid_spliterator_fd118e26a3de79e6,
+        mid_subList_6d7644d6c0697519,
+        mid_toArray_1e688954528bc160,
+        mid_toArray_0b4a993b49b6d8e8,
+        mid_trimToSize_e7bdbe105ce1bafb,
+        mid_removeRange_645c25455f5b9b1c,
         max_mid
       };
 

@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 namespace org {
@@ -32,12 +32,12 @@ namespace org {
             class MultiValuedFloatFieldSource : public ::org::apache::lucene::queries::function::valuesource::FloatFieldSource {
              public:
               enum {
-                mid_init$_dbe0e483590005c2,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_getSortField_33273beb7e6f6fa1,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_getNumericDocValues_7907eac73ef81c86,
+                mid_init$_5da2e10ab596578d,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_getSortField_6b771f2dc8fe37aa,
+                mid_hashCode_bd89ce15dad49192,
+                mid_getNumericDocValues_acbba77126cc7841,
                 max_mid
               };
 

@@ -3,22 +3,22 @@
 
 #include "org/apache/lucene/search/suggest/analyzing/AnalyzingSuggester.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+      }
+      namespace analysis {
+        class Analyzer;
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
     class String;
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        class Analyzer;
-      }
-      namespace store {
-        class Directory;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -33,11 +33,11 @@ namespace org {
             class FuzzySuggester : public ::org::apache::lucene::search::suggest::analyzing::AnalyzingSuggester {
              public:
               enum {
-                mid_init$_a21c6acd6482f326,
-                mid_init$_75b18e54baa1205d,
-                mid_init$_a21fc344747acae1,
-                mid_convertAutomaton_c6f90dfe8bea6705,
-                mid_getFullPrefixPaths_29a2a8ce6ded5b72,
+                mid_init$_b51fcdbf9291521a,
+                mid_init$_fa408feff6098e5e,
+                mid_init$_67c8c22740927fe1,
+                mid_convertAutomaton_3c5abe7c21896c57,
+                mid_getFullPrefixPaths_d4a895b279eda4ce,
                 max_mid
               };
 

@@ -7,15 +7,15 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace monitor {
+        class Monitor$QueryCacheStats;
+        class MonitorConfiguration;
+        class MonitorUpdateListener;
+        class MonitorQuery;
         class MatchingQueries;
         class MatcherFactory;
-        class Presearcher;
-        class MonitorQuery;
-        class MonitorUpdateListener;
-        class Monitor$QueryCacheStats;
-        class PresearcherMatches;
-        class MonitorConfiguration;
         class MultiMatchingQueries;
+        class PresearcherMatches;
+        class Presearcher;
       }
       namespace document {
         class Document;
@@ -28,8 +28,8 @@ namespace org {
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -37,8 +37,8 @@ namespace java {
     class Iterable;
   }
   namespace util {
-    class List;
     class Set;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -51,27 +51,27 @@ namespace org {
         class Monitor : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_07cd0f76cabcf75a,
-            mid_init$_fa8294f9ecc5c90b,
-            mid_init$_15dd7023193779b5,
-            mid_init$_08c9d4cd1214f654,
-            mid_addQueryIndexUpdateListener_a70f90c57a7000c4,
-            mid_clear_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_debug_ef43d341336a4ed2,
-            mid_debug_03b1065f416c3826,
-            mid_deleteById_ce41e621b30e91b1,
-            mid_deleteById_9425cd4f62c94bce,
-            mid_getDisjunctCount_20fbf7565993c3d7,
-            mid_getQuery_5978956539f9ba8e,
-            mid_getQueryCacheStats_bc15b79c7406bee3,
-            mid_getQueryCount_20fbf7565993c3d7,
-            mid_getQueryIds_4df174295554d7bd,
-            mid_match_1c87acb0fe0395dd,
-            mid_match_4f55c2804a978138,
-            mid_purgeCache_3720c61b0679eb3e,
-            mid_register_de072233b7ecd14e,
-            mid_register_eb4b05d4345caaf0,
+            mid_init$_1aaca852402a5069,
+            mid_init$_16c67e4249a1ea2d,
+            mid_init$_75e6172fe8c9364f,
+            mid_init$_5e1958fd07ce7a5b,
+            mid_addQueryIndexUpdateListener_b21aff73e74046d9,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_debug_5f779b935934a60a,
+            mid_debug_31e0035cd08bc39c,
+            mid_deleteById_1f90f2fcbe43e50d,
+            mid_deleteById_acbb405b60a30822,
+            mid_getDisjunctCount_bd89ce15dad49192,
+            mid_getQuery_d5001b602b9f278e,
+            mid_getQueryCacheStats_5fd495034e682e2e,
+            mid_getQueryCount_bd89ce15dad49192,
+            mid_getQueryIds_79131c6bbcf08916,
+            mid_match_0fdcb8a3e3c149a2,
+            mid_match_cd7500f190189686,
+            mid_purgeCache_e7bdbe105ce1bafb,
+            mid_register_28c83f9eb1d4cb4e,
+            mid_register_e14ca79f217d88d0,
             max_mid
           };
 

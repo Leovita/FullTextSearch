@@ -31,10 +31,10 @@ namespace org {
           class DefaultPassageFormatter : public ::org::apache::lucene::search::uhighlight::PassageFormatter {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_ae7540abfa193d0e,
-              mid_format_83bcc013ba0a0b40,
-              mid_append_29790c1aca922e7b,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_dd74a28a41ddff0c,
+              mid_format_5c3290e0170ba552,
+              mid_append_c9e0cf471068ce6a,
               max_mid
             };
 

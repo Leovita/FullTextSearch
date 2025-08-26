@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    class Iterator;
+  }
+  namespace lang {
+    class Class;
+    class Iterable;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -13,15 +22,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class Iterator;
-  }
-  namespace lang {
-    class Class;
-    class Iterable;
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
           class IntLongHashMap$ValuesContainer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_921fdf44254c33e1,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_toArray_a057bd1a0d2826b3,
+              mid_init$_bff2455e3181a6d4,
+              mid_iterator_c7985fafdcf40e83,
+              mid_toArray_1aab5293a9d94cd3,
               max_mid
             };
 

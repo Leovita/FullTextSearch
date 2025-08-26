@@ -3,13 +3,6 @@
 
 #include "java/lang/Record.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Object;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,6 +10,13 @@ namespace org {
         class BytesRef;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,12 +30,12 @@ namespace org {
           class GroupFacetCollector$FacetEntry : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_be93bdc4fbbb5027,
-              mid_count_20fbf7565993c3d7,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
-              mid_value_9740fddd1c7df148,
+              mid_init$_86aec93bf51df65e,
+              mid_count_bd89ce15dad49192,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
+              mid_value_adbedbc1fa61c358,
               max_mid
             };
 

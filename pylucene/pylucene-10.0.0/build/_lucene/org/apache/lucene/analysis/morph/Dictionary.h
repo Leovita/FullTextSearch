@@ -30,10 +30,10 @@ namespace org {
           class Dictionary : public ::java::lang::Object {
            public:
             enum {
-              mid_getLeftId_3c9bba330f083871,
-              mid_getMorphAttributes_c1dfe3134cef8a46,
-              mid_getRightId_3c9bba330f083871,
-              mid_getWordCost_3c9bba330f083871,
+              mid_getLeftId_a3904e10f5bb9437,
+              mid_getMorphAttributes_bc5c4683890a54c0,
+              mid_getRightId_a3904e10f5bb9437,
+              mid_getWordCost_a3904e10f5bb9437,
               max_mid
             };
 

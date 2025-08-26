@@ -22,10 +22,10 @@ namespace java {
       class IntUnaryOperator : public ::java::lang::Object {
        public:
         enum {
-          mid_andThen_890acb6797db50e5,
-          mid_applyAsInt_3c9bba330f083871,
-          mid_compose_890acb6797db50e5,
-          mid_identity_3700a9ae74ccc750,
+          mid_andThen_6e28b9248c2bcf13,
+          mid_applyAsInt_a3904e10f5bb9437,
+          mid_compose_6e28b9248c2bcf13,
+          mid_identity_f3bde811376a6d97,
           max_mid
         };
 

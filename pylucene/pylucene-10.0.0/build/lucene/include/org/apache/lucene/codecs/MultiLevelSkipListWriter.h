@@ -30,13 +30,13 @@ namespace org {
         class MultiLevelSkipListWriter : public ::java::lang::Object {
          public:
           enum {
-            mid_bufferSkip_540b2b23d51b1efd,
-            mid_writeSkip_861de2016dfd85d4,
-            mid_resetSkip_3720c61b0679eb3e,
-            mid_writeSkipData_5219d9c4529a5f9f,
-            mid_writeChildPointer_64f4f315ba6157a7,
-            mid_writeLevelLength_e04090c4de365a7b,
-            mid_init_3720c61b0679eb3e,
+            mid_bufferSkip_8226bd0b0fc13dba,
+            mid_writeSkip_3b5c3a644caca1a0,
+            mid_resetSkip_e7bdbe105ce1bafb,
+            mid_writeSkipData_e6e9d260c7282131,
+            mid_writeLevelLength_02d0042253b8df89,
+            mid_writeChildPointer_6e1378313cebc955,
+            mid_init_e7bdbe105ce1bafb,
             max_mid
           };
 

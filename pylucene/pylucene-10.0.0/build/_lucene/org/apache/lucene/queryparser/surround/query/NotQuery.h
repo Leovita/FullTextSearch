@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/queryparser/surround/query/ComposedQuery.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,21 +21,12 @@ namespace org {
       namespace queryparser {
         namespace surround {
           namespace query {
-            class BasicQueryFactory;
             class SrndQuery;
+            class BasicQueryFactory;
           }
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -41,8 +41,8 @@ namespace org {
             class NotQuery : public ::org::apache::lucene::queryparser::surround::query::ComposedQuery {
              public:
               enum {
-                mid_init$_2987a497c899570e,
-                mid_makeLuceneQueryFieldNoBoost_c9d13380f7762023,
+                mid_init$_8cb976c8d6cd7134,
+                mid_makeLuceneQueryFieldNoBoost_f72be4f202dc3d74,
                 max_mid
               };
 

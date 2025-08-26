@@ -21,9 +21,9 @@ namespace org {
           class DocValuesStats$SortedLongDocValuesStats : public ::org::apache::lucene::misc::search::DocValuesStats$SortedNumericDocValuesStats {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_sum_34383b55cea8435b,
-              mid_doAccumulate_540b2b23d51b1efd,
+              mid_init$_ee46a189998009d6,
+              mid_sum_c4ac57d488686cc8,
+              mid_doAccumulate_8226bd0b0fc13dba,
               max_mid
             };
 

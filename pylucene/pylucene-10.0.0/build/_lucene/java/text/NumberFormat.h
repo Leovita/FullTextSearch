@@ -5,18 +5,18 @@
 
 namespace java {
   namespace lang {
-    class Class;
-    class String;
-    class Number;
     class Object;
+    class Class;
+    class Number;
     class StringBuffer;
+    class String;
   }
   namespace text {
     class NumberFormat;
   }
   namespace util {
-    class Locale;
     class Currency;
+    class Locale;
   }
 }
 template<class T> class JArray;
@@ -27,38 +27,40 @@ namespace java {
     class NumberFormat : public ::java::text::Format {
      public:
       enum {
-        mid_clone_5655ed8670534604,
-        mid_equals_570b5248a6da3ef6,
-        mid_format_4822cf3d793bd8b0,
-        mid_format_f0c925499cca37b2,
-        mid_getAvailableLocales_3d06acbf6689fb6c,
-        mid_getCompactNumberInstance_98badc23d3190d40,
-        mid_getCurrency_a3e058b826a2a60f,
-        mid_getCurrencyInstance_98badc23d3190d40,
-        mid_getCurrencyInstance_76b8a53a485d6bac,
-        mid_getInstance_98badc23d3190d40,
-        mid_getInstance_76b8a53a485d6bac,
-        mid_getIntegerInstance_98badc23d3190d40,
-        mid_getIntegerInstance_76b8a53a485d6bac,
-        mid_getMaximumFractionDigits_20fbf7565993c3d7,
-        mid_getMaximumIntegerDigits_20fbf7565993c3d7,
-        mid_getMinimumFractionDigits_20fbf7565993c3d7,
-        mid_getMinimumIntegerDigits_20fbf7565993c3d7,
-        mid_getNumberInstance_98badc23d3190d40,
-        mid_getNumberInstance_76b8a53a485d6bac,
-        mid_getPercentInstance_98badc23d3190d40,
-        mid_getPercentInstance_76b8a53a485d6bac,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isGroupingUsed_947277eca0748c4e,
-        mid_isParseIntegerOnly_947277eca0748c4e,
-        mid_parse_b1b30075af4e4fdc,
-        mid_setCurrency_21045b2434fa5a39,
-        mid_setGroupingUsed_b110fc3a58c081ab,
-        mid_setMaximumFractionDigits_540b2b23d51b1efd,
-        mid_setMaximumIntegerDigits_540b2b23d51b1efd,
-        mid_setMinimumFractionDigits_540b2b23d51b1efd,
-        mid_setMinimumIntegerDigits_540b2b23d51b1efd,
-        mid_setParseIntegerOnly_b110fc3a58c081ab,
+        mid_clone_4819806f62f1360a,
+        mid_equals_00d17418847797d4,
+        mid_format_cddd216549402f17,
+        mid_format_229c7997533c8554,
+        mid_getAvailableLocales_0daa090ed7228b3c,
+        mid_getCompactNumberInstance_cae2d46e75202e5c,
+        mid_getCurrency_ac0abfec5849b895,
+        mid_getCurrencyInstance_cae2d46e75202e5c,
+        mid_getCurrencyInstance_90f45acdc5014a52,
+        mid_getInstance_cae2d46e75202e5c,
+        mid_getInstance_90f45acdc5014a52,
+        mid_getIntegerInstance_cae2d46e75202e5c,
+        mid_getIntegerInstance_90f45acdc5014a52,
+        mid_getMaximumFractionDigits_bd89ce15dad49192,
+        mid_getMaximumIntegerDigits_bd89ce15dad49192,
+        mid_getMinimumFractionDigits_bd89ce15dad49192,
+        mid_getMinimumIntegerDigits_bd89ce15dad49192,
+        mid_getNumberInstance_cae2d46e75202e5c,
+        mid_getNumberInstance_90f45acdc5014a52,
+        mid_getPercentInstance_cae2d46e75202e5c,
+        mid_getPercentInstance_90f45acdc5014a52,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isGroupingUsed_9aa4f33e82ea333f,
+        mid_isParseIntegerOnly_9aa4f33e82ea333f,
+        mid_isStrict_9aa4f33e82ea333f,
+        mid_parse_6763c37c38b51449,
+        mid_setCurrency_9d1207d1a857fe11,
+        mid_setGroupingUsed_f5dd97eebf6a215a,
+        mid_setMaximumFractionDigits_8226bd0b0fc13dba,
+        mid_setMaximumIntegerDigits_8226bd0b0fc13dba,
+        mid_setMinimumFractionDigits_8226bd0b0fc13dba,
+        mid_setMinimumIntegerDigits_8226bd0b0fc13dba,
+        mid_setParseIntegerOnly_f5dd97eebf6a215a,
+        mid_setStrict_f5dd97eebf6a215a,
         max_mid
       };
 
@@ -100,6 +102,7 @@ namespace java {
       jint hashCode() const;
       jboolean isGroupingUsed() const;
       jboolean isParseIntegerOnly() const;
+      jboolean isStrict() const;
       ::java::lang::Number parse(const ::java::lang::String &) const;
       void setCurrency(const ::java::util::Currency &) const;
       void setGroupingUsed(jboolean) const;
@@ -108,6 +111,7 @@ namespace java {
       void setMinimumFractionDigits(jint) const;
       void setMinimumIntegerDigits(jint) const;
       void setParseIntegerOnly(jboolean) const;
+      void setStrict(jboolean) const;
     };
   }
 }

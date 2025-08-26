@@ -3,28 +3,17 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace sandbox {
         namespace facet {
+          namespace recorders {
+            class FacetRecorder;
+          }
           class FacetFieldCollector;
           namespace cutters {
             class FacetCutter;
-          }
-          namespace recorders {
-            class FacetRecorder;
           }
         }
       }
@@ -32,6 +21,17 @@ namespace org {
         class CollectorManager;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -45,9 +45,9 @@ namespace org {
           class FacetFieldCollectorManager : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_a8d99d9e353cf73d,
-              mid_newCollector_406077c75cb303e0,
-              mid_reduce_9f4175fcab778dc5,
+              mid_init$_91412e55a40ffdf1,
+              mid_newCollector_1226572c6d35c967,
+              mid_reduce_53c7d5698eef8044,
               max_mid
             };
 

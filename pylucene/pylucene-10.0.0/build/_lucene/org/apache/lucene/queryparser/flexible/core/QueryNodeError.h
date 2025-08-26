@@ -9,8 +9,8 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace messages {
-            class NLSException;
             class Message;
+            class NLSException;
           }
         }
       }
@@ -35,10 +35,10 @@ namespace org {
             class QueryNodeError : public ::java::lang::Error {
              public:
               enum {
-                mid_init$_4b71a6d99b73f7d1,
-                mid_init$_4c499563a04682ba,
-                mid_init$_87e1d8e597060760,
-                mid_getMessageObject_458c0a6b6c4bb652,
+                mid_init$_9b649326a1df01c3,
+                mid_init$_18a3d90549745ece,
+                mid_init$_bb32ffb7be2fda57,
+                mid_getMessageObject_8445ed3c267746a4,
                 max_mid
               };
 

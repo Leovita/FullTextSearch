@@ -7,14 +7,14 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class Recognizer;
         namespace atn {
-          class PredictionContext;
+          class SingletonPredictionContext;
+          class ArrayPredictionContext;
           class PredictionContextCache;
           class ATN;
-          class ArrayPredictionContext;
-          class SingletonPredictionContext;
+          class PredictionContext;
         }
+        class Recognizer;
         class RuleContext;
       }
     }
@@ -26,9 +26,9 @@ namespace java {
     class String;
   }
   namespace util {
-    class List;
-    class IdentityHashMap;
     class Map;
+    class IdentityHashMap;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -42,26 +42,26 @@ namespace org {
           class PredictionContext : public ::java::lang::Object {
            public:
             enum {
-              mid_equals_570b5248a6da3ef6,
-              mid_fromRuleContext_23fc68ce7b0f688b,
-              mid_getAllContextNodes_d54010240c685b8d,
-              mid_getAllContextNodes__ce32ec58879a1003,
-              mid_getCachedContext_790f870216071496,
-              mid_getParent_1cc09022daab7d23,
-              mid_getReturnState_3c9bba330f083871,
-              mid_hasEmptyPath_947277eca0748c4e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isEmpty_947277eca0748c4e,
-              mid_mergeRoot_334375ee27e10d21,
-              mid_size_20fbf7565993c3d7,
-              mid_toDOTString_9455c2c60fd026bb,
-              mid_toString_27d32a9d9f7020a0,
-              mid_toStrings_c2e699cff43aeb9c,
-              mid_toStrings_0f586bbf8a708962,
-              mid_calculateEmptyHashCode_20fbf7565993c3d7,
-              mid_combineCommonParents_cdb00eea20d179f7,
-              mid_calculateHashCode_19367083bd9ad039,
-              mid_calculateHashCode_c177746a50deba1a,
+              mid_equals_00d17418847797d4,
+              mid_fromRuleContext_4e71daeca0c5c617,
+              mid_getAllContextNodes_be307d94c2bc09b5,
+              mid_getAllContextNodes__08e538c46629b318,
+              mid_getCachedContext_8f6df99717411ee5,
+              mid_getParent_57bbbf9ce8f90af2,
+              mid_getReturnState_a3904e10f5bb9437,
+              mid_hasEmptyPath_9aa4f33e82ea333f,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isEmpty_9aa4f33e82ea333f,
+              mid_mergeRoot_f379f6a6f74496a1,
+              mid_size_bd89ce15dad49192,
+              mid_toDOTString_f64c7f87a1afd1c0,
+              mid_toString_cfa77efb606b3992,
+              mid_toStrings_bf69e77679b3cf2a,
+              mid_toStrings_5724519c44b4e2d3,
+              mid_calculateEmptyHashCode_bd89ce15dad49192,
+              mid_combineCommonParents_b0341ef05af56405,
+              mid_calculateHashCode_7238fb63267fc0c7,
+              mid_calculateHashCode_36daf49234e72f52,
               max_mid
             };
 

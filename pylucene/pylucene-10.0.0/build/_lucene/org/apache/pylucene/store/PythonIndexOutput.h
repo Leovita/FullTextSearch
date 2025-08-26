@@ -22,15 +22,15 @@ namespace org {
         class PythonIndexOutput : public ::org::apache::lucene::store::IndexOutput {
          public:
           enum {
-            mid_init$_3d104da0b5c75e64,
-            mid_close_3720c61b0679eb3e,
-            mid_getChecksum_16939d9d0a9a9721,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_pythonExtension_16939d9d0a9a9721,
-            mid_pythonExtension_8b3d46852b435a94,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_3ce1e597fb62ac79,
-            mid_writeBytes_5fdd5da9426708e6,
+            mid_init$_0dd012a11c3f389b,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getChecksum_0f176418e3e16541,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_pythonExtension_0f176418e3e16541,
+            mid_pythonExtension_1d3149fac12f2af3,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_a4d4f283481182e8,
+            mid_writeBytes_116f7fcb5bff0f39,
             max_mid
           };
 

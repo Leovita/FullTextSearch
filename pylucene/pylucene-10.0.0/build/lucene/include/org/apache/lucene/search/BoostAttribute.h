@@ -18,8 +18,8 @@ namespace org {
         class BoostAttribute : public ::org::apache::lucene::util::Attribute {
          public:
           enum {
-            mid_getBoost_9b6c3480dac00edf,
-            mid_setBoost_c771a95b0227fb6a,
+            mid_getBoost_8b62236f0e4d0dbc,
+            mid_setBoost_675f4cb9a2529ee0,
             max_mid
           };
 

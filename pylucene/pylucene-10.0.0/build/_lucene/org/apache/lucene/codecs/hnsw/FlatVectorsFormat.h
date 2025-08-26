@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/codecs/KnnVectorsFormat.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class SegmentWriteState;
+      }
       namespace codecs {
         namespace hnsw {
           class FlatVectorsReader;
           class FlatVectorsWriter;
         }
       }
-      namespace index {
-        class SegmentReadState;
-        class SegmentWriteState;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,9 +39,9 @@ namespace org {
           class FlatVectorsFormat : public ::org::apache::lucene::codecs::KnnVectorsFormat {
            public:
             enum {
-              mid_fieldsReader_b357f440421570ce,
-              mid_fieldsWriter_2ec0cddb641511c1,
-              mid_getMaxDimensions_3f230d713d7fd2b0,
+              mid_fieldsReader_d1a34b66ea06bc3b,
+              mid_fieldsWriter_c8010db3218dc643,
+              mid_getMaxDimensions_fa2a6f298bd618ab,
               max_mid
             };
 

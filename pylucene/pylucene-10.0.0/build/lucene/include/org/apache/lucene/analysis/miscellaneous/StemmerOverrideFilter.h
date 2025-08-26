@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
+        class TokenStream;
         namespace miscellaneous {
           class StemmerOverrideFilter$StemmerOverrideMap;
         }
-        class TokenStream;
       }
     }
   }
@@ -34,8 +34,8 @@ namespace org {
           class StemmerOverrideFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_22fbbd767c492f1b,
-              mid_incrementToken_947277eca0748c4e,
+              mid_init$_60d495a327bc3101,
+              mid_incrementToken_9aa4f33e82ea333f,
               max_mid
             };
 

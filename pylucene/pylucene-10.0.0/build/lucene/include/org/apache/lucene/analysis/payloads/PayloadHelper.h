@@ -19,14 +19,14 @@ namespace org {
           class PayloadHelper : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_decodeFloat_a9438e966cb38898,
-              mid_decodeFloat_36f1bada9977eb97,
-              mid_decodeInt_ed6f790242489170,
-              mid_encodeFloat_7797a9b8dfb7cb12,
-              mid_encodeFloat_2b8db4a43cfa9268,
-              mid_encodeInt_81e4ab9dd381561f,
-              mid_encodeInt_80bf69c9eb67f8d7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_decodeFloat_d5d6cd17d22cd29f,
+              mid_decodeFloat_5a5c564d6d4c0b92,
+              mid_decodeInt_ae2551807aeb85ef,
+              mid_encodeFloat_bb9b7c6451c9d006,
+              mid_encodeFloat_5d90cfc9e65d03e9,
+              mid_encodeInt_d94c1f1d0c66928c,
+              mid_encodeInt_c5b8ed4b031b9774,
               max_mid
             };
 

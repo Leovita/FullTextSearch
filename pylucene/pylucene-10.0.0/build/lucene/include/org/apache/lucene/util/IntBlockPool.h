@@ -27,10 +27,10 @@ namespace org {
         class IntBlockPool : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_c0d2767522394fbd,
-            mid_nextBuffer_3720c61b0679eb3e,
-            mid_reset_c485d474c3ac8ca0,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_31b8c4c09a3f8015,
+            mid_nextBuffer_e7bdbe105ce1bafb,
+            mid_reset_625f7a21e54cb1c3,
             max_mid
           };
 

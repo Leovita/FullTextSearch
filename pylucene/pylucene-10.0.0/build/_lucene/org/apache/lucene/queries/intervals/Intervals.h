@@ -3,39 +3,39 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    namespace function {
+      class Predicate;
+    }
+    class List;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class TokenStream;
+        class Analyzer;
+      }
       namespace util {
-        class BytesRef;
         namespace automaton {
           class CompiledAutomaton;
         }
+        class BytesRef;
       }
       namespace queries {
         namespace intervals {
           class IntervalsSource;
         }
       }
-      namespace analysis {
-        class Analyzer;
-        class TokenStream;
-      }
-    }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-    namespace function {
-      class Predicate;
     }
   }
 }
@@ -50,49 +50,49 @@ namespace org {
           class Intervals : public ::java::lang::Object {
            public:
             enum {
-              mid_after_95887820af6517ce,
-              mid_analyzedText_a497f9ad876a2f16,
-              mid_analyzedText_12cf6f0feb886140,
-              mid_atLeast_478b242491b53db9,
-              mid_before_95887820af6517ce,
-              mid_containedBy_95887820af6517ce,
-              mid_containing_95887820af6517ce,
-              mid_extend_bedf5b1ed8efd5c0,
-              mid_fixField_1e7f311568cd9aba,
-              mid_fuzzyTerm_3619722b207d69b8,
-              mid_fuzzyTerm_bd1fdb0c1eccc51f,
-              mid_maxgaps_2c0e4aada43e6ea6,
-              mid_maxwidth_2c0e4aada43e6ea6,
-              mid_multiterm_e02449548929a0ae,
-              mid_multiterm_d6c9116ab43e6de2,
-              mid_noIntervals_13784bcfdd7c6eeb,
-              mid_nonOverlapping_95887820af6517ce,
-              mid_notContainedBy_95887820af6517ce,
-              mid_notContaining_95887820af6517ce,
-              mid_notWithin_087a6eea6a9cda94,
-              mid_or_4c2d30cbc615f5f1,
-              mid_or_41f7cc81c030b89c,
-              mid_or_ed0360211b6fa4ec,
-              mid_or_7ae511ae963ed8fa,
-              mid_ordered_4c2d30cbc615f5f1,
-              mid_overlapping_95887820af6517ce,
-              mid_phrase_47ab57fddb95dd49,
-              mid_phrase_4c2d30cbc615f5f1,
-              mid_prefix_a4d1a28c5b7cfb3d,
-              mid_prefix_4691acbb097c0205,
-              mid_range_324448fec09f7bfb,
-              mid_range_360bab1b1a28cb39,
-              mid_regexp_a4d1a28c5b7cfb3d,
-              mid_regexp_4691acbb097c0205,
-              mid_term_13784bcfdd7c6eeb,
-              mid_term_a4d1a28c5b7cfb3d,
-              mid_term_33ee19052c5cc88a,
-              mid_term_319fc040fae74909,
-              mid_unordered_4c2d30cbc615f5f1,
-              mid_unorderedNoOverlaps_95887820af6517ce,
-              mid_wildcard_a4d1a28c5b7cfb3d,
-              mid_wildcard_4691acbb097c0205,
-              mid_within_087a6eea6a9cda94,
+              mid_after_95448879fffea048,
+              mid_analyzedText_90a6dbdd40c367d4,
+              mid_analyzedText_c9bdce7e8c928bfc,
+              mid_atLeast_6132d2d91835f033,
+              mid_before_95448879fffea048,
+              mid_containedBy_95448879fffea048,
+              mid_containing_95448879fffea048,
+              mid_extend_003d792b7f8ca96d,
+              mid_fixField_285a9f3a3a4a8afa,
+              mid_fuzzyTerm_46d2ee2ec691491f,
+              mid_fuzzyTerm_eac927e6e31d8e10,
+              mid_maxgaps_64acad3980cf9a23,
+              mid_maxwidth_64acad3980cf9a23,
+              mid_multiterm_9ebf1f63634120a5,
+              mid_multiterm_9f99ff05823a02b8,
+              mid_noIntervals_c71767ca245ac396,
+              mid_nonOverlapping_95448879fffea048,
+              mid_notContainedBy_95448879fffea048,
+              mid_notContaining_95448879fffea048,
+              mid_notWithin_502bac542b811699,
+              mid_or_ca36cbc8bde9efb5,
+              mid_or_3787b432c743b36a,
+              mid_or_a1c73ffa70101246,
+              mid_or_a08734c46f0d63ec,
+              mid_ordered_ca36cbc8bde9efb5,
+              mid_overlapping_95448879fffea048,
+              mid_phrase_af359834b14402c1,
+              mid_phrase_ca36cbc8bde9efb5,
+              mid_prefix_3dbf5823592ccf8e,
+              mid_prefix_0be16607f089d510,
+              mid_range_0e39f553513062cc,
+              mid_range_c15f8b0279f93121,
+              mid_regexp_3dbf5823592ccf8e,
+              mid_regexp_0be16607f089d510,
+              mid_term_c71767ca245ac396,
+              mid_term_3dbf5823592ccf8e,
+              mid_term_d2470774f49429d8,
+              mid_term_aefe36a771636f6b,
+              mid_unordered_ca36cbc8bde9efb5,
+              mid_unorderedNoOverlaps_95448879fffea048,
+              mid_wildcard_3dbf5823592ccf8e,
+              mid_wildcard_0be16607f089d510,
+              mid_within_502bac542b811699,
               max_mid
             };
 

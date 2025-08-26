@@ -3,27 +3,27 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class IndexReaderContext;
-      }
-      namespace search {
-        class Query;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
+  namespace lang {
+    class Class;
+  }
   namespace util {
     class Collection;
   }
-  namespace lang {
-    class Class;
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class Query;
+      }
+      namespace index {
+        class IndexReaderContext;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,8 +36,8 @@ namespace org {
         class PayloadSpanUtil : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_26d88823abec6e31,
-            mid_getPayloadsForQuery_9e9c91d3b35c0b6e,
+            mid_init$_34a1b095e161b54f,
+            mid_getPayloadsForQuery_5ad843c16fca232c,
             max_mid
           };
 

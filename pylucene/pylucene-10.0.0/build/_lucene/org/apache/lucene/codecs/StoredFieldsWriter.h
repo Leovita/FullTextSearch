@@ -10,20 +10,20 @@ namespace org {
         class MergeState;
         class FieldInfo;
       }
+      namespace store {
+        class DataInput;
+      }
       namespace util {
         class Accountable;
         class BytesRef;
-      }
-      namespace store {
-        class DataInput;
       }
     }
   }
 }
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -40,18 +40,18 @@ namespace org {
         class StoredFieldsWriter : public ::java::lang::Object {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_finish_540b2b23d51b1efd,
-            mid_finishDocument_3720c61b0679eb3e,
-            mid_merge_1b76b11a0c4e302d,
-            mid_startDocument_3720c61b0679eb3e,
-            mid_writeField_5c9f933456c04469,
-            mid_writeField_19cee90e3fb5aab3,
-            mid_writeField_15da8d9582fee97c,
-            mid_writeField_013aff7dc250536b,
-            mid_writeField_484c149275e4150c,
-            mid_writeField_9d67b99cda581cf2,
-            mid_writeField_92fc605968dd3891,
+            mid_close_e7bdbe105ce1bafb,
+            mid_finish_8226bd0b0fc13dba,
+            mid_finishDocument_e7bdbe105ce1bafb,
+            mid_merge_0730403f334ab9cc,
+            mid_startDocument_e7bdbe105ce1bafb,
+            mid_writeField_23bd4f2f5dbee707,
+            mid_writeField_f6503adebebfa576,
+            mid_writeField_a4548d4d49fe5baf,
+            mid_writeField_2e0b4786b01c00c5,
+            mid_writeField_7da17ba798519794,
+            mid_writeField_4573144ea666abda,
+            mid_writeField_9153e2511ce70f07,
             max_mid
           };
 

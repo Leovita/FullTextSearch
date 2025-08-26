@@ -20,18 +20,18 @@ namespace org {
           class BasicStats : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_8c2de08a6e50677a,
-              mid_getAvgFieldLength_32caabaad86c508b,
-              mid_getBoost_32caabaad86c508b,
-              mid_getDocFreq_16939d9d0a9a9721,
-              mid_getNumberOfDocuments_16939d9d0a9a9721,
-              mid_getNumberOfFieldTokens_16939d9d0a9a9721,
-              mid_getTotalTermFreq_16939d9d0a9a9721,
-              mid_setAvgFieldLength_b5bc1a2fb9ff9e90,
-              mid_setDocFreq_8b3d46852b435a94,
-              mid_setNumberOfDocuments_8b3d46852b435a94,
-              mid_setNumberOfFieldTokens_8b3d46852b435a94,
-              mid_setTotalTermFreq_8b3d46852b435a94,
+              mid_init$_dbeaa7d1faf6f28f,
+              mid_getAvgFieldLength_6fb37e123fed7a1f,
+              mid_getBoost_6fb37e123fed7a1f,
+              mid_getDocFreq_0f176418e3e16541,
+              mid_getNumberOfDocuments_0f176418e3e16541,
+              mid_getNumberOfFieldTokens_0f176418e3e16541,
+              mid_getTotalTermFreq_0f176418e3e16541,
+              mid_setAvgFieldLength_a03f734ddaeb69b4,
+              mid_setDocFreq_1d3149fac12f2af3,
+              mid_setNumberOfDocuments_1d3149fac12f2af3,
+              mid_setNumberOfFieldTokens_1d3149fac12f2af3,
+              mid_setTotalTermFreq_1d3149fac12f2af3,
               max_mid
             };
 

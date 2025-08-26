@@ -18,12 +18,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -39,12 +39,12 @@ namespace org {
         class ByteVectorValues : public ::org::apache::lucene::index::KnnVectorValues {
          public:
           enum {
-            mid_checkField_7b24c4e074e0f103,
-            mid_copy_e1e5831571912aae,
-            mid_fromBytes_6260afd6b7f9a43a,
-            mid_getEncoding_89ee194538cd6149,
-            mid_scorer_8c20e5d380e84ab5,
-            mid_vectorValue_81e4ab9dd381561f,
+            mid_checkField_2153b78f8e8344e7,
+            mid_copy_ddc5cc08e11775ce,
+            mid_fromBytes_b299c1777cb087da,
+            mid_getEncoding_667892793043e3ed,
+            mid_scorer_7b262f85b25549ee,
+            mid_vectorValue_d94c1f1d0c66928c,
             max_mid
           };
 

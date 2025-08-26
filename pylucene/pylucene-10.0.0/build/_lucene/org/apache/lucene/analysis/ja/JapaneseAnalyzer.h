@@ -16,13 +16,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class CharArraySet;
         namespace ja {
+          class JapaneseTokenizer$Mode;
           namespace dict {
             class UserDictionary;
           }
-          class JapaneseTokenizer$Mode;
         }
+        class CharArraySet;
       }
     }
   }
@@ -38,14 +38,14 @@ namespace org {
           class JapaneseAnalyzer : public ::org::apache::lucene::analysis::StopwordAnalyzerBase {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_d0c4d1cdcc62c25f,
-              mid_getDefaultStopSet_7a52625961f2f88e,
-              mid_getDefaultStopTags_4df174295554d7bd,
-              mid_createComponents_f774fffda992519d,
-              mid_initReader_f755529383524495,
-              mid_initReaderForNormalization_f755529383524495,
-              mid_normalize_9793d650e44fa07f,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_c954b79574636c68,
+              mid_getDefaultStopSet_0a8f3a685855aa4f,
+              mid_getDefaultStopTags_79131c6bbcf08916,
+              mid_createComponents_b734244e69a6c631,
+              mid_initReader_9b0aaf55e5811bc6,
+              mid_initReaderForNormalization_9b0aaf55e5811bc6,
+              mid_normalize_6c106c857ee0afd1,
               max_mid
             };
 

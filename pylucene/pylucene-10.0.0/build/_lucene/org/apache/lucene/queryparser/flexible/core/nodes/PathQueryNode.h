@@ -9,12 +9,12 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
+            namespace nodes {
+              class PathQueryNode$QueryText;
+              class QueryNode;
+            }
             namespace parser {
               class EscapeQuerySyntax;
-            }
-            namespace nodes {
-              class QueryNode;
-              class PathQueryNode$QueryText;
             }
           }
         }
@@ -25,8 +25,8 @@ namespace org {
 namespace java {
   namespace lang {
     class Class;
-    class CharSequence;
     class String;
+    class CharSequence;
     class CloneNotSupportedException;
   }
   namespace util {
@@ -46,15 +46,15 @@ namespace org {
               class PathQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_9425cd4f62c94bce,
-                  mid_cloneTree_7ba6641ec93d332a,
-                  mid_getFirstPathElement_373f0038978f926b,
-                  mid_getPathElement_e01b44046d4cb653,
-                  mid_getPathElements_36830460e10839eb,
-                  mid_getPathElements_3e47fe599d76d583,
-                  mid_setPathElements_9425cd4f62c94bce,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_acbb405b60a30822,
+                  mid_cloneTree_1a37a44f7f2f5350,
+                  mid_getFirstPathElement_f2e5418fe0d66c69,
+                  mid_getPathElement_0815a80cb72dd61f,
+                  mid_getPathElements_1387e1e2702ac173,
+                  mid_getPathElements_b4b9401c877452e3,
+                  mid_setPathElements_acbb405b60a30822,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
+        class TokenStream;
         namespace hunspell {
           class Dictionary;
         }
-        class TokenStream;
       }
     }
   }
@@ -34,11 +34,11 @@ namespace org {
           class HunspellStemFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_51a9b7d50b0f533a,
-              mid_init$_6744745d4c227dbc,
-              mid_init$_94c9c027a10c7cd8,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_bd7ba0c71ef6653b,
+              mid_init$_976660cc6aea53a9,
+              mid_init$_d5c2d60cc6679e02,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/analysis/CharFilterFactory.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-    class Reader;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Map;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class ResourceLoader;
         class ResourceLoaderAware;
+        class ResourceLoader;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+    class Reader;
+  }
+  namespace util {
+    class Map;
   }
 }
 template<class T> class JArray;
@@ -37,13 +37,13 @@ namespace org {
           class MappingCharFilterFactory : public ::org::apache::lucene::analysis::CharFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_f8966313249002a6,
-              mid_inform_6addbf380886844e,
-              mid_normalize_f8966313249002a6,
-              mid_parseRules_8df91fec51a3b860,
-              mid_parseString_cb0eb1432185fc94,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_e087cc3459c2aeac,
+              mid_inform_4ba602df53b96765,
+              mid_normalize_e087cc3459c2aeac,
+              mid_parseRules_78388b22bcab8983,
+              mid_parseString_fef9c036acf290a9,
               max_mid
             };
 

@@ -6,9 +6,9 @@
 namespace java {
   namespace lang {
     class Integer;
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -43,11 +43,11 @@ namespace org {
             class EnumFieldSource : public ::org::apache::lucene::queries::function::valuesource::FieldCacheSource {
              public:
               enum {
-                mid_init$_89fb0c24788a525a,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_getValues_a7d46b98c691aeac,
-                mid_hashCode_20fbf7565993c3d7,
+                mid_init$_e5a4b7f1e4d71d69,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_getValues_9f85153ef1e32cca,
+                mid_hashCode_bd89ce15dad49192,
                 max_mid
               };
 

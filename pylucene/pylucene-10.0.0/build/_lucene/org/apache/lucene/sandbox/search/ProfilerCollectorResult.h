@@ -6,8 +6,8 @@
 namespace java {
   namespace lang {
     class Class;
-    class String;
     class Long;
+    class String;
   }
   namespace util {
     class List;
@@ -35,11 +35,11 @@ namespace org {
           class ProfilerCollectorResult : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_01107cd6497f5413,
-              mid_getName_09a7afff1868fc5e,
-              mid_getProfiledChildren_36830460e10839eb,
-              mid_getReason_09a7afff1868fc5e,
-              mid_getTime_16939d9d0a9a9721,
+              mid_init$_db0a738bbb5d91a9,
+              mid_getName_e7df854526d67fa3,
+              mid_getProfiledChildren_1387e1e2702ac173,
+              mid_getReason_e7df854526d67fa3,
+              mid_getTime_0f176418e3e16541,
               max_mid
             };
 

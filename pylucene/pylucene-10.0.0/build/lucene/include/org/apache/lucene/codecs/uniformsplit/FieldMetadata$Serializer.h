@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -22,14 +30,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -41,9 +41,9 @@ namespace org {
           class FieldMetadata$Serializer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_read_175f14aca1b0c3cc,
-              mid_write_214dcff55ad40434,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_read_6efe11a5a4cbb6d2,
+              mid_write_16ef2cb3ef3fb8ac,
               max_mid
             };
 

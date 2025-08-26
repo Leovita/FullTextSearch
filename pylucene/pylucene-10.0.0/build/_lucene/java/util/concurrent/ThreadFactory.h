@@ -19,7 +19,7 @@ namespace java {
       class ThreadFactory : public ::java::lang::Object {
        public:
         enum {
-          mid_newThread_b7c94fccf120862d,
+          mid_newThread_f5e519c688d87f98,
           max_mid
         };
 

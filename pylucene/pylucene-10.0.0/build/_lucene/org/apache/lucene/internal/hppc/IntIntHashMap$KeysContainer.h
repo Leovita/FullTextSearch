@@ -34,8 +34,8 @@ namespace org {
           class IntIntHashMap$KeysContainer : public ::org::apache::lucene::internal::hppc::IntIntHashMap$IntContainer {
            public:
             enum {
-              mid_init$_e64000e07a51e58e,
-              mid_iterator_0db4c76ff7ee995b,
+              mid_init$_0c20f8e915fe8507,
+              mid_iterator_c7985fafdcf40e83,
               max_mid
             };
 

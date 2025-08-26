@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/search/FieldComparator.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,22 +19,13 @@ namespace org {
         class BytesRef;
       }
       namespace search {
-        class Pruning;
         class LeafFieldComparator;
+        class Pruning;
       }
       namespace index {
         class LeafReaderContext;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -39,15 +39,15 @@ namespace org {
           class TermOrdValComparator : public ::org::apache::lucene::search::FieldComparator {
            public:
             enum {
-              mid_init$_6ae3146968369176,
-              mid_compare_7f733b5d08bb5ec4,
-              mid_compareValues_c605ddf1ef691f34,
-              mid_disableSkipping_3720c61b0679eb3e,
-              mid_getLeafComparator_d019da77a226431f,
-              mid_setSingleSort_3720c61b0679eb3e,
-              mid_setTopValue_ac0de3ee0e03786d,
-              mid_value_29bb531a30fe8369,
-              mid_getSortedDocValues_759c56332e05d029,
+              mid_init$_2c8a1a4af8714596,
+              mid_compare_7f27cf81a85a97e9,
+              mid_compareValues_a0fa18546e6b17ce,
+              mid_disableSkipping_e7bdbe105ce1bafb,
+              mid_getLeafComparator_84b03b9ed9bc3019,
+              mid_setSingleSort_e7bdbe105ce1bafb,
+              mid_setTopValue_920ce0cdf4259cc9,
+              mid_value_1e79f110a34c4312,
+              mid_getSortedDocValues_cd4661ea70e6e695,
               max_mid
             };
 

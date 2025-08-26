@@ -7,44 +7,44 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class SortedNumericDocValues;
+        class TermVectors;
         class FloatVectorValues;
+        class DocValuesSkipper;
+        class SortedNumericDocValues;
         class BinaryDocValues;
-        class SortedSetDocValues;
         class ByteVectorValues;
         class SortedDocValues;
         class NumericDocValues;
-        class PointValues;
-        class TermVectors;
-        class Terms;
         class StoredFields;
-        class DocValuesSkipper;
+        class PointValues;
+        class SortedSetDocValues;
+        class Terms;
       }
-      namespace codecs {
-        class PointsReader;
-        class NormsProducer;
-        class TermVectorsReader;
-        class FieldsProducer;
-        class DocValuesProducer;
-        class KnnVectorsReader;
-        class StoredFieldsReader;
+      namespace util {
+        class Bits;
       }
       namespace search {
         class KnnCollector;
       }
-      namespace util {
-        class Bits;
+      namespace codecs {
+        class NormsProducer;
+        class StoredFieldsReader;
+        class FieldsProducer;
+        class TermVectorsReader;
+        class PointsReader;
+        class DocValuesProducer;
+        class KnnVectorsReader;
       }
     }
   }
 }
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class Class;
     class String;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -57,30 +57,30 @@ namespace org {
         class CodecReader : public ::org::apache::lucene::index::LeafReader {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_getBinaryDocValues_930cc2268218a3e3,
-            mid_getByteVectorValues_b6d55ee35cf0a7cd,
-            mid_getDocValuesReader_41ee33e34dc1b4f3,
-            mid_getDocValuesSkipper_6385669244954201,
-            mid_getFieldsReader_4e066a6f20734e17,
-            mid_getFloatVectorValues_d99d2b92faec6895,
-            mid_getNormValues_0c282caddf2d7938,
-            mid_getNormsReader_86a2ee031b1b0d77,
-            mid_getNumericDocValues_0c282caddf2d7938,
-            mid_getPointValues_9d784340b5464260,
-            mid_getPointsReader_7cecd0a8b5d53414,
-            mid_getPostingsReader_47d662857d04070e,
-            mid_getSortedDocValues_e1c83af81f671c5d,
-            mid_getSortedNumericDocValues_5b5cc59b31747b26,
-            mid_getSortedSetDocValues_9473e7f34fd540a9,
-            mid_getTermVectorsReader_0b9ae2ecfa80c759,
-            mid_getVectorReader_e70fe5e71b23e71f,
-            mid_searchNearestVectors_e7c7b5d865f31eb3,
-            mid_searchNearestVectors_210bbfb50a2f4ef9,
-            mid_storedFields_71d351a09c9e3356,
-            mid_termVectors_dfcb317601b52c60,
-            mid_terms_734b49c46dc30275,
-            mid_doClose_3720c61b0679eb3e,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_getBinaryDocValues_7dcd5a29ca65e591,
+            mid_getByteVectorValues_7ab2f26af1d93897,
+            mid_getDocValuesReader_c522cf75f2048ee9,
+            mid_getDocValuesSkipper_8b019ebe020b6965,
+            mid_getFieldsReader_a7e1c9cc255e1e90,
+            mid_getFloatVectorValues_0c0ae22a56670782,
+            mid_getNormValues_c8230d99abf988ec,
+            mid_getNormsReader_bcb16c0940285072,
+            mid_getNumericDocValues_c8230d99abf988ec,
+            mid_getPointValues_db6b2fb22b12e7e1,
+            mid_getPointsReader_01e0d9afb4f515b4,
+            mid_getPostingsReader_181d74dce6e339fd,
+            mid_getSortedDocValues_946c886dd7165459,
+            mid_getSortedNumericDocValues_d833735942a4e997,
+            mid_getSortedSetDocValues_a25ba477f918d8fc,
+            mid_getTermVectorsReader_7a10ef35062ba8d1,
+            mid_getVectorReader_9001a1821793c4d1,
+            mid_searchNearestVectors_41e6931fdbdb5ba0,
+            mid_searchNearestVectors_61a952903eb61416,
+            mid_storedFields_1a4fab20a75bd3d4,
+            mid_termVectors_6473260da883e913,
+            mid_terms_b30320f056ffba8d,
+            mid_doClose_e7bdbe105ce1bafb,
             max_mid
           };
 

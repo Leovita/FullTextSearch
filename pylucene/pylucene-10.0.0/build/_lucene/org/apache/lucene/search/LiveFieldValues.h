@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -17,8 +17,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class ReferenceManager;
         class ReferenceManager$RefreshListener;
+        class ReferenceManager;
       }
     }
   }
@@ -33,15 +33,15 @@ namespace org {
         class LiveFieldValues : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_7012386bd55e24c7,
-            mid_add_7a6f329c036f2238,
-            mid_afterRefresh_b110fc3a58c081ab,
-            mid_beforeRefresh_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_delete_0d82408c6e55bc30,
-            mid_get_e5cf973b773e2999,
-            mid_size_20fbf7565993c3d7,
-            mid_lookupFromSearcher_b9a30901c306b6b7,
+            mid_init$_69308c1c9a252c43,
+            mid_add_101074fdf5bb68f6,
+            mid_afterRefresh_f5dd97eebf6a215a,
+            mid_beforeRefresh_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_delete_ee46a189998009d6,
+            mid_get_a78a91e32cc37c7c,
+            mid_size_bd89ce15dad49192,
+            mid_lookupFromSearcher_a0ff83d2ec55a8fc,
             max_mid
           };
 

@@ -4,22 +4,22 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
   }
+  namespace util {
+    class Collection;
+  }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class CollectorManager;
         class Collector;
+        class CollectorManager;
       }
     }
   }
@@ -34,9 +34,9 @@ namespace org {
         class MultiCollectorManager : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_5b73b0495d20d014,
-            mid_newCollector_4251c3f1d651d6d9,
-            mid_reduce_bf61c59f26ae01d3,
+            mid_init$_d367d490be274215,
+            mid_newCollector_6c5ef8f878eeb110,
+            mid_reduce_7cccf55a27a4d5cf,
             max_mid
           };
 

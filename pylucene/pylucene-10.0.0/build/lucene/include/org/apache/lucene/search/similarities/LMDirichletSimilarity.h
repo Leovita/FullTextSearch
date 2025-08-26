@@ -31,16 +31,16 @@ namespace org {
           class LMDirichletSimilarity : public ::org::apache::lucene::search::similarities::LMSimilarity {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_c771a95b0227fb6a,
-              mid_init$_43e3c7356b0f7a3f,
-              mid_init$_a0331dd30c42d9f7,
-              mid_init$_fa404e473c6bd9cf,
-              mid_getMu_9b6c3480dac00edf,
-              mid_getName_09a7afff1868fc5e,
-              mid_score_4520853cec1acecd,
-              mid_explain_6fdabb12cf56abb7,
-              mid_explain_6430f3113e3b0626,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_675f4cb9a2529ee0,
+              mid_init$_9b2dcc6d140f3718,
+              mid_init$_d8751200c464e662,
+              mid_init$_00be38e55d5e9c2f,
+              mid_getMu_8b62236f0e4d0dbc,
+              mid_getName_e7df854526d67fa3,
+              mid_explain_3a0f0db458486fc7,
+              mid_explain_d24b72d1a2a90408,
+              mid_score_45900529809cd3f1,
               max_mid
             };
 

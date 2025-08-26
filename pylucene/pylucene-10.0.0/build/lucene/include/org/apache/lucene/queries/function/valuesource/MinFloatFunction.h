@@ -31,10 +31,10 @@ namespace org {
             class MinFloatFunction : public ::org::apache::lucene::queries::function::valuesource::MultiFloatFunction {
              public:
               enum {
-                mid_init$_03fbc37fc3d4d132,
-                mid_name_09a7afff1868fc5e,
-                mid_func_90765e4f1d688358,
-                mid_exists_50589dd14c9a9f13,
+                mid_init$_20f24faff8ce675a,
+                mid_name_e7df854526d67fa3,
+                mid_func_995fdbb6859b2731,
+                mid_exists_da9008e0fa57cbd0,
                 max_mid
               };
 

@@ -21,10 +21,10 @@ namespace org {
         class MultiDoubleValues : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_advanceExact_ae22d3a856ad56f1,
-            mid_getValueCount_16939d9d0a9a9721,
-            mid_nextValue_32caabaad86c508b,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_advanceExact_a8281eb3b9d9672d,
+            mid_getValueCount_0f176418e3e16541,
+            mid_nextValue_6fb37e123fed7a1f,
             max_mid
           };
 

@@ -3,27 +3,27 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class FieldInfo;
-      }
       namespace codecs {
         namespace blockterms {
           class TermsIndexWriterBase$FieldWriter;
         }
       }
+      namespace index {
+        class FieldInfo;
+      }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class Closeable;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -37,8 +37,8 @@ namespace org {
           class TermsIndexWriterBase : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_addField_efa906cc1416a50c,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_addField_3966a263f8503a36,
               max_mid
             };
 

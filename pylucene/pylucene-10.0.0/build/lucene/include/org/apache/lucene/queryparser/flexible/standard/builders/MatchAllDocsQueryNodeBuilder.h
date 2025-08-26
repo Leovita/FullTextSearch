@@ -12,10 +12,10 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
+            class QueryNodeException;
             namespace nodes {
               class QueryNode;
             }
-            class QueryNodeException;
           }
           namespace standard {
             namespace builders {
@@ -45,8 +45,8 @@ namespace org {
               class MatchAllDocsQueryNodeBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_build_06f0461e0b987287,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_build_3fd847fa76634d81,
                   max_mid
                 };
 

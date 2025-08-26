@@ -31,8 +31,8 @@ namespace org {
           class TimeoutPolicy : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_d93188b0c4e5505c,
-              mid_values_e28071dc02e44232,
+              mid_valueOf_ef2844290439e5a2,
+              mid_values_5cff1dd584c92233,
               max_mid
             };
 

@@ -3,6 +3,17 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Double;
+    class Number;
+    class String;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -15,17 +26,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Double;
-    class Number;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -36,22 +36,22 @@ namespace org {
         class DoublePoint : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_9119e6eea2cc0516,
-            mid_decodeDimension_e3202a91a6cc1d13,
-            mid_encodeDimension_472e15952d6511c2,
-            mid_newExactQuery_c7a27db7697a3b7b,
-            mid_newRangeQuery_144f71b949e45671,
-            mid_newRangeQuery_af7ead373e629f65,
-            mid_newSetQuery_d5601452d338b358,
-            mid_newSetQuery_9484176e9ce4ba1f,
-            mid_nextDown_8fff3d7dcb9fddc5,
-            mid_nextUp_8fff3d7dcb9fddc5,
-            mid_numericValue_1b3282bb4db06655,
-            mid_pack_3404ef6dbb0e1a97,
-            mid_setBytesValue_ac0de3ee0e03786d,
-            mid_setDoubleValue_b5bc1a2fb9ff9e90,
-            mid_setDoubleValues_fdfa19ef08e3e691,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_56f9393984b1aa05,
+            mid_decodeDimension_c2e0de33baae7063,
+            mid_encodeDimension_7d1aa5cb76acb208,
+            mid_newExactQuery_38d35640db112494,
+            mid_newRangeQuery_0678967a97ef81b7,
+            mid_newRangeQuery_ff2ac9f72c2e19d4,
+            mid_newSetQuery_64540f129849c16a,
+            mid_newSetQuery_525d6c1fce01d552,
+            mid_nextDown_8493a5edcb36d651,
+            mid_nextUp_8493a5edcb36d651,
+            mid_numericValue_b9665294ea488d3c,
+            mid_pack_cc38a83d0e4c7475,
+            mid_setBytesValue_920ce0cdf4259cc9,
+            mid_setDoubleValue_a03f734ddaeb69b4,
+            mid_setDoubleValues_7dc1191a69fe0b60,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/index/FilterDirectoryReader.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
         class DirectoryReader;
-        class LeafReader;
         class IndexReader$CacheHelper;
+        class LeafReader;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -33,9 +33,9 @@ namespace org {
         class SoftDeletesDirectoryReaderWrapper : public ::org::apache::lucene::index::FilterDirectoryReader {
          public:
           enum {
-            mid_init$_57c9f70bf29bc6ac,
-            mid_getReaderCacheHelper_3117e2e82cc46163,
-            mid_doWrapDirectoryReader_c0f2d1165a6dcc7c,
+            mid_init$_3d5bcd63e598ccf3,
+            mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_doWrapDirectoryReader_f4693940cb629eaf,
             max_mid
           };
 

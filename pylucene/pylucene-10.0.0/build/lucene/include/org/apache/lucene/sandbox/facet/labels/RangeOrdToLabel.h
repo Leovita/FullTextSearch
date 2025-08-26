@@ -6,19 +6,19 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace facet {
+        namespace range {
+          class Range;
+        }
+        namespace taxonomy {
+          class FacetLabel;
+        }
+      }
       namespace sandbox {
         namespace facet {
           namespace labels {
             class OrdToLabel;
           }
-        }
-      }
-      namespace facet {
-        namespace taxonomy {
-          class FacetLabel;
-        }
-        namespace range {
-          class Range;
         }
       }
     }
@@ -41,9 +41,9 @@ namespace org {
             class RangeOrdToLabel : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_864fce18dad32b46,
-                mid_getLabel_c21e0250a0465b0f,
-                mid_getLabels_b0d0c4216ac45539,
+                mid_init$_571023a825f65db1,
+                mid_getLabel_6c732e2e2e10e82a,
+                mid_getLabels_08f83a8c8bc64590,
                 max_mid
               };
 

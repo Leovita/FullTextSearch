@@ -8,19 +8,19 @@ namespace org {
     namespace v4 {
       namespace runtime {
         class Recognizer;
-        class RuleContext;
-        class IntStream;
-        class Token;
         class ParserRuleContext;
+        class IntStream;
+        class RuleContext;
+        class Token;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -33,15 +33,15 @@ namespace org {
         class RecognitionException : public ::java::lang::RuntimeException {
          public:
           enum {
-            mid_init$_8673cc63600fc310,
-            mid_init$_44f2701c6f01465a,
-            mid_getCtx_f6417995d6af4905,
-            mid_getInputStream_40b9ffd028ddfe4b,
-            mid_getOffendingState_20fbf7565993c3d7,
-            mid_getOffendingToken_9ddaacaf798f5cf6,
-            mid_getRecognizer_fb2e3092fca749a2,
-            mid_setOffendingState_540b2b23d51b1efd,
-            mid_setOffendingToken_c666cf9aed935f19,
+            mid_init$_a800a49743f12f29,
+            mid_init$_cca523d7f8a4e3d1,
+            mid_getCtx_5527f90c6ec01d1c,
+            mid_getInputStream_829b6fe8e52d501b,
+            mid_getOffendingState_bd89ce15dad49192,
+            mid_getOffendingToken_91a9980574ecdd91,
+            mid_getRecognizer_8c57926132c34c36,
+            mid_setOffendingState_8226bd0b0fc13dba,
+            mid_setOffendingToken_70070be696151485,
             max_mid
           };
 

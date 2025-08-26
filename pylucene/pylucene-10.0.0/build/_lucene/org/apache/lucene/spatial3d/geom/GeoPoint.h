@@ -4,14 +4,14 @@
 #include "org/apache/lucene/spatial3d/geom/Vector.h"
 
 namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-    class OutputStream;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
+    class OutputStream;
+    class InputStream;
   }
 }
 namespace org {
@@ -19,9 +19,9 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
+          class SerializableObject;
           class PlanetModel;
           class GeoPoint;
-          class SerializableObject;
         }
       }
     }
@@ -38,24 +38,24 @@ namespace org {
           class GeoPoint : public ::org::apache::lucene::spatial3d::geom::Vector {
            public:
             enum {
-              mid_init$_37e23ef4361d4c28,
-              mid_init$_0ce6bc2f42b874f2,
-              mid_init$_176592fb3884de21,
-              mid_init$_4d2b38be0e1337a3,
-              mid_init$_e61e485ff70a664a,
-              mid_init$_212152a93c4564a9,
-              mid_init$_6da2e5c228e8cf15,
-              mid_init$_51413c97926d5204,
-              mid_init$_a8031a2aa5227629,
-              mid_arcDistance_80a11677b239f4fb,
-              mid_arcDistance_19200a6b63234ec9,
-              mid_getLatitude_32caabaad86c508b,
-              mid_getLongitude_32caabaad86c508b,
-              mid_isIdentical_015808fe2c49222d,
-              mid_isIdentical_5f47c01c69ca9460,
-              mid_magnitude_32caabaad86c508b,
-              mid_toString_09a7afff1868fc5e,
-              mid_write_84831c9725b47eae,
+              mid_init$_da97eaa7d893a93a,
+              mid_init$_2684d3cfbf647435,
+              mid_init$_343ef47e55f98b41,
+              mid_init$_643492163a564694,
+              mid_init$_c9622524895ed2c0,
+              mid_init$_da71cf588f580a7f,
+              mid_init$_d9a4e61ca6fa57ba,
+              mid_init$_1e0330d38bb81163,
+              mid_init$_cc773a243e4751d8,
+              mid_arcDistance_f4eb7dd53b5bdffc,
+              mid_arcDistance_1b083e8094adc19b,
+              mid_getLatitude_6fb37e123fed7a1f,
+              mid_getLongitude_6fb37e123fed7a1f,
+              mid_isIdentical_7af8bc7985ed2239,
+              mid_isIdentical_7ff1eb501b1de7c2,
+              mid_magnitude_6fb37e123fed7a1f,
+              mid_toString_e7df854526d67fa3,
+              mid_write_fbdd420d6e3d48b2,
               max_mid
             };
 

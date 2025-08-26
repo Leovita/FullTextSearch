@@ -4,13 +4,13 @@
 #include "org/apache/lucene/queries/function/FunctionValues.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -37,12 +37,12 @@ namespace org {
             class StrDocValues : public ::org::apache::lucene::queries::function::FunctionValues {
              public:
               enum {
-                mid_init$_db3a6d89b0568e70,
-                mid_boolVal_ae22d3a856ad56f1,
-                mid_getValueFiller_fad7fc73a89d9be3,
-                mid_objectVal_eb7eace67c4a21fd,
-                mid_strVal_cd8436557ab831f9,
-                mid_toString_cd8436557ab831f9,
+                mid_init$_59499d05e6417711,
+                mid_boolVal_a8281eb3b9d9672d,
+                mid_getValueFiller_32f41a37c2710e92,
+                mid_objectVal_2a2d7d7b9153274c,
+                mid_strVal_0da8f0b89b1e9a22,
+                mid_toString_0da8f0b89b1e9a22,
                 max_mid
               };
 

@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace automaton {
-          class Automaton;
-          class TooComplexToDeterminizeException;
           class RegExp;
+          class TooComplexToDeterminizeException;
+          class Automaton;
         }
       }
     }
@@ -32,11 +32,11 @@ namespace org {
           class TooComplexToDeterminizeException : public ::java::lang::RuntimeException {
            public:
             enum {
-              mid_init$_c82d7364f21ccfa4,
-              mid_init$_c0be4f60ca27e723,
-              mid_getAutomaton_275570da72a90658,
-              mid_getDeterminizeWorkLimit_20fbf7565993c3d7,
-              mid_getRegExp_6bb6a19377f37398,
+              mid_init$_a083b6965bc2d956,
+              mid_init$_4144d90d35e82925,
+              mid_getAutomaton_d4cfa49a0a7bdead,
+              mid_getDeterminizeWorkLimit_bd89ce15dad49192,
+              mid_getRegExp_d52e31c611193dd9,
               max_mid
             };
 

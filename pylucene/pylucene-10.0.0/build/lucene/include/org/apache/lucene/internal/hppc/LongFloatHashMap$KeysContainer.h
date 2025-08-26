@@ -35,10 +35,10 @@ namespace org {
           class LongFloatHashMap$KeysContainer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_e65bc95cab5f2409,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_size_20fbf7565993c3d7,
-              mid_toArray_a057bd1a0d2826b3,
+              mid_init$_3ec36fb9acb5b4dd,
+              mid_iterator_c7985fafdcf40e83,
+              mid_size_bd89ce15dad49192,
+              mid_toArray_1aab5293a9d94cd3,
               max_mid
             };
 

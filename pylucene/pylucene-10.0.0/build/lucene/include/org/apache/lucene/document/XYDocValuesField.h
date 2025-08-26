@@ -3,9 +3,19 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace geo {
+        class XYGeometry;
+        class XYPolygon;
+      }
       namespace search {
         class Query;
         class SortField;
@@ -13,17 +23,7 @@ namespace org {
       namespace document {
         class FieldType;
       }
-      namespace geo {
-        class XYGeometry;
-        class XYPolygon;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -36,14 +36,14 @@ namespace org {
         class XYDocValuesField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_718f262b86e1be29,
-            mid_newDistanceSort_e832c1875609bbeb,
-            mid_newSlowBoxQuery_70655ebbf0e97082,
-            mid_newSlowDistanceQuery_c8bcc65a049a42ea,
-            mid_newSlowGeometryQuery_ad82294ac6e13ebf,
-            mid_newSlowPolygonQuery_c064891a08451493,
-            mid_setLocationValue_13cb7e72f513d797,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_d92272036f137b6e,
+            mid_newDistanceSort_7e675d9653be7eea,
+            mid_newSlowBoxQuery_2b2dee22a7ea3941,
+            mid_newSlowDistanceQuery_d8abc65d9cd2880f,
+            mid_newSlowGeometryQuery_0db2ddb404b8e65c,
+            mid_newSlowPolygonQuery_105d97cbf37538b5,
+            mid_setLocationValue_cb7687d0612879b8,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -6,26 +6,26 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
       namespace util {
         class BytesRef;
       }
       namespace index {
         class FieldInfo;
       }
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,17 +39,17 @@ namespace org {
           class SimpleTextStoredFieldsWriter : public ::org::apache::lucene::codecs::StoredFieldsWriter {
            public:
             enum {
-              mid_init$_4dba7632ff601768,
-              mid_close_3720c61b0679eb3e,
-              mid_finish_540b2b23d51b1efd,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_startDocument_3720c61b0679eb3e,
-              mid_writeField_5c9f933456c04469,
-              mid_writeField_19cee90e3fb5aab3,
-              mid_writeField_15da8d9582fee97c,
-              mid_writeField_013aff7dc250536b,
-              mid_writeField_484c149275e4150c,
-              mid_writeField_9d67b99cda581cf2,
+              mid_init$_242f0c71b92fd6af,
+              mid_close_e7bdbe105ce1bafb,
+              mid_finish_8226bd0b0fc13dba,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_startDocument_e7bdbe105ce1bafb,
+              mid_writeField_23bd4f2f5dbee707,
+              mid_writeField_f6503adebebfa576,
+              mid_writeField_a4548d4d49fe5baf,
+              mid_writeField_2e0b4786b01c00c5,
+              mid_writeField_7da17ba798519794,
+              mid_writeField_4573144ea666abda,
               max_mid
             };
 

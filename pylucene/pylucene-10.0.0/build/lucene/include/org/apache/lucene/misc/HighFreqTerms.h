@@ -3,16 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Exception;
-  }
-  namespace util {
-    class Comparator;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -25,6 +15,16 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+    class Exception;
+    class String;
+  }
+  namespace util {
+    class Comparator;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -35,9 +35,9 @@ namespace org {
         class HighFreqTerms : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getHighFreqTerms_b104c0c8a9529a41,
-            mid_main_ce41e621b30e91b1,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getHighFreqTerms_c72f33abd9084b1a,
+            mid_main_1f90f2fcbe43e50d,
             max_mid
           };
 

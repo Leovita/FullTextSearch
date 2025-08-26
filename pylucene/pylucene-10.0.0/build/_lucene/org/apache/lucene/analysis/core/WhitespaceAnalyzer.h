@@ -19,9 +19,9 @@ namespace org {
           class WhitespaceAnalyzer : public ::org::apache::lucene::analysis::Analyzer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_createComponents_f774fffda992519d,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_createComponents_b734244e69a6c631,
               max_mid
             };
 

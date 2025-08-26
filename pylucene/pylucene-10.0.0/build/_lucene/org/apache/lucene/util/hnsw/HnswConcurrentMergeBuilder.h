@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class BitSet;
         namespace hnsw {
-          class HnswBuilder;
           class OnHeapHnswGraph;
+          class HnswBuilder;
           class RandomVectorScorerSupplier;
         }
         class InfoStream;
-        class BitSet;
       }
       namespace search {
         class TaskExecutor;
@@ -40,12 +40,12 @@ namespace org {
           class HnswConcurrentMergeBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_a71c8f5033a95c05,
-              mid_addGraphNode_540b2b23d51b1efd,
-              mid_build_9fd6d69296ace9c0,
-              mid_getCompletedGraph_7f2a628e64b61b56,
-              mid_getGraph_7f2a628e64b61b56,
-              mid_setInfoStream_3b3e574f321bdf38,
+              mid_init$_3a11cadfb46c2b1c,
+              mid_addGraphNode_8226bd0b0fc13dba,
+              mid_build_890c1737c7309e31,
+              mid_getCompletedGraph_c6522999a4810969,
+              mid_getGraph_c6522999a4810969,
+              mid_setInfoStream_f10e797612112ab1,
               max_mid
             };
 

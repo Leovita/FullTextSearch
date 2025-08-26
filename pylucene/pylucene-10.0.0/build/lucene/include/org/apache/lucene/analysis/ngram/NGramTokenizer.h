@@ -31,13 +31,13 @@ namespace org {
           class NGramTokenizer : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_e13cff512ebda969,
-              mid_init$_b716f677a5f19515,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_isTokenChar_ae22d3a856ad56f1,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_645c25455f5b9b1c,
+              mid_init$_174ba4108e704d25,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_isTokenChar_a8281eb3b9d9672d,
               max_mid
             };
 

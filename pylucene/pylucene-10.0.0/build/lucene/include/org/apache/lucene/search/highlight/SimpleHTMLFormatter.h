@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +13,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,9 +32,9 @@ namespace org {
           class SimpleHTMLFormatter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_3d104da0b5c75e64,
-              mid_highlightTerm_ecd5d50f5d7e1e84,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_0dd012a11c3f389b,
+              mid_highlightTerm_210671a0f4b1b3cf,
               max_mid
             };
 

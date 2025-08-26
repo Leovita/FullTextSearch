@@ -4,23 +4,23 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class InputStream;
-    class BufferedWriter;
-    class BufferedReader;
-    class OutputStream;
-  }
   namespace lang {
-    class Class;
-    class InterruptedException;
-    class ProcessHandle;
     class Process;
     class ProcessHandle$Info;
+    class InterruptedException;
+    class ProcessHandle;
+    class Class;
+  }
+  namespace io {
+    class BufferedReader;
+    class InputStream;
+    class BufferedWriter;
+    class OutputStream;
   }
   namespace util {
     namespace concurrent {
-      class TimeUnit;
       class CompletableFuture;
+      class TimeUnit;
     }
   }
 }
@@ -32,24 +32,24 @@ namespace java {
     class Process : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_destroy_3720c61b0679eb3e,
-        mid_destroyForcibly_c94a317dcd75c168,
-        mid_errorReader_14d1c745da4d9b1e,
-        mid_exitValue_20fbf7565993c3d7,
-        mid_getErrorStream_13f722253d099a7c,
-        mid_getInputStream_13f722253d099a7c,
-        mid_getOutputStream_211030441bf65bd4,
-        mid_info_202f9764d68b3a24,
-        mid_inputReader_14d1c745da4d9b1e,
-        mid_isAlive_947277eca0748c4e,
-        mid_onExit_67c044688e7780df,
-        mid_outputWriter_b437d4ead3bdc21b,
-        mid_pid_16939d9d0a9a9721,
-        mid_supportsNormalTermination_947277eca0748c4e,
-        mid_toHandle_6392027f213f9afe,
-        mid_waitFor_20fbf7565993c3d7,
-        mid_waitFor_e992b4908961e96e,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_destroy_e7bdbe105ce1bafb,
+        mid_destroyForcibly_3f11ead73bbd4a6b,
+        mid_errorReader_19b29f6bd4396556,
+        mid_exitValue_bd89ce15dad49192,
+        mid_getErrorStream_e6d5d6822aa2b5dc,
+        mid_getInputStream_e6d5d6822aa2b5dc,
+        mid_getOutputStream_1478f16a8ad52680,
+        mid_info_d06aa60b02975843,
+        mid_inputReader_19b29f6bd4396556,
+        mid_isAlive_9aa4f33e82ea333f,
+        mid_onExit_645e0257444d1f5e,
+        mid_outputWriter_1a3a7f4396de795f,
+        mid_pid_0f176418e3e16541,
+        mid_supportsNormalTermination_9aa4f33e82ea333f,
+        mid_toHandle_ffbc9b3892cf9762,
+        mid_waitFor_bd89ce15dad49192,
+        mid_waitFor_67710f08bc0014c8,
         max_mid
       };
 

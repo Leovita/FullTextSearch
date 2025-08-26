@@ -22,11 +22,11 @@ namespace org {
           class PackedInts$Writer : public ::java::lang::Object {
            public:
             enum {
-              mid_add_8b3d46852b435a94,
-              mid_bitsPerValue_20fbf7565993c3d7,
-              mid_finish_3720c61b0679eb3e,
-              mid_ord_20fbf7565993c3d7,
-              mid_getFormat_e1a5aa94ef41e2e5,
+              mid_add_1d3149fac12f2af3,
+              mid_bitsPerValue_bd89ce15dad49192,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_ord_bd89ce15dad49192,
+              mid_getFormat_ab5e842417ef5ecc,
               max_mid
             };
 

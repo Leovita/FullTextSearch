@@ -35,10 +35,10 @@ namespace org {
           class NorwegianNormalizationFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_f1fdc147f3956e96,
-              mid_normalize_2ec4d1726b35d478,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_7cb2b2f31aa6afee,
+              mid_normalize_f3e050e998938273,
               max_mid
             };
 

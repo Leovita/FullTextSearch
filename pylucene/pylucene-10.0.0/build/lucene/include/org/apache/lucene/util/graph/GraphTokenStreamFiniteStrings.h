@@ -8,12 +8,12 @@ namespace java {
     class Iterator;
     class List;
   }
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
@@ -22,11 +22,11 @@ namespace org {
       namespace util {
         class AttributeSource;
       }
-      namespace index {
-        class Term;
-      }
       namespace analysis {
         class TokenStream;
+      }
+      namespace index {
+        class Term;
       }
     }
   }
@@ -42,13 +42,13 @@ namespace org {
           class GraphTokenStreamFiniteStrings : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_articulationPoints_623cd4a044ba647a,
-              mid_getFiniteStrings_0db4c76ff7ee995b,
-              mid_getFiniteStrings_23319641f2a33d96,
-              mid_getTerms_3e47fe599d76d583,
-              mid_getTerms_2e100903f753f117,
-              mid_hasSidePath_ae22d3a856ad56f1,
+              mid_init$_4fe096967a533954,
+              mid_articulationPoints_4b72a28a860ae838,
+              mid_getFiniteStrings_c7985fafdcf40e83,
+              mid_getFiniteStrings_5fa822a9a831277e,
+              mid_getTerms_b4b9401c877452e3,
+              mid_getTerms_625aeec41a7f5fb6,
+              mid_hasSidePath_a8281eb3b9d9672d,
               max_mid
             };
 

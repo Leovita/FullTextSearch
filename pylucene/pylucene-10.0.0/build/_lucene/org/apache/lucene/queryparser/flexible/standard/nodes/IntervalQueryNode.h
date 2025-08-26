@@ -3,9 +3,19 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/QueryNodeImpl.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class Analyzer;
+      }
       namespace search {
         class Query;
       }
@@ -29,17 +39,7 @@ namespace org {
           }
         }
       }
-      namespace analysis {
-        class Analyzer;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class CharSequence;
   }
 }
 template<class T> class JArray;
@@ -55,14 +55,14 @@ namespace org {
               class IntervalQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_86fe68f58d040375,
-                  mid_cloneTree_005baad7a9e2f587,
-                  mid_getField_373f0038978f926b,
-                  mid_getQuery_a3eacfacada795d4,
-                  mid_setAnalyzer_07cd0f76cabcf75a,
-                  mid_setField_5ed8eb2e3024c663,
-                  mid_toQueryString_cef5cad2ff4999a0,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_a9c9db8d123941e4,
+                  mid_cloneTree_bcd6088f75b0288c,
+                  mid_getField_f2e5418fe0d66c69,
+                  mid_getQuery_ffa7bd087b2a75aa,
+                  mid_setAnalyzer_1aaca852402a5069,
+                  mid_setField_fe2ab7d27aa3fe1a,
+                  mid_toQueryString_237ac3cfafa67a48,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

@@ -3,26 +3,26 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace search {
+        class SynonymQuery;
+        class SynonymQuery$Builder;
+      }
       namespace index {
         class Term;
       }
       namespace util {
         class BytesRef;
       }
-      namespace search {
-        class SynonymQuery$Builder;
-        class SynonymQuery;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -35,11 +35,11 @@ namespace org {
         class SynonymQuery$Builder : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_0d82408c6e55bc30,
-            mid_addTerm_a21dbade0d37b8fd,
-            mid_addTerm_eaacf65e4ed233bf,
-            mid_addTerm_6b2627a68b671e01,
-            mid_build_14a2f29654137d2b,
+            mid_init$_ee46a189998009d6,
+            mid_addTerm_9573b0ccf0170adc,
+            mid_addTerm_f8af1754d5c7fc6e,
+            mid_addTerm_b9890532dfa4659c,
+            mid_build_f977f6df77747238,
             max_mid
           };
 

@@ -3,9 +3,24 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    namespace function {
+      class BiPredicate;
+    }
+    class Map;
+  }
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class Document;
+      }
       namespace search {
         class Query;
       }
@@ -15,25 +30,10 @@ namespace org {
       namespace monitor {
         class Presearcher;
       }
-      namespace document {
-        class Document;
-      }
       namespace index {
         class LeafReader;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    namespace function {
-      class BiPredicate;
-    }
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -46,9 +46,9 @@ namespace org {
         class Presearcher : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_buildQuery_5ac880f711e7891d,
-            mid_indexQuery_6c9ecad1e4032583,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_buildQuery_3ea5bedfc296f473,
+            mid_indexQuery_50a389fecd57172d,
             max_mid
           };
 

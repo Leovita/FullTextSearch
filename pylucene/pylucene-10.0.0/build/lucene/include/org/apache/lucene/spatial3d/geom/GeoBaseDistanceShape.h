@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/spatial3d/geom/GeoBaseAreaShape.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
           class Vector;
-          class PlanetModel;
-          class GeoPoint;
-          class Bounds;
-          class DistanceStyle;
           class GeoDistanceShape;
+          class Bounds;
+          class PlanetModel;
+          class DistanceStyle;
+          class GeoPoint;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -35,16 +35,16 @@ namespace org {
           class GeoBaseDistanceShape : public ::org::apache::lucene::spatial3d::geom::GeoBaseAreaShape {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
-              mid_computeDeltaDistance_6635ccfc1ffc6db7,
-              mid_computeDeltaDistance_843fc02405cdd09d,
-              mid_computeDistance_6635ccfc1ffc6db7,
-              mid_computeDistance_843fc02405cdd09d,
-              mid_getDistanceBounds_c5f285fb01660151,
-              mid_isWithin_d2545ca8f40aaba4,
-              mid_deltaDistance_843fc02405cdd09d,
-              mid_distanceBounds_c5f285fb01660151,
-              mid_distance_843fc02405cdd09d,
+              mid_init$_ed6d55ea06962af0,
+              mid_computeDeltaDistance_c279193319e1a46c,
+              mid_computeDeltaDistance_79a34b4fe77da1ae,
+              mid_computeDistance_c279193319e1a46c,
+              mid_computeDistance_79a34b4fe77da1ae,
+              mid_getDistanceBounds_13d4518d2e258a7e,
+              mid_isWithin_f78acf28287584e8,
+              mid_deltaDistance_79a34b4fe77da1ae,
+              mid_distanceBounds_13d4518d2e258a7e,
+              mid_distance_79a34b4fe77da1ae,
               max_mid
             };
 

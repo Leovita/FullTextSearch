@@ -33,8 +33,8 @@ namespace org {
         class IndriAndScorer : public ::org::apache::lucene::search::IndriDisjunctionScorer {
          public:
           enum {
-            mid_score_22d30580b3b87eb3,
-            mid_smoothingScore_4d149eddb72e861d,
+            mid_score_cb72f93a172ed17a,
+            mid_smoothingScore_87b6b571ca6f70bb,
             max_mid
           };
 

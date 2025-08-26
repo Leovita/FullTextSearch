@@ -3,6 +3,16 @@
 
 #include "org/apache/lucene/store/FilterDirectory.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class IOException;
@@ -10,16 +20,6 @@ namespace java {
   namespace lang {
     class Class;
     class String;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace store {
-        class IOContext;
-        class Directory;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -33,8 +33,8 @@ namespace org {
           class HardlinkCopyDirectoryWrapper : public ::org::apache::lucene::store::FilterDirectory {
            public:
             enum {
-              mid_init$_3c151c130d7f3176,
-              mid_copyFrom_23ba349b04fb6402,
+              mid_init$_0bf39a7351552ef4,
+              mid_copyFrom_690af4af74b7d11b,
               max_mid
             };
 

@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace util {
+    class TimeZone;
+    class Locale;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace document {
         class DateTools$Resolution;
       }
-      namespace search {
-        class MultiTermQuery$RewriteMethod;
-      }
       namespace analysis {
         class Analyzer;
       }
+      namespace search {
+        class MultiTermQuery$RewriteMethod;
+      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-  }
-  namespace util {
-    class TimeZone;
-    class Locale;
   }
 }
 template<class T> class JArray;
@@ -39,24 +39,24 @@ namespace org {
             class CommonQueryParserConfiguration : public ::java::lang::Object {
              public:
               enum {
-                mid_getAllowLeadingWildcard_947277eca0748c4e,
-                mid_getAnalyzer_6755ba003d984513,
-                mid_getEnablePositionIncrements_947277eca0748c4e,
-                mid_getFuzzyMinSim_9b6c3480dac00edf,
-                mid_getFuzzyPrefixLength_20fbf7565993c3d7,
-                mid_getLocale_319fd40ee3061260,
-                mid_getMultiTermRewriteMethod_69f9b567563cc3af,
-                mid_getPhraseSlop_20fbf7565993c3d7,
-                mid_getTimeZone_1559a29f5a26b141,
-                mid_setAllowLeadingWildcard_b110fc3a58c081ab,
-                mid_setDateResolution_2be4ed3be7cfaf63,
-                mid_setEnablePositionIncrements_b110fc3a58c081ab,
-                mid_setFuzzyMinSim_c771a95b0227fb6a,
-                mid_setFuzzyPrefixLength_540b2b23d51b1efd,
-                mid_setLocale_25a056d06ffd1209,
-                mid_setMultiTermRewriteMethod_edfee9e3c27be2a0,
-                mid_setPhraseSlop_540b2b23d51b1efd,
-                mid_setTimeZone_1bdebe6495070eda,
+                mid_getAllowLeadingWildcard_9aa4f33e82ea333f,
+                mid_getAnalyzer_7bc9b23f56937752,
+                mid_getEnablePositionIncrements_9aa4f33e82ea333f,
+                mid_getFuzzyMinSim_8b62236f0e4d0dbc,
+                mid_getFuzzyPrefixLength_bd89ce15dad49192,
+                mid_getLocale_d50f7bd45bffb467,
+                mid_getMultiTermRewriteMethod_cdae28086b3bbe9c,
+                mid_getPhraseSlop_bd89ce15dad49192,
+                mid_getTimeZone_f0ab2fb84439b1af,
+                mid_setAllowLeadingWildcard_f5dd97eebf6a215a,
+                mid_setDateResolution_fc9c774cd4ca88ae,
+                mid_setEnablePositionIncrements_f5dd97eebf6a215a,
+                mid_setFuzzyMinSim_675f4cb9a2529ee0,
+                mid_setFuzzyPrefixLength_8226bd0b0fc13dba,
+                mid_setLocale_160efbb0dee8e527,
+                mid_setMultiTermRewriteMethod_83f3c0af3316ffc0,
+                mid_setPhraseSlop_8226bd0b0fc13dba,
+                mid_setTimeZone_6bae4ff1843f5310,
                 max_mid
               };
 

@@ -3,26 +3,26 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Exception;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class IndexReader;
-      }
       namespace store {
         class Directory;
       }
+      namespace index {
+        class IndexReader;
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class Exception;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -36,9 +36,9 @@ namespace org {
           class MultiPassIndexSplitter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_main_ce41e621b30e91b1,
-              mid_split_04584bd62ce8dc2b,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_main_1f90f2fcbe43e50d,
+              mid_split_89339c2e898b7731,
               max_mid
             };
 

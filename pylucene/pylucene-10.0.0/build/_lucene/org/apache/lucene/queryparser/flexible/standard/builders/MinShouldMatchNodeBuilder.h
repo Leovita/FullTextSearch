@@ -9,11 +9,11 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
-            namespace builders {
-              class QueryBuilder;
-            }
             namespace nodes {
               class QueryNode;
+            }
+            namespace builders {
+              class QueryBuilder;
             }
           }
         }
@@ -42,8 +42,8 @@ namespace org {
               class MinShouldMatchNodeBuilder : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_build_636e329e1785ccb4,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_build_050a652615652adb,
                   max_mid
                 };
 

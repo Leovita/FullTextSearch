@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
+        class TermStates;
         class IndexReaderContext;
         class Term;
-        class TermStates;
         class TermState;
         class LeafReaderContext;
       }
@@ -23,12 +23,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,18 +41,18 @@ namespace org {
         class TermStates : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_26d88823abec6e31,
-            mid_init$_0eed2271e870f995,
-            mid_accumulateStatistics_52c53d6e59b40db2,
-            mid_build_28fd64b13065d068,
-            mid_clear_3720c61b0679eb3e,
-            mid_docFreq_20fbf7565993c3d7,
-            mid_get_7b27badc76184417,
-            mid_register_ec5c8c6b52a26f9e,
-            mid_register_34c154b95aa8532d,
-            mid_toString_09a7afff1868fc5e,
-            mid_totalTermFreq_16939d9d0a9a9721,
-            mid_wasBuiltFor_fc286b897ca8d8aa,
+            mid_init$_34a1b095e161b54f,
+            mid_init$_aea3cd045bea9a9d,
+            mid_accumulateStatistics_1d43622e571bd043,
+            mid_build_ac68caf84755b579,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_docFreq_bd89ce15dad49192,
+            mid_get_9556023c34c4426d,
+            mid_register_217b8896587960ed,
+            mid_register_c95c680d59b94b71,
+            mid_toString_e7df854526d67fa3,
+            mid_totalTermFreq_0f176418e3e16541,
+            mid_wasBuiltFor_5a2be1e9a36ffe73,
             max_mid
           };
 

@@ -30,19 +30,19 @@ namespace org {
           class Viterbi$Position : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_add_0c9b4c26b19d05c4,
-              mid_getBackID_3c9bba330f083871,
-              mid_getBackIndex_3c9bba330f083871,
-              mid_getBackPos_3c9bba330f083871,
-              mid_getBackType_f076e1862997cd4f,
-              mid_getBackWordPos_3c9bba330f083871,
-              mid_getCost_3c9bba330f083871,
-              mid_getCount_20fbf7565993c3d7,
-              mid_getLastRightID_3c9bba330f083871,
-              mid_getPos_20fbf7565993c3d7,
-              mid_reset_3720c61b0679eb3e,
-              mid_setCount_540b2b23d51b1efd,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_add_b1270d3bc836212d,
+              mid_getBackID_a3904e10f5bb9437,
+              mid_getBackIndex_a3904e10f5bb9437,
+              mid_getBackPos_a3904e10f5bb9437,
+              mid_getBackType_1c29ddaecdd4938b,
+              mid_getBackWordPos_a3904e10f5bb9437,
+              mid_getCost_a3904e10f5bb9437,
+              mid_getCount_bd89ce15dad49192,
+              mid_getLastRightID_a3904e10f5bb9437,
+              mid_getPos_bd89ce15dad49192,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setCount_8226bd0b0fc13dba,
               max_mid
             };
 

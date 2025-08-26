@@ -3,32 +3,18 @@
 
 #include "org/apache/lucene/codecs/lucene99/OffHeapQuantizedByteVectorValues.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class VectorScorer;
-      }
       namespace util {
+        class Bits;
         namespace quantization {
           class ScalarQuantizer;
         }
-        class Bits;
       }
       namespace index {
         class VectorSimilarityFunction;
         class KnnVectorValues$DocIndexIterator;
-      }
-      namespace store {
-        class IndexInput;
       }
       namespace codecs {
         namespace hnsw {
@@ -38,7 +24,21 @@ namespace org {
           class OffHeapQuantizedByteVectorValues$DenseOffHeapVectorValues;
         }
       }
+      namespace store {
+        class IndexInput;
+      }
+      namespace search {
+        class VectorScorer;
+      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -52,11 +52,11 @@ namespace org {
           class OffHeapQuantizedByteVectorValues$DenseOffHeapVectorValues : public ::org::apache::lucene::codecs::lucene99::OffHeapQuantizedByteVectorValues {
            public:
             enum {
-              mid_init$_a1a7dd077fd29b12,
-              mid_copy_822e469fabe908e3,
-              mid_getAcceptOrds_372c76d90ab3ad4a,
-              mid_iterator_cd2e842b8d8e9e2b,
-              mid_scorer_a8fe418e8b9bfd3a,
+              mid_init$_9a4603e3e30e3b37,
+              mid_copy_008a41b8f56569ec,
+              mid_getAcceptOrds_952ad757d5b0c3b2,
+              mid_iterator_95916eac162e9a1d,
+              mid_scorer_08ba7b0e97b17679,
               max_mid
             };
 

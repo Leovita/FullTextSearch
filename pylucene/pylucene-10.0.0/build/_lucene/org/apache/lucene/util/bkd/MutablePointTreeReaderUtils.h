@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace codecs {
-        class MutablePointTree;
-      }
       namespace util {
+        class BytesRef;
         namespace bkd {
           class BKDConfig;
         }
-        class BytesRef;
+      }
+      namespace codecs {
+        class MutablePointTree;
       }
     }
   }
@@ -34,9 +34,9 @@ namespace org {
           class MutablePointTreeReaderUtils : public ::java::lang::Object {
            public:
             enum {
-              mid_partition_bc900f6e9be5d928,
-              mid_sort_f034b13eef160d31,
-              mid_sortByDim_5351eca67b2ecb52,
+              mid_partition_2c66ddf27057b36e,
+              mid_sort_a4a4ce4e028d619f,
+              mid_sortByDim_df0661f488cde92b,
               max_mid
             };
 

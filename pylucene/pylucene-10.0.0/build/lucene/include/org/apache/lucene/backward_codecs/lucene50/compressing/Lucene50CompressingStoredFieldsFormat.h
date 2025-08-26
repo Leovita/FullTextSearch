@@ -6,6 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+        class IOContext;
+      }
+      namespace index {
+        class SegmentInfo;
+        class FieldInfos;
+      }
       namespace codecs {
         class StoredFieldsWriter;
         class StoredFieldsReader;
@@ -14,14 +22,6 @@ namespace org {
         namespace compressing {
           class CompressionMode;
         }
-      }
-      namespace index {
-        class FieldInfos;
-        class SegmentInfo;
-      }
-      namespace store {
-        class IOContext;
-        class Directory;
       }
     }
   }
@@ -47,11 +47,11 @@ namespace org {
             class Lucene50CompressingStoredFieldsFormat : public ::org::apache::lucene::codecs::StoredFieldsFormat {
              public:
               enum {
-                mid_init$_3bf408b345e7fc21,
-                mid_init$_09d8d4307a2e9de9,
-                mid_fieldsReader_51c50b6cd4fa2dfc,
-                mid_fieldsWriter_754155daaa4b78ed,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_38dd55d4ee2514f1,
+                mid_init$_dc92c386ef66ed75,
+                mid_fieldsReader_c9749e0a367e3d44,
+                mid_fieldsWriter_48b3d366f1632c9e,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

@@ -31,10 +31,10 @@ namespace org {
           class RandomVectorScorer : public ::java::lang::Object {
            public:
             enum {
-              mid_getAcceptOrds_372c76d90ab3ad4a,
-              mid_maxOrd_20fbf7565993c3d7,
-              mid_ordToDoc_3c9bba330f083871,
-              mid_score_29cfa01aaad92564,
+              mid_getAcceptOrds_952ad757d5b0c3b2,
+              mid_maxOrd_bd89ce15dad49192,
+              mid_ordToDoc_a3904e10f5bb9437,
+              mid_score_5873a23b935a9d49,
               max_mid
             };
 

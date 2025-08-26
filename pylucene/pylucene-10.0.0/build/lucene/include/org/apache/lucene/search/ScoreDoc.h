@@ -19,9 +19,9 @@ namespace org {
         class ScoreDoc : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_06e0b8d4c1d7906b,
-            mid_init$_f67902063b331be2,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_a18b0cdf76a9509e,
+            mid_init$_255c9806eea7fdec,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

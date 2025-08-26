@@ -20,7 +20,7 @@ namespace org {
           class StringDistance : public ::java::lang::Object {
            public:
             enum {
-              mid_getDistance_f7f6deee5db3b344,
+              mid_getDistance_df5a321780692978,
               max_mid
             };
 

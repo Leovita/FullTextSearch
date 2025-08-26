@@ -12,11 +12,11 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class DocIdSetIterator;
-      }
       namespace util {
         class BitSet;
+      }
+      namespace search {
+        class DocIdSetIterator;
       }
     }
   }
@@ -31,12 +31,12 @@ namespace org {
         class BitDocIdSet : public ::org::apache::lucene::search::DocIdSet {
          public:
           enum {
-            mid_init$_c623abf28d0d41be,
-            mid_init$_cae33b2b11961e3c,
-            mid_bits_929151ffbbc0eb5d,
-            mid_iterator_fc644a826c65d236,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_226a9729e2c8bee1,
+            mid_init$_c07cb9a90039759b,
+            mid_bits_c51191497671ef55,
+            mid_iterator_b78969502cbf4939,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

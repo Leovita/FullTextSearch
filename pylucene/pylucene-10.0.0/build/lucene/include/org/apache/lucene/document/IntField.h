@@ -3,9 +3,19 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace document {
+        class StoredValue;
+        class Field$Store;
+      }
       namespace search {
         class Query;
         class SortedNumericSelector$Type;
@@ -14,17 +24,7 @@ namespace org {
       namespace util {
         class BytesRef;
       }
-      namespace document {
-        class StoredValue;
-        class Field$Store;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -37,15 +37,15 @@ namespace org {
         class IntField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_aadce0a34c4b8fb2,
-            mid_binaryValue_9740fddd1c7df148,
-            mid_newExactQuery_f6c055cd1516634d,
-            mid_newRangeQuery_7938124443e4ab73,
-            mid_newSetQuery_abd436110bd94118,
-            mid_newSortField_5b850b28323a3ff9,
-            mid_setIntValue_540b2b23d51b1efd,
-            mid_storedValue_c117239a18be2fcb,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_499dedbcbd4dbe04,
+            mid_binaryValue_adbedbc1fa61c358,
+            mid_newExactQuery_5b565b82a300465b,
+            mid_newRangeQuery_68a5297c1fffb8f4,
+            mid_newSetQuery_c38bda0e634d1eef,
+            mid_newSortField_0edd70834183cd64,
+            mid_setIntValue_8226bd0b0fc13dba,
+            mid_storedValue_71ce58210dba1993,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

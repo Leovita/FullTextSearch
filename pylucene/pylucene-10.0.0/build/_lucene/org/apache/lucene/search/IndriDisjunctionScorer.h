@@ -3,16 +3,6 @@
 
 #include "org/apache/lucene/search/IndriScorer.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class Scorer;
-        class DocIdSetIterator;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
@@ -22,6 +12,16 @@ namespace java {
   }
   namespace util {
     class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class DocIdSetIterator;
+        class Scorer;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -34,13 +34,13 @@ namespace org {
         class IndriDisjunctionScorer : public ::org::apache::lucene::search::IndriScorer {
          public:
           enum {
-            mid_docID_20fbf7565993c3d7,
-            mid_getMaxScore_29cfa01aaad92564,
-            mid_getSubMatches_36830460e10839eb,
-            mid_iterator_fc644a826c65d236,
-            mid_score_9b6c3480dac00edf,
-            mid_smoothingScore_29cfa01aaad92564,
-            mid_smoothingScore_4d149eddb72e861d,
+            mid_docID_bd89ce15dad49192,
+            mid_getMaxScore_5873a23b935a9d49,
+            mid_getSubMatches_1387e1e2702ac173,
+            mid_iterator_b78969502cbf4939,
+            mid_score_8b62236f0e4d0dbc,
+            mid_smoothingScore_5873a23b935a9d49,
+            mid_smoothingScore_87b6b571ca6f70bb,
             max_mid
           };
 

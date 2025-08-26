@@ -3,23 +3,23 @@
 
 #include "java/lang/Record.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Sort;
-      }
       namespace util {
         class Version;
       }
+      namespace search {
+        class Sort;
+      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -32,14 +32,14 @@ namespace org {
         class LeafMetaData : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_a19d2da628286e89,
-            mid_createdVersionMajor_20fbf7565993c3d7,
-            mid_equals_570b5248a6da3ef6,
-            mid_hasBlocks_947277eca0748c4e,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_minVersion_f03381109b44c46a,
-            mid_sort_74d249da84538e70,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_0156b274f141ab86,
+            mid_createdVersionMajor_bd89ce15dad49192,
+            mid_equals_00d17418847797d4,
+            mid_hasBlocks_9aa4f33e82ea333f,
+            mid_hashCode_bd89ce15dad49192,
+            mid_minVersion_098638c0dde6da21,
+            mid_sort_9a15197f7786b173,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

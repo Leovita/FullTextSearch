@@ -4,14 +4,14 @@
 #include "java/util/concurrent/Delayed.h"
 
 namespace java {
-  namespace lang {
-    class Object;
-    class Class;
-  }
   namespace util {
     namespace concurrent {
       class Future;
     }
+  }
+  namespace lang {
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;

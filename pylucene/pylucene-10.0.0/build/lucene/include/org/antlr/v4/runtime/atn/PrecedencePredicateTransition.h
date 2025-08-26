@@ -8,8 +8,8 @@ namespace org {
     namespace v4 {
       namespace runtime {
         namespace atn {
-          class ATNState;
           class SemanticContext$PrecedencePredicate;
+          class ATNState;
         }
       }
     }
@@ -32,12 +32,12 @@ namespace org {
           class PrecedencePredicateTransition : public ::org::antlr::v4::runtime::atn::AbstractPredicateTransition {
            public:
             enum {
-              mid_init$_f44ba19d4113dd3a,
-              mid_getPredicate_97b7acd4fcff9dd4,
-              mid_getSerializationType_20fbf7565993c3d7,
-              mid_isEpsilon_947277eca0748c4e,
-              mid_matches_fb87b32bf7e41aa6,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_71258bafc9746bc5,
+              mid_getPredicate_44c0dad44934f218,
+              mid_getSerializationType_bd89ce15dad49192,
+              mid_isEpsilon_9aa4f33e82ea333f,
+              mid_matches_964913aa98f38ea1,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

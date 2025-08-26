@@ -3,13 +3,6 @@
 
 #include "java/lang/Record.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Object;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +12,13 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,15 +32,15 @@ namespace org {
           class DimRange : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_c3501637982a28bc,
-              mid_equals_570b5248a6da3ef6,
-              mid_fromDoubles_48a591fa26ae3d85,
-              mid_fromFloats_5306f6c2fae5c10e,
-              mid_fromLongs_98eb7810341ee108,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_max_16939d9d0a9a9721,
-              mid_min_16939d9d0a9a9721,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_9ebf8c93de5f0fe1,
+              mid_equals_00d17418847797d4,
+              mid_fromDoubles_c9b1346f81ade9d9,
+              mid_fromFloats_0fe90e929bf6a7b9,
+              mid_fromLongs_d509010c7ec5e1ad,
+              mid_hashCode_bd89ce15dad49192,
+              mid_max_0f176418e3e16541,
+              mid_min_0f176418e3e16541,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -18,18 +18,18 @@ namespace org {
         class NumericUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_add_04d9c6d4fd107059,
-            mid_doubleToSortableLong_f3afe967d000867c,
-            mid_floatToSortableInt_739cf609cad4f3fa,
-            mid_intToSortableBytes_0922bf48b8e1692d,
-            mid_longToSortableBytes_be470a93ee399bf5,
-            mid_sortableBytesToInt_ed6f790242489170,
-            mid_sortableBytesToLong_e68bac179e5a013e,
-            mid_sortableDoubleBits_91d66fa3ea476cea,
-            mid_sortableFloatBits_3c9bba330f083871,
-            mid_sortableIntToFloat_29cfa01aaad92564,
-            mid_sortableLongToDouble_212c665780cd8e77,
-            mid_subtract_04d9c6d4fd107059,
+            mid_add_ea987979b873ea6d,
+            mid_doubleToSortableLong_67f9dea4fed56fc8,
+            mid_floatToSortableInt_96b611d51a3ba940,
+            mid_intToSortableBytes_ad0ff3d807879a2c,
+            mid_longToSortableBytes_722532cf3f3003a2,
+            mid_sortableBytesToInt_ae2551807aeb85ef,
+            mid_sortableBytesToLong_6566cb2be8167573,
+            mid_sortableDoubleBits_3dc1c6e3a5a0baf0,
+            mid_sortableFloatBits_a3904e10f5bb9437,
+            mid_sortableIntToFloat_5873a23b935a9d49,
+            mid_sortableLongToDouble_1f153cac77223155,
+            mid_subtract_ea987979b873ea6d,
             max_mid
           };
 

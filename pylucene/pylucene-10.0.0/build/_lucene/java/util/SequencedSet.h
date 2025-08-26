@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
   namespace util {
     class Set;
@@ -21,7 +21,7 @@ namespace java {
     class SequencedSet : public ::java::util::SequencedCollection {
      public:
       enum {
-        mid_reversed_eefb2067dd30b451,
+        mid_reversed_f1d1e2ce27214ec3,
         max_mid
       };
 

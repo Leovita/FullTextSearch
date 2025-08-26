@@ -19,11 +19,11 @@ namespace org {
         class SetOnce : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_eb61ef4d1db15d08,
-            mid_get_5655ed8670534604,
-            mid_set_eb61ef4d1db15d08,
-            mid_trySet_570b5248a6da3ef6,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_501c3eb890ff6d79,
+            mid_get_4819806f62f1360a,
+            mid_set_501c3eb890ff6d79,
+            mid_trySet_00d17418847797d4,
             max_mid
           };
 

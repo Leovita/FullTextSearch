@@ -23,9 +23,9 @@ namespace org {
           class Passage : public ::org::apache::lucene::search::matchhighlight::OffsetRange {
            public:
             enum {
-              mid_init$_387f5fca04f5a3f6,
-              mid_slice_d30ec62b6c5f74e9,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_c144670d3f0e91dd,
+              mid_slice_c383ac973ee93431,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

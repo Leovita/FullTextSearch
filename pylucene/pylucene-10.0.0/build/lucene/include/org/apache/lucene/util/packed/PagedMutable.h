@@ -30,10 +30,10 @@ namespace org {
           class PagedMutable : public ::org::apache::lucene::util::packed::AbstractPagedMutable {
            public:
             enum {
-              mid_init$_10508d050c028ca5,
-              mid_baseRamBytesUsed_16939d9d0a9a9721,
-              mid_newUnfilledCopy_ce272a23ad0836bd,
-              mid_newMutable_6cba1b578155166a,
+              mid_init$_c7d673da027f943b,
+              mid_newUnfilledCopy_663efc980fd410ad,
+              mid_newMutable_aa50c3146efe12b9,
+              mid_baseRamBytesUsed_0f176418e3e16541,
               max_mid
             };
 

@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace index {
         class ByteVectorValues;
-        class FieldInfo;
         class FloatVectorValues;
+        class FieldInfo;
       }
     }
   }
@@ -33,10 +33,10 @@ namespace org {
           class SimpleTextKnnVectorsWriter : public ::org::apache::lucene::codecs::BufferingKnnVectorsWriter {
            public:
             enum {
-              mid_close_3720c61b0679eb3e,
-              mid_finish_3720c61b0679eb3e,
-              mid_writeField_9aebc5bb68e46cf6,
-              mid_writeField_21ef140f0025c46f,
+              mid_close_e7bdbe105ce1bafb,
+              mid_finish_e7bdbe105ce1bafb,
+              mid_writeField_74438e6356e219a1,
+              mid_writeField_e0b887c5025e54b7,
               max_mid
             };
 

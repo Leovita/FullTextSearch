@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRefIterator;
         class BytesRef;
+        class BytesRefIterator;
       }
     }
   }
@@ -31,7 +31,7 @@ namespace org {
         class BytesRefIterator : public ::java::lang::Object {
          public:
           enum {
-            mid_next_9740fddd1c7df148,
+            mid_next_adbedbc1fa61c358,
             max_mid
           };
 

@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class String;
     class Enum;
+    class String;
     class Enum$EnumDesc;
     class Class;
   }
@@ -19,7 +19,7 @@ namespace java {
     class Enum$EnumDesc : public ::java::lang::constant::DynamicConstantDesc {
      public:
       enum {
-        mid_toString_09a7afff1868fc5e,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

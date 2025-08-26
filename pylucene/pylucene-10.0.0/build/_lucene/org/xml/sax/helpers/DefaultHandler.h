@@ -19,18 +19,18 @@ namespace org {
         class DefaultHandler : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_characters_fc9be2ded8ee801f,
-            mid_endDocument_3720c61b0679eb3e,
-            mid_endElement_f8f56bd17402e3b3,
-            mid_endPrefixMapping_0d82408c6e55bc30,
-            mid_ignorableWhitespace_fc9be2ded8ee801f,
-            mid_notationDecl_f8f56bd17402e3b3,
-            mid_processingInstruction_3d104da0b5c75e64,
-            mid_skippedEntity_0d82408c6e55bc30,
-            mid_startDocument_3720c61b0679eb3e,
-            mid_startPrefixMapping_3d104da0b5c75e64,
-            mid_unparsedEntityDecl_1844a8d1593174ec,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_characters_186bb5d1c1aec30c,
+            mid_endDocument_e7bdbe105ce1bafb,
+            mid_endElement_f29246d136b6952d,
+            mid_endPrefixMapping_ee46a189998009d6,
+            mid_ignorableWhitespace_186bb5d1c1aec30c,
+            mid_notationDecl_f29246d136b6952d,
+            mid_processingInstruction_0dd012a11c3f389b,
+            mid_skippedEntity_ee46a189998009d6,
+            mid_startDocument_e7bdbe105ce1bafb,
+            mid_startPrefixMapping_0dd012a11c3f389b,
+            mid_unparsedEntityDecl_413d657918c4fe77,
             max_mid
           };
 

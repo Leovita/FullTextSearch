@@ -9,9 +9,9 @@ namespace org {
       namespace analysis {
         namespace ja {
           namespace dict {
-            class UnknownDictionary;
             class UnknownMorphData;
             class CharacterDefinition;
+            class UnknownDictionary;
           }
         }
       }
@@ -19,11 +19,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace nio {
     namespace file {
@@ -43,11 +43,11 @@ namespace org {
             class UnknownDictionary : public ::org::apache::lucene::analysis::morph::BinaryDictionary {
              public:
               enum {
-                mid_init$_3d95c29bddd7ba36,
-                mid_getCharacterDefinition_689c6cd4ba1baa32,
-                mid_getInstance_f29ca5630fcf9e7e,
-                mid_getMorphAttributes_bd3d12fe90aca31d,
-                mid_lookup_db543c1e894f3140,
+                mid_init$_96dc54d783818b32,
+                mid_getCharacterDefinition_a7344a5617c268a2,
+                mid_getInstance_b380869a39c891af,
+                mid_getMorphAttributes_401ef722c6630ade,
+                mid_lookup_872baf22ed11fbaa,
                 max_mid
               };
 

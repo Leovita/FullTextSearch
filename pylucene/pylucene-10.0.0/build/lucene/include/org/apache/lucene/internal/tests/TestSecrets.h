@@ -3,24 +3,24 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace internal {
         namespace tests {
-          class ConcurrentMergeSchedulerAccess;
-          class IndexWriterAccess;
           class SegmentReaderAccess;
-          class FilterIndexInputAccess;
           class IndexPackageAccess;
+          class IndexWriterAccess;
+          class FilterIndexInputAccess;
+          class ConcurrentMergeSchedulerAccess;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,16 +34,16 @@ namespace org {
           class TestSecrets : public ::java::lang::Object {
            public:
             enum {
-              mid_getConcurrentMergeSchedulerAccess_d448c464a9f58029,
-              mid_getFilterInputIndexAccess_c6bc51ee1c178bbb,
-              mid_getIndexPackageAccess_a3e75788ca0688b5,
-              mid_getIndexWriterAccess_e70371d5cd250047,
-              mid_getSegmentReaderAccess_1a3abfea82997e0c,
-              mid_setConcurrentMergeSchedulerAccess_26bb0acdf6f90772,
-              mid_setFilterInputIndexAccess_a00bca9015802886,
-              mid_setIndexPackageAccess_a754003a6c8c7248,
-              mid_setIndexWriterAccess_05c81513bdc3ae4c,
-              mid_setSegmentReaderAccess_6c2c339c85a1b640,
+              mid_getConcurrentMergeSchedulerAccess_c73df1483ae9bed0,
+              mid_getFilterInputIndexAccess_ed2843d5287e3b1a,
+              mid_getIndexPackageAccess_1ee3a035b6ec8a6a,
+              mid_getIndexWriterAccess_fe0ed632910bdec2,
+              mid_getSegmentReaderAccess_fc53ffc80198a501,
+              mid_setConcurrentMergeSchedulerAccess_7316882da297c499,
+              mid_setFilterInputIndexAccess_2061db2990e623f0,
+              mid_setIndexPackageAccess_347cff9b6aa9f451,
+              mid_setIndexWriterAccess_f6d36f3d5fde1324,
+              mid_setSegmentReaderAccess_ded0459e09b9ecf6,
               max_mid
             };
 

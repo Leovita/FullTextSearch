@@ -3,6 +3,12 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -12,12 +18,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class OverlappingLongRangeCounter$LongRangeNode : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_1974d99e2fd31d21,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_d572e30ef8d49010,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

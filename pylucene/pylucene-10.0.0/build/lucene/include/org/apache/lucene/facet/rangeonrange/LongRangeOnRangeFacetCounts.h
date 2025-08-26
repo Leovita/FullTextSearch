@@ -3,31 +3,31 @@
 
 #include "org/apache/lucene/facet/rangeonrange/RangeOnRangeFacetCounts.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace facet {
         class FacetsCollector;
         namespace rangeonrange {
           class LongRange;
         }
       }
+      namespace search {
+        class Query;
+      }
       namespace document {
         class RangeFieldQuery$QueryType;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -41,8 +41,8 @@ namespace org {
           class LongRangeOnRangeFacetCounts : public ::org::apache::lucene::facet::rangeonrange::RangeOnRangeFacetCounts {
            public:
             enum {
-              mid_init$_49e3bad602e24e80,
-              mid_init$_1ec48d675d203e2d,
+              mid_init$_fdcbfcde60623073,
+              mid_init$_7693015e5f3ca6f3,
               max_mid
             };
 

@@ -31,8 +31,8 @@ namespace org {
           class CompiledAutomaton$AUTOMATON_TYPE : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_96b82433d6067295,
-              mid_values_f3b5bd83cc828a34,
+              mid_valueOf_591e7b9cd5c9f52a,
+              mid_values_dbb8ab82bb85b6f9,
               max_mid
             };
 

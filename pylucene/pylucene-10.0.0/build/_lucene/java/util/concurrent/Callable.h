@@ -18,7 +18,7 @@ namespace java {
       class Callable : public ::java::lang::Object {
        public:
         enum {
-          mid_call_5655ed8670534604,
+          mid_call_4819806f62f1360a,
           max_mid
         };
 

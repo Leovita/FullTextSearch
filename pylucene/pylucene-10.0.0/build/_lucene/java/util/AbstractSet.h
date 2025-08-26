@@ -4,13 +4,13 @@
 #include "java/util/AbstractCollection.h"
 
 namespace java {
+  namespace util {
+    class Collection;
+    class Set;
+  }
   namespace lang {
     class Object;
     class Class;
-  }
-  namespace util {
-    class Set;
-    class Collection;
   }
 }
 template<class T> class JArray;
@@ -21,9 +21,9 @@ namespace java {
     class AbstractSet : public ::java::util::AbstractCollection {
      public:
       enum {
-        mid_equals_570b5248a6da3ef6,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_removeAll_f2a1f31c5865e20d,
+        mid_equals_00d17418847797d4,
+        mid_hashCode_bd89ce15dad49192,
+        mid_removeAll_155d0ed876869448,
         max_mid
       };
 

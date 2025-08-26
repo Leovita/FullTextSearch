@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/search/similarities/SimilarityBase.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,12 +31,12 @@ namespace org {
           class DFISimilarity : public ::org::apache::lucene::search::similarities::SimilarityBase {
            public:
             enum {
-              mid_init$_06924ac279e1b342,
-              mid_init$_11bcb53c7fb547f0,
-              mid_getIndependence_325e14ec4b14e85b,
-              mid_toString_09a7afff1868fc5e,
-              mid_score_4520853cec1acecd,
-              mid_explain_6430f3113e3b0626,
+              mid_init$_916549feb8ac6e85,
+              mid_init$_f759c2b5430607d9,
+              mid_getIndependence_716232eae1cfd919,
+              mid_toString_e7df854526d67fa3,
+              mid_explain_3a0f0db458486fc7,
+              mid_score_45900529809cd3f1,
               max_mid
             };
 

@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/search/grouping/GroupFacetCollector.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +17,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -34,7 +34,7 @@ namespace org {
           class TermGroupFacetCollector : public ::org::apache::lucene::search::grouping::GroupFacetCollector {
            public:
             enum {
-              mid_createTermGroupFacetCollector_97d753396e4e4d26,
+              mid_createTermGroupFacetCollector_1ee5fa2b4e2457bb,
               max_mid
             };
 

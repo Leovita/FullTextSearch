@@ -7,15 +7,15 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class Accountable;
         namespace fst {
           class FST$BytesReader;
+          class Outputs;
+          class FST;
           class FSTReader;
           class FST$Arc;
           class FST$FSTMetadata;
-          class FST;
-          class Outputs;
         }
+        class Accountable;
       }
       namespace store {
         class DataInput;
@@ -25,12 +25,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace nio {
     namespace file {
@@ -49,31 +49,31 @@ namespace org {
           class FST : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_f83f95c3971e62d7,
-              mid_findTargetArc_3bc5e9c1c3c23982,
-              mid_fromFSTReader_daf5b0ad98a2b5dd,
-              mid_getBytesReader_14e8f9e66b6f303e,
-              mid_getEmptyOutput_5655ed8670534604,
-              mid_getFirstArc_f5bb151389242a45,
-              mid_getMetadata_3f93d7d5124057ff,
-              mid_numBytes_16939d9d0a9a9721,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_read_32a5b5d9af1eaa3a,
-              mid_readArcByContinuous_c1d4cdaf46c0e524,
-              mid_readArcByDirectAddressing_c1d4cdaf46c0e524,
-              mid_readArcByIndex_c1d4cdaf46c0e524,
-              mid_readFirstRealTargetArc_434fbbb42904d4d4,
-              mid_readFirstTargetArc_39620959c2b3f84d,
-              mid_readLabel_aa555dd69434a422,
-              mid_readLastArcByContinuous_4bf26fa4de117302,
-              mid_readLastArcByDirectAddressing_4bf26fa4de117302,
-              mid_readMetadata_b016a0de79545b78,
-              mid_readNextArc_4bf26fa4de117302,
-              mid_readNextRealArc_4bf26fa4de117302,
-              mid_save_8a3244428bfc77b8,
-              mid_save_a95d280c3e96f218,
-              mid_targetHasArcs_43a4a64af1e140f4,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_4c012ee1cd3b9be2,
+              mid_findTargetArc_f61f733cc235fc4c,
+              mid_fromFSTReader_d5a0460e35136c92,
+              mid_getBytesReader_541a60a9425cbcde,
+              mid_getEmptyOutput_4819806f62f1360a,
+              mid_getFirstArc_6e3fa3026b92cf4e,
+              mid_getMetadata_4d4ce58ca0109531,
+              mid_numBytes_0f176418e3e16541,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_read_0a6d317b25a619e3,
+              mid_readArcByContinuous_630897579587cffc,
+              mid_readArcByDirectAddressing_630897579587cffc,
+              mid_readArcByIndex_630897579587cffc,
+              mid_readFirstRealTargetArc_5007ac968f67559b,
+              mid_readFirstTargetArc_56a58a27f6dfa3ab,
+              mid_readLabel_d467dbc40d89e4aa,
+              mid_readLastArcByContinuous_f69612fb5a7e0d3d,
+              mid_readLastArcByDirectAddressing_f69612fb5a7e0d3d,
+              mid_readMetadata_c49a72b0f1507f68,
+              mid_readNextArc_f69612fb5a7e0d3d,
+              mid_readNextRealArc_f69612fb5a7e0d3d,
+              mid_save_e7b3ede3efacc86d,
+              mid_save_92bb02073765524e,
+              mid_targetHasArcs_f6acaf6464dcd59b,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

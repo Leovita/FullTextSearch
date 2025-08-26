@@ -30,9 +30,9 @@ namespace org {
         class Impacts : public ::java::lang::Object {
          public:
           enum {
-            mid_getDocIdUpTo_3c9bba330f083871,
-            mid_getImpacts_3e47fe599d76d583,
-            mid_numLevels_20fbf7565993c3d7,
+            mid_getDocIdUpTo_a3904e10f5bb9437,
+            mid_getImpacts_b4b9401c877452e3,
+            mid_numLevels_bd89ce15dad49192,
             max_mid
           };
 

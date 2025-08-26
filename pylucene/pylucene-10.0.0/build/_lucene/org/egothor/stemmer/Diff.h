@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
-    class CharSequence;
-    class String;
     class StringBuilder;
+    class String;
+    class CharSequence;
     class Class;
   }
 }
@@ -20,10 +20,10 @@ namespace org {
       class Diff : public ::java::lang::Object {
        public:
         enum {
-          mid_init$_3720c61b0679eb3e,
-          mid_init$_94688dd632556392,
-          mid_apply_231a31bd88a318d0,
-          mid_exec_6829292399b85216,
+          mid_init$_e7bdbe105ce1bafb,
+          mid_init$_126b4efb1bebbe4a,
+          mid_apply_d677f151d253c31c,
+          mid_exec_3bdb499546f6bd60,
           max_mid
         };
 

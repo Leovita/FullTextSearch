@@ -34,15 +34,15 @@ namespace org {
           class ConcatenateGraphFilter : public ::org::apache::lucene::analysis::TokenStream {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_init$_a479750d96d9dcf0,
-              mid_init$_ad7ebf038b9fe64d,
-              mid_close_3720c61b0679eb3e,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_toAutomaton_275570da72a90658,
-              mid_toAutomaton_f9843d3734d16009,
+              mid_init$_4fe096967a533954,
+              mid_init$_4db2d9720b03ae9d,
+              mid_init$_1b9d7a32f659eed8,
+              mid_close_e7bdbe105ce1bafb,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_toAutomaton_d4cfa49a0a7bdead,
+              mid_toAutomaton_8ef8e6f282a9227f,
               max_mid
             };
 

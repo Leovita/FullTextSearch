@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class DocIdSetIterator;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,8 +30,8 @@ namespace org {
         class VectorScorer : public ::java::lang::Object {
          public:
           enum {
-            mid_iterator_fc644a826c65d236,
-            mid_score_9b6c3480dac00edf,
+            mid_iterator_b78969502cbf4939,
+            mid_score_8b62236f0e4d0dbc,
             max_mid
           };
 

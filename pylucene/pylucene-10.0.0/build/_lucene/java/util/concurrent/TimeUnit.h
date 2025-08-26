@@ -5,11 +5,11 @@
 
 namespace java {
   namespace lang {
-    class Class;
-    class String;
     class InterruptedException;
     class Object;
     class Thread;
+    class Class;
+    class String;
   }
   namespace util {
     namespace concurrent {
@@ -26,19 +26,19 @@ namespace java {
       class TimeUnit : public ::java::lang::Enum {
        public:
         enum {
-          mid_convert_b03dd86996641c52,
-          mid_sleep_8b3d46852b435a94,
-          mid_timedJoin_2684eb5d50ad0d08,
-          mid_timedWait_9ac1fb76fd0532e9,
-          mid_toDays_91d66fa3ea476cea,
-          mid_toHours_91d66fa3ea476cea,
-          mid_toMicros_91d66fa3ea476cea,
-          mid_toMillis_91d66fa3ea476cea,
-          mid_toMinutes_91d66fa3ea476cea,
-          mid_toNanos_91d66fa3ea476cea,
-          mid_toSeconds_91d66fa3ea476cea,
-          mid_valueOf_2d9c77b2816f2eed,
-          mid_values_1e07006e5a7d8669,
+          mid_convert_f9c358b4d712c565,
+          mid_sleep_1d3149fac12f2af3,
+          mid_timedJoin_276ef49abb624c7c,
+          mid_timedWait_8076b21839806c1f,
+          mid_toDays_3dc1c6e3a5a0baf0,
+          mid_toHours_3dc1c6e3a5a0baf0,
+          mid_toMicros_3dc1c6e3a5a0baf0,
+          mid_toMillis_3dc1c6e3a5a0baf0,
+          mid_toMinutes_3dc1c6e3a5a0baf0,
+          mid_toNanos_3dc1c6e3a5a0baf0,
+          mid_toSeconds_3dc1c6e3a5a0baf0,
+          mid_valueOf_19f8ff1eb6940827,
+          mid_values_ad637d9da4430d50,
           max_mid
         };
 

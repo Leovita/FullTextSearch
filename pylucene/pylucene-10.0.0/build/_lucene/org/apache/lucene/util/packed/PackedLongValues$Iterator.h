@@ -19,8 +19,8 @@ namespace org {
           class PackedLongValues$Iterator : public ::java::lang::Object {
            public:
             enum {
-              mid_hasNext_947277eca0748c4e,
-              mid_next_16939d9d0a9a9721,
+              mid_hasNext_9aa4f33e82ea333f,
+              mid_next_0f176418e3e16541,
               max_mid
             };
 

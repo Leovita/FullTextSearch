@@ -17,11 +17,11 @@ namespace org {
       namespace search {
         class DocIdSetIterator;
       }
-      namespace index {
-        class PointValues$Relation;
-      }
       namespace util {
         class IntsRef;
+      }
+      namespace index {
+        class PointValues$Relation;
       }
     }
   }
@@ -36,13 +36,13 @@ namespace org {
         class PointValues$IntersectVisitor : public ::java::lang::Object {
          public:
           enum {
-            mid_compare_d428ecb3f4dbdf11,
-            mid_grow_540b2b23d51b1efd,
-            mid_visit_ed30298d46fa551b,
-            mid_visit_594a6b57786882a9,
-            mid_visit_540b2b23d51b1efd,
-            mid_visit_0cdceb7aefedd112,
-            mid_visit_255018cd4981ed89,
+            mid_compare_ede9f74e83c55eff,
+            mid_grow_8226bd0b0fc13dba,
+            mid_visit_3bae9c6463463f0d,
+            mid_visit_9b114e5af4494a53,
+            mid_visit_8226bd0b0fc13dba,
+            mid_visit_a4bc38e9c023b32a,
+            mid_visit_027bd37cec7676d5,
             max_mid
           };
 

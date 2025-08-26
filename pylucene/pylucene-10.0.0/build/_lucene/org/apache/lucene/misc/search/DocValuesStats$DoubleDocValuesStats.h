@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class String;
     class Double;
+    class String;
     class Class;
   }
 }
@@ -21,9 +21,9 @@ namespace org {
           class DocValuesStats$DoubleDocValuesStats : public ::org::apache::lucene::misc::search::DocValuesStats$NumericDocValuesStats {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_sum_3427789f502c230e,
-              mid_doAccumulate_540b2b23d51b1efd,
+              mid_init$_ee46a189998009d6,
+              mid_sum_4708af7d5ba009e9,
+              mid_doAccumulate_8226bd0b0fc13dba,
               max_mid
             };
 

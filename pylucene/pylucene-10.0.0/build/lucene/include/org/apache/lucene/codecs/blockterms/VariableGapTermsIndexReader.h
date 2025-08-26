@@ -3,28 +3,28 @@
 
 #include "org/apache/lucene/codecs/blockterms/TermsIndexReaderBase.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class FieldInfo;
+      }
       namespace codecs {
         namespace blockterms {
           class TermsIndexReaderBase$FieldIndexEnum;
         }
       }
-      namespace index {
-        class FieldInfo;
-        class SegmentReadState;
-      }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,11 +38,11 @@ namespace org {
           class VariableGapTermsIndexReader : public ::org::apache::lucene::codecs::blockterms::TermsIndexReaderBase {
            public:
             enum {
-              mid_init$_3a0f0d76cb59d83b,
-              mid_close_3720c61b0679eb3e,
-              mid_getFieldEnum_f69c33209e4e27f2,
-              mid_supportsOrd_947277eca0748c4e,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_7865ebfeefbeb536,
+              mid_close_e7bdbe105ce1bafb,
+              mid_getFieldEnum_1d6ba9fa54e64153,
+              mid_supportsOrd_9aa4f33e82ea333f,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

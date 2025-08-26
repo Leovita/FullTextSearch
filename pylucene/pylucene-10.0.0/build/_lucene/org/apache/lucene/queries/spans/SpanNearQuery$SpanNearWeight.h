@@ -7,34 +7,34 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class TermStates;
+        class Term;
         class LeafReaderContext;
-      }
-      namespace queries {
-        namespace spans {
-          class Spans;
-          class SpanWeight$Postings;
-          class SpanNearQuery;
-        }
       }
       namespace search {
         class ScorerSupplier;
         class IndexSearcher;
       }
+      namespace queries {
+        namespace spans {
+          class Spans;
+          class SpanNearQuery;
+          class SpanWeight$Postings;
+        }
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
-    class List;
     class Map;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -48,11 +48,11 @@ namespace org {
           class SpanNearQuery$SpanNearWeight : public ::org::apache::lucene::queries::spans::SpanWeight {
            public:
             enum {
-              mid_init$_f48fd201cf54165f,
-              mid_extractTermStates_79ba0f5a7d05e623,
-              mid_getSpans_20bbb107c42cef31,
-              mid_isCacheable_03101e9518c66be0,
-              mid_scorerSupplier_45b7d9496c5acc93,
+              mid_init$_4e8279af7e0a0468,
+              mid_extractTermStates_6a7e23584beb7c0f,
+              mid_getSpans_03932f6f031979e9,
+              mid_isCacheable_8e9f6225f14d0ebe,
+              mid_scorerSupplier_613b85087b5065ab,
               max_mid
             };
 

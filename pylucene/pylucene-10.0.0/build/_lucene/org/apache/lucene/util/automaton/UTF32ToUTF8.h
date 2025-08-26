@@ -30,8 +30,8 @@ namespace org {
           class UTF32ToUTF8 : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_convert_c6f90dfe8bea6705,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_convert_3c5abe7c21896c57,
               max_mid
             };
 

@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,14 +18,6 @@ namespace org {
         class Impacts;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,8 +30,8 @@ namespace org {
         class ImpactsSource : public ::java::lang::Object {
          public:
           enum {
-            mid_advanceShallow_540b2b23d51b1efd,
-            mid_getImpacts_5c436a45185cb8e8,
+            mid_advanceShallow_8226bd0b0fc13dba,
+            mid_getImpacts_92b9bc95124e6d3a,
             max_mid
           };
 

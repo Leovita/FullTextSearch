@@ -3,25 +3,25 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class VectorSimilarityFunction;
+      }
       namespace search {
         class Query;
       }
       namespace document {
         class FieldType;
       }
-      namespace index {
-        class VectorSimilarityFunction;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -34,13 +34,13 @@ namespace org {
         class KnnFloatVectorField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_9f83491e7d10ff68,
-            mid_init$_86ce9786ccfef999,
-            mid_init$_4c80742ae2dbf047,
-            mid_createFieldType_e27e798a6159cdbb,
-            mid_newVectorQuery_f8855c441b022056,
-            mid_setVectorValue_354df523028ef700,
-            mid_vectorValue_808165844ea67079,
+            mid_init$_833042f82a09f518,
+            mid_init$_cdf2bb6af86b9065,
+            mid_init$_2cbbdd8a35f61798,
+            mid_createFieldType_6a1de06ec1e187fb,
+            mid_newVectorQuery_521f528904c5c62f,
+            mid_setVectorValue_d2e2fadde4bf8d25,
+            mid_vectorValue_67d89dc3894661ff,
             max_mid
           };
 

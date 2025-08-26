@@ -39,10 +39,10 @@ namespace org {
           class CharacterDefinitionWriter : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_11189679a42a6e43,
-              mid_putCharacterCategory_31f7ce1c11bbaf5e,
-              mid_putInvokeDefinition_ad86ada88a1b06a4,
-              mid_write_d38f685b798c535e,
+              mid_init$_33aafcdd42b2ea10,
+              mid_putCharacterCategory_e8e8ad20f065d3b3,
+              mid_putInvokeDefinition_7a4017944aa379f8,
+              mid_write_d6afe3e9611b8d31,
               max_mid
             };
 

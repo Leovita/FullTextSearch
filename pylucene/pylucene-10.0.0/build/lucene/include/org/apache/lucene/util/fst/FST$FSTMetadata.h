@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace fst {
-          class FST$INPUT_TYPE;
           class Outputs;
+          class FST$INPUT_TYPE;
         }
       }
       namespace store {
@@ -19,11 +19,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,11 +37,11 @@ namespace org {
           class FST$FSTMetadata : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_099e5b0d334d5bc8,
-              mid_getEmptyOutput_5655ed8670534604,
-              mid_getNumBytes_16939d9d0a9a9721,
-              mid_getVersion_20fbf7565993c3d7,
-              mid_save_3a071e25ad99bd99,
+              mid_init$_6d6fc68131497777,
+              mid_getEmptyOutput_4819806f62f1360a,
+              mid_getNumBytes_0f176418e3e16541,
+              mid_getVersion_bd89ce15dad49192,
+              mid_save_949eccaa2018a6dc,
               max_mid
             };
 

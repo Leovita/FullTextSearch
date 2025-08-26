@@ -16,8 +16,8 @@ namespace org {
         namespace flexible {
           namespace standard {
             namespace parser {
-              class StandardSyntaxParserConstants;
               class Token;
+              class StandardSyntaxParserConstants;
             }
           }
         }
@@ -41,13 +41,13 @@ namespace org {
               class StandardSyntaxParserTokenManager : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_c2b02911839614e6,
-                  mid_init$_876a1399cff1cc40,
-                  mid_ReInit_c2b02911839614e6,
-                  mid_ReInit_876a1399cff1cc40,
-                  mid_SwitchTo_540b2b23d51b1efd,
-                  mid_getNextToken_8c19844f992b0880,
-                  mid_jjFillToken_8c19844f992b0880,
+                  mid_init$_e62548278c2da79e,
+                  mid_init$_41ba174bb093a9c8,
+                  mid_ReInit_e62548278c2da79e,
+                  mid_ReInit_41ba174bb093a9c8,
+                  mid_SwitchTo_8226bd0b0fc13dba,
+                  mid_getNextToken_e442c4726cb124e9,
+                  mid_jjFillToken_e442c4726cb124e9,
                   max_mid
                 };
 

@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorer;
-        class Query;
+        class Explanation;
+        class ScorerSupplier;
         class BulkScorer;
         class Matches;
-        class Explanation;
         class SegmentCacheable;
-        class ScorerSupplier;
+        class Query;
+        class Scorer;
       }
       namespace index {
         class LeafReaderContext;
@@ -22,11 +22,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,13 +39,13 @@ namespace org {
         class Weight : public ::java::lang::Object {
          public:
           enum {
-            mid_bulkScorer_17b9b3485a67a43a,
-            mid_count_2dd037802ee891f5,
-            mid_explain_478bccbc961eab03,
-            mid_getQuery_a3eacfacada795d4,
-            mid_matches_8b48216623017f2b,
-            mid_scorer_8d778e1a632d5b37,
-            mid_scorerSupplier_45b7d9496c5acc93,
+            mid_bulkScorer_f926bdfcbf8529a7,
+            mid_count_a7ecd353ff9c13fa,
+            mid_explain_b1310cbadc240f44,
+            mid_getQuery_ffa7bd087b2a75aa,
+            mid_matches_868b3421ec3687f4,
+            mid_scorer_74fa27cefd32650d,
+            mid_scorerSupplier_613b85087b5065ab,
             max_mid
           };
 

@@ -4,16 +4,16 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
-    class List;
     class Map;
+    class List;
   }
 }
 namespace org {
@@ -42,7 +42,7 @@ namespace org {
           class MatchRegionRetriever$MatchOffsetsConsumer : public ::java::lang::Object {
            public:
             enum {
-              mid_accept_2be89e95d968ccb9,
+              mid_accept_c2976aeccc2f488b,
               max_mid
             };
 

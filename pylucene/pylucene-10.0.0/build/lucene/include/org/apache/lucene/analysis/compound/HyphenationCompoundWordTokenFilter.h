@@ -4,25 +4,25 @@
 #include "org/apache/lucene/analysis/compound/CompoundWordTokenFilterBase.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
+        class TokenStream;
+        class CharArraySet;
         namespace compound {
           namespace hyphenation {
             class HyphenationTree;
           }
         }
-        class CharArraySet;
-        class TokenStream;
       }
     }
   }
@@ -38,13 +38,13 @@ namespace org {
           class HyphenationCompoundWordTokenFilter : public ::org::apache::lucene::analysis::compound::CompoundWordTokenFilterBase {
            public:
             enum {
-              mid_init$_01e88b3ada4c72ca,
-              mid_init$_b083beaf07eb2490,
-              mid_init$_d2ae1ee9006eb5b6,
-              mid_init$_88ce923fe76cd30c,
-              mid_init$_19925e7400e7efce,
-              mid_getHyphenationTree_214c7a702990b1b1,
-              mid_decompose_3720c61b0679eb3e,
+              mid_init$_9694ee76e1a6fe80,
+              mid_init$_f34ff843f5b3cefd,
+              mid_init$_e2b5f760a422381c,
+              mid_init$_3eb30c72a2e560b9,
+              mid_init$_c5aeb06befa51397,
+              mid_getHyphenationTree_772446d58a489093,
+              mid_decompose_e7bdbe105ce1bafb,
               max_mid
             };
 

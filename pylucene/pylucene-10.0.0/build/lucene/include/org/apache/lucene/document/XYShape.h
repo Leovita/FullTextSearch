@@ -7,23 +7,23 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace document {
+        class XYShapeDocValues;
         class XYShapeDocValuesField;
         class ShapeField$QueryRelation;
-        class Field;
-        class XYShapeDocValues;
         class ShapeField$DecodedTriangle;
+        class Field;
+      }
+      namespace geo {
+        class XYLine;
+        class XYGeometry;
+        class XYCircle;
+        class XYPolygon;
       }
       namespace search {
         class Query;
       }
       namespace util {
         class BytesRef;
-      }
-      namespace geo {
-        class XYGeometry;
-        class XYPolygon;
-        class XYLine;
-        class XYCircle;
       }
     }
   }
@@ -47,24 +47,24 @@ namespace org {
         class XYShape : public ::java::lang::Object {
          public:
           enum {
-            mid_createDocValueField_42cfc2ffb764a397,
-            mid_createDocValueField_d379cbe3773a838a,
-            mid_createDocValueField_f2c07a221f6de352,
-            mid_createDocValueField_498908dbd4ef33ef,
-            mid_createDocValueField_e3da5ee390efd7dc,
-            mid_createDocValueField_03a820ac5bb8d6e9,
-            mid_createIndexableFields_1cc30e26a11dd2f9,
-            mid_createIndexableFields_031785421d657824,
-            mid_createIndexableFields_a648dd098b598ed1,
-            mid_createIndexableFields_7ca925534b661f3f,
-            mid_createXYShapeDocValues_d1a32179f5e5289a,
-            mid_newBoxQuery_28676c3d0fdda8e0,
-            mid_newDistanceQuery_5d98fa66dfe20a02,
-            mid_newGeometryQuery_33da00007dbf578d,
-            mid_newLineQuery_688c1e9eb7e69fcc,
-            mid_newPointQuery_29c817adabc2eded,
-            mid_newPolygonQuery_cc084ef4800e75b5,
-            mid_newSlowDocValuesBoxQuery_28676c3d0fdda8e0,
+            mid_createDocValueField_b33c401271cbb62f,
+            mid_createDocValueField_5799263643cbee07,
+            mid_createDocValueField_97622250c8dd75e1,
+            mid_createDocValueField_0d8191963f32d648,
+            mid_createDocValueField_8bf569c5347dd757,
+            mid_createDocValueField_d65613a1c89b6234,
+            mid_createIndexableFields_8ddd0c69ac927d2d,
+            mid_createIndexableFields_0b23e979978c6e80,
+            mid_createIndexableFields_f7cb8b91607f98f9,
+            mid_createIndexableFields_53f7c0f1dccda9cb,
+            mid_createXYShapeDocValues_ba2bf1b6ef768db0,
+            mid_newBoxQuery_5eaa191c05b24539,
+            mid_newDistanceQuery_0550dbaf254d932d,
+            mid_newGeometryQuery_f0fdbf85b03e6723,
+            mid_newLineQuery_363e27c336c60df9,
+            mid_newPointQuery_9a37adb4fe604e0f,
+            mid_newPolygonQuery_6ed28e9e4017d45c,
+            mid_newSlowDocValuesBoxQuery_5eaa191c05b24539,
             max_mid
           };
 

@@ -28,12 +28,12 @@ namespace org {
           class TokenGroup : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_getEndOffset_20fbf7565993c3d7,
-              mid_getNumTokens_20fbf7565993c3d7,
-              mid_getScore_29cfa01aaad92564,
-              mid_getStartOffset_20fbf7565993c3d7,
-              mid_getTotalScore_9b6c3480dac00edf,
+              mid_init$_4fe096967a533954,
+              mid_getEndOffset_bd89ce15dad49192,
+              mid_getNumTokens_bd89ce15dad49192,
+              mid_getScore_5873a23b935a9d49,
+              mid_getStartOffset_bd89ce15dad49192,
+              mid_getTotalScore_8b62236f0e4d0dbc,
               max_mid
             };
 

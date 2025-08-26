@@ -15,15 +15,15 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class Set;
-    class Map;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace util {
+    class Map;
+    class Collection;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -36,13 +36,13 @@ namespace org {
         class HighlightsMatch : public ::org::apache::lucene::monitor::QueryMatch {
          public:
           enum {
-            mid_equals_570b5248a6da3ef6,
-            mid_getFields_4df174295554d7bd,
-            mid_getHitCount_20fbf7565993c3d7,
-            mid_getHits_f125f26c07a7bec8,
-            mid_getHits_7b9bda226d3b86c7,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_equals_00d17418847797d4,
+            mid_getFields_79131c6bbcf08916,
+            mid_getHitCount_bd89ce15dad49192,
+            mid_getHits_5004bdf19ed33453,
+            mid_getHits_4526d55340242234,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -3,16 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Number;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,6 +10,16 @@ namespace org {
         class Explanation;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -32,17 +32,17 @@ namespace org {
         class Explanation : public ::java::lang::Object {
          public:
           enum {
-            mid_equals_570b5248a6da3ef6,
-            mid_getDescription_09a7afff1868fc5e,
-            mid_getDetails_16645728e1038270,
-            mid_getValue_1b3282bb4db06655,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_isMatch_947277eca0748c4e,
-            mid_match_0d4182f390a8e10c,
-            mid_match_dbc5c71c0e5751ec,
-            mid_noMatch_d2c87714b6703620,
-            mid_noMatch_9ebd748679cc2926,
-            mid_toString_09a7afff1868fc5e,
+            mid_equals_00d17418847797d4,
+            mid_getDescription_e7df854526d67fa3,
+            mid_getDetails_8bc8b3f8e5a9bb0a,
+            mid_getValue_b9665294ea488d3c,
+            mid_hashCode_bd89ce15dad49192,
+            mid_isMatch_9aa4f33e82ea333f,
+            mid_match_ec3f8deef49c72cc,
+            mid_match_975b14b7f3c0efda,
+            mid_noMatch_6e51add46b54c768,
+            mid_noMatch_1d085e066f60b11e,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

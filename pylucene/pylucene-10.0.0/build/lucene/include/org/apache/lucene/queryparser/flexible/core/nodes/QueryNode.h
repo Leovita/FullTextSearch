@@ -3,6 +3,18 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+  namespace util {
+    class Map;
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,18 +33,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
-  }
-  namespace util {
-    class List;
-    class Map;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -46,22 +46,22 @@ namespace org {
               class QueryNode : public ::java::lang::Object {
                public:
                 enum {
-                  mid_add_9425cd4f62c94bce,
-                  mid_add_7b62f837facd6562,
-                  mid_cloneTree_7ba6641ec93d332a,
-                  mid_containsTag_4a13a663b5c11133,
-                  mid_getChildren_36830460e10839eb,
-                  mid_getParent_7ba6641ec93d332a,
-                  mid_getTag_e5cf973b773e2999,
-                  mid_getTagMap_f125f26c07a7bec8,
-                  mid_isLeaf_947277eca0748c4e,
-                  mid_removeChildren_7b62f837facd6562,
-                  mid_removeFromParent_3720c61b0679eb3e,
-                  mid_set_9425cd4f62c94bce,
-                  mid_setTag_7a6f329c036f2238,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
-                  mid_unsetTag_0d82408c6e55bc30,
+                  mid_add_acbb405b60a30822,
+                  mid_add_7bd9517de8cc5b9b,
+                  mid_cloneTree_1a37a44f7f2f5350,
+                  mid_containsTag_94f7e759d94961b0,
+                  mid_getChildren_1387e1e2702ac173,
+                  mid_getParent_1a37a44f7f2f5350,
+                  mid_getTag_a78a91e32cc37c7c,
+                  mid_getTagMap_5004bdf19ed33453,
+                  mid_isLeaf_9aa4f33e82ea333f,
+                  mid_removeChildren_7bd9517de8cc5b9b,
+                  mid_removeFromParent_e7bdbe105ce1bafb,
+                  mid_set_acbb405b60a30822,
+                  mid_setTag_101074fdf5bb68f6,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
+                  mid_unsetTag_ee46a189998009d6,
                   max_mid
                 };
 

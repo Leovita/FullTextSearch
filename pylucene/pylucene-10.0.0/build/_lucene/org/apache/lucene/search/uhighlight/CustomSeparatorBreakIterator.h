@@ -19,15 +19,15 @@ namespace org {
           class CustomSeparatorBreakIterator : public ::java::text::BreakIterator {
            public:
             enum {
-              mid_init$_97f8668422006638,
-              mid_current_20fbf7565993c3d7,
-              mid_first_20fbf7565993c3d7,
-              mid_following_3c9bba330f083871,
-              mid_last_20fbf7565993c3d7,
-              mid_next_20fbf7565993c3d7,
-              mid_next_3c9bba330f083871,
-              mid_preceding_3c9bba330f083871,
-              mid_previous_20fbf7565993c3d7,
+              mid_init$_121fb0d25559975f,
+              mid_current_bd89ce15dad49192,
+              mid_first_bd89ce15dad49192,
+              mid_following_a3904e10f5bb9437,
+              mid_last_bd89ce15dad49192,
+              mid_next_bd89ce15dad49192,
+              mid_next_a3904e10f5bb9437,
+              mid_preceding_a3904e10f5bb9437,
+              mid_previous_bd89ce15dad49192,
               max_mid
             };
 

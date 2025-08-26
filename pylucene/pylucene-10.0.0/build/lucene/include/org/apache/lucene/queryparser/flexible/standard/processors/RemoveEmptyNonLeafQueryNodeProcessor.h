@@ -37,11 +37,11 @@ namespace org {
               class RemoveEmptyNonLeafQueryNodeProcessor : public ::org::apache::lucene::queryparser::flexible::core::processors::QueryNodeProcessorImpl {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_process_8ca6e32fcbac6a62,
-                  mid_preProcessNode_8ca6e32fcbac6a62,
-                  mid_postProcessNode_8ca6e32fcbac6a62,
-                  mid_setChildrenOrder_52060c8532319091,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_process_4b838b17650067cf,
+                  mid_preProcessNode_4b838b17650067cf,
+                  mid_postProcessNode_4b838b17650067cf,
+                  mid_setChildrenOrder_be19c667f3dea389,
                   max_mid
                 };
 

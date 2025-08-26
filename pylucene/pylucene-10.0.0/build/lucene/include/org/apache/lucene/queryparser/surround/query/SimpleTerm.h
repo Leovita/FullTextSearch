@@ -6,32 +6,32 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace queryparser {
         namespace surround {
           namespace query {
-            class BasicQueryFactory;
-            class DistanceSubQuery;
-            class SimpleTerm$MatchingTermVisitor;
             class SpanNearClauseFactory;
+            class DistanceSubQuery;
+            class BasicQueryFactory;
+            class SimpleTerm$MatchingTermVisitor;
           }
         }
       }
       namespace index {
         class IndexReader;
       }
+      namespace search {
+        class Query;
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -46,16 +46,16 @@ namespace org {
             class SimpleTerm : public ::org::apache::lucene::queryparser::surround::query::SrndQuery {
              public:
               enum {
-                mid_init$_b110fc3a58c081ab,
-                mid_addSpanQueries_aa9cfb8c7bb6240d,
-                mid_distanceSubQueryNotAllowed_09a7afff1868fc5e,
-                mid_getFieldOperator_09a7afff1868fc5e,
-                mid_getQuote_09a7afff1868fc5e,
-                mid_makeLuceneQueryFieldNoBoost_c9d13380f7762023,
-                mid_toString_09a7afff1868fc5e,
-                mid_toStringUnquoted_09a7afff1868fc5e,
-                mid_visitMatchingTerms_67f593c567975eea,
-                mid_suffixToString_86d6edf9953c2f53,
+                mid_init$_f5dd97eebf6a215a,
+                mid_addSpanQueries_56afd90c8c16ea0c,
+                mid_distanceSubQueryNotAllowed_e7df854526d67fa3,
+                mid_getFieldOperator_e7df854526d67fa3,
+                mid_getQuote_e7df854526d67fa3,
+                mid_makeLuceneQueryFieldNoBoost_f72be4f202dc3d74,
+                mid_toString_e7df854526d67fa3,
+                mid_toStringUnquoted_e7df854526d67fa3,
+                mid_visitMatchingTerms_b61f1a3a9acfb89c,
+                mid_suffixToString_5dd6a2d608961d5f,
                 max_mid
               };
 

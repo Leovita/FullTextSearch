@@ -31,10 +31,10 @@ namespace org {
           class TokenStreamFromTermVector : public ::org::apache::lucene::analysis::TokenStream {
            public:
             enum {
-              mid_init$_590e9c9cfbeebeb2,
-              mid_getTermVectorTerms_ad5072ef5c5356f6,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_fa7a680075d5535e,
+              mid_getTermVectorTerms_8c63c78b170e79e6,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

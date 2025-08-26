@@ -6,37 +6,37 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class TermState;
-        class TermsEnum$SeekStatus;
-        class PostingsEnum;
-        class FieldInfos;
-      }
-      namespace util {
-        class BytesRef;
-      }
       namespace codecs {
-        class PostingsReaderBase;
         namespace uniformsplit {
-          class BlockDecoder;
           class IndexDictionary$BrowserSupplier;
+          class BlockDecoder;
           class FieldMetadata;
         }
+        class PostingsReaderBase;
         class BlockTermState;
+      }
+      namespace index {
+        class TermsEnum$SeekStatus;
+        class PostingsEnum;
+        class TermState;
+        class FieldInfos;
       }
       namespace store {
         class IndexInput;
+      }
+      namespace util {
+        class BytesRef;
       }
     }
   }
 }
 namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
   namespace io {
     class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
   namespace util {
     class Map;
@@ -54,15 +54,15 @@ namespace org {
             class STMergingBlockReader : public ::org::apache::lucene::codecs::uniformsplit::sharedterms::STBlockReader {
              public:
               enum {
-                mid_init$_cef1229cb7779421,
-                mid_next_9740fddd1c7df148,
-                mid_postings_465db9b2f7021305,
-                mid_readFieldTermStatesMap_79ba0f5a7d05e623,
-                mid_seekCeil_69261b500ab5d3e8,
-                mid_seekExact_f460ee421aade2fd,
-                mid_seekExact_8b3d46852b435a94,
-                mid_seekExact_5c001dd449c905b9,
-                mid_readTermStateIfNotRead_3bf66c86f1b277c4,
+                mid_init$_475e8a36c870e4ae,
+                mid_next_adbedbc1fa61c358,
+                mid_postings_6a3ae00da4a36d04,
+                mid_readFieldTermStatesMap_6a7e23584beb7c0f,
+                mid_seekCeil_3c5e68bf2fc0b5b1,
+                mid_seekExact_08ac7a49de309824,
+                mid_seekExact_1d3149fac12f2af3,
+                mid_seekExact_68ebcc8117fd12a5,
+                mid_readTermStateIfNotRead_90e39a1aad9f7074,
                 max_mid
               };
 

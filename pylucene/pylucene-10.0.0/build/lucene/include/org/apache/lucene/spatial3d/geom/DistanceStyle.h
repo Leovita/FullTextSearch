@@ -8,15 +8,15 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Plane;
           class LinearSquaredDistance;
-          class NormalDistance;
-          class Membership;
-          class GeoPoint;
-          class PlanetModel;
-          class LinearDistance;
           class NormalSquaredDistance;
+          class Membership;
+          class Plane;
+          class LinearDistance;
           class ArcDistance;
+          class PlanetModel;
+          class NormalDistance;
+          class GeoPoint;
         }
       }
     }
@@ -38,16 +38,16 @@ namespace org {
           class DistanceStyle : public ::java::lang::Object {
            public:
             enum {
-              mid_aggregateDistances_5af5663101ff49bb,
-              mid_computeDistance_97409bb87de4c9a0,
-              mid_computeDistance_d8675cf55f7dec82,
-              mid_computeDistance_b67d61432be7c023,
-              mid_computeDistance_559a2c9e62383d56,
-              mid_findDistancePoints_97a6c272c9b4c6da,
-              mid_findMaximumArcDistance_6fd816b79f68b774,
-              mid_findMinimumArcDistance_6fd816b79f68b774,
-              mid_fromAggregationForm_8fff3d7dcb9fddc5,
-              mid_toAggregationForm_8fff3d7dcb9fddc5,
+              mid_aggregateDistances_971b7c037ec47536,
+              mid_computeDistance_4ab96a6c4b0435ce,
+              mid_computeDistance_fc30b57eb4c12ea6,
+              mid_computeDistance_9cf10f8736fcb192,
+              mid_computeDistance_0bdc88d319dba30a,
+              mid_findDistancePoints_cc634546b674efc4,
+              mid_findMaximumArcDistance_bea881a5e2da0112,
+              mid_findMinimumArcDistance_bea881a5e2da0112,
+              mid_fromAggregationForm_8493a5edcb36d651,
+              mid_toAggregationForm_8493a5edcb36d651,
               max_mid
             };
 

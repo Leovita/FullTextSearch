@@ -4,22 +4,22 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
+        class IntsRef;
         namespace fst {
           class FSTReader;
           class FST$FSTMetadata;
         }
-        class IntsRef;
       }
       namespace store {
         class DataOutput;
@@ -38,15 +38,15 @@ namespace org {
           class FSTCompiler : public ::java::lang::Object {
            public:
             enum {
-              mid_add_0a44f2cd64b1f893,
-              mid_compile_3f93d7d5124057ff,
-              mid_fstRamBytesUsed_16939d9d0a9a9721,
-              mid_fstSizeInBytes_16939d9d0a9a9721,
-              mid_getArcCount_16939d9d0a9a9721,
-              mid_getDirectAddressingMaxOversizingFactor_9b6c3480dac00edf,
-              mid_getFSTReader_0a59d503a2d3f824,
-              mid_getNodeCount_16939d9d0a9a9721,
-              mid_getOnHeapReaderWriter_ff0e472b09d497d9,
+              mid_add_b27e2647f98cd7bb,
+              mid_compile_4d4ce58ca0109531,
+              mid_fstRamBytesUsed_0f176418e3e16541,
+              mid_fstSizeInBytes_0f176418e3e16541,
+              mid_getArcCount_0f176418e3e16541,
+              mid_getDirectAddressingMaxOversizingFactor_8b62236f0e4d0dbc,
+              mid_getFSTReader_8b7fd2add884d180,
+              mid_getNodeCount_0f176418e3e16541,
+              mid_getOnHeapReaderWriter_61810f921a40f6ab,
               max_mid
             };
 

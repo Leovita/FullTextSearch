@@ -21,8 +21,8 @@ namespace org {
         class SortedNumericDocValues : public ::org::apache::lucene::index::DocValuesIterator {
          public:
           enum {
-            mid_docValueCount_20fbf7565993c3d7,
-            mid_nextValue_16939d9d0a9a9721,
+            mid_docValueCount_bd89ce15dad49192,
+            mid_nextValue_0f176418e3e16541,
             max_mid
           };
 

@@ -3,26 +3,26 @@
 
 #include "java/util/AbstractMap.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class Object;
-  }
-  namespace util {
-    class Map;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class CharArraySet;
-        class CharArrayMap$EntrySet;
         class CharArrayMap;
+        class CharArrayMap$EntrySet;
+        class CharArraySet;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+    class CharSequence;
+  }
+  namespace util {
+    class Map;
   }
 }
 template<class T> class JArray;
@@ -35,27 +35,27 @@ namespace org {
         class CharArrayMap : public ::java::util::AbstractMap {
          public:
           enum {
-            mid_init$_2936d2706a18a684,
-            mid_init$_c878b6f1e980b1c9,
-            mid_clear_3720c61b0679eb3e,
-            mid_containsKey_7fa88c8af67956ed,
-            mid_containsKey_570b5248a6da3ef6,
-            mid_containsKey_bab09355a5cf0732,
-            mid_copy_b97676c8c450d301,
-            mid_emptyMap_72de109019660f9e,
-            mid_entrySet_ae6707477a957bc4,
-            mid_get_84780732a28a9438,
-            mid_get_5fd81664d2d475e1,
-            mid_get_8bd947f4d46d0091,
-            mid_keySet_7a52625961f2f88e,
-            mid_put_362baf03d488137b,
-            mid_put_ae0d7a82828ec931,
-            mid_put_17ecdd932774c928,
-            mid_put_243089e4ee289db6,
-            mid_remove_5fd81664d2d475e1,
-            mid_size_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_unmodifiableMap_8e88915596336b93,
+            mid_init$_a0fed0a2cd38e7b1,
+            mid_init$_0d106768c19cbb43,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_containsKey_966cbeda474fd26b,
+            mid_containsKey_00d17418847797d4,
+            mid_containsKey_355feee9125d4fb1,
+            mid_copy_e53bb164b65b67fd,
+            mid_emptyMap_8224c07bf498f19e,
+            mid_entrySet_fc0b7510d2d31191,
+            mid_get_53a8d172a6f84f78,
+            mid_get_e2c45b124c12f4ec,
+            mid_get_a9b43991c3635118,
+            mid_keySet_0a8f3a685855aa4f,
+            mid_put_ec4829d30206db59,
+            mid_put_bb51bb3face758ba,
+            mid_put_ebb9abdf44baf639,
+            mid_put_b3b175dfe26d2c44,
+            mid_remove_e2c45b124c12f4ec,
+            mid_size_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_unmodifiableMap_dbdf2e56ae82ce8f,
             max_mid
           };
 

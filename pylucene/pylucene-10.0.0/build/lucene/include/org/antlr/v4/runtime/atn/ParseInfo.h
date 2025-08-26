@@ -17,8 +17,8 @@ namespace org {
     namespace v4 {
       namespace runtime {
         namespace atn {
-          class DecisionInfo;
           class ProfilingATNSimulator;
+          class DecisionInfo;
         }
       }
     }
@@ -35,17 +35,17 @@ namespace org {
           class ParseInfo : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b57c6b88b86869f3,
-              mid_getDFASize_20fbf7565993c3d7,
-              mid_getDFASize_3c9bba330f083871,
-              mid_getDecisionInfo_8363648230130448,
-              mid_getLLDecisions_36830460e10839eb,
-              mid_getTotalATNLookaheadOps_16939d9d0a9a9721,
-              mid_getTotalLLATNLookaheadOps_16939d9d0a9a9721,
-              mid_getTotalLLLookaheadOps_16939d9d0a9a9721,
-              mid_getTotalSLLATNLookaheadOps_16939d9d0a9a9721,
-              mid_getTotalSLLLookaheadOps_16939d9d0a9a9721,
-              mid_getTotalTimeInPrediction_16939d9d0a9a9721,
+              mid_init$_f0b144a5bd4ac8dc,
+              mid_getDFASize_bd89ce15dad49192,
+              mid_getDFASize_a3904e10f5bb9437,
+              mid_getDecisionInfo_e88b3ee158b9d4f5,
+              mid_getLLDecisions_1387e1e2702ac173,
+              mid_getTotalATNLookaheadOps_0f176418e3e16541,
+              mid_getTotalLLATNLookaheadOps_0f176418e3e16541,
+              mid_getTotalLLLookaheadOps_0f176418e3e16541,
+              mid_getTotalSLLATNLookaheadOps_0f176418e3e16541,
+              mid_getTotalSLLLookaheadOps_0f176418e3e16541,
+              mid_getTotalTimeInPrediction_0f176418e3e16541,
               max_mid
             };
 

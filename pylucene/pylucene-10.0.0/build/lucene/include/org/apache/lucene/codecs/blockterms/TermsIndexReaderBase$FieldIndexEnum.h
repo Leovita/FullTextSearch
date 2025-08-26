@@ -31,12 +31,12 @@ namespace org {
           class TermsIndexReaderBase$FieldIndexEnum : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_next_16939d9d0a9a9721,
-              mid_ord_16939d9d0a9a9721,
-              mid_seek_7595cb5441b08443,
-              mid_seek_91d66fa3ea476cea,
-              mid_term_9740fddd1c7df148,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_next_0f176418e3e16541,
+              mid_ord_0f176418e3e16541,
+              mid_seek_8c6e1447894d7a38,
+              mid_seek_3dc1c6e3a5a0baf0,
+              mid_term_adbedbc1fa61c358,
               max_mid
             };
 

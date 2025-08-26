@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace util {
-    class Enumeration;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +14,15 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace util {
+    class Enumeration;
   }
 }
 template<class T> class JArray;
@@ -37,11 +37,11 @@ namespace org {
             class TernaryTree$Iterator : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_af0285464cacedbe,
-                mid_getValue_6c956faefc706166,
-                mid_hasMoreElements_947277eca0748c4e,
-                mid_nextElement_09a7afff1868fc5e,
-                mid_rewind_3720c61b0679eb3e,
+                mid_init$_a63bcb2b144e7164,
+                mid_getValue_15a06771db8cb866,
+                mid_hasMoreElements_9aa4f33e82ea333f,
+                mid_nextElement_e7df854526d67fa3,
+                mid_rewind_e7bdbe105ce1bafb,
                 max_mid
               };
 

@@ -3,12 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,9 +31,9 @@ namespace org {
           class NormalizeCharMap$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_add_3d104da0b5c75e64,
-              mid_build_ef644b838a00b3e9,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_add_0dd012a11c3f389b,
+              mid_build_0407c1558eda2dfc,
               max_mid
             };
 

@@ -30,10 +30,10 @@ namespace org {
         class TokenFilter : public ::org::apache::lucene::analysis::TokenStream {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_end_3720c61b0679eb3e,
-            mid_reset_3720c61b0679eb3e,
-            mid_unwrap_707aa2a89bdef693,
+            mid_close_e7bdbe105ce1bafb,
+            mid_end_e7bdbe105ce1bafb,
+            mid_reset_e7bdbe105ce1bafb,
+            mid_unwrap_6d4d6f6f288807ef,
             max_mid
           };
 

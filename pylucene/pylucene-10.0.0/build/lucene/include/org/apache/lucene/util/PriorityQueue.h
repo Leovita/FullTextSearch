@@ -6,10 +6,10 @@
 namespace java {
   namespace util {
     class Iterator;
+    class Collection;
     namespace function {
       class Supplier;
     }
-    class Collection;
   }
   namespace lang {
     class Class;
@@ -26,21 +26,21 @@ namespace org {
         class PriorityQueue : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_705a8ff89deea8c8,
-            mid_add_5fd81664d2d475e1,
-            mid_addAll_40eba2cff967cc45,
-            mid_clear_3720c61b0679eb3e,
-            mid_insertWithOverflow_5fd81664d2d475e1,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_pop_5655ed8670534604,
-            mid_remove_570b5248a6da3ef6,
-            mid_size_20fbf7565993c3d7,
-            mid_top_5655ed8670534604,
-            mid_updateTop_5655ed8670534604,
-            mid_updateTop_5fd81664d2d475e1,
-            mid_lessThan_6810d3c479f60a43,
-            mid_getHeapArray_e6b839682a4610a6,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_a9666b96cff9c53d,
+            mid_add_e2c45b124c12f4ec,
+            mid_addAll_b5398b431eb321fb,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_insertWithOverflow_e2c45b124c12f4ec,
+            mid_iterator_c7985fafdcf40e83,
+            mid_pop_4819806f62f1360a,
+            mid_remove_00d17418847797d4,
+            mid_size_bd89ce15dad49192,
+            mid_top_4819806f62f1360a,
+            mid_updateTop_4819806f62f1360a,
+            mid_updateTop_e2c45b124c12f4ec,
+            mid_lessThan_0596e01f2cdb5588,
+            mid_getHeapArray_1e688954528bc160,
             max_mid
           };
 

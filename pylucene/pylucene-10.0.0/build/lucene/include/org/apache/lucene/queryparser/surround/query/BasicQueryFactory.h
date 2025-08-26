@@ -6,8 +6,8 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
+      namespace search {
+        class TermQuery;
       }
       namespace queryparser {
         namespace surround {
@@ -16,13 +16,13 @@ namespace org {
           }
         }
       }
+      namespace index {
+        class Term;
+      }
       namespace queries {
         namespace spans {
           class SpanTermQuery;
         }
-      }
-      namespace search {
-        class TermQuery;
       }
     }
   }
@@ -45,16 +45,16 @@ namespace org {
             class BasicQueryFactory : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_540b2b23d51b1efd,
-                mid_equals_570b5248a6da3ef6,
-                mid_getMaxBasicQueries_20fbf7565993c3d7,
-                mid_getNrQueriesMade_20fbf7565993c3d7,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_newSpanTermQuery_93223fbd2a50fa4d,
-                mid_newTermQuery_819dd359cd2de088,
-                mid_toString_09a7afff1868fc5e,
-                mid_checkMax_3720c61b0679eb3e,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_8226bd0b0fc13dba,
+                mid_equals_00d17418847797d4,
+                mid_getMaxBasicQueries_bd89ce15dad49192,
+                mid_getNrQueriesMade_bd89ce15dad49192,
+                mid_hashCode_bd89ce15dad49192,
+                mid_newSpanTermQuery_0bbd7a8d9d8b9a84,
+                mid_newTermQuery_fefcd7725fa94c1f,
+                mid_toString_e7df854526d67fa3,
+                mid_checkMax_e7bdbe105ce1bafb,
                 max_mid
               };
 

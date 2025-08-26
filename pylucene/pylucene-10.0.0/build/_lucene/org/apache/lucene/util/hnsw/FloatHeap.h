@@ -19,13 +19,13 @@ namespace org {
           class FloatHeap : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_clear_3720c61b0679eb3e,
-              mid_getHeap_808165844ea67079,
-              mid_offer_ed8290af1db6b7df,
-              mid_peek_9b6c3480dac00edf,
-              mid_poll_9b6c3480dac00edf,
-              mid_size_20fbf7565993c3d7,
+              mid_init$_8226bd0b0fc13dba,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_getHeap_67d89dc3894661ff,
+              mid_offer_bf47f881a09da8d2,
+              mid_peek_8b62236f0e4d0dbc,
+              mid_poll_8b62236f0e4d0dbc,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/TokenFilter.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -32,15 +32,15 @@ namespace org {
           class JapaneseNumberFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_incrementToken_947277eca0748c4e,
-              mid_isArabicNumeral_4e84a8c37896b7c5,
-              mid_isNumeral_4a13a663b5c11133,
-              mid_isNumeral_4e84a8c37896b7c5,
-              mid_isNumeralPunctuation_4a13a663b5c11133,
-              mid_isNumeralPunctuation_4e84a8c37896b7c5,
-              mid_normalizeNumber_cb0eb1432185fc94,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_4fe096967a533954,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_isArabicNumeral_96a1e5bdb33dde4e,
+              mid_isNumeral_94f7e759d94961b0,
+              mid_isNumeral_96a1e5bdb33dde4e,
+              mid_isNumeralPunctuation_94f7e759d94961b0,
+              mid_isNumeralPunctuation_96a1e5bdb33dde4e,
+              mid_normalizeNumber_fef9c036acf290a9,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

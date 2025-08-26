@@ -20,8 +20,8 @@ namespace org {
           class CSVUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_parse_a06e92f371939b0b,
-              mid_quoteEscape_cb0eb1432185fc94,
+              mid_parse_7b34cb521ce5d8ff,
+              mid_quoteEscape_fef9c036acf290a9,
               max_mid
             };
 

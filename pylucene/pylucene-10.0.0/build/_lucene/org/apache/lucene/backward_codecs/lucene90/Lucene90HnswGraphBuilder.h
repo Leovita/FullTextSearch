@@ -4,23 +4,23 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class FloatVectorValues;
+        class VectorSimilarityFunction;
+      }
       namespace util {
         class InfoStream;
-      }
-      namespace index {
-        class VectorSimilarityFunction;
-        class FloatVectorValues;
       }
       namespace backward_codecs {
         namespace lucene90 {
@@ -41,9 +41,9 @@ namespace org {
           class Lucene90HnswGraphBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_b5d62ba8292dde66,
-              mid_build_cfedaa00f11e9e43,
-              mid_setInfoStream_3b3e574f321bdf38,
+              mid_init$_065f33ba4fded5c3,
+              mid_build_1c8361835d004062,
+              mid_setInfoStream_f10e797612112ab1,
               max_mid
             };
 

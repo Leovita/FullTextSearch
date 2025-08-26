@@ -7,13 +7,13 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Sort;
-        class Scorable;
-        class ScoreMode;
         namespace grouping {
           class GroupSelector;
           class AllGroupHeadsCollector;
         }
+        class ScoreMode;
+        class Scorable;
+        class Sort;
       }
       namespace util {
         class FixedBitSet;
@@ -22,11 +22,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,16 +40,16 @@ namespace org {
           class AllGroupHeadsCollector : public ::org::apache::lucene::search::SimpleCollector {
            public:
             enum {
-              mid_collect_540b2b23d51b1efd,
-              mid_groupHeadsSize_20fbf7565993c3d7,
-              mid_newCollector_79d3a1117c1a6da0,
-              mid_retrieveGroupHeads_623cd4a044ba647a,
-              mid_retrieveGroupHeads_dc8a29bacc2645ff,
-              mid_scoreMode_45dfdcf7e901559d,
-              mid_setScorer_dd42dde4c0a7db1e,
-              mid_doSetNextReader_b7b06dce0a4097ed,
-              mid_getCollectedGroupHeads_aa58b3beec16cbbd,
-              mid_newGroupHead_7baddc4e0b66e8ca,
+              mid_collect_8226bd0b0fc13dba,
+              mid_groupHeadsSize_bd89ce15dad49192,
+              mid_newCollector_ea4452381ae91c03,
+              mid_retrieveGroupHeads_4b72a28a860ae838,
+              mid_retrieveGroupHeads_bc9f5479443cad82,
+              mid_scoreMode_23e7061dcdc84768,
+              mid_setScorer_c06bdf7d53c6460a,
+              mid_newGroupHead_273cacf9407aa34a,
+              mid_getCollectedGroupHeads_4a269b968b3a511f,
+              mid_doSetNextReader_32243afefe6b151f,
               max_mid
             };
 

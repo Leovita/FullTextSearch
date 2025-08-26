@@ -3,20 +3,11 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace egothor {
-    namespace stemmer {
-      class Trie;
-      class Row;
-      class Reduce;
-    }
-  }
-}
 namespace java {
   namespace io {
-    class IOException;
     class DataInput;
     class DataOutput;
+    class IOException;
     class PrintStream;
   }
   namespace lang {
@@ -25,6 +16,15 @@ namespace java {
   }
   namespace util {
     class List;
+  }
+}
+namespace org {
+  namespace egothor {
+    namespace stemmer {
+      class Reduce;
+      class Row;
+      class Trie;
+    }
   }
 }
 template<class T> class JArray;
@@ -36,18 +36,18 @@ namespace org {
       class Trie : public ::java::lang::Object {
        public:
         enum {
-          mid_init$_b110fc3a58c081ab,
-          mid_init$_8ffc0b64a085f7b2,
-          mid_init$_9c139270ef1d60a7,
-          mid_getAll_743dedb8290689b3,
-          mid_getCells_20fbf7565993c3d7,
-          mid_getCellsPnt_20fbf7565993c3d7,
-          mid_getCellsVal_20fbf7565993c3d7,
-          mid_getFully_58dc6165804a9474,
-          mid_getLastOnPath_58dc6165804a9474,
-          mid_printInfo_5e4451c8b725f8cc,
-          mid_reduce_750bf77c4c36b3b2,
-          mid_store_fe9bf8370403deab,
+          mid_init$_f5dd97eebf6a215a,
+          mid_init$_97ec23eaea7e6222,
+          mid_init$_64ba8267679bb350,
+          mid_getAll_881843cf2b0e8f23,
+          mid_getCells_bd89ce15dad49192,
+          mid_getCellsPnt_bd89ce15dad49192,
+          mid_getCellsVal_bd89ce15dad49192,
+          mid_getFully_aa1c9702f9e97de9,
+          mid_getLastOnPath_aa1c9702f9e97de9,
+          mid_printInfo_070009a171fdd3d4,
+          mid_reduce_3fcb27227235a388,
+          mid_store_5ebb39b7772e6a1c,
           max_mid
         };
 

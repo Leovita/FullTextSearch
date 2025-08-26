@@ -3,12 +3,6 @@
 
 #include "java/util/AbstractSet.h"
 
-namespace java {
-  namespace lang {
-    class Object;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class CharArrayMap$EntryIterator;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,11 +28,11 @@ namespace org {
         class CharArrayMap$EntrySet : public ::java::util::AbstractSet {
          public:
           enum {
-            mid_clear_3720c61b0679eb3e,
-            mid_contains_570b5248a6da3ef6,
-            mid_iterator_4490d06c51e7ed2c,
-            mid_remove_570b5248a6da3ef6,
-            mid_size_20fbf7565993c3d7,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_contains_00d17418847797d4,
+            mid_iterator_450b37aa6a474edc,
+            mid_remove_00d17418847797d4,
+            mid_size_bd89ce15dad49192,
             max_mid
           };
 

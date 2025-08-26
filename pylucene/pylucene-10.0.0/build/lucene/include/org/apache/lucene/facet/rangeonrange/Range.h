@@ -20,8 +20,8 @@ namespace org {
           class Range : public ::java::lang::Object {
            public:
             enum {
-              mid_getLabelsFromRanges_4959fea05e775a9b,
-              mid_failNoMatch_3720c61b0679eb3e,
+              mid_failNoMatch_e7bdbe105ce1bafb,
+              mid_getLabelsFromRanges_acabc728e7f7af48,
               max_mid
             };
 

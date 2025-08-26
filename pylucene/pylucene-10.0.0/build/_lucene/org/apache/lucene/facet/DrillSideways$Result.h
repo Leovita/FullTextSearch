@@ -8,8 +8,8 @@ namespace java {
     class List;
   }
   namespace lang {
-    class Object;
     class String;
+    class Object;
     class Class;
   }
 }
@@ -23,12 +23,12 @@ namespace org {
         class DrillSideways$Result : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_cd1b4f46c7d9d0f2,
-            mid_drillDownResult_5655ed8670534604,
-            mid_drillSidewaysResults_36830460e10839eb,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_aaa09616f10cf83b,
+            mid_drillDownResult_4819806f62f1360a,
+            mid_drillSidewaysResults_1387e1e2702ac173,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

@@ -4,12 +4,12 @@
 #include "org/apache/lucene/analysis/miscellaneous/ConditionalTokenFilterFactory.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -18,11 +18,11 @@ namespace java {
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class ResourceLoader;
-      }
       namespace analysis {
         class CharArraySet;
+      }
+      namespace util {
+        class ResourceLoader;
       }
     }
   }
@@ -38,12 +38,12 @@ namespace org {
           class ProtectedTermFilterFactory : public ::org::apache::lucene::analysis::miscellaneous::ConditionalTokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_doInform_6addbf380886844e,
-              mid_getProtectedTerms_7a52625961f2f88e,
-              mid_isIgnoreCase_947277eca0748c4e,
-              mid_create_f398725843466ada,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_doInform_4ba602df53b96765,
+              mid_getProtectedTerms_0a8f3a685855aa4f,
+              mid_isIgnoreCase_9aa4f33e82ea333f,
+              mid_create_2c651391adf9fd6e,
               max_mid
             };
 

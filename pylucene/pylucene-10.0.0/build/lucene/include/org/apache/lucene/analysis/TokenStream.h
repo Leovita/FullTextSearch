@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/util/AttributeSource.h"
 
-namespace java {
-  namespace io {
-    class Closeable;
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class AttributeFactory;
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class IOException;
+    class Closeable;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,10 +31,10 @@ namespace org {
         class TokenStream : public ::org::apache::lucene::util::AttributeSource {
          public:
           enum {
-            mid_close_3720c61b0679eb3e,
-            mid_end_3720c61b0679eb3e,
-            mid_incrementToken_947277eca0748c4e,
-            mid_reset_3720c61b0679eb3e,
+            mid_close_e7bdbe105ce1bafb,
+            mid_end_e7bdbe105ce1bafb,
+            mid_incrementToken_9aa4f33e82ea333f,
+            mid_reset_e7bdbe105ce1bafb,
             max_mid
           };
 

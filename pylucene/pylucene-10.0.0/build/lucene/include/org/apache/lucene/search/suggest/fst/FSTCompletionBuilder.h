@@ -3,29 +3,29 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace search {
-        namespace suggest {
-          namespace fst {
-            class BytesRefSorter;
-            class FSTCompletion;
-          }
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        namespace suggest {
+          namespace fst {
+            class FSTCompletion;
+            class BytesRefSorter;
+          }
+        }
+      }
+      namespace util {
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -40,10 +40,10 @@ namespace org {
             class FSTCompletionBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_5c81c4b9b1d4d029,
-                mid_add_be93bdc4fbbb5027,
-                mid_build_eb162db35a5ac321,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_859543fcace0cfc8,
+                mid_add_86aec93bf51df65e,
+                mid_build_cabe55bbcc3bc50b,
                 max_mid
               };
 

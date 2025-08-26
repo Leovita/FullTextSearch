@@ -19,7 +19,7 @@ namespace org {
           class TaxonomyReader$ChildrenIterator : public ::java::lang::Object {
            public:
             enum {
-              mid_next_20fbf7565993c3d7,
+              mid_next_bd89ce15dad49192,
               max_mid
             };
 

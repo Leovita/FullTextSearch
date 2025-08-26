@@ -31,9 +31,9 @@ namespace org {
           class DoublePointMultiRangeBuilder : public ::org::apache::lucene::sandbox::search::MultiRangeQuery$Builder {
            public:
             enum {
-              mid_init$_a5140b013bba694a,
-              mid_add_ad2d0338280f2fc5,
-              mid_build_83b684d3a7823a4f,
+              mid_init$_49e27e98009acf15,
+              mid_add_2ab7019da1ed085a,
+              mid_build_10ae858b8220da6e,
               max_mid
             };
 

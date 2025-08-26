@@ -20,8 +20,8 @@ namespace org {
             class MultiValueSource : public ::org::apache::lucene::queries::function::ValueSource {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_dimension_20fbf7565993c3d7,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_dimension_bd89ce15dad49192,
                 max_mid
               };
 

@@ -3,12 +3,18 @@
 
 #include "org/apache/lucene/index/Terms.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class TermsEnum;
-      }
       namespace util {
         namespace automaton {
           class CompiledAutomaton;
@@ -22,16 +28,10 @@ namespace org {
           }
         }
       }
+      namespace index {
+        class TermsEnum;
+      }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -46,20 +46,20 @@ namespace org {
             class FieldReader : public ::org::apache::lucene::index::Terms {
              public:
               enum {
-                mid_getDocCount_20fbf7565993c3d7,
-                mid_getMax_9740fddd1c7df148,
-                mid_getMin_9740fddd1c7df148,
-                mid_getStats_4b1ff806d5d451dc,
-                mid_getSumDocFreq_16939d9d0a9a9721,
-                mid_getSumTotalTermFreq_16939d9d0a9a9721,
-                mid_hasFreqs_947277eca0748c4e,
-                mid_hasOffsets_947277eca0748c4e,
-                mid_hasPayloads_947277eca0748c4e,
-                mid_hasPositions_947277eca0748c4e,
-                mid_intersect_ae180b89f91722b6,
-                mid_iterator_8a12f41bbebee35e,
-                mid_size_16939d9d0a9a9721,
-                mid_toString_09a7afff1868fc5e,
+                mid_getDocCount_bd89ce15dad49192,
+                mid_getMax_adbedbc1fa61c358,
+                mid_getMin_adbedbc1fa61c358,
+                mid_getStats_f064df63566b8735,
+                mid_getSumDocFreq_0f176418e3e16541,
+                mid_getSumTotalTermFreq_0f176418e3e16541,
+                mid_hasFreqs_9aa4f33e82ea333f,
+                mid_hasOffsets_9aa4f33e82ea333f,
+                mid_hasPayloads_9aa4f33e82ea333f,
+                mid_hasPositions_9aa4f33e82ea333f,
+                mid_intersect_1265e3f103794636,
+                mid_iterator_c92e16ad45780176,
+                mid_size_0f176418e3e16541,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

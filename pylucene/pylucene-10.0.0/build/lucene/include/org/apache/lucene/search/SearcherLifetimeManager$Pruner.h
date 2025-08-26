@@ -27,7 +27,7 @@ namespace org {
         class SearcherLifetimeManager$Pruner : public ::java::lang::Object {
          public:
           enum {
-            mid_doPrune_9400a4fb126433ba,
+            mid_doPrune_3c384c7a71fc2b5d,
             max_mid
           };
 

@@ -21,12 +21,12 @@ namespace org {
         class FilterNumericDocValues : public ::org::apache::lucene::index::NumericDocValues {
          public:
           enum {
-            mid_advance_3c9bba330f083871,
-            mid_advanceExact_ae22d3a856ad56f1,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_longValue_16939d9d0a9a9721,
-            mid_nextDoc_20fbf7565993c3d7,
+            mid_advance_a3904e10f5bb9437,
+            mid_advanceExact_a8281eb3b9d9672d,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_longValue_0f176418e3e16541,
+            mid_nextDoc_bd89ce15dad49192,
             max_mid
           };
 

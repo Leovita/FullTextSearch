@@ -28,7 +28,7 @@ namespace org {
         class MemorySegmentAccessInput : public ::org::apache::lucene::store::RandomAccessInput {
          public:
           enum {
-            mid_clone_5e1cb28a3f38f433,
+            mid_clone_f2bb9cdc808b337d,
             max_mid
           };
 

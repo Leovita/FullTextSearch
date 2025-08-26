@@ -34,8 +34,8 @@ namespace org {
             class OrdToLabel : public ::java::lang::Object {
              public:
               enum {
-                mid_getLabel_c21e0250a0465b0f,
-                mid_getLabels_b0d0c4216ac45539,
+                mid_getLabel_6c732e2e2e10e82a,
+                mid_getLabels_08f83a8c8bc64590,
                 max_mid
               };
 

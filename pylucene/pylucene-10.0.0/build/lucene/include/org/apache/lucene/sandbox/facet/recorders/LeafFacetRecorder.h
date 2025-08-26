@@ -23,7 +23,7 @@ namespace org {
             class LeafFacetRecorder : public ::java::lang::Object {
              public:
               enum {
-                mid_record_e13cff512ebda969,
+                mid_record_645c25455f5b9b1c,
                 max_mid
               };
 

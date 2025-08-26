@@ -7,14 +7,14 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
-        class Scorable;
-        class DoubleValuesSource;
-        class DoubleValues;
         class Explanation;
-        class SortField;
-        class LongValuesSource;
+        class DoubleValuesSource;
         class SegmentCacheable;
+        class Query;
+        class DoubleValues;
+        class LongValuesSource;
+        class Scorable;
+        class SortField;
         class IndexSearcher;
       }
       namespace index {
@@ -24,12 +24,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     namespace function {
@@ -47,27 +47,27 @@ namespace org {
         class DoubleValuesSource : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_constant_a24185487bfe8d1c,
-            mid_equals_570b5248a6da3ef6,
-            mid_explain_01115576792a92f6,
-            mid_fromDoubleField_fc4fee8eaa090fbd,
-            mid_fromField_95cf958db331d0c4,
-            mid_fromFloatField_fc4fee8eaa090fbd,
-            mid_fromIntField_fc4fee8eaa090fbd,
-            mid_fromLongField_fc4fee8eaa090fbd,
-            mid_fromQuery_ad6f59bd9372083a,
-            mid_fromScorer_fe59306e0ba0d7b2,
-            mid_getSortField_33273beb7e6f6fa1,
-            mid_getValues_2257952fbc0fc955,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_needsScores_947277eca0748c4e,
-            mid_rewrite_652f2ef7a24fb31e,
-            mid_similarityToQueryVector_4b5824fb0787fcd1,
-            mid_similarityToQueryVector_e5621523dad729f8,
-            mid_toLongValuesSource_6d5a547f55f28d29,
-            mid_toSortableLongDoubleValuesSource_6d5a547f55f28d29,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_constant_1ea2ad5f4e707ed4,
+            mid_equals_00d17418847797d4,
+            mid_explain_c6bb58f50f82e1f6,
+            mid_fromDoubleField_4dceecd0b9399ae8,
+            mid_fromField_d556075b506a4808,
+            mid_fromFloatField_4dceecd0b9399ae8,
+            mid_fromIntField_4dceecd0b9399ae8,
+            mid_fromLongField_4dceecd0b9399ae8,
+            mid_fromQuery_d63392e3526041f0,
+            mid_fromScorer_f18981ef13b858bb,
+            mid_getSortField_6b771f2dc8fe37aa,
+            mid_getValues_e8f0afd0e79526a0,
+            mid_hashCode_bd89ce15dad49192,
+            mid_needsScores_9aa4f33e82ea333f,
+            mid_rewrite_98fead23c7c5ae08,
+            mid_similarityToQueryVector_3f7379026f173a59,
+            mid_similarityToQueryVector_af13ff9ea76beb87,
+            mid_toLongValuesSource_199c6718f27496e6,
+            mid_toSortableLongDoubleValuesSource_199c6718f27496e6,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

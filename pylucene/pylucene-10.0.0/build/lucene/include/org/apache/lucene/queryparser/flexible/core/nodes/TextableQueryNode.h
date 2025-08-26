@@ -22,8 +22,8 @@ namespace org {
               class TextableQueryNode : public ::java::lang::Object {
                public:
                 enum {
-                  mid_getText_373f0038978f926b,
-                  mid_setText_5ed8eb2e3024c663,
+                  mid_getText_f2e5418fe0d66c69,
+                  mid_setText_fe2ab7d27aa3fe1a,
                   max_mid
                 };
 

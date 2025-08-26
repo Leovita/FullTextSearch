@@ -3,6 +3,15 @@
 
 #include "org/apache/lucene/index/IndexDeletionPolicy.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class IndexCommit;
+      }
+    }
+  }
+}
 namespace java {
   namespace util {
     class List;
@@ -12,15 +21,6 @@ namespace java {
   }
   namespace lang {
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class IndexCommit;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -33,11 +33,11 @@ namespace org {
         class PythonIndexDeletionPolicy : public ::org::apache::lucene::index::IndexDeletionPolicy {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_onCommit_9425cd4f62c94bce,
-            mid_onInit_9425cd4f62c94bce,
-            mid_pythonExtension_16939d9d0a9a9721,
-            mid_pythonExtension_8b3d46852b435a94,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_onCommit_acbb405b60a30822,
+            mid_onInit_acbb405b60a30822,
+            mid_pythonExtension_0f176418e3e16541,
+            mid_pythonExtension_1d3149fac12f2af3,
             max_mid
           };
 

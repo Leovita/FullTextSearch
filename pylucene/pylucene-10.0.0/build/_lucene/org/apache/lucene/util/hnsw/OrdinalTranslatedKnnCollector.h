@@ -34,15 +34,15 @@ namespace org {
           class OrdinalTranslatedKnnCollector : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3a1ef51fdfe97cf2,
-              mid_collect_c1497fee57980602,
-              mid_earlyTerminated_947277eca0748c4e,
-              mid_incVisitedCount_540b2b23d51b1efd,
-              mid_k_20fbf7565993c3d7,
-              mid_minCompetitiveSimilarity_9b6c3480dac00edf,
-              mid_topDocs_a61875f39685c639,
-              mid_visitLimit_16939d9d0a9a9721,
-              mid_visitedCount_16939d9d0a9a9721,
+              mid_init$_476191823a959008,
+              mid_collect_0ebe0f1167a31953,
+              mid_earlyTerminated_9aa4f33e82ea333f,
+              mid_incVisitedCount_8226bd0b0fc13dba,
+              mid_k_bd89ce15dad49192,
+              mid_minCompetitiveSimilarity_8b62236f0e4d0dbc,
+              mid_topDocs_ff559ee576f938cf,
+              mid_visitLimit_0f176418e3e16541,
+              mid_visitedCount_0f176418e3e16541,
               max_mid
             };
 

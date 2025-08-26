@@ -5,10 +5,10 @@
 
 namespace java {
   namespace lang {
-    class Class;
-    class String;
     class Object;
+    class Class;
     class StringBuffer;
+    class String;
   }
   namespace util {
     class Date;
@@ -23,18 +23,19 @@ namespace java {
     class SimpleDateFormat : public ::java::text::DateFormat {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_736dcd11e1324201,
-        mid_applyLocalizedPattern_0d82408c6e55bc30,
-        mid_applyPattern_0d82408c6e55bc30,
-        mid_clone_5655ed8670534604,
-        mid_equals_570b5248a6da3ef6,
-        mid_get2DigitYearStart_b1a29ae88bce8845,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_set2DigitYearStart_73ec58a0e10908e8,
-        mid_toLocalizedPattern_09a7afff1868fc5e,
-        mid_toPattern_09a7afff1868fc5e,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_ee46a189998009d6,
+        mid_init$_b47155e534e0cae9,
+        mid_applyLocalizedPattern_ee46a189998009d6,
+        mid_applyPattern_ee46a189998009d6,
+        mid_clone_4819806f62f1360a,
+        mid_equals_00d17418847797d4,
+        mid_get2DigitYearStart_249cf4b57f672fa8,
+        mid_hashCode_bd89ce15dad49192,
+        mid_set2DigitYearStart_f2e9215b4fe15a2c,
+        mid_toLocalizedPattern_e7df854526d67fa3,
+        mid_toPattern_e7df854526d67fa3,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 
@@ -62,6 +63,7 @@ namespace java {
       void set2DigitYearStart(const ::java::util::Date &) const;
       ::java::lang::String toLocalizedPattern() const;
       ::java::lang::String toPattern() const;
+      ::java::lang::String toString() const;
     };
   }
 }

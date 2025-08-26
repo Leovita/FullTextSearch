@@ -27,10 +27,10 @@ namespace org {
         class MaxNonCompetitiveBoostAttribute : public ::org::apache::lucene::util::Attribute {
          public:
           enum {
-            mid_getCompetitiveTerm_9740fddd1c7df148,
-            mid_getMaxNonCompetitiveBoost_9b6c3480dac00edf,
-            mid_setCompetitiveTerm_ac0de3ee0e03786d,
-            mid_setMaxNonCompetitiveBoost_c771a95b0227fb6a,
+            mid_getCompetitiveTerm_adbedbc1fa61c358,
+            mid_getMaxNonCompetitiveBoost_8b62236f0e4d0dbc,
+            mid_setCompetitiveTerm_920ce0cdf4259cc9,
+            mid_setMaxNonCompetitiveBoost_675f4cb9a2529ee0,
             max_mid
           };
 

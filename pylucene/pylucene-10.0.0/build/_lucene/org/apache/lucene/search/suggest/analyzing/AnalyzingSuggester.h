@@ -6,14 +6,10 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-        class BytesRef;
-      }
       namespace store {
+        class Directory;
         class DataInput;
         class DataOutput;
-        class Directory;
       }
       namespace search {
         namespace suggest {
@@ -24,23 +20,27 @@ namespace org {
       namespace analysis {
         class Analyzer;
       }
+      namespace util {
+        class Accountable;
+        class BytesRef;
+      }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class List;
-    class Set;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
     class CharSequence;
-    class Object;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
+    class Set;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -55,19 +55,19 @@ namespace org {
             class AnalyzingSuggester : public ::org::apache::lucene::search::suggest::Lookup {
              public:
               enum {
-                mid_init$_a21c6acd6482f326,
-                mid_init$_75b18e54baa1205d,
-                mid_init$_167d5d2d21ec5b42,
-                mid_build_ccfc0be4d7c5ce8c,
-                mid_get_84780732a28a9438,
-                mid_getChildResources_aa58b3beec16cbbd,
-                mid_getCount_16939d9d0a9a9721,
-                mid_load_cc655a2984ac0be1,
-                mid_lookup_51465de8e2d90cbd,
-                mid_ramBytesUsed_16939d9d0a9a9721,
-                mid_store_0269cfd2080fde14,
-                mid_convertAutomaton_c6f90dfe8bea6705,
-                mid_getFullPrefixPaths_29a2a8ce6ded5b72,
+                mid_init$_b51fcdbf9291521a,
+                mid_init$_fa408feff6098e5e,
+                mid_init$_72f0a7ac16e456f0,
+                mid_build_3b81cca33403847f,
+                mid_get_53a8d172a6f84f78,
+                mid_getChildResources_4a269b968b3a511f,
+                mid_getCount_0f176418e3e16541,
+                mid_load_bcc888246f25b924,
+                mid_lookup_0b5d66b5da4a3286,
+                mid_ramBytesUsed_0f176418e3e16541,
+                mid_store_9bc74ef63311a7a4,
+                mid_convertAutomaton_3c5abe7c21896c57,
+                mid_getFullPrefixPaths_d4a895b279eda4ce,
                 max_mid
               };
 

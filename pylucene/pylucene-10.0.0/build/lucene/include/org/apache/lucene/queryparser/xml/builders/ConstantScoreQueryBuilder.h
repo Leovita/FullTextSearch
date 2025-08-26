@@ -35,7 +35,7 @@ namespace org {
             class ConstantScoreQueryBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_7b4bfa2f0a9e0ad4,
+                mid_init$_69aae6f35cbbde24,
                 max_mid
               };
 

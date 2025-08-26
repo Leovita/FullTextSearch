@@ -4,15 +4,15 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 namespace org {
@@ -41,10 +41,10 @@ namespace org {
           class ProfilerCollectorManager : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_newCollector_2ce3cb533ba95c25,
-              mid_reduce_0bc48f03981717d6,
-              mid_createCollector_4251c3f1d651d6d9,
+              mid_init$_ee46a189998009d6,
+              mid_newCollector_5e3d639ba3053d59,
+              mid_reduce_126e69aac4d149ef,
+              mid_createCollector_6c5ef8f878eeb110,
               max_mid
             };
 

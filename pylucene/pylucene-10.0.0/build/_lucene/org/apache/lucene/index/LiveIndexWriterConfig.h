@@ -6,31 +6,31 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexWriter$IndexReaderWarmer;
+        class MergeScheduler;
+        class IndexWriterConfig$OpenMode;
+        class IndexDeletionPolicy;
+        class IndexCommit;
+        class MergePolicy;
+        class IndexWriterEventListener;
+        class LeafReader;
+        class LiveIndexWriterConfig;
+      }
       namespace search {
-        class Sort;
         namespace similarities {
           class Similarity;
         }
-      }
-      namespace index {
-        class IndexWriterEventListener;
-        class IndexWriter$IndexReaderWarmer;
-        class IndexDeletionPolicy;
-        class IndexWriterConfig$OpenMode;
-        class MergeScheduler;
-        class IndexCommit;
-        class LeafReader;
-        class MergePolicy;
-        class LiveIndexWriterConfig;
-      }
-      namespace util {
-        class InfoStream;
+        class Sort;
       }
       namespace analysis {
         class Analyzer;
       }
       namespace codecs {
         class Codec;
+      }
+      namespace util {
+        class InfoStream;
       }
     }
   }
@@ -41,8 +41,8 @@ namespace java {
     class String;
   }
   namespace util {
-    class Set;
     class Comparator;
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -55,38 +55,38 @@ namespace org {
         class LiveIndexWriterConfig : public ::java::lang::Object {
          public:
           enum {
-            mid_getAnalyzer_6755ba003d984513,
-            mid_getCodec_39da0291d4509749,
-            mid_getCommitOnClose_947277eca0748c4e,
-            mid_getIndexCommit_271a09cc45c80524,
-            mid_getIndexCreatedVersionMajor_20fbf7565993c3d7,
-            mid_getIndexDeletionPolicy_c8a477f4e5b718ba,
-            mid_getIndexSort_74d249da84538e70,
-            mid_getIndexSortFields_4df174295554d7bd,
-            mid_getIndexWriterEventListener_878ecd8be39b6b07,
-            mid_getInfoStream_d67a60a40c235833,
-            mid_getLeafSorter_39238840448c1807,
-            mid_getMaxBufferedDocs_20fbf7565993c3d7,
-            mid_getMaxFullFlushMergeWaitMillis_16939d9d0a9a9721,
-            mid_getMergePolicy_462a53a2e93fb0f5,
-            mid_getMergeScheduler_1c97911758295bcf,
-            mid_getMergedSegmentWarmer_f4f60bfdb8d34383,
-            mid_getOpenMode_95ace75d3f13b332,
-            mid_getParentField_09a7afff1868fc5e,
-            mid_getRAMBufferSizeMB_32caabaad86c508b,
-            mid_getRAMPerThreadHardLimitMB_20fbf7565993c3d7,
-            mid_getReaderPooling_947277eca0748c4e,
-            mid_getSimilarity_39ecfe00156a771e,
-            mid_getSoftDeletesField_09a7afff1868fc5e,
-            mid_getUseCompoundFile_947277eca0748c4e,
-            mid_isCheckPendingFlushOnUpdate_947277eca0748c4e,
-            mid_setCheckPendingFlushUpdate_97dd762c6f6c3d59,
-            mid_setMaxBufferedDocs_8f097541223a394c,
-            mid_setMergePolicy_ffca6869cbc9238d,
-            mid_setMergedSegmentWarmer_a26534c09908ec66,
-            mid_setRAMBufferSizeMB_e6193be5010a105d,
-            mid_setUseCompoundFile_97dd762c6f6c3d59,
-            mid_toString_09a7afff1868fc5e,
+            mid_getAnalyzer_7bc9b23f56937752,
+            mid_getCodec_820c7dce26df28db,
+            mid_getCommitOnClose_9aa4f33e82ea333f,
+            mid_getIndexCommit_3f5d748efdffe9e0,
+            mid_getIndexCreatedVersionMajor_bd89ce15dad49192,
+            mid_getIndexDeletionPolicy_633ded673967d504,
+            mid_getIndexSort_9a15197f7786b173,
+            mid_getIndexSortFields_79131c6bbcf08916,
+            mid_getIndexWriterEventListener_f989ebd32e002d99,
+            mid_getInfoStream_7dc634bffa4290e2,
+            mid_getLeafSorter_5cc89c689cd941fe,
+            mid_getMaxBufferedDocs_bd89ce15dad49192,
+            mid_getMaxFullFlushMergeWaitMillis_0f176418e3e16541,
+            mid_getMergePolicy_1fcb76658e81d877,
+            mid_getMergeScheduler_e16de0686cacdfc2,
+            mid_getMergedSegmentWarmer_af1ca4377685b2f3,
+            mid_getOpenMode_901fc387c863235c,
+            mid_getParentField_e7df854526d67fa3,
+            mid_getRAMBufferSizeMB_6fb37e123fed7a1f,
+            mid_getRAMPerThreadHardLimitMB_bd89ce15dad49192,
+            mid_getReaderPooling_9aa4f33e82ea333f,
+            mid_getSimilarity_e1bcc9d7db6512db,
+            mid_getSoftDeletesField_e7df854526d67fa3,
+            mid_getUseCompoundFile_9aa4f33e82ea333f,
+            mid_isCheckPendingFlushOnUpdate_9aa4f33e82ea333f,
+            mid_setCheckPendingFlushUpdate_9dd53da0335b23a0,
+            mid_setMaxBufferedDocs_579ca200d7c3248a,
+            mid_setMergePolicy_a43f7eeab666e39d,
+            mid_setMergedSegmentWarmer_1621746e3ea8c2ec,
+            mid_setRAMBufferSizeMB_d8e998addf91fac3,
+            mid_setUseCompoundFile_9dd53da0335b23a0,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

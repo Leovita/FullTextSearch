@@ -3,16 +3,6 @@
 
 #include "org/apache/lucene/analysis/miscellaneous/ConditionalTokenFilter.h"
 
-namespace java {
-  namespace util {
-    namespace function {
-      class Function;
-    }
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,6 +11,16 @@ namespace org {
         class CharArraySet;
       }
     }
+  }
+}
+namespace java {
+  namespace util {
+    namespace function {
+      class Function;
+    }
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,8 +34,8 @@ namespace org {
           class ProtectedTermFilter : public ::org::apache::lucene::analysis::miscellaneous::ConditionalTokenFilter {
            public:
             enum {
-              mid_init$_539af7a28c60cf4b,
-              mid_shouldFilter_947277eca0748c4e,
+              mid_init$_f3e52861e74c3aef,
+              mid_shouldFilter_9aa4f33e82ea333f,
               max_mid
             };
 

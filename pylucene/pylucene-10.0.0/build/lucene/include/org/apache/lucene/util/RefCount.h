@@ -21,12 +21,12 @@ namespace org {
         class RefCount : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_eb61ef4d1db15d08,
-            mid_decRef_3720c61b0679eb3e,
-            mid_get_5655ed8670534604,
-            mid_getRefCount_20fbf7565993c3d7,
-            mid_incRef_3720c61b0679eb3e,
-            mid_release_3720c61b0679eb3e,
+            mid_init$_501c3eb890ff6d79,
+            mid_decRef_e7bdbe105ce1bafb,
+            mid_get_4819806f62f1360a,
+            mid_getRefCount_bd89ce15dad49192,
+            mid_incRef_e7bdbe105ce1bafb,
+            mid_release_e7bdbe105ce1bafb,
             max_mid
           };
 

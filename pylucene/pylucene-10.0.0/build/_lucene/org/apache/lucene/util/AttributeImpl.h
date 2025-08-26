@@ -3,22 +3,22 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Cloneable;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class AttributeReflector;
         class AttributeImpl;
         class Attribute;
+        class AttributeReflector;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Cloneable;
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,13 +31,13 @@ namespace org {
         class AttributeImpl : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_clear_3720c61b0679eb3e,
-            mid_clone_c9b39303c053ec9a,
-            mid_copyTo_9be83c6b2aff7007,
-            mid_end_3720c61b0679eb3e,
-            mid_reflectAsString_648fb915d73c5399,
-            mid_reflectWith_454217ab6e97f729,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_clone_2f6651241a7e46cf,
+            mid_copyTo_b194e41b568bc1bc,
+            mid_end_e7bdbe105ce1bafb,
+            mid_reflectAsString_e446331928d0b1c5,
+            mid_reflectWith_ac049850cfa29e37,
             max_mid
           };
 

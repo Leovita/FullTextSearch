@@ -3,6 +3,15 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class ResourceLoader;
+      }
+    }
+  }
+}
 namespace java {
   namespace io {
     class InputStream;
@@ -10,22 +19,13 @@ namespace java {
   }
   namespace lang {
     class Class;
-    class String;
     class Module;
+    class String;
     class ClassLoader;
   }
   namespace nio {
     namespace file {
       class Path;
-    }
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class ResourceLoader;
-      }
     }
   }
 }
@@ -40,12 +40,12 @@ namespace org {
           class FilesystemResourceLoader : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_32bb2ad6be2ad245,
-              mid_init$_d38f3a55303066fe,
-              mid_init$_f7db2f5eef4d7da7,
-              mid_findClass_b5a648522f034964,
-              mid_newInstance_41015388295e12f4,
-              mid_openResource_4306cf2226901a47,
+              mid_init$_ede66e9841bb3e77,
+              mid_init$_750438018f9205b5,
+              mid_init$_232ec0ba2251ed8a,
+              mid_findClass_74b6933dfade62e7,
+              mid_newInstance_ca22afea7b505a3f,
+              mid_openResource_9bd3a7bffb83deee,
               max_mid
             };
 

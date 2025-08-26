@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/util/AttributeImpl.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace util {
+        class AttributeReflector;
+      }
       namespace analysis {
         namespace tokenattributes {
           class OffsetAttribute;
         }
       }
-      namespace util {
-        class AttributeReflector;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -34,15 +34,15 @@ namespace org {
           class OffsetAttributeImpl : public ::org::apache::lucene::util::AttributeImpl {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_clear_3720c61b0679eb3e,
-              mid_copyTo_9be83c6b2aff7007,
-              mid_endOffset_20fbf7565993c3d7,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_reflectWith_454217ab6e97f729,
-              mid_setOffset_e13cff512ebda969,
-              mid_startOffset_20fbf7565993c3d7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_copyTo_b194e41b568bc1bc,
+              mid_endOffset_bd89ce15dad49192,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_reflectWith_ac049850cfa29e37,
+              mid_setOffset_645c25455f5b9b1c,
+              mid_startOffset_bd89ce15dad49192,
               max_mid
             };
 

@@ -34,8 +34,8 @@ namespace org {
             class LabelToOrd : public ::java::lang::Object {
              public:
               enum {
-                mid_getOrd_b886af148d2e9c5a,
-                mid_getOrds_7d0bc717fafc6e60,
+                mid_getOrd_36dd33e0173c4244,
+                mid_getOrds_a339b1a8e9820a7b,
                 max_mid
               };
 

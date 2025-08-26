@@ -30,7 +30,7 @@ namespace org {
         class BinaryDocValues : public ::org::apache::lucene::index::DocValuesIterator {
          public:
           enum {
-            mid_binaryValue_9740fddd1c7df148,
+            mid_binaryValue_adbedbc1fa61c358,
             max_mid
           };
 

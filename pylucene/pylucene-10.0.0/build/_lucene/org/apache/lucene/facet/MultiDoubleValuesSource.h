@@ -7,9 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
+        class MultiLongValuesSource;
         class MultiDoubleValuesSource;
         class MultiDoubleValues;
-        class MultiLongValuesSource;
       }
       namespace search {
         class DoubleValuesSource;
@@ -22,12 +22,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     namespace function {
@@ -45,20 +45,20 @@ namespace org {
         class MultiDoubleValuesSource : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_equals_570b5248a6da3ef6,
-            mid_fromDoubleField_d475bb9ea1c4d36c,
-            mid_fromField_37adf6aa0fddfe4e,
-            mid_fromFloatField_d475bb9ea1c4d36c,
-            mid_fromIntField_d475bb9ea1c4d36c,
-            mid_fromLongField_d475bb9ea1c4d36c,
-            mid_fromSingleValued_8d636176b97afb3a,
-            mid_getValues_afc3bdb89e05015b,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toMultiLongValuesSource_2f2713d2a506608d,
-            mid_toSortableMultiLongValuesSource_2f2713d2a506608d,
-            mid_toString_09a7afff1868fc5e,
-            mid_unwrapSingleton_0b351177341ea68d,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_equals_00d17418847797d4,
+            mid_fromDoubleField_72c3829c6c186ecd,
+            mid_fromField_00c3451d8c07c4df,
+            mid_fromFloatField_72c3829c6c186ecd,
+            mid_fromIntField_72c3829c6c186ecd,
+            mid_fromLongField_72c3829c6c186ecd,
+            mid_fromSingleValued_9ba879c60f91ac9c,
+            mid_getValues_a39e386daa7385ac,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toMultiLongValuesSource_d66ed01f8db3adc9,
+            mid_toSortableMultiLongValuesSource_d66ed01f8db3adc9,
+            mid_toString_e7df854526d67fa3,
+            mid_unwrapSingleton_727148d1aa0f6626,
             max_mid
           };
 

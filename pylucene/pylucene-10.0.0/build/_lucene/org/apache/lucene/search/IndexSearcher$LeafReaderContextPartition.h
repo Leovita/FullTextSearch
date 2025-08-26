@@ -30,8 +30,8 @@ namespace org {
         class IndexSearcher$LeafReaderContextPartition : public ::java::lang::Object {
          public:
           enum {
-            mid_createForEntireSegment_65c962fc67aea9c7,
-            mid_createFromAndTo_731441f0accdb86c,
+            mid_createForEntireSegment_163de04b946e2971,
+            mid_createFromAndTo_98e50b930dd4087c,
             max_mid
           };
 

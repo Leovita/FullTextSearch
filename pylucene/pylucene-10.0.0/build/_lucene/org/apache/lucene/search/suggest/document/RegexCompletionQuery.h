@@ -6,25 +6,25 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Term;
-      }
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
+        class Weight;
+        class QueryVisitor;
         namespace suggest {
           class BitsProducer;
         }
-        class Weight;
         class IndexSearcher;
+      }
+      namespace index {
+        class Term;
       }
     }
   }
 }
 namespace java {
   namespace lang {
-    class Class;
     class Object;
+    class Class;
   }
   namespace io {
     class IOException;
@@ -42,16 +42,16 @@ namespace org {
             class RegexCompletionQuery : public ::org::apache::lucene::search::suggest::document::CompletionQuery {
              public:
               enum {
-                mid_init$_3b0982cb6e1bfb9d,
-                mid_init$_d9e98e086dd87cde,
-                mid_init$_25675dcc7619f110,
-                mid_init$_10b8baa298fa257a,
-                mid_createWeight_77fe52950093e704,
-                mid_equals_570b5248a6da3ef6,
-                mid_getDeterminizeWorkLimit_20fbf7565993c3d7,
-                mid_getFlags_20fbf7565993c3d7,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_visit_1b22ec612b613eea,
+                mid_init$_ed33f9e055f7213d,
+                mid_init$_fe05d84341126959,
+                mid_init$_1b09428e23ab13c1,
+                mid_init$_9d851c32f66a6ada,
+                mid_createWeight_dc54d493278607e4,
+                mid_equals_00d17418847797d4,
+                mid_getDeterminizeWorkLimit_bd89ce15dad49192,
+                mid_getFlags_bd89ce15dad49192,
+                mid_hashCode_bd89ce15dad49192,
+                mid_visit_85475af8e8904ab4,
                 max_mid
               };
 

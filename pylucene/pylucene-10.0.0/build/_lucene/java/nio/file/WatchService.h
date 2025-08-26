@@ -4,21 +4,21 @@
 #include "java/io/Closeable.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
-    class Class;
     class InterruptedException;
-  }
-  namespace util {
-    namespace concurrent {
-      class TimeUnit;
-    }
+    class Class;
   }
   namespace nio {
     namespace file {
       class WatchKey;
+    }
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    namespace concurrent {
+      class TimeUnit;
     }
   }
 }
@@ -31,10 +31,10 @@ namespace java {
       class WatchService : public ::java::io::Closeable {
        public:
         enum {
-          mid_close_3720c61b0679eb3e,
-          mid_poll_366652ebdbd690e3,
-          mid_poll_47c4af5e6c4120b9,
-          mid_take_366652ebdbd690e3,
+          mid_close_e7bdbe105ce1bafb,
+          mid_poll_5546fe711abc610b,
+          mid_poll_7d01d6e3e2473862,
+          mid_take_5546fe711abc610b,
           max_mid
         };
 

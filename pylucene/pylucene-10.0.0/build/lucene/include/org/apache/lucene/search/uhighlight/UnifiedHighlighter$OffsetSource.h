@@ -31,8 +31,8 @@ namespace org {
           class UnifiedHighlighter$OffsetSource : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_4203fdc61bf1f9ff,
-              mid_values_f0eef2a753d51ec6,
+              mid_valueOf_185f2d2301da7355,
+              mid_values_5e9a9c6824110549,
               max_mid
             };
 

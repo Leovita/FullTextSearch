@@ -17,7 +17,7 @@ namespace java {
       class LongBinaryOperator : public ::java::lang::Object {
        public:
         enum {
-          mid_applyAsLong_bcea5161e8951fae,
+          mid_applyAsLong_5804bd1c01b59205,
           max_mid
         };
 

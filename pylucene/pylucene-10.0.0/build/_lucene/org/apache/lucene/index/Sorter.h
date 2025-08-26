@@ -19,8 +19,8 @@ namespace org {
         class Sorter : public ::java::lang::Object {
          public:
           enum {
-            mid_getID_09a7afff1868fc5e,
-            mid_toString_09a7afff1868fc5e,
+            mid_getID_e7df854526d67fa3,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

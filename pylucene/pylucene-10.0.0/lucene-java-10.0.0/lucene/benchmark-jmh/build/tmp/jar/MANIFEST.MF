@@ -9,8 +9,8 @@ Specification-Version: 10.0.0
 Specification-Title: Lucene Search Engine: benchmark-jmh
 X-Compile-Source-JDK: 21
 X-Compile-Target-JDK: 21
-X-Build-JDK: 21.0.6 (Oracle Corporation 21.0.6+8-LTS-188)
-X-Build-OS: Mac OS X aarch64 15.3.1
+X-Build-JDK: 21.0.8 (Homebrew 21.0.8)
+X-Build-OS: Mac OS X aarch64 15.5
 Main-Class: org.apache.lucene.benchmark.jmh.Main
 Class-Path: lucene-expressions-10.0.0-SNAPSHOT.jar lucene-codecs-10.0.0-
  SNAPSHOT.jar lucene-core-10.0.0-SNAPSHOT.jar jmh-core-1.37.jar antlr4-r

@@ -21,15 +21,15 @@ namespace java {
       class FileStore : public ::java::lang::Object {
        public:
         enum {
-          mid_getAttribute_e5cf973b773e2999,
-          mid_getBlockSize_16939d9d0a9a9721,
-          mid_getTotalSpace_16939d9d0a9a9721,
-          mid_getUnallocatedSpace_16939d9d0a9a9721,
-          mid_getUsableSpace_16939d9d0a9a9721,
-          mid_isReadOnly_947277eca0748c4e,
-          mid_name_09a7afff1868fc5e,
-          mid_supportsFileAttributeView_4a13a663b5c11133,
-          mid_type_09a7afff1868fc5e,
+          mid_getAttribute_a78a91e32cc37c7c,
+          mid_getBlockSize_0f176418e3e16541,
+          mid_getTotalSpace_0f176418e3e16541,
+          mid_getUnallocatedSpace_0f176418e3e16541,
+          mid_getUsableSpace_0f176418e3e16541,
+          mid_isReadOnly_9aa4f33e82ea333f,
+          mid_name_e7df854526d67fa3,
+          mid_supportsFileAttributeView_94f7e759d94961b0,
+          mid_type_e7df854526d67fa3,
           max_mid
         };
 

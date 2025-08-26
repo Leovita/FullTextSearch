@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class TermState;
-      }
       namespace util {
         class BytesRef;
+      }
+      namespace index {
+        class TermState;
       }
     }
   }
@@ -32,8 +32,8 @@ namespace org {
           class PhraseWildcardQuery$TermBytesTermState : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_5c001dd449c905b9,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_68ebcc8117fd12a5,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

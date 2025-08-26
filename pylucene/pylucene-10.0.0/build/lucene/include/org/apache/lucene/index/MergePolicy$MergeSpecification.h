@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -24,6 +15,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class List;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -34,10 +34,10 @@ namespace org {
         class MergePolicy$MergeSpecification : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_e1e55891bbba68fb,
-            mid_segString_69d2ffd848815eb8,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_43e5fc07fd56a753,
+            mid_segString_3a658f37b37d9d9b,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

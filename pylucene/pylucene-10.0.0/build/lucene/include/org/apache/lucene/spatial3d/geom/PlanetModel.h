@@ -3,30 +3,30 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-    class OutputStream;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class PlanetModel$DocValueEncoder;
           class Vector;
-          class GeoPoint;
-          class PlanetModel;
+          class PlanetModel$DocValueEncoder;
           class SerializableObject;
+          class PlanetModel;
+          class GeoPoint;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+    class OutputStream;
+    class InputStream;
   }
 }
 template<class T> class JArray;
@@ -40,34 +40,34 @@ namespace org {
           class PlanetModel : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_37e23ef4361d4c28,
-              mid_init$_e57e4ffd06f0f841,
-              mid_bisection_5148598fc7ffdccd,
-              mid_createSurfacePoint_cd6d6d99fed8467e,
-              mid_createSurfacePoint_86fd4b4310be9332,
-              mid_decodeValue_788f636887bfcb79,
-              mid_encodeValue_03c0863338a48004,
-              mid_equals_570b5248a6da3ef6,
-              mid_getDocValueEncoder_0b15faee5ca14503,
-              mid_getMaximumMagnitude_32caabaad86c508b,
-              mid_getMaximumXValue_32caabaad86c508b,
-              mid_getMaximumYValue_32caabaad86c508b,
-              mid_getMaximumZValue_32caabaad86c508b,
-              mid_getMeanRadius_32caabaad86c508b,
-              mid_getMinimumMagnitude_32caabaad86c508b,
-              mid_getMinimumXValue_32caabaad86c508b,
-              mid_getMinimumYValue_32caabaad86c508b,
-              mid_getMinimumZValue_32caabaad86c508b,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isSphere_947277eca0748c4e,
-              mid_pointOnSurface_d2545ca8f40aaba4,
-              mid_pointOnSurface_5f47c01c69ca9460,
-              mid_pointOutside_d2545ca8f40aaba4,
-              mid_pointOutside_5f47c01c69ca9460,
-              mid_surfaceDistance_97409bb87de4c9a0,
-              mid_surfacePointOnBearing_c4ce6574acfdfc10,
-              mid_toString_09a7afff1868fc5e,
-              mid_write_84831c9725b47eae,
+              mid_init$_da97eaa7d893a93a,
+              mid_init$_fa06324555fd7858,
+              mid_bisection_21fe0855a1f93d95,
+              mid_createSurfacePoint_b0d46e16dff8fd08,
+              mid_createSurfacePoint_26ad82a2c50a65df,
+              mid_decodeValue_3bb466f769ef1c7f,
+              mid_encodeValue_3f0c00a187968ea1,
+              mid_equals_00d17418847797d4,
+              mid_getDocValueEncoder_14581037477373b0,
+              mid_getMaximumMagnitude_6fb37e123fed7a1f,
+              mid_getMaximumXValue_6fb37e123fed7a1f,
+              mid_getMaximumYValue_6fb37e123fed7a1f,
+              mid_getMaximumZValue_6fb37e123fed7a1f,
+              mid_getMeanRadius_6fb37e123fed7a1f,
+              mid_getMinimumMagnitude_6fb37e123fed7a1f,
+              mid_getMinimumXValue_6fb37e123fed7a1f,
+              mid_getMinimumYValue_6fb37e123fed7a1f,
+              mid_getMinimumZValue_6fb37e123fed7a1f,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isSphere_9aa4f33e82ea333f,
+              mid_pointOnSurface_f78acf28287584e8,
+              mid_pointOnSurface_7ff1eb501b1de7c2,
+              mid_pointOutside_f78acf28287584e8,
+              mid_pointOutside_7ff1eb501b1de7c2,
+              mid_surfaceDistance_4ab96a6c4b0435ce,
+              mid_surfacePointOnBearing_8fcf2805dab3b396,
+              mid_toString_e7df854526d67fa3,
+              mid_write_fbdd420d6e3d48b2,
               max_mid
             };
 

@@ -30,10 +30,10 @@ namespace org {
         class PythonTokenFilter : public ::org::apache::lucene::analysis::TokenFilter {
          public:
           enum {
-            mid_init$_7d17c8514b99ffc6,
-            mid_incrementToken_947277eca0748c4e,
-            mid_pythonExtension_16939d9d0a9a9721,
-            mid_pythonExtension_8b3d46852b435a94,
+            mid_init$_4fe096967a533954,
+            mid_incrementToken_9aa4f33e82ea333f,
+            mid_pythonExtension_0f176418e3e16541,
+            mid_pythonExtension_1d3149fac12f2af3,
             max_mid
           };
 

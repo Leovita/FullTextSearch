@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace vectorhighlight {
-          class FieldPhraseList;
           class FieldFragList;
+          class FieldPhraseList;
         }
       }
     }
@@ -31,9 +31,9 @@ namespace org {
           class WeightedFragListBuilder : public ::org::apache::lucene::search::vectorhighlight::BaseFragListBuilder {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_createFieldFragList_a32628d4e7bb72d2,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_createFieldFragList_3443c6eb81eeadeb,
               max_mid
             };
 

@@ -3,9 +3,28 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class Number;
+    class String;
+    class CharSequence;
+  }
+  namespace io {
+    class Reader;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace analysis {
+        class TokenStream;
+        class Analyzer;
+      }
+      namespace document {
+        class StoredValue;
+        class InvertableType;
+      }
       namespace index {
         class IndexableField;
         class IndexableFieldType;
@@ -13,26 +32,7 @@ namespace org {
       namespace util {
         class BytesRef;
       }
-      namespace document {
-        class InvertableType;
-        class StoredValue;
-      }
-      namespace analysis {
-        class Analyzer;
-        class TokenStream;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class CharSequence;
-    class Number;
-  }
-  namespace io {
-    class Reader;
   }
 }
 template<class T> class JArray;
@@ -45,35 +45,35 @@ namespace org {
         class Field : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_c2c4df0fca98cb34,
-            mid_init$_a3febbf6875c2424,
-            mid_init$_8b44a925b601cedf,
-            mid_init$_c046a3d4a11eee41,
-            mid_init$_70496424cd45bbeb,
-            mid_init$_b665a6a74dbfc847,
-            mid_binaryValue_9740fddd1c7df148,
-            mid_fieldType_231a8407c689c49d,
-            mid_getCharSequenceValue_373f0038978f926b,
-            mid_invertableType_72515c0beb0174e7,
-            mid_name_09a7afff1868fc5e,
-            mid_numericValue_1b3282bb4db06655,
-            mid_readerValue_2493c69d5db06811,
-            mid_setByteValue_bcdac0a459ff35f6,
-            mid_setBytesValue_3ce1e597fb62ac79,
-            mid_setBytesValue_ac0de3ee0e03786d,
-            mid_setDoubleValue_b5bc1a2fb9ff9e90,
-            mid_setFloatValue_c771a95b0227fb6a,
-            mid_setIntValue_540b2b23d51b1efd,
-            mid_setLongValue_8b3d46852b435a94,
-            mid_setReaderValue_fa55492f0f5d7f31,
-            mid_setShortValue_13ddeb599c553531,
-            mid_setStringValue_0d82408c6e55bc30,
-            mid_setTokenStream_7d17c8514b99ffc6,
-            mid_storedValue_c117239a18be2fcb,
-            mid_stringValue_09a7afff1868fc5e,
-            mid_toString_09a7afff1868fc5e,
-            mid_tokenStream_675528819f96fe99,
-            mid_tokenStreamValue_707aa2a89bdef693,
+            mid_init$_2e2255ae4b431689,
+            mid_init$_923373ca1c892e07,
+            mid_init$_f7854dec2d55782d,
+            mid_init$_adfbd0e665b026bd,
+            mid_init$_dd4390c490400bf6,
+            mid_init$_c3f5f43a834f0732,
+            mid_binaryValue_adbedbc1fa61c358,
+            mid_fieldType_fa2f4688e330515c,
+            mid_getCharSequenceValue_f2e5418fe0d66c69,
+            mid_invertableType_6d1985fbf4a5f74d,
+            mid_name_e7df854526d67fa3,
+            mid_numericValue_b9665294ea488d3c,
+            mid_readerValue_58cfbaca8545e054,
+            mid_setByteValue_a5d0ad9e85e76a64,
+            mid_setBytesValue_a4d4f283481182e8,
+            mid_setBytesValue_920ce0cdf4259cc9,
+            mid_setDoubleValue_a03f734ddaeb69b4,
+            mid_setFloatValue_675f4cb9a2529ee0,
+            mid_setIntValue_8226bd0b0fc13dba,
+            mid_setLongValue_1d3149fac12f2af3,
+            mid_setReaderValue_89ab2bee9aa84b00,
+            mid_setShortValue_19904c0bd37f0d7f,
+            mid_setStringValue_ee46a189998009d6,
+            mid_setTokenStream_4fe096967a533954,
+            mid_storedValue_71ce58210dba1993,
+            mid_stringValue_e7df854526d67fa3,
+            mid_toString_e7df854526d67fa3,
+            mid_tokenStream_c33c4c82a743c93e,
+            mid_tokenStreamValue_6d4d6f6f288807ef,
             max_mid
           };
 

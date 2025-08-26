@@ -6,43 +6,43 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        class MultiTermQuery$RewriteMethod;
-      }
-      namespace document {
-        class DateTools$Resolution;
-      }
       namespace queryparser {
         namespace flexible {
           namespace standard {
-            class CommonQueryParserConfiguration;
             namespace config {
               class StandardQueryConfigHandler$Operator;
               class PointsConfig;
             }
+            class CommonQueryParserConfiguration;
           }
           namespace core {
             class QueryNodeException;
           }
         }
       }
+      namespace document {
+        class DateTools$Resolution;
+      }
       namespace analysis {
         class Analyzer;
+      }
+      namespace search {
+        class Query;
+        class MultiTermQuery$RewriteMethod;
       }
     }
   }
 }
 namespace java {
   namespace lang {
-    class Float;
     class Class;
-    class CharSequence;
+    class Float;
     class String;
+    class CharSequence;
   }
   namespace util {
-    class Map;
     class TimeZone;
+    class Map;
     class Locale;
   }
 }
@@ -58,40 +58,40 @@ namespace org {
             class StandardQueryParser : public ::org::apache::lucene::queryparser::flexible::core::QueryParserHelper {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_07cd0f76cabcf75a,
-                mid_getAllowLeadingWildcard_947277eca0748c4e,
-                mid_getAnalyzer_6755ba003d984513,
-                mid_getDateResolution_da3fdfc4d853f314,
-                mid_getDateResolutionMap_f125f26c07a7bec8,
-                mid_getDefaultOperator_b3ee315e80f6db25,
-                mid_getEnablePositionIncrements_947277eca0748c4e,
-                mid_getFieldsBoost_f125f26c07a7bec8,
-                mid_getFuzzyMinSim_9b6c3480dac00edf,
-                mid_getFuzzyPrefixLength_20fbf7565993c3d7,
-                mid_getLocale_319fd40ee3061260,
-                mid_getMultiFields_1a703562b2da0b5d,
-                mid_getMultiTermRewriteMethod_69f9b567563cc3af,
-                mid_getPhraseSlop_20fbf7565993c3d7,
-                mid_getPointsConfigMap_f125f26c07a7bec8,
-                mid_getTimeZone_1559a29f5a26b141,
-                mid_parse_9c67907ed0ac8b67,
-                mid_setAllowLeadingWildcard_b110fc3a58c081ab,
-                mid_setAnalyzer_07cd0f76cabcf75a,
-                mid_setDateResolution_2be4ed3be7cfaf63,
-                mid_setDateResolutionMap_79ba0f5a7d05e623,
-                mid_setDefaultOperator_8ff1de9a70fddb07,
-                mid_setEnablePositionIncrements_b110fc3a58c081ab,
-                mid_setFieldsBoost_79ba0f5a7d05e623,
-                mid_setFuzzyMinSim_c771a95b0227fb6a,
-                mid_setFuzzyPrefixLength_540b2b23d51b1efd,
-                mid_setLocale_25a056d06ffd1209,
-                mid_setMultiFields_b30c21896ae0071a,
-                mid_setMultiTermRewriteMethod_edfee9e3c27be2a0,
-                mid_setPhraseSlop_540b2b23d51b1efd,
-                mid_setPointsConfigMap_79ba0f5a7d05e623,
-                mid_setTimeZone_1bdebe6495070eda,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_1aaca852402a5069,
+                mid_getAllowLeadingWildcard_9aa4f33e82ea333f,
+                mid_getAnalyzer_7bc9b23f56937752,
+                mid_getDateResolution_0d598bfde6ba9f12,
+                mid_getDateResolutionMap_5004bdf19ed33453,
+                mid_getDefaultOperator_c909c1766561139b,
+                mid_getEnablePositionIncrements_9aa4f33e82ea333f,
+                mid_getFieldsBoost_5004bdf19ed33453,
+                mid_getFuzzyMinSim_8b62236f0e4d0dbc,
+                mid_getFuzzyPrefixLength_bd89ce15dad49192,
+                mid_getLocale_d50f7bd45bffb467,
+                mid_getMultiFields_ee5989eab6390908,
+                mid_getMultiTermRewriteMethod_cdae28086b3bbe9c,
+                mid_getPhraseSlop_bd89ce15dad49192,
+                mid_getPointsConfigMap_5004bdf19ed33453,
+                mid_getTimeZone_f0ab2fb84439b1af,
+                mid_parse_550dcf54034665c0,
+                mid_setAllowLeadingWildcard_f5dd97eebf6a215a,
+                mid_setAnalyzer_1aaca852402a5069,
+                mid_setDateResolution_fc9c774cd4ca88ae,
+                mid_setDateResolutionMap_6a7e23584beb7c0f,
+                mid_setDefaultOperator_4f3299d3d53cb42e,
+                mid_setEnablePositionIncrements_f5dd97eebf6a215a,
+                mid_setFieldsBoost_6a7e23584beb7c0f,
+                mid_setFuzzyMinSim_675f4cb9a2529ee0,
+                mid_setFuzzyPrefixLength_8226bd0b0fc13dba,
+                mid_setLocale_160efbb0dee8e527,
+                mid_setMultiFields_970e6feef5936666,
+                mid_setMultiTermRewriteMethod_83f3c0af3316ffc0,
+                mid_setPhraseSlop_8226bd0b0fc13dba,
+                mid_setPointsConfigMap_6a7e23584beb7c0f,
+                mid_setTimeZone_6bae4ff1843f5310,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

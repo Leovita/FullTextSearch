@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/TokenFilter.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -32,13 +32,13 @@ namespace org {
           class ReverseStringFilter : public ::org::apache::lucene::analysis::TokenFilter {
            public:
             enum {
-              mid_init$_7d17c8514b99ffc6,
-              mid_init$_1eec4220cdfdd703,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reverse_cc40ee25f19f0868,
-              mid_reverse_cb0eb1432185fc94,
-              mid_reverse_e06ffef1ed339658,
-              mid_reverse_fc9be2ded8ee801f,
+              mid_init$_4fe096967a533954,
+              mid_init$_6fe8b7cc754126f9,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reverse_ae4452529cb9c0dd,
+              mid_reverse_fef9c036acf290a9,
+              mid_reverse_495b1505e3aef671,
+              mid_reverse_186bb5d1c1aec30c,
               max_mid
             };
 

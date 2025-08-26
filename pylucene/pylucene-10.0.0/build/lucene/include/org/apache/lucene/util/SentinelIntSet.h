@@ -18,16 +18,16 @@ namespace org {
         class SentinelIntSet : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_e13cff512ebda969,
-            mid_clear_3720c61b0679eb3e,
-            mid_exists_ae22d3a856ad56f1,
-            mid_find_3c9bba330f083871,
-            mid_getSlot_3c9bba330f083871,
-            mid_hash_3c9bba330f083871,
-            mid_put_3c9bba330f083871,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_rehash_3720c61b0679eb3e,
-            mid_size_20fbf7565993c3d7,
+            mid_init$_645c25455f5b9b1c,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_exists_a8281eb3b9d9672d,
+            mid_find_a3904e10f5bb9437,
+            mid_getSlot_a3904e10f5bb9437,
+            mid_hash_a3904e10f5bb9437,
+            mid_put_a3904e10f5bb9437,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_rehash_e7bdbe105ce1bafb,
+            mid_size_bd89ce15dad49192,
             max_mid
           };
 

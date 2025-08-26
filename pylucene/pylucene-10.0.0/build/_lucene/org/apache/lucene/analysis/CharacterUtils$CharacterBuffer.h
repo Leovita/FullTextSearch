@@ -18,10 +18,10 @@ namespace org {
         class CharacterUtils$CharacterBuffer : public ::java::lang::Object {
          public:
           enum {
-            mid_getBuffer_77d52ded526199de,
-            mid_getLength_20fbf7565993c3d7,
-            mid_getOffset_20fbf7565993c3d7,
-            mid_reset_3720c61b0679eb3e,
+            mid_getBuffer_e5926045e1917c62,
+            mid_getLength_bd89ce15dad49192,
+            mid_getOffset_bd89ce15dad49192,
+            mid_reset_e7bdbe105ce1bafb,
             max_mid
           };
 

@@ -30,7 +30,7 @@ namespace org {
           class FlatVectorScorerUtil : public ::java::lang::Object {
            public:
             enum {
-              mid_getLucene99FlatVectorsScorer_7e681abd40bf9d07,
+              mid_getLucene99FlatVectorsScorer_0a520ed2ec7fc582,
               max_mid
             };
 

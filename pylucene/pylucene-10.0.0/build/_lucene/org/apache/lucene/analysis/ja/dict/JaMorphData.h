@@ -21,12 +21,12 @@ namespace org {
             class JaMorphData : public ::org::apache::lucene::analysis::morph::MorphData {
              public:
               enum {
-                mid_getBaseForm_8050a2644734b4d8,
-                mid_getInflectionForm_cd8436557ab831f9,
-                mid_getInflectionType_cd8436557ab831f9,
-                mid_getPartOfSpeech_cd8436557ab831f9,
-                mid_getPronunciation_8050a2644734b4d8,
-                mid_getReading_8050a2644734b4d8,
+                mid_getBaseForm_6ceb45848be0c90e,
+                mid_getInflectionForm_0da8f0b89b1e9a22,
+                mid_getInflectionType_0da8f0b89b1e9a22,
+                mid_getPartOfSpeech_0da8f0b89b1e9a22,
+                mid_getPronunciation_6ceb45848be0c90e,
+                mid_getReading_6ceb45848be0c90e,
                 max_mid
               };
 

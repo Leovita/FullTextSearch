@@ -20,11 +20,11 @@ namespace org {
           class KoreanNumberFilter$NumberBuffer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_advance_3720c61b0679eb3e,
-              mid_charAt_92a13ce4196a7e69,
-              mid_length_20fbf7565993c3d7,
-              mid_position_20fbf7565993c3d7,
+              mid_init$_ee46a189998009d6,
+              mid_advance_e7bdbe105ce1bafb,
+              mid_charAt_bc94dd98365f92fb,
+              mid_length_bd89ce15dad49192,
+              mid_position_bd89ce15dad49192,
               max_mid
             };
 

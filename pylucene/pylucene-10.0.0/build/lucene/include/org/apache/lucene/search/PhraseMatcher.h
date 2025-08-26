@@ -21,9 +21,9 @@ namespace org {
         class PhraseMatcher : public ::java::lang::Object {
          public:
           enum {
-            mid_getMatchCost_9b6c3480dac00edf,
-            mid_nextMatch_947277eca0748c4e,
-            mid_reset_3720c61b0679eb3e,
+            mid_getMatchCost_8b62236f0e4d0dbc,
+            mid_nextMatch_9aa4f33e82ea333f,
+            mid_reset_e7bdbe105ce1bafb,
             max_mid
           };
 

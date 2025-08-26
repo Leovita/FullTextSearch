@@ -3,22 +3,22 @@
 
 #include "java/lang/Object.h"
 
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        class BytesRef;
+      }
+      namespace document {
+        class StoredValue$Type;
+      }
+    }
+  }
+}
 namespace java {
   namespace lang {
     class String;
     class Class;
-  }
-}
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace document {
-        class StoredValue$Type;
-      }
-      namespace util {
-        class BytesRef;
-      }
-    }
   }
 }
 template<class T> class JArray;
@@ -31,25 +31,25 @@ namespace org {
         class StoredValue : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_0d82408c6e55bc30,
-            mid_init$_ac0de3ee0e03786d,
-            mid_init$_b5bc1a2fb9ff9e90,
-            mid_init$_c771a95b0227fb6a,
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_8b3d46852b435a94,
-            mid_getBinaryValue_9740fddd1c7df148,
-            mid_getDoubleValue_32caabaad86c508b,
-            mid_getFloatValue_9b6c3480dac00edf,
-            mid_getIntValue_20fbf7565993c3d7,
-            mid_getLongValue_16939d9d0a9a9721,
-            mid_getStringValue_09a7afff1868fc5e,
-            mid_getType_57412b55b4f5ff36,
-            mid_setBinaryValue_ac0de3ee0e03786d,
-            mid_setDoubleValue_b5bc1a2fb9ff9e90,
-            mid_setFloatValue_c771a95b0227fb6a,
-            mid_setIntValue_540b2b23d51b1efd,
-            mid_setLongValue_8b3d46852b435a94,
-            mid_setStringValue_0d82408c6e55bc30,
+            mid_init$_ee46a189998009d6,
+            mid_init$_920ce0cdf4259cc9,
+            mid_init$_a03f734ddaeb69b4,
+            mid_init$_675f4cb9a2529ee0,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_1d3149fac12f2af3,
+            mid_getBinaryValue_adbedbc1fa61c358,
+            mid_getDoubleValue_6fb37e123fed7a1f,
+            mid_getFloatValue_8b62236f0e4d0dbc,
+            mid_getIntValue_bd89ce15dad49192,
+            mid_getLongValue_0f176418e3e16541,
+            mid_getStringValue_e7df854526d67fa3,
+            mid_getType_851cee9c787e1b7d,
+            mid_setBinaryValue_920ce0cdf4259cc9,
+            mid_setDoubleValue_a03f734ddaeb69b4,
+            mid_setFloatValue_675f4cb9a2529ee0,
+            mid_setIntValue_8226bd0b0fc13dba,
+            mid_setLongValue_1d3149fac12f2af3,
+            mid_setStringValue_ee46a189998009d6,
             max_mid
           };
 

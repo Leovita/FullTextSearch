@@ -9,8 +9,8 @@ namespace org {
       namespace spatial3d {
         namespace geom {
           class GeoShape;
-          class PlanetModel;
           class GeoAreaShape;
+          class PlanetModel;
         }
       }
     }
@@ -32,10 +32,10 @@ namespace org {
           class GeoBaseAreaShape : public ::org::apache::lucene::spatial3d::geom::GeoBaseMembershipShape {
            public:
             enum {
-              mid_init$_b88e4aded392c9f4,
-              mid_getRelationship_8f22277e6d81944f,
-              mid_isShapeInsideGeoAreaShape_8f22277e6d81944f,
-              mid_isGeoAreaShapeInsideShape_8f22277e6d81944f,
+              mid_init$_ed6d55ea06962af0,
+              mid_getRelationship_45c244038f50cef7,
+              mid_isShapeInsideGeoAreaShape_45c244038f50cef7,
+              mid_isGeoAreaShapeInsideShape_45c244038f50cef7,
               max_mid
             };
 

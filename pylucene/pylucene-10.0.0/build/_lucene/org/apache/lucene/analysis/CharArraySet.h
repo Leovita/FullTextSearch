@@ -10,10 +10,10 @@ namespace java {
     class Set;
   }
   namespace lang {
+    class Object;
     class Class;
     class String;
     class CharSequence;
-    class Object;
   }
 }
 namespace org {
@@ -35,21 +35,21 @@ namespace org {
         class CharArraySet : public ::java::util::AbstractSet {
          public:
           enum {
-            mid_init$_2936d2706a18a684,
-            mid_init$_39f7975599271fd9,
-            mid_add_2d31a52ab195fbb7,
-            mid_add_4a13a663b5c11133,
-            mid_add_7fa88c8af67956ed,
-            mid_add_570b5248a6da3ef6,
-            mid_clear_3720c61b0679eb3e,
-            mid_contains_7fa88c8af67956ed,
-            mid_contains_570b5248a6da3ef6,
-            mid_contains_bab09355a5cf0732,
-            mid_copy_29b95cb9b6f50821,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_size_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_unmodifiableSet_612aed46db7ddf0e,
+            mid_init$_a0fed0a2cd38e7b1,
+            mid_init$_ee52fd0fe2d8050e,
+            mid_add_a09cbc69488c768e,
+            mid_add_94f7e759d94961b0,
+            mid_add_966cbeda474fd26b,
+            mid_add_00d17418847797d4,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_contains_966cbeda474fd26b,
+            mid_contains_00d17418847797d4,
+            mid_contains_355feee9125d4fb1,
+            mid_copy_c06f67df5abea58a,
+            mid_iterator_c7985fafdcf40e83,
+            mid_size_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_unmodifiableSet_c15d20d1555020d0,
             max_mid
           };
 

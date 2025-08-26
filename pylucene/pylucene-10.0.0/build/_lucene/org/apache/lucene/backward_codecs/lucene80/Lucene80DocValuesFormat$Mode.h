@@ -31,8 +31,8 @@ namespace org {
           class Lucene80DocValuesFormat$Mode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_37342dc07042c04e,
-              mid_values_1b80fd7601c7f07a,
+              mid_valueOf_71cfdad3f2c586e8,
+              mid_values_2b02abc3abd7f115,
               max_mid
             };
 

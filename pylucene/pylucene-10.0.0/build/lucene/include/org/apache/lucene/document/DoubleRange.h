@@ -28,16 +28,16 @@ namespace org {
         class DoubleRange : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_6fd87e0914d2bdc7,
-            mid_getMax_788f636887bfcb79,
-            mid_getMin_788f636887bfcb79,
-            mid_newContainsQuery_144f71b949e45671,
-            mid_newCrossesQuery_144f71b949e45671,
-            mid_newIntersectsQuery_144f71b949e45671,
-            mid_newWithinQuery_144f71b949e45671,
-            mid_setRangeValues_ad2d0338280f2fc5,
-            mid_toString_09a7afff1868fc5e,
-            mid_verifyAndEncode_6234d4297b4551cd,
+            mid_init$_690e4106dfec1de3,
+            mid_getMax_3bb466f769ef1c7f,
+            mid_getMin_3bb466f769ef1c7f,
+            mid_newContainsQuery_0678967a97ef81b7,
+            mid_newCrossesQuery_0678967a97ef81b7,
+            mid_newIntersectsQuery_0678967a97ef81b7,
+            mid_newWithinQuery_0678967a97ef81b7,
+            mid_setRangeValues_2ab7019da1ed085a,
+            mid_toString_e7df854526d67fa3,
+            mid_verifyAndEncode_ef8fc5c07134e6bf,
             max_mid
           };
 

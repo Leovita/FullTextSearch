@@ -20,8 +20,8 @@ namespace org {
           class WordDelimiterIterator : public ::java::lang::Object {
            public:
             enum {
-              mid_getType_3b30672d0bff9ebb,
-              mid_toString_09a7afff1868fc5e,
+              mid_getType_9e902c8fd52d5208,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -19,13 +19,13 @@ namespace org {
           class VectorUtilSupport : public ::java::lang::Object {
            public:
             enum {
-              mid_cosine_1c5889ce893868f9,
-              mid_cosine_f618322cb97748d7,
-              mid_dotProduct_15d7e5623d88e7f9,
-              mid_dotProduct_f618322cb97748d7,
-              mid_int4DotProduct_f95cb01a44047409,
-              mid_squareDistance_15d7e5623d88e7f9,
-              mid_squareDistance_f618322cb97748d7,
+              mid_cosine_10c0ed906c8dd379,
+              mid_cosine_8cc5908f35d75428,
+              mid_dotProduct_75b7f528788b10ee,
+              mid_dotProduct_8cc5908f35d75428,
+              mid_int4DotProduct_a63f35bcf77fad79,
+              mid_squareDistance_75b7f528788b10ee,
+              mid_squareDistance_8cc5908f35d75428,
               max_mid
             };
 

@@ -19,7 +19,7 @@ namespace org {
           class BKDUtil$ByteArrayPredicate : public ::java::lang::Object {
            public:
             enum {
-              mid_test_aa7c13eebccfba45,
+              mid_test_3a56aac9dfe7a1cf,
               max_mid
             };
 

@@ -33,8 +33,8 @@ namespace org {
           class AbstractEncoder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_encode_676bcb64d5ba9de8,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_encode_32c300f33ebb640c,
               max_mid
             };
 

@@ -6,27 +6,27 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-        class IndexSearcher;
-        class QueryVisitor;
-        class ScoreMode;
-      }
       namespace queries {
         namespace spans {
-          class SpanWeight;
           class SpanNearQuery$Builder;
+          class SpanWeight;
         }
+      }
+      namespace search {
+        class ScoreMode;
+        class Query;
+        class QueryVisitor;
+        class IndexSearcher;
       }
     }
   }
 }
 namespace java {
   namespace lang {
-    class Class;
-    class String;
     class Cloneable;
     class Object;
+    class Class;
+    class String;
   }
   namespace io {
     class IOException;
@@ -43,19 +43,19 @@ namespace org {
           class SpanNearQuery : public ::org::apache::lucene::queries::spans::SpanQuery {
            public:
             enum {
-              mid_init$_6dd3dea4f70aaf66,
-              mid_createWeight_d7dfaaf9476f49d4,
-              mid_equals_570b5248a6da3ef6,
-              mid_getClauses_2f88687ab1f58c0a,
-              mid_getField_09a7afff1868fc5e,
-              mid_getSlop_20fbf7565993c3d7,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_isInOrder_947277eca0748c4e,
-              mid_newOrderedNearQuery_2bcab582f4d0e253,
-              mid_newUnorderedNearQuery_2bcab582f4d0e253,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_ac0d654595806ee3,
+              mid_createWeight_b33c2c90db0d1d7e,
+              mid_equals_00d17418847797d4,
+              mid_getClauses_97a83b2e5065399f,
+              mid_getField_e7df854526d67fa3,
+              mid_getSlop_bd89ce15dad49192,
+              mid_hashCode_bd89ce15dad49192,
+              mid_isInOrder_9aa4f33e82ea333f,
+              mid_newOrderedNearQuery_2ea8894170b590ac,
+              mid_newUnorderedNearQuery_2ea8894170b590ac,
+              mid_rewrite_25984111320dbe39,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

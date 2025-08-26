@@ -28,8 +28,8 @@ namespace org {
           class Similarity$SimScorer : public ::java::lang::Object {
            public:
             enum {
-              mid_explain_e2c8968d461d0a23,
-              mid_score_1949cc832de18de1,
+              mid_explain_f8eebb64b4e2a94f,
+              mid_score_dd526856e70b339f,
               max_mid
             };
 

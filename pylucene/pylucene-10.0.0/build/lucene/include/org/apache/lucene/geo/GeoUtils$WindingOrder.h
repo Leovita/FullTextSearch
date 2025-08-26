@@ -28,10 +28,10 @@ namespace org {
         class GeoUtils$WindingOrder : public ::java::lang::Enum {
          public:
           enum {
-            mid_fromSign_b4ea50fede33dbe7,
-            mid_sign_20fbf7565993c3d7,
-            mid_valueOf_182dd5c355eec3bd,
-            mid_values_375e14e9e06464b6,
+            mid_fromSign_0fd9b299c51afec8,
+            mid_sign_bd89ce15dad49192,
+            mid_valueOf_10ce8a17688008cb,
+            mid_values_9f6ec5125b125fc4,
             max_mid
           };
 

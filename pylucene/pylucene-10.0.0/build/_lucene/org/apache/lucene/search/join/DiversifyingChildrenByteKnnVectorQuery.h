@@ -3,6 +3,13 @@
 
 #include "org/apache/lucene/search/KnnByteVectorQuery.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -13,13 +20,6 @@ namespace org {
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -33,13 +33,13 @@ namespace org {
           class DiversifyingChildrenByteKnnVectorQuery : public ::org::apache::lucene::search::KnnByteVectorQuery {
            public:
             enum {
-              mid_init$_47153aee0610bee0,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_cb0eb1432185fc94,
-              mid_getKnnCollectorManager_1380dddf22057340,
-              mid_approximateSearch_2820dd1f2ca7baa6,
-              mid_exactSearch_ea6a22a99de35918,
+              mid_init$_582ef55ef6eca5f4,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_fef9c036acf290a9,
+              mid_exactSearch_67b6c9b96ad81056,
+              mid_getKnnCollectorManager_f9fe5267960b0dc2,
+              mid_approximateSearch_91ef996fb5702f76,
               max_mid
             };
 

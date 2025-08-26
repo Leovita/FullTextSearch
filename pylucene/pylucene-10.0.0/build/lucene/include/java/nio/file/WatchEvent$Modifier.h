@@ -18,7 +18,7 @@ namespace java {
       class WatchEvent$Modifier : public ::java::lang::Object {
        public:
         enum {
-          mid_name_09a7afff1868fc5e,
+          mid_name_e7df854526d67fa3,
           max_mid
         };
 

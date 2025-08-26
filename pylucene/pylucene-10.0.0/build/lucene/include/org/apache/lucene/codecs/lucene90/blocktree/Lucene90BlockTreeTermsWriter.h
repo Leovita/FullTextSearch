@@ -6,23 +6,23 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace index {
-        class Fields;
-        class SegmentWriteState;
-      }
       namespace codecs {
-        class NormsProducer;
         class PostingsWriterBase;
+        class NormsProducer;
+      }
+      namespace index {
+        class SegmentWriteState;
+        class Fields;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,11 +37,11 @@ namespace org {
             class Lucene90BlockTreeTermsWriter : public ::org::apache::lucene::codecs::FieldsConsumer {
              public:
               enum {
-                mid_init$_a86c320941e218ef,
-                mid_init$_589deda1a7c08cea,
-                mid_close_3720c61b0679eb3e,
-                mid_validateSettings_e13cff512ebda969,
-                mid_write_664e5b1e2ee1912b,
+                mid_init$_fbaf7fcce5b84e75,
+                mid_init$_43f86d021d8e1e5b,
+                mid_close_e7bdbe105ce1bafb,
+                mid_validateSettings_645c25455f5b9b1c,
+                mid_write_77e46eb449cb8d9e,
                 max_mid
               };
 

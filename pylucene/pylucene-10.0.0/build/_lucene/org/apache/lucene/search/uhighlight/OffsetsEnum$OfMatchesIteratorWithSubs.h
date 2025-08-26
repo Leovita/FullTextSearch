@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class MatchesIterator;
-      }
       namespace util {
         class BytesRef;
+      }
+      namespace search {
+        class MatchesIterator;
       }
     }
   }
@@ -34,12 +34,12 @@ namespace org {
           class OffsetsEnum$OfMatchesIteratorWithSubs : public ::org::apache::lucene::search::uhighlight::OffsetsEnum {
            public:
             enum {
-              mid_init$_9dbd4122607336e6,
-              mid_endOffset_20fbf7565993c3d7,
-              mid_freq_20fbf7565993c3d7,
-              mid_getTerm_9740fddd1c7df148,
-              mid_nextPosition_947277eca0748c4e,
-              mid_startOffset_20fbf7565993c3d7,
+              mid_init$_f71de985ff394fb0,
+              mid_endOffset_bd89ce15dad49192,
+              mid_freq_bd89ce15dad49192,
+              mid_getTerm_adbedbc1fa61c358,
+              mid_nextPosition_9aa4f33e82ea333f,
+              mid_startOffset_bd89ce15dad49192,
               max_mid
             };
 

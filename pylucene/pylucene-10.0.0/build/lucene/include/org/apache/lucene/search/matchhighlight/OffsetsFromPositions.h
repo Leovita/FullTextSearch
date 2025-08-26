@@ -7,12 +7,12 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
+        class MatchesIterator;
         namespace matchhighlight {
-          class OffsetsRetrievalStrategy;
           class OffsetRange;
           class MatchRegionRetriever$FieldValueProvider;
+          class OffsetsRetrievalStrategy;
         }
-        class MatchesIterator;
       }
       namespace analysis {
         class Analyzer;
@@ -21,12 +21,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -43,8 +43,8 @@ namespace org {
           class OffsetsFromPositions : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_c50f2f6f1d850d13,
-              mid_get_c33fe7c6bf5bf02a,
+              mid_init$_cc97c286759ef3b4,
+              mid_get_aa6d5677fa56b028,
               max_mid
             };
 

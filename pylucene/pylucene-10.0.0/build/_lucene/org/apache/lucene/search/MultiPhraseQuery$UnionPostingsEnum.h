@@ -3,6 +3,17 @@
 
 #include "org/apache/lucene/index/PostingsEnum.h"
 
+namespace java {
+  namespace io {
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+  namespace util {
+    class Collection;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,17 +21,6 @@ namespace org {
         class BytesRef;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace util {
-    class Collection;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -33,16 +33,16 @@ namespace org {
         class MultiPhraseQuery$UnionPostingsEnum : public ::org::apache::lucene::index::PostingsEnum {
          public:
           enum {
-            mid_init$_40eba2cff967cc45,
-            mid_advance_3c9bba330f083871,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_endOffset_20fbf7565993c3d7,
-            mid_freq_20fbf7565993c3d7,
-            mid_getPayload_9740fddd1c7df148,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_nextPosition_20fbf7565993c3d7,
-            mid_startOffset_20fbf7565993c3d7,
+            mid_init$_b5398b431eb321fb,
+            mid_advance_a3904e10f5bb9437,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_endOffset_bd89ce15dad49192,
+            mid_freq_bd89ce15dad49192,
+            mid_getPayload_adbedbc1fa61c358,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_nextPosition_bd89ce15dad49192,
+            mid_startOffset_bd89ce15dad49192,
             max_mid
           };
 

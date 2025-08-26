@@ -3,20 +3,20 @@
 
 #include "org/apache/lucene/search/DocIdSetIterator.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class SparseFixedBitSet;
-        class FixedBitSet;
         class BitSet;
+        class FixedBitSet;
+        class SparseFixedBitSet;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -29,15 +29,15 @@ namespace org {
         class BitSetIterator : public ::org::apache::lucene::search::DocIdSetIterator {
          public:
           enum {
-            mid_init$_cae33b2b11961e3c,
-            mid_advance_3c9bba330f083871,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_getBitSet_929151ffbbc0eb5d,
-            mid_getFixedBitSetOrNull_d3e744fa02039131,
-            mid_getSparseFixedBitSetOrNull_f0c6013f9beca006,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_setDocId_540b2b23d51b1efd,
+            mid_init$_c07cb9a90039759b,
+            mid_advance_a3904e10f5bb9437,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_getBitSet_c51191497671ef55,
+            mid_getFixedBitSetOrNull_2dfbd7e288d7b5ae,
+            mid_getSparseFixedBitSetOrNull_0ec2d26131ba3126,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_setDocId_8226bd0b0fc13dba,
             max_mid
           };
 

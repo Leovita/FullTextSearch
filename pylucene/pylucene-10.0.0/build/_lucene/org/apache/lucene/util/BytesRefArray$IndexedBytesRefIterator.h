@@ -18,7 +18,7 @@ namespace org {
         class BytesRefArray$IndexedBytesRefIterator : public ::org::apache::lucene::util::BytesRefIterator {
          public:
           enum {
-            mid_ord_20fbf7565993c3d7,
+            mid_ord_bd89ce15dad49192,
             max_mid
           };
 

@@ -17,7 +17,7 @@ namespace java {
       class DoubleBinaryOperator : public ::java::lang::Object {
        public:
         enum {
-          mid_applyAsDouble_351e9c3c9f2fa814,
+          mid_applyAsDouble_9314817161e40a7e,
           max_mid
         };
 

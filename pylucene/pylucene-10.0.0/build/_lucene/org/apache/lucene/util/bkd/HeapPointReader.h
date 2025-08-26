@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace util {
         namespace bkd {
-          class PointReader;
           class PointValue;
+          class PointReader;
         }
       }
     }
@@ -31,9 +31,9 @@ namespace org {
           class HeapPointReader : public ::java::lang::Object {
            public:
             enum {
-              mid_close_3720c61b0679eb3e,
-              mid_next_947277eca0748c4e,
-              mid_pointValue_4371b70c8fbfafd8,
+              mid_close_e7bdbe105ce1bafb,
+              mid_next_9aa4f33e82ea333f,
+              mid_pointValue_89aa7308258929e8,
               max_mid
             };
 

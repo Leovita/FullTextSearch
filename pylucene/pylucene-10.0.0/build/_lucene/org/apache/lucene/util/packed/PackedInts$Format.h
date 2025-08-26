@@ -31,15 +31,15 @@ namespace org {
           class PackedInts$Format : public ::java::lang::Enum {
            public:
             enum {
-              mid_byId_dcc92efb842a5eb0,
-              mid_byteCount_ca55e5fb7f55bd64,
-              mid_getId_20fbf7565993c3d7,
-              mid_isSupported_ae22d3a856ad56f1,
-              mid_longCount_527fe3c890b0f1b1,
-              mid_overheadPerValue_29cfa01aaad92564,
-              mid_overheadRatio_29cfa01aaad92564,
-              mid_valueOf_d879fe6abedfb34e,
-              mid_values_44e25898b7adcb0f,
+              mid_byId_854c7e2a60402e3e,
+              mid_byteCount_28e6ff4787396ce3,
+              mid_getId_bd89ce15dad49192,
+              mid_isSupported_a8281eb3b9d9672d,
+              mid_longCount_1a01472680f9fc97,
+              mid_overheadPerValue_5873a23b935a9d49,
+              mid_overheadRatio_5873a23b935a9d49,
+              mid_valueOf_8c7345b22e9d1974,
+              mid_values_95315ab779f7e5e2,
               max_mid
             };
 

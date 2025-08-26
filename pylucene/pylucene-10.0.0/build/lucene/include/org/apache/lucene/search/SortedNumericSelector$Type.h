@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class SortedNumericSelector$Type;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class SortedNumericSelector$Type : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_25a7b3c3cc593465,
-            mid_values_19449baaf2fe1994,
+            mid_valueOf_c90c102cbfc512bd,
+            mid_values_c310e48c3e5d5910,
             max_mid
           };
 

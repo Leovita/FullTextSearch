@@ -36,7 +36,7 @@ namespace org {
               class FieldConfigListener : public ::java::lang::Object {
                public:
                 enum {
-                  mid_buildFieldConfig_d5a7e1b94ac0c20a,
+                  mid_buildFieldConfig_9179f3f5b3e27a34,
                   max_mid
                 };
 

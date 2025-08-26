@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/queryparser/classic/QueryParser.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -23,6 +17,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -34,10 +34,10 @@ namespace org {
           class ExtendableQueryParser : public ::org::apache::lucene::queryparser::classic::QueryParser {
            public:
             enum {
-              mid_init$_c50f2f6f1d850d13,
-              mid_init$_610c55da7df304bf,
-              mid_getExtensionFieldDelimiter_6c956faefc706166,
-              mid_getFieldQuery_0904a80daeba8529,
+              mid_init$_cc97c286759ef3b4,
+              mid_init$_6ce6af21178caf67,
+              mid_getExtensionFieldDelimiter_15a06771db8cb866,
+              mid_getFieldQuery_a525af63bfcd652e,
               max_mid
             };
 

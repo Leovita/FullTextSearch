@@ -4,12 +4,12 @@
 #include "org/apache/lucene/store/IndexInput.h"
 
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class String;
     class Class;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -22,17 +22,17 @@ namespace org {
         class FilterIndexInput : public ::org::apache::lucene::store::IndexInput {
          public:
           enum {
-            mid_init$_e9481d660a931c10,
-            mid_close_3720c61b0679eb3e,
-            mid_getDelegate_69ff96f993716366,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_length_16939d9d0a9a9721,
-            mid_readByte_847674f430f49e4c,
-            mid_readBytes_5fdd5da9426708e6,
-            mid_seek_8b3d46852b435a94,
-            mid_slice_4c0286d0c02e55b3,
-            mid_unwrap_1794d8b9f35d2ac2,
-            mid_unwrapOnlyTest_1794d8b9f35d2ac2,
+            mid_init$_6018e7300ea6df39,
+            mid_close_e7bdbe105ce1bafb,
+            mid_getDelegate_1107977def75ee66,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_length_0f176418e3e16541,
+            mid_readByte_1456044a01a5c9bf,
+            mid_readBytes_116f7fcb5bff0f39,
+            mid_seek_1d3149fac12f2af3,
+            mid_slice_fa5539b2c5f0192d,
+            mid_unwrap_0f782692de897731,
+            mid_unwrapOnlyTest_0f782692de897731,
             max_mid
           };
 

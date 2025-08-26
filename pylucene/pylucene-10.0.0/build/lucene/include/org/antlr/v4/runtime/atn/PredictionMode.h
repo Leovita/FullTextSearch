@@ -3,28 +3,28 @@
 
 #include "java/lang/Enum.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace util {
+    class BitSet;
+    class Map;
+    class Collection;
+  }
+}
 namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
         namespace atn {
-          class ATNState;
           class PredictionMode;
           class ATNConfigSet;
+          class ATNState;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace util {
-    class BitSet;
-    class Collection;
-    class Map;
-  }
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -38,23 +38,23 @@ namespace org {
           class PredictionMode : public ::java::lang::Enum {
            public:
             enum {
-              mid_allConfigsInRuleStopStates_ff4e6f03cd95f221,
-              mid_allSubsetsConflict_f2a1f31c5865e20d,
-              mid_allSubsetsEqual_f2a1f31c5865e20d,
-              mid_getAlts_69ac9839d1e36164,
-              mid_getAlts_3b33d71c26498d67,
-              mid_getConflictingAltSubsets_bf1bfc00553f2f15,
-              mid_getSingleViableAlt_c3a4145badf2e920,
-              mid_getStateToAltMap_9b49d3029b33e3d8,
-              mid_getUniqueAlt_c3a4145badf2e920,
-              mid_hasConfigInRuleStopState_ff4e6f03cd95f221,
-              mid_hasConflictingAltSet_f2a1f31c5865e20d,
-              mid_hasNonConflictingAltSet_f2a1f31c5865e20d,
-              mid_hasSLLConflictTerminatingPrediction_40d4218eb3caa877,
-              mid_hasStateAssociatedWithOneAlt_ff4e6f03cd95f221,
-              mid_resolvesToJustOneViableAlt_c3a4145badf2e920,
-              mid_valueOf_06dd8374478fcd15,
-              mid_values_81b7ce5b9b958ed4,
+              mid_allConfigsInRuleStopStates_d9c08347b413e1d2,
+              mid_allSubsetsConflict_155d0ed876869448,
+              mid_allSubsetsEqual_155d0ed876869448,
+              mid_getAlts_0feccd20bb2f64ec,
+              mid_getAlts_7ecf3fe8e5239a99,
+              mid_getConflictingAltSubsets_268ba26267455e7d,
+              mid_getSingleViableAlt_4cd7ffd482b3c390,
+              mid_getStateToAltMap_749b21655accd835,
+              mid_getUniqueAlt_4cd7ffd482b3c390,
+              mid_hasConfigInRuleStopState_d9c08347b413e1d2,
+              mid_hasConflictingAltSet_155d0ed876869448,
+              mid_hasNonConflictingAltSet_155d0ed876869448,
+              mid_hasSLLConflictTerminatingPrediction_d92ef617c602ccd6,
+              mid_hasStateAssociatedWithOneAlt_d9c08347b413e1d2,
+              mid_resolvesToJustOneViableAlt_4cd7ffd482b3c390,
+              mid_valueOf_ed1a027e991a8933,
+              mid_values_b280c7c33d1fb3ef,
               max_mid
             };
 

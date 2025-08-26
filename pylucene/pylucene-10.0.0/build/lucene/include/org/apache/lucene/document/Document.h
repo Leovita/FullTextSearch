@@ -36,20 +36,20 @@ namespace org {
         class Document : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_1a55a4e4d8cc0afc,
-            mid_clear_3720c61b0679eb3e,
-            mid_get_cb0eb1432185fc94,
-            mid_getBinaryValue_3011ce0425f8c75b,
-            mid_getBinaryValues_8c2c73cdc9cfd998,
-            mid_getField_a842f7b390300ce6,
-            mid_getFields_36830460e10839eb,
-            mid_getFields_c529667c261651df,
-            mid_getValues_a06e92f371939b0b,
-            mid_iterator_0db4c76ff7ee995b,
-            mid_removeField_0d82408c6e55bc30,
-            mid_removeFields_0d82408c6e55bc30,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_7da9efe51a6029d6,
+            mid_clear_e7bdbe105ce1bafb,
+            mid_get_fef9c036acf290a9,
+            mid_getBinaryValue_40fe68acc0b1cd64,
+            mid_getBinaryValues_8c018c1c908c075a,
+            mid_getField_e82d0b00473121b0,
+            mid_getFields_1387e1e2702ac173,
+            mid_getFields_8f2a0a685e417f1f,
+            mid_getValues_7b34cb521ce5d8ff,
+            mid_iterator_c7985fafdcf40e83,
+            mid_removeField_ee46a189998009d6,
+            mid_removeFields_ee46a189998009d6,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

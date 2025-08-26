@@ -7,15 +7,15 @@ namespace org {
   namespace antlr {
     namespace v4 {
       namespace runtime {
-        class TokenFactory;
-        class CharStream;
-        class TokenSource;
         namespace atn {
           class LexerATNSimulator;
         }
-        class IntStream;
+        class TokenSource;
         class LexerNoViableAltException;
+        class CharStream;
         class RecognitionException;
+        class TokenFactory;
+        class IntStream;
         class Token;
       }
     }
@@ -25,8 +25,8 @@ namespace java {
   namespace lang {
     class Integer;
     class Class;
-    class String;
     class Object;
+    class String;
   }
   namespace util {
     class List;
@@ -42,46 +42,46 @@ namespace org {
         class Lexer : public ::org::antlr::v4::runtime::Recognizer {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_4d3fc62038ae73ec,
-            mid_emit_9ddaacaf798f5cf6,
-            mid_emit_c666cf9aed935f19,
-            mid_emitEOF_9ddaacaf798f5cf6,
-            mid_getAllTokens_36830460e10839eb,
-            mid_getChannel_20fbf7565993c3d7,
-            mid_getChannelNames_6da8f3ea65e22733,
-            mid_getCharErrorDisplay_cd8436557ab831f9,
-            mid_getCharIndex_20fbf7565993c3d7,
-            mid_getCharPositionInLine_20fbf7565993c3d7,
-            mid_getErrorDisplay_cb0eb1432185fc94,
-            mid_getErrorDisplay_cd8436557ab831f9,
-            mid_getInputStream_b461eccf8f9c2fcc,
-            mid_getLine_20fbf7565993c3d7,
-            mid_getModeNames_6da8f3ea65e22733,
-            mid_getSourceName_09a7afff1868fc5e,
-            mid_getText_09a7afff1868fc5e,
-            mid_getToken_9ddaacaf798f5cf6,
-            mid_getTokenFactory_c8e0d1a54d80678c,
-            mid_getTokenNames_6da8f3ea65e22733,
-            mid_getType_20fbf7565993c3d7,
-            mid_mode_540b2b23d51b1efd,
-            mid_more_3720c61b0679eb3e,
-            mid_nextToken_9ddaacaf798f5cf6,
-            mid_notifyListeners_5cd4dbb1f11ee7f4,
-            mid_popMode_20fbf7565993c3d7,
-            mid_pushMode_540b2b23d51b1efd,
-            mid_recover_5cd4dbb1f11ee7f4,
-            mid_recover_3cb1ebd09e36450e,
-            mid_reset_3720c61b0679eb3e,
-            mid_setChannel_540b2b23d51b1efd,
-            mid_setCharPositionInLine_540b2b23d51b1efd,
-            mid_setInputStream_e95b24b8d6abbd06,
-            mid_setLine_540b2b23d51b1efd,
-            mid_setText_0d82408c6e55bc30,
-            mid_setToken_c666cf9aed935f19,
-            mid_setTokenFactory_70a7fa7b38564c5e,
-            mid_setType_540b2b23d51b1efd,
-            mid_skip_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_dd3882a10cadcfaa,
+            mid_emit_91a9980574ecdd91,
+            mid_emit_70070be696151485,
+            mid_emitEOF_91a9980574ecdd91,
+            mid_getAllTokens_1387e1e2702ac173,
+            mid_getChannel_bd89ce15dad49192,
+            mid_getChannelNames_970db9a2a49d840f,
+            mid_getCharErrorDisplay_0da8f0b89b1e9a22,
+            mid_getCharIndex_bd89ce15dad49192,
+            mid_getCharPositionInLine_bd89ce15dad49192,
+            mid_getErrorDisplay_fef9c036acf290a9,
+            mid_getErrorDisplay_0da8f0b89b1e9a22,
+            mid_getInputStream_ecdf4d21c837fa97,
+            mid_getLine_bd89ce15dad49192,
+            mid_getModeNames_970db9a2a49d840f,
+            mid_getSourceName_e7df854526d67fa3,
+            mid_getText_e7df854526d67fa3,
+            mid_getToken_91a9980574ecdd91,
+            mid_getTokenFactory_8ed3c222ea2cde3f,
+            mid_getTokenNames_970db9a2a49d840f,
+            mid_getType_bd89ce15dad49192,
+            mid_mode_8226bd0b0fc13dba,
+            mid_more_e7bdbe105ce1bafb,
+            mid_nextToken_91a9980574ecdd91,
+            mid_notifyListeners_dacd98d236da3ef2,
+            mid_popMode_bd89ce15dad49192,
+            mid_pushMode_8226bd0b0fc13dba,
+            mid_recover_dacd98d236da3ef2,
+            mid_recover_35b3d64af8385861,
+            mid_reset_e7bdbe105ce1bafb,
+            mid_setChannel_8226bd0b0fc13dba,
+            mid_setCharPositionInLine_8226bd0b0fc13dba,
+            mid_setInputStream_065453d2c889d4cb,
+            mid_setLine_8226bd0b0fc13dba,
+            mid_setText_ee46a189998009d6,
+            mid_setToken_70070be696151485,
+            mid_setTokenFactory_6c179beec6a94365,
+            mid_setType_8226bd0b0fc13dba,
+            mid_skip_e7bdbe105ce1bafb,
             max_mid
           };
 

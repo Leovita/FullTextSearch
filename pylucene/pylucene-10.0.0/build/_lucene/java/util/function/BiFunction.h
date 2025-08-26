@@ -6,8 +6,8 @@
 namespace java {
   namespace util {
     namespace function {
-      class Function;
       class BiFunction;
+      class Function;
     }
   }
   namespace lang {
@@ -23,8 +23,8 @@ namespace java {
       class BiFunction : public ::java::lang::Object {
        public:
         enum {
-          mid_andThen_5e35d2e2bdb50422,
-          mid_apply_243089e4ee289db6,
+          mid_andThen_e31cccbd829de0e5,
+          mid_apply_b3b175dfe26d2c44,
           max_mid
         };
 

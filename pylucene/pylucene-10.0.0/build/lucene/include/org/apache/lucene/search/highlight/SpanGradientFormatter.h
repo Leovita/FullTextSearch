@@ -31,8 +31,8 @@ namespace org {
           class SpanGradientFormatter : public ::org::apache::lucene::search::highlight::GradientFormatter {
            public:
             enum {
-              mid_init$_6173026fa3621f50,
-              mid_highlightTerm_ecd5d50f5d7e1e84,
+              mid_init$_479b58617a57298a,
+              mid_highlightTerm_210671a0f4b1b3cf,
               max_mid
             };
 

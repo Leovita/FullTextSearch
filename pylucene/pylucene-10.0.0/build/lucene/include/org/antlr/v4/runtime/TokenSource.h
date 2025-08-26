@@ -3,21 +3,21 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace antlr {
-    namespace v4 {
-      namespace runtime {
-        class TokenFactory;
-        class CharStream;
-        class Token;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
     class String;
+  }
+}
+namespace org {
+  namespace antlr {
+    namespace v4 {
+      namespace runtime {
+        class CharStream;
+        class TokenFactory;
+        class Token;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -30,13 +30,13 @@ namespace org {
         class TokenSource : public ::java::lang::Object {
          public:
           enum {
-            mid_getCharPositionInLine_20fbf7565993c3d7,
-            mid_getInputStream_b461eccf8f9c2fcc,
-            mid_getLine_20fbf7565993c3d7,
-            mid_getSourceName_09a7afff1868fc5e,
-            mid_getTokenFactory_c8e0d1a54d80678c,
-            mid_nextToken_9ddaacaf798f5cf6,
-            mid_setTokenFactory_70a7fa7b38564c5e,
+            mid_getCharPositionInLine_bd89ce15dad49192,
+            mid_getInputStream_ecdf4d21c837fa97,
+            mid_getLine_bd89ce15dad49192,
+            mid_getSourceName_e7df854526d67fa3,
+            mid_getTokenFactory_8ed3c222ea2cde3f,
+            mid_nextToken_91a9980574ecdd91,
+            mid_setTokenFactory_6c179beec6a94365,
             max_mid
           };
 

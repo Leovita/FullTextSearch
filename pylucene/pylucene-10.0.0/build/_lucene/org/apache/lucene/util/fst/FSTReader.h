@@ -36,8 +36,8 @@ namespace org {
           class FSTReader : public ::org::apache::lucene::util::Accountable {
            public:
             enum {
-              mid_getReverseBytesReader_14e8f9e66b6f303e,
-              mid_writeTo_3a071e25ad99bd99,
+              mid_getReverseBytesReader_541a60a9425cbcde,
+              mid_writeTo_949eccaa2018a6dc,
               max_mid
             };
 

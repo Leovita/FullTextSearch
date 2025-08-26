@@ -1,4 +1,5 @@
 import lucene
+import re
 from CSVReader import CSVReader
 from java.nio.file import Paths
 from org.apache.lucene.analysis.standard import StandardAnalyzer
@@ -9,8 +10,6 @@ from org.apache.lucene.search import IndexSearcher, BooleanQuery, BooleanClause,
 from org.apache.lucene.queryparser.classic import QueryParser
 from org.apache.lucene.search.similarities import BM25Similarity, ClassicSimilarity
 from org.apache.lucene.search.highlight import Highlighter, QueryScorer, SimpleHTMLFormatter  
-
-
 
 
 class PyLuceneSearchEngine:
@@ -35,54 +34,21 @@ class PyLuceneSearchEngine:
         self.writer = IndexWriter(self.index_dir, config)
         self.documenti = CSVReader(csv_file)
     
-
-    
-    def spell_check_query(self, query_text):
-        corrections = {
-            "tecnology": "technology",
-            "bussiness": "business",
-            "polotics": "politics",
-            "entertainmant": "entertainment",
-            "helth": "health",
-            "eduction": "education",
-            "sience": "science",
-            "enviroment": "environment",
-            "crim": "crime",
-            "christmas": "christmas",
-            "nite": "night",
-            "updte": "update",
-            "trend": "trend",
-            "reform": "reform",
-            # Nomi propri specifici del dataset
-            "gorden": "gordon",
-            "budjet": "budget",
-            "liverpol": "liverpool",
-            "footbal": "football",
-            "microsft": "microsoft",
-            "googl": "google",
-            "scootland": "scotland",
-            "armie": "army",
-            "toni": "tony",
-            "blare": "blair"
-        }
-        corrected_query = query_text
-        for wrong, correct in corrections.items():
-            if wrong in query_text.lower():
-                corrected_query = corrected_query.replace(wrong, correct)
-        return corrected_query
-    
+    #function to create boosted query prioritizing title and category
     def create_boosted_query(self, query_text, analyzer):
-        # Query principale sul contenuto
+        #boosting values
+        CATEGORY_BOOST = 1.5
+        TITLE_BOOST = 3.0
+
         main_query = QueryParser("all_text", analyzer).parse(query_text)
-        # Query boostata per titolo (peso 3.0)
         title_query = QueryParser("title", analyzer).parse(query_text)
-        boosted_title = BoostQuery(title_query, 3.0)
-        
-        # Query boostata per categoria (peso 2.0)
         category_query = QueryParser("category", analyzer).parse(query_text)
-        boosted_category = BoostQuery(category_query, 2.0)
-        
-        # Combina le query con OR
+
+        #query boosting: title and category have more weight than the main query
+        boosted_title = BoostQuery(title_query, TITLE_BOOST)
+        boosted_category = BoostQuery(category_query, CATEGORY_BOOST)
+
+        #combined query with boosted title and category
         combined_query = BooleanQuery.Builder()
         combined_query.add(main_query, BooleanClause.Occur.SHOULD)
         combined_query.add(boosted_title, BooleanClause.Occur.SHOULD)
@@ -90,23 +56,22 @@ class PyLuceneSearchEngine:
         
         return combined_query.build()
     
-    def indicizza_documento(self, title, text, category):
-        doc = Document()
-        doc.add(TextField("title", title, Field.Store.YES))  
-        doc.add(TextField("content", text, Field.Store.YES))  
-        doc.add(TextField("all_text", title + " " + text, Field.Store.NO))
-        doc.add(StringField("category", category, Field.Store.YES)) 
-        self.writer.addDocument(doc)
-    
     def index_documents(self):
+        """Indicizza tutti i documenti"""
         try:
             for doc in self.documenti:
-                self.indicizza_documento(doc["title"], doc["text"], doc["category"])
+                lucene_doc = Document()
+                lucene_doc.add(TextField("title", doc["title"], Field.Store.YES))  
+                lucene_doc.add(TextField("content", doc["text"], Field.Store.YES))  
+                lucene_doc.add(TextField("all_text", doc["title"] + " " + doc["text"], Field.Store.NO))
+                lucene_doc.add(StringField("category", doc["category"], Field.Store.YES)) 
+                
+                self.writer.addDocument(lucene_doc)
         finally:
             self.writer.close()
 
     def _setup_searcher(self, ranking_model):
-        """Setup del searcher con il modello di ranking appropriato"""
+        """Setup del searcher con il modello di ranking desiderato"""
         reader = DirectoryReader.open(self.index_dir)
         searcher = IndexSearcher(reader)
         
@@ -120,12 +85,14 @@ class PyLuceneSearchEngine:
         return reader, searcher
     
     def _process_query(self, query_text, use_advanced_features, analyzer):
-        """Processa la query con spell checking"""
-        # Spell Checking
-        corrected_query = self.spell_check_query(query_text)
-        if corrected_query != query_text:
-            print(f"Query corretta: '{query_text}' → '{corrected_query}'")
-            query_text = corrected_query
+        """Processa e migliora la query prima della ricerca"""
+        if not query_text or not query_text.strip():
+            return ""
+        
+        #query cleaning
+        query_text = query_text.strip().lower()
+        query_text = re.sub(r'[^\w\s]', ' ', query_text)    
+        query_text = re.sub(r'\s+', ' ', query_text)
         
         return query_text
     
@@ -135,7 +102,7 @@ class PyLuceneSearchEngine:
             query = self.create_boosted_query(query_text, analyzer)
             hits = self.searcher.search(query, top_n * 2).scoreDocs
         else:
-            # Strategia: prima esatta, poi fuzzy
+            #prima esatta, poi fuzzy con boost
             query_exact = QueryParser("all_text", analyzer).parse(query_text)
             hits_exact = self.searcher.search(query_exact, top_n).scoreDocs
             
@@ -158,7 +125,6 @@ class PyLuceneSearchEngine:
             content = doc.get("content") or "Contenuto non disponibile"
             category = doc.get("category") or "Categoria non disponibile"
             
-            # Genera snippet evidenziati
             try:
                 highlighted_title = highlighter.getBestFragment(analyzer, "title", title) or title
                 highlighted_content = highlighter.getBestFragment(analyzer, "content", content) or content[:200] + "..."
@@ -176,20 +142,15 @@ class PyLuceneSearchEngine:
         analyzer = StandardAnalyzer()
         
         try:
-            # Processa query
             query_text = self._process_query(query_text, use_advanced_features, analyzer)
-            
-            # Esegue ricerca
             query, hits = self._execute_search(query_text, analyzer, use_advanced_features, top_n)
             
-            # Setup highlighter
+            #highlighting per il matching
             formatter = SimpleHTMLFormatter("<mark>", "</mark>")
             scorer = QueryScorer(query)
             highlighter = Highlighter(formatter, scorer)
             
-            # Processa risultati
             results = self._process_results(hits, highlighter, analyzer)
-            
             return results[:top_n]
             
         finally:

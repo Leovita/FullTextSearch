@@ -3,24 +3,24 @@
 
 #include "org/apache/lucene/index/SortedDocValues.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace util {
-        class BytesRef;
-      }
-      namespace index {
-        class OrdinalMap;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace index {
+        class OrdinalMap;
+      }
+      namespace util {
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -33,15 +33,15 @@ namespace org {
         class MultiDocValues$MultiSortedDocValues : public ::org::apache::lucene::index::SortedDocValues {
          public:
           enum {
-            mid_init$_83c3779e69715538,
-            mid_advance_3c9bba330f083871,
-            mid_advanceExact_ae22d3a856ad56f1,
-            mid_cost_16939d9d0a9a9721,
-            mid_docID_20fbf7565993c3d7,
-            mid_getValueCount_20fbf7565993c3d7,
-            mid_lookupOrd_29bb531a30fe8369,
-            mid_nextDoc_20fbf7565993c3d7,
-            mid_ordValue_20fbf7565993c3d7,
+            mid_init$_8e784312a49a1663,
+            mid_advance_a3904e10f5bb9437,
+            mid_advanceExact_a8281eb3b9d9672d,
+            mid_cost_0f176418e3e16541,
+            mid_docID_bd89ce15dad49192,
+            mid_getValueCount_bd89ce15dad49192,
+            mid_lookupOrd_1e79f110a34c4312,
+            mid_nextDoc_bd89ce15dad49192,
+            mid_ordValue_bd89ce15dad49192,
             max_mid
           };
 

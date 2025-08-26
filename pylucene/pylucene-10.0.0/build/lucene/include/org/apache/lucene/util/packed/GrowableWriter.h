@@ -30,18 +30,18 @@ namespace org {
           class GrowableWriter : public ::org::apache::lucene::util::packed::PackedInts$Mutable {
            public:
             enum {
-              mid_init$_c891bbfbb935732a,
-              mid_clear_3720c61b0679eb3e,
-              mid_fill_d02046eceb4997f8,
-              mid_get_7b22650fccb5d574,
-              mid_get_be281815fcc98213,
-              mid_getBitsPerValue_20fbf7565993c3d7,
-              mid_getMutable_ca6b44e60afd9ceb,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_resize_098b0add26dbcc81,
-              mid_set_52c53d6e59b40db2,
-              mid_set_be281815fcc98213,
-              mid_size_20fbf7565993c3d7,
+              mid_init$_637d040f0f81bc84,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_fill_ee45698dad8106c5,
+              mid_get_49af390f180d8ee7,
+              mid_get_bee5a5809f1f577a,
+              mid_getBitsPerValue_bd89ce15dad49192,
+              mid_getMutable_6c055bc9c5882b3a,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_resize_2f11bdfe0d611dea,
+              mid_set_1d43622e571bd043,
+              mid_set_bee5a5809f1f577a,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

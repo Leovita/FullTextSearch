@@ -3,6 +3,11 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,11 +23,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -34,16 +34,16 @@ namespace org {
           class NFARunAutomaton : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_71373fad5757dc3c,
-              mid_init$_c0be4f60ca27e723,
-              mid_getNextTransition_4f84c15bb57a2203,
-              mid_getNumTransitions_3c9bba330f083871,
-              mid_getSize_20fbf7565993c3d7,
-              mid_getTransition_f6e319e1e7df0a84,
-              mid_initTransition_699bf4b5b73db6d6,
-              mid_isAccept_ae22d3a856ad56f1,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_step_7f733b5d08bb5ec4,
+              mid_init$_7350cbdcd883df0a,
+              mid_init$_4144d90d35e82925,
+              mid_getNextTransition_6c54ca7f042c9484,
+              mid_getNumTransitions_a3904e10f5bb9437,
+              mid_getSize_bd89ce15dad49192,
+              mid_getTransition_092e1865fab21c72,
+              mid_initTransition_4be620059fef20d2,
+              mid_isAccept_a8281eb3b9d9672d,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_step_7f27cf81a85a97e9,
               max_mid
             };
 

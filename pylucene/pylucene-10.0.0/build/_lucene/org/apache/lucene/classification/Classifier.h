@@ -3,15 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace classification {
-        class ClassificationResult;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
@@ -24,6 +15,15 @@ namespace java {
     class List;
   }
 }
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace classification {
+        class ClassificationResult;
+      }
+    }
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -34,9 +34,9 @@ namespace org {
         class Classifier : public ::java::lang::Object {
          public:
           enum {
-            mid_assignClass_d43a29c6c576ed5d,
-            mid_getClasses_8eaa545bb5a79de3,
-            mid_getClasses_844be75dc1eb0e33,
+            mid_assignClass_f41729c7a04388b4,
+            mid_getClasses_49920ced44282529,
+            mid_getClasses_de45d3d1e8012f87,
             max_mid
           };
 

@@ -20,7 +20,7 @@ namespace java {
       class DirectoryStream$Filter : public ::java::lang::Object {
        public:
         enum {
-          mid_accept_570b5248a6da3ef6,
+          mid_accept_00d17418847797d4,
           max_mid
         };
 

@@ -6,28 +6,28 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class Accountable;
-      }
       namespace store {
+        class Directory;
         class IndexOutput;
         class IndexInput;
         class IOContext;
-        class Directory;
+      }
+      namespace util {
+        class Accountable;
       }
     }
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -40,20 +40,20 @@ namespace org {
         class NRTCachingDirectory : public ::org::apache::lucene::store::FilterDirectory {
          public:
           enum {
-            mid_init$_461ef76acabea809,
-            mid_close_3720c61b0679eb3e,
-            mid_createOutput_08efc12d1beeafa9,
-            mid_createTempOutput_767e9bfea4c09d00,
-            mid_deleteFile_0d82408c6e55bc30,
-            mid_fileLength_e942a6f864c95ca0,
-            mid_listAll_6da8f3ea65e22733,
-            mid_listCachedFiles_6da8f3ea65e22733,
-            mid_openInput_f1f6511a018f52d0,
-            mid_ramBytesUsed_16939d9d0a9a9721,
-            mid_rename_3d104da0b5c75e64,
-            mid_sync_40eba2cff967cc45,
-            mid_toString_09a7afff1868fc5e,
-            mid_doCacheWrite_307c42c1df938f9a,
+            mid_init$_1973dfd131a1ec4d,
+            mid_close_e7bdbe105ce1bafb,
+            mid_createOutput_5ee859a77f556d05,
+            mid_createTempOutput_c416e7b8f77d8569,
+            mid_deleteFile_ee46a189998009d6,
+            mid_fileLength_490f1686ea1cfda6,
+            mid_listAll_970db9a2a49d840f,
+            mid_listCachedFiles_970db9a2a49d840f,
+            mid_openInput_fc1a53ef559ae62a,
+            mid_ramBytesUsed_0f176418e3e16541,
+            mid_rename_0dd012a11c3f389b,
+            mid_sync_b5398b431eb321fb,
+            mid_toString_e7df854526d67fa3,
+            mid_doCacheWrite_05eec37f3d132102,
             max_mid
           };
 

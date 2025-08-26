@@ -31,8 +31,8 @@ namespace org {
           class ScoreMode : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_75a97e47be4d9d61,
-              mid_values_6ca809d463d43ba5,
+              mid_valueOf_e6caabf72d07d0ba,
+              mid_values_6d84557eff1798da,
               max_mid
             };
 

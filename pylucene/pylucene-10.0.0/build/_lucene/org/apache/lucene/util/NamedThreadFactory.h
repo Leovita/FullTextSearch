@@ -5,10 +5,10 @@
 
 namespace java {
   namespace lang {
-    class Class;
-    class String;
     class Runnable;
     class Thread;
+    class Class;
+    class String;
   }
   namespace util {
     namespace concurrent {
@@ -26,8 +26,8 @@ namespace org {
         class NamedThreadFactory : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_0d82408c6e55bc30,
-            mid_newThread_b7c94fccf120862d,
+            mid_init$_ee46a189998009d6,
+            mid_newThread_f5e519c688d87f98,
             max_mid
           };
 

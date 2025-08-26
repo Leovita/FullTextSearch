@@ -16,8 +16,8 @@ namespace org {
     namespace lucene {
       namespace codecs {
         namespace uniformsplit {
-          class IndexDictionary;
           class BlockEncoder;
+          class IndexDictionary;
         }
       }
       namespace store {
@@ -37,8 +37,8 @@ namespace org {
           class FSTDictionary : public ::java::lang::Object {
            public:
             enum {
-              mid_write_92a1156cce64bb27,
-              mid_read_59b876a181a9174e,
+              mid_write_abb2afb031e7df2d,
+              mid_read_0a016c48972b5507,
               max_mid
             };
 

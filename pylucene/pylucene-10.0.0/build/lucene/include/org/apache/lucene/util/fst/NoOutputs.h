@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/util/fst/Outputs.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class DataInput;
+        class DataOutput;
+      }
       namespace util {
         namespace fst {
           class NoOutputs;
         }
       }
-      namespace store {
-        class DataInput;
-        class DataOutput;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -36,17 +36,17 @@ namespace org {
           class NoOutputs : public ::org::apache::lucene::util::fst::Outputs {
            public:
             enum {
-              mid_add_243089e4ee289db6,
-              mid_common_243089e4ee289db6,
-              mid_getNoOutput_5655ed8670534604,
-              mid_getSingleton_af656885cb51172b,
-              mid_merge_243089e4ee289db6,
-              mid_outputToString_a6472d0c4a2d4dc6,
-              mid_ramBytesUsed_eed3c4edb9cd98e2,
-              mid_read_76ad041c51ef9e53,
-              mid_subtract_243089e4ee289db6,
-              mid_toString_09a7afff1868fc5e,
-              mid_write_1fb2a58964472a7b,
+              mid_add_b3b175dfe26d2c44,
+              mid_common_b3b175dfe26d2c44,
+              mid_getNoOutput_4819806f62f1360a,
+              mid_getSingleton_750ac1b93f19bb8f,
+              mid_merge_b3b175dfe26d2c44,
+              mid_outputToString_5f92096499c6603e,
+              mid_ramBytesUsed_5dbd30c7e10c20e0,
+              mid_read_6c9264745f696649,
+              mid_subtract_b3b175dfe26d2c44,
+              mid_toString_e7df854526d67fa3,
+              mid_write_dd080dec4470e08d,
               max_mid
             };
 

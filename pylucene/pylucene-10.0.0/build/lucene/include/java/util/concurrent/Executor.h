@@ -18,7 +18,7 @@ namespace java {
       class Executor : public ::java::lang::Object {
        public:
         enum {
-          mid_execute_5f8e9a753ad746d2,
+          mid_execute_b278873deffbc02b,
           max_mid
         };
 

@@ -7,24 +7,24 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace facet {
-        class FacetsCollector$MatchingDocs;
-        class RandomSamplingFacetsCollector;
-        class FacetsConfig;
         class FacetResult;
+        class RandomSamplingFacetsCollector;
+        class FacetsCollector$MatchingDocs;
+        class FacetsConfig;
       }
       namespace search {
-        class CollectorManager;
         class IndexSearcher;
+        class CollectorManager;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class List;
@@ -40,13 +40,13 @@ namespace org {
         class RandomSamplingFacetsCollector : public ::org::apache::lucene::facet::FacetsCollector {
          public:
           enum {
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_52c53d6e59b40db2,
-            mid_amortizeFacetCounts_8f00415b66cd6096,
-            mid_createManager_17dfdb2952fcd444,
-            mid_getMatchingDocs_36830460e10839eb,
-            mid_getOriginalMatchingDocs_36830460e10839eb,
-            mid_getSamplingRate_32caabaad86c508b,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_1d43622e571bd043,
+            mid_amortizeFacetCounts_643318eaad256a08,
+            mid_createManager_a67b6142fcc6ca09,
+            mid_getMatchingDocs_1387e1e2702ac173,
+            mid_getOriginalMatchingDocs_1387e1e2702ac173,
+            mid_getSamplingRate_6fb37e123fed7a1f,
             max_mid
           };
 

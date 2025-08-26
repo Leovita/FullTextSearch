@@ -15,9 +15,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
+        class IndexReader$CacheHelper;
         class CompositeReader;
         class LeafReader;
-        class IndexReader$CacheHelper;
       }
     }
   }
@@ -32,11 +32,11 @@ namespace org {
         class ParallelCompositeReader : public ::org::apache::lucene::index::BaseCompositeReader {
          public:
           enum {
-            mid_init$_ce9257851b4a180f,
-            mid_init$_917987b919a2e2ff,
-            mid_init$_25ea3cbc024acce5,
-            mid_getReaderCacheHelper_3117e2e82cc46163,
-            mid_doClose_3720c61b0679eb3e,
+            mid_init$_a263278a99f8e44d,
+            mid_init$_e11031eefb9e1cc7,
+            mid_init$_d0caf5203f7fb352,
+            mid_getReaderCacheHelper_bcf8e7a3b3f2dbe2,
+            mid_doClose_e7bdbe105ce1bafb,
             max_mid
           };
 

@@ -3,27 +3,27 @@
 
 #include "java/lang/Object.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class IOContext;
         class Directory;
+        class IOContext;
       }
       namespace index {
         class SegmentInfo;
         class FieldInfos;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -36,8 +36,8 @@ namespace org {
         class FieldInfosFormat : public ::java::lang::Object {
          public:
           enum {
-            mid_read_c653153ad3f09a4d,
-            mid_write_1a554da1e48bfb17,
+            mid_read_c2ab35f59080fc68,
+            mid_write_c65ff8c436a36221,
             max_mid
           };
 

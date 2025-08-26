@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/FieldableNode.h"
 
-namespace java {
-  namespace lang {
-    class Object;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -24,6 +18,12 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -37,10 +37,10 @@ namespace org {
               class RangeQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::FieldableNode {
                public:
                 enum {
-                  mid_getLowerBound_0aac99d16f405c93,
-                  mid_getUpperBound_0aac99d16f405c93,
-                  mid_isLowerInclusive_947277eca0748c4e,
-                  mid_isUpperInclusive_947277eca0748c4e,
+                  mid_getLowerBound_e70134a84b454b28,
+                  mid_getUpperBound_e70134a84b454b28,
+                  mid_isLowerInclusive_9aa4f33e82ea333f,
+                  mid_isUpperInclusive_9aa4f33e82ea333f,
                   max_mid
                 };
 

@@ -3,26 +3,26 @@
 
 #include "org/apache/lucene/document/Field.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace geo {
+        class XYGeometry;
+        class XYPolygon;
+      }
       namespace search {
         class Query;
       }
       namespace document {
         class FieldType;
       }
-      namespace geo {
-        class XYGeometry;
-        class XYPolygon;
-      }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -35,13 +35,13 @@ namespace org {
         class XYPointField : public ::org::apache::lucene::document::Field {
          public:
           enum {
-            mid_init$_718f262b86e1be29,
-            mid_newBoxQuery_70655ebbf0e97082,
-            mid_newDistanceQuery_c8bcc65a049a42ea,
-            mid_newGeometryQuery_ad82294ac6e13ebf,
-            mid_newPolygonQuery_c064891a08451493,
-            mid_setLocationValue_13cb7e72f513d797,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_d92272036f137b6e,
+            mid_newBoxQuery_2b2dee22a7ea3941,
+            mid_newDistanceQuery_d8abc65d9cd2880f,
+            mid_newGeometryQuery_0db2ddb404b8e65c,
+            mid_newPolygonQuery_105d97cbf37538b5,
+            mid_setLocationValue_cb7687d0612879b8,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

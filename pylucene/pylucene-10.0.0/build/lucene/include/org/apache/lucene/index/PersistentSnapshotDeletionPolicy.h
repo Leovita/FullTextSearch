@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace index {
         class IndexWriterConfig$OpenMode;
         class IndexDeletionPolicy;
         class IndexCommit;
-      }
-      namespace store {
-        class Directory;
       }
     }
   }
@@ -36,12 +36,12 @@ namespace org {
         class PersistentSnapshotDeletionPolicy : public ::org::apache::lucene::index::SnapshotDeletionPolicy {
          public:
           enum {
-            mid_init$_89059ce984771846,
-            mid_init$_324996cf6bfe70a8,
-            mid_getLastSaveFile_09a7afff1868fc5e,
-            mid_release_2b1e61274f0bac24,
-            mid_release_8b3d46852b435a94,
-            mid_snapshot_271a09cc45c80524,
+            mid_init$_4506af955a1d9bb3,
+            mid_init$_796446b8cf207aae,
+            mid_getLastSaveFile_e7df854526d67fa3,
+            mid_release_8fc5926f74e4489e,
+            mid_release_1d3149fac12f2af3,
+            mid_snapshot_3f5d748efdffe9e0,
             max_mid
           };
 

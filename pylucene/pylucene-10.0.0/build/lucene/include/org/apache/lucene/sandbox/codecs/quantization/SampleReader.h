@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/index/FloatVectorValues.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -35,6 +27,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -47,17 +47,17 @@ namespace org {
             class SampleReader : public ::org::apache::lucene::index::FloatVectorValues {
              public:
               enum {
-                mid_copy_f06cbfc19b53100d,
-                mid_createSampleReader_1992bb6c66fc3d3d,
-                mid_dimension_20fbf7565993c3d7,
-                mid_getAcceptOrds_372c76d90ab3ad4a,
-                mid_getSlice_69ff96f993716366,
-                mid_getVectorByteLength_20fbf7565993c3d7,
-                mid_ordToDoc_3c9bba330f083871,
-                mid_reservoirSample_88e4637d699e594f,
-                mid_reservoirSampleFromArray_ea8d5259a82a03de,
-                mid_size_20fbf7565993c3d7,
-                mid_vectorValue_837967dda86e7ad8,
+                mid_copy_04d6751cd1004caf,
+                mid_createSampleReader_418be144d1a965d2,
+                mid_dimension_bd89ce15dad49192,
+                mid_getAcceptOrds_952ad757d5b0c3b2,
+                mid_getSlice_1107977def75ee66,
+                mid_getVectorByteLength_bd89ce15dad49192,
+                mid_ordToDoc_a3904e10f5bb9437,
+                mid_reservoirSample_145659a0ef21f21f,
+                mid_reservoirSampleFromArray_ee01677ce2f5bca6,
+                mid_size_bd89ce15dad49192,
+                mid_vectorValue_4392f4b0f19a3288,
                 max_mid
               };
 

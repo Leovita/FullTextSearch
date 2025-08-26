@@ -22,10 +22,10 @@ namespace java {
       class DoublePredicate : public ::java::lang::Object {
        public:
         enum {
-          mid_and_4c14ae8048c227b8,
-          mid_negate_265f48db17f573fc,
-          mid_or_4c14ae8048c227b8,
-          mid_test_9c3aeb3f8504878d,
+          mid_and_e5c94689d68b9721,
+          mid_negate_80973ea7c9771707,
+          mid_or_e5c94689d68b9721,
+          mid_test_38862de998abbf87,
           max_mid
         };
 

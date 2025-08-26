@@ -3,29 +3,29 @@
 
 #include "org/apache/lucene/analysis/TokenFilterFactory.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class List;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class ResourceLoader;
         class ResourceLoaderAware;
+        class ResourceLoader;
       }
       namespace analysis {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -39,12 +39,12 @@ namespace org {
           class ConditionalTokenFilterFactory : public ::org::apache::lucene::analysis::TokenFilterFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_create_2ec4d1726b35d478,
-              mid_inform_6addbf380886844e,
-              mid_setInnerFilters_9425cd4f62c94bce,
-              mid_doInform_6addbf380886844e,
-              mid_create_f398725843466ada,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_create_f3e050e998938273,
+              mid_inform_4ba602df53b96765,
+              mid_setInnerFilters_acbb405b60a30822,
+              mid_doInform_4ba602df53b96765,
+              mid_create_2c651391adf9fd6e,
               max_mid
             };
 

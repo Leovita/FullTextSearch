@@ -3,28 +3,28 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/QueryNodeImpl.h"
 
-namespace java {
-  namespace lang {
-    class CharSequence;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace queryparser {
         namespace flexible {
           namespace core {
-            namespace nodes {
-              class GroupQueryNode;
-            }
             namespace parser {
               class EscapeQuerySyntax;
+            }
+            namespace nodes {
+              class GroupQueryNode;
             }
           }
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class CharSequence;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -40,8 +40,8 @@ namespace org {
               class MinShouldMatchNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNodeImpl {
                public:
                 enum {
-                  mid_init$_3dfa8a490e6cb45b,
-                  mid_toQueryString_d4d5dbebf21f5529,
+                  mid_init$_03612dc0bed6222b,
+                  mid_toQueryString_5260f1dc7a86fc8d,
                   max_mid
                 };
 

@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/store/FilterDirectory.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Set;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
+        class Directory;
         class IndexOutput;
         class IOContext;
-        class Directory;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -36,14 +36,14 @@ namespace org {
         class TrackingDirectoryWrapper : public ::org::apache::lucene::store::FilterDirectory {
          public:
           enum {
-            mid_init$_3c151c130d7f3176,
-            mid_clearCreatedFiles_3720c61b0679eb3e,
-            mid_copyFrom_23ba349b04fb6402,
-            mid_createOutput_08efc12d1beeafa9,
-            mid_createTempOutput_767e9bfea4c09d00,
-            mid_deleteFile_0d82408c6e55bc30,
-            mid_getCreatedFiles_4df174295554d7bd,
-            mid_rename_3d104da0b5c75e64,
+            mid_init$_0bf39a7351552ef4,
+            mid_clearCreatedFiles_e7bdbe105ce1bafb,
+            mid_copyFrom_690af4af74b7d11b,
+            mid_createOutput_5ee859a77f556d05,
+            mid_createTempOutput_c416e7b8f77d8569,
+            mid_deleteFile_ee46a189998009d6,
+            mid_getCreatedFiles_79131c6bbcf08916,
+            mid_rename_0dd012a11c3f389b,
             max_mid
           };
 

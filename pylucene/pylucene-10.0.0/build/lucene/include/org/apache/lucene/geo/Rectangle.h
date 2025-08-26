@@ -3,6 +3,13 @@
 
 #include "org/apache/lucene/geo/LatLonGeometry.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,13 +18,6 @@ namespace org {
         class Polygon;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -30,16 +30,16 @@ namespace org {
         class Rectangle : public ::org::apache::lucene::geo::LatLonGeometry {
          public:
           enum {
-            mid_init$_e61e485ff70a664a,
-            mid_axisLat_351e9c3c9f2fa814,
-            mid_containsPoint_76b9f452c8cc4e1e,
-            mid_crossesDateline_947277eca0748c4e,
-            mid_equals_570b5248a6da3ef6,
-            mid_fromPointDistance_dc5047659fe8a580,
-            mid_fromPolygon_f42747c7d4da4418,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_toString_09a7afff1868fc5e,
-            mid_toComponent2D_2671ab2559e4bc09,
+            mid_init$_c9622524895ed2c0,
+            mid_axisLat_9314817161e40a7e,
+            mid_containsPoint_69c138b7b2573e2f,
+            mid_crossesDateline_9aa4f33e82ea333f,
+            mid_equals_00d17418847797d4,
+            mid_fromPointDistance_7eaa13cfd9927dfd,
+            mid_fromPolygon_122b3201ea13e8e1,
+            mid_hashCode_bd89ce15dad49192,
+            mid_toString_e7df854526d67fa3,
+            mid_toComponent2D_826bc66e4432f11e,
             max_mid
           };
 

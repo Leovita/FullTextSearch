@@ -36,10 +36,10 @@ namespace org {
           class Scorer : public ::java::lang::Object {
            public:
             enum {
-              mid_getFragmentScore_9b6c3480dac00edf,
-              mid_getTokenScore_9b6c3480dac00edf,
-              mid_init_2ec4d1726b35d478,
-              mid_startFragment_bc0317ca0a60e657,
+              mid_getFragmentScore_8b62236f0e4d0dbc,
+              mid_getTokenScore_8b62236f0e4d0dbc,
+              mid_init_f3e050e998938273,
+              mid_startFragment_f36ca6b77c71a3d9,
               max_mid
             };
 

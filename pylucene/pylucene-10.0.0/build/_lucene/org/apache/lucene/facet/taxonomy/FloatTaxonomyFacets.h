@@ -19,14 +19,14 @@ namespace org {
           class FloatTaxonomyFacets : public ::org::apache::lucene::facet::taxonomy::TaxonomyFacets {
            public:
             enum {
-              mid_initializeValueCounters_3720c61b0679eb3e,
-              mid_aggregate_a685481dd64af72c,
-              mid_updateValueFromRollup_e13cff512ebda969,
-              mid_getAggregationValue_13adcd87371d50e0,
-              mid_makeTopOrdAndNumberQueue_eec4003abf81cdc5,
-              mid_missingAggregationValue_1b3282bb4db06655,
-              mid_setIncomingValue_bb7eb638460d3d2b,
-              mid_newAggregatedValue_35b168b2ea0a0ab9,
+              mid_aggregate_49932d4e2173766c,
+              mid_initializeValueCounters_e7bdbe105ce1bafb,
+              mid_updateValueFromRollup_645c25455f5b9b1c,
+              mid_getAggregationValue_fe1a54672f48742c,
+              mid_makeTopOrdAndNumberQueue_16acc16a07b97b58,
+              mid_missingAggregationValue_b9665294ea488d3c,
+              mid_setIncomingValue_6b82b4638c014b45,
+              mid_newAggregatedValue_f1d9a76ae0906ed6,
               max_mid
             };
 

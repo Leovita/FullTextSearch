@@ -36,7 +36,7 @@ namespace org {
               class QueryNodeOperation : public ::java::lang::Object {
                public:
                 enum {
-                  mid_logicalAnd_7a0ea0881edc1dc5,
+                  mid_logicalAnd_6e846a92344308c7,
                   max_mid
                 };
 

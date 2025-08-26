@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class SpanPayloadCheckQuery$MatchOperation : public ::java::lang::Enum {
            public:
             enum {
-              mid_valueOf_bdeea44d08ab734a,
-              mid_values_ed611eeea27955f8,
+              mid_valueOf_acd039bfe78eb280,
+              mid_values_b589652a5dd2746f,
               max_mid
             };
 

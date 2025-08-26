@@ -24,9 +24,9 @@ namespace org {
             class VectorFieldFunction : public ::org::apache::lucene::queries::function::FunctionValues {
              public:
               enum {
-                mid_exists_ae22d3a856ad56f1,
-                mid_toString_cd8436557ab831f9,
-                mid_getVectorIterator_fc644a826c65d236,
+                mid_exists_a8281eb3b9d9672d,
+                mid_toString_0da8f0b89b1e9a22,
+                mid_getVectorIterator_b78969502cbf4939,
                 max_mid
               };
 

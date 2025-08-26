@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/analysis/ko/dict/TokenInfoMorphData.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,6 +14,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,8 +34,8 @@ namespace org {
             class UnknownMorphData : public ::org::apache::lucene::analysis::ko::dict::TokenInfoMorphData {
              public:
               enum {
-                mid_getMorphemes_2adb092e08e57358,
-                mid_getReading_cd8436557ab831f9,
+                mid_getMorphemes_f5b40e1c8b3719a4,
+                mid_getReading_0da8f0b89b1e9a22,
                 max_mid
               };
 

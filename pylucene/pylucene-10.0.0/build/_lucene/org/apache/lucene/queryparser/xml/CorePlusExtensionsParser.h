@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace analysis {
-        class Analyzer;
-      }
       namespace queryparser {
         namespace classic {
           class QueryParser;
         }
+      }
+      namespace analysis {
+        class Analyzer;
       }
     }
   }
@@ -34,8 +34,8 @@ namespace org {
           class CorePlusExtensionsParser : public ::org::apache::lucene::queryparser::xml::CorePlusQueriesParser {
            public:
             enum {
-              mid_init$_5ad8a03860372cd3,
-              mid_init$_c50f2f6f1d850d13,
+              mid_init$_33176810276667e4,
+              mid_init$_cc97c286759ef3b4,
               max_mid
             };
 

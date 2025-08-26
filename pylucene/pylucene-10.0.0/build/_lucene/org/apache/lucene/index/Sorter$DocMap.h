@@ -18,9 +18,9 @@ namespace org {
         class Sorter$DocMap : public ::java::lang::Object {
          public:
           enum {
-            mid_newToOld_3c9bba330f083871,
-            mid_oldToNew_3c9bba330f083871,
-            mid_size_20fbf7565993c3d7,
+            mid_newToOld_a3904e10f5bb9437,
+            mid_oldToNew_a3904e10f5bb9437,
+            mid_size_bd89ce15dad49192,
             max_mid
           };
 

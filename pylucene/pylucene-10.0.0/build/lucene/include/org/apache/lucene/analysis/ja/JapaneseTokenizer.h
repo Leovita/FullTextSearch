@@ -3,19 +3,28 @@
 
 #include "org/apache/lucene/analysis/Tokenizer.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
         namespace ja {
+          class JapaneseTokenizer$Mode;
           namespace dict {
-            class UnknownDictionary;
-            class ConnectionCosts;
-            class UserDictionary;
             class TokenInfoDictionary;
+            class ConnectionCosts;
+            class UnknownDictionary;
+            class UserDictionary;
             class JaMorphData;
           }
-          class JapaneseTokenizer$Mode;
         }
         namespace morph {
           class GraphvizFormatter;
@@ -25,15 +34,6 @@ namespace org {
         class AttributeFactory;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -47,18 +47,18 @@ namespace org {
           class JapaneseTokenizer : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_4ed9ea6a53f3eaee,
-              mid_init$_f5d8e3b0419645fd,
-              mid_init$_422f3be857d31187,
-              mid_init$_9e62965a827c90df,
-              mid_init$_45e5f617616fda55,
-              mid_calcNBestCost_3f230d713d7fd2b0,
-              mid_close_3720c61b0679eb3e,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
-              mid_setGraphvizFormatter_b59415f24de77e37,
-              mid_setNBestCost_540b2b23d51b1efd,
+              mid_init$_1b4d068f29966121,
+              mid_init$_d0b134750b62e36e,
+              mid_init$_e659ffacbf2dac33,
+              mid_init$_1753ff7661fe9595,
+              mid_init$_7cd28bb2002f12f4,
+              mid_calcNBestCost_fa2a6f298bd618ab,
+              mid_close_e7bdbe105ce1bafb,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
+              mid_setGraphvizFormatter_faba969b4b03547a,
+              mid_setNBestCost_8226bd0b0fc13dba,
               max_mid
             };
 

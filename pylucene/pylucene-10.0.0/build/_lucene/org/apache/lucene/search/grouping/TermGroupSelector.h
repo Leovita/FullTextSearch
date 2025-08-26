@@ -7,11 +7,11 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Scorable;
         namespace grouping {
-          class GroupSelector$State;
           class SearchGroup;
+          class GroupSelector$State;
         }
+        class Scorable;
       }
       namespace util {
         class BytesRef;
@@ -23,15 +23,15 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -45,13 +45,13 @@ namespace org {
           class TermGroupSelector : public ::org::apache::lucene::search::grouping::GroupSelector {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_advanceTo_f1eafbb57835401c,
-              mid_copyValue_9740fddd1c7df148,
-              mid_currentValue_9740fddd1c7df148,
-              mid_setGroups_40eba2cff967cc45,
-              mid_setNextReader_b7b06dce0a4097ed,
-              mid_setScorer_dd42dde4c0a7db1e,
+              mid_init$_ee46a189998009d6,
+              mid_advanceTo_15b8933896566317,
+              mid_copyValue_adbedbc1fa61c358,
+              mid_currentValue_adbedbc1fa61c358,
+              mid_setGroups_b5398b431eb321fb,
+              mid_setNextReader_32243afefe6b151f,
+              mid_setScorer_c06bdf7d53c6460a,
               max_mid
             };
 

@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/util/Attribute.h"
 
-namespace java {
-  namespace lang {
-    class Appendable;
-    class Class;
-    class CharSequence;
-    class String;
-    class StringBuilder;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,6 +12,15 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Appendable;
+    class Class;
+    class StringBuilder;
+    class String;
+    class CharSequence;
   }
 }
 template<class T> class JArray;
@@ -34,17 +34,17 @@ namespace org {
           class CharTermAttribute : public ::org::apache::lucene::util::Attribute {
            public:
             enum {
-              mid_append_93c3e51ee367b727,
-              mid_append_6ded55a46c89e9ea,
-              mid_append_8fd290207a88902a,
-              mid_append_fdef7fd064209339,
-              mid_append_107fc9eadd9a04d0,
-              mid_append_c0e9d633af448f1d,
-              mid_buffer_77d52ded526199de,
-              mid_copyBuffer_fc9be2ded8ee801f,
-              mid_resizeBuffer_b99eaae8e7f3ab85,
-              mid_setEmpty_6c99065d62f8e710,
-              mid_setLength_4565eb3469a6f0b6,
+              mid_append_9b92f6e313a4d773,
+              mid_append_016de536220d6cf7,
+              mid_append_bf52ddc416077be8,
+              mid_append_f1020fd319425e9f,
+              mid_append_5222518cf8139859,
+              mid_append_9b607feb724e19ec,
+              mid_buffer_e5926045e1917c62,
+              mid_copyBuffer_186bb5d1c1aec30c,
+              mid_resizeBuffer_25bf44068950f64b,
+              mid_setEmpty_fd305bd0e2b05b3a,
+              mid_setLength_5e7ff32332c44cee,
               max_mid
             };
 

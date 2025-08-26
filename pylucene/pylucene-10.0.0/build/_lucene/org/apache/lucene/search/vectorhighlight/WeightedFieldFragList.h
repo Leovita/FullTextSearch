@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/search/vectorhighlight/FieldFragList.h"
 
-namespace java {
-  namespace util {
-    class List;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -20,6 +12,14 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace util {
+    class List;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -33,8 +33,8 @@ namespace org {
           class WeightedFieldFragList : public ::org::apache::lucene::search::vectorhighlight::FieldFragList {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_add_387f5fca04f5a3f6,
+              mid_init$_8226bd0b0fc13dba,
+              mid_add_c144670d3f0e91dd,
               max_mid
             };
 

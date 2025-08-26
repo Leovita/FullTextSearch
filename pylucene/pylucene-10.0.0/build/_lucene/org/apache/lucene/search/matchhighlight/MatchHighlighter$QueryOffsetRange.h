@@ -7,10 +7,10 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         namespace matchhighlight {
           class MatchHighlighter$QueryOffsetRange;
         }
+        class Query;
       }
     }
   }
@@ -31,8 +31,8 @@ namespace org {
           class MatchHighlighter$QueryOffsetRange : public ::org::apache::lucene::search::matchhighlight::OffsetRange {
            public:
             enum {
-              mid_init$_581826ec8668b4cd,
-              mid_slice_102e6b6ff11fb042,
+              mid_init$_e87df57c562056f3,
+              mid_slice_c487bdf53ff26693,
               max_mid
             };
 

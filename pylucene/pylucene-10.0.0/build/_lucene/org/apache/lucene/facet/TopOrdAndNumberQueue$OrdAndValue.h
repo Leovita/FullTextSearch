@@ -3,6 +3,12 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Number;
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,12 +16,6 @@ namespace org {
         class TopOrdAndNumberQueue$OrdAndValue;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Number;
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,9 +28,9 @@ namespace org {
         class TopOrdAndNumberQueue$OrdAndValue : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_getValue_1b3282bb4db06655,
-            mid_lessThan_c44a9bae0434ff5d,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_getValue_b9665294ea488d3c,
+            mid_lessThan_08ef0ee8820b17c6,
             max_mid
           };
 

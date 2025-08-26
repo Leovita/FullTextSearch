@@ -4,13 +4,13 @@
 #include "org/apache/lucene/queries/function/ValueSource.h"
 
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -37,12 +37,12 @@ namespace org {
             class SingleFunction : public ::org::apache::lucene::queries::function::ValueSource {
              public:
               enum {
-                mid_init$_db3a6d89b0568e70,
-                mid_createWeight_ed456f113984b95a,
-                mid_description_09a7afff1868fc5e,
-                mid_equals_570b5248a6da3ef6,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_name_09a7afff1868fc5e,
+                mid_init$_59499d05e6417711,
+                mid_createWeight_61f11467fc4f893b,
+                mid_description_e7df854526d67fa3,
+                mid_equals_00d17418847797d4,
+                mid_hashCode_bd89ce15dad49192,
+                mid_name_e7df854526d67fa3,
                 max_mid
               };
 

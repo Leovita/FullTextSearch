@@ -7,50 +7,50 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class IndexReaderContext;
         class QueryTimeout;
+        class IndexReaderContext;
         class LeafReaderContext;
+        class StoredFields;
         class Term;
         class IndexReader;
-        class StoredFields;
       }
       namespace search {
-        class IndexSearcher$LeafSlice;
-        class Query;
+        class QueryCachingPolicy;
         class Sort;
-        class TaskExecutor;
+        class Explanation;
+        class ScoreMode;
+        class Query;
+        class Collector;
         class QueryCache;
+        class Weight;
+        class TermStatistics;
+        class CollectionStatistics;
+        class CollectorManager;
         namespace similarities {
           class Similarity;
         }
-        class Collector;
-        class CollectorManager;
-        class TopFieldDocs;
-        class TermStatistics;
-        class Explanation;
-        class ScoreMode;
-        class QueryCachingPolicy;
-        class ScoreDoc;
-        class CollectionStatistics;
-        class Weight;
         class TopDocs;
+        class TopFieldDocs;
+        class IndexSearcher$LeafSlice;
+        class TaskExecutor;
+        class ScoreDoc;
       }
     }
   }
 }
 namespace java {
+  namespace io {
+    class IOException;
+  }
   namespace lang {
     class Class;
     class String;
   }
-  namespace io {
-    class IOException;
-  }
   namespace util {
-    class List;
     namespace concurrent {
       class Executor;
     }
+    class List;
   }
 }
 template<class T> class JArray;
@@ -63,52 +63,52 @@ namespace org {
         class IndexSearcher : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_1980becffa418484,
-            mid_init$_26d88823abec6e31,
-            mid_init$_1966c34e96d32006,
-            mid_init$_965468a557b62cc9,
-            mid_collectionStatistics_1848478eff653259,
-            mid_count_51f2321ccdd2e47d,
-            mid_createWeight_c6a3f31717033e08,
-            mid_explain_b2711d13d5c2eb91,
-            mid_getDefaultQueryCache_a2ac8404d8245aac,
-            mid_getDefaultQueryCachingPolicy_f030c49ec4eb98cb,
-            mid_getDefaultSimilarity_39ecfe00156a771e,
-            mid_getIndexReader_38e68c08dc5fee6f,
-            mid_getLeafContexts_36830460e10839eb,
-            mid_getMaxClauseCount_20fbf7565993c3d7,
-            mid_getQueryCache_a2ac8404d8245aac,
-            mid_getQueryCachingPolicy_f030c49ec4eb98cb,
-            mid_getSimilarity_39ecfe00156a771e,
-            mid_getSlices_35ace415981266cb,
-            mid_getTaskExecutor_6b5167fa945aacff,
-            mid_getTimeout_f8dbdf3c43b86efc,
-            mid_getTopReaderContext_e36732b57bae0675,
-            mid_rewrite_f1d2a5e3e65d181f,
-            mid_search_9bd8817aa65bcbf8,
-            mid_search_f04edcfde08e5cc3,
-            mid_search_1c4e1cb2fa5fe14d,
-            mid_search_1f0004eeea9478ca,
-            mid_search_a8f8719249ead3fe,
-            mid_searchAfter_bbe02f6132b6cb15,
-            mid_searchAfter_23305789476c20d9,
-            mid_searchAfter_3db35bed067ffc5e,
-            mid_setDefaultQueryCache_7c600952a40f0076,
-            mid_setDefaultQueryCachingPolicy_8efa72bd23f207e7,
-            mid_setMaxClauseCount_540b2b23d51b1efd,
-            mid_setQueryCache_7c600952a40f0076,
-            mid_setQueryCachingPolicy_8efa72bd23f207e7,
-            mid_setSimilarity_8ae0f58eeda358f3,
-            mid_setTimeout_3347031fd3feff35,
-            mid_slices_d7fdb08aac2f1a4e,
-            mid_storedFields_71d351a09c9e3356,
-            mid_termStatistics_588bd34a1c000f98,
-            mid_timedOut_947277eca0748c4e,
-            mid_toString_09a7afff1868fc5e,
-            mid_searchLeaf_1eb264333444a388,
-            mid_slices_497c2d38d97664b3,
-            mid_explain_69391610749d39b2,
-            mid_search_e8642360b3eaf6c0,
+            mid_init$_d988f6cfce8380fb,
+            mid_init$_34a1b095e161b54f,
+            mid_init$_a779170a785433e0,
+            mid_init$_f9e97681d0036b17,
+            mid_collectionStatistics_51b3525a88440e74,
+            mid_count_aef74c16ca27d4d8,
+            mid_createWeight_783fe471e3906f40,
+            mid_explain_21bfaa5aa1106c80,
+            mid_getDefaultQueryCache_b724fd28545a0949,
+            mid_getDefaultQueryCachingPolicy_796c1b50f811ec01,
+            mid_getDefaultSimilarity_e1bcc9d7db6512db,
+            mid_getIndexReader_9596617cc74c49f2,
+            mid_getLeafContexts_1387e1e2702ac173,
+            mid_getMaxClauseCount_bd89ce15dad49192,
+            mid_getQueryCache_b724fd28545a0949,
+            mid_getQueryCachingPolicy_796c1b50f811ec01,
+            mid_getSimilarity_e1bcc9d7db6512db,
+            mid_getSlices_f8f02c8c87bfaaa0,
+            mid_getTaskExecutor_dd1aebaf7220ead0,
+            mid_getTimeout_c564223390c8c408,
+            mid_getTopReaderContext_bc90d2aea66a0888,
+            mid_rewrite_aa742476ed88ab8f,
+            mid_search_d7b16a265523009d,
+            mid_search_20d8590146dae53e,
+            mid_search_950ecffaf2023223,
+            mid_search_0b075a1e116359c7,
+            mid_search_1f0a945a6c3223ea,
+            mid_searchAfter_8a7a70b3b65a49ec,
+            mid_searchAfter_dbefa7b0cf4db995,
+            mid_searchAfter_5f726dbda99b5f5c,
+            mid_setDefaultQueryCache_2e0a8074a68f2122,
+            mid_setDefaultQueryCachingPolicy_d81d232b26997932,
+            mid_setMaxClauseCount_8226bd0b0fc13dba,
+            mid_setQueryCache_2e0a8074a68f2122,
+            mid_setQueryCachingPolicy_d81d232b26997932,
+            mid_setSimilarity_0ad3b8cdfb835d9f,
+            mid_setTimeout_957e9f789ab6489d,
+            mid_slices_325d0e12bcda9b49,
+            mid_storedFields_1a4fab20a75bd3d4,
+            mid_termStatistics_fa634405179bc36c,
+            mid_timedOut_9aa4f33e82ea333f,
+            mid_toString_e7df854526d67fa3,
+            mid_searchLeaf_3df11855b2a132fa,
+            mid_explain_074f927b998adb4f,
+            mid_slices_020dbd697cc491c9,
+            mid_search_731d65d949aa2ac8,
             max_mid
           };
 

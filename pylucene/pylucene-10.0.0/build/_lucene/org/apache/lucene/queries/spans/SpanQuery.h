@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class TermStates;
+        class Term;
       }
       namespace search {
         class ScoreMode;
@@ -23,16 +23,16 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-    class Map;
-  }
   namespace lang {
     class Class;
     class String;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Map;
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -46,11 +46,11 @@ namespace org {
           class SpanQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_createWeight_d7dfaaf9476f49d4,
-              mid_getField_09a7afff1868fc5e,
-              mid_getTermStates_68c8b54a189c080e,
-              mid_getTermStates_727935e9fdbbb400,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_createWeight_b33c2c90db0d1d7e,
+              mid_getField_e7df854526d67fa3,
+              mid_getTermStates_b4fb48d65fd33556,
+              mid_getTermStates_fce42ca2d157f88f,
               max_mid
             };
 

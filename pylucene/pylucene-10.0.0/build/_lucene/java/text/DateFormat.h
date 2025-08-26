@@ -9,15 +9,15 @@ namespace java {
     class NumberFormat;
   }
   namespace lang {
-    class Class;
-    class String;
     class Object;
+    class Class;
     class StringBuffer;
+    class String;
   }
   namespace util {
+    class TimeZone;
     class Calendar;
     class Date;
-    class TimeZone;
     class Locale;
   }
 }
@@ -29,30 +29,30 @@ namespace java {
     class DateFormat : public ::java::text::Format {
      public:
       enum {
-        mid_clone_5655ed8670534604,
-        mid_equals_570b5248a6da3ef6,
-        mid_format_6872fafc13c061e8,
-        mid_getAvailableLocales_3d06acbf6689fb6c,
-        mid_getCalendar_68b1de69c25d64fe,
-        mid_getDateInstance_81e71a68dca4ecea,
-        mid_getDateInstance_aab7d128d73722b2,
-        mid_getDateInstance_8adeeb5dd776311f,
-        mid_getDateTimeInstance_81e71a68dca4ecea,
-        mid_getDateTimeInstance_b3877a751b8f54e1,
-        mid_getDateTimeInstance_628d4e33b77da134,
-        mid_getInstance_81e71a68dca4ecea,
-        mid_getNumberFormat_98badc23d3190d40,
-        mid_getTimeInstance_81e71a68dca4ecea,
-        mid_getTimeInstance_aab7d128d73722b2,
-        mid_getTimeInstance_8adeeb5dd776311f,
-        mid_getTimeZone_1559a29f5a26b141,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isLenient_947277eca0748c4e,
-        mid_parse_4c0075e034f5faf2,
-        mid_setCalendar_d3c8d765c49819d7,
-        mid_setLenient_b110fc3a58c081ab,
-        mid_setNumberFormat_810368e518bc5e16,
-        mid_setTimeZone_1bdebe6495070eda,
+        mid_clone_4819806f62f1360a,
+        mid_equals_00d17418847797d4,
+        mid_format_7bbd627d8305531a,
+        mid_getAvailableLocales_0daa090ed7228b3c,
+        mid_getCalendar_8ef7c49dee6fc64b,
+        mid_getDateInstance_b86251f405a3f3c2,
+        mid_getDateInstance_82f9da20dd43cdae,
+        mid_getDateInstance_a6252423eb93015b,
+        mid_getDateTimeInstance_b86251f405a3f3c2,
+        mid_getDateTimeInstance_be3378ec0ad11e19,
+        mid_getDateTimeInstance_4f98c3e670a2510b,
+        mid_getInstance_b86251f405a3f3c2,
+        mid_getNumberFormat_cae2d46e75202e5c,
+        mid_getTimeInstance_b86251f405a3f3c2,
+        mid_getTimeInstance_82f9da20dd43cdae,
+        mid_getTimeInstance_a6252423eb93015b,
+        mid_getTimeZone_f0ab2fb84439b1af,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isLenient_9aa4f33e82ea333f,
+        mid_parse_89d3a451a60180c0,
+        mid_setCalendar_85726a939d696ed2,
+        mid_setLenient_f5dd97eebf6a215a,
+        mid_setNumberFormat_72e1e9475236c1c8,
+        mid_setTimeZone_6bae4ff1843f5310,
         max_mid
       };
 

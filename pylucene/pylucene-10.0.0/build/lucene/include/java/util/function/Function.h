@@ -22,10 +22,10 @@ namespace java {
       class Function : public ::java::lang::Object {
        public:
         enum {
-          mid_andThen_56c87770707defd2,
-          mid_apply_5fd81664d2d475e1,
-          mid_compose_56c87770707defd2,
-          mid_identity_7df97dd5f147bf9f,
+          mid_andThen_f4aedac03e63d626,
+          mid_apply_e2c45b124c12f4ec,
+          mid_compose_f4aedac03e63d626,
+          mid_identity_b880b9b1487db23b,
           max_mid
         };
 

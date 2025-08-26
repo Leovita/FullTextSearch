@@ -30,8 +30,8 @@ namespace org {
           class GeoSizeable : public ::java::lang::Object {
            public:
             enum {
-              mid_getCenter_d361626f39bd8d0c,
-              mid_getRadius_32caabaad86c508b,
+              mid_getCenter_a531918020d448c7,
+              mid_getRadius_6fb37e123fed7a1f,
               max_mid
             };
 

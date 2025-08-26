@@ -3,28 +3,28 @@
 
 #include "org/apache/lucene/search/Query.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class PhraseQuery;
         class QueryVisitor;
+        class PhraseQuery;
         class IndexSearcher;
       }
       namespace index {
         class Term;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,15 +37,15 @@ namespace org {
         class NGramPhraseQuery : public ::org::apache::lucene::search::Query {
          public:
           enum {
-            mid_init$_cc7f938550846a8f,
-            mid_equals_570b5248a6da3ef6,
-            mid_getN_20fbf7565993c3d7,
-            mid_getPositions_623cd4a044ba647a,
-            mid_getTerms_3d8a8db60207da00,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_rewrite_aeaa882ae5e96552,
-            mid_toString_cb0eb1432185fc94,
-            mid_visit_1b22ec612b613eea,
+            mid_init$_ed58ad63e3e61a81,
+            mid_equals_00d17418847797d4,
+            mid_getN_bd89ce15dad49192,
+            mid_getPositions_4b72a28a860ae838,
+            mid_getTerms_4213a6ccf77ca299,
+            mid_hashCode_bd89ce15dad49192,
+            mid_rewrite_25984111320dbe39,
+            mid_toString_fef9c036acf290a9,
+            mid_visit_85475af8e8904ab4,
             max_mid
           };
 

@@ -3,27 +3,27 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        class IndexSearcher$LeafSlice;
-        class CollectorManager;
-        class TotalHitCountCollector;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Integer;
     class Class;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
     class Collection;
   }
-  namespace io {
-    class IOException;
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace search {
+        class IndexSearcher$LeafSlice;
+        class TotalHitCountCollector;
+        class CollectorManager;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -36,9 +36,9 @@ namespace org {
         class TotalHitCountCollectorManager : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_1f8ddea7e9e1162a,
-            mid_newCollector_b9ea37526730faed,
-            mid_reduce_6255297b76b88666,
+            mid_init$_dd362791bf4b1f4d,
+            mid_newCollector_025d4ea1185a7039,
+            mid_reduce_7e17721342cb1f8a,
             max_mid
           };
 

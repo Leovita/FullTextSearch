@@ -7,19 +7,19 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class QueryVisitor;
         class ScoreMode;
-        class Weight;
         class IndexSearcher;
+        class QueryVisitor;
+        class Weight;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -36,24 +36,24 @@ namespace org {
           class PhraseWildcardQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_createWeight_77fe52950093e704,
-              mid_equals_570b5248a6da3ef6,
-              mid_getField_09a7afff1868fc5e,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
-              mid_collectSingleTermData_4b110da9710ac32a,
-              mid_collectMultiTermData_9b5708fa4abef991,
-              mid_createTermsData_e7e74c1d7fc78437,
-              mid_earlyStopWeight_626d62dcd80bd708,
-              mid_noMatchWeight_626d62dcd80bd708,
-              mid_checkTermsHavePositions_76f41332df576533,
-              mid_shouldOptimizeSegments_947277eca0748c4e,
-              mid_createTermStatsMap_94e7808728ace5b6,
-              mid_collectMultiTermDataForSegment_2482e0c50c298f08,
-              mid_collectMultiTermStats_71365f9f89a20822,
-              mid_createTermsEnum_eea87965ea231d34,
+              mid_createWeight_dc54d493278607e4,
+              mid_equals_00d17418847797d4,
+              mid_getField_e7df854526d67fa3,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rewrite_25984111320dbe39,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
+              mid_createTermsData_3930d72cb54a0fb7,
+              mid_earlyStopWeight_e6a5e4df16993154,
+              mid_noMatchWeight_e6a5e4df16993154,
+              mid_collectSingleTermData_a41fe53f4d886884,
+              mid_collectMultiTermData_d446986d02ab64cb,
+              mid_checkTermsHavePositions_9b8a64d6e5548a1d,
+              mid_shouldOptimizeSegments_9aa4f33e82ea333f,
+              mid_createTermStatsMap_5a7b3fdb536be71c,
+              mid_collectMultiTermDataForSegment_73b452e1c93d4c7b,
+              mid_collectMultiTermStats_9fc4ebd60f6f0048,
+              mid_createTermsEnum_ba9953af538659f7,
               max_mid
             };
 

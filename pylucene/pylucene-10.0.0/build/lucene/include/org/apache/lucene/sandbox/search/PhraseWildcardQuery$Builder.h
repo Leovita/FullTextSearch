@@ -6,20 +6,20 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace sandbox {
+        namespace search {
+          class PhraseWildcardQuery$Builder;
+          class PhraseWildcardQuery;
+        }
+      }
+      namespace search {
+        class MultiTermQuery;
+      }
       namespace index {
         class Term;
       }
       namespace util {
         class BytesRef;
-      }
-      namespace search {
-        class MultiTermQuery;
-      }
-      namespace sandbox {
-        namespace search {
-          class PhraseWildcardQuery;
-          class PhraseWildcardQuery$Builder;
-        }
       }
     }
   }
@@ -41,13 +41,13 @@ namespace org {
           class PhraseWildcardQuery$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_a5140b013bba694a,
-              mid_init$_2d9cd8e1ad0c179f,
-              mid_addMultiTerm_0596f98096be840f,
-              mid_addTerm_3909ddd1c0e70142,
-              mid_addTerm_9c83aa235d3a1281,
-              mid_build_9195d550a78869d4,
-              mid_setSlop_8fb0c4c4072845ad,
+              mid_init$_49e27e98009acf15,
+              mid_init$_5a51ba251ddc79d6,
+              mid_addMultiTerm_8cc4aa492e6166c9,
+              mid_addTerm_d0356717f8e51d7d,
+              mid_addTerm_28291ef2a849f245,
+              mid_build_351c1d4cd5275eed,
+              mid_setSlop_51a97bd193b88e10,
               max_mid
             };
 

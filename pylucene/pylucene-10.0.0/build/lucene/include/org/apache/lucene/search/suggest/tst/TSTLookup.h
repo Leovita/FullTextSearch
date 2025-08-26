@@ -7,12 +7,9 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
+        class Directory;
         class DataInput;
         class DataOutput;
-        class Directory;
-      }
-      namespace util {
-        class BytesRef;
       }
       namespace search {
         namespace suggest {
@@ -20,22 +17,25 @@ namespace org {
           class Lookup$LookupResult;
         }
       }
+      namespace util {
+        class BytesRef;
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
+    class Object;
     class Class;
     class String;
     class CharSequence;
-    class Object;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
-    class List;
     class Set;
+    class List;
   }
 }
 template<class T> class JArray;
@@ -50,16 +50,16 @@ namespace org {
             class TSTLookup : public ::org::apache::lucene::search::suggest::Lookup {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_init$_4eb5815dfd12ae28,
-                mid_add_078423050556d2ef,
-                mid_build_ccfc0be4d7c5ce8c,
-                mid_get_84780732a28a9438,
-                mid_getCount_16939d9d0a9a9721,
-                mid_load_cc655a2984ac0be1,
-                mid_lookup_51465de8e2d90cbd,
-                mid_ramBytesUsed_16939d9d0a9a9721,
-                mid_store_0269cfd2080fde14,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_init$_3c1bd744f99d5223,
+                mid_add_01a4b4f4a5c96f56,
+                mid_build_3b81cca33403847f,
+                mid_get_53a8d172a6f84f78,
+                mid_getCount_0f176418e3e16541,
+                mid_load_bcc888246f25b924,
+                mid_lookup_0b5d66b5da4a3286,
+                mid_ramBytesUsed_0f176418e3e16541,
+                mid_store_9bc74ef63311a7a4,
                 max_mid
               };
 

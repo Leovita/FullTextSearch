@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Term;
         class TermStates;
+        class Term;
       }
       namespace queries {
         namespace spans {
@@ -22,11 +22,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -43,8 +43,8 @@ namespace org {
           class SpanContainQuery$SpanContainWeight : public ::org::apache::lucene::queries::spans::SpanWeight {
            public:
             enum {
-              mid_init$_5e72c98acbca3043,
-              mid_extractTermStates_79ba0f5a7d05e623,
+              mid_init$_9d2f43e541263e92,
+              mid_extractTermStates_6a7e23584beb7c0f,
               max_mid
             };
 

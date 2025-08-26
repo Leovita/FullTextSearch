@@ -19,9 +19,9 @@ namespace org {
           class ParallelTaxonomyArrays$IntArray : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_get_3c9bba330f083871,
-              mid_length_20fbf7565993c3d7,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_get_a3904e10f5bb9437,
+              mid_length_bd89ce15dad49192,
               max_mid
             };
 

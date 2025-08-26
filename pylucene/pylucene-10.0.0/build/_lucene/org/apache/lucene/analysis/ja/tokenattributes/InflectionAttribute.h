@@ -3,12 +3,6 @@
 
 #include "org/apache/lucene/util/Attribute.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +12,12 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,9 +32,9 @@ namespace org {
             class InflectionAttribute : public ::org::apache::lucene::util::Attribute {
              public:
               enum {
-                mid_getInflectionForm_09a7afff1868fc5e,
-                mid_getInflectionType_09a7afff1868fc5e,
-                mid_setToken_1fe887e577328fdb,
+                mid_getInflectionForm_e7df854526d67fa3,
+                mid_getInflectionType_e7df854526d67fa3,
+                mid_setToken_13f1d4cb8cf00725,
                 max_mid
               };
 

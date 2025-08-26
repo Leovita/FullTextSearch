@@ -27,11 +27,11 @@ namespace org {
         class BytesRefHash$BytesStartArray : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_bytesUsed_993628ed46aa1aa4,
-            mid_clear_623cd4a044ba647a,
-            mid_grow_623cd4a044ba647a,
-            mid_init_623cd4a044ba647a,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_bytesUsed_614d0d06bc777eee,
+            mid_clear_4b72a28a860ae838,
+            mid_grow_4b72a28a860ae838,
+            mid_init_4b72a28a860ae838,
             max_mid
           };
 

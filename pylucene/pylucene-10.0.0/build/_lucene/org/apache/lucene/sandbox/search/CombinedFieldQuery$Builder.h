@@ -3,25 +3,25 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace sandbox {
         namespace search {
-          class CombinedFieldQuery;
           class CombinedFieldQuery$Builder;
+          class CombinedFieldQuery;
         }
       }
       namespace util {
         class BytesRef;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
   }
 }
 template<class T> class JArray;
@@ -35,11 +35,11 @@ namespace org {
           class CombinedFieldQuery$Builder : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_addField_b83471f1255ff87b,
-              mid_addField_df20e1b04e90d4cd,
-              mid_addTerm_2febc27b02a74986,
-              mid_build_1f70d100636f8c68,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_addField_d2cfcef02291c6d4,
+              mid_addField_265c485e762e23c1,
+              mid_addTerm_fc919d6cc03bd030,
+              mid_build_2e126edf8f2bb6b0,
               max_mid
             };
 

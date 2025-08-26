@@ -18,7 +18,7 @@ namespace org {
         class SpatialQuery$EncodedRectangle : public ::java::lang::Object {
          public:
           enum {
-            mid_wrapsCoordinateSystem_947277eca0748c4e,
+            mid_wrapsCoordinateSystem_9aa4f33e82ea333f,
             max_mid
           };
 

@@ -12,10 +12,10 @@ namespace org {
         }
       }
       namespace search {
-        class QueryVisitor;
-        class DoubleValuesSource;
         class ScoreMode;
         class Weight;
+        class DoubleValuesSource;
+        class QueryVisitor;
         class IndexSearcher;
       }
     }
@@ -23,9 +23,9 @@ namespace org {
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace io {
     class IOException;
@@ -42,17 +42,17 @@ namespace org {
           class FunctionScoreQuery : public ::org::apache::lucene::search::Query {
            public:
             enum {
-              mid_init$_70be3dc44d57ada2,
-              mid_boostByQuery_8491cd1a047bed1b,
-              mid_boostByValue_2d27fd16f1580664,
-              mid_createWeight_77fe52950093e704,
-              mid_equals_570b5248a6da3ef6,
-              mid_getSource_7219b817ce6d1d1a,
-              mid_getWrappedQuery_a3eacfacada795d4,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_rewrite_aeaa882ae5e96552,
-              mid_toString_cb0eb1432185fc94,
-              mid_visit_1b22ec612b613eea,
+              mid_init$_b1148d742bbe2eaa,
+              mid_boostByQuery_a7fcd6a356787ab2,
+              mid_boostByValue_b913140678142712,
+              mid_createWeight_dc54d493278607e4,
+              mid_equals_00d17418847797d4,
+              mid_getSource_a04bc8c3654a6fd5,
+              mid_getWrappedQuery_ffa7bd087b2a75aa,
+              mid_hashCode_bd89ce15dad49192,
+              mid_rewrite_25984111320dbe39,
+              mid_toString_fef9c036acf290a9,
+              mid_visit_85475af8e8904ab4,
               max_mid
             };
 

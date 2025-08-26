@@ -31,9 +31,9 @@ namespace org {
           class PackedDataInput : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_fc75c9d195bdd885,
-              mid_readLong_7b22650fccb5d574,
-              mid_skipToNextByte_3720c61b0679eb3e,
+              mid_init$_b57ffc017de24fe4,
+              mid_readLong_49af390f180d8ee7,
+              mid_skipToNextByte_e7bdbe105ce1bafb,
               max_mid
             };
 

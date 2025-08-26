@@ -3,28 +3,28 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Iterable;
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class LeafCollector;
         class ScoreMode;
-        class Weight;
+        class LeafCollector;
         class Collector;
+        class Weight;
       }
       namespace index {
         class LeafReaderContext;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class Iterable;
-  }
-  namespace io {
-    class IOException;
   }
 }
 template<class T> class JArray;
@@ -37,12 +37,12 @@ namespace org {
         class MultiCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_getCollectors_8672cf8530ee4ed0,
-            mid_getLeafCollector_aca3f888603431e1,
-            mid_scoreMode_45dfdcf7e901559d,
-            mid_setWeight_6d6ab2df81fdc63f,
-            mid_wrap_da1840c9a576aab9,
-            mid_wrap_887c905ea7dc0717,
+            mid_getCollectors_5fdc17e2beba1800,
+            mid_getLeafCollector_0a34433e6da38be9,
+            mid_scoreMode_23e7061dcdc84768,
+            mid_setWeight_36438df74a772106,
+            mid_wrap_1691ab4c58d6c2fc,
+            mid_wrap_061abdfe0049e89c,
             max_mid
           };
 

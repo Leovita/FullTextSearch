@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class FacetsConfig$DrillDownTermsIndexing;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,8 +28,8 @@ namespace org {
         class FacetsConfig$DrillDownTermsIndexing : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_28acd201e7cd1083,
-            mid_values_dad101d264f6dfc7,
+            mid_valueOf_a6b16938cc7474af,
+            mid_values_ac43afe52d8eff88,
             max_mid
           };
 

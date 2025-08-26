@@ -5,10 +5,10 @@
 
 namespace java {
   namespace lang {
-    class Comparable;
+    class Cloneable;
     class Class;
     class String;
-    class Cloneable;
+    class Comparable;
   }
 }
 namespace org {
@@ -30,17 +30,17 @@ namespace org {
         class IntsRef : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_init$_540b2b23d51b1efd,
-            mid_init$_ad090cb6070ea6a2,
-            mid_clone_11a210fd9b2b21bd,
-            mid_compareTo_8d588517c4e2cbc0,
-            mid_deepCopyOf_dac71731b1ce1096,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_intsEquals_74043af02f7cfbce,
-            mid_isValid_947277eca0748c4e,
-            mid_toString_09a7afff1868fc5e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_init$_8226bd0b0fc13dba,
+            mid_init$_57da58ead958e473,
+            mid_clone_467dd1d064587a13,
+            mid_compareTo_f229bd6d00984da7,
+            mid_deepCopyOf_e1b18337a7309f5e,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_intsEquals_7801aa08e272cad4,
+            mid_isValid_9aa4f33e82ea333f,
+            mid_toString_e7df854526d67fa3,
             max_mid
           };
 

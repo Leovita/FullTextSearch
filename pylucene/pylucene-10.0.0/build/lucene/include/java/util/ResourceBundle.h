@@ -4,18 +4,18 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace util {
+    class ResourceBundle;
+    class ResourceBundle$Control;
+    class Enumeration;
+    class Set;
+    class Locale;
+  }
   namespace lang {
     class Class;
-    class String;
     class Module;
+    class String;
     class ClassLoader;
-  }
-  namespace util {
-    class Set;
-    class ResourceBundle$Control;
-    class Locale;
-    class ResourceBundle;
-    class Enumeration;
   }
 }
 template<class T> class JArray;
@@ -26,28 +26,28 @@ namespace java {
     class ResourceBundle : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_clearCache_3720c61b0679eb3e,
-        mid_clearCache_7e882e12061eaf38,
-        mid_containsKey_4a13a663b5c11133,
-        mid_getBaseBundleName_09a7afff1868fc5e,
-        mid_getBundle_ca7d2e895557fd77,
-        mid_getBundle_bf5d2701dc50dc18,
-        mid_getBundle_2b6b5c29aeafc789,
-        mid_getBundle_868c658fb9db3af3,
-        mid_getBundle_d173b083d88f5e2f,
-        mid_getBundle_ca332eeec8697c98,
-        mid_getBundle_6d4a7f38198157a2,
-        mid_getBundle_3c5525de36a69bc3,
-        mid_getKeys_a2a5e131c5f66817,
-        mid_getLocale_319fd40ee3061260,
-        mid_getObject_e5cf973b773e2999,
-        mid_getString_cb0eb1432185fc94,
-        mid_getStringArray_a06e92f371939b0b,
-        mid_keySet_4df174295554d7bd,
-        mid_handleGetObject_e5cf973b773e2999,
-        mid_handleKeySet_4df174295554d7bd,
-        mid_setParent_396479f582461047,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_clearCache_e7bdbe105ce1bafb,
+        mid_clearCache_d603563f542d31ba,
+        mid_containsKey_94f7e759d94961b0,
+        mid_getBaseBundleName_e7df854526d67fa3,
+        mid_getBundle_fc9141321cfdd888,
+        mid_getBundle_61067b8dd1fdf14c,
+        mid_getBundle_c29200991f927630,
+        mid_getBundle_5898673b079c9315,
+        mid_getBundle_a23d3035116ff4dc,
+        mid_getBundle_1f69a8c585d20d33,
+        mid_getBundle_1af27d11ebdd4df4,
+        mid_getBundle_2dbe105dc714de60,
+        mid_getKeys_c0dcea0e1246b77b,
+        mid_getLocale_d50f7bd45bffb467,
+        mid_getObject_a78a91e32cc37c7c,
+        mid_getString_fef9c036acf290a9,
+        mid_getStringArray_7b34cb521ce5d8ff,
+        mid_keySet_79131c6bbcf08916,
+        mid_handleGetObject_a78a91e32cc37c7c,
+        mid_handleKeySet_79131c6bbcf08916,
+        mid_setParent_aaf5ae3d93bf8670,
         max_mid
       };
 

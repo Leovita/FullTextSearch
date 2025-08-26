@@ -30,9 +30,9 @@ namespace org {
           class ATNConfigSet$AbstractConfigHashSet : public ::org::antlr::v4::runtime::misc::Array2DHashSet {
            public:
             enum {
-              mid_asElementType_885db5265b891cd1,
-              mid_createBuckets_d3d9a773a074f41b,
-              mid_createBucket_74a4f0089206237c,
+              mid_asElementType_b4313ebd4902d365,
+              mid_createBuckets_3011319da278d9b5,
+              mid_createBucket_b877c3a5a1800afe,
               max_mid
             };
 

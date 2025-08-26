@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/charfilter/BaseCharFilter.h"
 
-namespace java {
-  namespace io {
-    class Reader;
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,6 +12,15 @@ namespace org {
         }
       }
     }
+  }
+}
+namespace java {
+  namespace io {
+    class Reader;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -34,10 +34,10 @@ namespace org {
           class MappingCharFilter : public ::org::apache::lucene::analysis::charfilter::BaseCharFilter {
            public:
             enum {
-              mid_init$_105ec3686e3062e5,
-              mid_read_20fbf7565993c3d7,
-              mid_read_db543c1e894f3140,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_41247899f28ca818,
+              mid_read_bd89ce15dad49192,
+              mid_read_872baf22ed11fbaa,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

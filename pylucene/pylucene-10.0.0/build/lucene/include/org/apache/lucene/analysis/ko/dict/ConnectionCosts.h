@@ -3,19 +3,6 @@
 
 #include "org/apache/lucene/analysis/morph/ConnectionCosts.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace analysis {
-        namespace ko {
-          namespace dict {
-            class ConnectionCosts;
-          }
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace nio {
     namespace file {
@@ -27,6 +14,19 @@ namespace java {
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace analysis {
+        namespace ko {
+          namespace dict {
+            class ConnectionCosts;
+          }
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -41,8 +41,8 @@ namespace org {
             class ConnectionCosts : public ::org::apache::lucene::analysis::morph::ConnectionCosts {
              public:
               enum {
-                mid_init$_8a3244428bfc77b8,
-                mid_getInstance_240098f197b514ce,
+                mid_init$_e7b3ede3efacc86d,
+                mid_getInstance_5a191812e5b6bd4c,
                 max_mid
               };
 

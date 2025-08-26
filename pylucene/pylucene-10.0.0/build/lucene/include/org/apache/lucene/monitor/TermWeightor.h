@@ -3,21 +3,6 @@
 
 #include "java/util/function/ToDoubleFunction.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class Term;
-      }
-      namespace util {
-        class BytesRef;
-      }
-      namespace monitor {
-        class TermWeightor;
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Integer;
@@ -25,8 +10,23 @@ namespace java {
     class String;
   }
   namespace util {
-    class Set;
     class Map;
+    class Set;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace monitor {
+        class TermWeightor;
+      }
+      namespace index {
+        class Term;
+      }
+      namespace util {
+        class BytesRef;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -39,15 +39,15 @@ namespace org {
         class TermWeightor : public ::java::util::function::ToDoubleFunction {
          public:
           enum {
-            mid_combine_ef0a82072acc9fae,
-            mid_fieldWeightor_7c331c6011754dd9,
-            mid_fieldWeightor_0ed41345557a724f,
-            mid_lengthWeightor_615c0d105ec0c24f,
-            mid_termAndFieldWeightor_a18f9bc7da1b83b7,
-            mid_termAndFieldWeightor_0ed41345557a724f,
-            mid_termFreqWeightor_0236d805b1203a96,
-            mid_termWeightor_d21dc3bb1ac040de,
-            mid_termWeightor_0ed41345557a724f,
+            mid_combine_2cc04310a3c1533b,
+            mid_fieldWeightor_f070ad61b1d68ca9,
+            mid_fieldWeightor_9eb8877850472975,
+            mid_lengthWeightor_bb681ae8a56a1d50,
+            mid_termAndFieldWeightor_170cb22a8a5f5326,
+            mid_termAndFieldWeightor_9eb8877850472975,
+            mid_termFreqWeightor_921f3d1c6720e975,
+            mid_termWeightor_f13c56f4b7a6b251,
+            mid_termWeightor_9eb8877850472975,
             max_mid
           };
 

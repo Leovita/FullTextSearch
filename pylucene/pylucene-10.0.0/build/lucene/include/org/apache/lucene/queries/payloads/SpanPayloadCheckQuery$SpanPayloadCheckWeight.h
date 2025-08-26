@@ -6,34 +6,34 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace queries {
-        namespace payloads {
-          class SpanPayloadCheckQuery$PayloadType;
-          class SpanPayloadCheckQuery;
-        }
-        namespace spans {
-          class Spans;
-          class SpanWeight$Postings;
-        }
-      }
       namespace index {
-        class Term;
         class TermStates;
+        class Term;
         class LeafReaderContext;
       }
       namespace search {
         class ScorerSupplier;
         class IndexSearcher;
       }
+      namespace queries {
+        namespace payloads {
+          class SpanPayloadCheckQuery;
+          class SpanPayloadCheckQuery$PayloadType;
+        }
+        namespace spans {
+          class Spans;
+          class SpanWeight$Postings;
+        }
+      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
   namespace util {
     class Map;
@@ -50,11 +50,11 @@ namespace org {
           class SpanPayloadCheckQuery$SpanPayloadCheckWeight : public ::org::apache::lucene::queries::spans::SpanWeight {
            public:
             enum {
-              mid_init$_fcf1767d804f4f81,
-              mid_extractTermStates_79ba0f5a7d05e623,
-              mid_getSpans_20bbb107c42cef31,
-              mid_isCacheable_03101e9518c66be0,
-              mid_scorerSupplier_45b7d9496c5acc93,
+              mid_init$_b61b00ce29634170,
+              mid_extractTermStates_6a7e23584beb7c0f,
+              mid_getSpans_03932f6f031979e9,
+              mid_isCacheable_8e9f6225f14d0ebe,
+              mid_scorerSupplier_613b85087b5065ab,
               max_mid
             };
 

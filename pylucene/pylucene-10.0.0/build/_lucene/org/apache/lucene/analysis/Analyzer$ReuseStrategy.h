@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class Analyzer;
         class Analyzer$TokenStreamComponents;
+        class Analyzer;
       }
     }
   }
@@ -29,10 +29,10 @@ namespace org {
         class Analyzer$ReuseStrategy : public ::java::lang::Object {
          public:
           enum {
-            mid_getReusableComponents_0bcf18669782cddc,
-            mid_setReusableComponents_2f79c0395cbb52c1,
-            mid_getStoredValue_ff4cae136ad1ebc3,
-            mid_setStoredValue_7fe3cb6de8305b3c,
+            mid_getReusableComponents_cbcf5797de1338cf,
+            mid_setReusableComponents_bccf64ad3a575e60,
+            mid_getStoredValue_093f12024876008e,
+            mid_setStoredValue_ae7c7951c09aa99c,
             max_mid
           };
 

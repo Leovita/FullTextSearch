@@ -6,9 +6,9 @@
 namespace java {
   namespace lang {
     class Class;
-    class CharSequence;
-    class String;
     class Throwable;
+    class String;
+    class CharSequence;
   }
 }
 namespace org {
@@ -36,18 +36,18 @@ namespace org {
             class QueryNodeParseException : public ::org::apache::lucene::queryparser::flexible::core::QueryNodeException {
              public:
               enum {
-                mid_init$_4b71a6d99b73f7d1,
-                mid_init$_4c499563a04682ba,
-                mid_init$_87e1d8e597060760,
-                mid_getBeginColumn_20fbf7565993c3d7,
-                mid_getBeginLine_20fbf7565993c3d7,
-                mid_getErrorToken_09a7afff1868fc5e,
-                mid_getQuery_373f0038978f926b,
-                mid_setNonLocalizedMessage_4c499563a04682ba,
-                mid_setQuery_5ed8eb2e3024c663,
-                mid_setErrorToken_0d82408c6e55bc30,
-                mid_setBeginLine_540b2b23d51b1efd,
-                mid_setBeginColumn_540b2b23d51b1efd,
+                mid_init$_9b649326a1df01c3,
+                mid_init$_18a3d90549745ece,
+                mid_init$_bb32ffb7be2fda57,
+                mid_getBeginColumn_bd89ce15dad49192,
+                mid_getBeginLine_bd89ce15dad49192,
+                mid_getErrorToken_e7df854526d67fa3,
+                mid_getQuery_f2e5418fe0d66c69,
+                mid_setNonLocalizedMessage_18a3d90549745ece,
+                mid_setQuery_fe2ab7d27aa3fe1a,
+                mid_setErrorToken_ee46a189998009d6,
+                mid_setBeginLine_8226bd0b0fc13dba,
+                mid_setBeginColumn_8226bd0b0fc13dba,
                 max_mid
               };
 

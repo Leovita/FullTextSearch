@@ -4,12 +4,12 @@
 #include "org/apache/pylucene/util/PythonIterator.h"
 
 namespace java {
+  namespace util {
+    class ListIterator;
+  }
   namespace lang {
     class Object;
     class Class;
-  }
-  namespace util {
-    class ListIterator;
   }
 }
 template<class T> class JArray;
@@ -22,14 +22,14 @@ namespace org {
         class PythonListIterator : public ::org::apache::pylucene::util::PythonIterator {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_add_eb61ef4d1db15d08,
-            mid_hasPrevious_947277eca0748c4e,
-            mid_nextIndex_20fbf7565993c3d7,
-            mid_previous_5655ed8670534604,
-            mid_previousIndex_20fbf7565993c3d7,
-            mid_remove_3720c61b0679eb3e,
-            mid_set_eb61ef4d1db15d08,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_add_501c3eb890ff6d79,
+            mid_hasPrevious_9aa4f33e82ea333f,
+            mid_nextIndex_bd89ce15dad49192,
+            mid_previous_4819806f62f1360a,
+            mid_previousIndex_bd89ce15dad49192,
+            mid_remove_e7bdbe105ce1bafb,
+            mid_set_501c3eb890ff6d79,
             max_mid
           };
 

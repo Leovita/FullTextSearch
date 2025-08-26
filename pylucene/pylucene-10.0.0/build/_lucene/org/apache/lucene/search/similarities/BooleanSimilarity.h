@@ -32,8 +32,8 @@ namespace org {
           class BooleanSimilarity : public ::org::apache::lucene::search::similarities::Similarity {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_scorer_67d67592415704df,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_scorer_556ce9e7c1c4eb6a,
               max_mid
             };
 

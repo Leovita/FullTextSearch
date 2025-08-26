@@ -28,8 +28,8 @@ namespace org {
         class IndexWriterConfig$OpenMode : public ::java::lang::Enum {
          public:
           enum {
-            mid_valueOf_2e90bdc7ce99b71e,
-            mid_values_45a86cbad195ff45,
+            mid_valueOf_056aa7a022fbd217,
+            mid_values_9ce9e1a80ca4d728,
             max_mid
           };
 

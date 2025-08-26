@@ -28,8 +28,8 @@ namespace org {
           class DropIfFlaggedFilter : public ::org::apache::lucene::analysis::FilteringTokenFilter {
            public:
             enum {
-              mid_init$_040618eef88cc819,
-              mid_accept_947277eca0748c4e,
+              mid_init$_40ae3e19a9468a36,
+              mid_accept_9aa4f33e82ea333f,
               max_mid
             };
 

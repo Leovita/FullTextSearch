@@ -6,8 +6,8 @@
 namespace java {
   namespace lang {
     class Class;
-    class String;
     class Throwable;
+    class String;
   }
   namespace util {
     class Map;

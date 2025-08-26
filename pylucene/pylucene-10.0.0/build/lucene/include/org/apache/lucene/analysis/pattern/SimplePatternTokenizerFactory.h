@@ -6,13 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class AttributeFactory;
-      }
       namespace analysis {
         namespace pattern {
           class SimplePatternTokenizer;
         }
+      }
+      namespace util {
+        class AttributeFactory;
       }
     }
   }
@@ -37,9 +37,9 @@ namespace org {
           class SimplePatternTokenizerFactory : public ::org::apache::lucene::analysis::TokenizerFactory {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_79ba0f5a7d05e623,
-              mid_create_7084275ffc778e33,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_6a7e23584beb7c0f,
+              mid_create_6699a63caf1a6c0b,
               max_mid
             };
 

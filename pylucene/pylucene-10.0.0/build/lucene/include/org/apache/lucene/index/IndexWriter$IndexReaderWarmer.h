@@ -30,7 +30,7 @@ namespace org {
         class IndexWriter$IndexReaderWarmer : public ::java::lang::Object {
          public:
           enum {
-            mid_warm_739689c57d25027c,
+            mid_warm_412cc6aacc4af1b9,
             max_mid
           };
 

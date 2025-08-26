@@ -3,22 +3,22 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class StringBuilder;
+    class CharSequence;
+  }
+  namespace io {
+    class IOException;
+    class InputStream;
+  }
+}
 namespace org {
   namespace egothor {
     namespace stemmer {
       class Trie;
     }
-  }
-}
-namespace java {
-  namespace io {
-    class InputStream;
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class StringBuilder;
   }
 }
 template<class T> class JArray;
@@ -32,10 +32,10 @@ namespace org {
           class StempelStemmer : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_37e23ef4361d4c28,
-              mid_init$_7c7816636a302787,
-              mid_load_151ada2cf66e74a6,
-              mid_stem_060d02c19b7b0ef0,
+              mid_init$_da97eaa7d893a93a,
+              mid_init$_2867afd3c17f895b,
+              mid_load_99909ce9165d84de,
+              mid_stem_7063dc13fdb1d628,
               max_mid
             };
 

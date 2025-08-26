@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class IOException;
     class Closeable;
+    class IOException;
   }
   namespace lang {
     class Class;
@@ -33,7 +33,7 @@ namespace org {
           class Compressor : public ::java::lang::Object {
            public:
             enum {
-              mid_compress_e4d02c7069fd8435,
+              mid_compress_d3098edad1085ba5,
               max_mid
             };
 

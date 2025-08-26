@@ -8,10 +8,10 @@ namespace org {
     namespace lucene {
       namespace codecs {
         namespace uniformsplit {
+          class FieldMetadata;
           namespace sharedterms {
             class UnionFieldMetadataBuilder;
           }
-          class FieldMetadata;
         }
       }
     }
@@ -34,9 +34,9 @@ namespace org {
             class UnionFieldMetadataBuilder : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_3720c61b0679eb3e,
-                mid_addFieldMetadata_22123bc396e0791f,
-                mid_build_7dc336ebc7ed0f2e,
+                mid_init$_e7bdbe105ce1bafb,
+                mid_addFieldMetadata_59066d738aef70c3,
+                mid_build_e24ded8ac3dc53f2,
                 max_mid
               };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class Impacts;
         class IndexReader$CacheKey;
+        class Impacts;
       }
       namespace internal {
         namespace tests {
@@ -35,10 +35,10 @@ namespace org {
           class IndexPackageAccess : public ::java::lang::Object {
            public:
             enum {
-              mid_checkImpacts_a5110257f2a39428,
-              mid_newCacheKey_c43f4beeca3c339f,
-              mid_newFieldInfosBuilder_cddc08847a7cf80d,
-              mid_setIndexWriterMaxDocs_540b2b23d51b1efd,
+              mid_checkImpacts_3de704b530f76e17,
+              mid_newCacheKey_f984eed3d0f6e23f,
+              mid_newFieldInfosBuilder_d4a3cf2fe834f822,
+              mid_setIndexWriterMaxDocs_8226bd0b0fc13dba,
               max_mid
             };
 

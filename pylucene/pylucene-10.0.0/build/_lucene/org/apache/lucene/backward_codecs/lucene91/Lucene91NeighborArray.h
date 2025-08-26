@@ -20,14 +20,14 @@ namespace org {
           class Lucene91NeighborArray : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_540b2b23d51b1efd,
-              mid_add_06e0b8d4c1d7906b,
-              mid_clear_3720c61b0679eb3e,
-              mid_node_623cd4a044ba647a,
-              mid_removeLast_3720c61b0679eb3e,
-              mid_score_808165844ea67079,
-              mid_size_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_8226bd0b0fc13dba,
+              mid_add_a18b0cdf76a9509e,
+              mid_clear_e7bdbe105ce1bafb,
+              mid_node_4b72a28a860ae838,
+              mid_removeLast_e7bdbe105ce1bafb,
+              mid_score_67d89dc3894661ff,
+              mid_size_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

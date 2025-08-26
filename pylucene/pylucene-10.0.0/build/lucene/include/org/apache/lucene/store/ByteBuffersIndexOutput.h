@@ -3,6 +3,19 @@
 
 #include "org/apache/lucene/store/IndexOutput.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class Map;
+    class Set;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,19 +24,6 @@ namespace org {
         class ByteBuffersDataOutput;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-  namespace util {
-    class Set;
-    class Map;
   }
 }
 template<class T> class JArray;
@@ -36,21 +36,21 @@ namespace org {
         class ByteBuffersIndexOutput : public ::org::apache::lucene::store::IndexOutput {
          public:
           enum {
-            mid_init$_ae98ec413d9d1cac,
-            mid_close_3720c61b0679eb3e,
-            mid_copyBytes_3386f81b45981517,
-            mid_getChecksum_16939d9d0a9a9721,
-            mid_getFilePointer_16939d9d0a9a9721,
-            mid_toArrayCopy_5560da88fc44aa82,
-            mid_writeByte_bcdac0a459ff35f6,
-            mid_writeBytes_3f6ea74fc0096aaa,
-            mid_writeBytes_5fdd5da9426708e6,
-            mid_writeInt_540b2b23d51b1efd,
-            mid_writeLong_8b3d46852b435a94,
-            mid_writeMapOfStrings_79ba0f5a7d05e623,
-            mid_writeSetOfStrings_1d5d4c6f11d1b2ab,
-            mid_writeShort_13ddeb599c553531,
-            mid_writeString_0d82408c6e55bc30,
+            mid_init$_7dfcb3911aa2bc0e,
+            mid_close_e7bdbe105ce1bafb,
+            mid_copyBytes_56e1353970db77c0,
+            mid_getChecksum_0f176418e3e16541,
+            mid_getFilePointer_0f176418e3e16541,
+            mid_toArrayCopy_44e916dc40fc04cb,
+            mid_writeByte_a5d0ad9e85e76a64,
+            mid_writeBytes_31e2e931f3bb1000,
+            mid_writeBytes_116f7fcb5bff0f39,
+            mid_writeInt_8226bd0b0fc13dba,
+            mid_writeLong_1d3149fac12f2af3,
+            mid_writeMapOfStrings_6a7e23584beb7c0f,
+            mid_writeSetOfStrings_478519f7d4301fc7,
+            mid_writeShort_19904c0bd37f0d7f,
+            mid_writeString_ee46a189998009d6,
             max_mid
           };
 

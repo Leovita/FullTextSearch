@@ -6,25 +6,25 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class TermsEnum$SeekStatus;
+        class PostingsEnum;
+        class TermState;
+        class ImpactsEnum;
+      }
       namespace util {
         class Accountable;
         class BytesRef;
-      }
-      namespace index {
-        class TermsEnum$SeekStatus;
-        class TermState;
-        class ImpactsEnum;
-        class PostingsEnum;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -38,38 +38,38 @@ namespace org {
           class BlockReader : public ::org::apache::lucene::index::BaseTermsEnum {
            public:
             enum {
-              mid_docFreq_20fbf7565993c3d7,
-              mid_impacts_060f17b3b6523f29,
-              mid_next_9740fddd1c7df148,
-              mid_ord_16939d9d0a9a9721,
-              mid_postings_99afe58b6211434f,
-              mid_ramBytesUsed_16939d9d0a9a9721,
-              mid_seekCeil_69261b500ab5d3e8,
-              mid_seekExact_f460ee421aade2fd,
-              mid_seekExact_8b3d46852b435a94,
-              mid_seekExact_5c001dd449c905b9,
-              mid_term_9740fddd1c7df148,
-              mid_termState_0f33111124ab1b09,
-              mid_totalTermFreq_16939d9d0a9a9721,
-              mid_readTermStateIfNotRead_3bf66c86f1b277c4,
-              mid_isBeyondLastTerm_b5635b16bb9884e4,
-              mid_createBlockLineSerializer_73ba64f41f1e264b,
-              mid_readTermState_3bf66c86f1b277c4,
-              mid_isCurrentTerm_f460ee421aade2fd,
-              mid_clearTermState_3720c61b0679eb3e,
-              mid_getOrCreateDictionaryBrowser_a1250803d9fc677a,
-              mid_seekInBlock_acc003e789d54ad3,
-              mid_seekInBlock_69261b500ab5d3e8,
-              mid_initializeHeader_dbb330f97b1490f4,
-              mid_newCorruptIndexException_e35581851f4ed271,
-              mid_compareToMiddleAndJump_5cda243a0bd46c4d,
-              mid_readLineInBlock_2bfe7cebebb61465,
-              mid_initializeBlockReadLazily_3720c61b0679eb3e,
-              mid_createBlockHeaderSerializer_6952406d1a100b4b,
-              mid_createDeltaBaseTermStateSerializer_f794edf8e4b1e37d,
-              mid_decodeBlockBytesIfNeeded_29bb531a30fe8369,
-              mid_nextTerm_9740fddd1c7df148,
-              mid_readHeader_c93537a0551bcfa2,
+              mid_docFreq_bd89ce15dad49192,
+              mid_impacts_690aa98c917b43c2,
+              mid_next_adbedbc1fa61c358,
+              mid_ord_0f176418e3e16541,
+              mid_postings_1e5de27ebc464616,
+              mid_ramBytesUsed_0f176418e3e16541,
+              mid_seekCeil_3c5e68bf2fc0b5b1,
+              mid_seekExact_08ac7a49de309824,
+              mid_seekExact_1d3149fac12f2af3,
+              mid_seekExact_68ebcc8117fd12a5,
+              mid_term_adbedbc1fa61c358,
+              mid_termState_7f3f2ee4b8db95a4,
+              mid_totalTermFreq_0f176418e3e16541,
+              mid_createBlockLineSerializer_119d0a6549b55a52,
+              mid_createBlockHeaderSerializer_079d2def0419b3f5,
+              mid_createDeltaBaseTermStateSerializer_7524b2c859b47f7f,
+              mid_readTermState_90e39a1aad9f7074,
+              mid_nextTerm_adbedbc1fa61c358,
+              mid_isCurrentTerm_08ac7a49de309824,
+              mid_clearTermState_e7bdbe105ce1bafb,
+              mid_getOrCreateDictionaryBrowser_9e34968c5df117e5,
+              mid_isBeyondLastTerm_028f2a3472ff2200,
+              mid_seekInBlock_6460d192875c5bd7,
+              mid_seekInBlock_3c5e68bf2fc0b5b1,
+              mid_initializeHeader_0ad076b578ea277f,
+              mid_newCorruptIndexException_b08ae8fb09fbf4df,
+              mid_compareToMiddleAndJump_59a6eaf88a8be404,
+              mid_readLineInBlock_e765b9b526291148,
+              mid_initializeBlockReadLazily_e7bdbe105ce1bafb,
+              mid_decodeBlockBytesIfNeeded_1e79f110a34c4312,
+              mid_readTermStateIfNotRead_90e39a1aad9f7074,
+              mid_readHeader_ac322f7914274989,
               max_mid
             };
 

@@ -7,8 +7,8 @@ namespace java {
   namespace lang {
     class Comparable;
     class Class;
-    class CharSequence;
     class String;
+    class CharSequence;
   }
   namespace util {
     class Set;
@@ -39,14 +39,14 @@ namespace org {
           class Lookup$LookupResult : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_5163683160d08147,
-              mid_init$_d2da6003e7cef4c6,
-              mid_init$_f439a3d5edf2af16,
-              mid_init$_769b2a93fb10c30e,
-              mid_init$_6dd70aa10da1c25a,
-              mid_init$_f9006dcdbb1a0a3e,
-              mid_compareTo_cda19c3515c54f56,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_a3d513228f72d635,
+              mid_init$_87c85fedfe96df9e,
+              mid_init$_1608485c2cac078d,
+              mid_init$_209685a9ff4bcbfe,
+              mid_init$_e4675175480785df,
+              mid_init$_d97d6e8e4b59eb71,
+              mid_compareTo_a3ed0d353268a792,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

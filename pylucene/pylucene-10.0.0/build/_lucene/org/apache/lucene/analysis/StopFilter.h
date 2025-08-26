@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
   namespace util {
     class List;
@@ -17,8 +17,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace analysis {
-        class CharArraySet;
         class TokenStream;
+        class CharArraySet;
       }
     }
   }
@@ -33,12 +33,12 @@ namespace org {
         class StopFilter : public ::org::apache::lucene::analysis::FilteringTokenFilter {
          public:
           enum {
-            mid_init$_92e7098bbfc6f3de,
-            mid_makeStopSet_3890753b41260815,
-            mid_makeStopSet_b857b639b4eb042a,
-            mid_makeStopSet_37ba1b7babf4d74a,
-            mid_makeStopSet_7d8354399c9b5d37,
-            mid_accept_947277eca0748c4e,
+            mid_init$_c584271ff3a78226,
+            mid_makeStopSet_8ff89f7b440fe4e7,
+            mid_makeStopSet_b7b7585e2add8bd2,
+            mid_makeStopSet_390167ca95c298a8,
+            mid_makeStopSet_a1f91b1f6e3b9ce9,
+            mid_accept_9aa4f33e82ea333f,
             max_mid
           };
 

@@ -7,8 +7,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Sort;
         class Explanation;
+        class Sort;
         class TopDocs;
         class IndexSearcher;
       }
@@ -16,11 +16,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -33,9 +33,9 @@ namespace org {
         class SortRescorer : public ::org::apache::lucene::search::Rescorer {
          public:
           enum {
-            mid_init$_d35bc7e409a6dca4,
-            mid_explain_7816c2afad961dbe,
-            mid_rescore_2a267af6d7168b6c,
+            mid_init$_8466fcd0a314a224,
+            mid_explain_0301dd764f0b75c0,
+            mid_rescore_f836b6b8188cc050,
             max_mid
           };
 

@@ -6,27 +6,27 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexReader;
+      }
       namespace search {
-        namespace spell {
-          class Dictionary;
-        }
         namespace suggest {
           class InputIterator;
         }
-      }
-      namespace index {
-        class IndexReader;
+        namespace spell {
+          class Dictionary;
+        }
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -40,8 +40,8 @@ namespace org {
           class HighFrequencyDictionary : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_920f2c484a049e05,
-              mid_getEntryIterator_72e405f8eeb139f8,
+              mid_init$_e94d2ac1cd414213,
+              mid_getEntryIterator_b233487188876d36,
               max_mid
             };
 

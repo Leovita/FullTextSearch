@@ -3,24 +3,6 @@
 
 #include "java/lang/Object.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace search {
-        namespace suggest {
-          namespace fst {
-            class FSTCompletion$Completion;
-          }
-        }
-      }
-      namespace util {
-        namespace fst {
-          class FST;
-        }
-      }
-    }
-  }
-}
 namespace java {
   namespace lang {
     class Class;
@@ -28,6 +10,24 @@ namespace java {
   }
   namespace util {
     class List;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        namespace fst {
+          class FST;
+        }
+      }
+      namespace search {
+        namespace suggest {
+          namespace fst {
+            class FSTCompletion$Completion;
+          }
+        }
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -42,12 +42,12 @@ namespace org {
             class FSTCompletion : public ::java::lang::Object {
              public:
               enum {
-                mid_init$_d80c376272ec8dd6,
-                mid_init$_424190897a2f937e,
-                mid_getBucket_8e17890b160f6d76,
-                mid_getBucketCount_20fbf7565993c3d7,
-                mid_getFST_3fdd4cac6c744491,
-                mid_lookup_6e3326279ac0811d,
+                mid_init$_f8c761ef13f9ac4a,
+                mid_init$_0d658f9851fb85fd,
+                mid_getBucket_8ff0bdaf2663fb0b,
+                mid_getBucketCount_bd89ce15dad49192,
+                mid_getFST_fd8398244aedd9b3,
+                mid_lookup_e55ddf73b9430193,
                 max_mid
               };
 

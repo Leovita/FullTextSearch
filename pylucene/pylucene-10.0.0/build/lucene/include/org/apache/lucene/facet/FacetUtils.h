@@ -30,7 +30,7 @@ namespace org {
         class FacetUtils : public ::java::lang::Object {
          public:
           enum {
-            mid_liveDocsDISI_8dbec2142cf580e2,
+            mid_liveDocsDISI_644a6b7881e246ff,
             max_mid
           };
 

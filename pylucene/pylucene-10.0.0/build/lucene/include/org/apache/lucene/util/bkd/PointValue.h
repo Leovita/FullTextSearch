@@ -28,9 +28,9 @@ namespace org {
           class PointValue : public ::java::lang::Object {
            public:
             enum {
-              mid_docID_20fbf7565993c3d7,
-              mid_packedValue_9740fddd1c7df148,
-              mid_packedValueDocIDBytes_9740fddd1c7df148,
+              mid_docID_bd89ce15dad49192,
+              mid_packedValue_adbedbc1fa61c358,
+              mid_packedValueDocIDBytes_adbedbc1fa61c358,
               max_mid
             };
 

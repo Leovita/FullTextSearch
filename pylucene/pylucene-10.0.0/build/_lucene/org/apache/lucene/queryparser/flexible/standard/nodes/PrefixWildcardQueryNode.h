@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/queryparser/flexible/standard/nodes/WildcardQueryNode.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -31,6 +23,14 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -44,10 +44,10 @@ namespace org {
               class PrefixWildcardQueryNode : public ::org::apache::lucene::queryparser::flexible::standard::nodes::WildcardQueryNode {
                public:
                 enum {
-                  mid_init$_2ae1f5de8d899b47,
-                  mid_init$_b974a1b06f039814,
-                  mid_cloneTree_9c360f5c5bd1d334,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_06d255b8aaff4dd8,
+                  mid_init$_44298a318b5c73fe,
+                  mid_cloneTree_5bd5eee227fd799c,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

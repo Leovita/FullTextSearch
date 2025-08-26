@@ -6,18 +6,18 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexReader;
+      }
       namespace search {
         namespace vectorhighlight {
+          class FieldFragList$WeightedFragInfo;
           class FieldFragList;
           class FragmentsBuilder;
-          class FieldFragList$WeightedFragInfo;
         }
         namespace highlight {
           class Encoder;
         }
-      }
-      namespace index {
-        class IndexReader;
       }
     }
   }
@@ -27,11 +27,11 @@ namespace java {
     class Class;
     class String;
   }
-  namespace util {
-    class List;
-  }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class List;
   }
 }
 template<class T> class JArray;
@@ -45,24 +45,24 @@ namespace org {
           class BaseFragmentsBuilder : public ::java::lang::Object {
            public:
             enum {
-              mid_createFragment_5f1fb189aacdf032,
-              mid_createFragment_697d011a2f3d0cf0,
-              mid_createFragments_6c2dce9e15f35b36,
-              mid_createFragments_72b2a373c3c578d3,
-              mid_getMultiValuedSeparator_6c956faefc706166,
-              mid_getWeightedFragInfoList_52060c8532319091,
-              mid_isDiscreteMultiValueHighlighting_947277eca0748c4e,
-              mid_setDiscreteMultiValueHighlighting_b110fc3a58c081ab,
-              mid_setMultiValuedSeparator_97f8668422006638,
-              mid_discreteMultiValueHighlighting_2175d7fa0fb1c415,
-              mid_makeFragment_463a9da089eee419,
-              mid_getFragmentSourceMSO_35f1fe0cf947694e,
-              mid_getPreTag_cd8436557ab831f9,
-              mid_getPreTag_1b44bc32a26f1c02,
-              mid_getPostTag_1b44bc32a26f1c02,
-              mid_getPostTag_cd8436557ab831f9,
-              mid_getFragmentSource_3c2b877274b6b939,
-              mid_getFields_5b4f210cf391e536,
+              mid_createFragment_a2d41f387a5b193c,
+              mid_createFragment_4dcab3d7ada6981c,
+              mid_createFragments_a26122dcd96d2912,
+              mid_createFragments_aedfd0348ce18a80,
+              mid_getMultiValuedSeparator_15a06771db8cb866,
+              mid_getWeightedFragInfoList_be19c667f3dea389,
+              mid_isDiscreteMultiValueHighlighting_9aa4f33e82ea333f,
+              mid_setDiscreteMultiValueHighlighting_f5dd97eebf6a215a,
+              mid_setMultiValuedSeparator_121fb0d25559975f,
+              mid_discreteMultiValueHighlighting_ab3201ad50fbaee4,
+              mid_makeFragment_eb3dfec4f6594cc6,
+              mid_getFragmentSourceMSO_7fb298b82ee14d06,
+              mid_getPreTag_0da8f0b89b1e9a22,
+              mid_getPreTag_15f0b39e938e3224,
+              mid_getPostTag_15f0b39e938e3224,
+              mid_getPostTag_0da8f0b89b1e9a22,
+              mid_getFragmentSource_e61622d3c3a792dd,
+              mid_getFields_ae44a444ed0df68d,
               max_mid
             };
 

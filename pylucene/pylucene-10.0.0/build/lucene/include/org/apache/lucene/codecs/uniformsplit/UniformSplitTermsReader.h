@@ -7,26 +7,26 @@ namespace java {
   namespace util {
     class Iterator;
   }
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace codecs {
-        class PostingsReaderBase;
         namespace uniformsplit {
           class BlockDecoder;
         }
+        class PostingsReaderBase;
       }
       namespace index {
-        class SegmentReadState;
         class Terms;
+        class SegmentReadState;
       }
     }
   }
@@ -42,18 +42,18 @@ namespace org {
           class UniformSplitTermsReader : public ::org::apache::lucene::codecs::FieldsProducer {
            public:
             enum {
-              mid_init$_ace06ec179bdf651,
-              mid_checkIntegrity_3720c61b0679eb3e,
-              mid_close_3720c61b0679eb3e,
-              mid_iterator_0db4c76ff7ee995b,
-              mid_size_20fbf7565993c3d7,
-              mid_terms_734b49c46dc30275,
-              mid_seekFieldsMetadata_5d631c4d88317d46,
-              mid_readFieldsMetadata_8588c365fe70c953,
-              mid_fillFieldMap_ac913bf5286710be,
-              mid_createDictionaryBrowserSupplier_266ce4f178956f11,
-              mid_readEncodedFieldsMetadata_bea8498d08538a8a,
-              mid_readUnencodedFieldsMetadata_1d97bcc5936a28b9,
+              mid_init$_4be21c2165b0a85c,
+              mid_checkIntegrity_e7bdbe105ce1bafb,
+              mid_close_e7bdbe105ce1bafb,
+              mid_iterator_c7985fafdcf40e83,
+              mid_size_bd89ce15dad49192,
+              mid_terms_b30320f056ffba8d,
+              mid_seekFieldsMetadata_a302e4ca19bb6bc3,
+              mid_readFieldsMetadata_90e09eeab836cefa,
+              mid_fillFieldMap_db2609761a52d9ae,
+              mid_createDictionaryBrowserSupplier_aa3b5ff1d0b219cc,
+              mid_readEncodedFieldsMetadata_6de759bb453fce05,
+              mid_readUnencodedFieldsMetadata_e400efe2d206ee67,
               max_mid
             };
 

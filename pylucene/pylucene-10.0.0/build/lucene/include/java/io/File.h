@@ -4,17 +4,17 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace lang {
-    class Comparable;
-    class Class;
-    class String;
-  }
   namespace io {
-    class FileFilter;
     class File;
-    class Serializable;
-    class IOException;
     class FilenameFilter;
+    class IOException;
+    class FileFilter;
+    class Serializable;
+  }
+  namespace lang {
+    class String;
+    class Class;
+    class Comparable;
   }
   namespace nio {
     namespace file {
@@ -30,57 +30,57 @@ namespace java {
     class File : public ::java::lang::Object {
      public:
       enum {
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_e959520fd6b758e1,
-        mid_init$_3d104da0b5c75e64,
-        mid_canExecute_947277eca0748c4e,
-        mid_canRead_947277eca0748c4e,
-        mid_canWrite_947277eca0748c4e,
-        mid_compareTo_8afe0896ed391bb8,
-        mid_createNewFile_947277eca0748c4e,
-        mid_createTempFile_b634b3b993b394d8,
-        mid_createTempFile_3f177dce8dd7b220,
-        mid_delete_947277eca0748c4e,
-        mid_deleteOnExit_3720c61b0679eb3e,
-        mid_equals_570b5248a6da3ef6,
-        mid_exists_947277eca0748c4e,
-        mid_getAbsoluteFile_3ba2f8bbd3c09c8f,
-        mid_getAbsolutePath_09a7afff1868fc5e,
-        mid_getCanonicalFile_3ba2f8bbd3c09c8f,
-        mid_getCanonicalPath_09a7afff1868fc5e,
-        mid_getFreeSpace_16939d9d0a9a9721,
-        mid_getName_09a7afff1868fc5e,
-        mid_getParent_09a7afff1868fc5e,
-        mid_getParentFile_3ba2f8bbd3c09c8f,
-        mid_getPath_09a7afff1868fc5e,
-        mid_getTotalSpace_16939d9d0a9a9721,
-        mid_getUsableSpace_16939d9d0a9a9721,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_isAbsolute_947277eca0748c4e,
-        mid_isDirectory_947277eca0748c4e,
-        mid_isFile_947277eca0748c4e,
-        mid_isHidden_947277eca0748c4e,
-        mid_lastModified_16939d9d0a9a9721,
-        mid_length_16939d9d0a9a9721,
-        mid_list_6da8f3ea65e22733,
-        mid_list_ba14b26ba61d2cfd,
-        mid_listFiles_e6e51ec9f63060e9,
-        mid_listFiles_ae5ff04b586336d9,
-        mid_listFiles_1b9edf7d1dda6cab,
-        mid_listRoots_e6e51ec9f63060e9,
-        mid_mkdir_947277eca0748c4e,
-        mid_mkdirs_947277eca0748c4e,
-        mid_renameTo_f4595d8e6d5c0d5d,
-        mid_setExecutable_6a2c1000a9889653,
-        mid_setExecutable_8d00a228c911b713,
-        mid_setLastModified_d8a0ab12857291e0,
-        mid_setReadOnly_947277eca0748c4e,
-        mid_setReadable_6a2c1000a9889653,
-        mid_setReadable_8d00a228c911b713,
-        mid_setWritable_6a2c1000a9889653,
-        mid_setWritable_8d00a228c911b713,
-        mid_toPath_d21fdf719406f66d,
-        mid_toString_09a7afff1868fc5e,
+        mid_init$_ee46a189998009d6,
+        mid_init$_eb4a708af6270cb7,
+        mid_init$_0dd012a11c3f389b,
+        mid_canExecute_9aa4f33e82ea333f,
+        mid_canRead_9aa4f33e82ea333f,
+        mid_canWrite_9aa4f33e82ea333f,
+        mid_compareTo_25a281a234553b6a,
+        mid_createNewFile_9aa4f33e82ea333f,
+        mid_createTempFile_5f77b292003a9f13,
+        mid_createTempFile_997a9db5f40fe6f6,
+        mid_delete_9aa4f33e82ea333f,
+        mid_deleteOnExit_e7bdbe105ce1bafb,
+        mid_equals_00d17418847797d4,
+        mid_exists_9aa4f33e82ea333f,
+        mid_getAbsoluteFile_f842686345e45341,
+        mid_getAbsolutePath_e7df854526d67fa3,
+        mid_getCanonicalFile_f842686345e45341,
+        mid_getCanonicalPath_e7df854526d67fa3,
+        mid_getFreeSpace_0f176418e3e16541,
+        mid_getName_e7df854526d67fa3,
+        mid_getParent_e7df854526d67fa3,
+        mid_getParentFile_f842686345e45341,
+        mid_getPath_e7df854526d67fa3,
+        mid_getTotalSpace_0f176418e3e16541,
+        mid_getUsableSpace_0f176418e3e16541,
+        mid_hashCode_bd89ce15dad49192,
+        mid_isAbsolute_9aa4f33e82ea333f,
+        mid_isDirectory_9aa4f33e82ea333f,
+        mid_isFile_9aa4f33e82ea333f,
+        mid_isHidden_9aa4f33e82ea333f,
+        mid_lastModified_0f176418e3e16541,
+        mid_length_0f176418e3e16541,
+        mid_list_970db9a2a49d840f,
+        mid_list_9cb711767c759a52,
+        mid_listFiles_1f69dd5e59b415f3,
+        mid_listFiles_9b2d5b1010b2e815,
+        mid_listFiles_c0ba60d223c90982,
+        mid_listRoots_1f69dd5e59b415f3,
+        mid_mkdir_9aa4f33e82ea333f,
+        mid_mkdirs_9aa4f33e82ea333f,
+        mid_renameTo_7f82f5bae1e55a06,
+        mid_setExecutable_7c42d16ca5eaa145,
+        mid_setExecutable_a2a97ad651c8c02f,
+        mid_setLastModified_eae0b285d107fcb0,
+        mid_setReadOnly_9aa4f33e82ea333f,
+        mid_setReadable_7c42d16ca5eaa145,
+        mid_setReadable_a2a97ad651c8c02f,
+        mid_setWritable_7c42d16ca5eaa145,
+        mid_setWritable_a2a97ad651c8c02f,
+        mid_toPath_da490036461fb4f2,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

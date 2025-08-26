@@ -3,6 +3,14 @@
 
 #include "org/apache/lucene/queryparser/flexible/core/nodes/FieldQueryNode.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class CharSequence;
+    class CloneNotSupportedException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -21,14 +29,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-    class CharSequence;
-    class String;
-    class CloneNotSupportedException;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -42,10 +42,10 @@ namespace org {
               class QuotedFieldQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::FieldQueryNode {
                public:
                 enum {
-                  mid_init$_b974a1b06f039814,
-                  mid_cloneTree_04fa10c292dbd33f,
-                  mid_toQueryString_d4d5dbebf21f5529,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_44298a318b5c73fe,
+                  mid_cloneTree_d424f0f8552b0ec9,
+                  mid_toQueryString_5260f1dc7a86fc8d,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

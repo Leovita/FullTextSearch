@@ -6,14 +6,14 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace backward_codecs {
-        namespace lucene91 {
-          class Lucene91NeighborArray;
-        }
-      }
       namespace util {
         namespace hnsw {
           class HnswGraph$NodesIterator;
+        }
+      }
+      namespace backward_codecs {
+        namespace lucene91 {
+          class Lucene91NeighborArray;
         }
       }
     }
@@ -35,14 +35,14 @@ namespace org {
           class Lucene91OnHeapHnswGraph : public ::org::apache::lucene::util::hnsw::HnswGraph {
            public:
             enum {
-              mid_addNode_e13cff512ebda969,
-              mid_entryNode_20fbf7565993c3d7,
-              mid_getNeighbors_915e296fb979dcf0,
-              mid_getNodesOnLevel_0f4b826da8e38ef5,
-              mid_nextNeighbor_20fbf7565993c3d7,
-              mid_numLevels_20fbf7565993c3d7,
-              mid_seek_e13cff512ebda969,
-              mid_size_20fbf7565993c3d7,
+              mid_addNode_645c25455f5b9b1c,
+              mid_entryNode_bd89ce15dad49192,
+              mid_getNeighbors_bc9ae2bedfdab956,
+              mid_getNodesOnLevel_767b56846d01a898,
+              mid_nextNeighbor_bd89ce15dad49192,
+              mid_numLevels_bd89ce15dad49192,
+              mid_seek_645c25455f5b9b1c,
+              mid_size_bd89ce15dad49192,
               max_mid
             };
 

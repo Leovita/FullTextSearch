@@ -22,8 +22,8 @@ namespace org {
               class ValueQueryNode : public ::org::apache::lucene::queryparser::flexible::core::nodes::QueryNode {
                public:
                 enum {
-                  mid_getValue_5655ed8670534604,
-                  mid_setValue_eb61ef4d1db15d08,
+                  mid_getValue_4819806f62f1360a,
+                  mid_setValue_501c3eb890ff6d79,
                   max_mid
                 };
 

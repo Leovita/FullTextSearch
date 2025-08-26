@@ -5,8 +5,8 @@
 
 namespace java {
   namespace io {
-    class Closeable;
     class IOException;
+    class Closeable;
   }
   namespace lang {
     class Class;
@@ -22,9 +22,9 @@ namespace org {
         class Lock : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_ensureValid_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_ensureValid_e7bdbe105ce1bafb,
             max_mid
           };
 

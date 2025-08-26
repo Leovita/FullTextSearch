@@ -6,6 +6,9 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class IndexReader;
+      }
       namespace facet {
         class FacetsCollector;
         class FacetsConfig;
@@ -13,19 +16,16 @@ namespace org {
           class TaxonomyReader;
         }
       }
-      namespace index {
-        class IndexReader;
-      }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -39,9 +39,9 @@ namespace org {
           class FastTaxonomyFacetCounts : public ::org::apache::lucene::facet::taxonomy::TaxonomyFacets {
            public:
             enum {
-              mid_init$_140d16cdc0ae250f,
-              mid_init$_adfda06004418f78,
-              mid_init$_29333cd1239d802d,
+              mid_init$_fa2c9f342ad578e6,
+              mid_init$_e83f03f21349f3a2,
+              mid_init$_94f16c06b594d93e,
               max_mid
             };
 

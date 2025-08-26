@@ -20,9 +20,9 @@ namespace org {
           class LMSimilarity$LMStats : public ::org::apache::lucene::search::similarities::BasicStats {
            public:
             enum {
-              mid_init$_8c2de08a6e50677a,
-              mid_getCollectionProbability_32caabaad86c508b,
-              mid_setCollectionProbability_b5bc1a2fb9ff9e90,
+              mid_init$_dbeaa7d1faf6f28f,
+              mid_getCollectionProbability_6fb37e123fed7a1f,
+              mid_setCollectionProbability_a03f734ddaeb69b4,
               max_mid
             };
 

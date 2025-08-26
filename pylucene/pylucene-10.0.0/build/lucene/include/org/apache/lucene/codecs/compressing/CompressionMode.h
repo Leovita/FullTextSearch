@@ -8,9 +8,9 @@ namespace org {
     namespace lucene {
       namespace codecs {
         namespace compressing {
-          class Decompressor;
-          class Compressor;
           class CompressionMode;
+          class Compressor;
+          class Decompressor;
         }
       }
     }
@@ -32,8 +32,8 @@ namespace org {
           class CompressionMode : public ::java::lang::Object {
            public:
             enum {
-              mid_newCompressor_a3906ae75978c8b0,
-              mid_newDecompressor_4831b2fbaf57a094,
+              mid_newCompressor_ffb008ea311c4f06,
+              mid_newDecompressor_0a2895b8bea244f0,
               max_mid
             };
 

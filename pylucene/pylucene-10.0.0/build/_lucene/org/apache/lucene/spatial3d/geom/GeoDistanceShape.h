@@ -3,22 +3,22 @@
 
 #include "org/apache/lucene/spatial3d/geom/GeoAreaShape.h"
 
-namespace java {
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
+          class GeoDistance;
           class Bounds;
           class DistanceStyle;
-          class GeoDistance;
         }
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -32,7 +32,7 @@ namespace org {
           class GeoDistanceShape : public ::org::apache::lucene::spatial3d::geom::GeoAreaShape {
            public:
             enum {
-              mid_getDistanceBounds_c5f285fb01660151,
+              mid_getDistanceBounds_13d4518d2e258a7e,
               max_mid
             };
 

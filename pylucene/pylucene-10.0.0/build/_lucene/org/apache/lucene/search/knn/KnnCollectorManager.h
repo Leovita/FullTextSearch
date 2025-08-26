@@ -34,7 +34,7 @@ namespace org {
           class KnnCollectorManager : public ::java::lang::Object {
            public:
             enum {
-              mid_newCollector_401e714a5e3dcc89,
+              mid_newCollector_7ffd49c5523c1db4,
               max_mid
             };
 

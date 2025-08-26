@@ -6,16 +6,13 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace search {
-        class Query;
-      }
       namespace queryparser {
         namespace xml {
-          class QueryBuilder;
-          class ParserException;
           namespace builders {
             class SpanQueryBuilder;
           }
+          class ParserException;
+          class QueryBuilder;
         }
         namespace classic {
           class QueryParser;
@@ -23,6 +20,9 @@ namespace org {
       }
       namespace analysis {
         class Analyzer;
+      }
+      namespace search {
+        class Query;
       }
       namespace queries {
         namespace spans {
@@ -33,12 +33,12 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class InputStream;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class InputStream;
   }
 }
 template<class T> class JArray;
@@ -52,14 +52,14 @@ namespace org {
           class CoreParser : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_5ad8a03860372cd3,
-              mid_init$_c50f2f6f1d850d13,
-              mid_addQueryBuilder_4c407e9e3997ffc4,
-              mid_addSpanBuilder_2c6d0463560b6b66,
-              mid_addSpanQueryBuilder_2c6d0463560b6b66,
-              mid_parse_87833bd37e939f1f,
-              mid_getEntityResolver_1de2bd4ff8ce381e,
-              mid_getErrorHandler_0c92ac79b7c75d20,
+              mid_init$_33176810276667e4,
+              mid_init$_cc97c286759ef3b4,
+              mid_addQueryBuilder_29c210d86f5ad3ae,
+              mid_addSpanBuilder_effb754fa1e32088,
+              mid_addSpanQueryBuilder_effb754fa1e32088,
+              mid_parse_f376b0e5b2357646,
+              mid_getEntityResolver_3302dc7f5e4cb800,
+              mid_getErrorHandler_b04fd9fbc4e4fa23,
               max_mid
             };
 

@@ -4,15 +4,15 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class Class;
+  }
   namespace util {
+    class Spliterator;
+    class Comparator;
     namespace function {
       class Consumer;
     }
-    class Spliterator;
-    class Comparator;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -23,14 +23,14 @@ namespace java {
     class Spliterator : public ::java::lang::Object {
      public:
       enum {
-        mid_characteristics_20fbf7565993c3d7,
-        mid_estimateSize_16939d9d0a9a9721,
-        mid_forEachRemaining_9460fa31d6623bfb,
-        mid_getComparator_39238840448c1807,
-        mid_getExactSizeIfKnown_16939d9d0a9a9721,
-        mid_hasCharacteristics_ae22d3a856ad56f1,
-        mid_tryAdvance_6d1c2840cf2a57a7,
-        mid_trySplit_eebbc9cffa204672,
+        mid_characteristics_bd89ce15dad49192,
+        mid_estimateSize_0f176418e3e16541,
+        mid_forEachRemaining_b4f64d55664646ca,
+        mid_getComparator_5cc89c689cd941fe,
+        mid_getExactSizeIfKnown_0f176418e3e16541,
+        mid_hasCharacteristics_a8281eb3b9d9672d,
+        mid_tryAdvance_a04103c7b2de0755,
+        mid_trySplit_fd118e26a3de79e6,
         max_mid
       };
 

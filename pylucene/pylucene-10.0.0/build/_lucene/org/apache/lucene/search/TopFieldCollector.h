@@ -7,22 +7,22 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        class Query;
         class ScoreMode;
-        class ScoreDoc;
-        class FieldValueHitQueue$Entry;
         class TopFieldDocs;
+        class Query;
+        class FieldValueHitQueue$Entry;
+        class ScoreDoc;
         class IndexSearcher;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,14 +35,14 @@ namespace org {
         class TopFieldCollector : public ::org::apache::lucene::search::TopDocsCollector {
          public:
           enum {
-            mid_isEarlyTerminated_947277eca0748c4e,
-            mid_populateScores_2562119f0be94df5,
-            mid_scoreMode_45dfdcf7e901559d,
-            mid_topDocs_5b3f934d4a617545,
-            mid_updateGlobalMinCompetitiveScore_dd42dde4c0a7db1e,
-            mid_updateMinCompetitiveScore_dd42dde4c0a7db1e,
-            mid_newTopDocs_f6010540414086f3,
-            mid_populateResults_de6fa2c5d78c15b6,
+            mid_isEarlyTerminated_9aa4f33e82ea333f,
+            mid_populateScores_21492d2db431dbd2,
+            mid_scoreMode_23e7061dcdc84768,
+            mid_topDocs_15785802cb19c314,
+            mid_updateGlobalMinCompetitiveScore_c06bdf7d53c6460a,
+            mid_updateMinCompetitiveScore_c06bdf7d53c6460a,
+            mid_newTopDocs_d4fc5c39fd7326b6,
+            mid_populateResults_d8cc3a50beb36d32,
             max_mid
           };
 

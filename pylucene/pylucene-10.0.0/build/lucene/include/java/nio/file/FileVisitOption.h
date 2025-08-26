@@ -4,14 +4,14 @@
 #include "java/lang/Enum.h"
 
 namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
   namespace nio {
     namespace file {
       class FileVisitOption;
     }
+  }
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -23,8 +23,8 @@ namespace java {
       class FileVisitOption : public ::java::lang::Enum {
        public:
         enum {
-          mid_valueOf_ac36f38bc7cf2831,
-          mid_values_bab31b82a12bf613,
+          mid_valueOf_a54c085bec53f186,
+          mid_values_be07cc5a309ea212,
           max_mid
         };
 

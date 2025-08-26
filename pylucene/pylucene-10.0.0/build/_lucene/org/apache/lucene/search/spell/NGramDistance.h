@@ -31,12 +31,12 @@ namespace org {
           class NGramDistance : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_init$_540b2b23d51b1efd,
-              mid_equals_570b5248a6da3ef6,
-              mid_getDistance_f7f6deee5db3b344,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_init$_8226bd0b0fc13dba,
+              mid_equals_00d17418847797d4,
+              mid_getDistance_df5a321780692978,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

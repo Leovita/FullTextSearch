@@ -9,20 +9,20 @@ namespace org {
       namespace index {
         class MergeState;
         class ByteVectorValues;
-        class FieldInfo;
         class FloatVectorValues;
+        class FieldInfo;
         class FieldInfos;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -35,9 +35,9 @@ namespace org {
         class KnnVectorsWriter$MergedVectorValues : public ::java::lang::Object {
          public:
           enum {
-            mid_hasVectorValues_c3795e3831891a4c,
-            mid_mergeByteVectorValues_0cdc3974185be8a0,
-            mid_mergeFloatVectorValues_10d6c6a29d7c0691,
+            mid_hasVectorValues_6e013c0cf6a48d37,
+            mid_mergeByteVectorValues_dd676b192b0e462c,
+            mid_mergeFloatVectorValues_7766995fd294ea4b,
             max_mid
           };
 

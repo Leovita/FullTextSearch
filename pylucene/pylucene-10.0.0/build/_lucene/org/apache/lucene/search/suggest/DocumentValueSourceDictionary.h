@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/search/suggest/DocumentDictionary.h"
 
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -27,6 +18,15 @@ namespace org {
     }
   }
 }
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 template<class T> class JArray;
 
 namespace org {
@@ -38,10 +38,10 @@ namespace org {
           class DocumentValueSourceDictionary : public ::org::apache::lucene::search::suggest::DocumentDictionary {
            public:
             enum {
-              mid_init$_cb1badcba14f675c,
-              mid_init$_04e29fc6e0af469a,
-              mid_init$_c70968f619bf47f4,
-              mid_getEntryIterator_72e405f8eeb139f8,
+              mid_init$_f2e4c83ddabaedb7,
+              mid_init$_735df9c67c326296,
+              mid_init$_aacb76a10e241f02,
+              mid_getEntryIterator_b233487188876d36,
               max_mid
             };
 

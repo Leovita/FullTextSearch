@@ -3,13 +3,6 @@
 
 #include "java/lang/Record.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Object;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,6 +10,13 @@ namespace org {
         class IntsRef;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Object;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -30,12 +30,12 @@ namespace org {
           class Util$Result : public ::java::lang::Record {
            public:
             enum {
-              mid_init$_0a44f2cd64b1f893,
-              mid_equals_570b5248a6da3ef6,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_input_11a210fd9b2b21bd,
-              mid_output_5655ed8670534604,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_b27e2647f98cd7bb,
+              mid_equals_00d17418847797d4,
+              mid_hashCode_bd89ce15dad49192,
+              mid_input_467dd1d064587a13,
+              mid_output_4819806f62f1360a,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

@@ -8,8 +8,8 @@ namespace org {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class PlanetModel;
           class GeoCircle;
+          class PlanetModel;
         }
       }
     }
@@ -31,8 +31,8 @@ namespace org {
           class GeoCircleFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_makeExactGeoCircle_3b55cf834aa6612e,
-              mid_makeGeoCircle_b015fd07877d4bf4,
+              mid_makeExactGeoCircle_d60c52d6726bd0bb,
+              mid_makeGeoCircle_2fedd2f2e26c9b71,
               max_mid
             };
 

@@ -3,6 +3,20 @@
 
 #include "org/apache/lucene/analysis/AbstractAnalysisFactory.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+    class String;
+    class ClassLoader;
+  }
+  namespace io {
+    class Reader;
+  }
+  namespace util {
+    class Map;
+    class Set;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -10,20 +24,6 @@ namespace org {
         class CharFilterFactory;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-    class ClassLoader;
-  }
-  namespace util {
-    class Set;
-    class Map;
-  }
-  namespace io {
-    class Reader;
   }
 }
 template<class T> class JArray;
@@ -36,13 +36,13 @@ namespace org {
         class CharFilterFactory : public ::org::apache::lucene::analysis::AbstractAnalysisFactory {
          public:
           enum {
-            mid_availableCharFilters_4df174295554d7bd,
-            mid_create_f8966313249002a6,
-            mid_findSPIName_205c6b35c6f0cc38,
-            mid_forName_7a86fff12a87cc2f,
-            mid_lookupClass_f5e647a8ccc975d0,
-            mid_normalize_f8966313249002a6,
-            mid_reloadCharFilters_7e882e12061eaf38,
+            mid_availableCharFilters_79131c6bbcf08916,
+            mid_create_e087cc3459c2aeac,
+            mid_findSPIName_6db5b6bc30526b11,
+            mid_forName_13980ec35fc8a96a,
+            mid_lookupClass_34dc63379bcbfa09,
+            mid_normalize_e087cc3459c2aeac,
+            mid_reloadCharFilters_d603563f542d31ba,
             max_mid
           };
 

@@ -7,20 +7,20 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace index {
-        class PointValues;
         class PointValues$IntersectVisitor;
+        class PointValues;
         class PointValues$Relation;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -33,12 +33,12 @@ namespace org {
         class CheckIndex$VerifyPointsVisitor : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3e323eb6663faa8e,
-            mid_compare_d428ecb3f4dbdf11,
-            mid_getDocCountSeen_16939d9d0a9a9721,
-            mid_getPointCountSeen_16939d9d0a9a9721,
-            mid_visit_540b2b23d51b1efd,
-            mid_visit_255018cd4981ed89,
+            mid_init$_ba815de8aaf22ffe,
+            mid_compare_ede9f74e83c55eff,
+            mid_getDocCountSeen_0f176418e3e16541,
+            mid_getPointCountSeen_0f176418e3e16541,
+            mid_visit_8226bd0b0fc13dba,
+            mid_visit_027bd37cec7676d5,
             max_mid
           };
 

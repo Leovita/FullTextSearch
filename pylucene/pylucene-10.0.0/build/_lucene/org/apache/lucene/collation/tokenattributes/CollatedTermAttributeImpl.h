@@ -3,14 +3,6 @@
 
 #include "org/apache/lucene/analysis/tokenattributes/CharTermAttributeImpl.h"
 
-namespace java {
-  namespace text {
-    class Collator;
-  }
-  namespace lang {
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -18,6 +10,14 @@ namespace org {
         class BytesRef;
       }
     }
+  }
+}
+namespace java {
+  namespace text {
+    class Collator;
+  }
+  namespace lang {
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -31,8 +31,8 @@ namespace org {
           class CollatedTermAttributeImpl : public ::org::apache::lucene::analysis::tokenattributes::CharTermAttributeImpl {
            public:
             enum {
-              mid_init$_df4e91f4589aa589,
-              mid_getBytesRef_9740fddd1c7df148,
+              mid_init$_b2f0a3261bb25874,
+              mid_getBytesRef_adbedbc1fa61c358,
               max_mid
             };
 

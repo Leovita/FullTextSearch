@@ -21,12 +21,12 @@ namespace org {
         class PythonIterator : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_hasNext_947277eca0748c4e,
-            mid_next_5655ed8670534604,
-            mid_pythonExtension_16939d9d0a9a9721,
-            mid_pythonExtension_8b3d46852b435a94,
-            mid_remove_3720c61b0679eb3e,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_hasNext_9aa4f33e82ea333f,
+            mid_next_4819806f62f1360a,
+            mid_pythonExtension_0f176418e3e16541,
+            mid_pythonExtension_1d3149fac12f2af3,
+            mid_remove_e7bdbe105ce1bafb,
             max_mid
           };
 

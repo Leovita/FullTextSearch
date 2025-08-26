@@ -4,20 +4,20 @@
 #include "java/lang/Object.h"
 
 namespace java {
+  namespace lang {
+    class Runnable;
+    class Class;
+    class Throwable;
+    class String;
+  }
   namespace util {
     namespace function {
-      class Supplier;
-      class Consumer;
       class Predicate;
       class Function;
+      class Supplier;
+      class Consumer;
     }
     class Optional;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Runnable;
-    class Throwable;
   }
 }
 template<class T> class JArray;
@@ -28,25 +28,25 @@ namespace java {
     class Optional : public ::java::lang::Object {
      public:
       enum {
-        mid_empty_d95173840d09a723,
-        mid_equals_570b5248a6da3ef6,
-        mid_filter_bd42cf89963da20f,
-        mid_flatMap_82d21b46e7f72d9e,
-        mid_get_5655ed8670534604,
-        mid_hashCode_20fbf7565993c3d7,
-        mid_ifPresent_9460fa31d6623bfb,
-        mid_ifPresentOrElse_682b0f0c58da8db3,
-        mid_isEmpty_947277eca0748c4e,
-        mid_isPresent_947277eca0748c4e,
-        mid_map_82d21b46e7f72d9e,
-        mid_of_3504f13877c58f3d,
-        mid_ofNullable_3504f13877c58f3d,
-        mid_or_7995029716ff52cf,
-        mid_orElse_5fd81664d2d475e1,
-        mid_orElseGet_e52a69060ec0f8d5,
-        mid_orElseThrow_5655ed8670534604,
-        mid_orElseThrow_e52a69060ec0f8d5,
-        mid_toString_09a7afff1868fc5e,
+        mid_empty_9a972c66ccbfd657,
+        mid_equals_00d17418847797d4,
+        mid_filter_4c71120b72e3ae18,
+        mid_flatMap_b8cfd2ec14588279,
+        mid_get_4819806f62f1360a,
+        mid_hashCode_bd89ce15dad49192,
+        mid_ifPresent_b4f64d55664646ca,
+        mid_ifPresentOrElse_477a46962c7a43aa,
+        mid_isEmpty_9aa4f33e82ea333f,
+        mid_isPresent_9aa4f33e82ea333f,
+        mid_map_b8cfd2ec14588279,
+        mid_of_3e4d64a011ec261c,
+        mid_ofNullable_3e4d64a011ec261c,
+        mid_or_7e1a9837698834f4,
+        mid_orElse_e2c45b124c12f4ec,
+        mid_orElseGet_6640ad16f7785fda,
+        mid_orElseThrow_4819806f62f1360a,
+        mid_orElseThrow_6640ad16f7785fda,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

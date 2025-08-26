@@ -3,27 +3,27 @@
 
 #include "org/apache/lucene/codecs/uniformsplit/UniformSplitTerms.h"
 
-namespace org {
-  namespace apache {
-    namespace lucene {
-      namespace index {
-        class TermsEnum;
-      }
-      namespace util {
-        namespace automaton {
-          class CompiledAutomaton;
-        }
-        class BytesRef;
-      }
-    }
-  }
-}
 namespace java {
   namespace io {
     class IOException;
   }
   namespace lang {
     class Class;
+  }
+}
+namespace org {
+  namespace apache {
+    namespace lucene {
+      namespace util {
+        namespace automaton {
+          class CompiledAutomaton;
+        }
+        class BytesRef;
+      }
+      namespace index {
+        class TermsEnum;
+      }
+    }
   }
 }
 template<class T> class JArray;
@@ -38,8 +38,8 @@ namespace org {
             class STUniformSplitTerms : public ::org::apache::lucene::codecs::uniformsplit::UniformSplitTerms {
              public:
               enum {
-                mid_intersect_ae180b89f91722b6,
-                mid_iterator_8a12f41bbebee35e,
+                mid_intersect_1265e3f103794636,
+                mid_iterator_c92e16ad45780176,
                 max_mid
               };
 

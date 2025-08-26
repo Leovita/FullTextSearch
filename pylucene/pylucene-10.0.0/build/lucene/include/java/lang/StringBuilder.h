@@ -6,12 +6,12 @@
 namespace java {
   namespace lang {
     class Comparable;
-    class Class;
-    class CharSequence;
     class String;
     class Object;
-    class StringBuffer;
+    class Class;
     class StringBuilder;
+    class StringBuffer;
+    class CharSequence;
   }
   namespace io {
     class Serializable;
@@ -25,48 +25,48 @@ namespace java {
     class StringBuilder : public ::java::lang::AbstractStringBuilder {
      public:
       enum {
-        mid_init$_3720c61b0679eb3e,
-        mid_init$_0d82408c6e55bc30,
-        mid_init$_540b2b23d51b1efd,
-        mid_init$_5ed8eb2e3024c663,
-        mid_append_48b6de916538e13f,
-        mid_append_ceb776d90fd8f41f,
-        mid_append_6cb940ccadfc8e0b,
-        mid_append_3d1d873069275cd7,
-        mid_append_b60ed3d688a8ca86,
-        mid_append_441409ddf268988f,
-        mid_append_93a3ccd863ea6d04,
-        mid_append_04454a05351e74ea,
-        mid_append_060d02c19b7b0ef0,
-        mid_append_6272036dd34015d5,
-        mid_append_1e995b0325304cc1,
-        mid_append_cb1511d2fa2040b4,
-        mid_append_1a3081c1b53eb2d1,
-        mid_appendCodePoint_04454a05351e74ea,
-        mid_compareTo_f7953e7ec8c024e4,
-        mid_delete_06b50f5ba1f1b629,
-        mid_deleteCharAt_04454a05351e74ea,
-        mid_indexOf_3f230d713d7fd2b0,
-        mid_indexOf_8d709462afbd628d,
-        mid_insert_dd468ad714956a8d,
-        mid_insert_d5f38aa9eda86ef9,
-        mid_insert_7e5e32eedea8e44f,
-        mid_insert_98bee7146d32db66,
-        mid_insert_155cb7888457b98f,
-        mid_insert_0806711c16f50c29,
-        mid_insert_06b50f5ba1f1b629,
-        mid_insert_fef819f8a132724b,
-        mid_insert_8de9075faf2e4732,
-        mid_insert_1ee4eac6c9c22f76,
-        mid_insert_f6a55d6d975c6e1c,
-        mid_insert_7ac391ab70a27bb3,
-        mid_lastIndexOf_3f230d713d7fd2b0,
-        mid_lastIndexOf_8d709462afbd628d,
-        mid_repeat_06b50f5ba1f1b629,
-        mid_repeat_99cb2368e0ddb480,
-        mid_replace_5b1528a1163981fb,
-        mid_reverse_3d090b496042df8d,
-        mid_toString_09a7afff1868fc5e,
+        mid_init$_e7bdbe105ce1bafb,
+        mid_init$_ee46a189998009d6,
+        mid_init$_8226bd0b0fc13dba,
+        mid_init$_fe2ab7d27aa3fe1a,
+        mid_append_fd709330181527f2,
+        mid_append_c4cc4e0c4f214393,
+        mid_append_a503faa36b65b12a,
+        mid_append_5b509e9e0dd81b85,
+        mid_append_491a6399ffb3873c,
+        mid_append_e17525c3eb5d409a,
+        mid_append_fa4b874460a763a1,
+        mid_append_355df0471556a714,
+        mid_append_7063dc13fdb1d628,
+        mid_append_bb3975eeadf31b49,
+        mid_append_941e397e6c510467,
+        mid_append_aeccab4a5c8413d4,
+        mid_append_2275329a7d99bba0,
+        mid_appendCodePoint_355df0471556a714,
+        mid_compareTo_f23d3d96179ca830,
+        mid_delete_c56c68c793d17cf4,
+        mid_deleteCharAt_355df0471556a714,
+        mid_indexOf_fa2a6f298bd618ab,
+        mid_indexOf_3c8becdb59ed9edb,
+        mid_insert_26f50597298c3a31,
+        mid_insert_84a9ebd51103bcb1,
+        mid_insert_f06f75f57d9b4112,
+        mid_insert_c180dcd95f62698e,
+        mid_insert_3bf0ee8a2af9eef3,
+        mid_insert_fad5c871f9b80573,
+        mid_insert_c56c68c793d17cf4,
+        mid_insert_61e52e9cd2fa236e,
+        mid_insert_fd98ad2c88de5a33,
+        mid_insert_9f47b1967df18930,
+        mid_insert_6ce1b9b996ff8ba0,
+        mid_insert_d1544ec143b04273,
+        mid_lastIndexOf_fa2a6f298bd618ab,
+        mid_lastIndexOf_3c8becdb59ed9edb,
+        mid_repeat_c56c68c793d17cf4,
+        mid_repeat_e42b3eefb10157e5,
+        mid_replace_6d703859d40cd197,
+        mid_reverse_f636e801192e8b55,
+        mid_toString_e7df854526d67fa3,
         max_mid
       };
 

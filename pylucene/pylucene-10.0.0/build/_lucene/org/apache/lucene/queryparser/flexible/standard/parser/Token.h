@@ -5,8 +5,8 @@
 
 namespace java {
   namespace lang {
-    class Class;
     class String;
+    class Class;
   }
   namespace io {
     class Serializable;
@@ -40,13 +40,13 @@ namespace org {
               class Token : public ::java::lang::Object {
                public:
                 enum {
-                  mid_init$_3720c61b0679eb3e,
-                  mid_init$_540b2b23d51b1efd,
-                  mid_init$_31f7ce1c11bbaf5e,
-                  mid_getValue_5655ed8670534604,
-                  mid_newToken_919c1fd6bacb7fca,
-                  mid_newToken_4cbc16d3cca126c8,
-                  mid_toString_09a7afff1868fc5e,
+                  mid_init$_e7bdbe105ce1bafb,
+                  mid_init$_8226bd0b0fc13dba,
+                  mid_init$_e8e8ad20f065d3b3,
+                  mid_getValue_4819806f62f1360a,
+                  mid_newToken_0a5a72a4fbab0597,
+                  mid_newToken_40b0ea720a7a19e6,
+                  mid_toString_e7df854526d67fa3,
                   max_mid
                 };
 

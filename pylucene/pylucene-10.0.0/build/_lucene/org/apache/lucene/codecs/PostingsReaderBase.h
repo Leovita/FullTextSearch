@@ -3,32 +3,32 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace io {
+    class Closeable;
+    class IOException;
+  }
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace index {
+        class SegmentReadState;
+        class PostingsEnum;
+        class FieldInfo;
+        class ImpactsEnum;
+      }
       namespace store {
         class DataInput;
         class IndexInput;
-      }
-      namespace index {
-        class FieldInfo;
-        class SegmentReadState;
-        class ImpactsEnum;
-        class PostingsEnum;
       }
       namespace codecs {
         class BlockTermState;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-    class Closeable;
-  }
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -41,13 +41,13 @@ namespace org {
         class PostingsReaderBase : public ::java::lang::Object {
          public:
           enum {
-            mid_checkIntegrity_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_decodeTerm_c14b3f3bf0df23b2,
-            mid_impacts_4686e942072fa0cb,
-            mid_init_5aeaed4c9b335aa7,
-            mid_newTermState_3bf66c86f1b277c4,
-            mid_postings_c852fee830ddd9aa,
+            mid_checkIntegrity_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_decodeTerm_c3dbd9645173728c,
+            mid_impacts_96d8b619eb0f0973,
+            mid_init_ba939baed22f7c47,
+            mid_newTermState_90e39a1aad9f7074,
+            mid_postings_d91efdb4d7782ade,
             max_mid
           };
 

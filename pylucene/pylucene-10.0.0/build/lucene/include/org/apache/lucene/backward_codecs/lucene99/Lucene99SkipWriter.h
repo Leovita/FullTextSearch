@@ -15,8 +15,8 @@ namespace org {
   namespace apache {
     namespace lucene {
       namespace store {
-        class DataOutput;
         class IndexOutput;
+        class DataOutput;
       }
       namespace codecs {
         class CompetitiveImpactAccumulator;
@@ -35,12 +35,12 @@ namespace org {
           class Lucene99SkipWriter : public ::org::apache::lucene::codecs::MultiLevelSkipListWriter {
            public:
             enum {
-              mid_init$_bbed3c84a2e93148,
-              mid_bufferSkip_ba3fbccb8bb9b043,
-              mid_resetSkip_3720c61b0679eb3e,
-              mid_setField_d0c48e2dab7f3c82,
-              mid_writeImpacts_ed14bb301169a9e6,
-              mid_writeSkipData_5219d9c4529a5f9f,
+              mid_init$_1acd772a8c1823da,
+              mid_bufferSkip_81507270289a9e80,
+              mid_resetSkip_e7bdbe105ce1bafb,
+              mid_setField_158d72dbf0f32470,
+              mid_writeImpacts_add9bb91b87d7eb9,
+              mid_writeSkipData_e6e9d260c7282131,
               max_mid
             };
 

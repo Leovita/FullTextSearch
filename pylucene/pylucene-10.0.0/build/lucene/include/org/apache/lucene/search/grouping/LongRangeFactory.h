@@ -30,8 +30,8 @@ namespace org {
           class LongRangeFactory : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_715e5b76c3ec6f20,
-              mid_getRange_09bcfed77baf4d6b,
+              mid_init$_871fb907cf155cae,
+              mid_getRange_5a00679ffb73e5ce,
               max_mid
             };
 

@@ -3,15 +3,6 @@
 
 #include "org/apache/lucene/analysis/FilteringTokenFilter.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-  namespace util {
-    class Set;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -19,6 +10,15 @@ namespace org {
         class TokenStream;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
+  }
+  namespace util {
+    class Set;
   }
 }
 template<class T> class JArray;
@@ -32,8 +32,8 @@ namespace org {
           class JapanesePartOfSpeechStopFilter : public ::org::apache::lucene::analysis::FilteringTokenFilter {
            public:
             enum {
-              mid_init$_b0ad0d06968713a0,
-              mid_accept_947277eca0748c4e,
+              mid_init$_b38188cb310d1c75,
+              mid_accept_9aa4f33e82ea333f,
               max_mid
             };
 

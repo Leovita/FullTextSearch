@@ -6,29 +6,29 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace store {
+        class Directory;
+      }
       namespace util {
         class BytesRef;
         class OfflineSorter$BufferSize;
-      }
-      namespace store {
-        class Directory;
       }
     }
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
     class String;
   }
+  namespace io {
+    class IOException;
+  }
   namespace util {
+    class Comparator;
     namespace concurrent {
       class ExecutorService;
     }
-    class Comparator;
   }
 }
 template<class T> class JArray;
@@ -41,15 +41,15 @@ namespace org {
         class OfflineSorter : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_4eb5815dfd12ae28,
-            mid_init$_0612cd21f264b6c8,
-            mid_init$_40083a4d692c8e45,
-            mid_getComparator_39238840448c1807,
-            mid_getDirectory_0d3b52699e153434,
-            mid_getTempFileNamePrefix_09a7afff1868fc5e,
-            mid_sort_cb0eb1432185fc94,
-            mid_getReader_dcc428a5d3312afa,
-            mid_getWriter_4bf6b4b91751d3da,
+            mid_init$_3c1bd744f99d5223,
+            mid_init$_3a33398036b3b715,
+            mid_init$_f28af323a2710e79,
+            mid_getComparator_5cc89c689cd941fe,
+            mid_getDirectory_0b8988a9a36f43ec,
+            mid_getTempFileNamePrefix_e7df854526d67fa3,
+            mid_sort_fef9c036acf290a9,
+            mid_getWriter_782d678aa6650949,
+            mid_getReader_50a894a61a85c38b,
             max_mid
           };
 

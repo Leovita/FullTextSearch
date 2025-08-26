@@ -8,8 +8,8 @@ namespace java {
     class IOException;
   }
   namespace lang {
-    class String;
     class Class;
+    class String;
   }
 }
 namespace org {
@@ -35,13 +35,13 @@ namespace org {
           class SimplePatternSplitTokenizer : public ::org::apache::lucene::analysis::Tokenizer {
            public:
             enum {
-              mid_init$_0d82408c6e55bc30,
-              mid_init$_71373fad5757dc3c,
-              mid_init$_6f39973749d45a87,
-              mid_init$_91899ac25d47e782,
-              mid_end_3720c61b0679eb3e,
-              mid_incrementToken_947277eca0748c4e,
-              mid_reset_3720c61b0679eb3e,
+              mid_init$_ee46a189998009d6,
+              mid_init$_7350cbdcd883df0a,
+              mid_init$_b892ec2b85f3f867,
+              mid_init$_18b08a7a7bbbf6e0,
+              mid_end_e7bdbe105ce1bafb,
+              mid_incrementToken_9aa4f33e82ea333f,
+              mid_reset_e7bdbe105ce1bafb,
               max_mid
             };
 

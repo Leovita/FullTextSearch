@@ -3,25 +3,25 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace spatial3d {
         namespace geom {
-          class Plane;
           class Membership;
-          class PlanetModel;
-          class GeoPoint;
           class LinearDistance;
+          class GeoPoint;
+          class PlanetModel;
           class DistanceStyle;
+          class Plane;
         }
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
   }
 }
 template<class T> class JArray;
@@ -35,14 +35,14 @@ namespace org {
           class LinearDistance : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3720c61b0679eb3e,
-              mid_computeDistance_97409bb87de4c9a0,
-              mid_computeDistance_d8675cf55f7dec82,
-              mid_computeDistance_b67d61432be7c023,
-              mid_computeDistance_559a2c9e62383d56,
-              mid_findDistancePoints_97a6c272c9b4c6da,
-              mid_findMaximumArcDistance_6fd816b79f68b774,
-              mid_findMinimumArcDistance_6fd816b79f68b774,
+              mid_init$_e7bdbe105ce1bafb,
+              mid_computeDistance_4ab96a6c4b0435ce,
+              mid_computeDistance_fc30b57eb4c12ea6,
+              mid_computeDistance_9cf10f8736fcb192,
+              mid_computeDistance_0bdc88d319dba30a,
+              mid_findDistancePoints_cc634546b674efc4,
+              mid_findMaximumArcDistance_bea881a5e2da0112,
+              mid_findMinimumArcDistance_bea881a5e2da0112,
               max_mid
             };
 

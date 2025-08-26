@@ -31,9 +31,9 @@ namespace org {
         class SerialMergeScheduler : public ::org::apache::lucene::index::MergeScheduler {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_close_3720c61b0679eb3e,
-            mid_merge_d9d4a2a45897a889,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_close_e7bdbe105ce1bafb,
+            mid_merge_256e955b9cf4fc16,
             max_mid
           };
 

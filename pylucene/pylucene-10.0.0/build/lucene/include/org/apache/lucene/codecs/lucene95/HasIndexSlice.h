@@ -28,7 +28,7 @@ namespace org {
           class HasIndexSlice : public ::java::lang::Object {
            public:
             enum {
-              mid_getSlice_69ff96f993716366,
+              mid_getSlice_1107977def75ee66,
               max_mid
             };
 

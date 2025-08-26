@@ -6,11 +6,11 @@
 namespace org {
   namespace apache {
     namespace lucene {
-      namespace util {
-        class LongsRef;
-      }
       namespace store {
         class DataInput;
+      }
+      namespace util {
+        class LongsRef;
       }
     }
   }
@@ -34,12 +34,12 @@ namespace org {
           class BlockPackedReaderIterator : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_6f586b7d20e4a3bb,
-              mid_next_16939d9d0a9a9721,
-              mid_next_0eba6fe8a30b4b82,
-              mid_ord_16939d9d0a9a9721,
-              mid_reset_3386f81b45981517,
-              mid_skip_8b3d46852b435a94,
+              mid_init$_1c984833ef3c327b,
+              mid_next_0f176418e3e16541,
+              mid_next_a8fe1621a676484c,
+              mid_ord_0f176418e3e16541,
+              mid_reset_56e1353970db77c0,
+              mid_skip_1d3149fac12f2af3,
               max_mid
             };
 

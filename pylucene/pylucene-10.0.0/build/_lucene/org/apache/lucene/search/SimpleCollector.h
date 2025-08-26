@@ -3,6 +3,14 @@
 
 #include "java/lang/Object.h"
 
+namespace java {
+  namespace lang {
+    class Class;
+  }
+  namespace io {
+    class IOException;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -17,14 +25,6 @@ namespace org {
     }
   }
 }
-namespace java {
-  namespace lang {
-    class Class;
-  }
-  namespace io {
-    class IOException;
-  }
-}
 template<class T> class JArray;
 
 namespace org {
@@ -35,11 +35,11 @@ namespace org {
         class SimpleCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_init$_3720c61b0679eb3e,
-            mid_collect_540b2b23d51b1efd,
-            mid_getLeafCollector_aca3f888603431e1,
-            mid_setScorer_dd42dde4c0a7db1e,
-            mid_doSetNextReader_b7b06dce0a4097ed,
+            mid_init$_e7bdbe105ce1bafb,
+            mid_collect_8226bd0b0fc13dba,
+            mid_getLeafCollector_0a34433e6da38be9,
+            mid_setScorer_c06bdf7d53c6460a,
+            mid_doSetNextReader_32243afefe6b151f,
             max_mid
           };
 

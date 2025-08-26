@@ -9,12 +9,12 @@ namespace org {
       namespace queryparser {
         namespace flexible {
           namespace core {
-            namespace config {
-              class QueryConfigHandler;
-            }
-            class QueryNodeException;
             namespace nodes {
               class QueryNode;
+            }
+            class QueryNodeException;
+            namespace config {
+              class QueryConfigHandler;
             }
           }
         }
@@ -40,9 +40,9 @@ namespace org {
               class QueryNodeProcessor : public ::java::lang::Object {
                public:
                 enum {
-                  mid_getQueryConfigHandler_30bdf25ce42207ac,
-                  mid_process_8ca6e32fcbac6a62,
-                  mid_setQueryConfigHandler_0fc7dbcdbf111f0f,
+                  mid_getQueryConfigHandler_2a2d77f833f4beaf,
+                  mid_process_4b838b17650067cf,
+                  mid_setQueryConfigHandler_f8d3957fd2e3377b,
                   max_mid
                 };
 

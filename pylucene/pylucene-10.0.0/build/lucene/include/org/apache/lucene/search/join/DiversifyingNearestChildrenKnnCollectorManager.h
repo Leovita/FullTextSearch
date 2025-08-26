@@ -23,11 +23,11 @@ namespace org {
   }
 }
 namespace java {
-  namespace io {
-    class IOException;
-  }
   namespace lang {
     class Class;
+  }
+  namespace io {
+    class IOException;
   }
 }
 template<class T> class JArray;
@@ -41,8 +41,8 @@ namespace org {
           class DiversifyingNearestChildrenKnnCollectorManager : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_3fdf77dc580a7b90,
-              mid_newCollector_401e714a5e3dcc89,
+              mid_init$_5b8f91c11a09f27b,
+              mid_newCollector_7ffd49c5523c1db4,
               max_mid
             };
 

@@ -8,13 +8,13 @@ namespace org {
     namespace lucene {
       namespace search {
         namespace grouping {
+          class SearchGroup;
           class DoubleRangeFactory;
           class DoubleRange;
           class GroupSelector$State;
-          class SearchGroup;
         }
-        class Scorable;
         class DoubleValuesSource;
+        class Scorable;
       }
       namespace index {
         class LeafReaderContext;
@@ -23,14 +23,14 @@ namespace org {
   }
 }
 namespace java {
-  namespace util {
-    class Collection;
-  }
   namespace lang {
     class Class;
   }
   namespace io {
     class IOException;
+  }
+  namespace util {
+    class Collection;
   }
 }
 template<class T> class JArray;
@@ -44,13 +44,13 @@ namespace org {
           class DoubleRangeGroupSelector : public ::org::apache::lucene::search::grouping::GroupSelector {
            public:
             enum {
-              mid_init$_458d3e80bf29b4fa,
-              mid_advanceTo_f1eafbb57835401c,
-              mid_copyValue_9d477ffe0a4e85cd,
-              mid_currentValue_9d477ffe0a4e85cd,
-              mid_setGroups_40eba2cff967cc45,
-              mid_setNextReader_b7b06dce0a4097ed,
-              mid_setScorer_dd42dde4c0a7db1e,
+              mid_init$_df1f173f41a478a8,
+              mid_advanceTo_15b8933896566317,
+              mid_copyValue_5e039e2024bda876,
+              mid_currentValue_5e039e2024bda876,
+              mid_setGroups_b5398b431eb321fb,
+              mid_setNextReader_32243afefe6b151f,
+              mid_setScorer_c06bdf7d53c6460a,
               max_mid
             };
 

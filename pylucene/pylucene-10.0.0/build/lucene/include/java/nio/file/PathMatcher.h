@@ -22,7 +22,7 @@ namespace java {
       class PathMatcher : public ::java::lang::Object {
        public:
         enum {
-          mid_matches_51b0b54861f74b98,
+          mid_matches_8e3a3ca1e06e8982,
           max_mid
         };
 

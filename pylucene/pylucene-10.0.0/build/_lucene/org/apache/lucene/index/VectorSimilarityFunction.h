@@ -3,12 +3,6 @@
 
 #include "java/lang/Enum.h"
 
-namespace java {
-  namespace lang {
-    class String;
-    class Class;
-  }
-}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -16,6 +10,12 @@ namespace org {
         class VectorSimilarityFunction;
       }
     }
+  }
+}
+namespace java {
+  namespace lang {
+    class String;
+    class Class;
   }
 }
 template<class T> class JArray;
@@ -28,10 +28,10 @@ namespace org {
         class VectorSimilarityFunction : public ::java::lang::Enum {
          public:
           enum {
-            mid_compare_1c5889ce893868f9,
-            mid_compare_f618322cb97748d7,
-            mid_valueOf_2eec03616ed6cd3d,
-            mid_values_28f981fb5d7efdb3,
+            mid_compare_10c0ed906c8dd379,
+            mid_compare_8cc5908f35d75428,
+            mid_valueOf_f12622aba416cce6,
+            mid_values_dfd349605691b0f0,
             max_mid
           };
 

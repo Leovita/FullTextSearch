@@ -20,7 +20,7 @@ namespace org {
           class ConnectionCosts : public ::java::lang::Object {
            public:
             enum {
-              mid_get_7f733b5d08bb5ec4,
+              mid_get_7f27cf81a85a97e9,
               max_mid
             };
 

@@ -4,24 +4,24 @@
 #include "java/lang/Object.h"
 
 namespace java {
-  namespace io {
-    class InputStream;
-    class Reader;
-  }
   namespace lang {
     class Class;
     class String;
+  }
+  namespace io {
+    class Reader;
+    class InputStream;
   }
 }
 namespace org {
   namespace apache {
     namespace lucene {
       namespace search {
-        namespace spell {
-          class Dictionary;
-        }
         namespace suggest {
           class InputIterator;
+        }
+        namespace spell {
+          class Dictionary;
         }
       }
     }
@@ -38,11 +38,11 @@ namespace org {
           class FileDictionary : public ::java::lang::Object {
            public:
             enum {
-              mid_init$_37e23ef4361d4c28,
-              mid_init$_fa55492f0f5d7f31,
-              mid_init$_1c4d559a6ad6a413,
-              mid_init$_13a7beed3266caa2,
-              mid_getEntryIterator_72e405f8eeb139f8,
+              mid_init$_da97eaa7d893a93a,
+              mid_init$_89ab2bee9aa84b00,
+              mid_init$_78eeb4e136bfa176,
+              mid_init$_3c06db464c25330e,
+              mid_getEntryIterator_b233487188876d36,
               max_mid
             };
 

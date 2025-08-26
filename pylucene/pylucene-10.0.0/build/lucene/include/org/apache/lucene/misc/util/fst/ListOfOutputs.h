@@ -3,6 +3,19 @@
 
 #include "org/apache/lucene/util/fst/Outputs.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+  namespace io {
+    class IOException;
+  }
+  namespace util {
+    class List;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
@@ -11,19 +24,6 @@ namespace org {
         class DataOutput;
       }
     }
-  }
-}
-namespace java {
-  namespace io {
-    class IOException;
-  }
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
-  }
-  namespace util {
-    class List;
   }
 }
 template<class T> class JArray;
@@ -38,22 +38,22 @@ namespace org {
             class ListOfOutputs : public ::org::apache::lucene::util::fst::Outputs {
              public:
               enum {
-                mid_init$_213377cc29e7ed76,
-                mid_add_243089e4ee289db6,
-                mid_asList_b887ee42d9bb67f9,
-                mid_common_243089e4ee289db6,
-                mid_getNoOutput_5655ed8670534604,
-                mid_merge_243089e4ee289db6,
-                mid_outputToString_a6472d0c4a2d4dc6,
-                mid_ramBytesUsed_eed3c4edb9cd98e2,
-                mid_read_76ad041c51ef9e53,
-                mid_readFinalOutput_76ad041c51ef9e53,
-                mid_skipFinalOutput_fc75c9d195bdd885,
-                mid_skipOutput_fc75c9d195bdd885,
-                mid_subtract_243089e4ee289db6,
-                mid_toString_09a7afff1868fc5e,
-                mid_write_1fb2a58964472a7b,
-                mid_writeFinalOutput_1fb2a58964472a7b,
+                mid_init$_4ec33ab480ad86af,
+                mid_add_b3b175dfe26d2c44,
+                mid_asList_7c2a76b8364a69bd,
+                mid_common_b3b175dfe26d2c44,
+                mid_getNoOutput_4819806f62f1360a,
+                mid_merge_b3b175dfe26d2c44,
+                mid_outputToString_5f92096499c6603e,
+                mid_ramBytesUsed_5dbd30c7e10c20e0,
+                mid_read_6c9264745f696649,
+                mid_readFinalOutput_6c9264745f696649,
+                mid_skipFinalOutput_b57ffc017de24fe4,
+                mid_skipOutput_b57ffc017de24fe4,
+                mid_subtract_b3b175dfe26d2c44,
+                mid_toString_e7df854526d67fa3,
+                mid_write_dd080dec4470e08d,
+                mid_writeFinalOutput_dd080dec4470e08d,
                 max_mid
               };
 

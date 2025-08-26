@@ -6,21 +6,21 @@
 namespace org {
   namespace apache {
     namespace lucene {
+      namespace facet {
+        class MultiLongValuesSource;
+      }
       namespace search {
         class Query;
         class LongValuesSource;
-      }
-      namespace facet {
-        class MultiLongValuesSource;
       }
     }
   }
 }
 namespace java {
   namespace lang {
+    class Object;
     class Class;
     class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -34,13 +34,13 @@ namespace org {
           class LongRange : public ::org::apache::lucene::facet::range::Range {
            public:
             enum {
-              mid_init$_288e17a8f79d2853,
-              mid_accept_d8a0ab12857291e0,
-              mid_equals_570b5248a6da3ef6,
-              mid_getQuery_094a4a725af0adb8,
-              mid_getQuery_718fbd49c1faa369,
-              mid_hashCode_20fbf7565993c3d7,
-              mid_toString_09a7afff1868fc5e,
+              mid_init$_ff5ed639640787c7,
+              mid_accept_eae0b285d107fcb0,
+              mid_equals_00d17418847797d4,
+              mid_getQuery_cadd8e4ac3301d68,
+              mid_getQuery_dfe82c6aea2abd76,
+              mid_hashCode_bd89ce15dad49192,
+              mid_toString_e7df854526d67fa3,
               max_mid
             };
 

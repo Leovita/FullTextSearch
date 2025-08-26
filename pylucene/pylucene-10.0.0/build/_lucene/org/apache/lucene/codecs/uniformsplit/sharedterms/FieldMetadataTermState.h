@@ -5,9 +5,9 @@
 
 namespace java {
   namespace lang {
-    class Class;
     class String;
     class Object;
+    class Class;
   }
 }
 namespace org {
@@ -34,12 +34,12 @@ namespace org {
             class FieldMetadataTermState : public ::java::lang::Record {
              public:
               enum {
-                mid_init$_13e673f8b88e0211,
-                mid_equals_570b5248a6da3ef6,
-                mid_fieldMetadata_7dc336ebc7ed0f2e,
-                mid_hashCode_20fbf7565993c3d7,
-                mid_state_3bf66c86f1b277c4,
-                mid_toString_09a7afff1868fc5e,
+                mid_init$_97c2a440702ae6a6,
+                mid_equals_00d17418847797d4,
+                mid_fieldMetadata_e24ded8ac3dc53f2,
+                mid_hashCode_bd89ce15dad49192,
+                mid_state_90e39a1aad9f7074,
+                mid_toString_e7df854526d67fa3,
                 max_mid
               };
 

@@ -3,21 +3,21 @@
 
 #include "java/lang/Record.h"
 
+namespace java {
+  namespace lang {
+    class Object;
+    class Class;
+    class String;
+  }
+}
 namespace org {
   namespace apache {
     namespace lucene {
       namespace util {
-        class BytesRef;
         class TermAndVector;
+        class BytesRef;
       }
     }
-  }
-}
-namespace java {
-  namespace lang {
-    class Class;
-    class String;
-    class Object;
   }
 }
 template<class T> class JArray;
@@ -30,14 +30,14 @@ namespace org {
         class TermAndVector : public ::java::lang::Record {
          public:
           enum {
-            mid_init$_1e52a3bd34207bb8,
-            mid_equals_570b5248a6da3ef6,
-            mid_hashCode_20fbf7565993c3d7,
-            mid_normalizeVector_e4adbcdf45bf3a19,
-            mid_size_20fbf7565993c3d7,
-            mid_term_9740fddd1c7df148,
-            mid_toString_09a7afff1868fc5e,
-            mid_vector_808165844ea67079,
+            mid_init$_1e0df923f96dba0b,
+            mid_equals_00d17418847797d4,
+            mid_hashCode_bd89ce15dad49192,
+            mid_normalizeVector_523f3026f4dd3cc1,
+            mid_size_bd89ce15dad49192,
+            mid_term_adbedbc1fa61c358,
+            mid_toString_e7df854526d67fa3,
+            mid_vector_67d89dc3894661ff,
             max_mid
           };
 

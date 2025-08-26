@@ -28,13 +28,13 @@ namespace org {
         class TopDocsCollector : public ::java::lang::Object {
          public:
           enum {
-            mid_getTotalHits_20fbf7565993c3d7,
-            mid_topDocs_a61875f39685c639,
-            mid_topDocs_0289834b11e21a05,
-            mid_topDocs_5e4c3b6f8b71f640,
-            mid_topDocsSize_20fbf7565993c3d7,
-            mid_newTopDocs_f6010540414086f3,
-            mid_populateResults_de6fa2c5d78c15b6,
+            mid_getTotalHits_bd89ce15dad49192,
+            mid_topDocs_ff559ee576f938cf,
+            mid_topDocs_552a19c992db15ff,
+            mid_topDocs_7b9793241d89fc49,
+            mid_topDocsSize_bd89ce15dad49192,
+            mid_newTopDocs_d4fc5c39fd7326b6,
+            mid_populateResults_d8cc3a50beb36d32,
             max_mid
           };
 
