@@ -222,32 +222,37 @@ class PostgreSQLUnifiedInterface:
 
 def _load_queries_from_file(file_path: str) -> List[Dict[str, str]]:
     """
-    Carica le query da un file di testo.
+    Carica le query da un file JSON per testing.
+    
+    Args:
+        file_path: Percorso al file JSON con le query
+        
+    Returns:
+        Lista di dizionari con le query di test
     """
     import json, os
+    
     try:
         if not os.path.exists(file_path):
-            print(f"❌ File configurazione non trovato: {file_path}")
-            print("   Creando configurazione di esempio...")
-
+            logger.warning(f"File configurazione non trovato: {file_path}")
+            return []
+        
         with open(file_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)   
-        # Carica query
-
+            config = json.load(f)
+        
         test_queries = []
-
         for query_data in config.get('test_queries', []):
             test_queries.append({
                 'id': query_data['id'],
                 'query': query_data['query'],
             })
-
-        print(f"✅ Caricamento query effettuato con successo: {len(test_queries)} query caricate")
-
+        
+        logger.info(f"Caricate {len(test_queries)} query di test")
         return test_queries
-
+        
     except Exception as e:
-        print(f"❌ Errore caricamento configurazione: {e}")
+        logger.error(f"Errore caricamento query: {e}")
+        return []
 
 # Esempio di utilizzo
 if __name__ == "__main__":

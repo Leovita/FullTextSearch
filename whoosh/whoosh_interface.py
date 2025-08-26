@@ -267,12 +267,12 @@ def _load_queries_from_file(file_path: str) -> List[Dict[str, str]]:
     Returns:
         Lista di dizionari con le query di test
     """
-    import json
+    import json, os
     
     try:
         if not os.path.exists(file_path):
             logger.warning(f"File configurazione non trovato: {file_path}")
-            return None
+            return []
         
         with open(file_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
