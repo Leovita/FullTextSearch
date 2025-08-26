@@ -32,7 +32,10 @@ class QueryType(Enum):
     PHRASE = "phrase"
     FIELD = "field"
     WILDCARD = "wildcard"
-    MULTIFIELD = "multifield"
+
+    def __str__(self):
+        return self.value
+
 
 class WhooshQueryProcessor:
     """
@@ -51,6 +54,13 @@ class WhooshQueryProcessor:
         self.index_dir = index_dir
         self.index = None
         self.term_stats = {}
+        self.categorie = {
+            0: 'politics',
+            1: 'sport',
+            2: 'technology',
+            3: 'entertainment',
+            4: 'business'
+        }
         
         # Patterns per identificare tipi di query
         self.patterns = {
@@ -62,7 +72,7 @@ class WhooshQueryProcessor:
         }
         
         self.boolean_operators = {'AND', 'OR', 'NOT'}
-        self.valid_fields = {'title', 'content', 'label', 'combined_text'}
+        self.valid_fields = {'title', 'content', 'label', 'combined_text', 'text'}
         
         # Inizializza parsers Whoosh
         self._setup_parsers()
@@ -78,7 +88,7 @@ class WhooshQueryProcessor:
                 
                 # Parser per ricerca generale
                 self.general_parser = MultifieldParser(
-                    ["title", "content", "combined_text"], 
+                    ["title", "text", "combined_text"], 
                     self.index.schema,
                     group=OrGroup
                 )
@@ -87,11 +97,13 @@ class WhooshQueryProcessor:
                 self.field_parsers = {}
                 for field in self.valid_fields:
                     if field in self.index.schema:
+                        if field == 'content':
+                            field = 'text'  # Mappa 'content' a 'text' nello schema
                         self.field_parsers[field] = QueryParser(field, self.index.schema)
                 
                 # Parser booleano
                 self.boolean_parser = MultifieldParser(
-                    ["title", "content", "combined_text"],
+                    ["title", "text", "combined_text"],
                     self.index.schema,
                     group=AndGroup
                 )
@@ -287,10 +299,10 @@ class WhooshQueryProcessor:
                     validation['errors'].append(f"Valore vuoto per campo: {field}")
         
         elif query_type == QueryType.BOOLEAN:
-            if query.strip().upper().startswith(('AND', 'OR', 'NOT')):
+            if query.strip().upper().startswith(('AND ', 'OR ', 'NOT ')):
                 validation['errors'].append("Query non può iniziare con operatore booleano")
             
-            if query.strip().upper().endswith(('AND', 'OR', 'NOT')):
+            if query.strip().upper().endswith((' AND', ' OR', ' NOT')):
                 validation['errors'].append("Query non può terminare con operatore booleano")
         
         elif query_type == QueryType.PHRASE:
@@ -333,11 +345,22 @@ class WhooshQueryProcessor:
                 return None
                 
             if query_type == QueryType.FIELD:
-                # Parser per campo specifico
+                # Gestione query multi-campo
                 field_matches = self.patterns['field_query'].findall(query)
-                if field_matches and field_matches[0][0] in self.field_parsers:
-                    field, _, value = field_matches[0]
-                    return self.field_parsers[field].parse(value)
+                if field_matches:
+                    subqueries = []
+                    for field, _, value in field_matches:
+                        if field in self.field_parsers:
+                            if field == 'label' and value in self.categorie.values():
+                                # Mappa categoria a numero
+                                label_num = [k for k, v in self.categorie.items() if v == value]
+                                if label_num:
+                                    value = str(label_num[0])
+                            subqueries.append(self.field_parsers[field].parse(value))
+                    
+                    if subqueries:
+                        # Combina le query con operatore OR
+                        return Or(subqueries)
                     
             elif query_type == QueryType.PHRASE:
                 # Parser per frasi

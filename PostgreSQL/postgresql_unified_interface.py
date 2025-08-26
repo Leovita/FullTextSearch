@@ -1,10 +1,19 @@
 import logging
 import time
 from typing import List, Dict, Any, Optional
+import os, sys
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT_DIR = os.path.dirname(BASE_DIR)
+
+if PARENT_DIR not in sys.path:
+    sys.path.insert(0, PARENT_DIR)
+
 from utils.postgresql_engine import PostgreSQLSearchEngine
 from utils.cache_system import CachedSearchEngine
 from utils.query_processor import QueryProcessor, QueryType
 from utils.password import PASSWORD
+from scripts.export_results import export_to_json
 
 # Configurazione logging
 logging.basicConfig(
@@ -51,7 +60,7 @@ class PostgreSQLUnifiedInterface:
             logger.info("Interfaccia unificata PostgreSQL avviata senza caching.")
         
         self.query_processor = QueryProcessor(db_config=self.db_config)
-
+        self.ranking = ranking
         self.avg_response_time = 0.0
         self.avg_ranking = 0.0
         self.total_requests = 0
@@ -128,7 +137,7 @@ class PostgreSQLUnifiedInterface:
             "results": formatted_results,
             "metrics": {
                 "response_time_ms": response_time * 1000,
-                "engine_used": "PostgreSQL with Cache" if self.use_cache else "PostgreSQL Standard"
+                "engine_used": f"PostgreSQL with Cache {self.ranking}" if self.use_cache else f"PostgreSQL Standard {self.ranking}"
             },
             "status": "success",
             "errors": []
@@ -189,7 +198,7 @@ class PostgreSQLUnifiedInterface:
                 "score": res.get('score', 0.0),
                 "matched_fields": res.get('matched_fields', ['title', 'content', 'label']),
                 "metadata": {
-                    "source": "PostgreSQL",
+                    "source": f"PostgreSQL {self.ranking}",
                     "search_time_s": res.get('search_time'),
                     "cached": res.get('cached', False)
                 }
@@ -293,7 +302,7 @@ if __name__ == "__main__":
 
                     print("\n" + "="*50 + "\n")
 
-
+                    export_to_json(result_simple_no_cache)
 
 
 
@@ -323,6 +332,8 @@ if __name__ == "__main__":
                         print(f"Documento: {result_retrieval_with_cache['title']}")
                     else:
                         print("Nessun documento trovato.")
+
+                    # export_to_json(result_cache)
 
                     print("\n" + "="*50 + "\n")
 

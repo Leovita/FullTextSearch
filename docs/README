@@ -1,5 +1,135 @@
-This is text document classification dataset which contains 2225 text data and five categories of documents. Five categories are politics, sport, tech, entertainment and business.
+# Progetto di Information Retrieval - Confronto Motori di Ricerca
 
-SOURCE:
+## 📋 Introduzione
+Questo progetto confronta le performance di tre motori di full-text search (PostgreSQL, Whoosh e PyLucene) su un dataset di documenti. Il sistema valuta metriche di coerenza, tempi di risposta e altre statistiche rilevanti per l'information retrieval.
 
-https://www.kaggle.com/datasets/tanishqdublish/text-classification-documentation
+## 🏗️ Struttura del Progetto
+```
+.
+├── data/                 # Dataset e file di configurazione
+├── docs/                # Documentazione e risultati
+├── PostgreSQL/          # Implementazione motore PostgreSQL
+├── whoosh/             # Implementazione motore Whoosh  
+├── pylucene/           # Implementazione motore PyLucene
+├── scripts/            # Script di utilità
+└── requirements.txt    # Dipendenze principali
+```
+
+## ⚙️ Installazione
+
+### Prerequisiti
+- Python 3.8+
+- PostgreSQL 13+
+- Java JDK (per PyLucene)
+- Ambiente Windows
+
+### Setup Iniziale
+1. Clonare il repository
+2. Creare un ambiente virtuale:
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+```
+
+3. Installare dipendenze principali:
+```bash
+pip install -r requirements.txt
+```
+
+4. Scaricare e preparare il dataset:
+```bash
+python scripts/download_dataset.py
+python scripts/clean_dataset.py
+```
+Si possono trovare tutte le informazioni relative sul dataset qui:
+`https://www.kaggle.com/datasets/tanishqdublish/text-classification-documentation`
+
+### Configurazione Motori Specifici
+
+#### PostgreSQL
+1. Installare dipendenze:
+```bash
+cd PostgreSQL
+pip install -r setup/requirements.txt
+```
+
+2. Configurare database:
+- Creare database `gestione` in PostgreSQL
+- Eseguire script di setup:
+```sql
+\i setup/setup_postgresql.sql
+\i setup/optimization_config.sql
+```
+
+3. Importare dati:
+```bash
+python setup/insert_data.py
+```
+
+#### Whoosh
+1. Installare dipendenze:
+```bash
+cd whoosh
+pip install -r setup/requirements.txt
+```
+
+2. Creare indice:
+```bash
+python setup/whoosh_indexer.py
+```
+
+#### PyLucene
+1. Installare Java JDK
+2. Installare dipendenze:
+```bash
+cd pylucene
+pip install -r requirements.txt
+```
+
+## 🚀 Utilizzo
+
+### Esecuzione Ricerche
+```python
+# Esempio con PostgreSQL
+from PostgreSQL.postgresql_unified_interface import PostgreSQLUnifiedInterface
+
+with PostgreSQLUnifiedInterface() as engine:
+    results = engine.search("query di esempio", limit=10)
+    print(results)
+```
+
+### Esecuzione Benchmark
+```bash
+# Esegui benchmark completo
+python scripts/run_benchmark.py
+
+# Genera grafici risultati
+python scripts/generate_charts.py
+```
+
+## 🔧 Troubleshooting
+
+### Problemi Comuni
+1. **Errore connessione PostgreSQL**
+   - Verificare le credenziali in `PostgreSQL/utils/password.py`
+   - Controllare che il servizio PostgreSQL sia attivo
+
+2. **Errori di dipendenze**
+   - Ricreare l'ambiente virtuale
+   - Verificare le versioni di Python e PostgreSQL
+
+3. **Problemi prestazioni**
+   - Verificare gli indici nel database
+   - Controllare la configurazione della memoria
+
+## 📊 Metriche Monitorate
+- Precision e Recall
+- F-measure
+- Tempo di risposta
+- Utilizzo memoria
+- Hit rate della cache
+
+## 📞 Supporto
+Per problemi tecnici contattare il team di sviluppo o consultare la documentazione specifica nei rispettivi directory dei motori.
+
+---

@@ -10,7 +10,7 @@ Questo documento fornisce una guida completa all'utilizzo del motore di ricerca 
 
 1. [Architettura del Sistema](#1-architettura-del-sistema)
 2. [Come Usare l'Engine](#2-come-usare-lengine)
-   - [A. Creazione dell'Indice](#a-creazione-dellindice)
+   - [A. Installazione e Configurazione](#a-installazione-e-configurazione)
    - [B. Inizializzazione](#b-inizializzazione)
    - [C. Esecuzione di una Ricerca](#c-esecuzione-di-una-ricerca)
    - [D. Ottenere le Statistiche](#d-ottenere-le-statistiche)
@@ -37,12 +37,13 @@ Il sistema Whoosh è stato modularizzato per separare le responsabilità e garan
 
 L'interazione con il sistema avviene tramite la classe `WhooshUnifiedInterface` nel file `whoosh_interface.py`, che astrae tutta la complessità sottostante.
 
-### **A. Creazione dell'Indice**
+### A. Installazione e Configurazione
 
 Prima di poter effettuare ricerche, è necessario creare un indice a partire dal dataset.
 
-1.  Assicurati che il tuo dataset sia in formato CSV con le colonne `Title`, `Text`, `Label`.
-2.  Esegui lo script `whoosh_indexer.py`. Questo creerà una cartella (es. `test_index`) contenente i file dell'indice Whoosh. Puoi modificare il percorso del CSV e della cartella di output direttamente nello script.
+1.  Installa i moduli Python necessari con il comando: `pip install -r ./setup/requirements.txt`.
+2.  Assicurati che il tuo dataset sia in formato CSV con le colonne `Title`, `Text`, `Label`.
+3.  Esegui lo script `whoosh_indexer.py`. Questo creerà una cartella (es. `test_index`) contenente i file dell'indice Whoosh. Puoi modificare il percorso del CSV e della cartella di output direttamente nello script.
 
 <!-- end list -->
 

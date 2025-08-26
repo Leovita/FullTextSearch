@@ -111,7 +111,7 @@ class WhooshSearchEngine:
             with self.index.searcher(weighting=self.scorer) as searcher:
                 # Parser multi-campo per ricerca generale
                 parser = MultifieldParser(
-                    ["title", "text", "combined_text"],  # Changed from content to text
+                    ["title", "text", "combined_text"],
                     self.index.schema,
                     group=OrGroup
                 )
@@ -127,20 +127,48 @@ class WhooshSearchEngine:
     
     def _search_specific_fields(self, query: str, fields: List[str], 
                               limit: int, min_score: float) -> List[Dict[str, Any]]:
-        """Ricerca su campi specifici."""
+        """
+        Ricerca su campi specifici - compatibile con PostgreSQL engine.
+        Supporta ricerca su più campi come il PostgreSQL engine.
+        
+        Args:
+            query: Query di ricerca
+            fields: Lista di campi su cui cercare
+            limit: Numero massimo di risultati
+            min_score: Score minimo per i risultati
+            
+        Returns:
+            Lista di risultati formattati
+        """
         try:
-            valid_fields = [f for f in fields if f in ['title', 'text', 'label', 'combined_text']]  # Changed from content to text
+            # Mappa i nomi dei campi da PostgreSQL a Whoosh
+            field_mapping = {
+                'title': 'title',
+                'content': 'text',  # PostgreSQL usa 'content', Whoosh usa 'text'
+                'label': 'label',
+                'combined_text': 'combined_text'
+            }
+            
+            # Filtra e mappa i campi validi
+            valid_fields = []
+            for field in fields:
+                mapped_field = field_mapping.get(field, field)
+                if mapped_field in self.index.schema:
+                    valid_fields.append(mapped_field)
+            
             if not valid_fields:
+                # Se nessun campo è valido, usa ricerca generale
                 return self._search_all_fields(query, limit, min_score)
             
             with self.index.searcher(weighting=self.scorer) as searcher:
+                # Usa MultifieldParser per cercare su più campi specificati
                 parser = MultifieldParser(valid_fields, self.index.schema, group=OrGroup)
                 parsed_query = parser.parse(query)
                 results = searcher.search(parsed_query, limit=limit)
                 
                 formatted_results = self._format_results(results, searcher, min_score)
                 
-                # Aggiunge informazioni sui campi matched
+                # Aggiunge informazioni sui campi matched (compatibilità con PostgreSQL)
                 for result in formatted_results:
                     result['matched_fields'] = valid_fields
                 
@@ -236,42 +264,49 @@ class WhooshSearchEngine:
     
     def field_search(self, field: str, query: str, limit: int = 10) -> List[Dict[str, Any]]:
         """
-        Ricerca su un campo specifico.
+        Ricerca su un campo specifico - ora supporta anche più campi.
+        Mantiene compatibilità con l'interfaccia esistente ma internamente usa _search_specific_fields.
         
         Args:
-            field: Nome del campo (title, text, label)
+            field: Nome del campo o lista di campi (title, content, label)
             query: Query di ricerca
             limit: Numero massimo di risultati
             
         Returns:
             Lista di risultati
         """
-        if field not in ['title', 'content', 'text', 'label']:
-            self.logger.error(f"Campo non valido: {field}")
+        # Se field è una stringa, convertila in lista per compatibilità
+        if isinstance(field, str):
+            fields = [field]
+        else:
+            fields = field
+        
+        # Valida i campi
+        valid_field_names = {'title', 'content', 'text', 'label'}
+        invalid_fields = [f for f in fields if f not in valid_field_names]
+        
+        if invalid_fields:
+            self.logger.error(f"Campi non validi: {invalid_fields}")
             return []
-        if field == 'content':
-            field = 'text'  # Mappa content a text
 
         start_time = time.time()
         
         try:
-            self._reconnect_if_needed()
+            # Usa la funzione _search_specific_fields per supportare più campi
+            results = self._search_specific_fields(query, fields, limit, 0.0)
             
-            with self.index.searcher(weighting=self.scorer) as searcher:
-                parser = QueryParser(field, self.index.schema)
-                parsed_query = parser.parse(query)
-                results = searcher.search(parsed_query, limit=limit)
-                
-                formatted_results = self._format_results(results, searcher)
-                
-                search_time = time.time() - start_time
-                for result in formatted_results:
-                    result['search_time'] = search_time
+            search_time = time.time() - start_time
+            for result in results:
+                result['search_time'] = search_time
+                # Per compatibilità con l'interfaccia originale
+                if isinstance(field, str):
                     result['matched_field'] = field
-                
-                self.logger.info(f"Ricerca su campo {field} completata: {len(formatted_results)} risultati")
-                return formatted_results
-                
+                else:
+                    result['matched_fields'] = fields
+            
+            self.logger.info(f"Ricerca su campo(i) {fields} completata: {len(results)} risultati")
+            return results
+            
         except Exception as e:
             self.logger.error(f"Errore nella ricerca per campo: {e}")
             return []
@@ -313,9 +348,59 @@ class WhooshSearchEngine:
             self.logger.error(f"Errore nella ricerca wildcard: {e}")
             return []
     
+    def get_document_by_id(self, doc_id: int) -> Optional[Dict[str, Any]]:
+        """
+        Recupera un documento specifico per ID - compatibile con PostgreSQL engine.
+        
+        Args:
+            doc_id: ID del documento
+            
+        Returns:
+            Dizionario con i dati del documento o None se non trovato
+        """
+        start_time = time.time()
+        try:
+            self._reconnect_if_needed()
+            
+            with self.index.searcher() as searcher:
+                # Whoosh non ha ID numerici come PostgreSQL, quindi cerchiamo per docnum
+                # oppure se c'è un campo id, lo usiamo
+                if 'id' in self.index.schema:
+                    results = searcher.search(Term('id', str(doc_id)), limit=1)
+                    if results:
+                        doc = results[0]
+                        search_time = time.time() - start_time
+                        return {
+                            'id': doc.get('id', doc_id),
+                            'title': doc.get('title', ''),
+                            'label': doc.get('label', ''),
+                            'content': doc.get('text', ''),  # Mappa text -> content per compatibilità
+                            'search_time': search_time
+                        }
+                else:
+                    # Fallback: usa docnum se non c'è campo id
+                    try:
+                        doc = searcher.document(docnum=doc_id)
+                        search_time = time.time() - start_time
+                        return {
+                            'id': doc_id,
+                            'title': doc.get('title', ''),
+                            'label': doc.get('label', ''),
+                            'content': doc.get('text', ''),
+                            'search_time': search_time
+                        }
+                    except:
+                        pass
+            
+            return None
+            
+        except Exception as e:
+            self.logger.error(f"Errore nel recupero documento: {e}")
+            return None
+    
     def get_stats(self) -> Dict[str, Any]:
         """
-        Restituisce statistiche dell'indice.
+        Restituisce statistiche dell'indice - compatibile con PostgreSQL engine.
         
         Returns:
             Dizionario con statistiche
@@ -331,16 +416,16 @@ class WhooshSearchEngine:
                     'schema_fields': list(self.index.schema.names())
                 }
                 
-                # Statistiche per label
+                # Statistiche per label (compatibile con PostgreSQL)
                 try:
                     labels = [doc['label'] for doc in searcher.documents() if doc.get('label')]
                     stats['documents_by_label'] = dict(Counter(labels))
                 except:
                     stats['documents_by_label'] = {}
                 
-                # Media lunghezza contenuto
+                # Media lunghezza contenuto (compatibile con PostgreSQL)
                 try:
-                    content_lengths = [len(doc['content'] or '') for doc in searcher.documents()]
+                    content_lengths = [len(doc.get('text', '')) for doc in searcher.documents()]
                     stats['avg_content_length'] = sum(content_lengths) / len(content_lengths) if content_lengths else 0
                 except:
                     stats['avg_content_length'] = 0
@@ -353,7 +438,6 @@ class WhooshSearchEngine:
     
     def _normalize_boolean_query(self, query: str) -> str:
         """Normalizza query booleana per Whoosh."""
-        # Whoosh usa AND, OR, NOT in maiuscolo
         import re
         query = re.sub(r'\band\b', 'AND', query, flags=re.IGNORECASE)
         query = re.sub(r'\bor\b', 'OR', query, flags=re.IGNORECASE)  
@@ -361,7 +445,12 @@ class WhooshSearchEngine:
         return query
     
     def _format_results(self, results: Results, searcher, min_score: float = 0.0) -> List[Dict[str, Any]]:
-        """Formatta i risultati in dizionari standardizzati."""
+        """
+        Formatta i risultati in dizionari standardizzati - compatibile con PostgreSQL engine.
+        
+        Returns:
+            Lista di risultati nel formato standard
+        """
         formatted_results = []
         
         for result in results:
@@ -374,9 +463,10 @@ class WhooshSearchEngine:
             
             # Formato standardizzato compatibile con PostgreSQL
             formatted_result = {
-                'title': result['title'] or '',
-                'label': result['label'] or '',
-                'text': self._truncate_content(result['text'] or ''),
+                'id': result.get('id', result.docnum),  # Usa ID se disponibile, altrimenti docnum
+                'title': result.get('title', ''),
+                'label': result.get('label', ''),
+                'content': self._truncate_content(result.get('text', '')),  # Mappa text -> content
                 'score': float(result.score),
                 'snippet': snippet
             }
@@ -388,7 +478,7 @@ class WhooshSearchEngine:
     def _generate_snippet(self, result, searcher) -> str:
         """Genera snippet evidenziato per il risultato."""
         try:
-            text = result['text'] or ''  # Changed from content to text
+            text = result.get('text', '')
             if len(text) <= 200:
                 return text
             
@@ -397,7 +487,7 @@ class WhooshSearchEngine:
             return text[:200] + '...' if len(text) > 200 else text
             
         except Exception:
-            return result.get('text', '')[:200] + '...'  # Changed from content to text
+            return result.get('text', '')[:200] + '...'
     
     def _truncate_content(self, content: str, max_length: int = 500) -> str:
         """Tronca il contenuto se troppo lungo."""
@@ -458,7 +548,7 @@ class WhooshSearchEngine:
 
 # Esempio di utilizzo
 if __name__ == "__main__":
-    # Test del motore di ricerca Whoosh
+    # Test del motore di ricerca Whoosh con supporto multi-campo
     engine = WhooshSearchEngine("whoosh_index", ranking="Frequency")
     
     try:
@@ -468,6 +558,19 @@ if __name__ == "__main__":
         for result in results[:2]:
             print(f"- {result['title']} (Score: {result['score']:.3f})")
         
+        # Test ricerca su campi specifici (come PostgreSQL)
+        field_results = engine.search("internet privacy", fields=['title', 'content'], limit=3)
+        print(f"\nTrovati {len(field_results)} risultati per ricerca su campi specifici")
+        for result in field_results[:2]:
+            print(f"- {result['title']} (Score: {result['score']:.3f})")
+            print(f"  Campi matched: {result.get('matched_fields', [])}")
+        
+        # Test field_search con supporto per più campi
+        multi_field_results = engine.field_search(['title', 'content'], "football team", limit=3)
+        print(f"\nTrovati {len(multi_field_results)} risultati per field_search su più campi")
+        for result in multi_field_results[:2]:
+            print(f"- {result['title']} (Score: {result['score']:.3f})")
+
         # Test ricerca booleana
         bool_results = engine.boolean_search("internet AND privacy", limit=3)
         print(f"\nTrovati {len(bool_results)} risultati per ricerca booleana")
@@ -475,23 +578,23 @@ if __name__ == "__main__":
             print(f"- {result['title']} (Score: {result['score']:.3f})")
 
         # Test ricerca frase
-        phrase_results = engine.phrase_search("\"Brown names 16 March for Budget\"", limit=3)
+        phrase_results = engine.phrase_search("Brown names 16 March for Budget", limit=3)
         print(f"\nTrovati {len(phrase_results)} risultati per frase esatta")
         for result in phrase_results[:2]:
             print(f"- {result['title']} (Score: {result['score']:.3f})")
 
-        # Test ricerca campo
-        field_results = engine.field_search("text", "Liverpool football Hillsborough", limit=3)
-        print(f"\nTrovati {len(field_results)} risultati per ricerca su testo")
-        for result in field_results[:2]:
-            print(f"- {result['title']} (Score: {result['score']:.3f})")
+        # Test get_document_by_id (compatibile con PostgreSQL)
+        doc = engine.get_document_by_id(1)
+        if doc:
+            print(f"\nDocumento recuperato per ID: {doc['title']}")
 
-        # Statistiche
+        # Statistiche (compatibili con PostgreSQL)
         stats = engine.get_stats()
         print(f"\nStatistiche indice:")
         print(f"- Documenti totali: {stats.get('total_documents', 0)}")
         print(f"- Termini unici: {stats.get('unique_terms', 0)}")
         print(f"- Dimensione indice: {stats.get('index_size_mb', 0):.2f} MB")
+        print(f"- Documenti per label: {stats.get('documents_by_label', {})}")
         
     except Exception as e:
         print(f"Errore durante i test: {e}")

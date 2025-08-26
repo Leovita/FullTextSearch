@@ -2,8 +2,17 @@ import logging
 import time
 import os
 from typing import List, Dict, Any, Optional
+import os, sys
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT_DIR = os.path.dirname(BASE_DIR)
+
+if PARENT_DIR not in sys.path:
+    sys.path.insert(0, PARENT_DIR)
+
 from utils.whoosh_engine import WhooshSearchEngine
 from utils.whoosh_query_processor import WhooshQueryProcessor, QueryType
+from scripts.export_results import export_to_json
 
 # Configurazione logging
 logging.basicConfig(
@@ -307,8 +316,8 @@ if __name__ == "__main__":
         
         try:
             with WhooshUnifiedInterface(ranking=ranking_method) as interface:
-                
-                for query_data in queries[:3]:  # Test solo prime 3 query
+
+                for query_data in queries:  # Test tutte le query
                     query_id = query_data['id']
                     query_text = query_data['query']
                     
@@ -326,6 +335,8 @@ if __name__ == "__main__":
                         for i, res in enumerate(result['results'][:2], 1):
                             print(f"  {i}. {res['title']} (Score: {res['score']:.3f})")
                             print(f"     Snippet: {res['snippet'][:100]}...")
+
+                    export_to_json(result)
                     
                 
                 # Statistiche finali

@@ -130,3 +130,6 @@ tests/
 # File di documentazione generati
 docs/_build/
 docs/build/
+
+# File di charts generati
+*.png

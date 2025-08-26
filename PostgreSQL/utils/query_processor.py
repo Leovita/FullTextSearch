@@ -30,6 +30,9 @@ class QueryType(Enum):
     FIELD = "field"
     WILDCARD = "wildcard"
 
+    def __str__(self):
+        return self.value
+
 class QueryProcessor:
     """
     Processore di query per il motore PostgreSQL, ottimizzato dinamicamente.
@@ -234,10 +237,10 @@ class QueryProcessor:
                     validation['errors'].append(f"Valore vuoto per campo: {field}")
         
         elif query_type == QueryType.BOOLEAN:
-            if query.strip().upper().startswith(('AND', 'OR', 'NOT')):
+            if query.strip().upper().startswith(('AND ', 'OR ', 'NOT ')):
                 validation['errors'].append("Query non può iniziare con operatore booleano")
             
-            if query.strip().upper().endswith(('AND', 'OR', 'NOT')):
+            if query.strip().upper().endswith((' AND', ' OR', ' NOT')):
                 validation['errors'].append("Query non può terminare con operatore booleano")
             
             consecutive_ops = re.search(r'\b(AND|OR|NOT)\s+(AND|OR|NOT)\b', query, re.IGNORECASE)
