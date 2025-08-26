@@ -1,0 +1,5162 @@
+[
+    {
+        "data": {
+            "query": "\"Brown names 16 March for Budget\"",
+            "processed_info": {
+                "original_query": "\"Brown names 16 March for Budget\"",
+                "processed_query": "\"Brown names 16 March for Budget\"",
+                "optimized_query": "\"Brown names 16 March for Budget\"",
+                "query_type": "phrase",
+                "query_info": {
+                    "type": "phrase",
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "primary_phrase": "Brown names 16 March for Budget"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 128,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 1.0,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.004614353179931641,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 369,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 1.0,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.004614353179931641,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 4.892110824584961,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Scotland",
+            "processed_info": {
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 308,
+                    "title": "Student 'fee factor' played down",
+                    "snippet": "<b>Scotland</b>'s Good Morning <b>Scotland</b> programme: \"The reason people are opting",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4742164611816406,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 516,
+                    "title": "Scotland 18-10 Italy",
+                    "snippet": "<b>Scotland</b> victory in a dour but clinical encounter against Italy",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4742164611816406,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 649,
+                    "title": "Ireland surge past Scots",
+                    "snippet": "<b>Scotland</b> at Murrayfield.\n \n Hugo Southwell's try gave the Scots",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4742164611816406,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 474.45011138916016,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet",
+            "processed_info": {
+                "original_query": "Microsoft Google internet",
+                "processed_query": "Microsoft Google internet",
+                "optimized_query": "google microsoft internet",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1050,
+                    "title": "Firefox browser takes on Microsoft",
+                    "snippet": "<b>Internet</b> Explorer and has some innovations lacking in <b>Microsoft</b>'s program. For instance, Firefox allows the pages of different websites to be arranged as tabs so users can switch easily",
+                    "score": 0.9162081,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0013301372528076172,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>Google</b> released desktop search software that catalogues all the files on a PC and lets users use one tool to find e-mail messages, spreadsheets, text files and presentations",
+                    "score": 0.70801985,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0013301372528076172,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1075,
+                    "title": "Microsoft takes on desktop search",
+                    "snippet": "<b>Microsoft</b>'s program can be used as a toolbar on the Windows desktop, the <b>Internet</b> Explorer browser and within the Outlook e-mail program. The software giant is coming late",
+                    "score": 0.649968,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0013301372528076172,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.4848709106445312,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Army Scotland regiments decision",
+            "processed_info": {
+                "original_query": "Army Scotland regiments decision",
+                "processed_query": "Army Scotland regiments decision",
+                "optimized_query": "army regiments decision scotland",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 2,
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "<b>decision</b> on the future of <b>Scotland</b>'s <b>Army</b> <b>regiments</b>.\n \n A committee",
+                    "score": 0.99999994,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008261203765869141,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 330,
+                    "title": "Regiments' group in poll move",
+                    "snippet": "<b>decision</b> to endorse SNP candidates in four marginal seats.\n \n \"Labour's arrogance has been their undoing. In trying to get rid of <b>Scotland</b>'s historic <b>regiments</b>, Labour MPs will",
+                    "score": 0.8138491,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008261203765869141,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.9875297546386719,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban Scotland public",
+            "processed_info": {
+                "original_query": "Smoking ban Scotland public",
+                "processed_query": "Smoking ban Scotland public",
+                "optimized_query": "smoking ban scotland public",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b>'s health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive <b>ban</b>\" on <b>smoking</b> in <b>public</b>",
+                    "score": 0.99999994,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0007715225219726562,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.9021759033203125,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking AND Scotland",
+            "processed_info": {
+                "original_query": "Smoking AND Scotland",
+                "processed_query": "Smoking AND Scotland",
+                "optimized_query": "Smoking AND Scotland",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
+                    "score": 0.8923162,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0020520687103271484,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 8.881784e-16,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0020520687103271484,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 2.201080322265625,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 213,
+                    "title": "Conservative MP defects to Labour",
+                    "snippet": "<b>Tony</b> <b>Blair</b> declared himself \"delighted\", saying Mr Jackson would be warmly",
+                    "score": 0.2731026,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4848670959472656,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 90,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.27189082,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4848670959472656,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 217,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.27189082,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4848670959472656,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 485.0800037384033,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices",
+            "processed_info": {
+                "original_query": "Stamp duty property prices",
+                "processed_query": "Stamp duty property prices",
+                "optimized_query": "stamp duty property prices",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 31,
+                    "title": "Lib Dems 'to target stamp duty'",
+                    "snippet": "<b>prices</b> but also by being swept into the <b>stamp</b> <b>duty</b> net,\" he said. \"By failing to uprate the <b>stamp</b> <b>duty</b> threshold Gordon Brown has hit first time buyers and those",
+                    "score": 0.99956584,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0007677078247070312,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1,
+                    "title": "Budget to set scene for election",
+                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than Â£60,000. Since then, average UK <b>property</b> <b>prices</b>",
+                    "score": 0.9995109,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0007677078247070312,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.911712646484375,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1113,
+                    "title": "Hollywood to sue net film pirates",
+                    "snippet": "<b>Hollywood</b> to sue net film pirates",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0003008842468261719,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1431,
+                    "title": "Godzilla gets Hollywood fame star",
+                    "snippet": "Godzilla gets <b>Hollywood</b> fame star",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0003008842468261719,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 976,
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "<b>Hollywood</b> campaign hits websites",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0003008842468261719,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.4100799560546875,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "internet AND privacy",
+            "processed_info": {
+                "original_query": "internet AND privacy",
+                "processed_query": "internet AND privacy",
+                "optimized_query": "privacy AND internet",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "internet",
+                        "privacy"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1308,
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "<b>internet</b> but the files on your computer as well,\" he said. Search engines are often the first port of call for users when they go onto",
+                    "score": 7.637014e-07,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011467933654785156,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>internet</b>. Many people use a search engine as the first page they go to when getting on the net. Many others use desktop toolbars that let them search for information",
+                    "score": 3.260395e-13,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011467933654785156,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 991,
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "<b>Internet</b> Explorer browser and its operating system, Windows, which has been code-named Longhorn. Michael Stephenson, director in Microsoft's Windows Server division, would not confirm however whether",
+                    "score": 2.349232e-13,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011467933654785156,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.299142837524414,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "\"Brown names 16 March for Budget\"",
+            "processed_info": {
+                "original_query": "\"Brown names 16 March for Budget\"",
+                "processed_query": "\"Brown names 16 March for Budget\"",
+                "optimized_query": "\"Brown names 16 March for Budget\"",
+                "query_type": "phrase",
+                "query_info": {
+                    "type": "phrase",
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "primary_phrase": "Brown names 16 March for Budget"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 128,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 1.0,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0006337165832519531,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 369,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 1.0,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0006337165832519531,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.7674694061279297,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Scotland",
+            "processed_info": {
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 308,
+                    "title": "Student 'fee factor' played down",
+                    "snippet": "<b>Scotland</b>'s Good Morning <b>Scotland</b> programme: \"The reason people are opting",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4704599380493164,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 516,
+                    "title": "Scotland 18-10 Italy",
+                    "snippet": "<b>Scotland</b> victory in a dour but clinical encounter against Italy",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4704599380493164,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 649,
+                    "title": "Ireland surge past Scots",
+                    "snippet": "<b>Scotland</b> at Murrayfield.\n \n Hugo Southwell's try gave the Scots",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4704599380493164,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 470.6711769104004,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet",
+            "processed_info": {
+                "original_query": "Microsoft Google internet",
+                "processed_query": "Microsoft Google internet",
+                "optimized_query": "google microsoft internet",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1050,
+                    "title": "Firefox browser takes on Microsoft",
+                    "snippet": "<b>Internet</b> Explorer and has some innovations lacking in <b>Microsoft</b>'s program. For instance, Firefox allows the pages of different websites to be arranged as tabs so users can switch easily",
+                    "score": 0.9162081,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0013647079467773438,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>Google</b> released desktop search software that catalogues all the files on a PC and lets users use one tool to find e-mail messages, spreadsheets, text files and presentations",
+                    "score": 0.70801985,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0013647079467773438,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1075,
+                    "title": "Microsoft takes on desktop search",
+                    "snippet": "<b>Microsoft</b>'s program can be used as a toolbar on the Windows desktop, the <b>Internet</b> Explorer browser and within the Outlook e-mail program. The software giant is coming late",
+                    "score": 0.649968,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0013647079467773438,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.51824951171875,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Army Scotland regiments decision",
+            "processed_info": {
+                "original_query": "Army Scotland regiments decision",
+                "processed_query": "Army Scotland regiments decision",
+                "optimized_query": "army regiments decision scotland",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 2,
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "<b>decision</b> on the future of <b>Scotland</b>'s <b>Army</b> <b>regiments</b>.\n \n A committee",
+                    "score": 0.99999994,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008828639984130859,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 330,
+                    "title": "Regiments' group in poll move",
+                    "snippet": "<b>decision</b> to endorse SNP candidates in four marginal seats.\n \n \"Labour's arrogance has been their undoing. In trying to get rid of <b>Scotland</b>'s historic <b>regiments</b>, Labour MPs will",
+                    "score": 0.8138491,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008828639984130859,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.9953975677490234,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban Scotland public",
+            "processed_info": {
+                "original_query": "Smoking ban Scotland public",
+                "processed_query": "Smoking ban Scotland public",
+                "optimized_query": "smoking ban scotland public",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b>'s health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive <b>ban</b>\" on <b>smoking</b> in <b>public</b>",
+                    "score": 0.99999994,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0007779598236083984,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.9002685546875,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking AND Scotland",
+            "processed_info": {
+                "original_query": "Smoking AND Scotland",
+                "processed_query": "Smoking AND Scotland",
+                "optimized_query": "Smoking AND Scotland",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
+                    "score": 0.8923162,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002070188522338867,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 8.881784e-16,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002070188522338867,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 2.1970272064208984,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 213,
+                    "title": "Conservative MP defects to Labour",
+                    "snippet": "<b>Tony</b> <b>Blair</b> declared himself \"delighted\", saying Mr Jackson would be warmly",
+                    "score": 0.2731026,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4832930564880371,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 90,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.27189082,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4832930564880371,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 217,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.27189082,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.4832930564880371,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 483.4909439086914,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices",
+            "processed_info": {
+                "original_query": "Stamp duty property prices",
+                "processed_query": "Stamp duty property prices",
+                "optimized_query": "stamp duty property prices",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 31,
+                    "title": "Lib Dems 'to target stamp duty'",
+                    "snippet": "<b>prices</b> but also by being swept into the <b>stamp</b> <b>duty</b> net,\" he said. \"By failing to uprate the <b>stamp</b> <b>duty</b> threshold Gordon Brown has hit first time buyers and those",
+                    "score": 0.99956584,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0009121894836425781,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1,
+                    "title": "Budget to set scene for election",
+                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than Â£60,000. Since then, average UK <b>property</b> <b>prices</b>",
+                    "score": 0.9995109,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0009121894836425781,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.0523796081542969,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1113,
+                    "title": "Hollywood to sue net film pirates",
+                    "snippet": "<b>Hollywood</b> to sue net film pirates",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.00035381317138671875,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1431,
+                    "title": "Godzilla gets Hollywood fame star",
+                    "snippet": "Godzilla gets <b>Hollywood</b> fame star",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.00035381317138671875,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 976,
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "<b>Hollywood</b> campaign hits websites",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.00035381317138671875,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.469207763671875,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "internet AND privacy",
+            "processed_info": {
+                "original_query": "internet AND privacy",
+                "processed_query": "internet AND privacy",
+                "optimized_query": "privacy AND internet",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "internet",
+                        "privacy"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1308,
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "<b>internet</b> but the files on your computer as well,\" he said. Search engines are often the first port of call for users when they go onto",
+                    "score": 7.637014e-07,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011780261993408203,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>internet</b>. Many people use a search engine as the first page they go to when getting on the net. Many others use desktop toolbars that let them search for information",
+                    "score": 3.260395e-13,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011780261993408203,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 991,
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "<b>Internet</b> Explorer browser and its operating system, Windows, which has been code-named Longhorn. Michael Stephenson, director in Microsoft's Windows Server division, would not confirm however whether",
+                    "score": 2.349232e-13,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011780261993408203,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.3186931610107422,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "\"Brown names 16 March for Budget\"",
+            "processed_info": {
+                "original_query": "\"Brown names 16 March for Budget\"",
+                "processed_query": "\"Brown names 16 March for Budget\"",
+                "optimized_query": "\"Brown names 16 March for Budget\"",
+                "query_type": "phrase",
+                "query_info": {
+                    "type": "phrase",
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "primary_phrase": "Brown names 16 March for Budget"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 128,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 1.0,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0006465911865234375,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 369,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 1.0,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0006465911865234375,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.7457733154296875,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Scotland",
+            "processed_info": {
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 308,
+                    "title": "Student 'fee factor' played down",
+                    "snippet": "<b>Scotland</b>'s Good Morning <b>Scotland</b> programme: \"The reason people are opting",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.47006821632385254,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 516,
+                    "title": "Scotland 18-10 Italy",
+                    "snippet": "<b>Scotland</b> victory in a dour but clinical encounter against Italy",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.47006821632385254,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 649,
+                    "title": "Ireland surge past Scots",
+                    "snippet": "<b>Scotland</b> at Murrayfield.\n \n Hugo Southwell's try gave the Scots",
+                    "score": 0.092856124,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.47006821632385254,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 470.28255462646484,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet",
+            "processed_info": {
+                "original_query": "Microsoft Google internet",
+                "processed_query": "Microsoft Google internet",
+                "optimized_query": "google microsoft internet",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1050,
+                    "title": "Firefox browser takes on Microsoft",
+                    "snippet": "<b>Internet</b> Explorer and has some innovations lacking in <b>Microsoft</b>'s program. For instance, Firefox allows the pages of different websites to be arranged as tabs so users can switch easily",
+                    "score": 0.9162081,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0012602806091308594,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>Google</b> released desktop search software that catalogues all the files on a PC and lets users use one tool to find e-mail messages, spreadsheets, text files and presentations",
+                    "score": 0.70801985,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0012602806091308594,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1075,
+                    "title": "Microsoft takes on desktop search",
+                    "snippet": "<b>Microsoft</b>'s program can be used as a toolbar on the Windows desktop, the <b>Internet</b> Explorer browser and within the Outlook e-mail program. The software giant is coming late",
+                    "score": 0.649968,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0012602806091308594,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.3899803161621094,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Army Scotland regiments decision",
+            "processed_info": {
+                "original_query": "Army Scotland regiments decision",
+                "processed_query": "Army Scotland regiments decision",
+                "optimized_query": "army regiments decision scotland",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 2,
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "<b>decision</b> on the future of <b>Scotland</b>'s <b>Army</b> <b>regiments</b>.\n \n A committee",
+                    "score": 0.99999994,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008783340454101562,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 330,
+                    "title": "Regiments' group in poll move",
+                    "snippet": "<b>decision</b> to endorse SNP candidates in four marginal seats.\n \n \"Labour's arrogance has been their undoing. In trying to get rid of <b>Scotland</b>'s historic <b>regiments</b>, Labour MPs will",
+                    "score": 0.8138491,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008783340454101562,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.0218620300292969,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban Scotland public",
+            "processed_info": {
+                "original_query": "Smoking ban Scotland public",
+                "processed_query": "Smoking ban Scotland public",
+                "optimized_query": "smoking ban scotland public",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b>'s health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive <b>ban</b>\" on <b>smoking</b> in <b>public</b>",
+                    "score": 0.99999994,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008084774017333984,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.9579658508300781,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking AND Scotland",
+            "processed_info": {
+                "original_query": "Smoking AND Scotland",
+                "processed_query": "Smoking AND Scotland",
+                "optimized_query": "Smoking AND Scotland",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
+                    "score": 0.8923162,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0021491050720214844,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 8.881784e-16,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0021491050720214844,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 2.286672592163086,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 213,
+                    "title": "Conservative MP defects to Labour",
+                    "snippet": "<b>Tony</b> <b>Blair</b> declared himself \"delighted\", saying Mr Jackson would be warmly",
+                    "score": 0.2731026,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.47878313064575195,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 90,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.27189082,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.47878313064575195,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 217,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.27189082,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.47878313064575195,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 478.98077964782715,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices",
+            "processed_info": {
+                "original_query": "Stamp duty property prices",
+                "processed_query": "Stamp duty property prices",
+                "optimized_query": "stamp duty property prices",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 31,
+                    "title": "Lib Dems 'to target stamp duty'",
+                    "snippet": "<b>prices</b> but also by being swept into the <b>stamp</b> <b>duty</b> net,\" he said. \"By failing to uprate the <b>stamp</b> <b>duty</b> threshold Gordon Brown has hit first time buyers and those",
+                    "score": 0.99956584,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008404254913330078,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1,
+                    "title": "Budget to set scene for election",
+                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than Â£60,000. Since then, average UK <b>property</b> <b>prices</b>",
+                    "score": 0.9995109,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008404254913330078,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.965118408203125,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1113,
+                    "title": "Hollywood to sue net film pirates",
+                    "snippet": "<b>Hollywood</b> to sue net film pirates",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0003688335418701172,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1431,
+                    "title": "Godzilla gets Hollywood fame star",
+                    "snippet": "Godzilla gets <b>Hollywood</b> fame star",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0003688335418701172,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 976,
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "<b>Hollywood</b> campaign hits websites",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0003688335418701172,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.46825408935546875,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "internet AND privacy",
+            "processed_info": {
+                "original_query": "internet AND privacy",
+                "processed_query": "internet AND privacy",
+                "optimized_query": "privacy AND internet",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "internet",
+                        "privacy"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1308,
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "<b>internet</b> but the files on your computer as well,\" he said. Search engines are often the first port of call for users when they go onto",
+                    "score": 7.637014e-07,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011336803436279297,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>internet</b>. Many people use a search engine as the first page they go to when getting on the net. Many others use desktop toolbars that let them search for information",
+                    "score": 3.260395e-13,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011336803436279297,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 991,
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "<b>Internet</b> Explorer browser and its operating system, Windows, which has been code-named Longhorn. Michael Stephenson, director in Microsoft's Windows Server division, would not confirm however whether",
+                    "score": 2.349232e-13,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0011336803436279297,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.2514591217041016,
+                "engine_used": "PostgreSQL Standard Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "\"Brown names 16 March for Budget\"",
+            "processed_info": {
+                "original_query": "\"Brown names 16 March for Budget\"",
+                "processed_query": "\"Brown names 16 March for Budget\"",
+                "optimized_query": "\"Brown names 16 March for Budget\"",
+                "query_type": "phrase",
+                "query_info": {
+                    "type": "phrase",
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "primary_phrase": "Brown names 16 March for Budget"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 128,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 0.14746305,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00360870361328125,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 369,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 0.14379807,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00360870361328125,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 3.767251968383789,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Scotland",
+            "processed_info": {
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 844,
+                    "title": "Smith keen on Home series return",
+                    "snippet": "<b>Scotland</b> manager Walter Smith has given his backing to the reinstatement",
+                    "score": 0.013113079,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.4694783687591553,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 699,
+                    "title": "Bortolami predicts dour contest",
+                    "snippet": "<b>Scotland</b> will be a scrappy encounter.\n \n With both sides looking",
+                    "score": 0.012842831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.4694783687591553,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 746,
+                    "title": "Bortolami predicts dour contest",
+                    "snippet": "<b>Scotland</b> will be a scrappy encounter.\n \n With both sides looking",
+                    "score": 0.012842831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.4694783687591553,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 469.7990417480469,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet",
+            "processed_info": {
+                "original_query": "Microsoft Google internet",
+                "processed_query": "Microsoft Google internet",
+                "optimized_query": "google microsoft internet",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1050,
+                    "title": "Firefox browser takes on Microsoft",
+                    "snippet": "<b>Internet</b> Explorer and has some innovations lacking in <b>Microsoft</b>'s program. For instance, Firefox allows the pages of different websites to be arranged as tabs so users can switch easily",
+                    "score": 0.115017936,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.001371145248413086,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1075,
+                    "title": "Microsoft takes on desktop search",
+                    "snippet": "<b>Microsoft</b>'s program can be used as a toolbar on the Windows desktop, the <b>Internet</b> Explorer browser and within the Outlook e-mail program. The software giant is coming late",
+                    "score": 0.09680433,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.001371145248413086,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>Google</b> released desktop search software that catalogues all the files on a PC and lets users use one tool to find e-mail messages, spreadsheets, text files and presentations",
+                    "score": 0.091066144,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.001371145248413086,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.5003681182861328,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Army Scotland regiments decision",
+            "processed_info": {
+                "original_query": "Army Scotland regiments decision",
+                "processed_query": "Army Scotland regiments decision",
+                "optimized_query": "army regiments decision scotland",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 2,
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "<b>decision</b> on the future of <b>Scotland</b>'s <b>Army</b> <b>regiments</b>.\n \n A committee",
+                    "score": 0.13511907,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0008561611175537109,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 330,
+                    "title": "Regiments' group in poll move",
+                    "snippet": "<b>decision</b> to endorse SNP candidates in four marginal seats.\n \n \"Labour's arrogance has been their undoing. In trying to get rid of <b>Scotland</b>'s historic <b>regiments</b>, Labour MPs will",
+                    "score": 0.11273447,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0008561611175537109,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.9737014770507812,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban Scotland public",
+            "processed_info": {
+                "original_query": "Smoking ban Scotland public",
+                "processed_query": "Smoking ban Scotland public",
+                "optimized_query": "smoking ban scotland public",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b>'s health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive <b>ban</b>\" on <b>smoking</b> in <b>public</b>",
+                    "score": 0.12508829,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0006601810455322266,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.7624626159667969,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking AND Scotland",
+            "processed_info": {
+                "original_query": "Smoking AND Scotland",
+                "processed_query": "Smoking AND Scotland",
+                "optimized_query": "Smoking AND Scotland",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
+                    "score": 0.11161831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002115011215209961,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 9.48047e-17,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002115011215209961,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 2.2530555725097656,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 213,
+                    "title": "Conservative MP defects to Labour",
+                    "snippet": "<b>Tony</b> <b>Blair</b> declared himself \"delighted\", saying Mr Jackson would be warmly",
+                    "score": 0.0406751,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.4804966449737549,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 90,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.038779348,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.4804966449737549,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 217,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.038779348,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.4804966449737549,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 480.6973934173584,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices",
+            "processed_info": {
+                "original_query": "Stamp duty property prices",
+                "processed_query": "Stamp duty property prices",
+                "optimized_query": "stamp duty property prices",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 31,
+                    "title": "Lib Dems 'to target stamp duty'",
+                    "snippet": "<b>prices</b> but also by being swept into the <b>stamp</b> <b>duty</b> net,\" he said. \"By failing to uprate the <b>stamp</b> <b>duty</b> threshold Gordon Brown has hit first time buyers and those",
+                    "score": 0.15145136,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0007863044738769531,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1,
+                    "title": "Budget to set scene for election",
+                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than Â£60,000. Since then, average UK <b>property</b> <b>prices</b>",
+                    "score": 0.12866725,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0007863044738769531,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.8988380432128906,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 976,
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "<b>Hollywood</b> campaign hits websites",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00032067298889160156,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1542,
+                    "title": "Hollywood hunts hits at Sundance",
+                    "snippet": "<b>Hollywood</b> hunts hits at Sundance",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00032067298889160156,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1576,
+                    "title": "Hollywood ready for Oscars night",
+                    "snippet": "<b>Hollywood</b> ready for Oscars night",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00032067298889160156,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.44035911560058594,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "internet AND privacy",
+            "processed_info": {
+                "original_query": "internet AND privacy",
+                "processed_query": "internet AND privacy",
+                "optimized_query": "privacy AND internet",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "internet",
+                        "privacy"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1308,
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "<b>internet</b> but the files on your computer as well,\" he said. Search engines are often the first port of call for users when they go onto",
+                    "score": 1.0331014e-07,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0011889934539794922,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>internet</b>. Many people use a search engine as the first page they go to when getting on the net. Many others use desktop toolbars that let them search for information",
+                    "score": 4.1935487e-14,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0011889934539794922,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 991,
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "<b>Internet</b> Explorer browser and its operating system, Windows, which has been code-named Longhorn. Michael Stephenson, director in Microsoft's Windows Server division, would not confirm however whether",
+                    "score": 3.2124565e-14,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0011889934539794922,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.3537406921386719,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "\"Brown names 16 March for Budget\"",
+            "processed_info": {
+                "original_query": "\"Brown names 16 March for Budget\"",
+                "processed_query": "\"Brown names 16 March for Budget\"",
+                "optimized_query": "\"Brown names 16 March for Budget\"",
+                "query_type": "phrase",
+                "query_info": {
+                    "type": "phrase",
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "primary_phrase": "Brown names 16 March for Budget"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 128,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 0.14746305,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0006303787231445312,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 369,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 0.14379807,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0006303787231445312,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.7481575012207031,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Scotland",
+            "processed_info": {
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 844,
+                    "title": "Smith keen on Home series return",
+                    "snippet": "<b>Scotland</b> manager Walter Smith has given his backing to the reinstatement",
+                    "score": 0.013113079,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.47615575790405273,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 699,
+                    "title": "Bortolami predicts dour contest",
+                    "snippet": "<b>Scotland</b> will be a scrappy encounter.\n \n With both sides looking",
+                    "score": 0.012842831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.47615575790405273,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 746,
+                    "title": "Bortolami predicts dour contest",
+                    "snippet": "<b>Scotland</b> will be a scrappy encounter.\n \n With both sides looking",
+                    "score": 0.012842831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.47615575790405273,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 476.35483741760254,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet",
+            "processed_info": {
+                "original_query": "Microsoft Google internet",
+                "processed_query": "Microsoft Google internet",
+                "optimized_query": "google microsoft internet",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1050,
+                    "title": "Firefox browser takes on Microsoft",
+                    "snippet": "<b>Internet</b> Explorer and has some innovations lacking in <b>Microsoft</b>'s program. For instance, Firefox allows the pages of different websites to be arranged as tabs so users can switch easily",
+                    "score": 0.115017936,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0013260841369628906,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1075,
+                    "title": "Microsoft takes on desktop search",
+                    "snippet": "<b>Microsoft</b>'s program can be used as a toolbar on the Windows desktop, the <b>Internet</b> Explorer browser and within the Outlook e-mail program. The software giant is coming late",
+                    "score": 0.09680433,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0013260841369628906,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>Google</b> released desktop search software that catalogues all the files on a PC and lets users use one tool to find e-mail messages, spreadsheets, text files and presentations",
+                    "score": 0.091066144,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0013260841369628906,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.4719963073730469,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Army Scotland regiments decision",
+            "processed_info": {
+                "original_query": "Army Scotland regiments decision",
+                "processed_query": "Army Scotland regiments decision",
+                "optimized_query": "army regiments decision scotland",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 2,
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "<b>decision</b> on the future of <b>Scotland</b>'s <b>Army</b> <b>regiments</b>.\n \n A committee",
+                    "score": 0.13511907,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0009028911590576172,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 330,
+                    "title": "Regiments' group in poll move",
+                    "snippet": "<b>decision</b> to endorse SNP candidates in four marginal seats.\n \n \"Labour's arrogance has been their undoing. In trying to get rid of <b>Scotland</b>'s historic <b>regiments</b>, Labour MPs will",
+                    "score": 0.11273447,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0009028911590576172,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.0523796081542969,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban Scotland public",
+            "processed_info": {
+                "original_query": "Smoking ban Scotland public",
+                "processed_query": "Smoking ban Scotland public",
+                "optimized_query": "smoking ban scotland public",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b>'s health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive <b>ban</b>\" on <b>smoking</b> in <b>public</b>",
+                    "score": 0.12508829,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0007703304290771484,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.911712646484375,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking AND Scotland",
+            "processed_info": {
+                "original_query": "Smoking AND Scotland",
+                "processed_query": "Smoking AND Scotland",
+                "optimized_query": "Smoking AND Scotland",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
+                    "score": 0.11161831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0020449161529541016,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 9.48047e-17,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0020449161529541016,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 2.165079116821289,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 213,
+                    "title": "Conservative MP defects to Labour",
+                    "snippet": "<b>Tony</b> <b>Blair</b> declared himself \"delighted\", saying Mr Jackson would be warmly",
+                    "score": 0.0406751,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.482668399810791,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 90,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.038779348,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.482668399810791,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 217,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.038779348,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.482668399810791,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 482.95092582702637,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices",
+            "processed_info": {
+                "original_query": "Stamp duty property prices",
+                "processed_query": "Stamp duty property prices",
+                "optimized_query": "stamp duty property prices",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 31,
+                    "title": "Lib Dems 'to target stamp duty'",
+                    "snippet": "<b>prices</b> but also by being swept into the <b>stamp</b> <b>duty</b> net,\" he said. \"By failing to uprate the <b>stamp</b> <b>duty</b> threshold Gordon Brown has hit first time buyers and those",
+                    "score": 0.15145136,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0008878707885742188,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1,
+                    "title": "Budget to set scene for election",
+                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than Â£60,000. Since then, average UK <b>property</b> <b>prices</b>",
+                    "score": 0.12866725,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0008878707885742188,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.0099411010742188,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 976,
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "<b>Hollywood</b> campaign hits websites",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0003681182861328125,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1542,
+                    "title": "Hollywood hunts hits at Sundance",
+                    "snippet": "<b>Hollywood</b> hunts hits at Sundance",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0003681182861328125,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1576,
+                    "title": "Hollywood ready for Oscars night",
+                    "snippet": "<b>Hollywood</b> ready for Oscars night",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0003681182861328125,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.4801750183105469,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "internet AND privacy",
+            "processed_info": {
+                "original_query": "internet AND privacy",
+                "processed_query": "internet AND privacy",
+                "optimized_query": "privacy AND internet",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "internet",
+                        "privacy"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1308,
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "<b>internet</b> but the files on your computer as well,\" he said. Search engines are often the first port of call for users when they go onto",
+                    "score": 1.0331014e-07,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0012021064758300781,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>internet</b>. Many people use a search engine as the first page they go to when getting on the net. Many others use desktop toolbars that let them search for information",
+                    "score": 4.1935487e-14,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0012021064758300781,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 991,
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "<b>Internet</b> Explorer browser and its operating system, Windows, which has been code-named Longhorn. Michael Stephenson, director in Microsoft's Windows Server division, would not confirm however whether",
+                    "score": 3.2124565e-14,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0012021064758300781,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.394510269165039,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "\"Brown names 16 March for Budget\"",
+            "processed_info": {
+                "original_query": "\"Brown names 16 March for Budget\"",
+                "processed_query": "\"Brown names 16 March for Budget\"",
+                "optimized_query": "\"Brown names 16 March for Budget\"",
+                "query_type": "phrase",
+                "query_info": {
+                    "type": "phrase",
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "primary_phrase": "Brown names 16 March for Budget"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 128,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 0.14746305,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0006146430969238281,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 369,
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "Chancellor Gordon <b>Brown</b> will deliver his <b>Budget</b> to the House",
+                    "score": 0.14379807,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0006146430969238281,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.7359981536865234,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Scotland",
+            "processed_info": {
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 844,
+                    "title": "Smith keen on Home series return",
+                    "snippet": "<b>Scotland</b> manager Walter Smith has given his backing to the reinstatement",
+                    "score": 0.013113079,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.46939921379089355,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 699,
+                    "title": "Bortolami predicts dour contest",
+                    "snippet": "<b>Scotland</b> will be a scrappy encounter.\n \n With both sides looking",
+                    "score": 0.012842831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.46939921379089355,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 746,
+                    "title": "Bortolami predicts dour contest",
+                    "snippet": "<b>Scotland</b> will be a scrappy encounter.\n \n With both sides looking",
+                    "score": 0.012842831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.46939921379089355,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 469.5894718170166,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet",
+            "processed_info": {
+                "original_query": "Microsoft Google internet",
+                "processed_query": "Microsoft Google internet",
+                "optimized_query": "google microsoft internet",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1050,
+                    "title": "Firefox browser takes on Microsoft",
+                    "snippet": "<b>Internet</b> Explorer and has some innovations lacking in <b>Microsoft</b>'s program. For instance, Firefox allows the pages of different websites to be arranged as tabs so users can switch easily",
+                    "score": 0.115017936,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00133514404296875,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1075,
+                    "title": "Microsoft takes on desktop search",
+                    "snippet": "<b>Microsoft</b>'s program can be used as a toolbar on the Windows desktop, the <b>Internet</b> Explorer browser and within the Outlook e-mail program. The software giant is coming late",
+                    "score": 0.09680433,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00133514404296875,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>Google</b> released desktop search software that catalogues all the files on a PC and lets users use one tool to find e-mail messages, spreadsheets, text files and presentations",
+                    "score": 0.091066144,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00133514404296875,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.546621322631836,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Army Scotland regiments decision",
+            "processed_info": {
+                "original_query": "Army Scotland regiments decision",
+                "processed_query": "Army Scotland regiments decision",
+                "optimized_query": "army regiments decision scotland",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 2,
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "<b>decision</b> on the future of <b>Scotland</b>'s <b>Army</b> <b>regiments</b>.\n \n A committee",
+                    "score": 0.13511907,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0009186267852783203,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 330,
+                    "title": "Regiments' group in poll move",
+                    "snippet": "<b>decision</b> to endorse SNP candidates in four marginal seats.\n \n \"Labour's arrogance has been their undoing. In trying to get rid of <b>Scotland</b>'s historic <b>regiments</b>, Labour MPs will",
+                    "score": 0.11273447,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0009186267852783203,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.0526180267333984,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban Scotland public",
+            "processed_info": {
+                "original_query": "Smoking ban Scotland public",
+                "processed_query": "Smoking ban Scotland public",
+                "optimized_query": "smoking ban scotland public",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b>'s health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive <b>ban</b>\" on <b>smoking</b> in <b>public</b>",
+                    "score": 0.12508829,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0007588863372802734,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.8974075317382812,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking AND Scotland",
+            "processed_info": {
+                "original_query": "Smoking AND Scotland",
+                "processed_query": "Smoking AND Scotland",
+                "optimized_query": "Smoking AND Scotland",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 407,
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
+                    "score": 0.11161831,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002106189727783203,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 9.48047e-17,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002106189727783203,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 2.2516250610351562,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 213,
+                    "title": "Conservative MP defects to Labour",
+                    "snippet": "<b>Tony</b> <b>Blair</b> declared himself \"delighted\", saying Mr Jackson would be warmly",
+                    "score": 0.0406751,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.48064160346984863,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 90,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.038779348,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.48064160346984863,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 217,
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> <b>Blair</b> as prime minister.\n \n He said backing his party",
+                    "score": 0.038779348,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.48064160346984863,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 480.87096214294434,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices",
+            "processed_info": {
+                "original_query": "Stamp duty property prices",
+                "processed_query": "Stamp duty property prices",
+                "optimized_query": "stamp duty property prices",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 31,
+                    "title": "Lib Dems 'to target stamp duty'",
+                    "snippet": "<b>prices</b> but also by being swept into the <b>stamp</b> <b>duty</b> net,\" he said. \"By failing to uprate the <b>stamp</b> <b>duty</b> threshold Gordon Brown has hit first time buyers and those",
+                    "score": 0.15145136,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0008504390716552734,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1,
+                    "title": "Budget to set scene for election",
+                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than Â£60,000. Since then, average UK <b>property</b> <b>prices</b>",
+                    "score": 0.12866725,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0008504390716552734,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.9860992431640625,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 976,
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "<b>Hollywood</b> campaign hits websites",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00045871734619140625,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1542,
+                    "title": "Hollywood hunts hits at Sundance",
+                    "snippet": "<b>Hollywood</b> hunts hits at Sundance",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00045871734619140625,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1576,
+                    "title": "Hollywood ready for Oscars night",
+                    "snippet": "<b>Hollywood</b> ready for Oscars night",
+                    "score": 0.026181996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.00045871734619140625,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.6000995635986328,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "internet AND privacy",
+            "processed_info": {
+                "original_query": "internet AND privacy",
+                "processed_query": "internet AND privacy",
+                "optimized_query": "privacy AND internet",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "internet",
+                        "privacy"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": 1308,
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "<b>internet</b> but the files on your computer as well,\" he said. Search engines are often the first port of call for users when they go onto",
+                    "score": 1.0331014e-07,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0011246204376220703,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 1169,
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "<b>internet</b>. Many people use a search engine as the first page they go to when getting on the net. Many others use desktop toolbars that let them search for information",
+                    "score": 4.1935487e-14,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0011246204376220703,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 991,
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "<b>Internet</b> Explorer browser and its operating system, Windows, which has been code-named Longhorn. Michael Stephenson, director in Microsoft's Windows Server division, would not confirm however whether",
+                    "score": 3.2124565e-14,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0011246204376220703,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 1.2409687042236328,
+                "engine_used": "PostgreSQL Standard Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    }
+]

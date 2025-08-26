@@ -1,0 +1,2204 @@
+[
+    {
+        "data": {
+            "query": "\"Brown names 16 March for Budget\"",
+            "processed_info": {
+                "original_query": "\"Brown names 16 March for Budget\"",
+                "processed_query": "\"Brown names 16 March for Budget\"",
+                "optimized_query": "\"Brown names 16 March for Budget\"",
+                "whoosh_query": "(title:\"brown name 16 march budget\" OR text:\"brown name 16 march budget\" OR combined_text:\"brown name 16 march budget\")",
+                "query_type": "phrase",
+                "query_info": {
+                    "type": "phrase",
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "primary_phrase": "Brown names 16 March for Budget"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "N/A",
+                    "score": 103.80995168955182,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.014721155166625977,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "N/A",
+                    "score": 96.09898782819037,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.014721155166625977,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 18.163681030273438,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Scotland",
+            "processed_info": {
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "whoosh_query": null,
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Student 'fee factor' played down",
+                    "snippet": "N/A",
+                    "score": 30.597682176111757,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.014213323593139648,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Scotland 18-10 Italy",
+                    "snippet": "N/A",
+                    "score": 30.597682176111757,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.014213323593139648,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Ireland surge past Scots",
+                    "snippet": "N/A",
+                    "score": 30.597682176111757,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.014213323593139648,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Councils prepare to set tax rises",
+                    "snippet": "N/A",
+                    "score": 22.948261632083817,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.014213323593139648,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "McConnell details Scots wave toll",
+                    "snippet": "N/A",
+                    "score": 22.948261632083817,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.014213323593139648,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 14.475584030151367,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet",
+            "processed_info": {
+                "original_query": "Microsoft Google internet",
+                "processed_query": "Microsoft Google internet",
+                "optimized_query": "microsoft google internet",
+                "whoosh_query": "(title:microsoft OR text:microsoft OR combined_text:microsoft OR title:googl OR text:googl OR combined_text:googl OR title:internet OR text:internet OR combined_text:internet)",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Google's toolbar sparks concern",
+                    "snippet": "N/A",
+                    "score": 159.18289298730218,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016345977783203125,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Can Yahoo dominate next decade?",
+                    "snippet": "N/A",
+                    "score": 150.14463631302976,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016345977783203125,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "N/A",
+                    "score": 136.08684191898035,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016345977783203125,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "China 'blocks Google news site'",
+                    "snippet": "N/A",
+                    "score": 117.63852964186454,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016345977783203125,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Microsoft launches its own search",
+                    "snippet": "N/A",
+                    "score": 117.16461275019411,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016345977783203125,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.56317710876465,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Army Scotland regiments decision",
+            "processed_info": {
+                "original_query": "Army Scotland regiments decision",
+                "processed_query": "Army Scotland regiments decision",
+                "optimized_query": "army scotland regiments decision",
+                "whoosh_query": "(title:armi OR text:armi OR combined_text:armi OR title:scotland OR text:scotland OR combined_text:scotland OR title:regiment OR text:regiment OR combined_text:regiment OR title:decis OR text:decis OR combined_text:decis)",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "N/A",
+                    "score": 420.8344480328462,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.017583370208740234,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Regiments' group in poll move",
+                    "snippet": "N/A",
+                    "score": 165.86909736495772,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.017583370208740234,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Scotland 18-10 Italy",
+                    "snippet": "N/A",
+                    "score": 71.648145277158,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.017583370208740234,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Student 'fee factor' played down",
+                    "snippet": "N/A",
+                    "score": 61.195364352223514,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.017583370208740234,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Ireland surge past Scots",
+                    "snippet": "N/A",
+                    "score": 61.195364352223514,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.017583370208740234,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 17.791032791137695,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban Scotland public",
+            "processed_info": {
+                "original_query": "Smoking ban Scotland public",
+                "processed_query": "Smoking ban Scotland public",
+                "optimized_query": "smoking ban scotland public",
+                "whoosh_query": "(title:smoke OR text:smoke OR combined_text:smoke OR title:ban OR text:ban OR combined_text:ban OR title:scotland OR text:scotland OR combined_text:scotland OR title:public OR text:public OR combined_text:public)",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "N/A",
+                    "score": 368.76938721982435,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016320466995239258,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "China bans new tobacco factories",
+                    "snippet": "N/A",
+                    "score": 85.42740539376342,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016320466995239258,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Hunt ban support is 'in decline'",
+                    "snippet": "N/A",
+                    "score": 77.3341188387956,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016320466995239258,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Final hunts held as ban looms",
+                    "snippet": "N/A",
+                    "score": 71.73526032593279,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016320466995239258,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Scotland 18-10 Italy",
+                    "snippet": "N/A",
+                    "score": 71.648145277158,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.016320466995239258,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.48569107055664,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking AND Scotland",
+            "processed_info": {
+                "original_query": "Smoking AND Scotland",
+                "processed_query": "Smoking AND Scotland",
+                "optimized_query": "Smoking AND Scotland",
+                "whoosh_query": "((title:smoke OR text:smoke OR combined_text:smoke) AND (title:scotland OR text:scotland OR combined_text:scotland))",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "N/A",
+                    "score": 222.60796094262912,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.012595176696777344,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "N/A",
+                    "score": 19.28370141743629,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.012595176696777344,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.07823371887207,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "whoosh_query": null,
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Brown in appeal for Labour unity",
+                    "snippet": "N/A",
+                    "score": 49.02837752991693,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01634383201599121,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Labour's core support takes stock",
+                    "snippet": "N/A",
+                    "score": 45.51936236658241,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01634383201599121,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Blair dismisses quit claim report",
+                    "snippet": "N/A",
+                    "score": 42.04295878883666,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01634383201599121,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Blair dismisses quit claim report",
+                    "snippet": "N/A",
+                    "score": 42.04295878883666,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01634383201599121,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Blair Labour's longest-serving PM",
+                    "snippet": "N/A",
+                    "score": 42.04295878883666,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01634383201599121,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.61849021911621,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices",
+            "processed_info": {
+                "original_query": "Stamp duty property prices",
+                "processed_query": "Stamp duty property prices",
+                "optimized_query": "stamp duty property prices",
+                "whoosh_query": "(title:stamp OR text:stamp OR combined_text:stamp OR title:duti OR text:duti OR combined_text:duti OR title:properti OR text:properti OR combined_text:properti OR title:price OR text:price OR combined_text:price)",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Budget to set scene for election",
+                    "snippet": "N/A",
+                    "score": 226.640288482585,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01637554168701172,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "House prices rebound says Halifax",
+                    "snippet": "N/A",
+                    "score": 124.03165602451654,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01637554168701172,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "No seasonal lift for house market",
+                    "snippet": "N/A",
+                    "score": 120.15603557995962,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01637554168701172,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Lib Dems 'to target stamp duty'",
+                    "snippet": "N/A",
+                    "score": 104.63055694739646,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01637554168701172,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Petrol duties frozen, Brown says",
+                    "snippet": "N/A",
+                    "score": 92.69858926401207,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.01637554168701172,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.61825180053711,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "whoosh_query": "(title:hollywood)",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "N/A",
+                    "score": 6.6280706529205045,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.015102386474609375,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Hollywood to sue net film pirates",
+                    "snippet": "N/A",
+                    "score": 6.6280706529205045,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.015102386474609375,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Godzilla gets Hollywood fame star",
+                    "snippet": "N/A",
+                    "score": 6.6280706529205045,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.015102386474609375,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Keanu Reeves given Hollywood star",
+                    "snippet": "N/A",
+                    "score": 6.6280706529205045,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.015102386474609375,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Fantasy book wins Hollywood deal",
+                    "snippet": "N/A",
+                    "score": 6.6280706529205045,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.015102386474609375,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 15.506744384765625,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "internet AND privacy",
+            "processed_info": {
+                "original_query": "internet AND privacy",
+                "processed_query": "internet AND privacy",
+                "optimized_query": "internet AND privacy",
+                "whoosh_query": "((title:internet OR text:internet OR combined_text:internet) AND (title:privaci OR text:privaci OR combined_text:privaci))",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "internet",
+                        "privacy"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "N/A",
+                    "score": 40.11434402152806,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.013199806213378906,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "N/A",
+                    "score": 32.91725289458451,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.013199806213378906,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "N/A",
+                    "score": 18.52307064069739,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.013199806213378906,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.845226287841797,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "\"Brown names 16 March for Budget\"",
+            "processed_info": {
+                "original_query": "\"Brown names 16 March for Budget\"",
+                "processed_query": "\"Brown names 16 March for Budget\"",
+                "optimized_query": "\"Brown names 16 March for Budget\"",
+                "whoosh_query": "(title:\"brown name 16 march budget\" OR text:\"brown name 16 march budget\" OR combined_text:\"brown name 16 march budget\")",
+                "query_type": "phrase",
+                "query_info": {
+                    "type": "phrase",
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "primary_phrase": "Brown names 16 March for Budget"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [
+                        "Brown names 16 March for Budget"
+                    ],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "N/A",
+                    "score": 60.88657885798202,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.013643503189086914,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Brown names 16 March for Budget",
+                    "snippet": "N/A",
+                    "score": 60.14735779275407,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.013643503189086914,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.903400421142578,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Scotland",
+            "processed_info": {
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "whoosh_query": null,
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Scotland"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "McConnell details Scots wave toll",
+                    "snippet": "N/A",
+                    "score": 7.2291158246432135,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.016086339950561523,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Student 'fee factor' played down",
+                    "snippet": "N/A",
+                    "score": 7.137100768566672,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.016086339950561523,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Scotland 18-10 Italy",
+                    "snippet": "N/A",
+                    "score": 7.137100768566672,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.016086339950561523,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Captains lining up for Aid match",
+                    "snippet": "N/A",
+                    "score": 7.058850457334463,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.016086339950561523,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Smith keen on Home series return",
+                    "snippet": "N/A",
+                    "score": 7.004355351074378,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.016086339950561523,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.391277313232422,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet",
+            "processed_info": {
+                "original_query": "Microsoft Google internet",
+                "processed_query": "Microsoft Google internet",
+                "optimized_query": "microsoft google internet",
+                "whoosh_query": "(title:microsoft OR text:microsoft OR combined_text:microsoft OR title:googl OR text:googl OR combined_text:googl OR title:internet OR text:internet OR combined_text:internet)",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Microsoft takes on desktop search",
+                    "snippet": "N/A",
+                    "score": 48.008904196981,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017529010772705078,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Firefox browser takes on Microsoft",
+                    "snippet": "N/A",
+                    "score": 41.340799772342066,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017529010772705078,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "The year search became personal",
+                    "snippet": "N/A",
+                    "score": 40.988236972244664,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017529010772705078,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Google's toolbar sparks concern",
+                    "snippet": "N/A",
+                    "score": 39.85130419642811,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017529010772705078,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "N/A",
+                    "score": 38.50594473070519,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017529010772705078,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 17.735719680786133,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Army Scotland regiments decision",
+            "processed_info": {
+                "original_query": "Army Scotland regiments decision",
+                "processed_query": "Army Scotland regiments decision",
+                "optimized_query": "army scotland regiments decision",
+                "whoosh_query": "(title:armi OR text:armi OR combined_text:armi OR title:scotland OR text:scotland OR combined_text:scotland OR title:regiment OR text:regiment OR combined_text:regiment OR title:decis OR text:decis OR combined_text:decis)",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "Scotland",
+                        "regiments",
+                        "decision"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "N/A",
+                    "score": 96.7609861131216,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017302274703979492,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Regiments' group in poll move",
+                    "snippet": "N/A",
+                    "score": 67.35165283702312,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017302274703979492,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Ref stands by Scotland decisions",
+                    "snippet": "N/A",
+                    "score": 37.9655672739836,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017302274703979492,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Crucial decision on super-casinos",
+                    "snippet": "N/A",
+                    "score": 28.43689927275995,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017302274703979492,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Iraqis win death test case probe",
+                    "snippet": "N/A",
+                    "score": 24.081943047318497,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017302274703979492,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 17.49873161315918,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban Scotland public",
+            "processed_info": {
+                "original_query": "Smoking ban Scotland public",
+                "processed_query": "Smoking ban Scotland public",
+                "optimized_query": "smoking ban scotland public",
+                "whoosh_query": "(title:smoke OR text:smoke OR combined_text:smoke OR title:ban OR text:ban OR combined_text:ban OR title:scotland OR text:scotland OR combined_text:scotland OR title:public OR text:public OR combined_text:public)",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "Scotland",
+                        "public"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "N/A",
+                    "score": 73.99245107182797,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017565011978149414,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "China bans new tobacco factories",
+                    "snippet": "N/A",
+                    "score": 44.34205513029496,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017565011978149414,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Pountney handed ban and fine",
+                    "snippet": "N/A",
+                    "score": 32.16402871864506,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017565011978149414,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Hunt ban support is 'in decline'",
+                    "snippet": "N/A",
+                    "score": 30.746733781292015,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017565011978149414,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Murray returns to Scotland fold",
+                    "snippet": "N/A",
+                    "score": 30.3169074183415,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.017565011978149414,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 17.766237258911133,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking AND Scotland",
+            "processed_info": {
+                "original_query": "Smoking AND Scotland",
+                "processed_query": "Smoking AND Scotland",
+                "optimized_query": "Smoking AND Scotland",
+                "whoosh_query": "((title:smoke OR text:smoke OR combined_text:smoke) AND (title:scotland OR text:scotland OR combined_text:scotland))",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "N/A",
+                    "score": 42.57121451778148,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.012784481048583984,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "N/A",
+                    "score": 6.0924474190220455,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.012784481048583984,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.33739471435547,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "whoosh_query": null,
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            "",
+                            "Tony Blair"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Conservative MP defects to Labour",
+                    "snippet": "N/A",
+                    "score": 12.142573795047582,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.015308856964111328,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "N/A",
+                    "score": 11.87171452125525,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.015308856964111328,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "N/A",
+                    "score": 11.87171452125525,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.015308856964111328,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Blair Labour's longest-serving PM",
+                    "snippet": "N/A",
+                    "score": 11.840921607696657,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.015308856964111328,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Blair prepares to name poll date",
+                    "snippet": "N/A",
+                    "score": 11.67289454998949,
+                    "matched_fields": [
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.015308856964111328,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 15.53201675415039,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices",
+            "processed_info": {
+                "original_query": "Stamp duty property prices",
+                "processed_query": "Stamp duty property prices",
+                "optimized_query": "stamp duty property prices",
+                "whoosh_query": "(title:stamp OR text:stamp OR combined_text:stamp OR title:duti OR text:duti OR combined_text:duti OR title:properti OR text:properti OR combined_text:properti OR title:price OR text:price OR combined_text:price)",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Lib Dems 'to target stamp duty'",
+                    "snippet": "N/A",
+                    "score": 69.30058930018305,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01785755157470703,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Budget to set scene for election",
+                    "snippet": "N/A",
+                    "score": 60.43292295787601,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01785755157470703,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Survey confirms property slowdown",
+                    "snippet": "N/A",
+                    "score": 35.48443821988542,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01785755157470703,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "House prices drop as sales slow",
+                    "snippet": "N/A",
+                    "score": 33.85197669351201,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01785755157470703,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Petrol duties frozen, Brown says",
+                    "snippet": "N/A",
+                    "score": 33.03410282145375,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01785755157470703,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 18.102407455444336,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "whoosh_query": "(title:hollywood)",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            "",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "N/A",
+                    "score": 6.9975608393087585,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.014600276947021484,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Hollywood hunts hits at Sundance",
+                    "snippet": "N/A",
+                    "score": 6.9975608393087585,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.014600276947021484,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Hollywood ready for Oscars night",
+                    "snippet": "N/A",
+                    "score": 6.9975608393087585,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.014600276947021484,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Hollywood to sue net film pirates",
+                    "snippet": "N/A",
+                    "score": 6.396088749069768,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.014600276947021484,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Godzilla gets Hollywood fame star",
+                    "snippet": "N/A",
+                    "score": 6.396088749069768,
+                    "matched_fields": [
+                        "title"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.014600276947021484,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 14.9688720703125,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "internet AND privacy",
+            "processed_info": {
+                "original_query": "internet AND privacy",
+                "processed_query": "internet AND privacy",
+                "optimized_query": "internet AND privacy",
+                "whoosh_query": "((title:internet OR text:internet OR combined_text:internet) AND (title:privaci OR text:privaci OR combined_text:privaci))",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": false,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "internet",
+                        "privacy"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                },
+                "suggestions": []
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "N/A",
+                    "score": 23.222316282148054,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.012812614440917969,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "N/A",
+                    "score": 22.21389844199919,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.012812614440917969,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "N/A",
+                    "score": 14.931166059094007,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.012812614440917969,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 16.705989837646484,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    }
+]

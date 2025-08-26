@@ -1,23 +1,26 @@
 import re
 import logging
-from typing import List, Dict, Any, Optional
-from enum import Enum
 import os
-import psycopg2
+from typing import List, Dict, Any, Optional, Tuple
+from enum import Enum
 from collections import Counter
-from utils.password import PASSWORD
+from whoosh.query import And, Or, Not, Term, Phrase, Wildcard, Every
+from whoosh.qparser import QueryParser, MultifieldParser, OrGroup, AndGroup
+from whoosh.qparser.dateparse import DateParserPlugin
+from whoosh.qparser.plugins import PhrasePlugin, WildcardPlugin
+from whoosh import index
 
 # Definisce il percorso per la cartella dei log
 LOG_DIR = 'log'
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
 
-# Configurazione del logging dinamica
+# Configurazione del logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join(LOG_DIR, 'query_processor.log')),
+        logging.FileHandler(os.path.join(LOG_DIR, 'whoosh_query_processor.log')),
         logging.StreamHandler()
     ]
 )
@@ -33,16 +36,33 @@ class QueryType(Enum):
     def __str__(self):
         return self.value
 
-class QueryProcessor:
+
+class WhooshQueryProcessor:
     """
-    Processore di query per il motore PostgreSQL, ottimizzato dinamicamente.
+    Processore di query avanzato per Whoosh con ottimizzazione dinamica.
+    Supporta tutti i tipi di query e fornisce ottimizzazioni basate sulle statistiche dell'indice.
     """
     
-    def __init__(self, db_config: Optional[Dict[str, str]] = None):
-        self.logger = logging.getLogger(__name__)
-        self.db_config = db_config
-        self.term_stats = self._fetch_term_statistics() if db_config else {}
+    def __init__(self, index_dir: str = "whoosh_index"):
+        """
+        Inizializza il processore di query Whoosh.
         
+        Args:
+            index_dir: Directory dell'indice Whoosh
+        """
+        self.logger = logging.getLogger(__name__)
+        self.index_dir = index_dir
+        self.index = None
+        self.term_stats = {}
+        self.categorie = {
+            0: 'politics',
+            1: 'sport',
+            2: 'technology',
+            3: 'entertainment',
+            4: 'business'
+        }
+        
+        # Patterns per identificare tipi di query
         self.patterns = {
             'field_query': re.compile(r'(\w+):(["\']?)([^"\']+)\2'),
             'phrase_query': re.compile(r'"([^"]+)"'),
@@ -52,70 +72,108 @@ class QueryProcessor:
         }
         
         self.boolean_operators = {'AND', 'OR', 'NOT'}
-        self.valid_fields = {'title', 'content', 'label', 'author'}
+        self.valid_fields = {'title', 'content', 'label', 'combined_text', 'text'}
         
-        self.logger.info("QueryProcessor inizializzato.")
-
-    def _fetch_term_statistics(self) -> Dict[str, int]:
-        """
-        Recupera le statistiche dei termini (es. frequenza) dal database.
-        In un'implementazione reale, si userebbero le statistiche dei termini
-        del full-text search di PostgreSQL. Qui si userà una simulazione.
-        """
-        self.logger.info("Recupero statistiche dei termini dal database...")
-        # Simula il recupero delle statistiche dal database
-        # In un'implementazione reale, si potrebbe usare una query come:
-        # SELECT word, ndoc FROM ts_stat('SELECT tsv FROM documents') ORDER BY ndoc DESC;
-        # Per questo esempio, usiamo dati fittizi.
+        # Inizializza parsers Whoosh
+        self._setup_parsers()
+        self._load_term_statistics()
+        
+        self.logger.info("WhooshQueryProcessor inizializzato")
+    
+    def _setup_parsers(self):
+        """Configura i parser Whoosh per diversi tipi di query."""
         try:
-            conn = psycopg2.connect(**self.db_config)
-            cursor = conn.cursor()
-            cursor.execute("""
-                SELECT 
-                    word, 
-                    nentry
-                FROM ts_stat('SELECT tsv FROM documents')
-                WHERE length(word) > 2
-                ORDER BY nentry DESC
-                LIMIT 1000;
-            """)
-            stats = {row[0]: row[1] for row in cursor.fetchall()}
-            cursor.close()
-            conn.close()
-            self.logger.info(f"Recuperate {len(stats)} statistiche dei termini.")
-            return stats
+            if index.exists_in(self.index_dir):
+                self.index = index.open_dir(self.index_dir)
+                
+                # Parser per ricerca generale
+                self.general_parser = MultifieldParser(
+                    ["title", "text", "combined_text"], 
+                    self.index.schema,
+                    group=OrGroup
+                )
+                
+                # Parser per campo specifico
+                self.field_parsers = {}
+                for field in self.valid_fields:
+                    if field in self.index.schema:
+                        if field == 'content':
+                            field = 'text'  # Mappa 'content' a 'text' nello schema
+                        self.field_parsers[field] = QueryParser(field, self.index.schema)
+                
+                # Parser booleano
+                self.boolean_parser = MultifieldParser(
+                    ["title", "text", "combined_text"],
+                    self.index.schema,
+                    group=AndGroup
+                )
+                
         except Exception as e:
-            self.logger.error(f"Errore nel recupero delle statistiche: {e}")
-            return {}
-
+            self.logger.warning(f"Impossibile inizializzare parsers: {e}")
+    
+    def _load_term_statistics(self):
+        """Carica statistiche dei termini dall'indice."""
+        try:
+            if self.index:
+                with self.index.searcher() as searcher:
+                    # Ottiene termini più frequenti
+                    terms = list(searcher.lexicon("combined_text"))[:1000]
+                    for term in terms:
+                        try:
+                            freq = searcher.doc_frequency("combined_text", term)
+                            self.term_stats[term] = freq
+                        except:
+                            continue
+                            
+                self.logger.info(f"Caricate statistiche per {len(self.term_stats)} termini")
+        except Exception as e:
+            self.logger.warning(f"Errore nel caricamento statistiche: {e}")
+    
     def get_term_frequency(self, term: str) -> int:
-        """Restituisce la frequenza di un termine, basata sulle statistiche del dataset."""
+        """Restituisce la frequenza di un termine nell'indice."""
         return self.term_stats.get(term.lower(), 0)
-
+    
     def process_query(self, query: str) -> Dict[str, Any]:
         """
         Processa una query utente e restituisce informazioni strutturate.
+        
+        Args:
+            query: Query da processare
+            
+        Returns:
+            Dizionario con informazioni strutturate sulla query
         """
         if not query or not query.strip():
-            self.logger.warning("Query vuota ricevuta.")
+            self.logger.warning("Query vuota ricevuta")
             return self._create_error_result("Query vuota")
         
         original_query = query
         query = query.strip()
         
         try:
+            # Analisi tipo query
             query_info = self._analyze_query_type(query)
+            
+            # Estrazione componenti
             components = self._extract_components(query)
+            
+            # Validazione
             validation = self._validate_query(query, query_info['type'])
+            
+            # Preprocessing
             processed = self._preprocess_query(query, query_info['type'])
             
-            # Ottimizzazione dinamica basata sulle statistiche
+            # Ottimizzazione dinamica
             optimized = self._optimize_query_dynamically(processed, query_info['type'])
+            
+            # Creazione oggetto query Whoosh
+            whoosh_query = self._create_whoosh_query(optimized, query_info['type'])
             
             result = {
                 'original_query': original_query,
                 'processed_query': processed,
                 'optimized_query': optimized,
+                'whoosh_query': whoosh_query,
                 'query_type': query_info['type'].value,
                 'query_info': query_info,
                 'components': components,
@@ -123,18 +181,15 @@ class QueryProcessor:
                 'suggestions': self._get_suggestions(query) if not validation['is_valid'] else []
             }
             
-            self.logger.info(f"Query processata. Tipo: {result['query_type']}. Validità: {result['validation']['is_valid']}")
+            self.logger.info(f"Query processata. Tipo: {result['query_type']}")
             return result
             
         except Exception as e:
-            self.logger.error(f"Errore nel processamento query: {e}", exc_info=True)
+            self.logger.error(f"Errore nel processamento query: {e}")
             return self._create_error_result(f"Errore nel processamento: {str(e)}")
-
+    
     def _analyze_query_type(self, query: str) -> Dict[str, Any]:
         """Analizza il tipo di query."""
-        # Logica esistente...
-        query_lower = query.lower()
-        
         if self.patterns['field_query'].search(query):
             field_matches = self.patterns['field_query'].findall(query)
             return {
@@ -175,10 +230,9 @@ class QueryProcessor:
                 'word_count': len(words),
                 'words': words
             }
-
+    
     def _extract_components(self, query: str) -> Dict[str, Any]:
         """Estrae componenti della query."""
-        # Logica esistente...
         components = {
             'terms': [],
             'phrases': [],
@@ -187,47 +241,55 @@ class QueryProcessor:
             'wildcards': []
         }
         
+        # Estrae frasi
         phrases = self.patterns['phrase_query'].findall(query)
         components['phrases'] = phrases
         
+        # Rimuove frasi dalla query
         query_without_phrases = self.patterns['phrase_query'].sub('', query)
         
+        # Estrae query per campo
         field_queries = self.patterns['field_query'].findall(query_without_phrases)
         components['field_queries'] = field_queries
         
+        # Rimuove query per campo
         query_without_fields = self.patterns['field_query'].sub('', query_without_phrases)
         
+        # Estrae operatori
         operators = self.patterns['boolean_operators'].findall(query_without_fields)
         components['operators'] = [op.upper() for op in operators]
         
+        # Estrae wildcards
         wildcards = self.patterns['wildcard'].findall(query_without_fields)
         components['wildcards'] = wildcards
         
+        # Estrae termini rimanenti
         remaining_text = self.patterns['boolean_operators'].sub('', query_without_fields)
         remaining_text = self.patterns['wildcard'].sub('', remaining_text)
         
         terms = [term.strip() for term in remaining_text.split() if term.strip()]
-        # Nota: rimozione delle stop words non è più statica
-        components['terms'] = [term for term in terms]
+        components['terms'] = terms
         
         return components
-
+    
     def _validate_query(self, query: str, query_type: QueryType) -> Dict[str, Any]:
-        """Valida la query in base al tipo."""
-        # Logica esistente...
+        """Valida la query."""
         validation = {
             'is_valid': True,
             'errors': [],
             'warnings': []
         }
         
+        # Controllo lunghezza
         if len(query) > 1000:
             validation['warnings'].append("Query molto lunga, potrebbe essere lenta")
         
+        # Controllo caratteri speciali
         special_chars = self.patterns['special_chars'].findall(query)
         if special_chars:
             validation['warnings'].append(f"Caratteri speciali trovati: {set(special_chars)}")
         
+        # Validazione specifica per tipo
         if query_type == QueryType.FIELD:
             field_matches = self.patterns['field_query'].findall(query)
             for field, _, value in field_matches:
@@ -242,10 +304,6 @@ class QueryProcessor:
             
             if query.strip().upper().endswith((' AND', ' OR', ' NOT')):
                 validation['errors'].append("Query non può terminare con operatore booleano")
-            
-            consecutive_ops = re.search(r'\b(AND|OR|NOT)\s+(AND|OR|NOT)\b', query, re.IGNORECASE)
-            if consecutive_ops:
-                validation['errors'].append("Operatori booleani consecutivi non validi")
         
         elif query_type == QueryType.PHRASE:
             empty_phrases = re.findall(r'""', query)
@@ -253,11 +311,10 @@ class QueryProcessor:
                 validation['errors'].append("Frasi esatte vuote trovate")
         
         validation['is_valid'] = len(validation['errors']) == 0
-        
         return validation
-
+    
     def _preprocess_query(self, query: str, query_type: QueryType) -> str:
-        """Preprocessa la query per ottimizzazione."""
+        """Preprocessa la query."""
         processed = query.strip()
         processed = re.sub(r'\s+', ' ', processed)
         
@@ -269,66 +326,84 @@ class QueryProcessor:
         return processed
     
     def _optimize_query_dynamically(self, query: str, query_type: QueryType) -> str:
-        """
-        Ottimizza una query basandosi sulla frequenza dei termini nel dataset.
-        I termini meno frequenti (più selettivi) vengono spostati all'inizio.
-        """
+        """Ottimizza query basandosi sulle statistiche."""
         if not self.term_stats:
-            self.logger.warning("Statistiche dei termini non disponibili. L'ottimizzazione dinamica non sarà efficace.")
             return query
             
         if query_type == QueryType.SIMPLE:
             words = query.lower().split()
-            # Associa ogni parola alla sua frequenza nel dataset
             scored_words = [(word, self.get_term_frequency(word)) for word in words]
-            # Ordina le parole in base alla frequenza (dal meno frequente al più frequente)
-            # Questo garantisce che i termini più selettivi vengano elaborati prima
-            scored_words.sort(key=lambda x: x[1])
-            optimized_query = ' '.join([word[0] for word in scored_words])
-            return optimized_query
+            scored_words.sort(key=lambda x: x[1])  # Ordina per frequenza crescente
+            return ' '.join([word[0] for word in scored_words])
         
-        elif query_type == QueryType.BOOLEAN:
-            # Per query booleane, l'ottimizzazione è più complessa.
-            # L'idea è di riordinare le espressioni in modo che
-            # i termini meno frequenti siano a sinistra dell'operatore AND.
-            # Questo è un'implementazione semplificata che si concentra sui termini.
-            terms_and_phrases = re.split(r'\s+(AND|OR|NOT)\s+', query, flags=re.IGNORECASE)
-            if len(terms_and_phrases) > 1:
-                # Esempio semplificato: riordina solo i termini, non l'intera espressione
-                terms = [t for t in terms_and_phrases if t.upper() not in ['AND', 'OR', 'NOT']]
-                operators = [op for op in terms_and_phrases if op.upper() in ['AND', 'OR', 'NOT']]
-                
-                scored_terms = [(term, self.get_term_frequency(term)) for term in terms]
-                scored_terms.sort(key=lambda x: x[1])
-                
-                # Ricostruisce la query
-                optimized_parts = []
-                for i, term in enumerate(scored_terms):
-                    optimized_parts.append(term[0])
-                    if i < len(operators):
-                        optimized_parts.append(operators[i])
-                return ' '.join(optimized_parts)
-            return query
-            
         return query
-
+    
+    def _create_whoosh_query(self, query: str, query_type: QueryType):
+        """Crea oggetto query Whoosh dal testo."""
+        try:
+            if not self.index:
+                return None
+                
+            if query_type == QueryType.FIELD:
+                # Gestione query multi-campo
+                field_matches = self.patterns['field_query'].findall(query)
+                if field_matches:
+                    subqueries = []
+                    for field, _, value in field_matches:
+                        if field in self.field_parsers:
+                            if field == 'label' and value in self.categorie.values():
+                                # Mappa categoria a numero
+                                label_num = [k for k, v in self.categorie.items() if v == value]
+                                if label_num:
+                                    value = str(label_num[0])
+                            subqueries.append(self.field_parsers[field].parse(value))
+                    
+                    if subqueries:
+                        # Combina le query con operatore OR
+                        return Or(subqueries)
+                    
+            elif query_type == QueryType.PHRASE:
+                # Parser per frasi
+                return self.general_parser.parse(query)
+                
+            elif query_type == QueryType.BOOLEAN:
+                # Parser booleano
+                return self.boolean_parser.parse(query)
+                
+            elif query_type == QueryType.WILDCARD:
+                # Parser per wildcards
+                return self.general_parser.parse(query)
+                
+            else:  # SIMPLE
+                # Parser generale
+                return self.general_parser.parse(query)
+                
+        except Exception as e:
+            self.logger.error(f"Errore nella creazione query Whoosh: {e}")
+            return None
+    
     def _get_suggestions(self, query: str) -> List[str]:
         """Genera suggerimenti per query non valide."""
         suggestions = []
+        
         if self.patterns['special_chars'].search(query):
             suggestions.append("Rimuovi caratteri speciali non supportati")
+        
         if len(query.strip()) < 3:
             suggestions.append("Usa almeno 3 caratteri per la ricerca")
+        
         if any(op in query.upper() for op in ['AND', 'OR', 'NOT']):
-            suggestions.append("Verifica la sintassi degli operatori booleani (AND, OR, NOT)")
+            suggestions.append("Verifica la sintassi degli operatori booleani")
+        
         return suggestions
     
     def _create_error_result(self, error_message: str) -> Dict[str, Any]:
-        """Crea un risultato di errore standardizzato."""
+        """Crea risultato di errore standardizzato."""
         return {
             'original_query': '',
             'processed_query': '',
             'optimized_query': '',
+            'whoosh_query': None,
             'query_type': None,
             'query_info': {},
             'components': {},
@@ -339,34 +414,28 @@ class QueryProcessor:
             },
             'suggestions': []
         }
+    
+    def close(self):
+        """Chiude l'indice."""
+        if self.index:
+            self.index.close()
+            self.index = None
 
-# Classi di utilità (BooleanQueryBuilder, FieldQueryBuilder) rimangono invariate
 
+# Esempio di utilizzo
 if __name__ == "__main__":
-    from password import PASSWORD
-    # Esempio di utilizzo con una configurazione di database fittizia
-    DB_CONFIG = {
-        'host': 'localhost',
-        'database': 'gestione',
-        'user': 'postgres',
-        'password': PASSWORD
-    }
+    processor = WhooshQueryProcessor("whoosh_index")
     
-    # Inizializza il processore con la configurazione del DB
-    processor = QueryProcessor(db_config=DB_CONFIG)
+    # Test query semplice
+    result = processor.process_query("Tony Blair trust voters")
+    print(f"Query semplice: {result['optimized_query']}")
     
-    # Esempi di test
-    query1 = "data analysis method"
-    result1 = processor.process_query(query1)
-    print(f"Query originale: '{query1}' -> Ottimizzata: '{result1['optimized_query']}'")
+    # Test query booleana
+    result = processor.process_query("internet AND privacy")
+    print(f"Query booleana: {result['optimized_query']}")
     
-    query2 = "machine learning AND python"
-    result2 = processor.process_query(query2)
-    print(f"Query originale: '{query2}' -> Ottimizzata: '{result2['optimized_query']}'")
-
-    # Questo test fallirà se il DB non è configurato correttamente, ma il codice gestirà l'errore
-    query3 = 'unvalid field:"value"'
-    result3 = processor.process_query(query3)
-    print(f"Query originale: '{query3}' -> Valida: {result3['validation']['is_valid']}")
-    if not result3['validation']['is_valid']:
-        print(f"Errori: {result3['validation']['errors']}")
+    # Test query per campo
+    result = processor.process_query('title:"data analysis"')
+    print(f"Query campo: {result['optimized_query']}")
+    
+    processor.close()

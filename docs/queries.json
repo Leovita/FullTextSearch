@@ -6,7 +6,7 @@
     },
     {
       "id": "Q2",
-      "query": "content:Liverpool football Hillsborough"
+      "query": "content:Scotland"
     },
     {
       "id": "Q3",
@@ -22,11 +22,11 @@
     },
     {
       "id": "Q6",
-      "query": "internet AND privacy"
+      "query": "Smoking AND Scotland"
     },
     {
       "id": "Q7",
-      "query": "Tony Blair trust voters"
+      "query": "content:Tony Blair"
     },
     {
       "id": "Q8",
@@ -34,7 +34,7 @@
     },
     {
       "id": "Q9",
-      "query": "Hollywood Oscar ceremony"
+      "query": "title:Hollywood"
     },
     {
       "id": "Q10",

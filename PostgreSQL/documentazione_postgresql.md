@@ -12,7 +12,7 @@ Questo documento fornisce una guida completa all'utilizzo del motore di ricerca 
    - [C. Esecuzione di una Ricerca](#c-esecuzione-di-una-ricerca)
    - [D. Ottenere le Statistiche](#d-ottenere-le-statistiche)
    - [E. Chiusura delle Connessioni](#e-chiusura-delle-connessioni)
-3. [Input e Output Standardizzati](#input-e-output-standardizzati)
+3. [Input e Output Standardizzati](#3-input-e-output-standardizzati)
    - [A. Input](#a-input)
    - [B. Output](#b-output)
 4. [Troubleshooting Comune](#4-troubleshooting-comune)
@@ -112,7 +112,7 @@ with PostgreSQLUnifiedInterface(use_cache=True) as engine:
 # La connessione si chiude automaticamente qui, anche in caso di errore
 ```
 
-# Input e Output Standardizzati 
+# 3\. Input e Output Standardizzati 
 
 Per facilitare l'integrazione nel tuo progetto di benchmark, l'API segue una struttura standardizzata.
 
