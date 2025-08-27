@@ -1,6 +1,12 @@
-import psycopg2
+try:
+    import psycopg2
+    PSYCOPG2_AVAILABLE = True
+except ImportError:
+    print("⚠️  psycopg2 non disponibile, alcune funzionalità PostgreSQL saranno limitate")
+    PSYCOPG2_AVAILABLE = False
+
 import csv
-from utils.password import PASSWORD
+from PostgreSQL.utils.password import PASSWORD
 
 DB_NAME = "gestione"
 DB_USER = "postgres"   # Cambia se hai user diverso

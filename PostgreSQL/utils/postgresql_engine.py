@@ -1,8 +1,8 @@
-import psycopg2
 import logging
 import time
 from typing import List, Dict, Tuple, Optional, Any
-from utils.password import PASSWORD
+from PostgreSQL.utils.password import PASSWORD
+import psycopg2
 
 # Configurazione logging
 logging.basicConfig(

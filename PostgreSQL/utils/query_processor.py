@@ -3,9 +3,10 @@ import logging
 from typing import List, Dict, Any, Optional
 from enum import Enum
 import os
-import psycopg2
+
+
 from collections import Counter
-from utils.password import PASSWORD
+from PostgreSQL.utils.password import PASSWORD
 
 # Definisce il percorso per la cartella dei log
 LOG_DIR = 'log'

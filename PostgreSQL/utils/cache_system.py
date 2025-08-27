@@ -1,3 +1,4 @@
+import logging
 import time
 import hashlib
 import json
@@ -5,7 +6,7 @@ import threading
 from typing import Dict, List, Any, Optional, Tuple
 from collections import OrderedDict
 from dataclasses import dataclass, asdict
-from utils.postgresql_engine import PostgreSQLSearchEngine
+from PostgreSQL.utils.postgresql_engine import PostgreSQLSearchEngine
 
 @dataclass
 class CacheEntry:
@@ -519,5 +520,5 @@ def demo_cached_search_engine():
 
 
 if __name__ == "__main__":
-    from postgresql_engine import PostgreSQLSearchEngine
+    from PostgreSQL.utils.postgresql_engine import PostgreSQLSearchEngine
     demo_cached_search_engine()

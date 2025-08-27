@@ -1,18 +1,25 @@
 #!/usr/bin/env python3
-"""
-Script principale unificato per il benchmark PyLucene.
-Confronta BM25 vs Classic (TF-IDF) ranking.
-"""
 
 import os
 import sys
 import time
 import datetime
+import json
 from PyLuceneUnifiedInterface import PyLuceneUnifiedInterface
+
+sys.path.append('../../../scripts')
+from export_results import export_to_json
+
+try:
+    from generate_charts import SearchPerformanceAnalyzer
+    CHARTS_AVAILABLE = True
+except ImportError as e:
+    print(f"Warning: generate_charts.py non disponibile: {e}")
+    print("I grafici non verranno generati")
+    CHARTS_AVAILABLE = False
 
 
 def print_results(results, query_text, ranking_name):
-    """Stampa i risultati della ricerca."""
     if not results or results['total_results'] == 0:
         print(f"[{ranking_name}] Nessun risultato trovato")
         return
@@ -27,7 +34,6 @@ def print_results(results, query_text, ranking_name):
 
 
 def run_benchmark(interface, query_list):
-    """Esegue il benchmark completo confrontando BM25 vs Classic."""
     print("=" * 80)
     print("BENCHMARK PYLUCENE - BM25 vs CLASSIC RANKING")
     print("=" * 80)
@@ -38,6 +44,8 @@ def run_benchmark(interface, query_list):
     total_bm25_time = 0
     total_classic_time = 0
     query_count = 0
+    
+    all_results = []
     
     for i, query_info in enumerate(query_list, 1):
         query_text = query_info['query']
@@ -52,7 +60,6 @@ def run_benchmark(interface, query_list):
         results_bm25 = interface.search(query_text, limit=5)
         bm25_time = (time.time() - start_time) * 1000
         
-        #classic
         print("[CONFIG] Cambiando ranking da BM25 a Classic...")
         interface.similarity = "classic"
         interface._init_searcher()
@@ -62,17 +69,39 @@ def run_benchmark(interface, query_list):
         results_classic = interface.search(query_text, limit=5)
         classic_time = (time.time() - start_time) * 1000
         
-        # Ripristina BM25 per le prossime query
         print("[CONFIG] Ripristinando ranking BM25...")
         interface.similarity = "bm25"
         interface._init_searcher()
         
-        # Stampa risultati
         print(f"\n[RISULTATI BM25] Tempo: {bm25_time:.2f}ms")
         print_results(results_bm25, query_text, "BM25")
         
         print(f"\n[RISULTATI CLASSIC] Tempo: {classic_time:.2f}ms")
         print_results(results_classic, query_text, "CLASSIC")
+        
+        export_data_bm25 = {
+            'query': query_text,
+            'total_results': results_bm25['total_results'],
+            'results': results_bm25['results'],
+            'metrics': {
+                'engine_used': 'PyLucene_BM25',
+                'response_time_ms': bm25_time,
+                'ranking_method': 'BM25'
+            }
+        }
+        all_results.append(export_data_bm25)
+        
+        export_data_classic = {
+            'query': query_text,
+            'total_results': results_classic['total_results'],
+            'results': results_classic['results'],
+            'metrics': {
+                'engine_used': 'PyLucene_Classic',
+                'response_time_ms': classic_time,
+                'ranking_method': 'Classic'
+            }
+        }
+        all_results.append(export_data_classic)
         
         print(f"\n[ANALISI] Confronto ranking per query: '{query_text}'")
         
@@ -126,20 +155,61 @@ def run_benchmark(interface, query_list):
     
     print("=" * 80)
     
+    try:
+        export_path = "../../../pylucene/export.json"
+        formatted_results = []
+        for record in all_results:
+            formatted_results.append({'data': record})
+        
+        with open(export_path, 'w', encoding='utf-8') as f:
+            json.dump(formatted_results, f, ensure_ascii=False, indent=4, default=str)
+        
+        print(f"\n[EXPORT] Risultati esportati in: {export_path}")
+    except Exception as e:
+        print(f"\n[ERRORE EXPORT] Impossibile esportare i risultati: {e}")
+    
     return {
         'bm25_total': total_bm25_time,
         'classic_total': total_classic_time,
         'bm25_avg': avg_bm25,
         'classic_avg': avg_classic,
-        'query_count': query_count
+        'query_count': query_count,
+        'exported_results': all_results
     }
 
 
-def main():
-    print("AVVIO BENCHMARK PYLUCENE UNIFICATO")
-    print("=" * 50)
+def generate_charts_from_export(export_file_path):
+    if not CHARTS_AVAILABLE:
+        print("[GRAFICI] generate_charts.py non disponibile, saltando generazione grafici")
+        return
     
-    ds = "../../../docs/dataset.csv"
+    try:
+        print("\n[GRAFICI] Avvio generazione grafici con SearchPerformanceAnalyzer...")
+        
+        output_dir = "../../../docs/charts/pylucene"
+        os.makedirs(output_dir, exist_ok=True)
+        
+        analyzer = SearchPerformanceAnalyzer(
+            json_file_path=export_file_path,
+            output_dir=output_dir,
+            engine="pylucene"
+        )
+        
+        analyzer.print_summary()
+        
+        analyzer.generate_all_charts()
+        
+        print(f"\n[GRAFICI] Tutti i grafici sono stati generati e salvati in: {output_dir}")
+        
+    except Exception as e:
+        print(f"\n[ERRORE GRAFICI] Impossibile generare i grafici: {e}")
+
+
+def main():
+    print("AVVIO BENCHMARK PYLUCENE UNIFICATO CON EXPORT E GRAFICI")
+    print("=" * 70)
+    
+    ds = "../docs/dataset.csv"
     
     if not os.path.exists(ds):
         print(f"[ERRORE] File dataset non trovato: {ds}")
@@ -148,7 +218,6 @@ def main():
     print("\n[INIZIALIZZAZIONE] Creando interfaccia con BM25...")
     with PyLuceneUnifiedInterface(ds, "indexdir_unified", "bm25") as interface:
         print(f"[VERIFICA] Ranking iniziale: {interface.similarity}")
-        #carico query con funzione dell'interfaccia
         query_list = interface._load_queries_from_file("../../../benchmark_queries_config.json")
         
         if not query_list:
@@ -162,6 +231,17 @@ def main():
         if results:
             print(f"\n[COMPLETATO] Benchmark terminato con successo!")
             print(f"[RISULTATO] {results['query_count']} query testate")
+            print(f"[EXPORT] {len(results['exported_results'])} record esportati")
+            
+            if CHARTS_AVAILABLE:
+                export_file = "../../../pylucene/export.json"
+                if os.path.exists(export_file):
+                    generate_charts_from_export(export_file)
+                else:
+                    print(f"\n[ERRORE] File export non trovato: {export_file}")
+            else:
+                print("\n[GRAFICI] generate_charts.py non disponibile")
+                
         else:
             print("\n[ERRORE] Benchmark fallito")
     
