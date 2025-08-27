@@ -2,7 +2,7 @@
 "test_queries": [
     {
       "id": "Q1",
-      "query": "\"Brown names 16 March for Budget\""
+      "query": "Brown names 16 March for Budget"
     },
     {
       "id": "Q2",
@@ -10,19 +10,19 @@
     },
     {
       "id": "Q3",
-      "query": "Microsoft Google internet"
+      "query": "Microsoft and Google internet services"
     },
     {
       "id": "Q4",
-      "query": "Army Scotland regiments decision"
+      "query": "Army regiments decision in Scotland"
     },
     {
       "id": "Q5",
-      "query": "Smoking ban Scotland public"
+      "query": "Smoking ban in Scotland public places"
     },
     {
       "id": "Q6",
-      "query": "Smoking AND Scotland"
+      "query": "Smoking and Scotland regulations"
     },
     {
       "id": "Q7",
@@ -30,7 +30,7 @@
     },
     {
       "id": "Q8",
-      "query": "Stamp duty property prices"
+      "query": "Stamp duty property prices UK"
     },
     {
       "id": "Q9",
@@ -38,11 +38,11 @@
     },
     {
       "id": "Q10",
-      "query": "internet AND privacy"
+      "query": "Internet privacy and security"
     },
     {
       "id": "Q11",
-      "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)"
+      "query": "Election campaigns and government politics"
     }
   ]
 }
