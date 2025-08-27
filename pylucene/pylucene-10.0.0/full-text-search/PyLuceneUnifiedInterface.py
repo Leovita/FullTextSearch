@@ -135,21 +135,6 @@ class PyLuceneUnifiedInterface:
     def search(self, query_text: str, limit: int = 10) -> Dict[str, Any]:
         """Esegue una ricerca full-text con supporto per campi specifici."""
         try:
-            # Debug: mostra i campi disponibili nell'indice
-            if query_text == "title:Hollywood":
-                print(f"[DEBUG] Query speciale: {query_text}")
-                print(f"[DEBUG] Campi disponibili nell'indice:")
-                try:
-                    reader = DirectoryReader.open(FSDirectory.open(Paths.get(self.index_dir)))
-                    print(f"[DEBUG] Numero documenti nell'indice: {reader.numDocs()}")
-                    if reader.numDocs() > 0:
-                        sample_doc = reader.storedFields().document(0)
-                        print(f"[DEBUG] Campi del primo documento: {list(sample_doc.getFields())}")
-                        print(f"[DEBUG] Titolo primo documento: '{sample_doc.get('title')}'")
-                    reader.close()
-                except Exception as e:
-                    print(f"[DEBUG] Errore lettura indice: {e}")
-            
             #gestione query per campo specifico 
             if ':' in query_text and not query_text.startswith('"'):
                 field_parts = query_text.split(':', 1)
@@ -160,8 +145,6 @@ class PyLuceneUnifiedInterface:
                     valid_fields = ['title', 'content', 'category']
                     if field_name in valid_fields:
                         query = QueryParser(field_name, self.analyzer).parse(field_value)
-                        print(f"[DEBUG] Ricerca nel campo '{field_name}' con valore '{field_value}'")
-                        print(f"[DEBUG] Query Lucene generata: {query}")
                     else:
                         query = QueryParser("content", self.analyzer).parse(field_value)
                 else:
@@ -170,8 +153,6 @@ class PyLuceneUnifiedInterface:
                 query = QueryParser("content", self.analyzer).parse(query_text)
             
             top_docs = self.searcher.search(query, limit)
-            
-            print(f"[DEBUG] Risultati trovati: {top_docs.totalHits}")
             
             results = []
             for hit in top_docs.scoreDocs:
