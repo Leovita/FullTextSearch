@@ -5,7 +5,7 @@
     "description": "Query set per valutazione performance e IR metrics - Condiviso tra PostgreSQL, PyLucene e Whoosh",
     "dataset": "News articles with Title, Text, Label fields",
     "created": "2025-01-27",
-    "total_queries": 10,
+    "total_queries": 15,
     "systems": ["PostgreSQL", "PyLucene", "Whoosh"]
   },
   
@@ -109,21 +109,71 @@
       "category": "health",
       "difficulty": "easy",
       "relevant_docs": [28, 32, 35]
+    },
+    {
+      "id": "Q11",
+      "query": "((election OR campaign) AND (politics OR government)) NOT entertainment",
+      "method": "boolean",
+      "expected_min_results": 3,
+      "description": "Query booleana complessa con operatori annidati e NOT",
+      "category": "politics",
+      "difficulty": "hard",
+      "relevant_docs": [1, 2, 3, 5, 8]
+    },
+    {
+      "id": "Q12",
+      "query": "machine learning AND (artificial intelligence OR AI) AND (technology OR innovation)",
+      "method": "boolean",
+      "expected_min_results": 2,
+      "description": "Query tecnologica complessa con AND multipli e OR",
+      "category": "technology",
+      "difficulty": "hard",
+      "relevant_docs": [10, 15, 20, 25]
+    },
+    {
+      "id": "Q13",
+      "query": "financial crisis AND (economy OR budget) AND (government OR policy) NOT sport",
+      "method": "boolean",
+      "expected_min_results": 2,
+      "description": "Query economica complessa con esclusione di categoria",
+      "category": "economics",
+      "difficulty": "hard",
+      "relevant_docs": [8, 12, 15, 18]
+    },
+    {
+      "id": "Q14",
+      "query": "education AND school AND (policy OR reform) AND (government OR politics)",
+      "method": "boolean",
+      "expected_min_results": 2,
+      "description": "Query educativa complessa con 4 termini AND",
+      "category": "education",
+      "difficulty": "hard",
+      "relevant_docs": [18, 22, 25, 28]
+    },
+    {
+      "id": "Q15",
+      "query": "health care AND (policy OR reform) AND (government OR politics) AND (budget OR economy)",
+      "method": "boolean",
+      "expected_min_results": 1,
+      "description": "Query sanitaria ultra-complessa con 5 termini AND",
+      "category": "health",
+      "difficulty": "hard",
+      "relevant_docs": [28, 32, 35]
     }
   ],
   
   "query_categories": {
     "politics": {
       "description": "Query relative a politica, elezioni, governo",
-      "queries": ["Q1", "Q5", "Q6"]
+      "queries": ["Q1", "Q5", "Q6", "Q11"]
     },
     "economics": {
       "description": "Query relative a economia, budget, crisi finanziarie",
-      "queries": ["Q2", "Q8"]
+      "queries": ["Q2", "Q8", "Q13"]
     },
     "technology": {
       "description": "Query relative a tecnologia, machine learning",
-      "queries": ["Q3", "Q7"]
+      "queries": ["Q3", "Q7", "Q12"]
     },
     "sports": {
       "description": "Query relative a sport, calcio",
@@ -131,11 +181,11 @@
     },
     "education": {
       "description": "Query relative a educazione, scuola",
-      "queries": ["Q9"]
+      "queries": ["Q9", "Q14"]
     },
     "health": {
       "description": "Query relative a sanità, assistenza medica",
-      "queries": ["Q10"]
+      "queries": ["Q10", "Q15"]
     }
   },
   
