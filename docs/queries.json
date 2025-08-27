@@ -39,6 +39,10 @@
     {
       "id": "Q10",
       "query": "internet AND privacy"
+    },
+    {
+      "id": "Q11",
+      "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)"
     }
   ]
 }

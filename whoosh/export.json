@@ -44,7 +44,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.014721155166625977,
+                        "search_time_s": 0.015171289443969727,
                         "cached": false
                     }
                 },
@@ -59,13 +59,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.014721155166625977,
+                        "search_time_s": 0.015171289443969727,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 18.163681030273438,
+                "response_time_ms": 18.08905601501465,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -124,7 +124,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.014213323593139648,
+                        "search_time_s": 0.013488054275512695,
                         "cached": false
                     }
                 },
@@ -138,7 +138,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.014213323593139648,
+                        "search_time_s": 0.013488054275512695,
                         "cached": false
                     }
                 },
@@ -152,7 +152,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.014213323593139648,
+                        "search_time_s": 0.013488054275512695,
                         "cached": false
                     }
                 },
@@ -166,7 +166,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.014213323593139648,
+                        "search_time_s": 0.013488054275512695,
                         "cached": false
                     }
                 },
@@ -180,13 +180,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.014213323593139648,
+                        "search_time_s": 0.013488054275512695,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 14.475584030151367,
+                "response_time_ms": 13.74506950378418,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -242,7 +242,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016345977783203125,
+                        "search_time_s": 0.015129327774047852,
                         "cached": false
                     }
                 },
@@ -257,7 +257,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016345977783203125,
+                        "search_time_s": 0.015129327774047852,
                         "cached": false
                     }
                 },
@@ -272,7 +272,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016345977783203125,
+                        "search_time_s": 0.015129327774047852,
                         "cached": false
                     }
                 },
@@ -287,7 +287,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016345977783203125,
+                        "search_time_s": 0.015129327774047852,
                         "cached": false
                     }
                 },
@@ -302,13 +302,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016345977783203125,
+                        "search_time_s": 0.015129327774047852,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.56317710876465,
+                "response_time_ms": 15.322446823120117,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -366,7 +366,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.017583370208740234,
+                        "search_time_s": 0.015151023864746094,
                         "cached": false
                     }
                 },
@@ -381,7 +381,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.017583370208740234,
+                        "search_time_s": 0.015151023864746094,
                         "cached": false
                     }
                 },
@@ -396,7 +396,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.017583370208740234,
+                        "search_time_s": 0.015151023864746094,
                         "cached": false
                     }
                 },
@@ -411,7 +411,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.017583370208740234,
+                        "search_time_s": 0.015151023864746094,
                         "cached": false
                     }
                 },
@@ -426,13 +426,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.017583370208740234,
+                        "search_time_s": 0.015151023864746094,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.791032791137695,
+                "response_time_ms": 15.353679656982422,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -490,7 +490,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016320466995239258,
+                        "search_time_s": 0.0209500789642334,
                         "cached": false
                     }
                 },
@@ -505,7 +505,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016320466995239258,
+                        "search_time_s": 0.0209500789642334,
                         "cached": false
                     }
                 },
@@ -520,7 +520,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016320466995239258,
+                        "search_time_s": 0.0209500789642334,
                         "cached": false
                     }
                 },
@@ -535,7 +535,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016320466995239258,
+                        "search_time_s": 0.0209500789642334,
                         "cached": false
                     }
                 },
@@ -550,13 +550,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.016320466995239258,
+                        "search_time_s": 0.0209500789642334,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.48569107055664,
+                "response_time_ms": 21.2857723236084,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -613,7 +613,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.012595176696777344,
+                        "search_time_s": 0.011538982391357422,
                         "cached": false
                     }
                 },
@@ -628,13 +628,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.012595176696777344,
+                        "search_time_s": 0.011538982391357422,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.07823371887207,
+                "response_time_ms": 14.780044555664062,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -693,7 +693,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01634383201599121,
+                        "search_time_s": 0.014481067657470703,
                         "cached": false
                     }
                 },
@@ -707,7 +707,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01634383201599121,
+                        "search_time_s": 0.014481067657470703,
                         "cached": false
                     }
                 },
@@ -721,7 +721,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01634383201599121,
+                        "search_time_s": 0.014481067657470703,
                         "cached": false
                     }
                 },
@@ -735,7 +735,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01634383201599121,
+                        "search_time_s": 0.014481067657470703,
                         "cached": false
                     }
                 },
@@ -749,13 +749,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01634383201599121,
+                        "search_time_s": 0.014481067657470703,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.61849021911621,
+                "response_time_ms": 14.83297348022461,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -813,7 +813,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01637554168701172,
+                        "search_time_s": 0.01707315444946289,
                         "cached": false
                     }
                 },
@@ -828,7 +828,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01637554168701172,
+                        "search_time_s": 0.01707315444946289,
                         "cached": false
                     }
                 },
@@ -843,7 +843,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01637554168701172,
+                        "search_time_s": 0.01707315444946289,
                         "cached": false
                     }
                 },
@@ -858,7 +858,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01637554168701172,
+                        "search_time_s": 0.01707315444946289,
                         "cached": false
                     }
                 },
@@ -873,13 +873,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.01637554168701172,
+                        "search_time_s": 0.01707315444946289,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.61825180053711,
+                "response_time_ms": 17.307758331298828,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -938,7 +938,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.015102386474609375,
+                        "search_time_s": 0.013781547546386719,
                         "cached": false
                     }
                 },
@@ -952,7 +952,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.015102386474609375,
+                        "search_time_s": 0.013781547546386719,
                         "cached": false
                     }
                 },
@@ -966,7 +966,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.015102386474609375,
+                        "search_time_s": 0.013781547546386719,
                         "cached": false
                     }
                 },
@@ -980,7 +980,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.015102386474609375,
+                        "search_time_s": 0.013781547546386719,
                         "cached": false
                     }
                 },
@@ -994,13 +994,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.015102386474609375,
+                        "search_time_s": 0.013781547546386719,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 15.506744384765625,
+                "response_time_ms": 14.081239700317383,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -1057,7 +1057,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.013199806213378906,
+                        "search_time_s": 0.01239466667175293,
                         "cached": false
                     }
                 },
@@ -1072,7 +1072,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.013199806213378906,
+                        "search_time_s": 0.01239466667175293,
                         "cached": false
                     }
                 },
@@ -1087,13 +1087,150 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Frequency",
-                        "search_time_s": 0.013199806213378906,
+                        "search_time_s": 0.01239466667175293,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.845226287841797,
+                "response_time_ms": 15.31529426574707,
+                "engine_used": "Whoosh (Frequency)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+            "processed_info": {
+                "original_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "processed_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "optimized_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "whoosh_query": "(((title:elect OR text:elect OR combined_text:elect OR title:campaign OR text:campaign OR combined_text:campaign) AND (title:polit OR text:polit OR combined_text:polit OR title:govern OR text:govern OR combined_text:govern)) OR ((title:scotland OR text:scotland OR combined_text:scotland) AND (title:independ OR text:independ OR combined_text:independ)))",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": true,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "((election",
+                        "campaign)",
+                        "(politics",
+                        "government))",
+                        "(Scotland",
+                        "independence)"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": [
+                        "Caratteri speciali trovati: {')', '('}"
+                    ]
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "N/A",
+                    "score": 184.62251462040336,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.018300533294677734,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Online games play with politics",
+                    "snippet": "N/A",
+                    "score": 136.77529860655798,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.018300533294677734,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "What the election should really be about?",
+                    "snippet": "N/A",
+                    "score": 118.23373020447212,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.018300533294677734,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Profile: Gordon Brown",
+                    "snippet": "N/A",
+                    "score": 116.60736472039743,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.018300533294677734,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "'Debate needed' on donations cap",
+                    "snippet": "N/A",
+                    "score": 111.90575322357083,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Frequency",
+                        "search_time_s": 0.018300533294677734,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 21.102190017700195,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
@@ -1145,7 +1282,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.013643503189086914,
+                        "search_time_s": 0.012911796569824219,
                         "cached": false
                     }
                 },
@@ -1160,13 +1297,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.013643503189086914,
+                        "search_time_s": 0.012911796569824219,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.903400421142578,
+                "response_time_ms": 15.867948532104492,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -1225,7 +1362,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.016086339950561523,
+                        "search_time_s": 0.014379024505615234,
                         "cached": false
                     }
                 },
@@ -1239,7 +1376,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.016086339950561523,
+                        "search_time_s": 0.014379024505615234,
                         "cached": false
                     }
                 },
@@ -1253,7 +1390,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.016086339950561523,
+                        "search_time_s": 0.014379024505615234,
                         "cached": false
                     }
                 },
@@ -1267,7 +1404,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.016086339950561523,
+                        "search_time_s": 0.014379024505615234,
                         "cached": false
                     }
                 },
@@ -1281,13 +1418,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.016086339950561523,
+                        "search_time_s": 0.014379024505615234,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.391277313232422,
+                "response_time_ms": 14.666318893432617,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -1343,7 +1480,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017529010772705078,
+                        "search_time_s": 0.015980243682861328,
                         "cached": false
                     }
                 },
@@ -1358,7 +1495,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017529010772705078,
+                        "search_time_s": 0.015980243682861328,
                         "cached": false
                     }
                 },
@@ -1373,7 +1510,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017529010772705078,
+                        "search_time_s": 0.015980243682861328,
                         "cached": false
                     }
                 },
@@ -1388,7 +1525,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017529010772705078,
+                        "search_time_s": 0.015980243682861328,
                         "cached": false
                     }
                 },
@@ -1403,13 +1540,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017529010772705078,
+                        "search_time_s": 0.015980243682861328,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.735719680786133,
+                "response_time_ms": 16.201019287109375,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -1467,7 +1604,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017302274703979492,
+                        "search_time_s": 0.016404390335083008,
                         "cached": false
                     }
                 },
@@ -1482,7 +1619,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017302274703979492,
+                        "search_time_s": 0.016404390335083008,
                         "cached": false
                     }
                 },
@@ -1497,7 +1634,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017302274703979492,
+                        "search_time_s": 0.016404390335083008,
                         "cached": false
                     }
                 },
@@ -1512,7 +1649,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017302274703979492,
+                        "search_time_s": 0.016404390335083008,
                         "cached": false
                     }
                 },
@@ -1527,13 +1664,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017302274703979492,
+                        "search_time_s": 0.016404390335083008,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.49873161315918,
+                "response_time_ms": 16.63064956665039,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -1591,7 +1728,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017565011978149414,
+                        "search_time_s": 0.016672611236572266,
                         "cached": false
                     }
                 },
@@ -1606,7 +1743,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017565011978149414,
+                        "search_time_s": 0.016672611236572266,
                         "cached": false
                     }
                 },
@@ -1621,7 +1758,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017565011978149414,
+                        "search_time_s": 0.016672611236572266,
                         "cached": false
                     }
                 },
@@ -1636,7 +1773,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017565011978149414,
+                        "search_time_s": 0.016672611236572266,
                         "cached": false
                     }
                 },
@@ -1651,13 +1788,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.017565011978149414,
+                        "search_time_s": 0.016672611236572266,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.766237258911133,
+                "response_time_ms": 16.99519157409668,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -1714,7 +1851,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.012784481048583984,
+                        "search_time_s": 0.01208043098449707,
                         "cached": false
                     }
                 },
@@ -1729,13 +1866,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.012784481048583984,
+                        "search_time_s": 0.01208043098449707,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.33739471435547,
+                "response_time_ms": 14.737844467163086,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -1794,7 +1931,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.015308856964111328,
+                        "search_time_s": 0.014806747436523438,
                         "cached": false
                     }
                 },
@@ -1808,7 +1945,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.015308856964111328,
+                        "search_time_s": 0.014806747436523438,
                         "cached": false
                     }
                 },
@@ -1822,7 +1959,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.015308856964111328,
+                        "search_time_s": 0.014806747436523438,
                         "cached": false
                     }
                 },
@@ -1836,7 +1973,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.015308856964111328,
+                        "search_time_s": 0.014806747436523438,
                         "cached": false
                     }
                 },
@@ -1850,13 +1987,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.015308856964111328,
+                        "search_time_s": 0.014806747436523438,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 15.53201675415039,
+                "response_time_ms": 15.085935592651367,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -1914,7 +2051,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.01785755157470703,
+                        "search_time_s": 0.01573967933654785,
                         "cached": false
                     }
                 },
@@ -1929,7 +2066,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.01785755157470703,
+                        "search_time_s": 0.01573967933654785,
                         "cached": false
                     }
                 },
@@ -1944,7 +2081,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.01785755157470703,
+                        "search_time_s": 0.01573967933654785,
                         "cached": false
                     }
                 },
@@ -1959,7 +2096,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.01785755157470703,
+                        "search_time_s": 0.01573967933654785,
                         "cached": false
                     }
                 },
@@ -1974,13 +2111,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.01785755157470703,
+                        "search_time_s": 0.01573967933654785,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 18.102407455444336,
+                "response_time_ms": 15.962600708007812,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -2039,7 +2176,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.014600276947021484,
+                        "search_time_s": 0.013668060302734375,
                         "cached": false
                     }
                 },
@@ -2053,7 +2190,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.014600276947021484,
+                        "search_time_s": 0.013668060302734375,
                         "cached": false
                     }
                 },
@@ -2067,7 +2204,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.014600276947021484,
+                        "search_time_s": 0.013668060302734375,
                         "cached": false
                     }
                 },
@@ -2081,7 +2218,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.014600276947021484,
+                        "search_time_s": 0.013668060302734375,
                         "cached": false
                     }
                 },
@@ -2095,13 +2232,13 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.014600276947021484,
+                        "search_time_s": 0.013668060302734375,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 14.9688720703125,
+                "response_time_ms": 13.944864273071289,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
@@ -2158,7 +2295,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.012812614440917969,
+                        "search_time_s": 0.012636661529541016,
                         "cached": false
                     }
                 },
@@ -2173,7 +2310,7 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.012812614440917969,
+                        "search_time_s": 0.012636661529541016,
                         "cached": false
                     }
                 },
@@ -2188,13 +2325,150 @@
                     "metadata": {
                         "source": "Whoosh",
                         "ranking_method": "Density",
-                        "search_time_s": 0.012812614440917969,
+                        "search_time_s": 0.012636661529541016,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.705989837646484,
+                "response_time_ms": 15.739679336547852,
+                "engine_used": "Whoosh (Density)"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+            "processed_info": {
+                "original_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "processed_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "optimized_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "whoosh_query": "(((title:elect OR text:elect OR combined_text:elect OR title:campaign OR text:campaign OR combined_text:campaign) AND (title:polit OR text:polit OR combined_text:polit OR title:govern OR text:govern OR combined_text:govern)) OR ((title:scotland OR text:scotland OR combined_text:scotland) AND (title:independ OR text:independ OR combined_text:independ)))",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": true,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "((election",
+                        "campaign)",
+                        "(politics",
+                        "government))",
+                        "(Scotland",
+                        "independence)"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": [
+                        "Caratteri speciali trovati: {')', '('}"
+                    ]
+                },
+                "suggestions": []
+            },
+            "total_results": 5,
+            "results": [
+                {
+                    "title": "Parties build up poll war chests",
+                    "snippet": "N/A",
+                    "score": 43.477369701575945,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01831221580505371,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Kilroy names election seat target",
+                    "snippet": "N/A",
+                    "score": 35.65758701749708,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01831221580505371,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "N/A",
+                    "score": 31.505368015275415,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01831221580505371,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Observers to monitor UK election",
+                    "snippet": "N/A",
+                    "score": 30.929480718720917,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01831221580505371,
+                        "cached": false
+                    }
+                },
+                {
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "N/A",
+                    "score": 26.198013808669714,
+                    "matched_fields": [
+                        "title",
+                        "text"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh",
+                        "ranking_method": "Density",
+                        "search_time_s": 0.01831221580505371,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 21.584272384643555,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",

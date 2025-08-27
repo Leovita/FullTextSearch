@@ -6,7 +6,7 @@ import os
 
 
 from collections import Counter
-from PostgreSQL.utils.password import PASSWORD
+from utils.password import PASSWORD
 
 # Definisce il percorso per la cartella dei log
 LOG_DIR = 'log'

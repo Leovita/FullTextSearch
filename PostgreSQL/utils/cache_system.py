@@ -6,7 +6,7 @@ import threading
 from typing import Dict, List, Any, Optional, Tuple
 from collections import OrderedDict
 from dataclasses import dataclass, asdict
-from PostgreSQL.utils.postgresql_engine import PostgreSQLSearchEngine
+from utils.postgresql_engine import PostgreSQLSearchEngine
 
 @dataclass
 class CacheEntry:

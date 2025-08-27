@@ -44,7 +44,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004614353179931641,
+                        "search_time_s": 0.0036077499389648438,
                         "cached": false
                     }
                 },
@@ -60,14 +60,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004614353179931641,
+                        "search_time_s": 0.0036077499389648438,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 4.892110824584961,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 3.8385391235351562,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -126,7 +126,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4742164611816406,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 },
@@ -142,7 +142,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4742164611816406,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 },
@@ -158,14 +158,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4742164611816406,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 474.45011138916016,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 465.21639823913574,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -177,7 +177,7 @@
             "processed_info": {
                 "original_query": "Microsoft Google internet",
                 "processed_query": "Microsoft Google internet",
-                "optimized_query": "google microsoft internet",
+                "optimized_query": "Microsoft Google internet",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -220,7 +220,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0013301372528076172,
+                        "search_time_s": 0.0012767314910888672,
                         "cached": false
                     }
                 },
@@ -236,7 +236,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0013301372528076172,
+                        "search_time_s": 0.0012767314910888672,
                         "cached": false
                     }
                 },
@@ -252,14 +252,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0013301372528076172,
+                        "search_time_s": 0.0012767314910888672,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.4848709106445312,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 1.4734268188476562,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -271,7 +271,7 @@
             "processed_info": {
                 "original_query": "Army Scotland regiments decision",
                 "processed_query": "Army Scotland regiments decision",
-                "optimized_query": "army regiments decision scotland",
+                "optimized_query": "Army Scotland regiments decision",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -316,7 +316,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008261203765869141,
+                        "search_time_s": 0.0007393360137939453,
                         "cached": false
                     }
                 },
@@ -332,14 +332,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008261203765869141,
+                        "search_time_s": 0.0007393360137939453,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9875297546386719,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.9124279022216797,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -351,7 +351,7 @@
             "processed_info": {
                 "original_query": "Smoking ban Scotland public",
                 "processed_query": "Smoking ban Scotland public",
-                "optimized_query": "smoking ban scotland public",
+                "optimized_query": "Smoking ban Scotland public",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -396,14 +396,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0007715225219726562,
+                        "search_time_s": 0.0007100105285644531,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9021759033203125,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.8928775787353516,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -450,8 +450,8 @@
                 {
                     "id": 407,
                     "title": "Scots smoking ban details set out",
-                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
-                    "score": 0.8923162,
+                    "snippet": "<b>Smoke</b>-free areas will save lives and improve <b>Scotland</b>'s health",
+                    "score": 0.7339941,
                     "matched_fields": [
                         "title",
                         "content",
@@ -459,7 +459,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0020520687103271484,
+                        "search_time_s": 0.002298593521118164,
                         "cached": false
                     }
                 },
@@ -467,7 +467,7 @@
                     "id": 300,
                     "title": "Kilroy launches 'Veritas' party",
                     "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
-                    "score": 8.881784e-16,
+                    "score": 4e-16,
                     "matched_fields": [
                         "title",
                         "content",
@@ -475,14 +475,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0020520687103271484,
+                        "search_time_s": 0.002298593521118164,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 2.201080322265625,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 2.534151077270508,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -541,7 +541,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4848670959472656,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 },
@@ -557,7 +557,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4848670959472656,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 },
@@ -573,14 +573,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4848670959472656,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 485.0800037384033,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 474.20692443847656,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -592,7 +592,7 @@
             "processed_info": {
                 "original_query": "Stamp duty property prices",
                 "processed_query": "Stamp duty property prices",
-                "optimized_query": "stamp duty property prices",
+                "optimized_query": "Stamp duty property prices",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -637,7 +637,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0007677078247070312,
+                        "search_time_s": 0.0008111000061035156,
                         "cached": false
                     }
                 },
@@ -653,14 +653,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0007677078247070312,
+                        "search_time_s": 0.0008111000061035156,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.911712646484375,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 1.0135173797607422,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -719,7 +719,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0003008842468261719,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 },
@@ -735,7 +735,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0003008842468261719,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 },
@@ -751,14 +751,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0003008842468261719,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.4100799560546875,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.4417896270751953,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -770,7 +770,7 @@
             "processed_info": {
                 "original_query": "internet AND privacy",
                 "processed_query": "internet AND privacy",
-                "optimized_query": "privacy AND internet",
+                "optimized_query": "internet AND privacy",
                 "query_type": "boolean",
                 "query_info": {
                     "type": "boolean",
@@ -814,7 +814,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011467933654785156,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 },
@@ -830,7 +830,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011467933654785156,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 },
@@ -846,14 +846,107 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011467933654785156,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.299142837524414,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 1.2743473052978516,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+            "processed_info": {
+                "original_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "processed_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "optimized_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": true,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "((election",
+                        "campaign)",
+                        "(politics",
+                        "government))",
+                        "(Scotland",
+                        "independence)"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": [
+                        "Caratteri speciali trovati: {')', '('}"
+                    ]
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>politics</b>\". On Thursday Mr Kilroy-Silk is due to announce which constituency he will run in at the next general <b>election</b> - that will come amid speculation he has his sights",
+                    "score": 0.73894155,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.001947164535522461,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 37,
+                    "title": "Parties build up poll war chests",
+                    "snippet": "<b>political</b> parties listed by the Electoral Commission. The Conservatives were in second place with donations totalling Â£4,610,849, while the Liberal Democrats received just over",
+                    "score": 0.468042,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.001947164535522461,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 2.1278858184814453,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -904,7 +997,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0006337165832519531,
+                        "search_time_s": 0.0036077499389648438,
                         "cached": false
                     }
                 },
@@ -920,14 +1013,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0006337165832519531,
+                        "search_time_s": 0.0036077499389648438,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.7674694061279297,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.11157989501953125,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -986,7 +1079,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4704599380493164,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 },
@@ -1002,7 +1095,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4704599380493164,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 },
@@ -1018,14 +1111,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4704599380493164,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 470.6711769104004,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.2422332763671875,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1037,7 +1130,7 @@
             "processed_info": {
                 "original_query": "Microsoft Google internet",
                 "processed_query": "Microsoft Google internet",
-                "optimized_query": "google microsoft internet",
+                "optimized_query": "Microsoft Google internet",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -1080,8 +1173,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0013647079467773438,
-                        "cached": false
+                        "search_time_s": 0.0012767314910888672,
+                        "cached": true
                     }
                 },
                 {
@@ -1096,8 +1189,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0013647079467773438,
-                        "cached": false
+                        "search_time_s": 0.0012767314910888672,
+                        "cached": true
                     }
                 },
                 {
@@ -1112,14 +1205,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0013647079467773438,
-                        "cached": false
+                        "search_time_s": 0.0012767314910888672,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.51824951171875,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.11777877807617188,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1131,7 +1224,7 @@
             "processed_info": {
                 "original_query": "Army Scotland regiments decision",
                 "processed_query": "Army Scotland regiments decision",
-                "optimized_query": "army regiments decision scotland",
+                "optimized_query": "Army Scotland regiments decision",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -1176,8 +1269,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008828639984130859,
-                        "cached": false
+                        "search_time_s": 0.0007393360137939453,
+                        "cached": true
                     }
                 },
                 {
@@ -1192,14 +1285,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008828639984130859,
-                        "cached": false
+                        "search_time_s": 0.0007393360137939453,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9953975677490234,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.10538101196289062,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1211,7 +1304,7 @@
             "processed_info": {
                 "original_query": "Smoking ban Scotland public",
                 "processed_query": "Smoking ban Scotland public",
-                "optimized_query": "smoking ban scotland public",
+                "optimized_query": "Smoking ban Scotland public",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -1256,14 +1349,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0007779598236083984,
-                        "cached": false
+                        "search_time_s": 0.0007100105285644531,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9002685546875,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.1494884490966797,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1310,8 +1403,8 @@
                 {
                     "id": 407,
                     "title": "Scots smoking ban details set out",
-                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
-                    "score": 0.8923162,
+                    "snippet": "<b>Smoke</b>-free areas will save lives and improve <b>Scotland</b>'s health",
+                    "score": 0.7339941,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1319,7 +1412,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.002070188522338867,
+                        "search_time_s": 0.002298593521118164,
                         "cached": false
                     }
                 },
@@ -1327,7 +1420,7 @@
                     "id": 300,
                     "title": "Kilroy launches 'Veritas' party",
                     "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
-                    "score": 8.881784e-16,
+                    "score": 4e-16,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1335,14 +1428,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.002070188522338867,
+                        "search_time_s": 0.002298593521118164,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 2.1970272064208984,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.17213821411132812,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1401,7 +1494,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4832930564880371,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 },
@@ -1417,7 +1510,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4832930564880371,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 },
@@ -1433,14 +1526,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4832930564880371,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 483.4909439086914,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.09322166442871094,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1452,7 +1545,7 @@
             "processed_info": {
                 "original_query": "Stamp duty property prices",
                 "processed_query": "Stamp duty property prices",
-                "optimized_query": "stamp duty property prices",
+                "optimized_query": "Stamp duty property prices",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -1497,8 +1590,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0009121894836425781,
-                        "cached": false
+                        "search_time_s": 0.0008111000061035156,
+                        "cached": true
                     }
                 },
                 {
@@ -1513,14 +1606,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0009121894836425781,
-                        "cached": false
+                        "search_time_s": 0.0008111000061035156,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.0523796081542969,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.14209747314453125,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1579,7 +1672,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.00035381317138671875,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 },
@@ -1595,7 +1688,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.00035381317138671875,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 },
@@ -1611,14 +1704,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.00035381317138671875,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.469207763671875,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.13208389282226562,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1630,7 +1723,7 @@
             "processed_info": {
                 "original_query": "internet AND privacy",
                 "processed_query": "internet AND privacy",
-                "optimized_query": "privacy AND internet",
+                "optimized_query": "internet AND privacy",
                 "query_type": "boolean",
                 "query_info": {
                     "type": "boolean",
@@ -1674,7 +1767,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011780261993408203,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 },
@@ -1690,7 +1783,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011780261993408203,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 },
@@ -1706,14 +1799,107 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011780261993408203,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.3186931610107422,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.09083747863769531,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+            "processed_info": {
+                "original_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "processed_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "optimized_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": true,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "((election",
+                        "campaign)",
+                        "(politics",
+                        "government))",
+                        "(Scotland",
+                        "independence)"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": [
+                        "Caratteri speciali trovati: {')', '('}"
+                    ]
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>politics</b>\". On Thursday Mr Kilroy-Silk is due to announce which constituency he will run in at the next general <b>election</b> - that will come amid speculation he has his sights",
+                    "score": 0.73894155,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.001947164535522461,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 37,
+                    "title": "Parties build up poll war chests",
+                    "snippet": "<b>political</b> parties listed by the Electoral Commission. The Conservatives were in second place with donations totalling Â£4,610,849, while the Liberal Democrats received just over",
+                    "score": 0.468042,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.001947164535522461,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.09465217590332031,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1764,7 +1950,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0006465911865234375,
+                        "search_time_s": 0.0036077499389648438,
                         "cached": false
                     }
                 },
@@ -1780,14 +1966,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0006465911865234375,
+                        "search_time_s": 0.0036077499389648438,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.7457733154296875,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.11587142944335938,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1846,7 +2032,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.47006821632385254,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 },
@@ -1862,7 +2048,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.47006821632385254,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 },
@@ -1878,14 +2064,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.47006821632385254,
+                        "search_time_s": 0.4649777412414551,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 470.28255462646484,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.10013580322265625,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1897,7 +2083,7 @@
             "processed_info": {
                 "original_query": "Microsoft Google internet",
                 "processed_query": "Microsoft Google internet",
-                "optimized_query": "google microsoft internet",
+                "optimized_query": "Microsoft Google internet",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -1940,8 +2126,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0012602806091308594,
-                        "cached": false
+                        "search_time_s": 0.0012767314910888672,
+                        "cached": true
                     }
                 },
                 {
@@ -1956,8 +2142,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0012602806091308594,
-                        "cached": false
+                        "search_time_s": 0.0012767314910888672,
+                        "cached": true
                     }
                 },
                 {
@@ -1972,14 +2158,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0012602806091308594,
-                        "cached": false
+                        "search_time_s": 0.0012767314910888672,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.3899803161621094,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.16927719116210938,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -1991,7 +2177,7 @@
             "processed_info": {
                 "original_query": "Army Scotland regiments decision",
                 "processed_query": "Army Scotland regiments decision",
-                "optimized_query": "army regiments decision scotland",
+                "optimized_query": "Army Scotland regiments decision",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -2036,8 +2222,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008783340454101562,
-                        "cached": false
+                        "search_time_s": 0.0007393360137939453,
+                        "cached": true
                     }
                 },
                 {
@@ -2052,14 +2238,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008783340454101562,
-                        "cached": false
+                        "search_time_s": 0.0007393360137939453,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.0218620300292969,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.12421607971191406,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -2071,7 +2257,7 @@
             "processed_info": {
                 "original_query": "Smoking ban Scotland public",
                 "processed_query": "Smoking ban Scotland public",
-                "optimized_query": "smoking ban scotland public",
+                "optimized_query": "Smoking ban Scotland public",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -2116,14 +2302,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008084774017333984,
-                        "cached": false
+                        "search_time_s": 0.0007100105285644531,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9579658508300781,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.15282630920410156,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -2170,8 +2356,8 @@
                 {
                     "id": 407,
                     "title": "Scots smoking ban details set out",
-                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
-                    "score": 0.8923162,
+                    "snippet": "<b>Smoke</b>-free areas will save lives and improve <b>Scotland</b>'s health",
+                    "score": 0.7339941,
                     "matched_fields": [
                         "title",
                         "content",
@@ -2179,7 +2365,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0021491050720214844,
+                        "search_time_s": 0.002298593521118164,
                         "cached": false
                     }
                 },
@@ -2187,7 +2373,7 @@
                     "id": 300,
                     "title": "Kilroy launches 'Veritas' party",
                     "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
-                    "score": 8.881784e-16,
+                    "score": 4e-16,
                     "matched_fields": [
                         "title",
                         "content",
@@ -2195,14 +2381,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0021491050720214844,
+                        "search_time_s": 0.002298593521118164,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 2.286672592163086,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.09846687316894531,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -2261,7 +2447,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.47878313064575195,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 },
@@ -2277,7 +2463,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.47878313064575195,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 },
@@ -2293,14 +2479,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.47878313064575195,
+                        "search_time_s": 0.47396206855773926,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 478.98077964782715,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.12135505676269531,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -2312,7 +2498,7 @@
             "processed_info": {
                 "original_query": "Stamp duty property prices",
                 "processed_query": "Stamp duty property prices",
-                "optimized_query": "stamp duty property prices",
+                "optimized_query": "Stamp duty property prices",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -2357,8 +2543,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008404254913330078,
-                        "cached": false
+                        "search_time_s": 0.0008111000061035156,
+                        "cached": true
                     }
                 },
                 {
@@ -2373,14 +2559,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008404254913330078,
-                        "cached": false
+                        "search_time_s": 0.0008111000061035156,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.965118408203125,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.10776519775390625,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -2439,7 +2625,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0003688335418701172,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 },
@@ -2455,7 +2641,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0003688335418701172,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 },
@@ -2471,14 +2657,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0003688335418701172,
+                        "search_time_s": 0.00027632713317871094,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.46825408935546875,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.12636184692382812,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -2490,7 +2676,7 @@
             "processed_info": {
                 "original_query": "internet AND privacy",
                 "processed_query": "internet AND privacy",
-                "optimized_query": "privacy AND internet",
+                "optimized_query": "internet AND privacy",
                 "query_type": "boolean",
                 "query_info": {
                     "type": "boolean",
@@ -2534,7 +2720,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011336803436279297,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 },
@@ -2550,7 +2736,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011336803436279297,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 },
@@ -2566,14 +2752,107 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0011336803436279297,
+                        "search_time_s": 0.0010728836059570312,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.2514591217041016,
-                "engine_used": "PostgreSQL Standard Frequency"
+                "response_time_ms": 0.24366378784179688,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+            "processed_info": {
+                "original_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "processed_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "optimized_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": true,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "((election",
+                        "campaign)",
+                        "(politics",
+                        "government))",
+                        "(Scotland",
+                        "independence)"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": [
+                        "Caratteri speciali trovati: {')', '('}"
+                    ]
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>politics</b>\". On Thursday Mr Kilroy-Silk is due to announce which constituency he will run in at the next general <b>election</b> - that will come amid speculation he has his sights",
+                    "score": 0.73894155,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.001947164535522461,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 37,
+                    "title": "Parties build up poll war chests",
+                    "snippet": "<b>political</b> parties listed by the Electoral Commission. The Conservatives were in second place with donations totalling Â£4,610,849, while the Liberal Democrats received just over",
+                    "score": 0.468042,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.001947164535522461,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.23055076599121094,
+                "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": []
@@ -2624,7 +2903,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00360870361328125,
+                        "search_time_s": 0.0038919448852539062,
                         "cached": false
                     }
                 },
@@ -2640,14 +2919,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00360870361328125,
+                        "search_time_s": 0.0038919448852539062,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 3.767251968383789,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 4.14586067199707,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -2706,7 +2985,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4694783687591553,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 },
@@ -2722,7 +3001,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4694783687591553,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 },
@@ -2738,14 +3017,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4694783687591553,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 469.7990417480469,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 467.2400951385498,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -2757,7 +3036,7 @@
             "processed_info": {
                 "original_query": "Microsoft Google internet",
                 "processed_query": "Microsoft Google internet",
-                "optimized_query": "google microsoft internet",
+                "optimized_query": "Microsoft Google internet",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -2800,7 +3079,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.001371145248413086,
+                        "search_time_s": 0.0013248920440673828,
                         "cached": false
                     }
                 },
@@ -2816,7 +3095,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.001371145248413086,
+                        "search_time_s": 0.0013248920440673828,
                         "cached": false
                     }
                 },
@@ -2832,14 +3111,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.001371145248413086,
+                        "search_time_s": 0.0013248920440673828,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.5003681182861328,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 1.7306804656982422,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -2851,7 +3130,7 @@
             "processed_info": {
                 "original_query": "Army Scotland regiments decision",
                 "processed_query": "Army Scotland regiments decision",
-                "optimized_query": "army regiments decision scotland",
+                "optimized_query": "Army Scotland regiments decision",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -2896,7 +3175,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0008561611175537109,
+                        "search_time_s": 0.0008494853973388672,
                         "cached": false
                     }
                 },
@@ -2912,14 +3191,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0008561611175537109,
+                        "search_time_s": 0.0008494853973388672,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9737014770507812,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 1.100301742553711,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -2931,7 +3210,7 @@
             "processed_info": {
                 "original_query": "Smoking ban Scotland public",
                 "processed_query": "Smoking ban Scotland public",
-                "optimized_query": "smoking ban scotland public",
+                "optimized_query": "Smoking ban Scotland public",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -2976,14 +3255,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0006601810455322266,
+                        "search_time_s": 0.0007052421569824219,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.7624626159667969,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.9071826934814453,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3030,8 +3309,8 @@
                 {
                     "id": 407,
                     "title": "Scots smoking ban details set out",
-                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
-                    "score": 0.11161831,
+                    "snippet": "<b>Smoke</b>-free areas will save lives and improve <b>Scotland</b>'s health",
+                    "score": 0.09181407,
                     "matched_fields": [
                         "title",
                         "content",
@@ -3039,7 +3318,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.002115011215209961,
+                        "search_time_s": 0.002302885055541992,
                         "cached": false
                     }
                 },
@@ -3047,7 +3326,7 @@
                     "id": 300,
                     "title": "Kilroy launches 'Veritas' party",
                     "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
-                    "score": 9.48047e-17,
+                    "score": 4.269624e-17,
                     "matched_fields": [
                         "title",
                         "content",
@@ -3055,14 +3334,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.002115011215209961,
+                        "search_time_s": 0.002302885055541992,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 2.2530555725097656,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 2.5844573974609375,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3121,7 +3400,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4804966449737549,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 },
@@ -3137,7 +3416,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4804966449737549,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 },
@@ -3153,14 +3432,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4804966449737549,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 480.6973934173584,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 478.7473678588867,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3172,7 +3451,7 @@
             "processed_info": {
                 "original_query": "Stamp duty property prices",
                 "processed_query": "Stamp duty property prices",
-                "optimized_query": "stamp duty property prices",
+                "optimized_query": "Stamp duty property prices",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -3217,7 +3496,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0007863044738769531,
+                        "search_time_s": 0.0007584095001220703,
                         "cached": false
                     }
                 },
@@ -3233,14 +3512,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0007863044738769531,
+                        "search_time_s": 0.0007584095001220703,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.8988380432128906,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.9527206420898438,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3299,7 +3578,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00032067298889160156,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 },
@@ -3315,7 +3594,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00032067298889160156,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 },
@@ -3331,14 +3610,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00032067298889160156,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.44035911560058594,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.5726814270019531,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3350,7 +3629,7 @@
             "processed_info": {
                 "original_query": "internet AND privacy",
                 "processed_query": "internet AND privacy",
-                "optimized_query": "privacy AND internet",
+                "optimized_query": "internet AND privacy",
                 "query_type": "boolean",
                 "query_info": {
                     "type": "boolean",
@@ -3394,7 +3673,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0011889934539794922,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 },
@@ -3410,7 +3689,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0011889934539794922,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 },
@@ -3426,14 +3705,107 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0011889934539794922,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.3537406921386719,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 1.1479854583740234,
+                "engine_used": "PostgreSQL with Cache Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+            "processed_info": {
+                "original_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "processed_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "optimized_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": true,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "((election",
+                        "campaign)",
+                        "(politics",
+                        "government))",
+                        "(Scotland",
+                        "independence)"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": [
+                        "Caratteri speciali trovati: {')', '('}"
+                    ]
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>politics</b>\". On Thursday Mr Kilroy-Silk is due to announce which constituency he will run in at the next general <b>election</b> - that will come amid speculation he has his sights",
+                    "score": 0.078875065,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0019443035125732422,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 37,
+                    "title": "Parties build up poll war chests",
+                    "snippet": "<b>political</b> parties listed by the Electoral Commission. The Conservatives were in second place with donations totalling Â£4,610,849, while the Liberal Democrats received just over",
+                    "score": 0.060726635,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0019443035125732422,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 2.1691322326660156,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3484,7 +3856,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0006303787231445312,
+                        "search_time_s": 0.0038919448852539062,
                         "cached": false
                     }
                 },
@@ -3500,14 +3872,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0006303787231445312,
+                        "search_time_s": 0.0038919448852539062,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.7481575012207031,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.10085105895996094,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3566,7 +3938,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.47615575790405273,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 },
@@ -3582,7 +3954,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.47615575790405273,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 },
@@ -3598,14 +3970,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.47615575790405273,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 476.35483741760254,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.09894371032714844,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3617,7 +3989,7 @@
             "processed_info": {
                 "original_query": "Microsoft Google internet",
                 "processed_query": "Microsoft Google internet",
-                "optimized_query": "google microsoft internet",
+                "optimized_query": "Microsoft Google internet",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -3660,8 +4032,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013260841369628906,
-                        "cached": false
+                        "search_time_s": 0.0013248920440673828,
+                        "cached": true
                     }
                 },
                 {
@@ -3676,8 +4048,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013260841369628906,
-                        "cached": false
+                        "search_time_s": 0.0013248920440673828,
+                        "cached": true
                     }
                 },
                 {
@@ -3692,14 +4064,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013260841369628906,
-                        "cached": false
+                        "search_time_s": 0.0013248920440673828,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.4719963073730469,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.11515617370605469,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3711,7 +4083,7 @@
             "processed_info": {
                 "original_query": "Army Scotland regiments decision",
                 "processed_query": "Army Scotland regiments decision",
-                "optimized_query": "army regiments decision scotland",
+                "optimized_query": "Army Scotland regiments decision",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -3756,8 +4128,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009028911590576172,
-                        "cached": false
+                        "search_time_s": 0.0008494853973388672,
+                        "cached": true
                     }
                 },
                 {
@@ -3772,14 +4144,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009028911590576172,
-                        "cached": false
+                        "search_time_s": 0.0008494853973388672,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.0523796081542969,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.12469291687011719,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3791,7 +4163,7 @@
             "processed_info": {
                 "original_query": "Smoking ban Scotland public",
                 "processed_query": "Smoking ban Scotland public",
-                "optimized_query": "smoking ban scotland public",
+                "optimized_query": "Smoking ban Scotland public",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -3836,14 +4208,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0007703304290771484,
-                        "cached": false
+                        "search_time_s": 0.0007052421569824219,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.911712646484375,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.16808509826660156,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3890,8 +4262,8 @@
                 {
                     "id": 407,
                     "title": "Scots smoking ban details set out",
-                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
-                    "score": 0.11161831,
+                    "snippet": "<b>Smoke</b>-free areas will save lives and improve <b>Scotland</b>'s health",
+                    "score": 0.09181407,
                     "matched_fields": [
                         "title",
                         "content",
@@ -3899,7 +4271,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0020449161529541016,
+                        "search_time_s": 0.002302885055541992,
                         "cached": false
                     }
                 },
@@ -3907,7 +4279,7 @@
                     "id": 300,
                     "title": "Kilroy launches 'Veritas' party",
                     "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
-                    "score": 9.48047e-17,
+                    "score": 4.269624e-17,
                     "matched_fields": [
                         "title",
                         "content",
@@ -3915,14 +4287,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0020449161529541016,
+                        "search_time_s": 0.002302885055541992,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 2.165079116821289,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.11801719665527344,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -3981,7 +4353,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.482668399810791,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 },
@@ -3997,7 +4369,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.482668399810791,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 },
@@ -4013,14 +4385,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.482668399810791,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 482.95092582702637,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.09894371032714844,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4032,7 +4404,7 @@
             "processed_info": {
                 "original_query": "Stamp duty property prices",
                 "processed_query": "Stamp duty property prices",
-                "optimized_query": "stamp duty property prices",
+                "optimized_query": "Stamp duty property prices",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -4077,8 +4449,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0008878707885742188,
-                        "cached": false
+                        "search_time_s": 0.0007584095001220703,
+                        "cached": true
                     }
                 },
                 {
@@ -4093,14 +4465,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0008878707885742188,
-                        "cached": false
+                        "search_time_s": 0.0007584095001220703,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.0099411010742188,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.13256072998046875,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4159,7 +4531,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0003681182861328125,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 },
@@ -4175,7 +4547,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0003681182861328125,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 },
@@ -4191,14 +4563,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0003681182861328125,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.4801750183105469,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.09226799011230469,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4210,7 +4582,7 @@
             "processed_info": {
                 "original_query": "internet AND privacy",
                 "processed_query": "internet AND privacy",
-                "optimized_query": "privacy AND internet",
+                "optimized_query": "internet AND privacy",
                 "query_type": "boolean",
                 "query_info": {
                     "type": "boolean",
@@ -4254,7 +4626,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0012021064758300781,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 },
@@ -4270,7 +4642,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0012021064758300781,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 },
@@ -4286,14 +4658,107 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0012021064758300781,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.394510269165039,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.10824203491210938,
+                "engine_used": "PostgreSQL with Cache Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+            "processed_info": {
+                "original_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "processed_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "optimized_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": true,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "((election",
+                        "campaign)",
+                        "(politics",
+                        "government))",
+                        "(Scotland",
+                        "independence)"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": [
+                        "Caratteri speciali trovati: {')', '('}"
+                    ]
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>politics</b>\". On Thursday Mr Kilroy-Silk is due to announce which constituency he will run in at the next general <b>election</b> - that will come amid speculation he has his sights",
+                    "score": 0.078875065,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0019443035125732422,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 37,
+                    "title": "Parties build up poll war chests",
+                    "snippet": "<b>political</b> parties listed by the Electoral Commission. The Conservatives were in second place with donations totalling Â£4,610,849, while the Liberal Democrats received just over",
+                    "score": 0.060726635,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0019443035125732422,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.11587142944335938,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4344,7 +4809,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0006146430969238281,
+                        "search_time_s": 0.0038919448852539062,
                         "cached": false
                     }
                 },
@@ -4360,14 +4825,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0006146430969238281,
+                        "search_time_s": 0.0038919448852539062,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.7359981536865234,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.16832351684570312,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4426,7 +4891,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.46939921379089355,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 },
@@ -4442,7 +4907,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.46939921379089355,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 },
@@ -4458,14 +4923,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.46939921379089355,
+                        "search_time_s": 0.46697521209716797,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 469.5894718170166,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.12087821960449219,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4477,7 +4942,7 @@
             "processed_info": {
                 "original_query": "Microsoft Google internet",
                 "processed_query": "Microsoft Google internet",
-                "optimized_query": "google microsoft internet",
+                "optimized_query": "Microsoft Google internet",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -4520,8 +4985,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00133514404296875,
-                        "cached": false
+                        "search_time_s": 0.0013248920440673828,
+                        "cached": true
                     }
                 },
                 {
@@ -4536,8 +5001,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00133514404296875,
-                        "cached": false
+                        "search_time_s": 0.0013248920440673828,
+                        "cached": true
                     }
                 },
                 {
@@ -4552,14 +5017,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00133514404296875,
-                        "cached": false
+                        "search_time_s": 0.0013248920440673828,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.546621322631836,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.10538101196289062,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4571,7 +5036,7 @@
             "processed_info": {
                 "original_query": "Army Scotland regiments decision",
                 "processed_query": "Army Scotland regiments decision",
-                "optimized_query": "army regiments decision scotland",
+                "optimized_query": "Army Scotland regiments decision",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -4616,8 +5081,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009186267852783203,
-                        "cached": false
+                        "search_time_s": 0.0008494853973388672,
+                        "cached": true
                     }
                 },
                 {
@@ -4632,14 +5097,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009186267852783203,
-                        "cached": false
+                        "search_time_s": 0.0008494853973388672,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.0526180267333984,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.10442733764648438,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4651,7 +5116,7 @@
             "processed_info": {
                 "original_query": "Smoking ban Scotland public",
                 "processed_query": "Smoking ban Scotland public",
-                "optimized_query": "smoking ban scotland public",
+                "optimized_query": "Smoking ban Scotland public",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -4696,14 +5161,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0007588863372802734,
-                        "cached": false
+                        "search_time_s": 0.0007052421569824219,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.8974075317382812,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.125885009765625,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4750,8 +5215,8 @@
                 {
                     "id": 407,
                     "title": "Scots smoking ban details set out",
-                    "snippet": "<b>Scotland</b> that the criminals can be <b>smokers</b> but the <b>smokers</b>",
-                    "score": 0.11161831,
+                    "snippet": "<b>Smoke</b>-free areas will save lives and improve <b>Scotland</b>'s health",
+                    "score": 0.09181407,
                     "matched_fields": [
                         "title",
                         "content",
@@ -4759,7 +5224,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.002106189727783203,
+                        "search_time_s": 0.002302885055541992,
                         "cached": false
                     }
                 },
@@ -4767,7 +5232,7 @@
                     "id": 300,
                     "title": "Kilroy launches 'Veritas' party",
                     "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
-                    "score": 9.48047e-17,
+                    "score": 4.269624e-17,
                     "matched_fields": [
                         "title",
                         "content",
@@ -4775,14 +5240,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.002106189727783203,
+                        "search_time_s": 0.002302885055541992,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 2.2516250610351562,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.13327598571777344,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4841,7 +5306,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.48064160346984863,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 },
@@ -4857,7 +5322,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.48064160346984863,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 },
@@ -4873,14 +5338,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.48064160346984863,
+                        "search_time_s": 0.47847914695739746,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 480.87096214294434,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.09942054748535156,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -4892,7 +5357,7 @@
             "processed_info": {
                 "original_query": "Stamp duty property prices",
                 "processed_query": "Stamp duty property prices",
-                "optimized_query": "stamp duty property prices",
+                "optimized_query": "Stamp duty property prices",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
@@ -4937,8 +5402,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0008504390716552734,
-                        "cached": false
+                        "search_time_s": 0.0007584095001220703,
+                        "cached": true
                     }
                 },
                 {
@@ -4953,14 +5418,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0008504390716552734,
-                        "cached": false
+                        "search_time_s": 0.0007584095001220703,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9860992431640625,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.11897087097167969,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -5019,7 +5484,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00045871734619140625,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 },
@@ -5035,7 +5500,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00045871734619140625,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 },
@@ -5051,14 +5516,14 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.00045871734619140625,
+                        "search_time_s": 0.00037789344787597656,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.6000995635986328,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.09965896606445312,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []
@@ -5070,7 +5535,7 @@
             "processed_info": {
                 "original_query": "internet AND privacy",
                 "processed_query": "internet AND privacy",
-                "optimized_query": "privacy AND internet",
+                "optimized_query": "internet AND privacy",
                 "query_type": "boolean",
                 "query_info": {
                     "type": "boolean",
@@ -5114,7 +5579,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0011246204376220703,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 },
@@ -5130,7 +5595,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0011246204376220703,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 },
@@ -5146,14 +5611,107 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0011246204376220703,
+                        "search_time_s": 0.0009701251983642578,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.2409687042236328,
-                "engine_used": "PostgreSQL Standard Density"
+                "response_time_ms": 0.10418891906738281,
+                "engine_used": "PostgreSQL with Cache Density"
+            },
+            "status": "success",
+            "errors": []
+        }
+    },
+    {
+        "data": {
+            "query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+            "processed_info": {
+                "original_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "processed_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "optimized_query": "((election OR campaign) AND (politics OR government)) OR (Scotland AND independence)",
+                "query_type": "boolean",
+                "query_info": {
+                    "type": "boolean",
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "has_and": true,
+                    "has_or": true,
+                    "has_not": false
+                },
+                "components": {
+                    "terms": [
+                        "((election",
+                        "campaign)",
+                        "(politics",
+                        "government))",
+                        "(Scotland",
+                        "independence)"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [
+                        "OR",
+                        "AND",
+                        "OR",
+                        "OR",
+                        "AND"
+                    ],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": [
+                        "Caratteri speciali trovati: {')', '('}"
+                    ]
+                },
+                "suggestions": []
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": 300,
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>politics</b>\". On Thursday Mr Kilroy-Silk is due to announce which constituency he will run in at the next general <b>election</b> - that will come amid speculation he has his sights",
+                    "score": 0.078875065,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0019443035125732422,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": 37,
+                    "title": "Parties build up poll war chests",
+                    "snippet": "<b>political</b> parties listed by the Electoral Commission. The Conservatives were in second place with donations totalling Â£4,610,849, while the Liberal Democrats received just over",
+                    "score": 0.060726635,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0019443035125732422,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.11038780212402344,
+                "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": []

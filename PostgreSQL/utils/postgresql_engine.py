@@ -1,7 +1,7 @@
 import logging
 import time
 from typing import List, Dict, Tuple, Optional, Any
-from PostgreSQL.utils.password import PASSWORD
+from utils.password import PASSWORD
 import psycopg2
 
 # Configurazione logging
@@ -190,11 +190,11 @@ class PostgreSQLSearchEngine:
 
             sql = """
             SELECT id, title, label, content,
-                   ts_rank(tsv, to_tsquery('english', %s), %s) AS score,
-                   ts_headline('english', content, to_tsquery('english', %s), 
+                   ts_rank(tsv, plainto_tsquery('english', %s), %s) AS score,
+                   ts_headline('english', content, plainto_tsquery('english', %s), 
                               'MaxWords=30, MinWords=10') AS snippet
             FROM documents
-            WHERE tsv @@ to_tsquery('english', %s)
+            WHERE tsv @@ plainto_tsquery('english', %s)
             ORDER BY score DESC
             LIMIT %s;
             """
