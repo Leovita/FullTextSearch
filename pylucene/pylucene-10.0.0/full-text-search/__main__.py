@@ -218,7 +218,7 @@ def main():
     print("\n[INIZIALIZZAZIONE] Creando interfaccia con BM25...")
     with PyLuceneUnifiedInterface(ds, "indexdir_unified", "bm25") as interface:
         print(f"[VERIFICA] Ranking iniziale: {interface.similarity}")
-        query_list = interface._load_queries_from_file("../../../benchmark_queries_config.json")
+        query_list = interface._load_queries_from_file("../../../docs/queries.json")
         
         if not query_list:
             print("[ERRORE] Nessuna query caricata per il benchmark")
