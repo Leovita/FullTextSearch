@@ -1,9 +1,9 @@
 # Progetto di Information Retrieval - Confronto Motori di Ricerca
 
-## 📋 Introduzione
+## Introduzione
 Questo progetto confronta le performance di tre motori di full-text search (PostgreSQL, Whoosh e PyLucene) su un dataset di documenti. Il sistema valuta metriche di coerenza, tempi di risposta e altre statistiche rilevanti per l'information retrieval.
 
-## 🏗️ Struttura del Progetto
+## Struttura del Progetto
 ```
 .
 ├── data/                 # Dataset e file di configurazione
@@ -15,13 +15,12 @@ Questo progetto confronta le performance di tre motori di full-text search (Post
 └── requirements.txt    # Dipendenze principali
 ```
 
-## ⚙️ Installazione
+## Installazione
 
 ### Prerequisiti
 - Python 3.8+
 - PostgreSQL 13+
 - Java JDK (per PyLucene)
-- Ambiente Windows
 
 ### Setup Iniziale
 1. Clonare il repository
@@ -33,7 +32,7 @@ python -m venv .venv
 
 3. Installare dipendenze principali:
 ```bash
-pip install -r requirements.txt
+pip install -r ./docs/requirements.txt
 ```
 
 4. Scaricare e preparare il dataset:
@@ -98,16 +97,14 @@ with PostgreSQLUnifiedInterface() as engine:
     print(results)
 ```
 
-### Esecuzione Benchmark
+### Generazione grafici
+Ogni SearchEngine crea automaticamente un file `export.json` nella stessa directory che permette la creazione di grafici e l'analisi dettagliata dei dati, utilizzando questo script si possono quindi creare i grafici come da esempio:
 ```bash
-# Esegui benchmark completo
-python scripts/run_benchmark.py
-
 # Genera grafici risultati
 python scripts/generate_charts.py
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Problemi Comuni
 1. **Errore connessione PostgreSQL**
@@ -122,14 +119,14 @@ python scripts/generate_charts.py
    - Verificare gli indici nel database
    - Controllare la configurazione della memoria
 
-## 📊 Metriche Monitorate
-- Precision e Recall
-- F-measure
+## Metriche Monitorate
 - Tempo di risposta
 - Utilizzo memoria
 - Hit rate della cache
+- Dispersione delle risposte
+- Ranking dei vari modelli
 
-## 📞 Supporto
+## Supporto
 Per problemi tecnici contattare il team di sviluppo o consultare la documentazione specifica nei rispettivi directory dei motori.
 
 ---
