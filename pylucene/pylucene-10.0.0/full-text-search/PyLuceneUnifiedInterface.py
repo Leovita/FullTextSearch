@@ -55,6 +55,7 @@ class PyLuceneUnifiedInterface:
                 writer = IndexWriter(FSDirectory.open(Paths.get(self.index_dir)), config)
                 
                 try:
+                    doc_id = 0
                     for row in reader:
                         title = row.get('Title', '').strip()
                         text = row.get('Text', '').strip()
@@ -65,11 +66,13 @@ class PyLuceneUnifiedInterface:
                         
                         if title and text:
                             doc_lucene = Document()
+                            doc_lucene.add(StringField("doc_id", str(doc_id), Field.Store.YES))
                             doc_lucene.add(TextField("title", title, Field.Store.YES))
                             doc_lucene.add(TextField("content", text, Field.Store.YES))
                             doc_lucene.add(StringField("category", category, Field.Store.YES))
                             
                             writer.addDocument(doc_lucene)
+                            doc_id += 1
                     
                     writer.commit()
                     writer.close()
@@ -158,6 +161,7 @@ class PyLuceneUnifiedInterface:
             for hit in top_docs.scoreDocs:
                 doc = self.searcher.storedFields().document(hit.doc)
                 
+                doc_id = doc.get("doc_id") or ""
                 title = doc.get("title") or ""
                 content = doc.get("content") or ""
                 category = doc.get("category") or ""
@@ -166,6 +170,7 @@ class PyLuceneUnifiedInterface:
                 snippet = self._create_snippet(query_text, content)
                 
                 results.append({
+                    'doc_id': doc_id,
                     'title': title,
                     'content': content,
                     'category': category,
