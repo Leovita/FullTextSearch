@@ -79,10 +79,36 @@ def run_benchmark(interface, query_list):
         print(f"\n[RISULTATI CLASSIC] Tempo: {classic_time:.2f}ms")
         print_results(results_classic, query_text, "CLASSIC")
         
+        # Adatta i dati per generate_charts.py
+        retrieved_docs_bm25 = [int(result['doc_id']) for result in results_bm25['results']]
+        # Carica le relevant_docs dal file queries.json originale
+        relevant_docs_expected = query_info.get('relevant_docs', [])
+        if not relevant_docs_expected:
+            # Fallback: cerca nel file queries.json originale
+            import json
+            try:
+                with open("../../../docs/queries.json", 'r') as f:
+                    queries_data = json.load(f)
+                    for q in queries_data.get('test_queries', []):
+                        if q.get('query') == query_text:
+                            relevant_docs_expected = [int(doc_id) for doc_id in q.get('relevant_docs', [])]
+                            break
+            except:
+                relevant_docs_expected = []
+        
+        # Modifica i risultati per includere 'id' invece di 'doc_id' per compatibilità
+        results_bm25_adapted = []
+        for result in results_bm25['results']:
+            adapted_result = result.copy()
+            adapted_result['id'] = result['doc_id']  # generate_charts.py cerca 'id'
+            results_bm25_adapted.append(adapted_result)
+        
         export_data_bm25 = {
+            'id': query_id,
             'query': query_text,
             'total_results': results_bm25['total_results'],
-            'results': results_bm25['results'],
+            'results': results_bm25_adapted,
+            'relevant_docs': relevant_docs_expected,  # generate_charts.py usa questo campo
             'metrics': {
                 'engine_used': 'PyLucene_BM25',
                 'response_time_ms': bm25_time,
@@ -91,10 +117,22 @@ def run_benchmark(interface, query_list):
         }
         all_results.append(export_data_bm25)
         
+        # Adatta i dati per generate_charts.py
+        retrieved_docs_classic = [int(result['doc_id']) for result in results_classic['results']]
+        
+        # Modifica i risultati per includere 'id' invece di 'doc_id' per compatibilità
+        results_classic_adapted = []
+        for result in results_classic['results']:
+            adapted_result = result.copy()
+            adapted_result['id'] = result['doc_id']  # generate_charts.py cerca 'id'
+            results_classic_adapted.append(adapted_result)
+        
         export_data_classic = {
+            'id': query_id,
             'query': query_text,
             'total_results': results_classic['total_results'],
-            'results': results_classic['results'],
+            'results': results_classic_adapted,
+            'relevant_docs': relevant_docs_expected,  # generate_charts.py usa questo campo
             'metrics': {
                 'engine_used': 'PyLucene_Classic',
                 'response_time_ms': classic_time,
@@ -104,6 +142,9 @@ def run_benchmark(interface, query_list):
         all_results.append(export_data_classic)
         
         print(f"\n[ANALISI] Confronto ranking per query: '{query_text}'")
+        print(f"[DOCUMENTI ATTESI] {relevant_docs_expected}")
+        print(f"[DOCUMENTI TROVATI BM25] {retrieved_docs_bm25}")
+        print(f"[DOCUMENTI TROVATI CLASSIC] {retrieved_docs_classic}")
         
         if results_bm25['total_results'] > 0 and results_classic['total_results'] > 0:
             print("\n[TOP 3 CONFRONTO]")

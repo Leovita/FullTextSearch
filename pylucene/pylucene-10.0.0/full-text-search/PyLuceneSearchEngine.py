@@ -84,7 +84,7 @@ class PyLuceneSearchEngine:
         
         return reader, searcher
     
-    def _process_query(self, query_text, use_advanced_features, analyzer):
+    def _process_query(self, query_text, analyzer):
         """Processa e migliora la query prima della ricerca"""
         if not query_text or not query_text.strip():
             return ""
@@ -96,23 +96,19 @@ class PyLuceneSearchEngine:
         
         return query_text
     
-    def _execute_search(self, query_text, analyzer, use_advanced_features, top_n):
+    def _execute_search(self, query_text, analyzer, top_n):
         """Esegue la ricerca con strategia intelligente"""
-        if use_advanced_features:
-            query = self.create_boosted_query(query_text, analyzer)
-            hits = self.searcher.search(query, top_n * 2).scoreDocs
+        #prima esatta, poi fuzzy con boost
+        query_exact = QueryParser("all_text", analyzer).parse(query_text)
+        hits_exact = self.searcher.search(query_exact, top_n).scoreDocs
+        
+        if len(hits_exact) > 0:
+            query = query_exact
+            hits = hits_exact
         else:
-            #prima esatta, poi fuzzy con boost
-            query_exact = QueryParser("all_text", analyzer).parse(query_text)
-            hits_exact = self.searcher.search(query_exact, top_n).scoreDocs
-            
-            if len(hits_exact) > 0:
-                query = query_exact
-                hits = hits_exact
-            else:
-                query_fuzzy = QueryParser("all_text", analyzer).parse(query_text + "~0.8")
-                hits = self.searcher.search(query_fuzzy, top_n).scoreDocs
-                query = query_fuzzy
+            query_fuzzy = QueryParser("all_text", analyzer).parse(query_text + "~0.8")
+            hits = self.searcher.search(query_fuzzy, top_n).scoreDocs
+            query = query_fuzzy
         
         return query, hits
     
@@ -136,7 +132,7 @@ class PyLuceneSearchEngine:
         
         return results
 
-    def search_documents(self, query_text, top_n=3, ranking_model="bm25", use_advanced_features=True):
+    def search_documents(self, query_text, top_n=3, ranking_model="bm25"):
         """Ricerca con funzionalità essenziali: spell checking, boosting e highlighting"""
         reader, self.searcher = self._setup_searcher(ranking_model)
         analyzer = StandardAnalyzer()
