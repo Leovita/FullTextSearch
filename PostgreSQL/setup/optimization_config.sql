@@ -30,12 +30,11 @@
 
 -- Assicurati che la tabella documents esista
 CREATE TABLE IF NOT EXISTS documents (
-    id SERIAL PRIMARY KEY,
+    id INTEGER PRIMARY KEY,
     title TEXT NOT NULL,
-    label INTEGER NOT NULL,
+    label TEXT NOT NULL,
     content TEXT NOT NULL,
-    tsv TSVECTOR,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    tsv TSVECTOR
 );
 
 -- ===== OTTIMIZZAZIONE INDICI =====

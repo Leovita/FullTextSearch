@@ -2,47 +2,58 @@
 "test_queries": [
     {
       "id": "Q1",
-      "query": "Brown names 16 March for Budget"
+      "query": "Brown names 16 March for Budget",
+      "relevant_docs": [127,368]
     },
     {
       "id": "Q2",
-      "query": "content:Scotland"
+      "query": "content:Scotland",
+      "relevant_docs": []
     },
     {
       "id": "Q3",
-      "query": "Microsoft and Google internet services"
+      "query": "Microsoft and Google internet services",
+      "relevant_docs": []
     },
     {
       "id": "Q4",
-      "query": "Army regiments decision in Scotland"
+      "query": "Army regiments decision in Scotland",
+      "relevant_docs": []
     },
     {
       "id": "Q5",
-      "query": "Smoking ban in Scotland public places"
+      "query": "Smoking ban in Scotland public places",
+      "relevant_docs": []
     },
     {
       "id": "Q6",
-      "query": "Smoking and Scotland regulations"
+      "query": "EU fighting smoking",
+      "relevant_docs": []
     },
     {
       "id": "Q7",
-      "query": "content:Tony Blair"
+      "query": "content:Tony Blair",
+      "relevant_docs": []
     },
     {
       "id": "Q8",
-      "query": "Stamp duty property prices UK"
+      "query": "Stamp duty property prices UK",
+      "relevant_docs": []
     },
     {
       "id": "Q9",
-      "query": "title:Hollywood"
+      "query": "title:Hollywood",
+      "relevant_docs": []
     },
     {
       "id": "Q10",
-      "query": "Internet privacy and security"
+      "query": "Internet privacy and security",
+      "relevant_docs": []
     },
     {
       "id": "Q11",
-      "query": "Election campaigns and government politics"
+      "query": "Election campaigns and government politics",
+      "relevant_docs": []
     }
   ]
 }

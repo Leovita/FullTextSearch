@@ -4,6 +4,13 @@ from typing import List, Dict, Any, Optional
 from enum import Enum
 import os
 
+import os, sys
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT_DIR = os.path.dirname(BASE_DIR)
+
+if PARENT_DIR not in sys.path:
+    sys.path.insert(0, PARENT_DIR)
 
 from collections import Counter
 from utils.password import PASSWORD
@@ -45,7 +52,7 @@ class QueryProcessor:
         self.term_stats = self._fetch_term_statistics() if db_config else {}
         
         self.patterns = {
-            'field_query': re.compile(r'(\w+):(["\']?)([^"\']+)\2'),
+            'field_query': re.compile(r'(\w+):(?:"([^"]*)"|([^\s]+))'),
             'phrase_query': re.compile(r'"([^"]+)"'),
             'boolean_operators': re.compile(r'\b(AND|OR|NOT)\b', re.IGNORECASE),
             'wildcard': re.compile(r'\w*\*\w*'),
@@ -121,7 +128,6 @@ class QueryProcessor:
                 'query_info': query_info,
                 'components': components,
                 'validation': validation,
-                'suggestions': self._get_suggestions(query) if not validation['is_valid'] else []
             }
             
             self.logger.info(f"Query processata. Tipo: {result['query_type']}. Validità: {result['validation']['is_valid']}")
@@ -138,10 +144,16 @@ class QueryProcessor:
         
         if self.patterns['field_query'].search(query):
             field_matches = self.patterns['field_query'].findall(query)
+            # Trasforma i match in formato (campo, operatore, valore)
+            processed_matches = []
+            for match in field_matches:
+                field, quoted_value, unquoted_value = match
+                value = quoted_value if quoted_value else unquoted_value
+                processed_matches.append((field, ':', value))
             return {
                 'type': QueryType.FIELD,
-                'field_queries': field_matches,
-                'primary_field': field_matches[0][0] if field_matches else None
+                'field_queries': processed_matches,
+                'primary_field': processed_matches[0][0] if processed_matches else None
             }
         
         elif self.patterns['phrase_query'].search(query):
@@ -188,23 +200,33 @@ class QueryProcessor:
             'wildcards': []
         }
         
-        phrases = self.patterns['phrase_query'].findall(query)
+        # Prima estraiamo le field queries (incluse quelle con quote)
+        field_queries = self.patterns['field_query'].findall(query)
+        # Il nuovo pattern restituisce 3 gruppi: (campo, valore_quotato, valore_non_quotato)
+        # Trasformiamo in formato (campo, operatore, valore)
+        processed_field_queries = []
+        for match in field_queries:
+            field, quoted_value, unquoted_value = match
+            value = quoted_value if quoted_value else unquoted_value
+            processed_field_queries.append((field, ':', value))
+        components['field_queries'] = processed_field_queries
+        
+        # Rimuoviamo le field queries dalla query
+        query_without_fields = self.patterns['field_query'].sub('', query)
+        
+        # Poi estraiamo le frasi dal testo rimanente
+        phrases = self.patterns['phrase_query'].findall(query_without_fields)
         components['phrases'] = phrases
         
-        query_without_phrases = self.patterns['phrase_query'].sub('', query)
+        query_without_phrases = self.patterns['phrase_query'].sub('', query_without_fields)
         
-        field_queries = self.patterns['field_query'].findall(query_without_phrases)
-        components['field_queries'] = field_queries
-        
-        query_without_fields = self.patterns['field_query'].sub('', query_without_phrases)
-        
-        operators = self.patterns['boolean_operators'].findall(query_without_fields)
+        operators = self.patterns['boolean_operators'].findall(query_without_phrases)
         components['operators'] = [op.upper() for op in operators]
         
-        wildcards = self.patterns['wildcard'].findall(query_without_fields)
+        wildcards = self.patterns['wildcard'].findall(query_without_phrases)
         components['wildcards'] = wildcards
         
-        remaining_text = self.patterns['boolean_operators'].sub('', query_without_fields)
+        remaining_text = self.patterns['boolean_operators'].sub('', query_without_phrases)
         remaining_text = self.patterns['wildcard'].sub('', remaining_text)
         
         terms = [term.strip() for term in remaining_text.split() if term.strip()]
@@ -231,7 +253,9 @@ class QueryProcessor:
         
         if query_type == QueryType.FIELD:
             field_matches = self.patterns['field_query'].findall(query)
-            for field, _, value in field_matches:
+            for match in field_matches:
+                field, quoted_value, unquoted_value = match
+                value = quoted_value if quoted_value else unquoted_value
                 if field not in self.valid_fields:
                     validation['errors'].append(f"Campo non valido: {field}")
                 if not value.strip():
@@ -361,13 +385,29 @@ if __name__ == "__main__":
     result1 = processor.process_query(query1)
     print(f"Query originale: '{query1}' -> Ottimizzata: '{result1['optimized_query']}'")
     
-    query2 = "machine learning AND python"
+    query2 = "Election campaigns and government politics"
     result2 = processor.process_query(query2)
     print(f"Query originale: '{query2}' -> Ottimizzata: '{result2['optimized_query']}'")
+    print(f"    Componenti: {result2['components']}")
 
     # Questo test fallirà se il DB non è configurato correttamente, ma il codice gestirà l'errore
-    query3 = 'unvalid field:"value"'
+    query3 = 'content:"Tony blair"'
     result3 = processor.process_query(query3)
     print(f"Query originale: '{query3}' -> Valida: {result3['validation']['is_valid']}")
+    print(f"    Componenti: {result3['components']}")
     if not result3['validation']['is_valid']:
         print(f"Errori: {result3['validation']['errors']}")
+    
+    # Test field query multipla
+    query4 = 'content:Scotland title:Football'
+    result4 = processor.process_query(query4)
+    print(f"Query originale: '{query4}' -> Valida: {result4['validation']['is_valid']}")
+    print(f"    Componenti: {result4['components']}")
+    print(f"    Tipo query: {result4['query_type']}")
+    
+    # Test field query multipla con quote
+    query5 = 'content:"machine learning" title:algorithm'
+    result5 = processor.process_query(query5)
+    print(f"Query originale: '{query5}' -> Valida: {result5['validation']['is_valid']}")
+    print(f"    Componenti: {result5['components']}")
+    print(f"    Tipo query: {result5['query_type']}")

@@ -556,35 +556,35 @@ if __name__ == "__main__":
         results = engine.search("Tony Blair trust voters", limit=5)
         print(f"Trovati {len(results)} risultati per 'Tony Blair trust voters'")
         for result in results[:2]:
-            print(f"- {result['title']} (Score: {result['score']:.3f})")
+            print(f"{result['id']}- {result['title']} (Score: {result['score']:.3f})")
         
         # Test ricerca su campi specifici (come PostgreSQL)
         field_results = engine.search("internet privacy", fields=['title', 'content'], limit=3)
         print(f"\nTrovati {len(field_results)} risultati per ricerca su campi specifici")
         for result in field_results[:2]:
-            print(f"- {result['title']} (Score: {result['score']:.3f})")
+            print(f"{result['id']}- {result['title']} (Score: {result['score']:.3f})")
             print(f"  Campi matched: {result.get('matched_fields', [])}")
         
         # Test field_search con supporto per più campi
         multi_field_results = engine.field_search(['title', 'content'], "football team", limit=3)
         print(f"\nTrovati {len(multi_field_results)} risultati per field_search su più campi")
         for result in multi_field_results[:2]:
-            print(f"- {result['title']} (Score: {result['score']:.3f})")
+            print(f"{result['id']}- {result['title']} (Score: {result['score']:.3f})")
 
         # Test ricerca booleana
         bool_results = engine.boolean_search("internet AND privacy", limit=3)
         print(f"\nTrovati {len(bool_results)} risultati per ricerca booleana")
         for result in bool_results[:2]:
-            print(f"- {result['title']} (Score: {result['score']:.3f})")
+            print(f"{result['id']}- {result['title']} (Score: {result['score']:.3f})")
 
         # Test ricerca frase
         phrase_results = engine.phrase_search("Brown names 16 March for Budget", limit=3)
         print(f"\nTrovati {len(phrase_results)} risultati per frase esatta")
         for result in phrase_results[:2]:
-            print(f"- {result['title']} (Score: {result['score']:.3f})")
+            print(f"{result['id']}- {result['title']} (Score: {result['score']:.3f})")
 
         # Test get_document_by_id (compatibile con PostgreSQL)
-        doc = engine.get_document_by_id(1)
+        doc = engine.get_document_by_id(0)
         if doc:
             print(f"\nDocumento recuperato per ID: {doc['title']}")
 

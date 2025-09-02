@@ -14,8 +14,9 @@ CREATE EXTENSION IF NOT EXISTS unaccent;
 -- Creazione tabella documenti
 DROP TABLE IF EXISTS documents CASCADE;
 CREATE TABLE documents (
-    id SERIAL PRIMARY KEY,
+    id INTEGER PRIMARY KEY,
     title TEXT NOT NULL,
+    label TEXT NOT NULL,
     body TEXT NOT NULL,
     category VARCHAR(50),
     tsv tsvector

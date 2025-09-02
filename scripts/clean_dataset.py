@@ -18,6 +18,7 @@ def split_csv_text(input_file, output_file):
         raise ValueError("Il file CSV deve contenere le colonne 'Text' e 'Label'")
     
     # Liste per i nuovi dati
+    indici = []
     titoli = []
     testi = []
     labels = []
@@ -43,12 +44,14 @@ def split_csv_text(input_file, output_file):
         # Il resto del testo mantiene la formattazione originale
         resto_testo = '\n'.join(lines[start_text_index:])
         
+        indici.append(index)
         titoli.append(titolo)
         testi.append(resto_testo)
         labels.append(label)
     
     # Crea un nuovo DataFrame
     new_df = pd.DataFrame({
+        'ID': indici,
         'Title': titoli,
         'Text': testi,
         'Label': labels
@@ -77,6 +80,7 @@ def preview_data(df, num_rows=2):
     
     for i in range(min(num_rows, len(df))):
         print(f"\n--- RECORD {i+1} ---")
+        print(f"ID: {df.iloc[i]['ID']}")
         print(f"TITOLO: {df.iloc[i]['Title']}")
         print(f"LABEL: {df.iloc[i]['Label']}")
         print(f"TESTO (primi 200 caratteri): {df.iloc[i]['Text'][:200]}...")

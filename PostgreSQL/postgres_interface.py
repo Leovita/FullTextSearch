@@ -112,7 +112,6 @@ class PostgreSQLUnifiedInterface:
             elif query_type == QueryType.FIELD:
                 logger.info(f"Eseguendo ricerca per campo per: '{effective_query}'")
                 field_queries = processed_query_info['components']['field_queries']
-                # Implementazione semplificata: considera solo il primo campo
                 if field_queries:
                     field, _, value = field_queries[0]
                     results = self.engine.field_search(field, value, limit)
@@ -192,7 +191,7 @@ class PostgreSQLUnifiedInterface:
         standardized_results = []
         for res in results:
             standardized_results.append({
-                "id": res.get('id'),
+                "id": str(res.get('id')),
                 "title": res.get('title'),
                 "snippet": res.get('snippet', res.get('content', 'N/A')),
                 "score": res.get('score', 0.0),
@@ -254,6 +253,7 @@ def _load_queries_from_file(file_path: str) -> List[Dict[str, str]]:
             test_queries.append({
                 'id': query_data['id'],
                 'query': query_data['query'],
+                'relevant_docs': query_data.get('relevant_docs', [])
             })
         
         logger.info(f"Caricate {len(test_queries)} query di test")
@@ -279,6 +279,7 @@ if __name__ == "__main__":
                 print(f"\n\n=== RIPETIZIONE TEST {reps+1} ===\n")
                 for query in queries:
                     print(f"Query ID: {query['id']}, Query: {query['query']}")
+                    relevant_docs = query.get('relevant_docs', [])
 
                     print(f"--- Test {query['id']} interfaccia senza caching ---")
 
@@ -287,8 +288,9 @@ if __name__ == "__main__":
                     print("Risultato ricerca (senza cache):")
                     print(f"Tempo risposta: {result_simple_no_cache['metrics']['response_time_ms']:.2f}ms")
                     print(f"Numero risultati: {result_simple_no_cache['total_results']}")
+                    
                     if result_simple_no_cache['results']:
-                        print(f"Primo risultato: {result_simple_no_cache['results'][0]['title']} (Score: {result_simple_no_cache['results'][0]['score']:.2f})")
+                        print(f"Primo risultato: {result_simple_no_cache['results'][0]['title']} (ID: {result_simple_no_cache['results'][0]['id']}, Score: {result_simple_no_cache['results'][0]['score']:.2f})")
                         print(f"  Snippet: {result_simple_no_cache['results'][0]['snippet']}")
                     print(f"--- Test {query['id']} recupero documento senza caching ---")
                     if result_simple_no_cache['results']:
@@ -299,6 +301,8 @@ if __name__ == "__main__":
                         print(f"Documento: {result_retrieval_no_cache['title']}")
                     else:
                         print("Nessun documento trovato.")
+
+                    result_simple_no_cache['relevant_docs'] = relevant_docs
 
                     print("\n" + "="*50 + "\n")
 
@@ -314,9 +318,10 @@ if __name__ == "__main__":
                     print("\n--- Risultato ricerca (con cache) ---")
                     print(f"Tempo risposta: {result_cache['metrics']['response_time_ms']:.2f}ms")
                     print(f"Numero risultati: {result_cache['total_results']}")
+                    
                     if result_cache['results']:
                         print(f"Cached: {result_cache['results'][0]['metadata']['cached']}")
-                        print(f"Primo risultato: {result_cache['results'][0]['title']} (Score: {result_cache['results'][0]['score']:.2f})")
+                        print(f"Primo risultato: {result_cache['results'][0]['title']} (ID: {result_cache['results'][0]['id']}, Score: {result_cache['results'][0]['score']:.2f})")
                         print(f"  Snippet: {result_cache['results'][0]['snippet']}")
                     print(f"\nSpeedup: {(result_simple_no_cache['metrics']['response_time_ms'] / result_cache['metrics']['response_time_ms']):.2f}x")
 
@@ -330,6 +335,8 @@ if __name__ == "__main__":
                         print(f"Documento: {result_retrieval_with_cache['title']}")
                     else:
                         print("Nessun documento trovato.")
+
+                    result_cache['relevant_docs'] = relevant_docs
 
                     export_to_json(result_cache, output_path="export-cache.json")
 

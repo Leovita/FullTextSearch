@@ -64,7 +64,7 @@ class WhooshQueryProcessor:
         
         # Patterns per identificare tipi di query
         self.patterns = {
-            'field_query': re.compile(r'(\w+):(["\']?)([^"\']+)\2'),
+            'field_query': re.compile(r'(\w+):(?:"([^"]*)"|([^\s]+))'),
             'phrase_query': re.compile(r'"([^"]+)"'),
             'boolean_operators': re.compile(r'\b(AND|OR|NOT)\b', re.IGNORECASE),
             'wildcard': re.compile(r'\w*\*\w*'),
@@ -192,10 +192,16 @@ class WhooshQueryProcessor:
         """Analizza il tipo di query."""
         if self.patterns['field_query'].search(query):
             field_matches = self.patterns['field_query'].findall(query)
+            # Trasforma i match in formato (campo, operatore, valore)
+            processed_matches = []
+            for match in field_matches:
+                field, quoted_value, unquoted_value = match
+                value = quoted_value if quoted_value else unquoted_value
+                processed_matches.append((field, ':', value))
             return {
                 'type': QueryType.FIELD,
-                'field_queries': field_matches,
-                'primary_field': field_matches[0][0] if field_matches else None
+                'field_queries': processed_matches,
+                'primary_field': processed_matches[0][0] if processed_matches else None
             }
         
         elif self.patterns['phrase_query'].search(query):
@@ -241,30 +247,36 @@ class WhooshQueryProcessor:
             'wildcards': []
         }
         
-        # Estrae frasi
-        phrases = self.patterns['phrase_query'].findall(query)
+        # Prima estraiamo le field queries (incluse quelle con quote)
+        field_queries = self.patterns['field_query'].findall(query)
+        # Il nuovo pattern restituisce 3 gruppi: (campo, valore_quotato, valore_non_quotato)
+        # Trasformiamo in formato (campo, operatore, valore)
+        processed_field_queries = []
+        for match in field_queries:
+            field, quoted_value, unquoted_value = match
+            value = quoted_value if quoted_value else unquoted_value
+            processed_field_queries.append((field, ':', value))
+        components['field_queries'] = processed_field_queries
+        
+        # Rimuoviamo le field queries dalla query
+        query_without_fields = self.patterns['field_query'].sub('', query)
+        
+        # Poi estraiamo le frasi dal testo rimanente
+        phrases = self.patterns['phrase_query'].findall(query_without_fields)
         components['phrases'] = phrases
         
-        # Rimuove frasi dalla query
-        query_without_phrases = self.patterns['phrase_query'].sub('', query)
-        
-        # Estrae query per campo
-        field_queries = self.patterns['field_query'].findall(query_without_phrases)
-        components['field_queries'] = field_queries
-        
-        # Rimuove query per campo
-        query_without_fields = self.patterns['field_query'].sub('', query_without_phrases)
+        query_without_phrases = self.patterns['phrase_query'].sub('', query_without_fields)
         
         # Estrae operatori
-        operators = self.patterns['boolean_operators'].findall(query_without_fields)
+        operators = self.patterns['boolean_operators'].findall(query_without_phrases)
         components['operators'] = [op.upper() for op in operators]
         
         # Estrae wildcards
-        wildcards = self.patterns['wildcard'].findall(query_without_fields)
+        wildcards = self.patterns['wildcard'].findall(query_without_phrases)
         components['wildcards'] = wildcards
         
         # Estrae termini rimanenti
-        remaining_text = self.patterns['boolean_operators'].sub('', query_without_fields)
+        remaining_text = self.patterns['boolean_operators'].sub('', query_without_phrases)
         remaining_text = self.patterns['wildcard'].sub('', remaining_text)
         
         terms = [term.strip() for term in remaining_text.split() if term.strip()]
@@ -292,7 +304,9 @@ class WhooshQueryProcessor:
         # Validazione specifica per tipo
         if query_type == QueryType.FIELD:
             field_matches = self.patterns['field_query'].findall(query)
-            for field, _, value in field_matches:
+            for match in field_matches:
+                field, quoted_value, unquoted_value = match
+                value = quoted_value if quoted_value else unquoted_value
                 if field not in self.valid_fields:
                     validation['errors'].append(f"Campo non valido: {field}")
                 if not value.strip():
@@ -349,7 +363,9 @@ class WhooshQueryProcessor:
                 field_matches = self.patterns['field_query'].findall(query)
                 if field_matches:
                     subqueries = []
-                    for field, _, value in field_matches:
+                    for match in field_matches:
+                        field, quoted_value, unquoted_value = match
+                        value = quoted_value if quoted_value else unquoted_value
                         if field in self.field_parsers:
                             if field == 'label' and value in self.categorie.values():
                                 # Mappa categoria a numero
@@ -359,8 +375,8 @@ class WhooshQueryProcessor:
                             subqueries.append(self.field_parsers[field].parse(value))
                     
                     if subqueries:
-                        # Combina le query con operatore OR
-                        return Or(subqueries)
+                        # Combina le query con operatore AND per campo multiplo
+                        return And(subqueries) if len(subqueries) > 1 else subqueries[0]
                     
             elif query_type == QueryType.PHRASE:
                 # Parser per frasi
@@ -429,13 +445,29 @@ if __name__ == "__main__":
     # Test query semplice
     result = processor.process_query("Tony Blair trust voters")
     print(f"Query semplice: {result['optimized_query']}")
+    print(f"  Componenti: {result['components']}")
     
     # Test query booleana
     result = processor.process_query("internet AND privacy")
     print(f"Query booleana: {result['optimized_query']}")
+    print(f"  Componenti: {result['components']}")
     
-    # Test query per campo
+    # Test query per campo singolo
     result = processor.process_query('title:"data analysis"')
-    print(f"Query campo: {result['optimized_query']}")
+    print(f"Query campo singolo: {result['optimized_query']}")
+    print(f"  Componenti: {result['components']}")
+    print(f"  Tipo: {result['query_type']}")
+    
+    # Test query per campo multiplo - NUOVO TEST
+    result = processor.process_query('content:Scotland title:Football')
+    print(f"Query campo multiplo: {result['optimized_query']}")
+    print(f"  Componenti: {result['components']}")
+    print(f"  Tipo: {result['query_type']}")
+    
+    # Test query per campo con spazi - NUOVO TEST
+    result = processor.process_query('content:"Tony Blair" title:government')
+    print(f"Query campo con spazi: {result['optimized_query']}")
+    print(f"  Componenti: {result['components']}")
+    print(f"  Tipo: {result['query_type']}")
     
     processor.close()

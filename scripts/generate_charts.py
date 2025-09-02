@@ -4,6 +4,7 @@ import numpy as np
 from collections import defaultdict
 import seaborn as sns
 from matplotlib_venn import venn2, venn3
+import os
 
 class SearchPerformanceAnalyzer:
     def __init__(self, json_file_path = '', output_dir = '', engine = ''):
@@ -13,6 +14,10 @@ class SearchPerformanceAnalyzer:
         self.json_file_path = json_file_path
         self.output_dir = output_dir
         self.engine = engine
+
+        # Crea la directory di output se non esiste
+        os.makedirs(self.output_dir, exist_ok=True)
+
         self.data = []
         self.queries = {}
         self.systems = set()
@@ -46,6 +51,7 @@ class SearchPerformanceAnalyzer:
                 query_counter[query] = len(query_counter) + 1
                 self.queries[f"Q{query_counter[query]}"] = {
                     'original_query': query,
+                    'relevant_docs': data.get('relevant_docs', []),  # Aggiungo i documenti rilevanti
                     'systems': {}
                 }
             
@@ -57,11 +63,282 @@ class SearchPerformanceAnalyzer:
                 'response_time': data['metrics']['response_time_ms'],
                 'total_results': data['total_results'],
                 'results': data['results'],
-                'result_titles': [result['title'] for result in data['results']]
+                'result_titles': [result['title'] for result in data['results']],
+                'result_ids': [result['id'] for result in data['results']]  # Aggiungo gli ID dei risultati
             }
         
         print(f"Query uniche identificate: {len(self.queries)}")
         print(f"Sistemi identificati: {list(self.systems)}")
+    
+    def calculate_precision_recall(self, retrieved_ids, relevant_ids):
+        """
+        Calcola precision e recall per una query specifica
+        
+        Args:
+            retrieved_ids: Lista degli ID dei documenti recuperati
+            relevant_ids: Lista degli ID dei documenti rilevanti (come stringhe)
+        
+        Returns:
+            dict: Dizionario con precision, recall, f1_score, tp, fp, fn
+        """
+        # Converte gli ID in stringhe per confronto consistente
+        retrieved_set = set(str(doc_id) for doc_id in retrieved_ids)
+        relevant_set = set(str(doc_id) for doc_id in relevant_ids)
+        
+        # Calcola True Positives, False Positives, False Negatives
+        true_positives = len(retrieved_set.intersection(relevant_set))
+        false_positives = len(retrieved_set - relevant_set)
+        false_negatives = len(relevant_set - retrieved_set)
+        
+        # Calcola Precision e Recall
+        precision = true_positives / len(retrieved_set) if len(retrieved_set) > 0 else 0.0
+        recall = true_positives / len(relevant_set) if len(relevant_set) > 0 else 0.0
+        
+        # Calcola F1-Score
+        f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
+        
+        return {
+            'precision': precision,
+            'recall': recall,
+            'f1_score': f1_score,
+            'true_positives': true_positives,
+            'false_positives': false_positives,
+            'false_negatives': false_negatives,
+            'total_retrieved': len(retrieved_set),
+            'total_relevant': len(relevant_set)
+        }
+    
+    def create_precision_recall_analysis(self):
+        """Crea analisi completa di precision e recall"""
+        fig, axes = plt.subplots(2, 3, figsize=(18, 12))
+        fig.suptitle('Analisi Precision e Recall', fontsize=16)
+        
+        # Raccoglie metriche per sistema
+        system_metrics = defaultdict(list)
+        query_metrics = defaultdict(dict)  # query_id -> system -> metrics
+        
+        # Calcola metriche per ogni query e sistema
+        for q_id, query_data in self.queries.items():
+            relevant_docs = query_data['relevant_docs']
+            
+            # Salta query senza documenti rilevanti
+            if not relevant_docs:
+                continue
+                
+            for system, data in query_data['systems'].items():
+                retrieved_ids = data['result_ids']
+                metrics = self.calculate_precision_recall(retrieved_ids, relevant_docs)
+                
+                system_metrics[system].append(metrics)
+                query_metrics[q_id][system] = metrics
+        
+        systems = list(system_metrics.keys())
+        
+        # 1. Box plot Precision per sistema
+        precision_data = [
+            [m['precision'] for m in system_metrics[system]] 
+            for system in systems
+        ]
+        
+        axes[0,0].boxplot(precision_data, labels=systems)
+        axes[0,0].set_title('Distribuzione Precision per Sistema')
+        axes[0,0].set_ylabel('Precision')
+        axes[0,0].tick_params(axis='x', rotation=45)
+        axes[0,0].grid(True, alpha=0.3)
+        
+        # 2. Box plot Recall per sistema  
+        recall_data = [
+            [m['recall'] for m in system_metrics[system]] 
+            for system in systems
+        ]
+        
+        axes[0,1].boxplot(recall_data, labels=systems)
+        axes[0,1].set_title('Distribuzione Recall per Sistema')
+        axes[0,1].set_ylabel('Recall')
+        axes[0,1].tick_params(axis='x', rotation=45)
+        axes[0,1].grid(True, alpha=0.3)
+        
+        # 3. Box plot F1-Score per sistema
+        f1_data = [
+            [m['f1_score'] for m in system_metrics[system]] 
+            for system in systems
+        ]
+        
+        axes[0,2].boxplot(f1_data, labels=systems)
+        axes[0,2].set_title('Distribuzione F1-Score per Sistema')
+        axes[0,2].set_ylabel('F1-Score')
+        axes[0,2].tick_params(axis='x', rotation=45)
+        axes[0,2].grid(True, alpha=0.3)
+        
+        # 4. Scatter plot Precision vs Recall
+        colors = plt.cm.Set3(np.linspace(0, 1, len(systems)))
+        
+        for i, system in enumerate(systems):
+            precisions = [m['precision'] for m in system_metrics[system]]
+            recalls = [m['recall'] for m in system_metrics[system]]
+            
+            axes[1,0].scatter(recalls, precisions, label=system, 
+                            alpha=0.7, s=60, c=[colors[i]])
+        
+        axes[1,0].set_xlabel('Recall')
+        axes[1,0].set_ylabel('Precision')
+        axes[1,0].set_title('Precision vs Recall')
+        axes[1,0].legend()
+        axes[1,0].grid(True, alpha=0.3)
+        axes[1,0].set_xlim(0, 1)
+        axes[1,0].set_ylim(0, 1)
+        
+        # 5. Metriche medie per sistema
+        avg_metrics = {}
+        for system in systems:
+            metrics_list = system_metrics[system]
+            avg_metrics[system] = {
+                'precision': np.mean([m['precision'] for m in metrics_list]),
+                'recall': np.mean([m['recall'] for m in metrics_list]),
+                'f1_score': np.mean([m['f1_score'] for m in metrics_list])
+            }
+        
+        x = np.arange(len(systems))
+        width = 0.25
+        
+        precisions = [avg_metrics[s]['precision'] for s in systems]
+        recalls = [avg_metrics[s]['recall'] for s in systems]
+        f1_scores = [avg_metrics[s]['f1_score'] for s in systems]
+        
+        axes[1,1].bar(x - width, precisions, width, label='Precision', alpha=0.8)
+        axes[1,1].bar(x, recalls, width, label='Recall', alpha=0.8)
+        axes[1,1].bar(x + width, f1_scores, width, label='F1-Score', alpha=0.8)
+        
+        axes[1,1].set_xlabel('Sistema')
+        axes[1,1].set_ylabel('Valore Metrica')
+        axes[1,1].set_title('Metriche Medie per Sistema')
+        axes[1,1].set_xticks(x)
+        axes[1,1].set_xticklabels(systems, rotation=45)
+        axes[1,1].legend()
+        axes[1,1].grid(True, alpha=0.3)
+        
+        # 6. Heatmap delle metriche per query
+        queries_with_relevance = [q_id for q_id in query_metrics.keys()]
+        
+        if queries_with_relevance and len(systems) > 0:
+            # Crea matrice per F1-Score
+            f1_matrix = np.zeros((len(systems), len(queries_with_relevance)))
+            
+            for i, system in enumerate(systems):
+                for j, q_id in enumerate(queries_with_relevance):
+                    if system in query_metrics[q_id]:
+                        f1_matrix[i][j] = query_metrics[q_id][system]['f1_score']
+            
+            im = axes[1,2].imshow(f1_matrix, cmap='RdYlGn', vmin=0, vmax=1, aspect='auto')
+            axes[1,2].set_xticks(np.arange(len(queries_with_relevance)))
+            axes[1,2].set_yticks(np.arange(len(systems)))
+            axes[1,2].set_xticklabels(queries_with_relevance, rotation=45)
+            axes[1,2].set_yticklabels(systems)
+            axes[1,2].set_title('F1-Score per Query e Sistema')
+            
+            # Aggiungi valori nelle celle
+            for i in range(len(systems)):
+                for j in range(len(queries_with_relevance)):
+                    if f1_matrix[i][j] > 0:
+                        text = axes[1,2].text(j, i, f'{f1_matrix[i][j]:.2f}',
+                                            ha="center", va="center", 
+                                            color="white" if f1_matrix[i][j] < 0.5 else "black",
+                                            fontsize=8)
+            
+            plt.colorbar(im, ax=axes[1,2])
+        else:
+            axes[1,2].text(0.5, 0.5, 'Nessuna query con\ndocumenti rilevanti', 
+                          ha='center', va='center', transform=axes[1,2].transAxes)
+            axes[1,2].set_title('F1-Score per Query e Sistema')
+        
+        plt.tight_layout(rect=[0, 0, 1, 0.96])
+        plt.savefig(f'{self.output_dir}/precision_recall_analysis_{self.engine}.png', 
+                   dpi=300, bbox_inches='tight')
+        plt.show()
+        
+        return query_metrics, avg_metrics
+    
+    def create_detailed_evaluation_report(self):
+        """Crea un report dettagliato delle metriche di evaluation"""
+        print("\n" + "="*80)
+        print("REPORT DETTAGLIATO PRECISION E RECALL")
+        print("="*80)
+        
+        # Calcola metriche per ogni query
+        queries_with_relevance = 0
+        total_queries = 0
+        
+        system_totals = defaultdict(lambda: {
+            'precision': [], 'recall': [], 'f1_score': [],
+            'true_positives': 0, 'false_positives': 0, 'false_negatives': 0
+        })
+        
+        for q_id, query_data in self.queries.items():
+            total_queries += 1
+            relevant_docs = query_data['relevant_docs']
+            
+            if not relevant_docs:
+                print(f"\n{q_id}: \"{query_data['original_query'][:60]}...\"")
+                print("  ⚠️  Nessun documento rilevante definito - Skipping evaluation")
+                continue
+            
+            queries_with_relevance += 1
+            print(f"\n{q_id}: \"{query_data['original_query'][:60]}...\"")
+            print(f"  📚 Documenti rilevanti: {relevant_docs}")
+            
+            for system, data in query_data['systems'].items():
+                retrieved_ids = data['result_ids']
+                metrics = self.calculate_precision_recall(retrieved_ids, relevant_docs)
+                
+                # Accumula metriche per sistema
+                system_totals[system]['precision'].append(metrics['precision'])
+                system_totals[system]['recall'].append(metrics['recall'])
+                system_totals[system]['f1_score'].append(metrics['f1_score'])
+                system_totals[system]['true_positives'] += metrics['true_positives']
+                system_totals[system]['false_positives'] += metrics['false_positives']
+                system_totals[system]['false_negatives'] += metrics['false_negatives']
+                
+                print(f"    🔍 {system}:")
+                print(f"        Recuperati: {retrieved_ids}")
+                print(f"        Precision: {metrics['precision']:.3f}")
+                print(f"        Recall: {metrics['recall']:.3f}")
+                print(f"        F1-Score: {metrics['f1_score']:.3f}")
+                print(f"        TP: {metrics['true_positives']}, "
+                      f"FP: {metrics['false_positives']}, "
+                      f"FN: {metrics['false_negatives']}")
+        
+        # Stampa riassunto per sistema
+        print(f"\n{'='*80}")
+        print("RIASSUNTO PER SISTEMA")
+        print(f"{'='*80}")
+        print(f"Query totali: {total_queries}")
+        print(f"Query con documenti rilevanti: {queries_with_relevance}")
+        
+        if queries_with_relevance > 0:
+            for system, totals in system_totals.items():
+                print(f"\n🏗️  {system}:")
+                print(f"    Precision media: {np.mean(totals['precision']):.3f} "
+                      f"(±{np.std(totals['precision']):.3f})")
+                print(f"    Recall medio: {np.mean(totals['recall']):.3f} "
+                      f"(±{np.std(totals['recall']):.3f})")
+                print(f"    F1-Score medio: {np.mean(totals['f1_score']):.3f} "
+                      f"(±{np.std(totals['f1_score']):.3f})")
+                
+                # Macro-averaged metrics
+                total_tp = totals['true_positives']
+                total_fp = totals['false_positives']
+                total_fn = totals['false_negatives']
+                
+                macro_precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0
+                macro_recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0
+                macro_f1 = 2 * (macro_precision * macro_recall) / (macro_precision + macro_recall) if (macro_precision + macro_recall) > 0 else 0
+                
+                print(f"    Macro Precision: {macro_precision:.3f}")
+                print(f"    Macro Recall: {macro_recall:.3f}")
+                print(f"    Macro F1-Score: {macro_f1:.3f}")
+                print(f"    Total TP: {total_tp}, FP: {total_fp}, FN: {total_fn}")
+        
+        return system_totals
     
     def create_response_time_comparison(self):
         """Crea grafico a barre per confronto tempi di risposta"""
@@ -400,12 +677,25 @@ class SearchPerformanceAnalyzer:
         print("\nDettaglio Query:")
         for q_id, query_data in self.queries.items():
             print(f"\n{q_id}: \"{query_data['original_query'][:50]}...\"")
+            
+            # Mostra documenti rilevanti se presenti
+            if query_data['relevant_docs']:
+                print(f"  📚 Documenti rilevanti: {query_data['relevant_docs']}")
+            
             for system, data in query_data['systems'].items():
                 print(f"  {system}:")
                 print(f"    - Tempo risposta: {data['response_time']:.2f} ms")
                 print(f"    - Risultati: {data['total_results']}")
                 avg_score = np.mean([r['score'] for r in data['results']]) if data['results'] else 0
                 print(f"    - Punteggio medio: {avg_score:.2f}")
+                print(f"    - ID risultati: {data['result_ids']}")
+                
+                # Calcola e mostra precision/recall se ci sono documenti rilevanti
+                if query_data['relevant_docs']:
+                    metrics = self.calculate_precision_recall(data['result_ids'], query_data['relevant_docs'])
+                    print(f"    - Precision: {metrics['precision']:.3f}")
+                    print(f"    - Recall: {metrics['recall']:.3f}")
+                    print(f"    - F1-Score: {metrics['f1_score']:.3f}")
                 
                 # Mostra alcuni titoli dei risultati
                 if data['result_titles']:
@@ -449,6 +739,11 @@ class SearchPerformanceAnalyzer:
         self.create_score_analysis()
         self.create_result_overlap_analysis()
         
+        # Nuove analisi di precision e recall
+        print("\nGenerazione analisi Precision e Recall...")
+        self.create_precision_recall_analysis()
+        self.create_detailed_evaluation_report()
+        
         print("Tutti i grafici sono stati generati e salvati!")
 
 
@@ -468,7 +763,9 @@ def main():
         print("Scelta non valida. Utilizzo il motore di ricerca predefinito: PostgreSQL.")
         engine = 'PostgreSQL'
 
-    json_file = f"../{engine}/export.json"  # Modifica questo percorso se necessario
+    json_file = f"../{engine}/export.json"
+    if engine == "PostgreSQL":
+        json_file = f"../{engine}/export-cache.json"  # Modificato per usare export-cache.json
     output_dir = f"../docs/charts/{engine}"  # Directory dove salvare i grafici
 
     try:

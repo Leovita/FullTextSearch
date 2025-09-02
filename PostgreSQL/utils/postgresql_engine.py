@@ -1,6 +1,14 @@
 import logging
 import time
 from typing import List, Dict, Tuple, Optional, Any
+import os, sys
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT_DIR = os.path.dirname(BASE_DIR)
+
+if PARENT_DIR not in sys.path:
+    sys.path.insert(0, PARENT_DIR)
+
 from utils.password import PASSWORD
 import psycopg2
 
@@ -110,9 +118,9 @@ class PostgreSQLSearchEngine:
             rank = 16
 
         sql = """
-        SELECT id, title, label, content,
+        SELECT id, title, label, body,
                ts_rank(tsv, plainto_tsquery('english', %s), %s) AS score,
-               ts_headline('english', content, plainto_tsquery('english', %s), 
+               ts_headline('english', body, plainto_tsquery('english', %s), 
                           'MaxWords=30, MinWords=10') AS snippet
         FROM documents
         WHERE tsv @@ plainto_tsquery('english', %s)
@@ -148,9 +156,9 @@ class PostgreSQLSearchEngine:
             rank = 16
 
         sql = f"""
-        SELECT id, title, label, content,
+        SELECT id, title, label, body,
                ts_rank(tsv, plainto_tsquery('english', %s), %s) AS score,
-               ts_headline('english', content, plainto_tsquery('english', %s), 
+               ts_headline('english', body, plainto_tsquery('english', %s), 
                           'MaxWords=30, MinWords=10') AS snippet
         FROM documents
         WHERE ({where_clause})
@@ -189,9 +197,9 @@ class PostgreSQLSearchEngine:
                 rank = 16
 
             sql = """
-            SELECT id, title, label, content,
+            SELECT id, title, label, body,
                    ts_rank(tsv, plainto_tsquery('english', %s), %s) AS score,
-                   ts_headline('english', content, plainto_tsquery('english', %s), 
+                   ts_headline('english', body, plainto_tsquery('english', %s), 
                               'MaxWords=30, MinWords=10') AS snippet
             FROM documents
             WHERE tsv @@ plainto_tsquery('english', %s)
@@ -236,9 +244,9 @@ class PostgreSQLSearchEngine:
                 rank = 16
             # Usa phraseto_tsquery per frasi esatte
             sql = """
-            SELECT id, title, label, content,
+            SELECT id, title, label, body,
                    ts_rank(tsv, phraseto_tsquery('english', %s), %s) AS score,
-                   ts_headline('english', content, phraseto_tsquery('english', %s), 
+                   ts_headline('english', body, phraseto_tsquery('english', %s), 
                               'MaxWords=30, MinWords=10') AS snippet
             FROM documents
             WHERE tsv @@ phraseto_tsquery('english', %s)
@@ -274,7 +282,7 @@ class PostgreSQLSearchEngine:
         Returns:
             Lista di risultati
         """
-        if field not in ['title', 'content', 'label']:
+        if field not in ['title', 'content', 'label', 'body']:
             self.logger.error(f"Campo non valido: {field}")
             return []
         
@@ -287,13 +295,16 @@ class PostgreSQLSearchEngine:
             if self.ranking == "Density":
                 rank = 16
             
+            # Mappa content -> body per compatibilità
+            db_field = 'body' if field == 'content' else field
+            
             sql = f"""
-            SELECT id, title, label, content,
-                   ts_rank(to_tsvector('english', {field}), plainto_tsquery('english', %s), %s) AS score,
-                   ts_headline('english', {field}, plainto_tsquery('english', %s), 
+            SELECT id, title, label, body,
+                   ts_rank(to_tsvector('english', {db_field}), plainto_tsquery('english', %s), %s) AS score,
+                   ts_headline('english', {db_field}, plainto_tsquery('english', %s), 
                               'MaxWords=30, MinWords=10') AS snippet
             FROM documents
-            WHERE to_tsvector('english', {field}) @@ plainto_tsquery('english', %s)
+            WHERE to_tsvector('english', {db_field}) @@ plainto_tsquery('english', %s)
             ORDER BY score DESC
             LIMIT %s;
             """
@@ -329,7 +340,7 @@ class PostgreSQLSearchEngine:
         try:
             self._reconnect_if_needed()
             
-            sql = "SELECT id, title, label, content FROM documents WHERE id = %s;"
+            sql = "SELECT id, title, label, body FROM documents WHERE id = %s;"
             self.cur.execute(sql, (doc_id,))
             row = self.cur.fetchone()
             search_time = time.time() - start_time
@@ -369,7 +380,7 @@ class PostgreSQLSearchEngine:
             stats['documents_by_label'] = dict(self.cur.fetchall())
             
             # Dimensione media contenuto
-            self.cur.execute("SELECT AVG(LENGTH(content)) FROM documents;")
+            self.cur.execute("SELECT AVG(LENGTH(body)) FROM documents;")
             stats['avg_content_length'] = float(self.cur.fetchone()[0] or 0)
             
             return stats
@@ -442,13 +453,18 @@ if __name__ == "__main__":
         print(f"Trovati {len(results)} risultati per 'machine learning'")
         
         # Test ricerca booleana
-        bool_results = engine.boolean_search("election AND economy", limit=3)
+        bool_results = engine.boolean_search("Election campaigns and government politics", limit=3)
         print(f"Trovati {len(bool_results)} risultati per ricerca booleana")
         
         # Test ricerca frase
         phrase_results = engine.phrase_search("football team", limit=3)
         print(f"Trovati {len(phrase_results)} risultati per frase esatta")
-        
+
+        field_results = engine.field_search("content", "Scotland", limit=3)
+        print(f"Trovati {len(field_results)} risultati per ricerca per campo")
+        for result in field_results:
+            print(result['id'], result['title'])
+
         # Statistiche
         stats = engine.get_stats()
         print(f"Statistiche database: {stats}")

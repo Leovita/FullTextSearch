@@ -118,6 +118,7 @@ class WhooshIndexer:
                 
                 for row in reader:
                     try:
+                        id = row.get("ID", "").strip()
                         title = row.get("Title", "").strip()
                         text = row.get("Text", "").strip()
                         label = row.get("Label", "").strip()
@@ -131,7 +132,7 @@ class WhooshIndexer:
                         
                         # Aggiungi documento all'indice
                         writer.add_document(
-                            id=str(indexed_count + 1),  # Convert to string
+                            id=id,
                             title=title,
                             text=text,
                             label=label,
@@ -192,8 +193,9 @@ class WhooshIndexer:
         
         try:
             with self.index.writer() as writer:
-                for doc_id, doc in enumerate(documents, 1):
+                for doc in documents:
                     try:
+                        id = str(doc.get('id', '')).strip()
                         title = doc.get('title', '').strip()
                         content = doc.get('content', '').strip()
                         label = doc.get('label', '').strip()
@@ -204,7 +206,7 @@ class WhooshIndexer:
                         combined = f"{title} {content}".strip()
                         
                         writer.add_document(
-                            id=doc_id,
+                            id=id,
                             title=title,
                             content=content,
                             label=label,
@@ -423,7 +425,7 @@ if __name__ == "__main__":
     indexer = WhooshIndexer("whoosh_index")
     
     # Test con file CSV
-    csv_file = "../docs/dataset.csv"  # Assicurati che il file esista
+    csv_file = "../data/dataset.csv"  # Assicurati che il file esista
     if os.path.exists(csv_file):
         result = indexer.index_csv_dataset(csv_file)
         print(f"Risultato indicizzazione: {result}")

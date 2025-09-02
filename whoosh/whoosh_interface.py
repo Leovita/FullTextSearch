@@ -108,12 +108,21 @@ class WhooshUnifiedInterface:
                 results = self.engine.phrase_search(effective_query, limit)
                 
             elif query_type == QueryType.FIELD:
-                logger.info(f"Eseguendo ricerca per campo: '{effective_query}'")
                 field_queries = processed_query_info['components']['field_queries']
                 if field_queries:
-                    field, _, value = field_queries[0]
-                    logger.info(f"Campo: {field}, Valore: {value}")
-                    results = self.engine.field_search(field, value, limit)
+                    if len(field_queries) == 1:
+                        # Ricerca su singolo campo
+                        field, _, value = field_queries[0]
+                        logger.info(f"Eseguendo ricerca su campo singolo '{field}' per: '{value}'")
+                        results = self.engine.field_search(field, value, limit)
+                    else:
+                        # Ricerca su campi multipli - usa field_search con lista di campi
+                        fields = [fq[0] for fq in field_queries]
+                        values = [fq[2] for fq in field_queries]
+                        # Per ora combiniamo i valori in una query unica e cerchiamo su tutti i campi
+                        combined_query = " ".join(values)
+                        logger.info(f"Eseguendo ricerca su {len(field_queries)} campi: {[f'{fq[0]}:{fq[2]}' for fq in field_queries]}")
+                        results = self.engine.field_search(fields, combined_query, limit)
                 else:
                     # Fallback a ricerca generale
                     results = self.engine.search(effective_query, limit, min_score=min_score)
@@ -181,7 +190,7 @@ class WhooshUnifiedInterface:
         except Exception as e:
             logger.error(f"Errore nel recupero statistiche: {e}")
             return {"error": "Errore nel recupero statistiche"}
-    
+
     def close(self):
         """Chiude le connessioni del motore."""
         try:
@@ -205,13 +214,13 @@ class WhooshUnifiedInterface:
         
         for res in results:
             standardized_result = {
+                "id": res.get('id', res.get('docnum', 0)),  # Include ID come PostgreSQL
                 "title": res.get('title', ''),
-                "snippet": res.get('text', 'N/A')[:200],
+                "snippet": res.get('snippet', res.get('text', 'N/A')[:200]),  # Usa snippet se disponibile, altrimenti tronca text
                 "score": res.get('score', 0.0),
-                "matched_fields": res.get('matched_fields', ['title', 'text']),
+                "matched_fields": res.get('matched_fields', ['title', 'content', 'label']),  # Stesso default di PostgreSQL
                 "metadata": {
-                    "source": "Whoosh",
-                    "ranking_method": self.ranking,
+                    "source": f"Whoosh {self.ranking}",  # Consistente con PostgreSQL format
                     "search_time_s": res.get('search_time', 0),
                     "cached": False  # Whoosh non usa cache esterna
                 }
@@ -291,6 +300,7 @@ def _load_queries_from_file(file_path: str) -> List[Dict[str, str]]:
             test_queries.append({
                 'id': query_data['id'],
                 'query': query_data['query'],
+                'relevant_docs': query_data.get('relevant_docs', [])
             })
         
         logger.info(f"Caricate {len(test_queries)} query di test")
@@ -320,6 +330,7 @@ if __name__ == "__main__":
                 for query_data in queries:  # Test tutte le query
                     query_id = query_data['id']
                     query_text = query_data['query']
+                    relevant_docs = query_data.get('relevant_docs', [])
                     
                     print(f"\n--- Query {query_id}: '{query_text}' ---")
                     
@@ -333,8 +344,10 @@ if __name__ == "__main__":
                     if result['results']:
                         print("Primi risultati:")
                         for i, res in enumerate(result['results'][:2], 1):
-                            print(f"  {i}. {res['title']} (Score: {res['score']:.3f})")
+                            print(f"  {i}. {res['title']} (ID: {res['id']}, Score: {res['score']:.3f})")
                             print(f"     Snippet: {res['snippet'][:100]}...")
+                    
+                    result['relevant_docs'] = relevant_docs
 
                     export_to_json(result)
                     
