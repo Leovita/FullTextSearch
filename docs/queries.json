@@ -3,57 +3,52 @@
     {
       "id": "Q1",
       "query": "Brown names 16 March for Budget",
-      "relevant_docs": [127,368]
+      "relevant_docs": [127, 137, 336, 368, 1981]
     },
     {
       "id": "Q2",
       "query": "content:Scotland",
-      "relevant_docs": []
+      "relevant_docs": [1, 8, 16, 20, 37, 44, 147]
     },
     {
       "id": "Q3",
-      "query": "Microsoft and Google internet services",
-      "relevant_docs": []
+      "query": "Microsoft Google internet services",
+      "relevant_docs": [990, 1168, 940, 960]
     },
     {
       "id": "Q4",
       "query": "Army regiments decision in Scotland",
-      "relevant_docs": []
+      "relevant_docs": [1, 329, 608]
     },
     {
       "id": "Q5",
       "query": "Smoking ban in Scotland public places",
-      "relevant_docs": []
+      "relevant_docs": [406, 2191, 2160, 2127, 1782]
     },
     {
       "id": "Q6",
-      "query": "EU fighting smoking",
-      "relevant_docs": []
+      "query": "fighting smoke",
+      "relevant_docs": [2191, 2160, 2127, 1782]
     },
     {
       "id": "Q7",
       "query": "content:Tony Blair",
-      "relevant_docs": []
+      "relevant_docs": [1, 399, 407, 411, 747,1833,2095]
     },
     {
       "id": "Q8",
       "query": "Stamp duty property prices UK",
-      "relevant_docs": []
+      "relevant_docs": [0, 2113, 1767]
     },
     {
       "id": "Q9",
       "query": "title:Hollywood",
-      "relevant_docs": []
+      "relevant_docs": [975, 1112, 1430, 1433, 1455]
     },
     {
       "id": "Q10",
-      "query": "Internet privacy and security",
-      "relevant_docs": []
-    },
-    {
-      "id": "Q11",
-      "query": "Election campaigns and government politics",
-      "relevant_docs": []
+      "query": "Internet privacy security",
+      "relevant_docs": [990, 1083, 1226]
     }
   ]
 }

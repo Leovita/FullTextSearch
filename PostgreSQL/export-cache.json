@@ -53,7 +53,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": false
                     }
                 },
@@ -69,7 +69,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": false
                     }
                 },
@@ -85,20 +85,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 4.999876022338867,
+                "response_time_ms": 4.802703857421875,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
             "relevant_docs": [
                 127,
-                368
+                137,
+                336,
+                368,
+                1981
             ]
         }
     },
@@ -154,7 +157,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 },
@@ -170,7 +173,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 },
@@ -186,36 +189,45 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 481.7805290222168,
+                "response_time_ms": 473.19841384887695,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                8,
+                16,
+                20,
+                37,
+                44,
+                147
+            ]
         }
     },
     {
         "data": {
-            "query": "Microsoft and Google internet services",
+            "query": "Microsoft Google internet services",
             "processed_info": {
-                "original_query": "Microsoft and Google internet services",
-                "processed_query": "Microsoft AND Google internet services",
-                "optimized_query": "Microsoft AND Google internet services",
-                "query_type": "boolean",
+                "original_query": "Microsoft Google internet services",
+                "processed_query": "Microsoft Google internet services",
+                "optimized_query": "Microsoft Google internet services",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -226,9 +238,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -251,7 +261,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
+                        "search_time_s": 0.0014460086822509766,
                         "cached": false
                     }
                 },
@@ -267,7 +277,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
+                        "search_time_s": 0.0014460086822509766,
                         "cached": false
                     }
                 },
@@ -283,18 +293,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
+                        "search_time_s": 0.0014460086822509766,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.7354488372802734,
+                "response_time_ms": 1.645803451538086,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1168,
+                940,
+                960
+            ]
         }
     },
     {
@@ -349,7 +364,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0009512901306152344,
+                        "search_time_s": 0.0008304119110107422,
                         "cached": false
                     }
                 },
@@ -365,18 +380,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0009512901306152344,
+                        "search_time_s": 0.0008304119110107422,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.2633800506591797,
+                "response_time_ms": 0.9832382202148438,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                329,
+                608
+            ]
         }
     },
     {
@@ -433,42 +452,46 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0007750988006591797,
+                        "search_time_s": 0.0008752346038818359,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9665489196777344,
+                "response_time_ms": 1.0640621185302734,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                406,
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
         "data": {
-            "query": "Smoking Scotland regulations",
+            "query": "fighting smoke",
             "processed_info": {
-                "original_query": "Smoking Scotland regulations",
-                "processed_query": "Smoking Scotland regulations",
-                "optimized_query": "Smoking Scotland regulations",
+                "original_query": "fighting smoke",
+                "processed_query": "fighting smoke",
+                "optimized_query": "fighting smoke",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
-                    "word_count": 3,
+                    "word_count": 2,
                     "words": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ]
                 },
                 "components": {
                     "terms": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ],
                     "phrases": [],
                     "field_queries": [],
@@ -481,15 +504,69 @@
                     "warnings": []
                 }
             },
-            "total_results": 0,
-            "results": [],
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "2160",
+                    "title": "US seeks new $280bn smoker ruling",
+                    "snippet": "<b>fight</b> <b>smoking</b>. \"It's pretty clear that they've suffered",
+                    "score": 0.39654675,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "2127",
+                    "title": "Tobacco giants hail court ruling",
+                    "snippet": "<b>smoking</b> groups urge the government to <b>fight</b> on, but the Justice",
+                    "score": 0.34118977,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "299",
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 1.7763568e-15,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": false
+                    }
+                }
+            ],
             "metrics": {
-                "response_time_ms": 0.9059906005859375,
+                "response_time_ms": 2.2079944610595703,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
@@ -546,7 +623,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
+                        "search_time_s": 0.5018448829650879,
                         "cached": false
                     }
                 },
@@ -562,7 +639,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
+                        "search_time_s": 0.5018448829650879,
                         "cached": false
                     }
                 },
@@ -578,18 +655,26 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
+                        "search_time_s": 0.5018448829650879,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 494.33183670043945,
+                "response_time_ms": 502.15911865234375,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                399,
+                407,
+                411,
+                747,
+                1833,
+                2095
+            ]
         }
     },
     {
@@ -644,18 +729,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008420944213867188,
+                        "search_time_s": 0.00083160400390625,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.0678768157958984,
+                "response_time_ms": 1.1115074157714844,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                0,
+                2113,
+                1767
+            ]
         }
     },
     {
@@ -710,7 +799,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
+                        "search_time_s": 0.006831169128417969,
                         "cached": false
                     }
                 },
@@ -726,7 +815,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
+                        "search_time_s": 0.006831169128417969,
                         "cached": false
                     }
                 },
@@ -742,36 +831,42 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
+                        "search_time_s": 0.006831169128417969,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 7.673740386962891,
+                "response_time_ms": 7.08460807800293,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                975,
+                1112,
+                1430,
+                1433,
+                1455
+            ]
         }
     },
     {
         "data": {
-            "query": "Internet privacy and security",
+            "query": "Internet privacy security",
             "processed_info": {
-                "original_query": "Internet privacy and security",
-                "processed_query": "Internet privacy AND security",
-                "optimized_query": "Internet privacy AND security",
-                "query_type": "boolean",
+                "original_query": "Internet privacy security",
+                "processed_query": "Internet privacy security",
+                "optimized_query": "Internet privacy security",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -781,9 +876,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -806,115 +899,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0005784034729003906,
+                        "search_time_s": 0.0006754398345947266,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.7615089416503906,
+                "response_time_ms": 0.873565673828125,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Election campaigns and government politics",
-            "processed_info": {
-                "original_query": "Election campaigns and government politics",
-                "processed_query": "Election campaigns AND government politics",
-                "optimized_query": "Election campaigns AND government politics",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Election",
-                        "campaigns",
-                        "government",
-                        "politics"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "364",
-                    "title": "Profile: Gordon Brown",
-                    "snippet": "<b>election</b> <b>campaign</b>, he is said to have worked an average of 18 hours a day, six days a week after running on a treadmill for an hour each morning.\n \n This",
-                    "score": 0.9354477,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "351",
-                    "title": "Campbell returns to election team",
-                    "snippet": "<b>politics</b> is written about,\" Ms Jowell added. \"There's room for everybody. We serve the country better if we make room for all the talent.\" A Labour source told",
-                    "score": 0.87416404,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "15",
-                    "title": "Brown targets OAPs and homebuyers",
-                    "snippet": "<b>campaign</b>.\n \n \"This <b>government</b> and this chancellor have run out of solutions to the problems Britain faces,\" Mr Howard told MPs. \"Their only answer is to tax, to spend",
-                    "score": 0.8686415,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 2.06756591796875,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1083,
+                1226
+            ]
         }
     },
     {
@@ -971,7 +971,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": true
                     }
                 },
@@ -987,7 +987,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": true
                     }
                 },
@@ -1003,20 +1003,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.11157989501953125,
+                "response_time_ms": 0.10442733764648438,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
             "relevant_docs": [
                 127,
-                368
+                137,
+                336,
+                368,
+                1981
             ]
         }
     },
@@ -1072,7 +1075,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 },
@@ -1088,7 +1091,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 },
@@ -1104,36 +1107,45 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.09465217590332031,
+                "response_time_ms": 0.1316070556640625,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                8,
+                16,
+                20,
+                37,
+                44,
+                147
+            ]
         }
     },
     {
         "data": {
-            "query": "Microsoft and Google internet services",
+            "query": "Microsoft Google internet services",
             "processed_info": {
-                "original_query": "Microsoft and Google internet services",
-                "processed_query": "Microsoft AND Google internet services",
-                "optimized_query": "Microsoft AND Google internet services",
-                "query_type": "boolean",
+                "original_query": "Microsoft Google internet services",
+                "processed_query": "Microsoft Google internet services",
+                "optimized_query": "Microsoft Google internet services",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -1144,9 +1156,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -1169,8 +1179,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
-                        "cached": false
+                        "search_time_s": 0.0014460086822509766,
+                        "cached": true
                     }
                 },
                 {
@@ -1185,8 +1195,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
-                        "cached": false
+                        "search_time_s": 0.0014460086822509766,
+                        "cached": true
                     }
                 },
                 {
@@ -1201,18 +1211,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
-                        "cached": false
+                        "search_time_s": 0.0014460086822509766,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.1220703125,
+                "response_time_ms": 0.1266002655029297,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1168,
+                940,
+                960
+            ]
         }
     },
     {
@@ -1267,7 +1282,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0009512901306152344,
+                        "search_time_s": 0.0008304119110107422,
                         "cached": true
                     }
                 },
@@ -1283,18 +1298,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0009512901306152344,
+                        "search_time_s": 0.0008304119110107422,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.11754035949707031,
+                "response_time_ms": 0.13017654418945312,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                329,
+                608
+            ]
         }
     },
     {
@@ -1351,42 +1370,46 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0007750988006591797,
+                        "search_time_s": 0.0008752346038818359,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.0934600830078125,
+                "response_time_ms": 0.17881393432617188,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                406,
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
         "data": {
-            "query": "Smoking Scotland regulations",
+            "query": "fighting smoke",
             "processed_info": {
-                "original_query": "Smoking Scotland regulations",
-                "processed_query": "Smoking Scotland regulations",
-                "optimized_query": "Smoking Scotland regulations",
+                "original_query": "fighting smoke",
+                "processed_query": "fighting smoke",
+                "optimized_query": "fighting smoke",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
-                    "word_count": 3,
+                    "word_count": 2,
                     "words": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ]
                 },
                 "components": {
                     "terms": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ],
                     "phrases": [],
                     "field_queries": [],
@@ -1399,15 +1422,69 @@
                     "warnings": []
                 }
             },
-            "total_results": 0,
-            "results": [],
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "2160",
+                    "title": "US seeks new $280bn smoker ruling",
+                    "snippet": "<b>fight</b> <b>smoking</b>. \"It's pretty clear that they've suffered",
+                    "score": 0.39654675,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "2127",
+                    "title": "Tobacco giants hail court ruling",
+                    "snippet": "<b>smoking</b> groups urge the government to <b>fight</b> on, but the Justice",
+                    "score": 0.34118977,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "299",
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 1.7763568e-15,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": true
+                    }
+                }
+            ],
             "metrics": {
-                "response_time_ms": 0.6361007690429688,
+                "response_time_ms": 0.11491775512695312,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
@@ -1464,7 +1541,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
+                        "search_time_s": 0.5018448829650879,
                         "cached": false
                     }
                 },
@@ -1480,7 +1557,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
+                        "search_time_s": 0.5018448829650879,
                         "cached": false
                     }
                 },
@@ -1496,18 +1573,26 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
+                        "search_time_s": 0.5018448829650879,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.10037422180175781,
+                "response_time_ms": 0.10919570922851562,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                399,
+                407,
+                411,
+                747,
+                1833,
+                2095
+            ]
         }
     },
     {
@@ -1562,18 +1647,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008420944213867188,
+                        "search_time_s": 0.00083160400390625,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.09703636169433594,
+                "response_time_ms": 0.12493133544921875,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                0,
+                2113,
+                1767
+            ]
         }
     },
     {
@@ -1628,7 +1717,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
+                        "search_time_s": 0.006831169128417969,
                         "cached": false
                     }
                 },
@@ -1644,7 +1733,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
+                        "search_time_s": 0.006831169128417969,
                         "cached": false
                     }
                 },
@@ -1660,36 +1749,42 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
+                        "search_time_s": 0.006831169128417969,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.12540817260742188,
+                "response_time_ms": 0.12612342834472656,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                975,
+                1112,
+                1430,
+                1433,
+                1455
+            ]
         }
     },
     {
         "data": {
-            "query": "Internet privacy and security",
+            "query": "Internet privacy security",
             "processed_info": {
-                "original_query": "Internet privacy and security",
-                "processed_query": "Internet privacy AND security",
-                "optimized_query": "Internet privacy AND security",
-                "query_type": "boolean",
+                "original_query": "Internet privacy security",
+                "processed_query": "Internet privacy security",
+                "optimized_query": "Internet privacy security",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -1699,9 +1794,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -1724,115 +1817,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0005784034729003906,
-                        "cached": false
+                        "search_time_s": 0.0006754398345947266,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.08845329284667969,
+                "response_time_ms": 0.118255615234375,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Election campaigns and government politics",
-            "processed_info": {
-                "original_query": "Election campaigns and government politics",
-                "processed_query": "Election campaigns AND government politics",
-                "optimized_query": "Election campaigns AND government politics",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Election",
-                        "campaigns",
-                        "government",
-                        "politics"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "364",
-                    "title": "Profile: Gordon Brown",
-                    "snippet": "<b>election</b> <b>campaign</b>, he is said to have worked an average of 18 hours a day, six days a week after running on a treadmill for an hour each morning.\n \n This",
-                    "score": 0.9354477,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "351",
-                    "title": "Campbell returns to election team",
-                    "snippet": "<b>politics</b> is written about,\" Ms Jowell added. \"There's room for everybody. We serve the country better if we make room for all the talent.\" A Labour source told",
-                    "score": 0.87416404,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "15",
-                    "title": "Brown targets OAPs and homebuyers",
-                    "snippet": "<b>campaign</b>.\n \n \"This <b>government</b> and this chancellor have run out of solutions to the problems Britain faces,\" Mr Howard told MPs. \"Their only answer is to tax, to spend",
-                    "score": 0.8686415,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.1666545867919922,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1083,
+                1226
+            ]
         }
     },
     {
@@ -1889,7 +1889,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": true
                     }
                 },
@@ -1905,7 +1905,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": true
                     }
                 },
@@ -1921,729 +1921,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.004733562469482422,
+                        "search_time_s": 0.00452423095703125,
                         "cached": true
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.11301040649414062,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": [
-                127,
-                368
-            ]
-        }
-    },
-    {
-        "data": {
-            "query": "content:Scotland",
-            "processed_info": {
-                "original_query": "content:Scotland",
-                "processed_query": "content:Scotland",
-                "optimized_query": "content:Scotland",
-                "query_type": "field",
-                "query_info": {
-                    "type": "field",
-                    "field_queries": [
-                        [
-                            "content",
-                            ":",
-                            "Scotland"
-                        ]
-                    ],
-                    "primary_field": "content"
-                },
-                "components": {
-                    "terms": [],
-                    "phrases": [],
-                    "field_queries": [
-                        [
-                            "content",
-                            ":",
-                            "Scotland"
-                        ]
-                    ],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "307",
-                    "title": "Student 'fee factor' played down",
-                    "snippet": "<b>Scotland</b>'s Good Morning <b>Scotland</b> programme: \"The reason people are opting",
-                    "score": 0.092856124,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "515",
-                    "title": "Scotland 18-10 Italy",
-                    "snippet": "<b>Scotland</b> victory in a dour but clinical encounter against Italy",
-                    "score": 0.092856124,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "648",
-                    "title": "Ireland surge past Scots",
-                    "snippet": "<b>Scotland</b> at Murrayfield.\n \n Hugo Southwell's try gave the Scots",
-                    "score": 0.092856124,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.4814631938934326,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.1862049102783203,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Microsoft and Google internet services",
-            "processed_info": {
-                "original_query": "Microsoft and Google internet services",
-                "processed_query": "Microsoft AND Google internet services",
-                "optimized_query": "Microsoft AND Google internet services",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Microsoft",
-                        "Google",
-                        "internet",
-                        "services"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "1307",
-                    "title": "Yahoo moves into desktop search",
-                    "snippet": "<b>Internet</b> giant Yahoo has launched software to allow people to search e-mail and other files on their PCs.\n \n The firm is following in the footsteps of <b>Microsoft</b>, <b>Google</b>",
-                    "score": 0.66115654,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "1177",
-                    "title": "The year search became personal",
-                    "snippet": "<b>internet</b> is changing. And as <b>Google</b> has shown, there is money in offering a <b>service</b> that people cannot live without. There is no shortage of companies vying for the loyalty",
-                    "score": 0.5216689,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "1045",
-                    "title": "Can Yahoo dominate next decade?",
-                    "snippet": "<b>services</b> such as Gmail, its shopping channel Froogle and <b>Google</b> News.\n \n For Jupiter analyst Olivier Beauvillain, Yahoo's initial decision to put its investment on search on hold",
-                    "score": 0.48040256,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0014431476593017578,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.10323524475097656,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Army regiments decision in Scotland",
-            "processed_info": {
-                "original_query": "Army regiments decision in Scotland",
-                "processed_query": "Army regiments decision in Scotland",
-                "optimized_query": "Army regiments decision in Scotland",
-                "query_type": "simple",
-                "query_info": {
-                    "type": "simple",
-                    "word_count": 5,
-                    "words": [
-                        "Army",
-                        "regiments",
-                        "decision",
-                        "in",
-                        "Scotland"
-                    ]
-                },
-                "components": {
-                    "terms": [
-                        "Army",
-                        "regiments",
-                        "decision",
-                        "in",
-                        "Scotland"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 2,
-            "results": [
-                {
-                    "id": "1",
-                    "title": "Army chiefs in regiments decision",
-                    "snippet": "<b>decision</b> on the future of <b>Scotland</b>'s <b>Army</b> <b>regiments</b>.\n \n A committee",
-                    "score": 0.99999994,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0009512901306152344,
-                        "cached": true
-                    }
-                },
-                {
-                    "id": "329",
-                    "title": "Regiments' group in poll move",
-                    "snippet": "<b>decision</b> to endorse SNP candidates in four marginal seats.\n \n \"Labour's arrogance has been their undoing. In trying to get rid of <b>Scotland</b>'s historic <b>regiments</b>, Labour MPs will",
-                    "score": 0.8138491,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0009512901306152344,
-                        "cached": true
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.12445449829101562,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Smoking ban in Scotland public places",
-            "processed_info": {
-                "original_query": "Smoking ban in Scotland public places",
-                "processed_query": "Smoking ban in Scotland public places",
-                "optimized_query": "Smoking ban in Scotland public places",
-                "query_type": "simple",
-                "query_info": {
-                    "type": "simple",
-                    "word_count": 6,
-                    "words": [
-                        "Smoking",
-                        "ban",
-                        "in",
-                        "Scotland",
-                        "public",
-                        "places"
-                    ]
-                },
-                "components": {
-                    "terms": [
-                        "Smoking",
-                        "ban",
-                        "in",
-                        "Scotland",
-                        "public",
-                        "places"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 1,
-            "results": [
-                {
-                    "id": "406",
-                    "title": "Scots smoking ban details set out",
-                    "snippet": "<b>Scotland</b>'s health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive <b>ban</b>\" on <b>smoking</b> in <b>public</b> <b>places</b>",
-                    "score": 0.99999994,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0007750988006591797,
-                        "cached": true
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.10561943054199219,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Smoking Scotland regulations",
-            "processed_info": {
-                "original_query": "Smoking Scotland regulations",
-                "processed_query": "Smoking Scotland regulations",
-                "optimized_query": "Smoking Scotland regulations",
-                "query_type": "simple",
-                "query_info": {
-                    "type": "simple",
-                    "word_count": 3,
-                    "words": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
-                    ]
-                },
-                "components": {
-                    "terms": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 0,
-            "results": [],
-            "metrics": {
-                "response_time_ms": 0.48279762268066406,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "content:Tony Blair",
-            "processed_info": {
-                "original_query": "content:Tony Blair",
-                "processed_query": "content:Tony Blair",
-                "optimized_query": "content:Tony Blair",
-                "query_type": "field",
-                "query_info": {
-                    "type": "field",
-                    "field_queries": [
-                        [
-                            "content",
-                            ":",
-                            "Tony"
-                        ]
-                    ],
-                    "primary_field": "content"
-                },
-                "components": {
-                    "terms": [
-                        "Blair"
-                    ],
-                    "phrases": [],
-                    "field_queries": [
-                        [
-                            "content",
-                            ":",
-                            "Tony"
-                        ]
-                    ],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "49",
-                    "title": "Brown in appeal for Labour unity",
-                    "snippet": "<b>Tony</b> Blair, by newspaper stories or books or rumours or gossip",
-                    "score": 0.082745634,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "21",
-                    "title": "Analysis: No pain, no gain?",
-                    "snippet": "<b>Tony</b> Blair has signed up for another dose of pain",
-                    "score": 0.082745634,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "89",
-                    "title": "Kennedy questions trust of Blair",
-                    "snippet": "<b>Tony</b> Blair as prime minister.\n \n He said backing his party",
-                    "score": 0.082745634,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.49402499198913574,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.1087188720703125,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Stamp duty property prices UK",
-            "processed_info": {
-                "original_query": "Stamp duty property prices UK",
-                "processed_query": "Stamp duty property prices UK",
-                "optimized_query": "Stamp duty property prices UK",
-                "query_type": "simple",
-                "query_info": {
-                    "type": "simple",
-                    "word_count": 5,
-                    "words": [
-                        "Stamp",
-                        "duty",
-                        "property",
-                        "prices",
-                        "UK"
-                    ]
-                },
-                "components": {
-                    "terms": [
-                        "Stamp",
-                        "duty",
-                        "property",
-                        "prices",
-                        "UK"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 1,
-            "results": [
-                {
-                    "id": "0",
-                    "title": "Budget to set scene for election",
-                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than ÃÂ£60,000. Since then, average <b>UK</b> <b>property</b> <b>prices</b>",
-                    "score": 0.9998439,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0008420944213867188,
-                        "cached": true
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.11658668518066406,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "title:Hollywood",
-            "processed_info": {
-                "original_query": "title:Hollywood",
-                "processed_query": "title:Hollywood",
-                "optimized_query": "title:Hollywood",
-                "query_type": "field",
-                "query_info": {
-                    "type": "field",
-                    "field_queries": [
-                        [
-                            "title",
-                            ":",
-                            "Hollywood"
-                        ]
-                    ],
-                    "primary_field": "title"
-                },
-                "components": {
-                    "terms": [],
-                    "phrases": [],
-                    "field_queries": [
-                        [
-                            "title",
-                            ":",
-                            "Hollywood"
-                        ]
-                    ],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "1112",
-                    "title": "Hollywood to sue net film pirates",
-                    "snippet": "<b>Hollywood</b> to sue net film pirates",
-                    "score": 0.06079271,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "1430",
-                    "title": "Godzilla gets Hollywood fame star",
-                    "snippet": "Godzilla gets <b>Hollywood</b> fame star",
-                    "score": 0.06079271,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "975",
-                    "title": "Hollywood campaign hits websites",
-                    "snippet": "<b>Hollywood</b> campaign hits websites",
-                    "score": 0.06079271,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0074083805084228516,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.15783309936523438,
-                "engine_used": "PostgreSQL with Cache Frequency"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Internet privacy and security",
-            "processed_info": {
-                "original_query": "Internet privacy and security",
-                "processed_query": "Internet privacy AND security",
-                "optimized_query": "Internet privacy AND security",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Internet",
-                        "privacy",
-                        "security"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 1,
-            "results": [
-                {
-                    "id": "990",
-                    "title": "Microsoft plans 'safer ID' system",
-                    "snippet": "<b>Internet</b> Explorer browser and its operating system, Windows, which has been code-named Longhorn. Michael Stephenson, director in Microsoft's Windows Server division, would not confirm however whether",
-                    "score": 0.72975576,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0005784034729003906,
-                        "cached": false
                     }
                 }
             ],
@@ -2653,38 +1932,45 @@
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                127,
+                137,
+                336,
+                368,
+                1981
+            ]
         }
     },
     {
         "data": {
-            "query": "Election campaigns and government politics",
+            "query": "content:Scotland",
             "processed_info": {
-                "original_query": "Election campaigns and government politics",
-                "processed_query": "Election campaigns AND government politics",
-                "optimized_query": "Election campaigns AND government politics",
-                "query_type": "boolean",
+                "original_query": "content:Scotland",
+                "processed_query": "content:Scotland",
+                "optimized_query": "content:Scotland",
+                "query_type": "field",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            ":",
+                            "Scotland"
+                        ]
                     ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "primary_field": "content"
                 },
                 "components": {
-                    "terms": [
-                        "Election",
-                        "campaigns",
-                        "government",
-                        "politics"
-                    ],
+                    "terms": [],
                     "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
+                    "field_queries": [
+                        [
+                            "content",
+                            ":",
+                            "Scotland"
+                        ]
                     ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -2696,10 +1982,10 @@
             "total_results": 3,
             "results": [
                 {
-                    "id": "364",
-                    "title": "Profile: Gordon Brown",
-                    "snippet": "<b>election</b> <b>campaign</b>, he is said to have worked an average of 18 hours a day, six days a week after running on a treadmill for an hour each morning.\n \n This",
-                    "score": 0.9354477,
+                    "id": "307",
+                    "title": "Student 'fee factor' played down",
+                    "snippet": "<b>Scotland</b>'s Good Morning <b>Scotland</b> programme: \"The reason people are opting",
+                    "score": 0.092856124,
                     "matched_fields": [
                         "title",
                         "content",
@@ -2707,15 +1993,15 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 },
                 {
-                    "id": "351",
-                    "title": "Campbell returns to election team",
-                    "snippet": "<b>politics</b> is written about,\" Ms Jowell added. \"There's room for everybody. We serve the country better if we make room for all the talent.\" A Labour source told",
-                    "score": 0.87416404,
+                    "id": "515",
+                    "title": "Scotland 18-10 Italy",
+                    "snippet": "<b>Scotland</b> victory in a dour but clinical encounter against Italy",
+                    "score": 0.092856124,
                     "matched_fields": [
                         "title",
                         "content",
@@ -2723,15 +2009,15 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 },
                 {
-                    "id": "15",
-                    "title": "Brown targets OAPs and homebuyers",
-                    "snippet": "<b>campaign</b>.\n \n \"This <b>government</b> and this chancellor have run out of solutions to the problems Britain faces,\" Mr Howard told MPs. \"Their only answer is to tax, to spend",
-                    "score": 0.8686415,
+                    "id": "648",
+                    "title": "Ireland surge past Scots",
+                    "snippet": "<b>Scotland</b> at Murrayfield.\n \n Hugo Southwell's try gave the Scots",
+                    "score": 0.092856124,
                     "matched_fields": [
                         "title",
                         "content",
@@ -2739,18 +2025,732 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Frequency",
-                        "search_time_s": 0.0018396377563476562,
+                        "search_time_s": 0.4728403091430664,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.091552734375,
+                "response_time_ms": 0.14638900756835938,
                 "engine_used": "PostgreSQL with Cache Frequency"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                8,
+                16,
+                20,
+                37,
+                44,
+                147
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "Microsoft Google internet services",
+            "processed_info": {
+                "original_query": "Microsoft Google internet services",
+                "processed_query": "Microsoft Google internet services",
+                "optimized_query": "Microsoft Google internet services",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "1307",
+                    "title": "Yahoo moves into desktop search",
+                    "snippet": "<b>Internet</b> giant Yahoo has launched software to allow people to search e-mail and other files on their PCs.\n \n The firm is following in the footsteps of <b>Microsoft</b>, <b>Google</b>",
+                    "score": 0.66115654,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0014460086822509766,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "1177",
+                    "title": "The year search became personal",
+                    "snippet": "<b>internet</b> is changing. And as <b>Google</b> has shown, there is money in offering a <b>service</b> that people cannot live without. There is no shortage of companies vying for the loyalty",
+                    "score": 0.5216689,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0014460086822509766,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "1045",
+                    "title": "Can Yahoo dominate next decade?",
+                    "snippet": "<b>services</b> such as Gmail, its shopping channel Froogle and <b>Google</b> News.\n \n For Jupiter analyst Olivier Beauvillain, Yahoo's initial decision to put its investment on search on hold",
+                    "score": 0.48040256,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0014460086822509766,
+                        "cached": true
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.10061264038085938,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                990,
+                1168,
+                940,
+                960
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "Army regiments decision in Scotland",
+            "processed_info": {
+                "original_query": "Army regiments decision in Scotland",
+                "processed_query": "Army regiments decision in Scotland",
+                "optimized_query": "Army regiments decision in Scotland",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 5,
+                    "words": [
+                        "Army",
+                        "regiments",
+                        "decision",
+                        "in",
+                        "Scotland"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Army",
+                        "regiments",
+                        "decision",
+                        "in",
+                        "Scotland"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 2,
+            "results": [
+                {
+                    "id": "1",
+                    "title": "Army chiefs in regiments decision",
+                    "snippet": "<b>decision</b> on the future of <b>Scotland</b>'s <b>Army</b> <b>regiments</b>.\n \n A committee",
+                    "score": 0.99999994,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008304119110107422,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "329",
+                    "title": "Regiments' group in poll move",
+                    "snippet": "<b>decision</b> to endorse SNP candidates in four marginal seats.\n \n \"Labour's arrogance has been their undoing. In trying to get rid of <b>Scotland</b>'s historic <b>regiments</b>, Labour MPs will",
+                    "score": 0.8138491,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008304119110107422,
+                        "cached": true
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.14281272888183594,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                1,
+                329,
+                608
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "Smoking ban in Scotland public places",
+            "processed_info": {
+                "original_query": "Smoking ban in Scotland public places",
+                "processed_query": "Smoking ban in Scotland public places",
+                "optimized_query": "Smoking ban in Scotland public places",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 6,
+                    "words": [
+                        "Smoking",
+                        "ban",
+                        "in",
+                        "Scotland",
+                        "public",
+                        "places"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Smoking",
+                        "ban",
+                        "in",
+                        "Scotland",
+                        "public",
+                        "places"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": "406",
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "<b>Scotland</b>'s health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive <b>ban</b>\" on <b>smoking</b> in <b>public</b> <b>places</b>",
+                    "score": 0.99999994,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0008752346038818359,
+                        "cached": true
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.179290771484375,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                406,
+                2191,
+                2160,
+                2127,
+                1782
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "fighting smoke",
+            "processed_info": {
+                "original_query": "fighting smoke",
+                "processed_query": "fighting smoke",
+                "optimized_query": "fighting smoke",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 2,
+                    "words": [
+                        "fighting",
+                        "smoke"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "fighting",
+                        "smoke"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "2160",
+                    "title": "US seeks new $280bn smoker ruling",
+                    "snippet": "<b>fight</b> <b>smoking</b>. \"It's pretty clear that they've suffered",
+                    "score": 0.39654675,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "2127",
+                    "title": "Tobacco giants hail court ruling",
+                    "snippet": "<b>smoking</b> groups urge the government to <b>fight</b> on, but the Justice",
+                    "score": 0.34118977,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "299",
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 1.7763568e-15,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.002033233642578125,
+                        "cached": true
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.13375282287597656,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                2191,
+                2160,
+                2127,
+                1782
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            ":",
+                            "Tony"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [
+                        "Blair"
+                    ],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            ":",
+                            "Tony"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "49",
+                    "title": "Brown in appeal for Labour unity",
+                    "snippet": "<b>Tony</b> Blair, by newspaper stories or books or rumours or gossip",
+                    "score": 0.082745634,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.5018448829650879,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "21",
+                    "title": "Analysis: No pain, no gain?",
+                    "snippet": "<b>Tony</b> Blair has signed up for another dose of pain",
+                    "score": 0.082745634,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.5018448829650879,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "89",
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> Blair as prime minister.\n \n He said backing his party",
+                    "score": 0.082745634,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.5018448829650879,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.11563301086425781,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                1,
+                399,
+                407,
+                411,
+                747,
+                1833,
+                2095
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices UK",
+            "processed_info": {
+                "original_query": "Stamp duty property prices UK",
+                "processed_query": "Stamp duty property prices UK",
+                "optimized_query": "Stamp duty property prices UK",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 5,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices",
+                        "UK"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices",
+                        "UK"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": "0",
+                    "title": "Budget to set scene for election",
+                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than ÃÂ£60,000. Since then, average <b>UK</b> <b>property</b> <b>prices</b>",
+                    "score": 0.9998439,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.00083160400390625,
+                        "cached": true
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.12683868408203125,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                0,
+                2113,
+                1767
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "title:Hollywood",
+            "processed_info": {
+                "original_query": "title:Hollywood",
+                "processed_query": "title:Hollywood",
+                "optimized_query": "title:Hollywood",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "title",
+                            ":",
+                            "Hollywood"
+                        ]
+                    ],
+                    "primary_field": "title"
+                },
+                "components": {
+                    "terms": [],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "title",
+                            ":",
+                            "Hollywood"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "1112",
+                    "title": "Hollywood to sue net film pirates",
+                    "snippet": "<b>Hollywood</b> to sue net film pirates",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.006831169128417969,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "1430",
+                    "title": "Godzilla gets Hollywood fame star",
+                    "snippet": "Godzilla gets <b>Hollywood</b> fame star",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.006831169128417969,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "975",
+                    "title": "Hollywood campaign hits websites",
+                    "snippet": "<b>Hollywood</b> campaign hits websites",
+                    "score": 0.06079271,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.006831169128417969,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.12421607971191406,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                975,
+                1112,
+                1430,
+                1433,
+                1455
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "Internet privacy security",
+            "processed_info": {
+                "original_query": "Internet privacy security",
+                "processed_query": "Internet privacy security",
+                "optimized_query": "Internet privacy security",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": "990",
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "<b>Internet</b> Explorer browser and its operating system, Windows, which has been code-named Longhorn. Michael Stephenson, director in Microsoft's Windows Server division, would not confirm however whether",
+                    "score": 0.72975576,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Frequency",
+                        "search_time_s": 0.0006754398345947266,
+                        "cached": true
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.11587142944335938,
+                "engine_used": "PostgreSQL with Cache Frequency"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                990,
+                1083,
+                1226
+            ]
         }
     },
     {
@@ -2807,7 +2807,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": false
                     }
                 },
@@ -2823,7 +2823,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": false
                     }
                 },
@@ -2839,20 +2839,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 4.366636276245117,
+                "response_time_ms": 4.215002059936523,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
             "relevant_docs": [
                 127,
-                368
+                137,
+                336,
+                368,
+                1981
             ]
         }
     },
@@ -2908,7 +2911,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 },
@@ -2924,7 +2927,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 },
@@ -2940,36 +2943,45 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 479.68554496765137,
+                "response_time_ms": 470.87955474853516,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                8,
+                16,
+                20,
+                37,
+                44,
+                147
+            ]
         }
     },
     {
         "data": {
-            "query": "Microsoft and Google internet services",
+            "query": "Microsoft Google internet services",
             "processed_info": {
-                "original_query": "Microsoft and Google internet services",
-                "processed_query": "Microsoft AND Google internet services",
-                "optimized_query": "Microsoft AND Google internet services",
-                "query_type": "boolean",
+                "original_query": "Microsoft Google internet services",
+                "processed_query": "Microsoft Google internet services",
+                "optimized_query": "Microsoft Google internet services",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -2980,9 +2992,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -3005,7 +3015,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
+                        "search_time_s": 0.0013799667358398438,
                         "cached": false
                     }
                 },
@@ -3021,7 +3031,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
+                        "search_time_s": 0.0013799667358398438,
                         "cached": false
                     }
                 },
@@ -3037,18 +3047,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
+                        "search_time_s": 0.0013799667358398438,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.512765884399414,
+                "response_time_ms": 1.5747547149658203,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1168,
+                940,
+                960
+            ]
         }
     },
     {
@@ -3103,7 +3118,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009698867797851562,
+                        "search_time_s": 0.0008866786956787109,
                         "cached": false
                     }
                 },
@@ -3119,18 +3134,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009698867797851562,
+                        "search_time_s": 0.0008866786956787109,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 1.157522201538086,
+                "response_time_ms": 1.0783672332763672,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                329,
+                608
+            ]
         }
     },
     {
@@ -3187,42 +3206,46 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0007839202880859375,
+                        "search_time_s": 0.0008721351623535156,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.9217262268066406,
+                "response_time_ms": 1.0633468627929688,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                406,
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
         "data": {
-            "query": "Smoking Scotland regulations",
+            "query": "fighting smoke",
             "processed_info": {
-                "original_query": "Smoking Scotland regulations",
-                "processed_query": "Smoking Scotland regulations",
-                "optimized_query": "Smoking Scotland regulations",
+                "original_query": "fighting smoke",
+                "processed_query": "fighting smoke",
+                "optimized_query": "fighting smoke",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
-                    "word_count": 3,
+                    "word_count": 2,
                     "words": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ]
                 },
                 "components": {
                     "terms": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ],
                     "phrases": [],
                     "field_queries": [],
@@ -3235,15 +3258,69 @@
                     "warnings": []
                 }
             },
-            "total_results": 0,
-            "results": [],
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "2160",
+                    "title": "US seeks new $280bn smoker ruling",
+                    "snippet": "<b>fight</b> <b>smoking</b>. \"It's pretty clear that they've suffered",
+                    "score": 0.053337805,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "2127",
+                    "title": "Tobacco giants hail court ruling",
+                    "snippet": "<b>smoking</b> groups urge the government to <b>fight</b> on, but the Justice",
+                    "score": 0.04559035,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "299",
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 1.896094e-16,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": false
+                    }
+                }
+            ],
             "metrics": {
-                "response_time_ms": 0.47206878662109375,
+                "response_time_ms": 2.2246837615966797,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
@@ -3300,7 +3377,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
+                        "search_time_s": 0.48328685760498047,
                         "cached": false
                     }
                 },
@@ -3316,7 +3393,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
+                        "search_time_s": 0.48328685760498047,
                         "cached": false
                     }
                 },
@@ -3332,18 +3409,26 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
+                        "search_time_s": 0.48328685760498047,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 492.40899085998535,
+                "response_time_ms": 483.6106300354004,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                399,
+                407,
+                411,
+                747,
+                1833,
+                2095
+            ]
         }
     },
     {
@@ -3398,18 +3483,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0006799697875976562,
+                        "search_time_s": 0.0007059574127197266,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.8654594421386719,
+                "response_time_ms": 0.8993148803710938,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                0,
+                2113,
+                1767
+            ]
         }
     },
     {
@@ -3464,7 +3553,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 },
@@ -3480,7 +3569,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 },
@@ -3496,36 +3585,42 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 7.483005523681641,
+                "response_time_ms": 6.888151168823242,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                975,
+                1112,
+                1430,
+                1433,
+                1455
+            ]
         }
     },
     {
         "data": {
-            "query": "Internet privacy and security",
+            "query": "Internet privacy security",
             "processed_info": {
-                "original_query": "Internet privacy and security",
-                "processed_query": "Internet privacy AND security",
-                "optimized_query": "Internet privacy AND security",
-                "query_type": "boolean",
+                "original_query": "Internet privacy security",
+                "processed_query": "Internet privacy security",
+                "optimized_query": "Internet privacy security",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -3535,9 +3630,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -3560,115 +3653,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0005896091461181641,
+                        "search_time_s": 0.0006549358367919922,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.7894039154052734,
+                "response_time_ms": 0.9131431579589844,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Election campaigns and government politics",
-            "processed_info": {
-                "original_query": "Election campaigns and government politics",
-                "processed_query": "Election campaigns AND government politics",
-                "optimized_query": "Election campaigns AND government politics",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Election",
-                        "campaigns",
-                        "government",
-                        "politics"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "351",
-                    "title": "Campbell returns to election team",
-                    "snippet": "<b>politics</b> is written about,\" Ms Jowell added. \"There's room for everybody. We serve the country better if we make room for all the talent.\" A Labour source told",
-                    "score": 0.118954465,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "364",
-                    "title": "Profile: Gordon Brown",
-                    "snippet": "<b>election</b> <b>campaign</b>, he is said to have worked an average of 18 hours a day, six days a week after running on a treadmill for an hour each morning.\n \n This",
-                    "score": 0.109698065,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "15",
-                    "title": "Brown targets OAPs and homebuyers",
-                    "snippet": "<b>campaign</b>.\n \n \"This <b>government</b> and this chancellor have run out of solutions to the problems Britain faces,\" Mr Howard told MPs. \"Their only answer is to tax, to spend",
-                    "score": 0.10525587,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 1.7766952514648438,
-                "engine_used": "PostgreSQL with Cache Density"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1083,
+                1226
+            ]
         }
     },
     {
@@ -3725,7 +3725,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": true
                     }
                 },
@@ -3741,7 +3741,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": true
                     }
                 },
@@ -3757,20 +3757,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.1323223114013672,
+                "response_time_ms": 0.12469291687011719,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
             "relevant_docs": [
                 127,
-                368
+                137,
+                336,
+                368,
+                1981
             ]
         }
     },
@@ -3826,7 +3829,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 },
@@ -3842,7 +3845,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 },
@@ -3858,36 +3861,45 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.15282630920410156,
+                "response_time_ms": 0.21004676818847656,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                8,
+                16,
+                20,
+                37,
+                44,
+                147
+            ]
         }
     },
     {
         "data": {
-            "query": "Microsoft and Google internet services",
+            "query": "Microsoft Google internet services",
             "processed_info": {
-                "original_query": "Microsoft and Google internet services",
-                "processed_query": "Microsoft AND Google internet services",
-                "optimized_query": "Microsoft AND Google internet services",
-                "query_type": "boolean",
+                "original_query": "Microsoft Google internet services",
+                "processed_query": "Microsoft Google internet services",
+                "optimized_query": "Microsoft Google internet services",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -3898,9 +3910,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -3923,8 +3933,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
-                        "cached": false
+                        "search_time_s": 0.0013799667358398438,
+                        "cached": true
                     }
                 },
                 {
@@ -3939,8 +3949,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
-                        "cached": false
+                        "search_time_s": 0.0013799667358398438,
+                        "cached": true
                     }
                 },
                 {
@@ -3955,18 +3965,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
-                        "cached": false
+                        "search_time_s": 0.0013799667358398438,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.14066696166992188,
+                "response_time_ms": 0.11801719665527344,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1168,
+                940,
+                960
+            ]
         }
     },
     {
@@ -4021,7 +4036,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009698867797851562,
+                        "search_time_s": 0.0008866786956787109,
                         "cached": true
                     }
                 },
@@ -4037,18 +4052,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009698867797851562,
+                        "search_time_s": 0.0008866786956787109,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.11754035949707031,
+                "response_time_ms": 0.1277923583984375,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                329,
+                608
+            ]
         }
     },
     {
@@ -4105,7 +4124,284 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0007839202880859375,
+                        "search_time_s": 0.0008721351623535156,
+                        "cached": true
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.12922286987304688,
+                "engine_used": "PostgreSQL with Cache Density"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                406,
+                2191,
+                2160,
+                2127,
+                1782
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "fighting smoke",
+            "processed_info": {
+                "original_query": "fighting smoke",
+                "processed_query": "fighting smoke",
+                "optimized_query": "fighting smoke",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 2,
+                    "words": [
+                        "fighting",
+                        "smoke"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "fighting",
+                        "smoke"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "2160",
+                    "title": "US seeks new $280bn smoker ruling",
+                    "snippet": "<b>fight</b> <b>smoking</b>. \"It's pretty clear that they've suffered",
+                    "score": 0.053337805,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "2127",
+                    "title": "Tobacco giants hail court ruling",
+                    "snippet": "<b>smoking</b> groups urge the government to <b>fight</b> on, but the Justice",
+                    "score": 0.04559035,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "299",
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 1.896094e-16,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": true
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.2257823944091797,
+                "engine_used": "PostgreSQL with Cache Density"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                2191,
+                2160,
+                2127,
+                1782
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "content:Tony Blair",
+            "processed_info": {
+                "original_query": "content:Tony Blair",
+                "processed_query": "content:Tony Blair",
+                "optimized_query": "content:Tony Blair",
+                "query_type": "field",
+                "query_info": {
+                    "type": "field",
+                    "field_queries": [
+                        [
+                            "content",
+                            ":",
+                            "Tony"
+                        ]
+                    ],
+                    "primary_field": "content"
+                },
+                "components": {
+                    "terms": [
+                        "Blair"
+                    ],
+                    "phrases": [],
+                    "field_queries": [
+                        [
+                            "content",
+                            ":",
+                            "Tony"
+                        ]
+                    ],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "212",
+                    "title": "Conservative MP defects to Labour",
+                    "snippet": "<b>Tony</b> Blair declared himself \"delighted\", saying Mr Jackson would be warmly",
+                    "score": 0.012323892,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.48328685760498047,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "89",
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> Blair as prime minister.\n \n He said backing his party",
+                    "score": 0.011783153,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.48328685760498047,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "216",
+                    "title": "Kennedy questions trust of Blair",
+                    "snippet": "<b>Tony</b> Blair as prime minister.\n \n He said backing his party",
+                    "score": 0.011783153,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.48328685760498047,
+                        "cached": false
+                    }
+                }
+            ],
+            "metrics": {
+                "response_time_ms": 0.1430511474609375,
+                "engine_used": "PostgreSQL with Cache Density"
+            },
+            "status": "success",
+            "errors": [],
+            "relevant_docs": [
+                1,
+                399,
+                407,
+                411,
+                747,
+                1833,
+                2095
+            ]
+        }
+    },
+    {
+        "data": {
+            "query": "Stamp duty property prices UK",
+            "processed_info": {
+                "original_query": "Stamp duty property prices UK",
+                "processed_query": "Stamp duty property prices UK",
+                "optimized_query": "Stamp duty property prices UK",
+                "query_type": "simple",
+                "query_info": {
+                    "type": "simple",
+                    "word_count": 5,
+                    "words": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices",
+                        "UK"
+                    ]
+                },
+                "components": {
+                    "terms": [
+                        "Stamp",
+                        "duty",
+                        "property",
+                        "prices",
+                        "UK"
+                    ],
+                    "phrases": [],
+                    "field_queries": [],
+                    "operators": [],
+                    "wildcards": []
+                },
+                "validation": {
+                    "is_valid": true,
+                    "errors": [],
+                    "warnings": []
+                }
+            },
+            "total_results": 1,
+            "results": [
+                {
+                    "id": "0",
+                    "title": "Budget to set scene for election",
+                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than ÃÂ£60,000. Since then, average <b>UK</b> <b>property</b> <b>prices</b>",
+                    "score": 0.1286008,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.0007059574127197266,
                         "cached": true
                     }
                 }
@@ -4116,218 +4412,11 @@
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Smoking Scotland regulations",
-            "processed_info": {
-                "original_query": "Smoking Scotland regulations",
-                "processed_query": "Smoking Scotland regulations",
-                "optimized_query": "Smoking Scotland regulations",
-                "query_type": "simple",
-                "query_info": {
-                    "type": "simple",
-                    "word_count": 3,
-                    "words": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
-                    ]
-                },
-                "components": {
-                    "terms": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 0,
-            "results": [],
-            "metrics": {
-                "response_time_ms": 0.5083084106445312,
-                "engine_used": "PostgreSQL with Cache Density"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "content:Tony Blair",
-            "processed_info": {
-                "original_query": "content:Tony Blair",
-                "processed_query": "content:Tony Blair",
-                "optimized_query": "content:Tony Blair",
-                "query_type": "field",
-                "query_info": {
-                    "type": "field",
-                    "field_queries": [
-                        [
-                            "content",
-                            ":",
-                            "Tony"
-                        ]
-                    ],
-                    "primary_field": "content"
-                },
-                "components": {
-                    "terms": [
-                        "Blair"
-                    ],
-                    "phrases": [],
-                    "field_queries": [
-                        [
-                            "content",
-                            ":",
-                            "Tony"
-                        ]
-                    ],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "212",
-                    "title": "Conservative MP defects to Labour",
-                    "snippet": "<b>Tony</b> Blair declared himself \"delighted\", saying Mr Jackson would be warmly",
-                    "score": 0.012323892,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "89",
-                    "title": "Kennedy questions trust of Blair",
-                    "snippet": "<b>Tony</b> Blair as prime minister.\n \n He said backing his party",
-                    "score": 0.011783153,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "216",
-                    "title": "Kennedy questions trust of Blair",
-                    "snippet": "<b>Tony</b> Blair as prime minister.\n \n He said backing his party",
-                    "score": 0.011783153,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.1125335693359375,
-                "engine_used": "PostgreSQL with Cache Density"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Stamp duty property prices UK",
-            "processed_info": {
-                "original_query": "Stamp duty property prices UK",
-                "processed_query": "Stamp duty property prices UK",
-                "optimized_query": "Stamp duty property prices UK",
-                "query_type": "simple",
-                "query_info": {
-                    "type": "simple",
-                    "word_count": 5,
-                    "words": [
-                        "Stamp",
-                        "duty",
-                        "property",
-                        "prices",
-                        "UK"
-                    ]
-                },
-                "components": {
-                    "terms": [
-                        "Stamp",
-                        "duty",
-                        "property",
-                        "prices",
-                        "UK"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 1,
-            "results": [
-                {
-                    "id": "0",
-                    "title": "Budget to set scene for election",
-                    "snippet": "<b>stamp</b> <b>duty</b>, with close to half a million <b>properties</b>, in England and Wales alone, selling for less than ÃÂ£60,000. Since then, average <b>UK</b> <b>property</b> <b>prices</b>",
-                    "score": 0.1286008,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0006799697875976562,
-                        "cached": true
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.2346038818359375,
-                "engine_used": "PostgreSQL with Cache Density"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                0,
+                2113,
+                1767
+            ]
         }
     },
     {
@@ -4382,7 +4471,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 },
@@ -4398,7 +4487,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 },
@@ -4414,36 +4503,42 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.11777877807617188,
+                "response_time_ms": 0.1418590545654297,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                975,
+                1112,
+                1430,
+                1433,
+                1455
+            ]
         }
     },
     {
         "data": {
-            "query": "Internet privacy and security",
+            "query": "Internet privacy security",
             "processed_info": {
-                "original_query": "Internet privacy and security",
-                "processed_query": "Internet privacy AND security",
-                "optimized_query": "Internet privacy AND security",
-                "query_type": "boolean",
+                "original_query": "Internet privacy security",
+                "processed_query": "Internet privacy security",
+                "optimized_query": "Internet privacy security",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -4453,9 +4548,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -4478,115 +4571,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0005896091461181641,
-                        "cached": false
+                        "search_time_s": 0.0006549358367919922,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.12469291687011719,
+                "response_time_ms": 0.1423358917236328,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Election campaigns and government politics",
-            "processed_info": {
-                "original_query": "Election campaigns and government politics",
-                "processed_query": "Election campaigns AND government politics",
-                "optimized_query": "Election campaigns AND government politics",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Election",
-                        "campaigns",
-                        "government",
-                        "politics"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "351",
-                    "title": "Campbell returns to election team",
-                    "snippet": "<b>politics</b> is written about,\" Ms Jowell added. \"There's room for everybody. We serve the country better if we make room for all the talent.\" A Labour source told",
-                    "score": 0.118954465,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "364",
-                    "title": "Profile: Gordon Brown",
-                    "snippet": "<b>election</b> <b>campaign</b>, he is said to have worked an average of 18 hours a day, six days a week after running on a treadmill for an hour each morning.\n \n This",
-                    "score": 0.109698065,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "15",
-                    "title": "Brown targets OAPs and homebuyers",
-                    "snippet": "<b>campaign</b>.\n \n \"This <b>government</b> and this chancellor have run out of solutions to the problems Britain faces,\" Mr Howard told MPs. \"Their only answer is to tax, to spend",
-                    "score": 0.10525587,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.12135505676269531,
-                "engine_used": "PostgreSQL with Cache Density"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1083,
+                1226
+            ]
         }
     },
     {
@@ -4643,7 +4643,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": true
                     }
                 },
@@ -4659,7 +4659,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": true
                     }
                 },
@@ -4675,20 +4675,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0041120052337646484,
+                        "search_time_s": 0.0039713382720947266,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.15306472778320312,
+                "response_time_ms": 0.12350082397460938,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
             "relevant_docs": [
                 127,
-                368
+                137,
+                336,
+                368,
+                1981
             ]
         }
     },
@@ -4744,7 +4747,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 },
@@ -4760,7 +4763,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 },
@@ -4776,36 +4779,45 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4793853759765625,
+                        "search_time_s": 0.4705827236175537,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.12111663818359375,
+                "response_time_ms": 0.11944770812988281,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                8,
+                16,
+                20,
+                37,
+                44,
+                147
+            ]
         }
     },
     {
         "data": {
-            "query": "Microsoft and Google internet services",
+            "query": "Microsoft Google internet services",
             "processed_info": {
-                "original_query": "Microsoft and Google internet services",
-                "processed_query": "Microsoft AND Google internet services",
-                "optimized_query": "Microsoft AND Google internet services",
-                "query_type": "boolean",
+                "original_query": "Microsoft Google internet services",
+                "processed_query": "Microsoft Google internet services",
+                "optimized_query": "Microsoft Google internet services",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -4816,9 +4828,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -4841,8 +4851,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
-                        "cached": false
+                        "search_time_s": 0.0013799667358398438,
+                        "cached": true
                     }
                 },
                 {
@@ -4857,8 +4867,8 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
-                        "cached": false
+                        "search_time_s": 0.0013799667358398438,
+                        "cached": true
                     }
                 },
                 {
@@ -4873,18 +4883,23 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0013341903686523438,
-                        "cached": false
+                        "search_time_s": 0.0013799667358398438,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.09298324584960938,
+                "response_time_ms": 0.11587142944335938,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1168,
+                940,
+                960
+            ]
         }
     },
     {
@@ -4939,7 +4954,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009698867797851562,
+                        "search_time_s": 0.0008866786956787109,
                         "cached": true
                     }
                 },
@@ -4955,18 +4970,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0009698867797851562,
+                        "search_time_s": 0.0008866786956787109,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.11467933654785156,
+                "response_time_ms": 0.20956993103027344,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                329,
+                608
+            ]
         }
     },
     {
@@ -5023,42 +5042,46 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0007839202880859375,
+                        "search_time_s": 0.0008721351623535156,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.14829635620117188,
+                "response_time_ms": 0.12135505676269531,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                406,
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
         "data": {
-            "query": "Smoking Scotland regulations",
+            "query": "fighting smoke",
             "processed_info": {
-                "original_query": "Smoking Scotland regulations",
-                "processed_query": "Smoking Scotland regulations",
-                "optimized_query": "Smoking Scotland regulations",
+                "original_query": "fighting smoke",
+                "processed_query": "fighting smoke",
+                "optimized_query": "fighting smoke",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
-                    "word_count": 3,
+                    "word_count": 2,
                     "words": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ]
                 },
                 "components": {
                     "terms": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ],
                     "phrases": [],
                     "field_queries": [],
@@ -5071,15 +5094,69 @@
                     "warnings": []
                 }
             },
-            "total_results": 0,
-            "results": [],
+            "total_results": 3,
+            "results": [
+                {
+                    "id": "2160",
+                    "title": "US seeks new $280bn smoker ruling",
+                    "snippet": "<b>fight</b> <b>smoking</b>. \"It's pretty clear that they've suffered",
+                    "score": 0.053337805,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "2127",
+                    "title": "Tobacco giants hail court ruling",
+                    "snippet": "<b>smoking</b> groups urge the government to <b>fight</b> on, but the Justice",
+                    "score": 0.04559035,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": true
+                    }
+                },
+                {
+                    "id": "299",
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "<b>smoke</b>-screen for his anti-Islamism slurs which got him sacked from the television.\n \n I think that his views regarding immigration are shared by many. It really is time that",
+                    "score": 1.896094e-16,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "PostgreSQL Density",
+                        "search_time_s": 0.002047300338745117,
+                        "cached": true
+                    }
+                }
+            ],
             "metrics": {
-                "response_time_ms": 0.6272792816162109,
+                "response_time_ms": 0.12040138244628906,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
@@ -5136,7 +5213,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
+                        "search_time_s": 0.48328685760498047,
                         "cached": false
                     }
                 },
@@ -5152,7 +5229,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
+                        "search_time_s": 0.48328685760498047,
                         "cached": false
                     }
                 },
@@ -5168,18 +5245,26 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.4921426773071289,
+                        "search_time_s": 0.48328685760498047,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.12731552124023438,
+                "response_time_ms": 0.148773193359375,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                399,
+                407,
+                411,
+                747,
+                1833,
+                2095
+            ]
         }
     },
     {
@@ -5234,18 +5319,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0006799697875976562,
+                        "search_time_s": 0.0007059574127197266,
                         "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.17595291137695312,
+                "response_time_ms": 0.1087188720703125,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                0,
+                2113,
+                1767
+            ]
         }
     },
     {
@@ -5300,7 +5389,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 },
@@ -5316,7 +5405,7 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 },
@@ -5332,36 +5421,42 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.007185935974121094,
+                        "search_time_s": 0.006669759750366211,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.10538101196289062,
+                "response_time_ms": 0.12302398681640625,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                975,
+                1112,
+                1430,
+                1433,
+                1455
+            ]
         }
     },
     {
         "data": {
-            "query": "Internet privacy and security",
+            "query": "Internet privacy security",
             "processed_info": {
-                "original_query": "Internet privacy and security",
-                "processed_query": "Internet privacy AND security",
-                "optimized_query": "Internet privacy AND security",
-                "query_type": "boolean",
+                "original_query": "Internet privacy security",
+                "processed_query": "Internet privacy security",
+                "optimized_query": "Internet privacy security",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -5371,9 +5466,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -5396,115 +5489,22 @@
                     ],
                     "metadata": {
                         "source": "PostgreSQL Density",
-                        "search_time_s": 0.0005896091461181641,
-                        "cached": false
+                        "search_time_s": 0.0006549358367919922,
+                        "cached": true
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 0.1499652862548828,
+                "response_time_ms": 0.12636184692382812,
                 "engine_used": "PostgreSQL with Cache Density"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Election campaigns and government politics",
-            "processed_info": {
-                "original_query": "Election campaigns and government politics",
-                "processed_query": "Election campaigns AND government politics",
-                "optimized_query": "Election campaigns AND government politics",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Election",
-                        "campaigns",
-                        "government",
-                        "politics"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                }
-            },
-            "total_results": 3,
-            "results": [
-                {
-                    "id": "351",
-                    "title": "Campbell returns to election team",
-                    "snippet": "<b>politics</b> is written about,\" Ms Jowell added. \"There's room for everybody. We serve the country better if we make room for all the talent.\" A Labour source told",
-                    "score": 0.118954465,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "364",
-                    "title": "Profile: Gordon Brown",
-                    "snippet": "<b>election</b> <b>campaign</b>, he is said to have worked an average of 18 hours a day, six days a week after running on a treadmill for an hour each morning.\n \n This",
-                    "score": 0.109698065,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "15",
-                    "title": "Brown targets OAPs and homebuyers",
-                    "snippet": "<b>campaign</b>.\n \n \"This <b>government</b> and this chancellor have run out of solutions to the problems Britain faces,\" Mr Howard told MPs. \"Their only answer is to tax, to spend",
-                    "score": 0.10525587,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "PostgreSQL Density",
-                        "search_time_s": 0.0015811920166015625,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 0.0972747802734375,
-                "engine_used": "PostgreSQL with Cache Density"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1083,
+                1226
+            ]
         }
     }
 ]

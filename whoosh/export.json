@@ -55,7 +55,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01900172233581543,
+                        "search_time_s": 0.019159555435180664,
                         "cached": false
                     }
                 },
@@ -71,7 +71,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01900172233581543,
+                        "search_time_s": 0.019159555435180664,
                         "cached": false
                     }
                 },
@@ -87,7 +87,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01900172233581543,
+                        "search_time_s": 0.019159555435180664,
                         "cached": false
                     }
                 },
@@ -103,7 +103,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01900172233581543,
+                        "search_time_s": 0.019159555435180664,
                         "cached": false
                     }
                 },
@@ -119,20 +119,23 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01900172233581543,
+                        "search_time_s": 0.019159555435180664,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 19.201040267944336,
+                "response_time_ms": 19.3636417388916,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
             "relevant_docs": [
                 127,
-                368
+                137,
+                336,
+                368,
+                1981
             ]
         }
     },
@@ -188,7 +191,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014312505722045898,
+                        "search_time_s": 0.01357269287109375,
                         "cached": false
                     }
                 },
@@ -202,7 +205,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014312505722045898,
+                        "search_time_s": 0.01357269287109375,
                         "cached": false
                     }
                 },
@@ -216,7 +219,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014312505722045898,
+                        "search_time_s": 0.01357269287109375,
                         "cached": false
                     }
                 },
@@ -230,7 +233,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014312505722045898,
+                        "search_time_s": 0.01357269287109375,
                         "cached": false
                     }
                 },
@@ -244,37 +247,46 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014312505722045898,
+                        "search_time_s": 0.01357269287109375,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 14.51873779296875,
+                "response_time_ms": 13.79251480102539,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                8,
+                16,
+                20,
+                37,
+                44,
+                147
+            ]
         }
     },
     {
         "data": {
-            "query": "Microsoft and Google internet services",
+            "query": "Microsoft Google internet services",
             "processed_info": {
-                "original_query": "Microsoft and Google internet services",
-                "processed_query": "Microsoft AND Google internet services",
-                "optimized_query": "Microsoft AND Google internet services",
-                "whoosh_query": "((title:microsoft OR text:microsoft OR combined_text:microsoft) AND (title:googl OR text:googl OR combined_text:googl) AND (title:internet OR text:internet OR combined_text:internet) AND (title:servic OR text:servic OR combined_text:servic))",
-                "query_type": "boolean",
+                "original_query": "Microsoft Google internet services",
+                "processed_query": "Microsoft Google internet services",
+                "optimized_query": "microsoft google internet services",
+                "whoosh_query": "(title:microsoft OR text:microsoft OR combined_text:microsoft OR title:googl OR text:googl OR combined_text:googl OR title:internet OR text:internet OR combined_text:internet OR title:servic OR text:servic OR combined_text:servic)",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -285,9 +297,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -297,8 +307,24 @@
                 },
                 "suggestions": []
             },
-            "total_results": 3,
+            "total_results": 5,
             "results": [
+                {
+                    "id": "982",
+                    "title": "Google's toolbar sparks concern",
+                    "snippet": "Search engine firm Google has released a trial tool which is concerning some net users because it directs people to pre-selected commercial websites.\n \n The AutoLink feature comes with Google's latest...",
+                    "score": 187.12298487692289,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Frequency",
+                        "search_time_s": 0.015950918197631836,
+                        "cached": false
+                    }
+                },
                 {
                     "id": "1045",
                     "title": "Can Yahoo dominate next decade?",
@@ -311,15 +337,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.013073205947875977,
+                        "search_time_s": 0.015950918197631836,
                         "cached": false
                     }
                 },
                 {
-                    "id": "1177",
-                    "title": "The year search became personal",
-                    "snippet": "The odds are that when you fire up your browser, you go straight to your favourite search engine, rather than type in a web address.\n \n Some may see this as the height of laziness, but in an era of in...",
-                    "score": 117.49188967219317,
+                    "id": "1168",
+                    "title": "Search wars hit desktop PCs",
+                    "snippet": "Another front in the on-going battle between Microsoft and Google is about to be opened.\n \n By the end of 2004 Microsoft aims to launch search software to find any kind of file on a PC hard drive. The...",
+                    "score": 136.08684191898035,
                     "matched_fields": [
                         "title",
                         "content",
@@ -327,15 +353,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.013073205947875977,
+                        "search_time_s": 0.015950918197631836,
                         "cached": false
                     }
                 },
                 {
-                    "id": "1307",
-                    "title": "Yahoo moves into desktop search",
-                    "snippet": "Internet giant Yahoo has launched software to allow people to search e-mail and other files on their PCs.\n \n The firm is following in the footsteps of Microsoft, Google and Ask Jeeves, which have offe...",
-                    "score": 70.0596738695621,
+                    "id": "1056",
+                    "title": "Google launches TV search service",
+                    "snippet": "The net search giant Google has launched a search service that lets people look for TV programmes.\n \n The service, Google Video beta, searches closed caption information that comes with programmes. It...",
+                    "score": 135.1520321341811,
                     "matched_fields": [
                         "title",
                         "content",
@@ -343,18 +369,39 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.013073205947875977,
+                        "search_time_s": 0.015950918197631836,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "1152",
+                    "title": "China 'blocks Google news site'",
+                    "snippet": "China has been accused of blocking access to Google News by the media watchdog, Reporters Without Borders.\n \n The Paris-based pressure group said the English-language news site had been unavailable fo...",
+                    "score": 128.8145663977128,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Frequency",
+                        "search_time_s": 0.015950918197631836,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 15.851497650146484,
+                "response_time_ms": 16.160011291503906,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1168,
+                940,
+                960
+            ]
         }
     },
     {
@@ -411,7 +458,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015668630599975586,
+                        "search_time_s": 0.014975547790527344,
                         "cached": false
                     }
                 },
@@ -427,7 +474,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015668630599975586,
+                        "search_time_s": 0.014975547790527344,
                         "cached": false
                     }
                 },
@@ -443,7 +490,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015668630599975586,
+                        "search_time_s": 0.014975547790527344,
                         "cached": false
                     }
                 },
@@ -459,7 +506,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015668630599975586,
+                        "search_time_s": 0.014975547790527344,
                         "cached": false
                     }
                 },
@@ -475,18 +522,22 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015668630599975586,
+                        "search_time_s": 0.014975547790527344,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 15.93637466430664,
+                "response_time_ms": 15.16413688659668,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                329,
+                608
+            ]
         }
     },
     {
@@ -545,7 +596,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016062259674072266,
+                        "search_time_s": 0.01654338836669922,
                         "cached": false
                     }
                 },
@@ -561,7 +612,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016062259674072266,
+                        "search_time_s": 0.01654338836669922,
                         "cached": false
                     }
                 },
@@ -577,7 +628,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016062259674072266,
+                        "search_time_s": 0.01654338836669922,
                         "cached": false
                     }
                 },
@@ -593,7 +644,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016062259674072266,
+                        "search_time_s": 0.01654338836669922,
                         "cached": false
                     }
                 },
@@ -609,43 +660,47 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016062259674072266,
+                        "search_time_s": 0.01654338836669922,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.303539276123047,
+                "response_time_ms": 16.770362854003906,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                406,
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
         "data": {
-            "query": "Smoking Scotland regulations",
+            "query": "fighting smoke",
             "processed_info": {
-                "original_query": "Smoking Scotland regulations",
-                "processed_query": "Smoking Scotland regulations",
-                "optimized_query": "smoking scotland regulations",
-                "whoosh_query": "(title:smoke OR text:smoke OR combined_text:smoke OR title:scotland OR text:scotland OR combined_text:scotland OR title:regul OR text:regul OR combined_text:regul)",
+                "original_query": "fighting smoke",
+                "processed_query": "fighting smoke",
+                "optimized_query": "fighting smoke",
+                "whoosh_query": "(title:fight OR text:fight OR combined_text:fight OR title:smoke OR text:smoke OR combined_text:smoke)",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
-                    "word_count": 3,
+                    "word_count": 2,
                     "words": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ]
                 },
                 "components": {
                     "terms": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ],
                     "phrases": [],
                     "field_queries": [],
@@ -665,7 +720,7 @@
                     "id": "406",
                     "title": "Scots smoking ban details set out",
                     "snippet": "Smoke-free areas will save lives and improve Scotland's health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive ban\" on smoking in pub...",
-                    "score": 222.60796094262912,
+                    "score": 176.7114376784615,
                     "matched_fields": [
                         "title",
                         "content",
@@ -673,15 +728,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014605045318603516,
+                        "search_time_s": 0.014396905899047852,
                         "cached": false
                     }
                 },
                 {
-                    "id": "940",
-                    "title": "Net regulation 'still possible'",
-                    "snippet": "The blurring of boundaries between TV and the internet raises questions of regulation, watchdog Ofcom has said.\n \n Content on TV and the internet is set to move closer this year as TV-quality video on...",
-                    "score": 123.7303094840066,
+                    "id": "2160",
+                    "title": "US seeks new $280bn smoker ruling",
+                    "snippet": "The US Justice Department is to try to overturn a court ruling that threw out its claim for $280bn (ÃÂ£149bn) in damages from tobacco firms.\n \n Earlier this month, a three-judge appeal court panel re...",
+                    "score": 72.68876267777566,
                     "matched_fields": [
                         "title",
                         "content",
@@ -689,15 +744,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014605045318603516,
+                        "search_time_s": 0.014396905899047852,
                         "cached": false
                     }
                 },
                 {
-                    "id": "515",
-                    "title": "Scotland 18-10 Italy",
-                    "snippet": "Six Chris Paterson penalties gave Scotland victory in a dour but clinical encounter against Italy at Murrayfield.\n \n Coach Matt Williams' side were outmuscled and outplayed in a tense first half but l...",
-                    "score": 71.648145277158,
+                    "id": "2127",
+                    "title": "Tobacco giants hail court ruling",
+                    "snippet": "US tobacco companies have welcomed an appeal court's decision to reject the government's $280bn (ÃÂ£155bn) claim for alleged deceit about smoking dangers.\n \n Tobacco stocks rose sharply on Wall Stree...",
+                    "score": 53.795802649000365,
                     "matched_fields": [
                         "title",
                         "content",
@@ -705,7 +760,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014605045318603516,
+                        "search_time_s": 0.014396905899047852,
                         "cached": false
                     }
                 },
@@ -713,7 +768,7 @@
                     "id": "2191",
                     "title": "China bans new tobacco factories",
                     "snippet": "The world's biggest tobacco consumer, China, has said it will not allow any new tobacco factories to be built.\n \n China already has more than enough cigarette-making capacity, according to a spokesman...",
-                    "score": 63.74029528297776,
+                    "score": 46.53712349363341,
                     "matched_fields": [
                         "title",
                         "content",
@@ -721,15 +776,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014605045318603516,
+                        "search_time_s": 0.014396905899047852,
                         "cached": false
                     }
                 },
                 {
-                    "id": "307",
-                    "title": "Student 'fee factor' played down",
-                    "snippet": "A rise has been recorded in the number of students from south of the border applying to universities in Scotland.\n \n However, Lifelong Learning Minister Jim Wallace said that this would not result in ...",
-                    "score": 61.195364352223514,
+                    "id": "299",
+                    "title": "Kilroy launches 'Veritas' party",
+                    "snippet": "Ex-BBC chat show host and East Midlands MEP Robert Kilroy-Silk said he wanted to \"change the face of British politics\" as he launched his new party. Mr Kilroy-Silk, who recently quit the UK Independen...",
+                    "score": 40.668997494876166,
                     "matched_fields": [
                         "title",
                         "content",
@@ -737,18 +792,23 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.014605045318603516,
+                        "search_time_s": 0.014396905899047852,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 14.959335327148438,
+                "response_time_ms": 14.665365219116211,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
@@ -805,7 +865,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01314854621887207,
+                        "search_time_s": 0.015228271484375,
                         "cached": false
                     }
                 },
@@ -819,7 +879,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01314854621887207,
+                        "search_time_s": 0.015228271484375,
                         "cached": false
                     }
                 },
@@ -833,7 +893,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01314854621887207,
+                        "search_time_s": 0.015228271484375,
                         "cached": false
                     }
                 },
@@ -847,7 +907,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01314854621887207,
+                        "search_time_s": 0.015228271484375,
                         "cached": false
                     }
                 },
@@ -861,18 +921,26 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.01314854621887207,
+                        "search_time_s": 0.015228271484375,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 13.350248336791992,
+                "response_time_ms": 15.435934066772461,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                399,
+                407,
+                411,
+                747,
+                1833,
+                2095
+            ]
         }
     },
     {
@@ -929,7 +997,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016857624053955078,
+                        "search_time_s": 0.016840457916259766,
                         "cached": false
                     }
                 },
@@ -945,7 +1013,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016857624053955078,
+                        "search_time_s": 0.016840457916259766,
                         "cached": false
                     }
                 },
@@ -961,7 +1029,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016857624053955078,
+                        "search_time_s": 0.016840457916259766,
                         "cached": false
                     }
                 },
@@ -977,7 +1045,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016857624053955078,
+                        "search_time_s": 0.016840457916259766,
                         "cached": false
                     }
                 },
@@ -993,18 +1061,22 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.016857624053955078,
+                        "search_time_s": 0.016840457916259766,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.1506404876709,
+                "response_time_ms": 17.11273193359375,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                0,
+                2113,
+                1767
+            ]
         }
     },
     {
@@ -1059,7 +1131,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.013272762298583984,
+                        "search_time_s": 0.013066530227661133,
                         "cached": false
                     }
                 },
@@ -1073,7 +1145,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.013272762298583984,
+                        "search_time_s": 0.013066530227661133,
                         "cached": false
                     }
                 },
@@ -1087,7 +1159,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.013272762298583984,
+                        "search_time_s": 0.013066530227661133,
                         "cached": false
                     }
                 },
@@ -1101,7 +1173,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.013272762298583984,
+                        "search_time_s": 0.013066530227661133,
                         "cached": false
                     }
                 },
@@ -1115,37 +1187,43 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.013272762298583984,
+                        "search_time_s": 0.013066530227661133,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 13.497591018676758,
+                "response_time_ms": 13.303756713867188,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                975,
+                1112,
+                1430,
+                1433,
+                1455
+            ]
         }
     },
     {
         "data": {
-            "query": "Internet privacy and security",
+            "query": "Internet privacy security",
             "processed_info": {
-                "original_query": "Internet privacy and security",
-                "processed_query": "Internet privacy AND security",
-                "optimized_query": "Internet privacy AND security",
-                "whoosh_query": "((title:internet OR text:internet OR combined_text:internet) AND (title:privaci OR text:privaci OR combined_text:privaci) AND (title:secur OR text:secur OR combined_text:secur))",
-                "query_type": "boolean",
+                "original_query": "Internet privacy security",
+                "processed_query": "Internet privacy security",
+                "optimized_query": "internet privacy security",
+                "whoosh_query": "(title:internet OR text:internet OR combined_text:internet OR title:privaci OR text:privaci OR combined_text:privaci OR title:secur OR text:secur OR combined_text:secur)",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -1155,76 +1233,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                },
-                "suggestions": []
-            },
-            "total_results": 1,
-            "results": [
-                {
-                    "id": "990",
-                    "title": "Microsoft plans 'safer ID' system",
-                    "snippet": "Microsoft is planning to make Windows and Internet Explorer more secure by including software to give people more control over personal information.\n \n \"Info cards\" will help people manage personal de...",
-                    "score": 76.85920250213623,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Frequency",
-                        "search_time_s": 0.012398958206176758,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 15.02680778503418,
-                "engine_used": "Whoosh (Frequency)"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Election campaigns and government politics",
-            "processed_info": {
-                "original_query": "Election campaigns and government politics",
-                "processed_query": "Election campaigns AND government politics",
-                "optimized_query": "Election campaigns AND government politics",
-                "whoosh_query": "((title:elect OR text:elect OR combined_text:elect) AND (title:campaign OR text:campaign OR combined_text:campaign) AND (title:govern OR text:govern OR combined_text:govern) AND (title:polit OR text:polit OR combined_text:polit))",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Election",
-                        "campaigns",
-                        "government",
-                        "politics"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -1237,10 +1246,10 @@
             "total_results": 5,
             "results": [
                 {
-                    "id": "299",
-                    "title": "Kilroy launches 'Veritas' party",
-                    "snippet": "Ex-BBC chat show host and East Midlands MEP Robert Kilroy-Silk said he wanted to \"change the face of British politics\" as he launched his new party. Mr Kilroy-Silk, who recently quit the UK Independen...",
-                    "score": 161.58229491542076,
+                    "id": "983",
+                    "title": "Solutions to net security fears",
+                    "snippet": "Fake bank e-mails, or phishing, and stories about ID theft are damaging the potential of using the net for online commerce, say e-business experts.\n \n Trust in online security is falling as a result. ...",
+                    "score": 102.06208706978683,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1248,15 +1257,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015256166458129883,
+                        "search_time_s": 0.014992475509643555,
                         "cached": false
                     }
                 },
                 {
-                    "id": "85",
-                    "title": "What the election should really be about?",
-                    "snippet": "A general election is the best chance most pressure groups get to make a real impact on government policy. Here is how six leading lobbies plan to make sure their cause is being debated ahead of an ex...",
-                    "score": 118.23373020447212,
+                    "id": "1083",
+                    "title": "Security scares spark browser fix",
+                    "snippet": "Microsoft is working on a new version of its Internet Explorer web browser.\n \n The revamp has been prompted by Microsoft's growing concern with security as well as increased competition from rival bro...",
+                    "score": 81.85730693675016,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1264,15 +1273,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015256166458129883,
+                        "search_time_s": 0.014992475509643555,
                         "cached": false
                     }
                 },
                 {
-                    "id": "364",
-                    "title": "Profile: Gordon Brown",
-                    "snippet": "The ultimate prize of 10 Downing Street may continue to elude him but, as he prepares to deliver a record-breaking ninth budget, Gordon Brown can at least console himself with the thought that he is t...",
-                    "score": 116.60736472039743,
+                    "id": "990",
+                    "title": "Microsoft plans 'safer ID' system",
+                    "snippet": "Microsoft is planning to make Windows and Internet Explorer more secure by including software to give people more control over personal information.\n \n \"Info cards\" will help people manage personal de...",
+                    "score": 76.85920250213623,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1280,15 +1289,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015256166458129883,
+                        "search_time_s": 0.014992475509643555,
                         "cached": false
                     }
                 },
                 {
-                    "id": "1719",
-                    "title": "World leaders gather to face uncertainty",
-                    "snippet": "More than 2,000 business and political leaders from around the globe are arriving in the Swiss mountain resort Davos for the annual World Economic Forum (WEF). For five days, they will discuss issues ...",
-                    "score": 90.65065197710601,
+                    "id": "1015",
+                    "title": "UK gets official virus alert site",
+                    "snippet": "A rapid alerting service that tells home computer users about serious internet security problems is being launched by the UK government.\n \n The service, IT Safe, will issue warnings about damaging vir...",
+                    "score": 75.63561305490073,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1296,15 +1305,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015256166458129883,
+                        "search_time_s": 0.014992475509643555,
                         "cached": false
                     }
                 },
                 {
-                    "id": "194",
-                    "title": "Labour MPs' fears over squabbling",
-                    "snippet": "If there is one thing certain to stiffen the spines of Labour MPs it is the prospect of losing their seats at a general election.\n \n And it was largely that fear that led to Tony Blair and Gordon Brow...",
-                    "score": 89.18794723333022,
+                    "id": "940",
+                    "title": "Net regulation 'still possible'",
+                    "snippet": "The blurring of boundaries between TV and the internet raises questions of regulation, watchdog Ofcom has said.\n \n Content on TV and the internet is set to move closer this year as TV-quality video on...",
+                    "score": 71.97091126943558,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1312,18 +1321,22 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Frequency",
-                        "search_time_s": 0.015256166458129883,
+                        "search_time_s": 0.014992475509643555,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.960548400878906,
+                "response_time_ms": 15.19632339477539,
                 "engine_used": "Whoosh (Frequency)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1083,
+                1226
+            ]
         }
     },
     {
@@ -1382,7 +1395,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017001628875732422,
+                        "search_time_s": 0.017774105072021484,
                         "cached": false
                     }
                 },
@@ -1398,7 +1411,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017001628875732422,
+                        "search_time_s": 0.017774105072021484,
                         "cached": false
                     }
                 },
@@ -1414,7 +1427,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017001628875732422,
+                        "search_time_s": 0.017774105072021484,
                         "cached": false
                     }
                 },
@@ -1430,7 +1443,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017001628875732422,
+                        "search_time_s": 0.017774105072021484,
                         "cached": false
                     }
                 },
@@ -1446,20 +1459,23 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017001628875732422,
+                        "search_time_s": 0.017774105072021484,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.205238342285156,
+                "response_time_ms": 18.108129501342773,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
             "relevant_docs": [
                 127,
-                368
+                137,
+                336,
+                368,
+                1981
             ]
         }
     },
@@ -1515,7 +1531,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.014649629592895508,
+                        "search_time_s": 0.014323949813842773,
                         "cached": false
                     }
                 },
@@ -1529,7 +1545,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.014649629592895508,
+                        "search_time_s": 0.014323949813842773,
                         "cached": false
                     }
                 },
@@ -1543,7 +1559,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.014649629592895508,
+                        "search_time_s": 0.014323949813842773,
                         "cached": false
                     }
                 },
@@ -1557,7 +1573,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.014649629592895508,
+                        "search_time_s": 0.014323949813842773,
                         "cached": false
                     }
                 },
@@ -1571,37 +1587,46 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.014649629592895508,
+                        "search_time_s": 0.014323949813842773,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 14.842033386230469,
+                "response_time_ms": 14.541387557983398,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                8,
+                16,
+                20,
+                37,
+                44,
+                147
+            ]
         }
     },
     {
         "data": {
-            "query": "Microsoft and Google internet services",
+            "query": "Microsoft Google internet services",
             "processed_info": {
-                "original_query": "Microsoft and Google internet services",
-                "processed_query": "Microsoft AND Google internet services",
-                "optimized_query": "Microsoft AND Google internet services",
-                "whoosh_query": "((title:microsoft OR text:microsoft OR combined_text:microsoft) AND (title:googl OR text:googl OR combined_text:googl) AND (title:internet OR text:internet OR combined_text:internet) AND (title:servic OR text:servic OR combined_text:servic))",
-                "query_type": "boolean",
+                "original_query": "Microsoft Google internet services",
+                "processed_query": "Microsoft Google internet services",
+                "optimized_query": "microsoft google internet services",
+                "whoosh_query": "(title:microsoft OR text:microsoft OR combined_text:microsoft OR title:googl OR text:googl OR combined_text:googl OR title:internet OR text:internet OR combined_text:internet OR title:servic OR text:servic OR combined_text:servic)",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 4,
+                    "words": [
+                        "Microsoft",
+                        "Google",
+                        "internet",
+                        "services"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -1612,9 +1637,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -1624,13 +1647,45 @@
                 },
                 "suggestions": []
             },
-            "total_results": 3,
+            "total_results": 5,
             "results": [
+                {
+                    "id": "982",
+                    "title": "Google's toolbar sparks concern",
+                    "snippet": "Search engine firm Google has released a trial tool which is concerning some net users because it directs people to pre-selected commercial websites.\n \n The AutoLink feature comes with Google's latest...",
+                    "score": 49.363384794013996,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.0168304443359375,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "1074",
+                    "title": "Microsoft takes on desktop search",
+                    "snippet": "Microsoft has entered the desktop search fray, releasing a test version of its tool to find documents, e-mails and other files on a PC hard drive.\n \n The beta program only works on PCs running Windows...",
+                    "score": 48.008904196981,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.0168304443359375,
+                        "cached": false
+                    }
+                },
                 {
                     "id": "1177",
                     "title": "The year search became personal",
                     "snippet": "The odds are that when you fire up your browser, you go straight to your favourite search engine, rather than type in a web address.\n \n Some may see this as the height of laziness, but in an era of in...",
-                    "score": 47.92284720021733,
+                    "score": 47.92284720021734,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1638,15 +1693,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.014655590057373047,
+                        "search_time_s": 0.0168304443359375,
                         "cached": false
                     }
                 },
                 {
-                    "id": "1045",
-                    "title": "Can Yahoo dominate next decade?",
-                    "snippet": "Yahoo has reached the grand old age of 10 and, in internet years, that is a long time.\n \n For many, Yahoo remains synonymous with the internet - a veteran that managed to ride the dot-com wave and the...",
-                    "score": 44.39434941895681,
+                    "id": "977",
+                    "title": "Microsoft gets the blogging bug",
+                    "snippet": "Software giant Microsoft is taking the plunge into the world of blogging.\n \n It is launching a test service to allow people to publish blogs, or online journals, called MSN Spaces. Microsoft is traili...",
+                    "score": 47.16618100611657,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1654,15 +1709,15 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.014655590057373047,
+                        "search_time_s": 0.0168304443359375,
                         "cached": false
                     }
                 },
                 {
-                    "id": "1307",
-                    "title": "Yahoo moves into desktop search",
-                    "snippet": "Internet giant Yahoo has launched software to allow people to search e-mail and other files on their PCs.\n \n The firm is following in the footsteps of Microsoft, Google and Ask Jeeves, which have offe...",
-                    "score": 43.923494841181444,
+                    "id": "1318",
+                    "title": "Microsoft gets the blogging bug",
+                    "snippet": "Software giant Microsoft is taking the plunge into the world of blogging.\n \n It is launching a test service to allow people to publish blogs, or online journals, called MSN Spaces. Microsoft is traili...",
+                    "score": 47.16618100611657,
                     "matched_fields": [
                         "title",
                         "content",
@@ -1670,18 +1725,23 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.014655590057373047,
+                        "search_time_s": 0.0168304443359375,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.361164093017578,
+                "response_time_ms": 17.103910446166992,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1168,
+                940,
+                960
+            ]
         }
     },
     {
@@ -1738,7 +1798,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01608419418334961,
+                        "search_time_s": 0.016209840774536133,
                         "cached": false
                     }
                 },
@@ -1754,7 +1814,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01608419418334961,
+                        "search_time_s": 0.016209840774536133,
                         "cached": false
                     }
                 },
@@ -1770,7 +1830,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01608419418334961,
+                        "search_time_s": 0.016209840774536133,
                         "cached": false
                     }
                 },
@@ -1786,7 +1846,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01608419418334961,
+                        "search_time_s": 0.016209840774536133,
                         "cached": false
                     }
                 },
@@ -1802,18 +1862,22 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01608419418334961,
+                        "search_time_s": 0.016209840774536133,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 16.304969787597656,
+                "response_time_ms": 16.40939712524414,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                329,
+                608
+            ]
         }
     },
     {
@@ -1872,7 +1936,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.019118785858154297,
+                        "search_time_s": 0.018945932388305664,
                         "cached": false
                     }
                 },
@@ -1888,7 +1952,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.019118785858154297,
+                        "search_time_s": 0.018945932388305664,
                         "cached": false
                     }
                 },
@@ -1904,7 +1968,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.019118785858154297,
+                        "search_time_s": 0.018945932388305664,
                         "cached": false
                     }
                 },
@@ -1920,7 +1984,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.019118785858154297,
+                        "search_time_s": 0.018945932388305664,
                         "cached": false
                     }
                 },
@@ -1936,43 +2000,47 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.019118785858154297,
+                        "search_time_s": 0.018945932388305664,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 19.329071044921875,
+                "response_time_ms": 19.201993942260742,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                406,
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
         "data": {
-            "query": "Smoking Scotland regulations",
+            "query": "fighting smoke",
             "processed_info": {
-                "original_query": "Smoking Scotland regulations",
-                "processed_query": "Smoking Scotland regulations",
-                "optimized_query": "smoking scotland regulations",
-                "whoosh_query": "(title:smoke OR text:smoke OR combined_text:smoke OR title:scotland OR text:scotland OR combined_text:scotland OR title:regul OR text:regul OR combined_text:regul)",
+                "original_query": "fighting smoke",
+                "processed_query": "fighting smoke",
+                "optimized_query": "fighting smoke",
+                "whoosh_query": "(title:fight OR text:fight OR combined_text:fight OR title:smoke OR text:smoke OR combined_text:smoke)",
                 "query_type": "simple",
                 "query_info": {
                     "type": "simple",
-                    "word_count": 3,
+                    "word_count": 2,
                     "words": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ]
                 },
                 "components": {
                     "terms": [
-                        "Smoking",
-                        "Scotland",
-                        "regulations"
+                        "fighting",
+                        "smoke"
                     ],
                     "phrases": [],
                     "field_queries": [],
@@ -1989,10 +2057,10 @@
             "total_results": 5,
             "results": [
                 {
-                    "id": "406",
-                    "title": "Scots smoking ban details set out",
-                    "snippet": "Smoke-free areas will save lives and improve Scotland's health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive ban\" on smoking in pub...",
-                    "score": 42.57121451778148,
+                    "id": "2160",
+                    "title": "US seeks new $280bn smoker ruling",
+                    "snippet": "The US Justice Department is to try to overturn a court ruling that threw out its claim for $280bn (ÃÂ£149bn) in damages from tobacco firms.\n \n Earlier this month, a three-judge appeal court panel re...",
+                    "score": 30.982182030676526,
                     "matched_fields": [
                         "title",
                         "content",
@@ -2000,7 +2068,55 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01536250114440918,
+                        "search_time_s": 0.014849662780761719,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "406",
+                    "title": "Scots smoking ban details set out",
+                    "snippet": "Smoke-free areas will save lives and improve Scotland's health, First Minister Jack McConnell has insisted.\n \n He told the Scottish Parliament on Wednesday that a \"comprehensive ban\" on smoking in pub...",
+                    "score": 29.767577184805276,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.014849662780761719,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "2127",
+                    "title": "Tobacco giants hail court ruling",
+                    "snippet": "US tobacco companies have welcomed an appeal court's decision to reject the government's $280bn (ÃÂ£155bn) claim for alleged deceit about smoking dangers.\n \n Tobacco stocks rose sharply on Wall Stree...",
+                    "score": 26.327577871132434,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.014849662780761719,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "1782",
+                    "title": "Court rejects $280bn tobacco case",
+                    "snippet": "A US government claim accusing the country's biggest tobacco companies of covering up the effects of smoking has been thrown out by an appeal court.\n \n The demand for $280bn (ÃÂ£155bn) - filed by the...",
+                    "score": 20.044015836833815,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.014849662780761719,
                         "cached": false
                     }
                 },
@@ -2008,7 +2124,7 @@
                     "id": "2191",
                     "title": "China bans new tobacco factories",
                     "snippet": "The world's biggest tobacco consumer, China, has said it will not allow any new tobacco factories to be built.\n \n China already has more than enough cigarette-making capacity, according to a spokesman...",
-                    "score": 30.341250639546175,
+                    "score": 19.088781700870232,
                     "matched_fields": [
                         "title",
                         "content",
@@ -2016,66 +2132,23 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01536250114440918,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "940",
-                    "title": "Net regulation 'still possible'",
-                    "snippet": "The blurring of boundaries between TV and the internet raises questions of regulation, watchdog Ofcom has said.\n \n Content on TV and the internet is set to move closer this year as TV-quality video on...",
-                    "score": 24.77854504362886,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Density",
-                        "search_time_s": 0.01536250114440918,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "1839",
-                    "title": "Cannabis hopes for drug firm",
-                    "snippet": "A prescription cannabis drug made by UK biotech firm GW Pharmaceuticals is set to be approved in Canada.\n \n The drug is used to treat the central nervous system and alleviate the symptoms of multiple ...",
-                    "score": 22.06259552487412,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Density",
-                        "search_time_s": 0.01536250114440918,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "515",
-                    "title": "Scotland 18-10 Italy",
-                    "snippet": "Six Chris Paterson penalties gave Scotland victory in a dour but clinical encounter against Italy at Murrayfield.\n \n Coach Matt Williams' side were outmuscled and outplayed in a tense first half but l...",
-                    "score": 21.407625026640375,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Density",
-                        "search_time_s": 0.01536250114440918,
+                        "search_time_s": 0.014849662780761719,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 15.578985214233398,
+                "response_time_ms": 15.079259872436523,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                2191,
+                2160,
+                2127,
+                1782
+            ]
         }
     },
     {
@@ -2132,7 +2205,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.013690948486328125,
+                        "search_time_s": 0.01336216926574707,
                         "cached": false
                     }
                 },
@@ -2146,7 +2219,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.013690948486328125,
+                        "search_time_s": 0.01336216926574707,
                         "cached": false
                     }
                 },
@@ -2160,7 +2233,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.013690948486328125,
+                        "search_time_s": 0.01336216926574707,
                         "cached": false
                     }
                 },
@@ -2174,7 +2247,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.013690948486328125,
+                        "search_time_s": 0.01336216926574707,
                         "cached": false
                     }
                 },
@@ -2188,18 +2261,26 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.013690948486328125,
+                        "search_time_s": 0.01336216926574707,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 13.88692855834961,
+                "response_time_ms": 13.544797897338867,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                1,
+                399,
+                407,
+                411,
+                747,
+                1833,
+                2095
+            ]
         }
     },
     {
@@ -2256,7 +2337,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017484426498413086,
+                        "search_time_s": 0.017922163009643555,
                         "cached": false
                     }
                 },
@@ -2272,7 +2353,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017484426498413086,
+                        "search_time_s": 0.017922163009643555,
                         "cached": false
                     }
                 },
@@ -2288,7 +2369,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017484426498413086,
+                        "search_time_s": 0.017922163009643555,
                         "cached": false
                     }
                 },
@@ -2304,7 +2385,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017484426498413086,
+                        "search_time_s": 0.017922163009643555,
                         "cached": false
                     }
                 },
@@ -2320,18 +2401,22 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.017484426498413086,
+                        "search_time_s": 0.017922163009643555,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 17.847537994384766,
+                "response_time_ms": 18.130779266357422,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                0,
+                2113,
+                1767
+            ]
         }
     },
     {
@@ -2386,7 +2471,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01330423355102539,
+                        "search_time_s": 0.013570547103881836,
                         "cached": false
                     }
                 },
@@ -2400,7 +2485,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01330423355102539,
+                        "search_time_s": 0.013570547103881836,
                         "cached": false
                     }
                 },
@@ -2414,7 +2499,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01330423355102539,
+                        "search_time_s": 0.013570547103881836,
                         "cached": false
                     }
                 },
@@ -2428,7 +2513,7 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01330423355102539,
+                        "search_time_s": 0.013570547103881836,
                         "cached": false
                     }
                 },
@@ -2442,37 +2527,43 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.01330423355102539,
+                        "search_time_s": 0.013570547103881836,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 13.588666915893555,
+                "response_time_ms": 13.747215270996094,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                975,
+                1112,
+                1430,
+                1433,
+                1455
+            ]
         }
     },
     {
         "data": {
-            "query": "Internet privacy and security",
+            "query": "Internet privacy security",
             "processed_info": {
-                "original_query": "Internet privacy and security",
-                "processed_query": "Internet privacy AND security",
-                "optimized_query": "Internet privacy AND security",
-                "whoosh_query": "((title:internet OR text:internet OR combined_text:internet) AND (title:privaci OR text:privaci OR combined_text:privaci) AND (title:secur OR text:secur OR combined_text:secur))",
-                "query_type": "boolean",
+                "original_query": "Internet privacy security",
+                "processed_query": "Internet privacy security",
+                "optimized_query": "internet privacy security",
+                "whoosh_query": "(title:internet OR text:internet OR combined_text:internet OR title:privaci OR text:privaci OR combined_text:privaci OR title:secur OR text:secur OR combined_text:secur)",
+                "query_type": "simple",
                 "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
+                    "type": "simple",
+                    "word_count": 3,
+                    "words": [
+                        "Internet",
+                        "privacy",
+                        "security"
+                    ]
                 },
                 "components": {
                     "terms": [
@@ -2482,9 +2573,7 @@
                     ],
                     "phrases": [],
                     "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
+                    "operators": [],
                     "wildcards": []
                 },
                 "validation": {
@@ -2494,7 +2583,7 @@
                 },
                 "suggestions": []
             },
-            "total_results": 1,
+            "total_results": 5,
             "results": [
                 {
                     "id": "990",
@@ -2508,149 +2597,86 @@
                     ],
                     "metadata": {
                         "source": "Whoosh Density",
-                        "search_time_s": 0.013888359069824219,
+                        "search_time_s": 0.016254186630249023,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "1083",
+                    "title": "Security scares spark browser fix",
+                    "snippet": "Microsoft is working on a new version of its Internet Explorer web browser.\n \n The revamp has been prompted by Microsoft's growing concern with security as well as increased competition from rival bro...",
+                    "score": 29.227669478750965,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.016254186630249023,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "951",
+                    "title": "Security warning over 'FBI virus'",
+                    "snippet": "The US Federal Bureau of Investigation is warning that a computer virus is being spread via e-mails that purport to be from the FBI.\n \n The e-mails show that they have come from an fbi.gov address and...",
+                    "score": 27.35336420108198,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.016254186630249023,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "1038",
+                    "title": "Security warning over 'FBI virus'",
+                    "snippet": "The US Federal Bureau of Investigation is warning that a computer virus is being spread via e-mails that purport to be from the FBI.\n \n The e-mails show that they have come from an fbi.gov address and...",
+                    "score": 27.35336420108198,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.016254186630249023,
+                        "cached": false
+                    }
+                },
+                {
+                    "id": "1226",
+                    "title": "Software watching while you work",
+                    "snippet": "Software that can not only monitor every keystroke and action performed at a PC but also be used as legally binding evidence of wrong-doing has been unveiled.\n \n Worries about cyber-crime and sabotage...",
+                    "score": 25.734918333766,
+                    "matched_fields": [
+                        "title",
+                        "content",
+                        "label"
+                    ],
+                    "metadata": {
+                        "source": "Whoosh Density",
+                        "search_time_s": 0.016254186630249023,
                         "cached": false
                     }
                 }
             ],
             "metrics": {
-                "response_time_ms": 18.158674240112305,
+                "response_time_ms": 16.496896743774414,
                 "engine_used": "Whoosh (Density)"
             },
             "status": "success",
             "errors": [],
-            "relevant_docs": []
-        }
-    },
-    {
-        "data": {
-            "query": "Election campaigns and government politics",
-            "processed_info": {
-                "original_query": "Election campaigns and government politics",
-                "processed_query": "Election campaigns AND government politics",
-                "optimized_query": "Election campaigns AND government politics",
-                "whoosh_query": "((title:elect OR text:elect OR combined_text:elect) AND (title:campaign OR text:campaign OR combined_text:campaign) AND (title:govern OR text:govern OR combined_text:govern) AND (title:polit OR text:polit OR combined_text:polit))",
-                "query_type": "boolean",
-                "query_info": {
-                    "type": "boolean",
-                    "operators": [
-                        "and"
-                    ],
-                    "has_and": true,
-                    "has_or": false,
-                    "has_not": false
-                },
-                "components": {
-                    "terms": [
-                        "Election",
-                        "campaigns",
-                        "government",
-                        "politics"
-                    ],
-                    "phrases": [],
-                    "field_queries": [],
-                    "operators": [
-                        "AND"
-                    ],
-                    "wildcards": []
-                },
-                "validation": {
-                    "is_valid": true,
-                    "errors": [],
-                    "warnings": []
-                },
-                "suggestions": []
-            },
-            "total_results": 5,
-            "results": [
-                {
-                    "id": "121",
-                    "title": "Kennedy predicts bigger turnout",
-                    "snippet": "Voters' \"pent up passion\" could confound predictions of a low turnout in the coming general election, Charles Kennedy has said.\n \n The Liberal Democrat leader predicted concerns over Iraq and other in...",
-                    "score": 39.140747975468,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Density",
-                        "search_time_s": 0.017937183380126953,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "85",
-                    "title": "What the election should really be about?",
-                    "snippet": "A general election is the best chance most pressure groups get to make a real impact on government policy. Here is how six leading lobbies plan to make sure their cause is being debated ahead of an ex...",
-                    "score": 35.72610004611447,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Density",
-                        "search_time_s": 0.017937183380126953,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "4",
-                    "title": "Kilroy names election seat target",
-                    "snippet": "Ex-chat show host Robert Kilroy-Silk is to contest the Derbyshire seat of Erewash at the next general election.\n \n Labour's Elizabeth Blackman won the seat in 1997 and has a 6,932 majority. She says s...",
-                    "score": 35.65758701749707,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Density",
-                        "search_time_s": 0.017937183380126953,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "129",
-                    "title": "Mandelson warning to BBC",
-                    "snippet": "The BBC should steer away from \"demonising\" ex-Downing Street media chief Alastair Campbell, Peter Mandelson has said.\n \n The European commissioner and former Labour minister was speaking amid claims ...",
-                    "score": 33.660551427072164,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Density",
-                        "search_time_s": 0.017937183380126953,
-                        "cached": false
-                    }
-                },
-                {
-                    "id": "49",
-                    "title": "Brown in appeal for Labour unity",
-                    "snippet": "Gordon Brown has made an appeal for unity after reports claimed Mr Blair went back on a pledge to stand down before the next general election.\n \n The chancellor would not comment on the reports, but i...",
-                    "score": 31.798722113486953,
-                    "matched_fields": [
-                        "title",
-                        "content",
-                        "label"
-                    ],
-                    "metadata": {
-                        "source": "Whoosh Density",
-                        "search_time_s": 0.017937183380126953,
-                        "cached": false
-                    }
-                }
-            ],
-            "metrics": {
-                "response_time_ms": 20.671606063842773,
-                "engine_used": "Whoosh (Density)"
-            },
-            "status": "success",
-            "errors": [],
-            "relevant_docs": []
+            "relevant_docs": [
+                990,
+                1083,
+                1226
+            ]
         }
     }
 ]
